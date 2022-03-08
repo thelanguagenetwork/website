@@ -10,15 +10,15 @@ export default function LearningPrices(props) {
         switch (Opt) {
             case 1:
                 //put prices for 1:1
-                return <PricingTable A1price={props.one_one.a1_discounted} A1priceOG={props.one_one.a1_initial} A2price={props.one_one.a2_discounted} A2priceOG={props.one_one.a1_initial} B1price={props.one_one.a1_discounted} B1priceOG={props.one_one.a1_initial} B2price={props.one_one.a1_discounted} B2priceOG={props.one_one.a1_initial}/>;
+                return <PricingTable A1price={props.one_one.a1_discounted} A1priceOG={props.one_one.a1_initial} A2price={props.one_one.a2_discounted} A2priceOG={props.one_one.a2_initial} B1price={props.one_one.b1_discounted} B1priceOG={props.one_one.b1_initial} B2price={props.one_one.b2_discounted} B2priceOG={props.one_one.b2_initial}/>;
                 break;
             case 2:
                 //put prices for 1:2
-                return <PricingTable A1price={props.one_two.a1_discounted} A1priceOG={props.one_two.a1_initial} A2price={props.one_two.a2_discounted} A2priceOG={props.one_two.a1_initial} B1price={props.one_two.a1_discounted} B1priceOG={props.one_two.a1_initial} B2price={props.one_two.a1_discounted} B2priceOG={props.one_two.a1_initial} />;
+                return <PricingTable A1price={props.one_two.a1_discounted} A1priceOG={props.one_two.a1_initial} A2price={props.one_two.a2_discounted} A2priceOG={props.one_two.a2_initial} B1price={props.one_two.b1_discounted} B1priceOG={props.one_two.b1_initial} B2price={props.one_two.b2_discounted} B2priceOG={props.one_two.b2_initial} />;
                 break;  
             case 3:
                 //put prices for 1:4
-                return <PricingTable A1price={props.one_four.a1_discounted} A1priceOG={props.one_four.a1_initial} A2price={props.one_four.a2_discounted} A2priceOG={props.one_four.a1_initial} B1price={props.one_four.a1_discounted} B1priceOG={props.one_four.a1_initial} B2price={props.one_four.a1_discounted} B2priceOG={props.one_four.a1_initial} />;
+                return <PricingTable A1price={props.one_four.a1_discounted} A1priceOG={props.one_four.a1_initial} A2price={props.one_four.a2_discounted} A2priceOG={props.one_four.a2_initial} B1price={props.one_four.b1_discounted} B1priceOG={props.one_four.b1_initial} B2price={props.one_four.b2_discounted} B2priceOG={props.one_four.b2_initial} />;
                 break;
             default:
                 break;
