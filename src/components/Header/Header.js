@@ -160,12 +160,12 @@ class Header extends react.Component {
         <div class="menu-button">
           <div class="social-menu">
             <ul>
-              <li><a href="https://github.com/sanketbodke" target="blank"><i class="fab flex items-center h-full"> <FaFacebookF className='w-full' /></i></a></li>
-              <li><a href="https://www.instagram.com/imsanketbodke/" target="blank"><i class="fab flex items-center h-full"> <FaInstagram className='w-full' /></i></a></li>
-              <li><a href="https://www.linkedin.com/in/sanket-bodake-995b5b205/" target="blank"><i class="fab flex items-center justify-center h-full"> <FaLinkedinIn className='w-8/12' /></i></a></li>
-              <li><a href="https://codepen.io/sanketbodke"><i class="fab flex items-center h-full"> <FiMail className='w-full' /></i></a></li>
-              <li><a href="https://codepen.io/sanketbodke"><i class="fab flex items-center h-full"> <FaPinterestP className='w-full' /></i></a></li>
-              <li><a href="https://codepen.io/sanketbodke"><i class="fab flex items-center h-full"> <FaYoutube className='w-full' /></i></a></li>
+              <li><a href="#" target="blank"><i class="fab flex items-center h-full"> <FaFacebookF className='w-full' /></i></a></li>
+              <li><a href="#" target="blank"><i class="fab flex items-center h-full"> <FaInstagram className='w-full' /></i></a></li>
+              <li><a href="#" target="blank"><i class="fab flex items-center justify-center h-full"> <FaLinkedinIn className='w-8/12' /></i></a></li>
+              <li><a href="#"><i class="fab flex items-center h-full"> <FiMail className='w-full' /></i></a></li>
+              <li><a href="#"><i class="fab flex items-center h-full"> <FaPinterestP className='w-full' /></i></a></li>
+              <li><a href="#"><i class="fab flex items-center h-full"> <FaYoutube className='w-full' /></i></a></li>
             </ul>
           </div>
         </div>
