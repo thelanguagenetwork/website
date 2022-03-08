@@ -131,10 +131,10 @@ class Header extends react.Component {
                 <IoIosArrowDown />
 
                 <div id='curriList' >
-                  <a href='/KidsCourses'>
+                  {/* <a href='/KidsCourses'>
                     <img src="/images/Adolscents@300x.png" alt="img" />
                     <span>KIDS & ADOLESCENTS COURSES</span>
-                  </a>
+                  </a> */}
 
                   <a href='/AdultsCourses'>
                     <img src="/images/adults@300x.png" alt="img" />
