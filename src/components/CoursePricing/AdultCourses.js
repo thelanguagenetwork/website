@@ -11,7 +11,10 @@ export default function AdultsCourses() {
         a2_discounted : 333,
         a2_initial : 333,
 
-        b1_discounted : 444,
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 444,
         b2_initial : 333,
     }
     const English_1_2 = {
@@ -20,8 +23,11 @@ export default function AdultsCourses() {
 
         a2_discounted : 333,
         a2_initial : 333,
-        
-        b1_discounted : 444,
+
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 444,
         b2_initial : 333,
     }
     const English_1_4 = {
@@ -31,8 +37,11 @@ export default function AdultsCourses() {
         a2_discounted : 333,
         a2_initial : 333,
         
-        b1_discounted : 444,
-        b2_initial : 333,
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 944,
+        b2_initial : 999,
     }
 
 
