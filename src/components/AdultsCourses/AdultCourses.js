@@ -3,15 +3,45 @@ import './Courses.css';
 import { useState } from 'react';
 import LearningPrices from './LearningPrices';
 
-export default function AdultsCourses(props) {
-    const English = {
-        
+export default function AdultsCourses() {
+    const English_1_1 = {
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+
+        b1_discounted : 444,
+        b2_initial : 333,
     }
+    const English_1_2 = {
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+        
+        b1_discounted : 444,
+        b2_initial : 333,
+    }
+    const English_1_4 = {
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+        
+        b1_discounted : 444,
+        b2_initial : 333,
+    }
+
+
+
     const [language, setLanguage] = useState('English')
     const LanguageSec = () => {
         switch (language) {
             case 'English':
-                return (<LearningPrices price={'499'}/>)
+                return (<LearningPrices one_one={English_1_1} one_two={English_1_2} one_four={English_1_4}/>)
                 break;
             case 'French':
                 return (<LearningPrices />)
