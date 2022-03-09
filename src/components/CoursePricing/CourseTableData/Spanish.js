@@ -1,4 +1,4 @@
-export const English_1_1 = [
+export const Spanish_1_1 = [
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
         lvlName: 'A1',
@@ -52,7 +52,7 @@ export const English_1_1 = [
     }
 ]
 
-export const English_1_2 = [
+export const Spanish_1_2 = [
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
         lvlName: 'A1',
@@ -84,7 +84,7 @@ export const English_1_2 = [
 ]
 
 
-export const English_1_4 = [
+export const Spanish_1_4 = [
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
         lvlName: 'A1',
