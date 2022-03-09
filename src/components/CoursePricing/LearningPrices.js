@@ -10,15 +10,15 @@ export default function LearningPrices(props) {
         switch (Opt) {
             case 1:
                 //put prices for 1:1
-                return <PricingTable A1price={props.one_one.a1_discounted} A1priceOG={props.one_one.a1_initial} A2price={props.one_one.a2_discounted} A2priceOG={props.one_one.a2_initial} B1price={props.one_one.b1_discounted} B1priceOG={props.one_one.b1_initial} B2price={props.one_one.b2_discounted} B2priceOG={props.one_one.b2_initial} A1Content={props.one_one.a1_content} A2Content={props.one_one.a2_content} B1Content={props.one_one.b1_content} B2Content={props.one_one.b2_content}/>;
+                return <PricingTable TableData={props.one_one}/>;
                 break;
             case 2:
                 //put prices for 1:2
-                return <PricingTable A1price={props.one_two.a1_discounted} A1priceOG={props.one_two.a1_initial} A2price={props.one_two.a2_discounted} A2priceOG={props.one_two.a2_initial} B1price={props.one_two.b1_discounted} B1priceOG={props.one_two.b1_initial} B2price={props.one_two.b2_discounted} B2priceOG={props.one_two.b2_initial} A1Content={props.one_two.a1_content} A2Content={props.one_two.a2_content} B1Content={props.one_two.b1_content} B2Content={props.one_two.b2_content}/>;
+                return <PricingTable TableData={props.one_two}/>;
                 break;  
             case 3:
                 //put prices for 1:4
-                return <PricingTable A1price={props.one_four.a1_discounted} A1priceOG={props.one_four.a1_initial} A2price={props.one_four.a2_discounted} A2priceOG={props.one_four.a2_initial} B1price={props.one_four.b1_discounted} B1priceOG={props.one_four.b1_initial} B2price={props.one_four.b2_discounted} B2priceOG={props.one_four.b2_initial} A1Content={props.one_four.a1_content} A2Content={props.one_four.a2_content} B1Content={props.one_four.b1_content} B2Content={props.one_four.b2_content}/>;
+                return <PricingTable TableData={props.one_four}/>;
                 break;
             default:
                 break;
