@@ -11,7 +11,7 @@ export default function PricingTable(props) {
                         <i class="fa fa-adjust"></i>
                         <div class="price-value flex flex-col"> ₹{props.A1price} <span className='text-[1.4rem] line-through'>₹{props.A1priceOG}</span> <span class="month">per month</span> </div>
                     </div>
-                    <h3 class="heading">Batch A1</h3>
+                    <h3 class="heading">Level A1</h3>
                     <div class="pricing-content">
                         <ul>
                             {
@@ -39,7 +39,7 @@ export default function PricingTable(props) {
                         <i class="fa fa-briefcase"></i>
                         <div class="price-value flex flex-col"> ₹{props.A2price} <span className='text-[1.4rem] line-through'>₹{props.A2priceOG}</span> <span class="month">per month</span> </div>
                     </div>
-                    <h3 class="heading">Batch A2</h3>
+                    <h3 class="heading">Level A2</h3>
                     <div class="pricing-content">
                         <ul>
                         {
@@ -65,7 +65,7 @@ export default function PricingTable(props) {
                         <i class="fa fa-book"></i>
                         <div class="price-value flex flex-col"> ₹{props.B1price} <span className='text-[1.4rem] line-through'>₹{props.B1priceOG}</span> <span class="month">per month</span> </div>
                     </div>  
-                    <h3 class="heading">Batch B1</h3>
+                    <h3 class="heading">Level B1</h3>
                     <div class="pricing-content">
                         <ul>
                         {
@@ -91,7 +91,7 @@ export default function PricingTable(props) {
                         <i class="fa fa-cube"></i>
                         <div class="price-value flex flex-col"> ₹{props.B2price}<span className='text-[1.4rem] line-through'>₹{props.B2priceOG}</span> <span class="month">per month</span> </div>
                     </div>
-                    <h3 class="heading">Batch B2</h3>
+                    <h3 class="heading">Level B2</h3>
                     <div class="pricing-content">
                         <ul>
                         {
