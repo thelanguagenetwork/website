@@ -65,7 +65,7 @@ export default function Footer() {
                                     <ul>
                                         <li><a href="/IntoCourses">Introductory Courses</a></li>
                                         <li><a href="/english-course-adults">English Courses</a></li>
-                                        <li><a href="#">French Courses</a></li>
+                                        <li><a href="/french-course-adults">French Courses</a></li>
                                         <li><a href="#">Spanish Courses</a></li>
                                         <li><a href="#">German Courses</a></li>
                                         <li><a href="#">Mandarin Courses</a></li>
