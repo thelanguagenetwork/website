@@ -4,15 +4,14 @@ import { useState } from 'react';
 import LearningPrices from './LearningPrices';
 import {English_1_1, English_1_2, English_1_4} from './CourseTableData/English.js'
 import {French_1_1, French_1_2, French_1_4} from './CourseTableData/French'
+import {Spanish_1_1, Spanish_1_2, Spanish_1_4} from './CourseTableData/Spanish'
+import {German_1_1, German_1_2, German_1_4} from './CourseTableData/German'
+import {Mandarin_1_1, Mandarin_1_2, Mandarin_1_4} from './CourseTableData/Mandarin'
+import {Japanese_1_1, Japanese_1_2, Japanese_1_4} from './CourseTableData/Japanese'
+import {Korean_1_1, Korean_1_2, Korean_1_4} from './CourseTableData/Korean'
 
 
-export default function AdultsCourses() {
-
-    
-    
-
-
-        
+export default function AdultsCourses() {        
 
     const [language, setLanguage] = useState('English')
     const LanguageSec = () => {
@@ -23,21 +22,21 @@ export default function AdultsCourses() {
             case 'French':
                 return (<LearningPrices one_one={French_1_1} one_two={French_1_2} one_four={French_1_4}/>)
                 break;
-            // case 'Spanish':
-            //     return (<LearningPrices one_one={Spanish_1_1} one_two={Spanish_1_2} one_four={Spanish_1_4}/>)
-            //     break;
-            // case 'German':
-            //     return (<LearningPrices one_one={German_1_1} one_two={German_1_2} one_four={German_1_4}/>)
-            //     break;
-            // case 'Mandarin':
-            //     return (<LearningPrices one_one={Mandarin_1_1} one_two={Mandarin_1_2} one_four={Mandarin_1_4}/>)
-            //     break;
-            // case 'Japanese':
-            //     return (<LearningPrices one_one={Japanese_1_1} one_two={Japanese_1_2} one_four={Japanese_1_4}/>)
-            //     break;
-            // case 'Korean':
-            //     return (<LearningPrices one_one={Korean_1_1} one_two={Korean_1_2} one_four={Korean_1_4}/>)
-            //     break;
+            case 'Spanish':
+                return (<LearningPrices one_one={Spanish_1_1} one_two={Spanish_1_2} one_four={Spanish_1_4}/>)
+                break;
+            case 'German':
+                return (<LearningPrices one_one={German_1_1} one_two={German_1_2} one_four={German_1_4}/>)
+                break;
+            case 'Mandarin':
+                return (<LearningPrices one_one={Mandarin_1_1} one_two={Mandarin_1_2} one_four={Mandarin_1_4}/>)
+                break;
+            case 'Japanese':
+                return (<LearningPrices one_one={Japanese_1_1} one_two={Japanese_1_2} one_four={Japanese_1_4}/>)
+                break;
+            case 'Korean':
+                return (<LearningPrices one_one={Korean_1_1} one_two={Korean_1_2} one_four={Korean_1_4}/>)
+                break;
 
             default:
                 break;

@@ -35,7 +35,7 @@ export default function PricingTable(props) {
                                 </ul>
                             </div>
                             <div class="pricingTable-signup">
-                                <a href="#">Buy Now</a>
+                                <a href={data.Link}>Buy Now</a>
                             </div>
                         </div>
                     </div>
