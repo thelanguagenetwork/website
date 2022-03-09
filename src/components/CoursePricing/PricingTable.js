@@ -14,11 +14,17 @@ export default function PricingTable(props) {
                     <h3 class="heading">Batch A1</h3>
                     <div class="pricing-content">
                         <ul>
-                            <li><b>1.</b> Content 1</li>
-                            <li><b>2.</b> Some Content 2</li>
-                            <li><b>3.</b> Other Content 3</li>
-                            <li><b>4.</b> More Content 4</li>
-                            <li><b>5.</b> Content 5</li>
+                            {
+                                props.A1Content.map((cont,i) => {
+                                    return(
+
+                                        
+                                        <li><b>{i+1}.</b> {cont}</li>
+                                        )
+                                        
+                                })
+                            }
+                            
                         </ul>
                     </div>
                     <div class="pricingTable-signup">
@@ -36,11 +42,16 @@ export default function PricingTable(props) {
                     <h3 class="heading">Batch A2</h3>
                     <div class="pricing-content">
                         <ul>
-                            <li><b>1.</b> Content 1</li>
-                            <li><b>2.</b> Some Content 2</li>
-                            <li><b>3.</b> Other Content 3</li>
-                            <li><b>4.</b> More Content 4</li>
-                            <li><b>5.</b> Content 5</li>
+                        {
+                                props.A2Content.map((cont,i) => {
+                                    return(
+
+                                        
+                                        <li><b>{i+1}.</b> {cont}</li>
+                                        )
+                                        
+                                })
+                            }
                         </ul>
                     </div>
                     <div class="pricingTable-signup">
@@ -51,17 +62,22 @@ export default function PricingTable(props) {
             <div class="col-md-3 col-sm-6">
                 <div class="pricingTable blue">
                     <div class="pricingTable-header">
-                        <i class="fa fa-diamond"></i>
+                        <i class="fa fa-book"></i>
                         <div class="price-value flex flex-col"> ₹{props.B1price} <span className='text-[1.4rem] line-through'>₹{props.B1priceOG}</span> <span class="month">per month</span> </div>
-                    </div>
+                    </div>  
                     <h3 class="heading">Batch B1</h3>
                     <div class="pricing-content">
                         <ul>
-                            <li><b>1.</b> Content 1</li>
-                            <li><b>2.</b> Some Content 2</li>
-                            <li><b>3.</b> Other Content 3</li>
-                            <li><b>4.</b> More Content 4</li>
-                            <li><b>5.</b> Content 5</li>
+                        {
+                                props.B1Content.map((cont,i) => {
+                                    return(
+
+                                        
+                                        <li><b>{i+1}.</b> {cont}</li>
+                                        )
+                                        
+                                })
+                            }
                         </ul>
                     </div>
                     <div class="pricingTable-signup">
@@ -78,11 +94,16 @@ export default function PricingTable(props) {
                     <h3 class="heading">Batch B2</h3>
                     <div class="pricing-content">
                         <ul>
-                            <li><b>1.</b> Content 1</li>
-                            <li><b>2.</b> Some Content 2</li>
-                            <li><b>3.</b> Other Content 3</li>
-                            <li><b>4.</b> More Content 4</li>
-                            <li><b>5.</b> Content 5</li>
+                        {
+                                props.B2Content.map((cont,i) => {
+                                    return(
+
+                                        
+                                        <li><b>{i+1}.</b> {cont}</li>
+                                        )
+                                        
+                                })
+                            }
                         </ul>
                     </div>
                     <div class="pricingTable-signup">

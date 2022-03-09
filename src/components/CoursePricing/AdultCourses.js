@@ -5,6 +5,11 @@ import LearningPrices from './LearningPrices';
 
 export default function AdultsCourses() {
     const English_1_1 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+
         a1_discounted : 444,
         a1_initial : 333,
 
@@ -18,6 +23,11 @@ export default function AdultsCourses() {
         b2_initial : 333,
     }
     const English_1_2 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+
         a1_discounted : 444,
         a1_initial : 333,
 
@@ -31,6 +41,11 @@ export default function AdultsCourses() {
         b2_initial : 333,
     }
     const English_1_4 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        
         a1_discounted : 444,
         a1_initial : 333,
 
@@ -44,8 +59,335 @@ export default function AdultsCourses() {
         b2_initial : 999,
     }
 
+    const French_1_1 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        
+        a1_discounted : 444,
+        a1_initial : 333,
 
+        a2_discounted : 333,
+        a2_initial : 333,
 
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 444,
+        b2_initial : 333,
+    }
+    const French_1_2 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 444,
+        b2_initial : 333,
+    }
+    const French_1_4 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+        
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 944,
+        b2_initial : 999,
+    }
+
+    const Spanish_1_1 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 444,
+        b2_initial : 333,
+    }
+    const Spanish_1_2 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 444,
+        b2_initial : 333,
+    }
+    const Spanish_1_4 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+        
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 944,
+        b2_initial : 999,
+    }
+
+    const German_1_1 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 444,
+        b2_initial : 333,
+    }
+    const German_1_2 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 444,
+        b2_initial : 333,
+    }
+    const German_1_4 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+        
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 944,
+        b2_initial : 999,
+    }
+
+    const Mandarin_1_1 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 444,
+        b2_initial : 333,
+    }
+    const Mandarin_1_2 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 444,
+        b2_initial : 333,
+    }
+    const Mandarin_1_4 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+        
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 944,
+        b2_initial : 999,
+    }
+
+    const Japanese_1_1 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 444,
+        b2_initial : 333,
+    }
+    const Japanese_1_2 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 444,
+        b2_initial : 333,
+    }
+    const Japanese_1_4 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+        
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 944,
+        b2_initial : 999,
+    }
+
+    const Korean_1_1 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 444,
+        b2_initial : 333,
+    }
+    const Korean_1_2 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 444,
+        b2_initial : 333,
+    }
+    const Korean_1_4 = {
+        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        
+        a1_discounted : 444,
+        a1_initial : 333,
+
+        a2_discounted : 333,
+        a2_initial : 333,
+        
+        b1_discounted : 944,
+        b1_initial : 933,
+
+        b2_discounted : 944,
+        b2_initial : 999,
+    }
     const [language, setLanguage] = useState('English')
     const LanguageSec = () => {
         switch (language) {
@@ -53,22 +395,22 @@ export default function AdultsCourses() {
                 return (<LearningPrices one_one={English_1_1} one_two={English_1_2} one_four={English_1_4}/>)
                 break;
             case 'French':
-                return (<LearningPrices />)
+                return (<LearningPrices one_one={French_1_1} one_two={French_1_2} one_four={French_1_4}/>)
                 break;
             case 'Spanish':
-                return (<LearningPrices />)
+                return (<LearningPrices one_one={Spanish_1_1} one_two={Spanish_1_2} one_four={Spanish_1_4}/>)
                 break;
             case 'German':
-                return (<LearningPrices />)
+                return (<LearningPrices one_one={German_1_1} one_two={German_1_2} one_four={German_1_4}/>)
                 break;
             case 'Mandarin':
-                return (<LearningPrices />)
+                return (<LearningPrices one_one={Mandarin_1_1} one_two={Mandarin_1_2} one_four={Mandarin_1_4}/>)
                 break;
             case 'Japanese':
-                return (<LearningPrices />)
+                return (<LearningPrices one_one={Japanese_1_1} one_two={Japanese_1_2} one_four={Japanese_1_4}/>)
                 break;
             case 'Korean':
-                return (<LearningPrices />)
+                return (<LearningPrices one_one={Korean_1_1} one_two={Korean_1_2} one_four={Korean_1_4}/>)
                 break;
 
             default:
@@ -77,7 +419,7 @@ export default function AdultsCourses() {
     }
 
     return <div>
-        <div className="Home-container-2 px-5 fadeIN" style={{ width: '100%' }}>
+        <div className="Home-container-2 px-5 fadeIN" style={{ width: '100%', marginTop: 0, paddingTop: 0}}>
             <h2>A Fun, Proven method for Learning</h2>
             <h1 className='mb-12'>Choose a language</h1>
             <div className='Home-container-2-imgs'>
