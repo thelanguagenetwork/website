@@ -9,6 +9,8 @@ import AdultsCourses from './components/CoursePricing/AdultCourses';
 import IntroCourse from './components/Footer/LangForAdults/IntroCourse';
 import Earth from './components/Earth/Earth';
 import AdultsEnglish from './components/Footer/LangForAdults/English';
+// import Blog from './components/Footer/blog/Blog';
+
 
 function App() {
   return (
@@ -22,7 +24,7 @@ function App() {
           <Route exact path='/AdultsCourses' element={<AdultsCourses />} />
           <Route exact path='/IntoCourses' element={<IntroCourse />} />
           <Route exact path='/english-course-adults' element={<AdultsEnglish />} />
-          <Route exact path='/Earth' element={<Earth />} />
+          {/* <Route exact path='/Blog' element={<Blog/>} /> */}
         </Routes>
         <Footer />
       </Router>
