@@ -162,7 +162,7 @@ class Header extends react.Component {
             <ul>
               <li><a href="https://www.facebook.com/teamlanguagenetwork" target="blank"><i class="fab flex items-center h-full"> <FaFacebookF className='w-full' /></i></a></li>
               <li><a href="https://www.instagram.com/thelanguagenetwork/" target="blank"><i class="fab flex items-center h-full"> <FaInstagram className='w-full' /></i></a></li>
-              <li><a href="https://www.linkedin.com/company/69365799/" target="blank"><i class="fab flex items-center justify-center h-full"> <FaLinkedinIn className='w-8/12' /></i></a></li>
+              <li><a href="" target="blank"><i class="fab flex items-center justify-center h-full"> <FaLinkedinIn className='w-8/12' /></i></a></li>
               <li><a href="info@thelanguagenetwork.co"><i class="fab flex items-center h-full"> <FiMail className='w-full' /></i></a></li>
               <li><a href="https://in.pinterest.com/teamlanguagenetwork/"><i class="fab flex items-center h-full"> <FaPinterestP className='w-full' /></i></a></li>
               <li><a href="https://www.youtube.com/channel/UC2pMpIkwz5AzM-SRMX9rjLQ"><i class="fab flex items-center h-full"> <FaYoutube className='w-full' /></i></a></li>
