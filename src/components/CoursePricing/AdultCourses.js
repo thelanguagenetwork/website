@@ -225,10 +225,10 @@ export default function AdultsCourses() {
     }
 
     const Mandarin_1_1 = {
-        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a1_content: ['30 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        a2_content: ['30 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        b1_content: ['45 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        b2_content: ['45 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
         
         a1_discounted : 444,
         a1_initial : 333,
@@ -243,10 +243,10 @@ export default function AdultsCourses() {
         b2_initial : 333,
     }
     const Mandarin_1_2 = {
-        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a1_content: ['30 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        a2_content: ['30 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        b1_content: ['45 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        b2_content: ['45 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
         
         a1_discounted : 444,
         a1_initial : 333,
@@ -261,10 +261,10 @@ export default function AdultsCourses() {
         b2_initial : 333,
     }
     const Mandarin_1_4 = {
-        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a1_content: ['30 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        a2_content: ['30 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        b1_content: ['45 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        b2_content: ['45 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
         
         a1_discounted : 444,
         a1_initial : 333,
@@ -280,11 +280,11 @@ export default function AdultsCourses() {
     }
 
     const Japanese_1_1 = {
-        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        
+        a1_content: ['120 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        a2_content: ['120 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        b1_content: ['120 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        b2_content: ['140 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+       
         a1_discounted : 444,
         a1_initial : 333,
 
@@ -298,11 +298,11 @@ export default function AdultsCourses() {
         b2_initial : 333,
     }
     const Japanese_1_2 = {
-        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        
+        a1_content: ['120 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        a2_content: ['120 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        b1_content: ['120 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        b2_content: ['140 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+       
         a1_discounted : 444,
         a1_initial : 333,
 
@@ -316,11 +316,11 @@ export default function AdultsCourses() {
         b2_initial : 333,
     }
     const Japanese_1_4 = {
-        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        
+        a1_content: ['120 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        a2_content: ['120 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        b1_content: ['120 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        b2_content: ['140 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+       
         a1_discounted : 444,
         a1_initial : 333,
 
@@ -335,11 +335,11 @@ export default function AdultsCourses() {
     }
 
     const Korean_1_1 = {
-        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        
+        a1_content: ['60 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        a2_content: ['60 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        b1_content: ['75 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        b2_content: ['75 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+       
         a1_discounted : 444,
         a1_initial : 333,
 
@@ -353,10 +353,10 @@ export default function AdultsCourses() {
         b2_initial : 333,
     }
     const Korean_1_2 = {
-        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        a1_content: ['60 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        a2_content: ['60 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        b1_content: ['75 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        b2_content: ['75 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
         
         a1_discounted : 444,
         a1_initial : 333,
@@ -371,11 +371,11 @@ export default function AdultsCourses() {
         b2_initial : 333,
     }
     const Korean_1_4 = {
-        a1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        a2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        b1_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        b2_content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        
+        a1_content: ['60 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        a2_content: ['60 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        b1_content: ['75 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+        b2_content: ['75 Hours of learning','Study Material',' Exam Preparation','Assessment & Quizez','Certificate'],
+       
         a1_discounted : 444,
         a1_initial : 333,
 
