@@ -90,7 +90,7 @@ class Home extends react.Component {
                         <span>At The Language Network, we help you master a new foreign language of your choice from the comfort of your home.</span>
                         <div><button type="button" class="btn btn-info text-white" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '16px', paddingRight: '30px', paddingBottom: '16px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Book a trial</button></div>
                     </div>
-                    <div className='Home-container-1-sec-2'>
+                    <div className='Home-container-1-sec-2 rounded-l-lg'>
                     <Earth />
                     </div>
                     <div className="Home-container-10-overlay">
