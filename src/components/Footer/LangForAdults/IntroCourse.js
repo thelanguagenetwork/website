@@ -9,17 +9,18 @@ import {Link} from 'react-scroll'
 export default function IntroCourse() {
     return (
         <div>
-            <div className="IntroCourse h-[80vh]" >
+            <div className="IntroCourse h-[90vh]" >
                 <div className="bg-[rgba(0,0,0,0.3)] h-full ">
-                    <div className='h-full flex flex-col justify-center align-left w-[40rem] mx-24'>
-                        <h1 className='text-6xl leading-snug text-white font-bold'>Speak a language confidently in only 30 days</h1>
-                        <h1 className='text-md my-4 text-white font-medium'>Join our Introductory Courses</h1>
-                        <Link  to="LearnLang" spy={true} smooth={false}><button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">Choose Your Language <AiOutlineArrowDown className='self-center ml-2' /></button></Link>
+                {/* h-full flex flex-col justify-center align-left w-[40rem] */}
+                    <div className='h-full flex flex-col justify-center align-left'>
+                        <h1 className='mx-6 md:mx-10 lg:mx-12 text-4xl md:text-6xl lg:text-6xl leading-snug lg:tracking-wider md:leading-snug lg:leading-snug text-white font-bold'>Speak a language confidently in only 30 days</h1>
+                        <h1 className='mx-6 md:mx-10 lg:mx-12 md:text-md lg:text-lg my-4 text-white font-medium'>Join our Introductory Courses</h1>
+                        <Link  to="LearnLang" spy={true} smooth={false}><button type="button" class="mx-6 md:mx-10 lg:mx-12 flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">Choose Your Language <AiOutlineArrowDown className='self-center ml-2' /></button></Link>
                     </div>
                 </div>
             </div>
-            <h3 className='w-full text-4xl font-bold text-center mt-24 mb-20'>The best way to learn a language</h3>
-            <div className='flex flex-row w-full px-24'>
+            <h3 className='px-2 mt-10 text-2xl w-full md:text-3xl lg:text-4xl font-bold text-center mt-24 mb-10'>The best way to learn a language</h3>
+            <div className='lg:flex flex-row w-full px-10 md:px-16 lg:px-20'>
                 <div class="p-4 lg:w-1/3">
                     <div class="h-full flex flex-col items-center bg-white drop-shadow-md hover:drop-shadow-xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-center relative">
                         <h2 class="tracking-widest h-20 w-20 my-2"><FaRegHandshake className='w-full h-full' /></h2>
@@ -42,33 +43,34 @@ export default function IntroCourse() {
                     </div>
                 </div>
             </div>
-            <div id='LearnLang' className='h-auto bg-[#f4f8fb] w-full flex flex-row flex-wrap items-center'>
-                <div className='w-1/2 px-24 '>
-                    <h3 className='font-semibold text-5xl my-4'>Languages you can learn</h3>
+            <div id='LearnLang' className='h-auto bg-[#f4f8fb] w-full lg:flex flex-row flex-wrap items-center'>
+                <div className='py-10 lg:w-1/2 px-24 '>
+                    <h3 className='font-semibold text-3xl lg:text-5xl my-4'>Languages you can learn</h3>
                     <h1 className='my-4'>Invest a mere month of your time to learn a language.</h1>
                     <button type="button" class="flex flex-row btn btn-outline-dark hover:bg-[#13bfab] rounded-full  w-fit text-md py-3 px-4 ">Download Brochure</button>
                 </div>
-                <div className='w-1/2 flex flex-row flex-wrap'>
-                    <div className='w-24 w-1/2 lg:px-28 lg:py-10 sm:p-0 flex flex-col  items-center'>
-                        <img src="/images/French.png" alt="img" className='' />
+                <div className='lg:w-1/2 md:flex lg:flex flex-row flex-wrap justify-center algin-center'>
+                    {/* lg:px-28 lg:py-10 sm:p-10 */}
+                    <div className='p-10 md:w-1/2 flex flex-col items-center lg:my-0'>
+                        <img src="/images/French.png" alt="img" className='w-32' />
                         <h2 className='font-medium text-2xl mt-3'>French</h2>
                     </div>
-                    <div className='w-24 w-1/2 lg:px-28 lg:py-10 sm:p-0 flex flex-col  items-center'>
-                        <img src="/images/German.png" alt="img" className='' />
+                    <div className='p-10 md:w-1/2 flex flex-col items-center sm:my-4 lg:my-0'>
+                        <img src="/images/German.png" alt="img" className='w-32' />
                         <h2 className='font-medium text-2xl mt-3'>German</h2>
                     </div>
-                    <div className='w-24 w-1/2 lg:px-28 lg:py-10 sm:p-0 flex flex-col  items-center'>
-                        <img src="/images/Spanish.png" alt="img" className='' />
+                    <div className='p-10 md:w-1/2 flex flex-col items-center sm:my-4 lg:my-0'>
+                        <img src="/images/Spanish.png" alt="img" className='w-32' />
                         <h2 className='font-medium text-2xl mt-3'>Spanish</h2>
                     </div>
-                    <div className='w-24 w-1/2 lg:px-28 lg:py-10 sm:p-0 flex flex-col  items-center'>
-                        <img src="/images/Korean.png" alt="img" className='' />
+                    <div className='p-10 md:w-1/2 flex flex-col items-center sm:my-4 lg:my-0'>
+                        <img src="/images/Korean.png" alt="img" className='w-32' />
                         <h2 className='font-medium text-2xl mt-3'>Korean</h2>
                     </div>
                 </div>
-                <div className='w-full text-center text-xs mb-5'>*To receive the cashback you must follow The Language Network T&C’s.</div>
+                <div className='w-full text-center text-xs mb-4'>*To receive the cashback you must follow The Language Network T&C’s.</div>
             </div>
-            <div className='w-full flex lg:flex-row flex-col justify-center'>
+            <div className='w-full flex lg:flex-row flex-col justify-center pt-4 px-10 lg:px-0'>
 
                 <div class="lg:w-1/4 w-full rounded-lg shadow-lg overflow-hidden mb-4 lg:mx-20">
                     <div class="px-6 py-8 bg-white dark:bg-gray-800 sm:p-10 sm:pb-6 relative">

@@ -7,20 +7,20 @@ import { FaMedium } from 'react-icons/fa';
 export default function Footer() {
     return (
         <div style={{ bottom: '0px', left: '0px' }}>
-            <div className="footer-contact">
-                <span className='heading-1'>We're here to help</span>
+            <div className="footer-contact py-5">
+                <span className='heading-1 mt-5'>We're here to help</span>
                 <span className='heading-2'>Get in touch with our student support team for any queries or specific needs.</span>
-                <button type="button" class="btn btn-info text-white" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '10px', paddingRight: '30px', paddingBottom: '10px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Contact Us</button>
+                <button type="button" class="btn btn-info text-white mb-10" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '10px', paddingRight: '30px', paddingBottom: '10px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Contact Us</button>
             </div>
-            <div className='bg-teal-400 w-full flex flex-row justify-evenly  px-10 py-3 h-14'>
-                <img src='/images/payments/amazon-pay-icon.svg' />
-                <img src='/images/payments/bhim-pay-icon.svg' />
-                <img src='/images/payments/finserv-icon.svg' />
-                <img src='/images/payments/google-pay.svg' />
-                <img src='/images/payments/paytm-icon.svg' />
-                <img src='/images/payments/Razorpay.svg' />
-                <img src='/images/payments/rupay-icon.svg' />
-                <img src='/images/payments/upi-pay-icon.svg' />
+            <div className='flex-wrap px-3 bg-teal-400 w-full flex flex-row justify-evenly px-10 h-16'>
+                <img src='/images/payments/amazon-pay-icon.svg' class='w-20 lg:w-24 ' alt="a"/>
+                <img src='/images/payments/bhim-pay-icon.svg' class='w-20 lg:w-24 'alt="a"/>
+                <img src='/images/payments/finserv-icon.svg' class='w-20 lg:w-24 'alt="a"/>
+                <img src='/images/payments/google-pay.svg' class='w-20 lg:w-24 'alt="a"/>
+                <img src='/images/payments/paytm-icon.svg' class='w-20 lg:w-24 'alt="a"/>
+                <img src='/images/payments/Razorpay.svg' class='w-20 lg:w-24 'alt="a"/>
+                <img src='/images/payments/rupay-icon.svg' class='w-20 lg:w-24'alt="a"/>
+                <img src='/images/payments/upi-pay-icon.svg' class='w-20 lg:w-24'alt="a"/>
             </div>
             <footer className="footer-section">
                 <div className="container w-full">
