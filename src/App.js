@@ -11,6 +11,12 @@ import Earth from './components/Earth/Earth';
 import AdultsEnglish from './components/Footer/LangForAdults/English';
 import Dict from './components/Footer/dict/dict';
 import Blog from './components/Footer/blog/Blog';
+import AdultsFrench from './components/Footer/LangForAdults/French';
+import AdultsSpanish from './components/Footer/LangForAdults/Spanish';
+import AdultsGerman from './components/Footer/LangForAdults/German';
+import AdultsMandarin from './components/Footer/LangForAdults/Mandarin';
+import AdultsJapanese from './components/Footer/LangForAdults/Japanese';
+import AdultsKorean from './components/Footer/LangForAdults/Korean';
 
 
 function App() {
@@ -23,6 +29,12 @@ function App() {
           <Route exact path='/AdultsCourses' element={<AdultsCourses />} />
           <Route exact path='/IntoCourses' element={<IntroCourse />} />
           <Route exact path='/english-course-adults' element={<AdultsEnglish />} />
+          <Route exact path='/french-course-adults' element={<AdultsFrench />} />
+          <Route exact path='/spanish-course-adults' element={<AdultsSpanish />} />
+          <Route exact path='/german-course-adults' element={<AdultsGerman />} />
+          <Route exact path='/mandarin-course-adults' element={<AdultsMandarin />} />
+          <Route exact path='/japanese-course-adults' element={<AdultsJapanese />} />
+          <Route exact path='/korean-course-adults' element={<AdultsKorean />} />
           <Route exact path='/Dictionary' element={<Dict />} />
           <Route exact path='/Blog' element={<Blog/>} />
         </Routes>
