@@ -22,6 +22,7 @@ import VisibilitySensor from 'react-visibility-sensor';
 
 import Testimonial from './testimonial.js';
 import Earth from '../Earth/Earth';
+import Globe3d from '../Earth/Globe';
 
 
 // import images for International Exams
@@ -91,7 +92,8 @@ class Home extends react.Component {
                         <div><button type="button" class="btn btn-info text-white" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '16px', paddingRight: '30px', paddingBottom: '16px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Book a trial</button></div>
                     </div>
                     <div className='Home-container-1-sec-2 rounded-l-lg'>
-                    <Earth />
+                    {/* <Earth /> */}
+                    <Globe3d className = '' />
                     </div>
                     <div className="Home-container-10-overlay">
                         <div className='overlay-box'>

@@ -51,7 +51,7 @@ export default function Footer() {
                                         <li><a href="#">Home</a></li>
                                         <li><a href="#">About us</a></li>
                                         <li><a href="#">Careers</a></li>
-                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="/Blog">Blog</a></li>
                                         <li><a href="#">Press</a></li>
                                     </ul>
                                 </div>
@@ -106,6 +106,7 @@ export default function Footer() {
                                     <ul>
                                         <li><a href="Phrasebook">Phrasebook</a></li>
                                         <li><a href="Events">Events</a></li>
+                                        <li><a href="/Dictionary">Dictionary</a></li>
                                     </ul>
                                 </div>
                             </div>
