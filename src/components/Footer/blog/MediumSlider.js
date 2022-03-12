@@ -43,6 +43,7 @@ class MediumSlider extends React.Component {
         {itemRows.map((row, id) =>
           row.map((item, key) => <PostCard {...item} key={key} />)
         )}
+        <div></div>
       </Grid>
     );
   }
