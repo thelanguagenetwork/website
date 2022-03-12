@@ -87,7 +87,7 @@ export default () => {
             <section> {
                 cardData.map((card, i) => {
                     return (<SwiperSlide >
-                        <div className="xl:w-1/3 md:w-1/2 card " id="card" key={i} >
+                        <div className="lg:w-5/6 md:w-1/2 card " id="card" key={i} >
                             <div class=" w-auto rounded-lg card-item flex items-center justify-evenly" >
                                 <div class=" w-full h-full flex items-center justify-center rounded-full" >
                                     <img src={card.path} alt='img'/> 
