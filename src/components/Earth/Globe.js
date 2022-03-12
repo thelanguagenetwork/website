@@ -15,10 +15,10 @@ export default function Globe3d() {
 
   return (
     <Globe
-      height={400}
-      width={400}
+      height={600}
+      width={600}
       backgroundColor={'rgba(0,0,0,0)'}
-      globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
+      globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
       arcsData={arcsData}
       arcColor={'color'}
       arcDashLength={() => Math.random()}
