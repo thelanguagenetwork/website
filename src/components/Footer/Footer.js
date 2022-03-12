@@ -66,11 +66,11 @@ export default function Footer() {
                                         <li><a href="/IntoCourses">Introductory Courses</a></li>
                                         <li><a href="/english-course-adults">English Courses</a></li>
                                         <li><a href="/french-course-adults">French Courses</a></li>
-                                        <li><a href="#">Spanish Courses</a></li>
-                                        <li><a href="#">German Courses</a></li>
-                                        <li><a href="#">Mandarin Courses</a></li>
-                                        <li><a href="#">Japanese Courses</a></li>
-                                        <li><a href="#">Korean Courses</a></li>
+                                        <li><a href="/spanish-course-adults">Spanish Courses</a></li>
+                                        <li><a href="/german-course-adults">German Courses</a></li>
+                                        <li><a href="/mandarin-course-adults">Mandarin Courses</a></li>
+                                        <li><a href="/japanese-course-adults">Japanese Courses</a></li>
+                                        <li><a href="/korean-course-adults">Korean Courses</a></li>
                                     </ul>
                                 </div>
                             </div>
