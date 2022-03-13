@@ -1,15 +1,57 @@
 import React from 'react';
 import './dict.css';
-import $ from 'jquery';
+import axios from 'axios'
+
+import { useState, useEffect, Fragment } from 'react';
+import { Typography, Box, Divider } from '@material-ui/core'
+
 
 export default function Dict() {
 
-    $('.myButton').click(function () {
-        $('div[id^=create]').hide(); //hide all
-        var id = $(this).attr('id');
-        var end = id.slice(-2);      //get last 2 character (LD/VC/FD) from id
-        $(`div[id$=${end}]`).show(); //match the div with id ends with the character and show
-    });
+
+    const [word, setWord] = useState("");
+    const [definitions, setDefinitions] = useState([])
+    const [exist, setExist] = useState(true)
+    const [audio, setAudio] = useState(null)
+
+    const fetchDefinition = async () => {
+        try {
+            const resp = await axios.get(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
+            console.log(resp)
+            console.log(word)
+
+            updateState(resp.data)
+        } catch (err) {
+            setExist(false)
+        }
+    }
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        const trimmedWord = word.trim().toLowerCase();
+        fetchDefinition()
+
+        if (!trimmedWord || trimmedWord.split(' ').length > 1) return;
+    }
+
+    const updateState = data => {
+        setDefinitions(data)
+        const phonetics = data[0].phonetics
+        if (!phonetics.length) return;
+        const url = phonetics[0].audio.replace('//ssl', 'https://ssl');
+        setAudio(new Audio(url));
+    }
+
+    useEffect(() => {
+
+    }, [])
+
+    // if (!exist) return<>
+    //     <Typography>Word not found</Typography>
+    //     <Button variant="contained" sx={{ textTransform: 'capitalize', mt: 2 }}>Go back</Button>
+    //     </>
+
+    // if (!definitions.length) return <CircularProgress />
 
     return (
         <div><div class="main-container">
@@ -34,7 +76,7 @@ export default function Dict() {
                 </ul>
             </nav> */}
 
-            <section style={{ paddingLeft: "29%", height: "400px", backgroundColor: "#9850F4" }}>
+            <section style={{ paddingLeft: "29%", height: "auto", backgroundColor: "#9850F4" }}>
                 <div class="text-5xl pt-16 text-white">
                     <span>English - English Dictionary</span>
                 </div>
@@ -55,9 +97,32 @@ export default function Dict() {
                         </div>
                     </div>
                 </div>
-                <form class="nosubmit mt-14">
-                    <input class="nosubmit" type="text" placeholder="What would you like to search?" />
+                <form className="mt-14" onSubmit={handleSubmit}>
+                    <div class="flex">
+                        <input name="field_name" class="border border-2 rounded-r px-4 py-2 w-full" type="text" placeholder="Write something here..." onChange={event => setWord(event.target.value)} />
+                    </div>
                 </form>
+                <div>
+
+
+                    {definitions.map((def, idx) =>
+                        <Fragment key={idx}>
+                            <Divider sx={{ display: idx === 0 ? 'none' : 'block', my: 3 }} />
+                            {def.meanings.map(meaning =>
+                                <Box key={Math.random()} sx={{
+                                    boxShadow: '0px 10px 25px rgba(0, 0, 0, 0.05)',
+                                    backgroundColor: '#fff',
+                                    p: 2,
+                                    borderRadius: 2,
+                                    mt: 3
+                                }}>
+                                    <Typography sx={{ textTransform: 'capitalize' }} color="GrayText" variant="subtitle1">{meaning.partOfSpeech}</Typography>
+                                    {meaning.definitions.map((definition, idx) => <Typography sx={{ my: 1 }} variant="body2" color="GrayText" key={definition.definition}>{meaning.definitions.length > 1 && `${idx + 1}. `} {definition.definition}</Typography>)}
+                                </Box>
+                            )}
+                        </Fragment>
+                    )}
+                </div>
             </section>
 
             <section class="mx-36 my-9 space-y-9">

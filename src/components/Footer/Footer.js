@@ -80,13 +80,13 @@ export default function Footer() {
                                         <h3>Languages fo Kids</h3>
                                     </div>
                                     <ul>
-                                        <li><a href="#">Kids English Courses</a></li>
-                                        <li><a href="#">Kids French Courses</a></li>
-                                        <li><a href="#">Kids Spanish Courses</a></li>
-                                        <li><a href="#">Kids German Courses</a></li>
-                                        <li><a href="#">Kids Mandarin Courses</a></li>
-                                        <li><a href="#">Kids Japanese Courses</a></li>
-                                        <li><a href="#">Kids Korean Courses</a></li>
+                                        <li><a href="/english-course-kids">Kids English Courses</a></li>
+                                        <li><a href="/french-course-kids">Kids French Courses</a></li>
+                                        <li><a href="/spanish-course-kids">Kids Spanish Courses</a></li>
+                                        <li><a href="/german-course-kids">Kids German Courses</a></li>
+                                        <li><a href="/mandarin-course-kids">Kids Mandarin Courses</a></li>
+                                        <li><a href="/japanese-course-kids">Kids Japanese Courses</a></li>
+                                        <li><a href="/korean-course-kids">Kids Korean Courses</a></li>
                                     </ul>
                                 </div>
                             </div>
