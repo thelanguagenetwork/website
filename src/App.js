@@ -8,15 +8,23 @@ import Curriculum from './components/curriculum/Curriculum';
 import AdultsCourses from './components/CoursePricing/AdultCourses';
 import IntroCourse from './components/Footer/LangForAdults/IntroCourse';
 import Earth from './components/Earth/Earth';
-import AdultsEnglish from './components/Footer/LangForAdults/English';
 import Dict from './components/Footer/dict/dict';
 import Blog from './components/Footer/blog/Blog';
+import AdultsEnglish from './components/Footer/LangForAdults/English';
 import AdultsFrench from './components/Footer/LangForAdults/French';
 import AdultsSpanish from './components/Footer/LangForAdults/Spanish';
 import AdultsGerman from './components/Footer/LangForAdults/German';
 import AdultsMandarin from './components/Footer/LangForAdults/Mandarin';
 import AdultsJapanese from './components/Footer/LangForAdults/Japanese';
 import AdultsKorean from './components/Footer/LangForAdults/Korean';
+
+import KidsEnglish from './components/Footer/LangForKids/English';
+import KidsFrench from './components/Footer/LangForKids/French';
+import KidsSpanish from './components/Footer/LangForKids/Spanish';
+import KidsGerman from './components/Footer/LangForKids/German';
+import KidsMandarin from './components/Footer/LangForKids/Mandarin';
+import KidsJapanese from './components/Footer/LangForKids/Japanese';
+import KidsKorean from './components/Footer/LangForKids/Korean';
 
 
 function App() {
@@ -27,6 +35,8 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path='/AdultsCourses' element={<AdultsCourses />} />
+
+          {/* Language For Adults */}
           <Route exact path='/IntoCourses' element={<IntroCourse />} />
           <Route exact path='/english-course-adults' element={<AdultsEnglish />} />
           <Route exact path='/french-course-adults' element={<AdultsFrench />} />
@@ -35,6 +45,15 @@ function App() {
           <Route exact path='/mandarin-course-adults' element={<AdultsMandarin />} />
           <Route exact path='/japanese-course-adults' element={<AdultsJapanese />} />
           <Route exact path='/korean-course-adults' element={<AdultsKorean />} />
+
+          {/* Language For Kids */}
+          <Route exact path='/english-course-kids' element={<KidsEnglish />} />
+          <Route exact path='/french-course-kids' element={<KidsFrench />} />
+          <Route exact path='/spanish-course-kids' element={<KidsSpanish />} />
+          <Route exact path='/german-course-kids' element={<KidsGerman />} />
+          <Route exact path='/mandarin-course-kids' element={<KidsMandarin />} />
+          <Route exact path='/japanese-course-kids' element={<KidsJapanese />} />
+          <Route exact path='/korean-course-kids' element={<KidsKorean />} />
           <Route exact path='/Dictionary' element={<Dict />} />
           <Route exact path='/Blog' element={<Blog/>} />
         </Routes>
