@@ -76,33 +76,33 @@ export default function Dict() {
                 </ul>
             </nav> */}
 
-            <section style={{ paddingLeft: "29%", height: "auto", backgroundColor: "#9850F4" }}>
-                <div class="text-5xl pt-16 text-white">
-                    <span>English - English Dictionary</span>
+            <section className="pb-10 justify-center" style={{ height: "auto", backgroundColor: "#9850F4" }}>
+                <div className="text-2xl lg:text-5xl pt-16 text-white flex flex-col justify-center align-center items-center">
+                    <span className="items-center">English - English Dictionary</span>
                 </div>
-                <div class="flex pt-12 mx-20">
-                    <div style={{ backgroundColor: "#8037DD", borderRadius: "15px" }} class="my-auto px-1 py-2">
-                        <div class="flex">
-                            <img src="images/English.png" alt="English" class="w-10 mx-2" />
-                            <span class="my-auto text-white text-3xl px-4">English</span>
+                <div class="lg:flex pt-12 mx-20 justify-center">
+                    <div style={{ backgroundColor: "#8037DD", borderRadius: "15px" }} class="my-2 px-1 py-2 items-center">
+                        <div class="flex items-center justify-center">
+                            <img src="images/English.png " alt="English" class="mx-2 flex items-center" />
+                            <span class="my-auto text-white text-xl lg:text-3xl px-4">English</span>
                         </div>
                     </div>
-                    <div class="w-10 my-auto mx-4">
+                    <div class="flex my-auto mx-4 justify-center items-center">
                         <img src="images/Arrow.png" alt="" />
                     </div>
-                    <div style={{ backgroundColor: "#8037DD", borderRadius: "15px" }} class="my-auto px-1 py-2">
-                        <div class="flex">
-                            <img src="images/English.png" alt="French" class="w-10 mx-2" />
-                            <span class="my-auto text-white text-2xl px-4">English</span>
+                    <div style={{ backgroundColor: "#8037DD", borderRadius: "15px" }} class="my-2 px-1 py-2">
+                        <div class="flex justify-center items-center">
+                            <img src="images/English.png" alt="French" class="mx-2" />
+                            <span class="my-auto text-white text-xl lg:text-3xl px-4">English</span>
                         </div>
                     </div>
                 </div>
-                <form className="mt-14" onSubmit={handleSubmit}>
-                    <div class="flex">
-                        <input name="field_name" class="border border-2 rounded-r px-4 py-2 w-full" type="text" placeholder="Write something here..." onChange={event => setWord(event.target.value)} />
+                <form className="mt-14 w-auto mx-10 lg:mx-52" onSubmit={handleSubmit}>
+                    <div class="flex w-full mb-10">
+                        <input name="field_name" class="rounded-r px-4 py-2 w-full" type="text" placeholder="Write something here..." onChange={event => setWord(event.target.value)} />
                     </div>
                 </form>
-                <div>
+                <div className="mx-10 lg:mx-32">
 
 
                     {definitions.map((def, idx) =>
@@ -116,7 +116,7 @@ export default function Dict() {
                                     borderRadius: 2,
                                     mt: 3
                                 }}>
-                                    <Typography sx={{ textTransform: 'capitalize' }} color="GrayText" variant="subtitle1">{meaning.partOfSpeech}</Typography>
+                                    <Typography sx={{ textTransform: 'capitalize' }} color="GrayText" variant="subtitle1"><h1 className='font-bold uppercase'>{meaning.partOfSpeech}</h1></Typography>
                                     {meaning.definitions.map((definition, idx) => <Typography sx={{ my: 1 }} variant="body2" color="GrayText" key={definition.definition}>{meaning.definitions.length > 1 && `${idx + 1}. `} {definition.definition}</Typography>)}
                                 </Box>
                             )}
@@ -124,7 +124,7 @@ export default function Dict() {
                     )}
                 </div>
             </section>
-
+{/* 
             <section class="mx-36 my-9 space-y-9">
                 <div class="alpha-text space-x-7">
                     <button class="alpha py-2 w-16">A</button>
@@ -156,12 +156,11 @@ export default function Dict() {
                     <button class="alpha py-2 w-16">Y</button>
                     <button class="alpha py-2 w-16">Z</button>
                 </div>
-            </section>
+            </section> */}
 
-            <hr class="dash mx-32 w-60" />
+            {/* <hr class="dash mx-32 w-60" /> */}
 
-            <section class="mx-36 my-9 text-lg leading-loose main-mean">
-                {/* <!-- display: none --> */}
+            {/* <section class="mx-36 my-9 text-lg leading-loose main-mean">
                 <div class="mean w-80">
                     <p> <span>A</span> ... <span>a sweet both</span> </p>
                     <p> <span>a tall order</span> ... <span>ably</span> </p>
@@ -186,9 +185,9 @@ export default function Dict() {
                     <p> <span>appalled</span> ... <span>apprehensiveness</span> </p>
                     <p> <span>apprentice</span> ... <span>archaeology</span> </p>
                 </div>
-            </section>
+            </section> */}
 
-            <section class="mx-36" id="show-mean">
+            {/* <section class="mx-36" id="show-mean">
                 <div class="mt-12"><span style={{ color: "#6B6B6B" }}>English-French `{'>'}` A `{'>'}` Alias</span></div>
 
                 <div class="mt-12">
@@ -273,9 +272,9 @@ export default function Dict() {
                     <p class="text-lg font-bold mb-1">Example Sentenses</p>
                 </div>
 
-            </section>
+            </section> */}
 
-            <section class="mx-36 my-16">
+            {/* <section class="mx-36 my-16">
                 <div class="my-10">
                     <p class="text-2xl font-semibold mb-1 tracking-wide">About English-French Dictionary</p>
                     <p class="leading-relaxed tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -299,7 +298,7 @@ export default function Dict() {
                 <div>
                     <img src="images/Banner.png" class=" mx-24 border rounded-xl" alt="Banner" />
                 </div>
-            </section>
+            </section> */}
 
         </div></div>
     )
