@@ -78,7 +78,7 @@ export default function Dict() {
 
             <section style={{ paddingLeft: "29%", height: "auto", backgroundColor: "#9850F4" }}>
                 <div class="text-5xl pt-16 text-white">
-                    <span>English - French Dictionary</span>
+                    <span>English - English Dictionary</span>
                 </div>
                 <div class="flex pt-12 mx-20">
                     <div style={{ backgroundColor: "#8037DD", borderRadius: "15px" }} class="my-auto px-1 py-2">
@@ -92,8 +92,8 @@ export default function Dict() {
                     </div>
                     <div style={{ backgroundColor: "#8037DD", borderRadius: "15px" }} class="my-auto px-1 py-2">
                         <div class="flex">
-                            <img src="images/French.png" alt="French" class="w-10 mx-2" />
-                            <span class="my-auto text-white text-2xl px-4">French</span>
+                            <img src="images/English.png" alt="French" class="w-10 mx-2" />
+                            <span class="my-auto text-white text-2xl px-4">English</span>
                         </div>
                     </div>
                 </div>
