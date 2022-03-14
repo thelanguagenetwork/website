@@ -23,7 +23,7 @@ export default function Globe3d() {
       arcColor={'color'}
       arcDashLength={() => Math.random()}
       arcDashGap={() => Math.random()}
-      arcDashAnimateTime={() => Math.random() * 4000 + 500}
+      arcDashAnimateTime={() => Math.random() * 6000 + 500}
       />
   )
 }

@@ -27,29 +27,7 @@ export const English_1_1 = [
         DiscPrice : 333,
         Link: ""
     },
-    {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A4',
-        OgPrice : 444,
-        DiscPrice : 333,
-        Link: ""
-    },
-    {
-
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A4',
-        OgPrice : 444,
-        DiscPrice : 333,
-        Link: ""
-    },
-    {
-
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A4',
-        OgPrice : 444,
-        DiscPrice : 333,
-        Link: ""
-    }
+   
 ]
 
 export const English_1_2 = [

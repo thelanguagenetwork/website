@@ -44,17 +44,17 @@ export default function AdultsCourses() {
     }
 
     return <div>
-        <div className="Home-container-2 px-5 fadeIN" style={{ width: '100%', marginTop: 0, paddingTop: 0}}>
+        <div className="Home-container-2 px-5 fadeIN" style={{ width: '100%', marginTop: '2rem', paddingTop: 0}}>
             <h2>A Fun, Proven method for Learning</h2>
             <h1 className='mb-12'>Choose a language</h1>
             <div className='Home-container-2-imgs'>
-                <a onClick={() => setLanguage('English')} ><img id={language === 'English' ? 'selected' : ''} className='Home-container-2-img' alt='img' src='/images/Adolcents-English@300x.png' /><span className='Home-container-2-img-span'>English</span></a>
-                <a onClick={() => setLanguage('French')} ><img id={language === 'French' ? 'selected' : ''} className='Home-container-2-img' alt='img' src='/images/Adolcents-French@300x.png' /><span className='Home-container-2-img-span'>French</span></a>
-                <a onClick={() => setLanguage('Spanish')} ><img id={language === 'Spanish' ? 'selected' : ''} className='Home-container-2-img' alt='img' src='/images/Adolcents-Spanish@300x.png' /><span className='Home-container-2-img-span'>Spanish</span></a>
-                <a onClick={() => setLanguage('German')} ><img id={language === 'German' ? 'selected' : ''} className='Home-container-2-img' alt='img' src='/images/Adolcents-German@300x.png' /><span className='Home-container-2-img-span'>German</span></a>
-                <a onClick={() => setLanguage('Mandarin')} ><img id={language === 'Mandarin' ? 'selected' : ''} className='Home-container-2-img' alt='img' src='/images/Adolcents-mandarin_1@300x.png' /><span className='Home-container-2-img-span'>Mandarin</span></a>
-                <a onClick={() => setLanguage('Japanese')} ><img id={language === 'Japanese' ? 'selected' : ''} className='Home-container-2-img' alt='img' src='/images/Adolcents-mandarin@300x.png' /><span className='Home-container-2-img-span'>Japanese</span></a>
-                <a onClick={() => setLanguage('Korean')} ><img id={language === 'Korean' ? 'selected' : ''} className='Home-container-2-img' alt='img' src='/images/Adolcents-Korean@300x.png' /><span className='Home-container-2-img-span'>Korean</span> </a>
+                <a onClick={() => setLanguage('English')} className='mt-12'><img id={language === 'English' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/Adolcents-English@300x.png' /><span className='Home-container-2-img-span'>English</span></a>
+                <a onClick={() => setLanguage('French')} className='mt-12'><img id={language === 'French' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/Adolcents-French@300x.png' /><span className='Home-container-2-img-span'>French</span></a>
+                <a onClick={() => setLanguage('Spanish')} className='mt-12'><img id={language === 'Spanish' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/Adolcents-Spanish@300x.png' /><span className='Home-container-2-img-span'>Spanish</span></a>
+                <a onClick={() => setLanguage('German')} className='mt-12'><img id={language === 'German' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/Adolcents-German@300x.png' /><span className='Home-container-2-img-span'>German</span></a>
+                <a onClick={() => setLanguage('Mandarin')} className='mt-12'><img id={language === 'Mandarin' ? 'selected' : ''} className='Home-container-2-img h-[95%]  lg:w-auto' alt='img' src='/images/Adolcents-mandarin_1@300x.png' /><span className='Home-container-2-img-span'>Mandarin</span></a>
+                <a onClick={() => setLanguage('Japanese')} className='mt-12'><img id={language === 'Japanese' ? 'selected' : ''} className='Home-container-2-img h-[95%]  lg:w-auto' alt='img' src='/images/Adolcents-mandarin@300x.png' /><span className='Home-container-2-img-span'>Japanese</span></a>         
+                <a onClick={() => setLanguage('Korean')} className='mt-12'><img id={language === 'Korean' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/Adolcents-Korean@300x.png' /><span className='Home-container-2-img-span'>Korean</span> </a>
             </div>
         </div>
         

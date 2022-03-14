@@ -21,7 +21,7 @@ import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 
 import Testimonial from './testimonial.js';
-import Earth from '../Earth/Earth';
+
 import Globe3d from '../Earth/Globe';
 
 
