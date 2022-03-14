@@ -7,7 +7,6 @@ import Home from './components/Home/Home';
 import Curriculum from './components/curriculum/Curriculum';
 import AdultsCourses from './components/CoursePricing/AdultCourses';
 import IntroCourse from './components/Footer/LangForAdults/IntroCourse';
-import Earth from './components/Earth/Earth';
 import Dict from './components/Footer/dict/dict';
 import Blog from './components/Footer/blog/Blog';
 import AdultsEnglish from './components/Footer/LangForAdults/English';
