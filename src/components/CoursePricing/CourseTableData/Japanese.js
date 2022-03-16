@@ -1,43 +1,35 @@
 export const Japanese_1_1 = [
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A1',
+        lvlName: 'N5',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A2',
+        lvlName: 'N4',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A3',
+        lvlName: 'N3',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A4',
+        lvlName: 'N2',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A4',
-        OgPrice : 444,
-        DiscPrice : 333,
-        Link: ""
-    },
-    {
-
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A4',
+        lvlName: 'N5+N4',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
@@ -45,7 +37,15 @@ export const Japanese_1_1 = [
     {
 
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A4',
+        lvlName: 'N3+N2',
+        OgPrice : 444,
+        DiscPrice : 333,
+        Link: ""
+    },
+    {
+
+        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        lvlName: 'N5+N4+N3',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
@@ -55,49 +55,51 @@ export const Japanese_1_1 = [
 export const Japanese_1_2 = [
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A1',
+        lvlName: 'N5',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A1',
+        lvlName: 'N4',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A1',
+        lvlName: 'N3',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A1',
+        lvlName: 'N2',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A2',
+        lvlName: 'N5+N4',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
+
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A3',
+        lvlName: 'N3+N2',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
+
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A4',
+        lvlName: 'N5+N4+N3',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
@@ -108,49 +110,51 @@ export const Japanese_1_2 = [
 export const Japanese_1_4 = [
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A1',
+        lvlName: 'N5',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A1',
+        lvlName: 'N4',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A1',
+        lvlName: 'N3',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A1',
+        lvlName: 'N2',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A2',
+        lvlName: 'N5+N4',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
+
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A3',
+        lvlName: 'N3+N2',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
+
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A4',
+        lvlName: 'N5+N4+N3',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""

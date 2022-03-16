@@ -1,28 +1,28 @@
 export const Mandarin_1_1 = [
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A1',
+        lvlName: 'HSK 1',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A2',
+        lvlName: 'HSK 2',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A3',
+        lvlName: 'HSK 3',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A4',
+        lvlName: 'HSK 4',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
