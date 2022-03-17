@@ -139,20 +139,20 @@ export const French_1_4 = [
         lvlName: 'A1+A2',
         OgPrice : 444,
         DiscPrice : 333,
-        Link: ""
+        Link: "https://rzp.io/l/frencha1a2g"
     },
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
         lvlName: 'B1+B2',
         OgPrice : 444,
         DiscPrice : 333,
-        Link: ""
+        Link: "https://rzp.io/l/frenchb1b2"
     },
     {
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
         lvlName: 'A1+A2+B1+B2',
         OgPrice : 444,
         DiscPrice : 333,
-        Link: ""
+        Link: "https://rzp.io/l/frenchA1a2b1b2"
     }
 ]
