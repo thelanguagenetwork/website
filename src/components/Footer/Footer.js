@@ -6,8 +6,8 @@ import { FaMedium } from 'react-icons/fa';
 
 export default function Footer() {
     return (
-        <div className="bg-gray-100" style={{ bottom: '0px', left: '0px' }}>
-            <div className="py-5 px-10 bg-#dfdfdf space-y-3 flex flex-col items-center">
+        <div className="bg-[#f4f8fb] mt-20" style={{ bottom: '0px', left: '0px' }}>
+            <div className=" px-10 bg-#dfdfdf space-y-3 flex flex-col items-center">
                 <span className='heading-1 mt-5 mb-3 flex flex-col'>We're here to help</span>
                 <br></br>
                 <span className='heading-2 mb-10'>Get in touch with our student support team for any queries or specific needs.</span>
