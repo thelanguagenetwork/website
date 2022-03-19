@@ -117,32 +117,34 @@ export default function Dict() {
                         </Fragment>
                     )} */}
                     
-                        <div class="accordion accordion-flush" id="accordionFlushExample">
-                            {definitions.map((def, idx) =>
+                        
+                            {definitions.map((def, idx) =><div class="accordion accordion-flush" id="accordionFlushExample">
                                 <Fragment key={idx}>
 
                                     {def.meanings.map(meaning =>
                                         <>
-                                            <div class=" accordion-item border-t-0 border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+                                            <div class="accordion-item border-t-0 border-l-0 border-r-0 rounded-md bg-white border border-gray-200 mb-10 lg:mx-20">
+                                          
                                                 <h2 class="accordion-header mb-0" id="flush-headingOne">
-                                                    <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target={`#${meaning.partOfSpeech}`}
+                                                    <button class="rounded-md accordion-button collapsed relative items-center flex flex-row w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target={`#${meaning.partOfSpeech}`}
                                                         aria-expanded="false" aria-controls="flush-collapseOne">
                                                         {meaning.partOfSpeech}
                                                     </button>
                                                 </h2>
-
-                                                {meaning.definitions.map((definition, idx) => <div id={meaning.partOfSpeech} class="accordion-collapse border-0 collapse"
+                                                {meaning.definitions.map((definition, idx) => 
+                                                <div id={meaning.partOfSpeech} class="accordion-collapse border-0 collapse"
                                                     aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                                     <div class="accordion-body py-4 px-5">{meaning.definitions.length > 1 && `${idx + 1}. `} {definition.definition}</div>
                                                 </div>)}
+                                     
                                             </div>
                                         </>
                                     )}
-                                </Fragment>
+                                </Fragment></div>
                             )}
 
 
-                        </div>
+                        
                    
 
                 </div>

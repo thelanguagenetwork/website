@@ -36,9 +36,9 @@ export default function KidsEnglish() {
     return (
         <div>
 
-            <div className="h-[100vh] px-28 flex flex-row items-center">
+            <div className="h-[100vh] pt-10 px-10 lg:px28 lg:flex flex-row items-center">
                 <div className='lg:w-1/2'>
-                    <h2 className='font-semibold text-4xl'>Levels of Language Learning for Kids and Adolescents</h2>
+                    <h2 className='font-semibold text-2xl lg:text-4xl'>Levels of Language Learning for Kids and Adolescents</h2>
                     <p className='text-sm text-[#54595f] my-3'>At The Language Network, we believe in holistic learning. Our English language course for kids covers all the 10 Grades. Learning English at an early age will be extremely beneficial for kids of all ages ranging from 6 years to 14 years.</p>
                     <p className='text-sm text-[#54595f] my-3'  >Enrol your child in our English language course and keep your child ahead of his peers. There is no better feeling than seeing your child get confident in his day to day life.</p>
                 </div>
@@ -48,17 +48,17 @@ export default function KidsEnglish() {
             </div>
             <div className="KidsEnglish h-[70vh]" >
                 <div className="bg-[rgba(0,0,0,0.4)] h-full ">
-                    <div className='h-full flex flex-col justify-center align-left w-[40rem] mx-32'>
-                        <h1 className='text-4xl leading-snug text-white font-bold'>English Classes for Adults</h1>
+                    <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
+                        <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>English Classes for Adults</h1>
                         <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online English classes for adults (14+ years old) with professional teachers.</h1>
                         <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button>
                     </div>
                 </div>
             </div>
 
-            <div className="Home-container-5 my-20">
-                <div className='Home-container-5-sec-1'>
-                    <h1>English Language Levels for Adults</h1>
+            <div className="my-20 lg:flex flex-row">
+                <div className='space-y-2 px-10 lg:px-20'>
+                    <h1 className="font-bold text-3xl lg:text-4xl">English Language Levels for Adults</h1>
                     <p className='text-sm text-[#54595f]'>All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.</p>
                     <p className='text-sm text-[#54595f]'>Online English for adults is divided into following levels:</p>
                     <ul className='list-disc font-bold text-gray-600 pl-3 leading-10'>
@@ -70,13 +70,13 @@ export default function KidsEnglish() {
                     </ul>
                     <p className='text-sm text-[#54595f]'>These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and C2 the most advanced.</p>
                 </div>
-                <div className='Home-container-5-sec-2'>
+                <div className='flex align-center px-20 py-20 lg:px-10 lg:py-10'>
                     <img src='/images/French-levels@300x-1536x931.png' alt='img' />
                 </div>
             </div>
-            <div className='w-full text-center font-semibold text-4xl'>Benefits of Learning English with TLN?</div>
+            <div className='w-full text-center font-semibold text-3xl lg:text-4xl'>Benefits of Learning English with TLN?</div>
             <section class="text-gray-600 body-font">
-                <div class="container px-5 py-20 mx-auto">
+                <div class="container px-2 lg:px-5 py-20 mx-auto">
                     <div class="flex flex-wrap -m-4">
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
                             <div class="border border-gray-200 p-6 rounded-lg">
@@ -136,7 +136,7 @@ export default function KidsEnglish() {
                 </div>
             </section>
 
-            <div className='w-full text-center text-4xl font-medium '>Why learn a language with TLN?</div>
+            <div className='w-full text-center text-3xl lg:text-4xl font-medium '>Why learn a language with TLN?</div>
             <div className='w-full lg:px-32 py-18 flex flex-row flex-wrap  justify-evenly'>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
@@ -188,13 +188,13 @@ export default function KidsEnglish() {
                 </div>
             </div>
 
-            <div className='w-full lg:mt-20 text-center text-4xl font-medium '>How is learning English beneficial for kids?</div>
-            <div className='p-28 flex flex-col lg:flex-row'>
-                <div className='w-full lg:w-[50rem] self-center   '>
+            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium '>How is learning English beneficial for kids?</div>
+            <div className='flex flex-col lg:flex-row'>
+                <div className='pl-10 w-3/4 lg:w-[60rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
                 </div>
                 <div className='w-full flex flex-col'>
-                    <div className='flex flex-row group h-auto px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
@@ -203,7 +203,7 @@ export default function KidsEnglish() {
                             <p className='text-[#54595f] pt-2'>Start learning English from an early age and keep your child ahead of their peers. Give your child a head start and keep them motivated. Learning English for Kids will benefit your child exponentially.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
@@ -213,7 +213,7 @@ export default function KidsEnglish() {
                             <p className='text-[#54595f] pt-2'>The earlier you learn English, the better you get at communication. Start your kid’s learning from a young age and make your child a master of confident communication. There is no greater feeling than seeing your child practice confidence in their day to day life.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
@@ -222,7 +222,7 @@ export default function KidsEnglish() {
                             <p className='text-[#54595f] pt-2'>The earlier you learn English, the better you get at communication. Start your kid’s learning from a young age and make your child a master of confident communication. There is no greater feeling than seeing your child practice confidence in their day to day life.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
@@ -231,7 +231,7 @@ export default function KidsEnglish() {
                             <p className='text-[#54595f] pt-2'>When your child starts learning early, they learn much more than others. Early age learning benefits your child in multiple ways. It helps them build a strong personality.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
@@ -242,11 +242,11 @@ export default function KidsEnglish() {
                     </div>
                 </div>
             </div>
-            <div className='w-full lg:mt-20 text-center text-4xl font-medium '>TLN and International Exams</div>
-            <p className='text-center w-full px-60 pt-4 text-sm text-[#54595f]'> We want our students to excel in international exams like TOEFL and IELTS. We teach our students how to learn English in a way that will help them ace these standardised tests. All aspects of the test, including pronunciation, vocabulary, listening part, is being taken care of at TLN. We ensure that once you learn something you won’t forget it.</p>
-            <div className='group w-full flex flex-col items-center my-10'>
+            <div className='pt-20 w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>TLN and International Exams</div>
+            <p className='text-center w-full px-10 lg:px-60 pt-4 text-sm text-[#54595f]'> We want our students to excel in international exams like TOEFL and IELTS. We teach our students how to learn English in a way that will help them ace these standardised tests. All aspects of the test, including pronunciation, vocabulary, listening part, is being taken care of at TLN. We ensure that once you learn something you won’t forget it.</p>
+            <div className='px-3 group w-full flex flex-col items-center my-10'>
                 <img src="/images/exam-Cambridge-English.jpg" alt="img" className='w-60' />
-                <div className='shadow-xl text-center lg:w-2/3 p-4'>
+                <div className='px-10 shadow-xl text-center lg:w-2/3 p-4'>
                     <h3 className='text-lg font-bold pb-3 group-hover:text-amber-400 ease-in duration-300'>Cambridge Assesment English</h3>
                     <p className='text-sm text-[#54595f]'>Cambridge English Qualifications are in-depth exams that make learning English enjoyable, effective and rewarding. Cambridge English Qualifications are known and recognised by schools, universities, private and public sector employers all over the English-speaking world. Success in a Cambridge English Qualification provides you with an internationally recognised certificate showing the level you have attained in English. The official test assesses all English skills and indicates your CEFR level (A1-C1). It can be used to prove your English level to employers and educational institutions worldwide.</p>
                 </div>
@@ -334,7 +334,7 @@ export default function KidsEnglish() {
             <p className='w-full pb-20 text-center font-bold text-4xl underline underline-offset-8'>Frequently asked questions</p>
 
 
-            <div className='w-full px-28'>
+            <div className='w-full px-10 lg:px-28'>
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item border-t-0 border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingOne">
