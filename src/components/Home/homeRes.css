@@ -49,6 +49,7 @@
         font-size: 15px;
     }
     .Home-container-4{
+        flex-direction: column;
         flex-wrap: wrap;
         width: 100%;
     }

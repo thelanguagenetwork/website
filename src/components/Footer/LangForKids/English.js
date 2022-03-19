@@ -35,7 +35,6 @@ export default function KidsEnglish() {
     }
     return (
         <div>
-
             <div className="h-[100vh] pt-10 px-10 lg:px28 lg:flex flex-row items-center">
                 <div className='lg:w-1/2'>
                     <h2 className='font-semibold text-2xl lg:text-4xl'>Levels of Language Learning for Kids and Adolescents</h2>
@@ -262,8 +261,8 @@ export default function KidsEnglish() {
                     </p>
                 </div>
 
-                <div className="Home-container-4">
-                    <div className="Home-cards" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
+                <div className="w-5/6 lg:flex flex-row space-y-10 lg:space-y-0 mt-12">
+                    <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
                         <div className="Home-card-img">
                             <img src='/images/Adolscents@300x.png' alt='img' />
                         </div>
@@ -272,7 +271,7 @@ export default function KidsEnglish() {
                             <p>Children in this age range can learn any foreign language with the right professional assistance. Kids have a high sense of creativity and imagination. At, TLN we know how to use this imagination and methodically focuses on aspects of language that boost performance and imagination</p>
                         </div>
                     </div>
-                    <div className="Home-cards" id='Home-card-2' onMouseOver={changeCol2} onMouseLeave={changeBack}>
+                    <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-2' onMouseOver={changeCol2} onMouseLeave={changeBack}>
                         <div className="Home-card-img">
                             <img src='/images/Kids@300x-1.png' alt='img' />
                         </div>
@@ -281,7 +280,7 @@ export default function KidsEnglish() {
                             <p>Students in this age group are usually energetic, curious, and eager to explore the world! At TLN, we teach more than just the language. We take you through the culture; traditions, clothing, food, festivals, etc. This means that you are learning more than the writing system or pronunciation.</p>
                         </div>
                     </div>
-                    <div className="Home-cards" id='Home-card-3' onMouseOver={changeCol3} onMouseLeave={changeBack}>
+                    <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-3' onMouseOver={changeCol3} onMouseLeave={changeBack}>
                         <div className="Home-card-img">
                             <img src='/images/adults@300x.png' alt='img' />
                         </div>
@@ -340,36 +339,37 @@ export default function KidsEnglish() {
                         <h2 class="accordion-header mb-0" id="flush-headingOne">
                             <button class="accordion-button relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left font-bold bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
                                 aria-expanded="false" aria-controls="flush-collapseOne">
-                                How much time will it take to learn English?
+                                Why should I enrol my kid in TLN?
                             </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse border-0 collapse show"
                             aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">To learn English, you will need to spend around 1200 hours to achieve an advanced level. There are totally six levels of learning English. The basic levels include A1 and A2. Advanced levels include B1, B2, C1, and C2. C2 is the topmost level of English. After completing C2, you will speak godly English.</div>
+                            <div class="accordion-body py-4 px-5">TLN offers one-on-one batches. We give special attention to all our students. We have hired expert teachers for all our batches. We teach all aspects of language learning while focusing on the spoken part. Our English language course for kids covers grammar and vocabulary, speaking, reading, writing, and listening.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingTwo">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
                                 aria-expanded="false" aria-controls="flush-collapseTwo">
-                                What is the duration of our English language course?
+                                What makes TLN different from other language learning institutes?
                             </button>
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingTwo"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">The duration of our courses range from two months to two years. It depends on the level you are taking. Duration for each level is different. We provide all six levels of English.</div>
+                            <div class="accordion-body py-4 px-5">We only have one-on-one batches. We prepare our students for international exams. We have hand-tailored study plans to meet each student’s learning needs. Our English language course for kids also covers the English culture which tremendously helps language learning.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingThree">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
                                 aria-expanded="false" aria-controls="flush-collapseThree">
-                                Do I get additional resources with the English language course?
+                                What is the duration of each class?
                             </button>
                         </h2>
                         <div id="flush-collapseThree" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingThree"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">Yes, there are additional resources when it comes to our English language course. They include movie screening, podcasts, online grammar activities, translation activities, etc.</div>
+                            <div class="accordion-body py-4 px-5">The duration of each English language course for kids is 1 hour. It is perfect for their attention spans.
+                            </div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
@@ -388,88 +388,50 @@ export default function KidsEnglish() {
                         <h2 class="accordion-header mb-0" id="flush-headingFive">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
                                 aria-expanded="false" aria-controls="flush-collapseFive">
-                                How can I improve my English?
+                                Can the classes be downloaded?
                             </button>
                         </h2>
                         <div id="flush-collapseFive" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFive"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">Work on the four aspects of learning English. They include reading, writing, speaking, and listening. If you work on these four aspects, your English will automatically improve. In addition to this, also focus on grammar and vocabulary. Make a list of words that you have learned. Also, make a list of English words that you want to learn.</div>
+                            <div class="accordion-body py-4 px-5">Yes, the online classes can be downloaded. We also provide the downloaded classes to our students for a wholesome learning.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingSix">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
                                 aria-expanded="false" aria-controls="flush-collapseSix">
-                                Which is better among American English and British English?
+                                How many students do we accommodate in one batch?
                             </button>
                         </h2>
                         <div id="flush-collapseSix" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSix"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">Both are good. They are almost identical, with slight differences in spellings. Some countries prefer American English. In India, we use British English. Depending on your geographical location, you can pick one of the two variations.</div>
+                            <div class="accordion-body py-4 px-5">We do not have group batches for kids and adolescents. We only have one-on-one batches for kids. We believe that kids need more specialised attention so our English language course for kids only accommodates one student at a time.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingSeven">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
                                 aria-expanded="false" aria-controls="flush-collapseSeven">
-                                How many students are accommodated in one batch?
+                                What if I have doubts?
                             </button>
                         </h2>
                         <div id="flush-collapseSeven" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSeven"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">The Language Network offers you the choice to join classes 1:1, duo or in a group. 1:1 or duo offers personal attention, greater understanding, and detailed study of the language. Group classes, on the other hand, offer more interaction, speaking practice, and people to practice the language with.</div>
+                            <div class="accordion-body py-4 px-5">If you have any doubts, feel free to contact our language experts. They will surely help you with your doubts and issues. </div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingEight">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight"
                                 aria-expanded="false" aria-controls="flush-collapseEight">
-                                Do you provide a free demo class?
+                                Do you provide study material for enrolled students?
                             </button>
                         </h2>
                         <div id="flush-collapseEight" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingEight"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">Yes, we do provide a free demo class. <a>Click here to register for a free trial class</a> in the language of your choice today!</div>
+                            <div class="accordion-body py-4 px-5">Yes, we do provide study material to our students. We also have several activities in our English language course for kids. </div>
                         </div>
                     </div>
-                    <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
-                        <h2 class="accordion-header mb-0" id="flush-headingNine">
-                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine"
-                                aria-expanded="false" aria-controls="flush-collapseNine">
-                                How can I book a course with TLN?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseNine" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingNine"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">If you wish to book an English language course with The Language Network, register with us here. We have also mentioned the prices of our English language course.</div>
-                        </div>
-                    </div>
-                    <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
-                        <h2 class="accordion-header mb-0" id="flush-headingTen">
-                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen"
-                                aria-expanded="false" aria-controls="flush-collapseTen">
-                                Can I get class timings according to our convenience?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseTen" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingTen"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">Yes, you absolutely can get timings to match your convenience. We offer weekday and weekend batches, so you can choose whichever suits your schedule the best.</div>
-                        </div>
-                    </div>
-                    <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
-                        <h2 class="accordion-header mb-0" id="flush-headingEleven">
-                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven"
-                                aria-expanded="false" aria-controls="flush-collapseEleven">
-                                What is included in the curriculum?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseEleven" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingEleven"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">Our English language course’s curriculum includes Basic greetings, Phonetics, Grammar, Vocabulary, Communication, Cultural knowledge, Social know-how, etc.</div>
-                        </div>
-                    </div>
-
-
                 </div>
             </div>
 
