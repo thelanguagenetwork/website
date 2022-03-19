@@ -11,19 +11,19 @@ export default function Dict() {
 
     const [word, setWord] = useState("");
     const [definitions, setDefinitions] = useState([])
-    const [exist, setExist] = useState(true)
-    const [audio, setAudio] = useState(null)
+    // const [exist, setExist] = useState(true)
+    // const [audio, setAudio] = useState(null)
 
     const fetchDefinition = async () => {
-        try {
-            const resp = await axios.get(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
-            console.log(resp)
-            console.log(word)
 
-            updateState(resp.data)
-        } catch (err) {
-            setExist(false)
-        }
+        const resp = await axios.get(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
+        console.log(resp)
+        console.log(word)
+
+        updateState(resp.data)
+        // } catch (err) {
+        //     setExist(false)
+        // }
     }
 
     const handleSubmit = (event) => {
@@ -36,10 +36,10 @@ export default function Dict() {
 
     const updateState = data => {
         setDefinitions(data)
-        const phonetics = data[0].phonetics
-        if (!phonetics.length) return;
-        const url = phonetics[0].audio.replace('//ssl', 'https://ssl');
-        setAudio(new Audio(url));
+        // const phonetics = data[0].phonetics
+        // if (!phonetics.length) return;
+        // const url = phonetics[0].audio.replace('//ssl', 'https://ssl');
+        // setAudio(new Audio(url));
     }
 
     useEffect(() => {
@@ -105,26 +105,50 @@ export default function Dict() {
                 <div className="mx-10 lg:mx-32">
 
 
-                    {definitions.map((def, idx) =>
+                    {/* {definitions.map((def, idx) =>
                         <Fragment key={idx}>
-                            <Divider sx={{ display: idx === 0 ? 'none' : 'block', my: 3 }} />
+
                             {def.meanings.map(meaning =>
-                                <Box key={Math.random()} sx={{
-                                    boxShadow: '0px 10px 25px rgba(0, 0, 0, 0.05)',
-                                    backgroundColor: '#fff',
-                                    p: 2,
-                                    borderRadius: 2,
-                                    mt: 3
-                                }}>
+                                <>
                                     <Typography sx={{ textTransform: 'capitalize' }} color="GrayText" variant="subtitle1"><h1 className='font-bold uppercase'>{meaning.partOfSpeech}</h1></Typography>
                                     {meaning.definitions.map((definition, idx) => <Typography sx={{ my: 1 }} variant="body2" color="GrayText" key={definition.definition}>{meaning.definitions.length > 1 && `${idx + 1}. `} {definition.definition}</Typography>)}
-                                </Box>
+                                </>
                             )}
                         </Fragment>
-                    )}
+                    )} */}
+                    
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            {definitions.map((def, idx) =>
+                                <Fragment key={idx}>
+
+                                    {def.meanings.map(meaning =>
+                                        <>
+                                            <div class=" accordion-item border-t-0 border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+                                                <h2 class="accordion-header mb-0" id="flush-headingOne">
+                                                    <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target={`#${meaning.partOfSpeech}`}
+                                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                                        {meaning.partOfSpeech}
+                                                    </button>
+                                                </h2>
+
+                                                {meaning.definitions.map((definition, idx) => <div id={meaning.partOfSpeech} class="accordion-collapse border-0 collapse"
+                                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body py-4 px-5">{meaning.definitions.length > 1 && `${idx + 1}. `} {definition.definition}</div>
+                                                </div>)}
+                                            </div>
+                                        </>
+                                    )}
+                                </Fragment>
+                            )}
+
+
+                        </div>
+                   
+
                 </div>
+
             </section>
-{/* 
+            {/* 
             <section class="mx-36 my-9 space-y-9">
                 <div class="alpha-text space-x-7">
                     <button class="alpha py-2 w-16">A</button>

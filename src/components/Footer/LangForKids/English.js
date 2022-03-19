@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaRegWindowMinimize } from 'react-icons/fa';
+import { FaRegWindowMinimize, FaLightbulb } from 'react-icons/fa';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 
@@ -35,101 +35,24 @@ export default function KidsEnglish() {
     }
     return (
         <div>
-            <div className="AdultEnglish h-[70vh]" >
+
+            <div className="h-[100vh] px-28 flex flex-row items-center">
+                <div className='lg:w-1/2'>
+                    <h2 className='font-semibold text-4xl'>Levels of Language Learning for Kids and Adolescents</h2>
+                    <p className='text-sm text-[#54595f] my-3'>At The Language Network, we believe in holistic learning. Our English language course for kids covers all the 10 Grades. Learning English at an early age will be extremely beneficial for kids of all ages ranging from 6 years to 14 years.</p>
+                    <p className='text-sm text-[#54595f] my-3'  >Enrol your child in our English language course and keep your child ahead of his peers. There is no better feeling than seeing your child get confident in his day to day life.</p>
+                </div>
+                <div className='lg:w-1/2'>
+                    <img src="/images/TLN_English-elements.png" alt="img" />
+                </div>
+            </div>
+            <div className="KidsEnglish h-[70vh]" >
                 <div className="bg-[rgba(0,0,0,0.4)] h-full ">
                     <div className='h-full flex flex-col justify-center align-left w-[40rem] mx-32'>
                         <h1 className='text-4xl leading-snug text-white font-bold'>English Classes for Adults</h1>
                         <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online English classes for adults (14+ years old) with professional teachers.</h1>
                         <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button>
                     </div>
-                </div>
-            </div>
-            <div className="h-[100vh] px-28 flex flex-row items-center">
-                <div className='lg:w-1/2'>
-                    <h2 className='font-medium text-4xl'>Learn English online with TLN</h2>
-                    <p className='text-sm text-[#54595f] my-3'>Learn English with our English language course online. We provide courses for beginners as well as advanced level learners. Our English language courses cover everything from English grammar to pronunciation.</p>
-                    <p className='text-sm text-[#54595f] my-3'  >Learn English with The Language Network and become fluent in English. Our English language courses are adjusted to meet every learner’s personal learning needs. </p>
-                </div>
-                <div className='lg:w-1/2'>
-                    <img src="/images/TLN_English-elements.png" alt="img" />
-                </div>
-            </div>
-            <div className='w-full text-center text-4xl font-medium '>How is learning English with TLN unique?</div>
-            <div className='w-full lg:px-32 py-18 flex flex-row flex-wrap  justify-evenly'>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Interview preparations</h3>
-                    <p className='text-sm text-gray-700'>We prepare our students for interviews. So don’t just learn English with us, also focus on other aspects that are necessary for sustenance. Get the confidence you will need to ace interviews. </p>
-                </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>CV making</h3>
-                    <p className='text-sm text-gray-700'>We teach our students the art of making CVs. We have to compete in a cutthroat competition. So it is necessary to work on skills like CV making.</p>
-                </div>
-                <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-24@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>IELTS and TOEFL preparations</h3>
-                    <p className='text-sm text-gray-700'>Trainers at TLN also teach how to crack exams like IELTS and TOEFL. These standardised exams are important for students who are looking forward to travelling abroad. We make sure that our students get the proper training they need to crack these exams and learn English.  </p>
-                </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Focus on Spoken English</h3>
-                    <p className='text-sm text-gray-700'>When you learn English, we expect that you get better at speaking English. We need to specifically focus on spoken English in order to make it better. At TLN, we give special attention to the spoken part of the language.  </p>
-                </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Progress with Study plans</h3>
-                    <p className='text-sm text-gray-700'>We have hand-tailored study plans to meet your learning needs. Now learn English with our master plans and ace at spoken English. Our English language courses are carefully made by considering your needs.  </p>
-                </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Small Batches</h3>
-                    <p className='text-sm text-gray-700'>Learn English courses online with us because we understand how learning works. We organise small batches so that you can practice grammar and vocabulary efficiently with our expert trainers.   </p>
-                </div>
-            </div>
-
-            <div className='w-full lg:mt-20 text-center text-4xl font-medium '>How to learn English effectively?</div>
-            <div className='p-28 flex lg:flex-row'>
-                <div className='w-5/6 self-center   '>
-                    <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
-                </div>
-                <div className='w-auto flex flex-col'>
-                    <div className='flex flex-row group h-auto px-16 py-6'>
-                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
-                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
-                        </div>
-                        <div>
-                            <h1 className='text-2xl font-medium'>Grammar and Vocabulary</h1>
-                            <p className='text-[#54595f] pt-2'>Learn English effectively and efficiently by adhering to our guidelines. There are various tricks and tips you need to follow to learn English. We make sure that our English language courses focus on grammar and vocabulary.</p>
-                        </div>
-                    </div>
-                    <div className='flex flex-row group h-auto px-16 py-6'>
-                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
-                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
-                        </div>
-                        <div>
-                            <h1 className='text-2xl font-medium'>Listening and Speaking</h1>
-                            <p className='text-[#54595f] pt-2'>Learn English courses online with The Language Network because we focus on spoken English. We train our students to listen and speak English proficiently.</p>
-                        </div>
-                    </div>
-                    <div className='flex flex-row group h-auto px-16 py-6'>
-                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
-                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
-                        </div>
-                        <div>
-                            <h1 className='text-2xl font-medium'>Connect with the culture</h1>
-                            <p className='text-[#54595f] pt-2'>Our English language courses not only focus on learning English but also focus on the culture associated with it. Learn English with us and stay updated with the latest slang and expressions.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className='w-full lg:mt-20 text-center text-4xl font-medium '>TLN and International Exams</div>
-            <p className='text-center w-full px-60 pt-4 text-sm text-[#54595f]'> We want our students to excel in international exams like TOEFL and IELTS. We teach our students how to learn English in a way that will help them ace these standardised tests. All aspects of the test, including pronunciation, vocabulary, listening part, is being taken care of at TLN. We ensure that once you learn something you won’t forget it.</p>
-            <div className='group w-full flex flex-col items-center my-10'>
-                <img src="/images/exam-Cambridge-English.jpg" alt="img" className='w-60' />
-                <div className='shadow-xl text-center lg:w-2/3 p-4'>
-                    <h3 className='text-lg font-bold pb-3 group-hover:text-amber-400 ease-in duration-300'>Cambridge Assesment English</h3>
-                    <p className='text-sm text-[#54595f]'>Cambridge English Qualifications are in-depth exams that make learning English enjoyable, effective and rewarding. Cambridge English Qualifications are known and recognised by schools, universities, private and public sector employers all over the English-speaking world. Success in a Cambridge English Qualification provides you with an internationally recognised certificate showing the level you have attained in English. The official test assesses all English skills and indicates your CEFR level (A1-C1). It can be used to prove your English level to employers and educational institutions worldwide.</p>
                 </div>
             </div>
 
@@ -148,9 +71,187 @@ export default function KidsEnglish() {
                     <p className='text-sm text-[#54595f]'>These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and C2 the most advanced.</p>
                 </div>
                 <div className='Home-container-5-sec-2'>
-                    <img src='/images/CEFR-LEVELS-1.png' alt='img' />
+                    <img src='/images/French-levels@300x-1536x931.png' alt='img' />
                 </div>
             </div>
+            <div className='w-full text-center font-semibold text-4xl'>Benefits of Learning English with TLN?</div>
+            <section class="text-gray-600 body-font">
+                <div class="container px-5 py-20 mx-auto">
+                    <div class="flex flex-wrap -m-4">
+                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                            <div class="border border-gray-200 p-6 rounded-lg">
+                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
+                                    <FaLightbulb className='w-full h-full' />
+                                </div>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Language Immersion</h2>
+                                <p class="leading-relaxed text-base">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
+                            </div>
+                        </div>
+                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                            <div class="border border-gray-200 p-6 rounded-lg">
+                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
+                                    <FaLightbulb className='w-full h-full' />
+                                </div>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Experienced Teachers</h2>
+                                <p class="leading-relaxed text-base">We have hired a team of experienced professionals to teach our students. Now learn only from the best and become a master of the English language.</p>
+                            </div>
+                        </div>
+                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                            <div class="border border-gray-200 p-6 rounded-lg">
+                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
+                                    <FaLightbulb className='w-full h-full' />
+                                </div>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Simple to Complex Learning Curve</h2>
+                                <p class="leading-relaxed text-base">Our English language course for kids start from simple English and then covers complex aspects of the language. We understand the learning needs of our students and teach them accordingly.</p>
+                            </div>
+                        </div>
+                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                            <div class="border border-gray-200 p-6 rounded-lg">
+                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
+                                    <FaLightbulb className='w-full h-full' />
+                                </div>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Classes from Home</h2>
+                                <p class="leading-relaxed text-base">The Language Network is an online language school. You do not need to waste your time and money to learn English now. Join TLN and learn from within the comforts of your own home.</p>
+                            </div>
+                        </div>
+                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                            <div class="border border-gray-200 p-6 rounded-lg">
+                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
+                                    <FaLightbulb className='w-full h-full' />
+                                </div>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Age-appropriate program</h2>
+                                <p class="leading-relaxed text-base">Our English courses for kids are hand-tailored to meet the learning needs of children. Our courses are age-appropriate and focus on all aspects of language learning in an easy and understandable way.</p>
+                            </div>
+                        </div>
+                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                            <div class="border border-gray-200 p-6 rounded-lg">
+                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
+                                    <FaLightbulb className='w-full h-full' />
+                                </div>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">European Standard of Education</h2>
+                                <p class="leading-relaxed text-base">We have created our courses by carefully considering the European standards of education. We also teach our students how to crack international language exams.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div className='w-full text-center text-4xl font-medium '>Why learn a language with TLN?</div>
+            <div className='w-full lg:px-32 py-18 flex flex-row flex-wrap  justify-evenly'>
+                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
+                    <p className='text-sm text-gray-700'>Our English language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
+                </div>
+                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
+                    <p className='text-sm text-gray-700'>You can monitor your child’s progress with our English language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
+                </div>
+                <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-24@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
+                    <p className='text-sm text-gray-700'>
+                        Our curriculum is created by carefully integrating all aspects of language learning. Our Learn English for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
+                </div>
+                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>Learn from experts</h3>
+                    <p className='text-sm text-gray-700'>
+                        After an extensive hiring process, we have carefully handpicked language experts, who are efficient in teaching kids and adolescents. Leave your children with our English language experts and expect nothing but better results.  </p>
+                </div>
+                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>Career Guidance</h3>
+                    <p className='text-sm text-gray-700'>
+                        Our language trainers will guide your children to excel in their academic life. We will also conduct career counselling when it is needed. Push your kids to a new height with our English language courses.  </p>
+                </div>
+                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>International Exams</h3>
+                    <p className='text-sm text-gray-700'>
+                        TLN believes that all its students should appear for international exams like Cambridge. From an early age, we prepare them for these international exams.   </p>
+                </div>
+                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>Cultural Sensitivity</h3>
+                    <p className='text-sm text-gray-700'>
+
+                        Our English language course for kids and adolescents also includes cultural learning. We believe that Cultural learning is important when it comes to language learning. It helps the students learn more efficiently. Thus, we focus on the culture associated with the language.   </p>
+                </div>
+                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>Get Certified Results</h3>
+                    <p className='text-sm text-gray-700'>
+
+                        We provided certificates as our students excel in language learning. It ensures that the students will aim higher and be more motivated. Certificates are good for boosting student morale. Learn English with TLN and give wings to your children’s dreams.   </p>
+                </div>
+            </div>
+
+            <div className='w-full lg:mt-20 text-center text-4xl font-medium '>How is learning English beneficial for kids?</div>
+            <div className='p-28 flex flex-col lg:flex-row'>
+                <div className='w-full lg:w-[50rem] self-center   '>
+                    <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
+                </div>
+                <div className='w-full flex flex-col'>
+                    <div className='flex flex-row group h-auto px-16 py-6'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-2xl font-medium'>Get a Head Start</h1>
+                            <p className='text-[#54595f] pt-2'>Start learning English from an early age and keep your child ahead of their peers. Give your child a head start and keep them motivated. Learning English for Kids will benefit your child exponentially.</p>
+                        </div>
+                    </div>
+                    <div className='flex flex-row group h-auto px-16 py-6'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-2xl font-medium'>
+                                Cognitive Benefits</h1>
+                            <p className='text-[#54595f] pt-2'>The earlier you learn English, the better you get at communication. Start your kid’s learning from a young age and make your child a master of confident communication. There is no greater feeling than seeing your child practice confidence in their day to day life.</p>
+                        </div>
+                    </div>
+                    <div className='flex flex-row group h-auto px-16 py-6'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-2xl font-medium'>Confident Communication</h1>
+                            <p className='text-[#54595f] pt-2'>The earlier you learn English, the better you get at communication. Start your kid’s learning from a young age and make your child a master of confident communication. There is no greater feeling than seeing your child practice confidence in their day to day life.</p>
+                        </div>
+                    </div>
+                    <div className='flex flex-row group h-auto px-16 py-6'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-2xl font-medium'>Early Learning Benefits</h1>
+                            <p className='text-[#54595f] pt-2'>When your child starts learning early, they learn much more than others. Early age learning benefits your child in multiple ways. It helps them build a strong personality.</p>
+                        </div>
+                    </div>
+                    <div className='flex flex-row group h-auto px-16 py-6'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-2xl font-medium'>Boost Academic Achievements</h1>
+                            <p className='text-[#54595f] pt-2'>When you start learning English at an early age, you become so fluent that other subjects become easier too. Memorising theoretical subjects becomes a piece of cake. This boosts your overall academic achievement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='w-full lg:mt-20 text-center text-4xl font-medium '>TLN and International Exams</div>
+            <p className='text-center w-full px-60 pt-4 text-sm text-[#54595f]'> We want our students to excel in international exams like TOEFL and IELTS. We teach our students how to learn English in a way that will help them ace these standardised tests. All aspects of the test, including pronunciation, vocabulary, listening part, is being taken care of at TLN. We ensure that once you learn something you won’t forget it.</p>
+            <div className='group w-full flex flex-col items-center my-10'>
+                <img src="/images/exam-Cambridge-English.jpg" alt="img" className='w-60' />
+                <div className='shadow-xl text-center lg:w-2/3 p-4'>
+                    <h3 className='text-lg font-bold pb-3 group-hover:text-amber-400 ease-in duration-300'>Cambridge Assesment English</h3>
+                    <p className='text-sm text-[#54595f]'>Cambridge English Qualifications are in-depth exams that make learning English enjoyable, effective and rewarding. Cambridge English Qualifications are known and recognised by schools, universities, private and public sector employers all over the English-speaking world. Success in a Cambridge English Qualification provides you with an internationally recognised certificate showing the level you have attained in English. The official test assesses all English skills and indicates your CEFR level (A1-C1). It can be used to prove your English level to employers and educational institutions worldwide.</p>
+                </div>
+            </div>
+
             <div className='flex flex-col items-center '>
                 <div className="Home-container-3 ">
                     <h1>
@@ -226,7 +327,7 @@ export default function KidsEnglish() {
                         </div>
                     </div>
 
-                    
+
                 </div>
             </section>
 
