@@ -97,11 +97,23 @@ export default function Dict() {
                         </div>
                     </div>
                 </div>
+
+
+
                 <form className="mt-14 w-auto mx-10 lg:mx-52" onSubmit={handleSubmit}>
                     <div class="flex w-full mb-10">
-                        <input name="field_name" class="rounded-r px-4 py-2 w-full" type="text" placeholder="Write something here..." onChange={event => setWord(event.target.value)} />
+                        <input name="field_name" class="rounded-r px-4 py-2 w-11/12" type="text" placeholder="Write something here..." onChange={event => setWord(event.target.value)} />
+                        <span class="text-white flex items-center justify-center border-none">
+                        <span onClick = {handleSubmit} class="flex items-center justify-center text-white" id="basic-addon2">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path>
+                            </svg>
+                        </span>
+                        </span>
                     </div>
                 </form>
+                
+
                 <div className="mx-10 lg:mx-32">
 
 
@@ -116,9 +128,9 @@ export default function Dict() {
                             )}
                         </Fragment>
                     )} */}
-                    
-                        
-                            {definitions.map((def, idx) =><div class="accordion accordion-flush" id="accordionFlushExample">
+
+
+                    {/* {definitions.map((def, idx) =><div class="accordion accordion-flush" id="accordionFlushExample">
                                 <Fragment key={idx}>
 
                                     {def.meanings.map(meaning =>
@@ -141,15 +153,40 @@ export default function Dict() {
                                         </>
                                     )}
                                 </Fragment></div>
-                            )}
+                            )} */}
 
 
-                        
-                   
+
+
 
                 </div>
 
+
             </section>
+            {definitions.map((def, idx) => <div class="accordion accordion-flush pt-10 px-20 lg:px-30" id="accordionFlushExample">
+                <Fragment key={idx}>
+
+                    {def.meanings.map(meaning =>
+                        <>
+                            <div class="accordion-item border-t-0 border-l-0 border-r-0 rounded-md bg-white border border-gray-200 mb-10 lg:mx-20">
+
+                                <h2 class="accordion-header mb-0" id="flush-headingOne">
+                                    <button class="rounded-md accordion-button collapsed relative items-center flex flex-row w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target={`#${meaning.partOfSpeech}`}
+                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                        {meaning.partOfSpeech}
+                                    </button>
+                                </h2>
+                                {meaning.definitions.map((definition, idx) =>
+                                    <div id={meaning.partOfSpeech} class="accordion-collapse border-0 collapse"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body py-4 px-5">{meaning.definitions.length > 1 && `${idx + 1}. `} {definition.definition}</div>
+                                    </div>)}
+
+                            </div>
+                        </>
+                    )}
+                </Fragment></div>
+            )}
             {/* 
             <section class="mx-36 my-9 space-y-9">
                 <div class="alpha-text space-x-7">
