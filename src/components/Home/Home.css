@@ -32,35 +32,10 @@
     position: relative;
     background-image: url('/public/images/bg-blob.png');
     background-repeat: no-repeat;
-    width: 100%;
-    padding-inline: 5%;
-    height: 520px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
     background-size: contain;
     background-position: right;
 }
 
-
-.Home-container-1-sec-1 {
-    width: 55%;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-}
-
-.Home-container-1-sec-1 > h1 {
-    display: flex;
-    align-items: center;
-    font-family: poppins,Sans-serif;
-    font-size: 17px;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: #13bfab;
-}
 
 .Home-container-1-sec-1 > h2{
     color: #191919;
@@ -141,9 +116,7 @@
 
 
 .Home-container-2{
-    width: 80%;
     text-align: center;
-    padding-top: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -329,7 +302,6 @@
 .Home-container-6{
     height: 30vh;
     width: 100%;
-    padding-inline: 18%;
 }
 
 .swiper {
@@ -370,16 +342,6 @@
     padding: 80px 0 0;
 }
 
-.Home-container-6-text > h1{
-    color: #13bfab;
-    font-family: 'Poppins',Sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    line-height: 1;
-    margin: 0;
-}
 
 .Home-container-6-text > h2{
     color: #000;
@@ -571,7 +533,6 @@
 
 
 .Home-container-8{
-    height: 60vh;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -605,8 +566,8 @@
     display: inline-block;
     transition: transform .2s ease-in-out;
     vertical-align: top;
-    padding: 25px;
-    margin: 1.5rem 0;
+    padding: 0;
+    margin: 1.5rem;
     z-index: 0;
     border: none;
 }
@@ -805,33 +766,26 @@
     font-size: 17px;
     font-weight: 400;
 }
-.Home-container-10-overlay{
-    min-width: 100%;
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    bottom: -200px;
-}
+
 
 .overlay-box{
     background-color: #fff;
     box-shadow: 0 0 20px 0 rgb(163 163 163 / 11%);
     width: 25%;
-    height: 180px;
+    height: auto;
+    padding: 15px 15px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;    
     border-radius: 20px 20px 20px 20px;
-    margin-inline: 20px;
+    margin-inline: 10px;
 }
 
 
 .overlay-box > h1 {
     position: relative;
     font-family: 'Poppins',Sans-serif;
-    font-size: 30px;
     font-weight: 800;
     font-style: normal;
     line-height: 30px;
@@ -840,9 +794,7 @@
 
 .overlay-box > h2 {
     font-weight: 400;
-    line-height: 2.5;
     font-family: 'Poppins',Sans-serif;
-    font-size: 19px;
     font-weight: 400;
 }
 
@@ -850,7 +802,6 @@
     display: flex;
     flex-direction: row;
     color: #ffab1b;
-    font-size: 25px;
 }
 
 .Home-container-11{

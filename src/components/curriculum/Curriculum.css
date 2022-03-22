@@ -3,24 +3,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.curriculum{
-    position: relative;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
-.curr-container-1{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 50px 120px 50px 120px;
-}
 
-.curr-container-1-text{
-    width: 40%;
-}
+
 
 .curr-container-1-img{
     display: flex;
@@ -28,35 +13,6 @@
     justify-content: center;
     width: 60%;
 }
-
-.curr-container-1-text > h1{
-    color: #f2b919;
-    font-family: 'Poppins',Sans-serif;
-    font-size: 17px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-}
-.curr-container-1-text > h2{
-    font-family: 'Poppins',Sans-serif;
-    font-size: 40px;
-    /* font-weight: 600; */
-    line-height: 1em;
-    color: #191919;
-} 
-
-.curr-container-1-text > ul{
-    color: #54595f;
-}
-
-.curr-container-1-text{
-    font-family: 'Poppins',Sans-serif;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 1em;
-    vertical-align: baseline;
-}
-
 
     .curr-container-1-img > img {
         width: 70%;
