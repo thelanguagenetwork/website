@@ -44,7 +44,7 @@ export default function Footer() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-1 col-lg-2 col-md-6 mb-30 mx-12">
+                            <div className="col-xl-1 col-lg-2 col-md-6 mb-30 lg:mx-12">
                                 <div className="footer-widget">
                                     <div className="footer-widget-heading">
                                         <h3>Company</h3>

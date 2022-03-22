@@ -10,7 +10,7 @@ import IntroCourse from './components/Footer/LangForAdults/IntroCourse';
 import Dict from './components/Footer/dict/dict';
 import Blog from './components/Footer/blog/Blog';
 import AdultsEnglish from './components/Footer/LangForAdults/English';
-// import AdultsFrench from './components/Footer/LangForAdults/French';
+import AdultsFrench from './components/Footer/LangForAdults/French';
 import AdultsSpanish from './components/Footer/LangForAdults/Spanish';
 import AdultsGerman from './components/Footer/LangForAdults/German';
 import AdultsMandarin from './components/Footer/LangForAdults/Mandarin';
@@ -38,7 +38,7 @@ function App() {
           {/* Language For Adults */}
           <Route exact path='/IntoCourses' element={<IntroCourse />} />
           <Route exact path='/english-course-adults' element={<AdultsEnglish />} />
-          {/* <Route exact path='/french-course-adults' element={<AdultsFrench />} /> */}
+          <Route exact path='/french-course-adults' element={<AdultsFrench />} />
           <Route exact path='/spanish-course-adults' element={<AdultsSpanish />} />
           <Route exact path='/german-course-adults' element={<AdultsGerman />} />
           <Route exact path='/mandarin-course-adults' element={<AdultsMandarin />} />
