@@ -51,6 +51,7 @@ class Header extends react.Component {
         dom.style.height = '0';
       }
     }
+    
 
 
     return (
@@ -63,51 +64,18 @@ class Header extends react.Component {
               <AiOutlineCloseSquare style={{ color: '#000', float: 'right', fontSize: '37px' }} onMouseDown={menuBackRetract} />
             </CloseBtn>
             <Lists>
-              <li>Curriculum</li>
+              <li><Link to="Curriculum" spy={true} smooth={false}>
+                  Curriculum
+                </Link></li>
               <li onMouseDown={curriListMExpand}>Courses
                 <IoIosArrowDown />
               </li>
               <div id='curriListM' >
                 <ul>
-                  <span>KIDS COURSES</span>
-                  <a href=''>English for kids</a>
-                  <a href=''>French for kids</a>
-                  <a href=''>Spanish for kids</a>
-                  <a href=''>German for kids</a>
-                  <a href=''>Mandarin for kids</a>
-                  <a href=''>Japanese for kids</a>
-                  <a href=''>Korean for kids</a>
+                  <a href='/AdultsCourses'>ADULTS COURSES</a>
                 </ul>
                 <ul>
-                  <span>ADOLESCENTS COURSES</span>
-                  <a>English for adolescents</a>
-                  <a>French for adolescents</a>
-                  <a>Spanish for adolescents</a>
-                  <a>German for adolescents</a>
-                  <a>Mandarin for adolescents</a>
-                  <a>Japanese for adolescents</a>
-                  <a>Korean for adolescents</a>
-                </ul>
-                <ul>
-                  <span>KIDS COURSES</span>
-                  <a>Introductory Courses</a>
-                  <a>Learn English</a>
-                  <a>Learn French</a>
-                  <a>Learn Spanish</a>
-                  <a>Learn German</a>
-                  <a>Learn Mandarin</a>
-                  <a>Learn Japanese</a>
-                  <a>Learn Korean</a>
-                </ul>
-                <ul>
-                  <span>PRICING</span>
-                  <a>English</a>
-                  <a>French</a>
-                  <a>Spanish</a>
-                  <a>German</a>
-                  <a>Mandarin</a>
-                  <a>Japanese</a>
-                  <a>Korean</a>
+                  <a href='/KidsCourses'>KIDS COURSES</a>
                 </ul>
               </div>
               <li>Book a trail</li>

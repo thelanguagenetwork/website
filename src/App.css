@@ -2,7 +2,7 @@
 
 .App{
     position: relative;
-    overflow: scroll;
+    overflow: hidden;
     background-color: white;
     /* background: fixed; */
 }

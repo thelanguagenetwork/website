@@ -86,8 +86,8 @@ export default function Home() {
     return (
         <div className='Home'>
             <div className='Home-container-1 w-full px-4 lg:px-26 relative h-auto flex flex-col lg:flex-row justify-center items-center content-center flex-wrap' >
-                <div className='w-full lg:w-5/12 flex flex-col space-y-8'>
-                    <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab]'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>
+                <div className='w-full lg:w-5/12 flex flex-col space-y-6'>
+                    <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab] pt-2'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>
                     <h2 className='text-black font-semibold text-5xl'>Learn a Language in less than 3 months</h2>
                     <span>At The Language Network, we help you master a new foreign language of your choice from the comfort of your home.</span>
                     <div><button type="button" class="btn btn-info text-white" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '16px', paddingRight: '30px', paddingBottom: '16px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Book a trial</button></div>
