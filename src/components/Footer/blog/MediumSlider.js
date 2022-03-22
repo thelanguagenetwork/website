@@ -10,7 +10,7 @@ class MediumSlider extends React.Component {
     this.state = { itemRows: [], avatar: "", profileLink: "" };
   }
   mediumURL =
-    "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@geniegradz";
+    "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@marketing_63160";
   async componentDidMount() {
     await axios
       .get(this.mediumURL)
