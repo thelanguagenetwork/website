@@ -33,8 +33,8 @@ export default function Sec2() {
 
 
     return (
-        <div>
-            <div className='w-full flex justify-center'>
+        <div className='w-full'>
+            <div className='w-full flex lg:flex-row flex-col lg:justify-center items-center'>
                 <a onClick={() => {change("Adults-Curriculum");setLvl(1);}} id={Lvl === 1 ? 'btnP' : ''} class="buttons bg-white py-2.5 px-4 rounded-lg shadow mx-3">
                     Adults Curriculum
                 </a>

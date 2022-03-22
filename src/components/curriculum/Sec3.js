@@ -33,7 +33,7 @@ export default function Sec3() {
 
     // }
 
-    return <div className='flex flex-col items-center mt-32'>
+    return <div className='relative flex flex-col items-center mt-32'>
         <div className="Home-container-3">
             <h1>
                 Students at The Language Network

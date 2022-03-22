@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Mandarin() {
     return (
-        <div className='flex flex-row w-11/12 '>
+        <div className='flex flex-col lg:flex-row w-full lg:w-11/12 '>
             <div class="p-4 lg:w-1/3 fadeIN">
                 <div class="h-full bg-white drop-shadow-md hover:drop-shadow-xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-left relative">
                     <h2 class="tracking-widest text-2xl title-font font-bold text-black mb-1">HSK1</h2>

@@ -7,7 +7,9 @@
     }
     .Home-container-10-overlay{
         display: none;
+        bottom: -526px;
     }
+    
     .Home-container-1-sec-1{
         width: 100%;
     }
