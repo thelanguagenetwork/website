@@ -35,33 +35,31 @@ export default function AdultsSpanish() {
     }
     return (
         <div>
-            <div className="h-[100vh] pt-10 px-10 lg:px28 lg:flex flex-row items-center">
+            <div className="bg-[url('/public/images/TLN-Adults-Spanish-Banner.jpg')] bg-no-repeat bg-cover bg-center h-[70vh]" >
+                <div className="bg-[rgba(0,0,0,0.4)] h-full ">
+                    <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
+                        <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>Spanish Classes for Adults</h1>
+                        <h1 className='text-md my-10 text-white font-medium'>-to-1 , 1-to-2 and Group Online English classes for adults (14+ years old) with professional teachers.</h1>
+                        <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button>
+                    </div>
+                </div>
+            </div>
+            <div className="pt-10 px-10 lg:px28 lg:flex flex-row items-center">
                 <div className='lg:w-1/2'>
-                    <h2 className='font-semibold text-2xl lg:text-4xl'>Online Spanish for Kids</h2>
-                    <p className='text-sm text-[#54595f] my-3'>Online Spanish classes for kids at The Language Network, is your path to fluency!</p>
-                    <p className='text-sm text-[#54595f] my-3'>Our online Spanish lessons are adjusted to every child’s interests and language goals.</p>
-                    <p className='text-sm text-[#54595f] my-3'>Our main goal is to teach foreign languages to kids in a student-centered learning approach with the assistance of experienced trainers!</p>
-                    <p className='text-sm text-[#54595f] my-3'>Enroll in our online Spanish classes and boost your language skills with our qualified trainers and start seeing your results immediately! Book a free trial and build your path to fluency!</p>
+                    <h2 className='font-semibold text-2xl lg:text-4xl'>Learn Spanish Online with The Language Network</h2>
+                    <p className='text-sm text-[#54595f] my-3'>Learn Spanish online with The Language Network’s Spanish language course. TLN offers Spanish language courses for all age groups. We offer Spanish language courses for beginners, as well as advanced level language learners. </p>
+                    <p className='text-sm text-[#54595f] my-3'>Learn Spanish with The Language Network and master the Spanish language. Our Spanish language courses are hand-tailored to meet every student’s learning need. Now learn Spanish from within the comforts of your own home.</p>
                 </div>
                 <div className='lg:w-1/2 lg:ml-28'>
                     <img src="/images/TLN_Spanish-elements.png" alt="img" />
                 </div>
             </div>
-            <div className="KidsEnglish h-[70vh]" >
-                <div className="bg-[rgba(0,0,0,0.4)] h-full ">
-                    <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
-                        <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>Spanish Classes for Kids</h1>
-                        <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online French classes for kids (6-9 years old) with professional teachers.</h1>
-                        <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button>
-                    </div>
-                </div>
-            </div>
 
             <div className="my-20 lg:flex flex-row">
                 <div className='space-y-2 px-10 lg:px-20'>
-                    <h1 className="font-bold text-3xl lg:text-4xl">Spanish Language Levels for Kids</h1>
+                    <h1 className="font-bold text-3xl lg:text-4xl">Spanish Language Levels for Adults</h1>
                     <p className='text-sm text-[#54595f]'>All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.</p>
-                    <p className='text-sm text-[#54595f]'>Online Spanish for kids is divided into following levels:</p>
+                    <p className='text-sm text-[#54595f]'>Online Spanish for adults is divided into following levels::</p>
                     <ul className='list-disc font-bold text-gray-600 pl-3 leading-10'>
                         <li>Level A1-  A1.1, A1.1</li>
                         <li>Level A2- A2.1, A2.2</li>
@@ -82,7 +80,7 @@ export default function AdultsSpanish() {
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
                                 <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Language Immersion</h2>
-                                <p class="leading-relaxed text-base">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
+                                <p class="leading-relaxed text-base">Now immerse your child in the world of knowledge with our English language course for Adults. Practice English with our language experts and receive lots of positive benefits.</p>
                             </div>
                         </div>
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
@@ -100,7 +98,7 @@ export default function AdultsSpanish() {
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
                                 <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Simple to Complex Learning Curve</h2>
-                                <p class="leading-relaxed text-base">Our English language course for kids start from simple English and then covers complex aspects of the language. We understand the learning needs of our students and teach them accordingly.</p>
+                                <p class="leading-relaxed text-base">Our English language course for Adults start from simple English and then covers complex aspects of the language. We understand the learning needs of our students and teach them accordingly.</p>
                             </div>
                         </div>
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
@@ -118,7 +116,7 @@ export default function AdultsSpanish() {
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
                                 <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Age-appropriate program</h2>
-                                <p class="leading-relaxed text-base">Our English courses for kids are hand-tailored to meet the learning needs of children. Our courses are age-appropriate and focus on all aspects of language learning in an easy and understandable way.</p>
+                                <p class="leading-relaxed text-base">Our English courses for Adults are hand-tailored to meet the learning needs of children. Our courses are age-appropriate and focus on all aspects of language learning in an easy and understandable way.</p>
                             </div>
                         </div>
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
@@ -139,30 +137,30 @@ export default function AdultsSpanish() {
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
-                    <p className='text-sm text-gray-700'>Our English language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
+                    <p className='text-sm text-gray-700'>Our English language course for Adults occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
                 </div>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
-                    <p className='text-sm text-gray-700'>You can monitor your child’s progress with our English language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
+                    <p className='text-sm text-gray-700'>You can monitor your child’s progress with our English language course for Adults. Keep a track of their learning activities and play your part in their holistic learning. </p>
                 </div>
                 <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-24@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
                     <p className='text-sm text-gray-700'>
-                        Our curriculum is created by carefully integrating all aspects of language learning. Our Learn English for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
+                        Our curriculum is created by carefully integrating all aspects of language learning. Our Learn English for Adults curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
                 </div>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Learn from experts</h3>
                     <p className='text-sm text-gray-700'>
-                        After an extensive hiring process, we have carefully handpicked language experts, who are efficient in teaching kids and adolescents. Leave your children with our English language experts and expect nothing but better results.  </p>
+                        After an extensive hiring process, we have carefully handpicked language experts, who are efficient in teaching Adults and adolescents. Leave your children with our English language experts and expect nothing but better results.  </p>
                 </div>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Career Guidance</h3>
                     <p className='text-sm text-gray-700'>
-                        Our language trainers will guide your children to excel in their academic life. We will also conduct career counselling when it is needed. Push your kids to a new height with our English language courses.  </p>
+                        Our language trainers will guide your children to excel in their academic life. We will also conduct career counselling when it is needed. Push your Adults to a new height with our English language courses.  </p>
                 </div>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
@@ -175,7 +173,7 @@ export default function AdultsSpanish() {
                     <h3 className='font-bold text-lg my-2'>Cultural Sensitivity</h3>
                     <p className='text-sm text-gray-700'>
 
-                        Our English language course for kids and adolescents also includes cultural learning. We believe that Cultural learning is important when it comes to language learning. It helps the students learn more efficiently. Thus, we focus on the culture associated with the language.   </p>
+                        Our English language course for Adults and adolescents also includes cultural learning. We believe that Cultural learning is important when it comes to language learning. It helps the students learn more efficiently. Thus, we focus on the culture associated with the language.   </p>
                 </div>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
@@ -186,7 +184,7 @@ export default function AdultsSpanish() {
                 </div>
             </div>
 
-            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium '>How is learning English beneficial for kids?</div>
+            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium '>How is learning English beneficial for Adults?</div>
             <div className='flex flex-col lg:flex-row'>
                 <div className='pl-10 w-3/4 lg:w-[60rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
@@ -198,7 +196,7 @@ export default function AdultsSpanish() {
                         </div>
                         <div>
                             <h1 className='text-2xl font-medium'>Get a Head Start</h1>
-                            <p className='text-[#54595f] pt-2'>Start learning English from an early age and keep your child ahead of their peers. Give your child a head start and keep them motivated. Learning English for Kids will benefit your child exponentially.</p>
+                            <p className='text-[#54595f] pt-2'>Start learning English from an early age and keep your child ahead of their peers. Give your child a head start and keep them motivated. Learning English for Adults will benefit your child exponentially.</p>
                         </div>
                     </div>
                     <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
@@ -266,13 +264,13 @@ export default function AdultsSpanish() {
                             <img src='/images/Adolscents@300x.png' alt='img' />
                         </div>
                         <div className='Home-card-text'>
-                            <h1 id='Home-card-text-h1'>Kids (6-9 years)</h1>
-                            <p>Children in this age range can learn any foreign language with the right professional assistance. Kids have a high sense of creativity and imagination. At, TLN we know how to use this imagination and methodically focuses on aspects of language that boost performance and imagination</p>
+                            <h1 id='Home-card-text-h1'>Adults (6-9 years)</h1>
+                            <p>Children in this age range can learn any foreign language with the right professional assistance. Adults have a high sense of creativity and imagination. At, TLN we know how to use this imagination and methodically focuses on aspects of language that boost performance and imagination</p>
                         </div>
                     </div>
                     <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-2' onMouseOver={changeCol2} onMouseLeave={changeBack}>
                         <div className="Home-card-img">
-                            <img src='/images/Kids@300x-1.png' alt='img' />
+                            <img src='/images/Adults@300x-1.png' alt='img' />
                         </div>
                         <div className='Home-card-text'>
                             <h1 id='Home-card-text-h2'>Adolscents (10-13 years)</h1>
@@ -343,7 +341,7 @@ export default function AdultsSpanish() {
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse border-0 collapse show"
                             aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">TLN offers one-on-one batches. We give special attention to all our students. We have hired expert teachers for all our batches. We teach all aspects of language learning while focusing on the spoken part. Our English language course for kids covers grammar and vocabulary, speaking, reading, writing, and listening.</div>
+                            <div class="accordion-body py-4 px-5">TLN offers one-on-one batches. We give special attention to all our students. We have hired expert teachers for all our batches. We teach all aspects of language learning while focusing on the spoken part. Our English language course for Adults covers grammar and vocabulary, speaking, reading, writing, and listening.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
@@ -355,7 +353,7 @@ export default function AdultsSpanish() {
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingTwo"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">We only have one-on-one batches. We prepare our students for international exams. We have hand-tailored study plans to meet each student’s learning needs. Our English language course for kids also covers the English culture which tremendously helps language learning.</div>
+                            <div class="accordion-body py-4 px-5">We only have one-on-one batches. We prepare our students for international exams. We have hand-tailored study plans to meet each student’s learning needs. Our English language course for Adults also covers the English culture which tremendously helps language learning.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
@@ -367,7 +365,7 @@ export default function AdultsSpanish() {
                         </h2>
                         <div id="flush-collapseThree" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingThree"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">The duration of each English language course for kids is 1 hour. It is perfect for their attention spans.
+                            <div class="accordion-body py-4 px-5">The duration of each English language course for Adults is 1 hour. It is perfect for their attention spans.
                             </div>
                         </div>
                     </div>
@@ -404,7 +402,7 @@ export default function AdultsSpanish() {
                         </h2>
                         <div id="flush-collapseSix" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSix"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">We do not have group batches for kids and adolescents. We only have one-on-one batches for kids. We believe that kids need more specialised attention so our English language course for kids only accommodates one student at a time.</div>
+                            <div class="accordion-body py-4 px-5">We do not have group batches for Adults and adolescents. We only have one-on-one batches for Adults. We believe that Adults need more specialised attention so our English language course for Adults only accommodates one student at a time.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
@@ -428,7 +426,7 @@ export default function AdultsSpanish() {
                         </h2>
                         <div id="flush-collapseEight" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingEight"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">Yes, we do provide study material to our students. We also have several activities in our English language course for kids. </div>
+                            <div class="accordion-body py-4 px-5">Yes, we do provide study material to our students. We also have several activities in our English language course for Adults. </div>
                         </div>
                     </div>
                 </div>

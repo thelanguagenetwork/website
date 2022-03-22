@@ -35,23 +35,23 @@ export default function AdultsMandarin() {
     }
     return (
         <div>
-            <div className="h-[100vh] pt-10 px-10 lg:px28 lg:flex flex-row items-center">
-                <div className='lg:w-1/2'>
-                    <h2 className='font-semibold text-2xl lg:text-4xl'>Levels of Language Learning for Kids and Adolescents</h2>
-                    <p className='text-sm text-[#54595f] my-3'>At The Language Network, we believe in holistic learning. Our English language course for kids covers all the 10 Grades. Learning English at an early age will be extremely beneficial for kids of all ages ranging from 6 years to 14 years.</p>
-                    <p className='text-sm text-[#54595f] my-3'  >Enrol your child in our English language course and keep your child ahead of his peers. There is no better feeling than seeing your child get confident in his day to day life.</p>
-                </div>
-                <div className='lg:w-1/2'>
-                    <img src="/images/TLN_Mandarin-elements.png" alt="img" />
-                </div>
-            </div>
-            <div className="KidsEnglish h-[70vh]" >
+            <div className="bg-[url('/public/images/TLN-Adults-Mandarin-Banner.jpg')] bg-no-repeat bg-cover bg-center h-[70vh]" >
                 <div className="bg-[rgba(0,0,0,0.4)] h-full ">
                     <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
-                        <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>English Classes for Adults</h1>
+                        <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>Mandarin Classes for Adults</h1>
                         <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online English classes for adults (14+ years old) with professional teachers.</h1>
                         <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button>
                     </div>
+                </div>
+            </div>
+            <div className="pt-10 px-10 lg:px28 lg:flex flex-row items-center">
+                <div className='lg:w-1/2'>
+                    <h2 className='font-semibold text-2xl lg:text-4xl'>Learn Mandarin Online with The Language Network</h2>
+                    <p className='text-sm text-[#54595f] my-3'>Learn Mandarin Online with The Language Network’s Mandarin language course. TLN offers language courses for all age groups. We have Mandarin language courses for beginners, as well as advance level language learners. </p>
+                    <p className='text-sm text-[#54595f] my-3'>Learn Mandarin with The Language Network and master the Mandarin language. Our Mandarin language courses are hand-tailored to meet every student’s learning needs. Now learn Mandarin from within the comforts of your own home.</p>
+                </div>
+                <div className='lg:w-1/2'>
+                    <img src="/images/TLN_Mandarin-elements.png" alt="img" />
                 </div>
             </div>
 
