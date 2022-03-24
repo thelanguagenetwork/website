@@ -837,3 +837,27 @@
     border-width: 2px;
     border-color:#f2b919;
 } 
+
+
+.scroller {
+    height: 1.2em;
+    line-height: 1.2em;
+    position: relative;
+    overflow: hidden;
+    width: 10em;
+  }
+  .scroller > span {
+    position: absolute;
+    top: 0;
+    animation: slide 3s infinite;
+    font-weight: bold;
+    
+  }
+  @keyframes slide {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: -1.2em;
+    }
+  }
