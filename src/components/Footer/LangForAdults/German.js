@@ -61,8 +61,12 @@ export default function AdultsGerman() {
                     <p className='text-sm text-[#54595f]'>All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.</p>
                     <p className='text-sm text-[#54595f]'>Online German for kids is divided into following levels:</p>
                     <ul className='list-disc font-bold text-gray-600 pl-3 leading-10'>
-                        <li>Level A1-  A1.1, A1.1</li>
-                        <li>Level A2- A2.1, A2.2</li>
+                    <li>Beginner Level: Level A1 | A1.1 | A1.2</li>  
+                        <li>Elementory Level: Level A2 | A2.1 | A2.2 </li>
+                        <li>Intermediate Level: Level B1 |  Level B1.1 | Level B1.2 | Level B1.3 | Level B1.4</li>
+                        <li>Upper-Intermediate Level: Level B2 |  Level B2.1 | Level B2.2 | Level B2.3 | Level B2.4</li>
+                        <li>Advance Level: Level C1 | C1.1 | Level C1.2 | Level C1.3 | Level C2</li>
+                  
                     </ul>
                     <p className='text-sm text-[#54595f]'>These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and A2 the most advanced. Later your child will be able to continue with the DELF Junior B1 and the DELF B2 Junior.</p>
                 </div>
@@ -336,36 +340,36 @@ export default function AdultsGerman() {
                         <h2 class="accordion-header mb-0" id="flush-headingOne">
                             <button class="accordion-button relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left font-bold bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
                                 aria-expanded="false" aria-controls="flush-collapseOne">
-                                Why should I enrol my kid in TLN?
+                              How much time will it take to learn German?
                             </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse border-0 collapse show"
                             aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">TLN offers one-on-one batches. We give special attention to all our students. We have hired expert teachers for all our batches. We teach all aspects of language learning while focusing on the spoken part. Our English language course for kids covers grammar and vocabulary, speaking, reading, writing, and listening.</div>
+                            <div class="accordion-body py-4 px-5">It takes approximately 850 hours to learn good German. There are 6 levels of German language. The basic levels include A1 and A2. Advance levels include B1 and B2. Experts levels include C1 and C2. The highest level of learning German is the C2 level. After learning C2, you will master at speaking German.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingTwo">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
                                 aria-expanded="false" aria-controls="flush-collapseTwo">
-                                What makes TLN different from other language learning institutes?
+                               What is the duration of our German language course?
                             </button>
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingTwo"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">We only have one-on-one batches. We prepare our students for international exams. We have hand-tailored study plans to meet each student’s learning needs. Our English language course for kids also covers the English culture which tremendously helps language learning.</div>
+                            <div class="accordion-body py-4 px-5">The duration of our German language course ranges from two months to two years. If you wish to complete all 6 levels and master German, you will need around 2 years.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingThree">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
                                 aria-expanded="false" aria-controls="flush-collapseThree">
-                                What is the duration of each class?
+                                Do I get additional resources with the German language course?
                             </button>
                         </h2>
                         <div id="flush-collapseThree" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingThree"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">The duration of each English language course for kids is 1 hour. It is perfect for their attention spans.
+                            <div class="accordion-body py-4 px-5">Yes, there are additional resources with our German language course. This includes movie screenings, podcasts, online grammar activities, translation, etc.
                             </div>
                         </div>
                     </div>
@@ -373,12 +377,12 @@ export default function AdultsGerman() {
                         <h2 class="accordion-header mb-0" id="flush-headingFour">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
                                 aria-expanded="false" aria-controls="flush-collapseFour">
-                                What are the career opportunities after I learn English?
+                                What are the career opportunities after I learn German?
                             </button>
                         </h2>
                         <div id="flush-collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFour"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">After you learn English from us, you can work as a translator, writer, editor, anchor, etc. There are multiple career opportunities available after you learn the English language.</div>
+                            <div class="accordion-body py-4 px-5">There are multiple career opportunities available after you learn German with us. After you learn German you can work as a translator, writer, editor, anchor, etc.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">

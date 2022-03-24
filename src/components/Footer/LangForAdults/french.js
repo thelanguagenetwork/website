@@ -37,9 +37,8 @@ export default function AdultsFrench() {
         <div>
             <div className="h-[100vh] pt-10 px-10 lg:px28 lg:flex flex-row items-center">
                 <div className='lg:w-1/2'>
-                    <h2 className='font-semibold text-2xl lg:text-4xl'>Levels of Language Learning for Kids and Adolescents</h2>
-                    <p className='text-sm text-[#54595f] my-3'>At The Language Network, we believe in holistic learning. Our English language course for kids covers all the 10 Grades. Learning English at an early age will be extremely beneficial for kids of all ages ranging from 6 years to 14 years.</p>
-                    <p className='text-sm text-[#54595f] my-3'  >Enrol your child in our English language course and keep your child ahead of his peers. There is no better feeling than seeing your child get confident in his day to day life.</p>
+                    <h2 className='font-semibold text-2xl lg:text-4xl'>French Classes for Adults</h2>
+                    <p className='text-sm text-[#54595f] my-3'>1-to-1 , 1-to-2 and Group Online French classes for adults (14+ years old) with professional teachers.</p>
                 </div>
                 <div className='lg:w-1/2'>
                     <img src="/images/TLN_French-elements.png" alt="img" />
@@ -57,17 +56,20 @@ export default function AdultsFrench() {
 
             <div className="my-20 lg:flex flex-row">
                 <div className='space-y-2 px-10 lg:px-20'>
-                    <h1 className="font-bold text-3xl lg:text-4xl">French Language Levels for Kids</h1>
+                    <h1 className="font-bold text-3xl lg:text-4xl">French Language Levels for Adults</h1>
                     <p className='text-sm text-[#54595f]'>All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.</p>
                     <p className='text-sm text-[#54595f]'>Online French for kids is divided into following levels:</p>
                     <ul className='list-disc font-bold text-gray-600 pl-3 leading-10'>
-                        <li>Level A1-  A1.1, A1.1</li>
-                        <li>Level A2- A2.1, A2.2</li>
+                    <li>Beginner Level: Level A1 | A1.1 | A1.2</li>  
+                        <li>Elementory Level: Level A2 | A2.1 | A2.2 </li>
+                        <li>Intermediate Level: Level B1 |  Level B1.1 | Level B1.2 | Level B1.3 | Level B1.4</li>
+                        <li>Upper-Intermediate Level: Level B2 |  Level B2.1 | Level B2.2 | Level B2.3 | Level B2.4</li>
+                        <li>Advance Level: Level C1 | C1.1 | Level C1.2 | Level C1.3 | Level C2</li>
                     </ul>
                     <p className='text-sm text-[#54595f]'>These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and A2 the most advanced. Later your child will be able to continue with the DELF Junior B1 and the DELF B2 Junior.</p>
                 </div>
                 <div className='flex align-center px-20 py-20 lg:px-10 lg:py-10'>
-                    <img src='/images/French-levels@300x-1536x931.png' alt='img' />
+                    <img src='/images/French-levelsadults@300x-1536x931.png' alt='img' />
                 </div>
             </div>
             <div className='w-full text-center font-semibold text-3xl lg:text-4xl'>Benefits of Learning English with TLN?</div>
