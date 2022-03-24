@@ -39,32 +39,32 @@ function Kids() {
 
     return (
         <div>
-            <div className="Home-container-2 px-5 fadeIN mb-24" style={{width: '100%'}}>
+            <div className="Home-container-2 w-full lg:px-20 mt-4">
                 <h2>Bring The World To Your Child</h2>
-                <h1 className='mb-12'>Choose a language</h1>
+                <h1 className='mb-6'>Choose a language</h1>
                 <div className='Home-container-2-imgs'>
-                    <a href='/'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-English.png' /><span className='Home-container-2-img-span' style={{ paddingRight: '31px' }}>English</span></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/Astronaut-French-1.png' /><span className='Home-container-2-img-span' style={{ paddingRight: '31px' }}>French</span></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Spanish-1.png' /><span className='Home-container-2-img-span' style={{ paddingRight: '31px' }}>Spanish</span></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Germany-1.png' /><span className='Home-container-2-img-span' style={{ paddingRight: '31px' }}>German</span></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Mandarin-1.png' /><span className='Home-container-2-img-span' style={{ paddingRight: '31px' }}>Mandarin</span></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Japanese-1.png' /><span className='Home-container-2-img-span' style={{ paddingRight: '31px' }}>Japan</span></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Korean-1.png' /><span className='Home-container-2-img-span' style={{ paddingRight: '31px' }}>Korean</span></a>
+                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-English.png' /><span className='pr-8'>English</span></a>
+                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-French-1.png' /><span className='pr-8'>French</span></a>
+                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Spanish-1.png' /><span className='pr-8'>Spanish</span></a>
+                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Germany-1.png' /><span className='pr-8'>German</span></a>
+                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Mandarin-1.png' /><span className='pr-8'>Mandarin</span></a>
+                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Japanese-1.png' /><span className='pr-8'>Japanese</span></a>
+                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Korean-1.png' /><span className='pr-8'>Korean</span></a>
                 </div>
             </div>
-            <div className='h-[85vh] px-80 text-center flex flex-column items-center justify-center bgimg-2'>
+            <div className='h-[85vh] lg:px-80 text-center flex flex-column items-center justify-center bgimg-2'>
                 <h1 className='text-white font-semibold text-4xl mb-12'>Foreign Language Education for Everyone!</h1>
                 <p className='text-white font-medium text-lg px-4 mt-2'>Live online language classes for kids, adolscents and adults at The Language Network, pioneering online language schools, with the assistance of professional teachers.</p>
                 <p className='text-white font-medium text-lg px-4 mt-2 mb-3'>With our professional live online language classes, TLN is the complete solution to perfectly assist kids in their path to fluency.</p>
                 <button type="button" class="btn btn-outline-light rounded-xl px-8 py-3 font-medium">Book A Trial Class</button>
-                <img src="/images/Ship.png" alt="alt" className='w-[15%] absolute top-[-2.8rem] right-[12rem]' />
+                <img src="/images/Ship.png" alt="alt" className='w-[15%] absolute top-[-2.8rem] right-[12rem] lg:block hidden' />
             </div>
-            <div className='infosec w-full p-20 flex flex-row items-center mt-10'>
-                <div className='p-2 w-[40%]'>
+            <div className='infosec w-full lg:p-20 sm:p-3 flex flex-col lg:flex-row items-center mt-24'>
+                <div className='p-2 w-full lg:w-[40%]'>
                     <h1 className='font-medium text-3xl'>Learning, unbeknownst to many, starts at a very early age</h1>
                     <p className='text-gray-700 text-md'>Take a look at the various benefits that Early learning in Kids provide</p>
                 </div>
-                <div className='w-[20%] flex flex-col justify-between'>
+                <div className='w-full lg:w-[20%] flex flex-col justify-between'>
                     <a onClick={() => setKey(1)} id={kidkey === 1 ? 'btnP' : ''} class=" bg-white py-3 px-10 mt-3 text-md poppins cursor-pointer text-center rounded-lg shadow ">
                         Increased Awareness
                     </a>
@@ -78,7 +78,7 @@ function Kids() {
                         Drastically Improves Memory
                     </a>
                 </div>
-                <div className='w-[60%] px-4'>
+                <div className='w-full lg:w-[60%] px-4 mt-4 lg:m-0'>
                     <Description />
                 </div>
             </div>

@@ -41,32 +41,32 @@ function Adolescents() {
 
     return (
         <div>
-            <div className="Home-container-2 px-5 fadeIN" style={{width: '100%'}}>
+            <div className="Home-container-2 w-full lg:px-20 mt-4">
                 <h2>A Fun, Proven method for Learning</h2>
-                <h1 className='mb-12'>Choose a language</h1>
+                <h1 className='mb-6'>Choose a language</h1>
                 <div className='Home-container-2-imgs'>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/Adolcents-English@300x.png' /><span className='Home-container-2-img-span'>English</span></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/Adolcents-French@300x.png' /><span className='Home-container-2-img-span'>French</span></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/Adolcents-Spanish@300x.png' /><span className='Home-container-2-img-span'>Spanish</span></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/Adolcents-German@300x.png' /><span className='Home-container-2-img-span'>German</span></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/Adolcents-mandarin_1@300x.png' /><span className='Home-container-2-img-span'>Mandarin</span></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/Adolcents-mandarin@300x.png' /><span className='Home-container-2-img-span'>Japanese</span></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/Adolcents-Korean@300x.png' /><span className='Home-container-2-img-span'>Korean</span> </a>
+                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Adolcents-English@300x.png' /><span className=''>English</span></a>
+                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Adolcents-French@300x.png' /><span className=''>French</span></a>
+                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Adolcents-Spanish@300x.png' /><span className=''>Spanish</span></a>
+                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Adolcents-German@300x.png' /><span className=''>German</span></a>
+                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Adolcents-mandarin_1@300x.png' /><span className=''>Mandarin</span></a>
+                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Adolcents-mandarin@300x.png' /><span className=''>Japanese</span></a>
+                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Adolcents-Korean@300x.png' /><span className=''>Korean</span></a>
                 </div>
             </div>
-            <div className='h-[85vh] px-80 text-center flex flex-column items-center justify-center bgimg'>
+            <div className='h-[85vh] lg:px-80 text-center flex flex-column items-center justify-center bgimg'>
                 <h1 className='text-white font-semibold text-4xl mb-12'>Foreign Language Education for Everyone!</h1>
                 <p className='text-white font-medium text-lg px-4 mt-2'>Live online language classes for kids, adolscents and adults at The Language Network, pioneering online language schools, with the assistance of professional teachers.</p>
                 <p className='text-white font-medium text-lg px-4 mt-2 mb-3'>With our professional live online language classes, TLN is the complete solution to perfectly assist kids in their path to fluency.</p>
                 <button type="button" class="btn btn-outline-light rounded-xl px-8 py-3 font-medium">Book A Trial Class</button>
-                <img src="/images/adolscents-book@300x.png" alt="alt" className='w-5/12 absolute bottom-[-2.8rem] curvedBg' />
+                <img src="/images/adolscents-book@300x.png" alt="alt" className='w-5/12 absolute bottom-[-1rem] lg:bottom-[-2.8rem] curvedBg' />
             </div>
-            <div className='infosec w-full p-20 flex flex-row items-center mt-24'>
-                <div className='p-2 w-[40%]'>
+            <div className='infosec w-full lg:p-20 sm:p-3 flex flex-col lg:flex-row items-center mt-24'>
+                <div className='p-2 w-full lg:w-[40%]'>
                     <h1 className='font-medium text-3xl'>Teaching young children a second language is beneficial in many ways</h1>
                     <p className='text-gray-700 text-md'>Our suggestion? Learn a foreign language with The Language Network!</p>
                 </div>
-                <div className='w-[20%] flex flex-col justify-between'>
+                <div className='w-full lg:w-[20%] flex flex-col justify-between'>
                     <a onClick={() => setKey(1)} id={adkey === 1 ? 'btnP' : ''} class=" bg-white py-3 px-10 mt-3 text-md poppins cursor-pointer text-center rounded-lg shadow ">
                         Adolescents are quick learners
                     </a>
@@ -80,7 +80,7 @@ function Adolescents() {
                         Works around tight schedule
                     </a>
                 </div>
-                <div className='w-[60%] px-4'>
+                <div className='w-full lg:w-[60%] px-4 mt-4 lg:m-0'>
                     <Description />
                 </div>
             </div>

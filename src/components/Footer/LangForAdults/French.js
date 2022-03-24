@@ -35,22 +35,23 @@ export default function AdultsFrench() {
     }
     return (
         <div>
-            <div className="h-[100vh] pt-10 px-10 lg:px28 lg:flex flex-row items-center">
-                <div className='lg:w-1/2'>
-                    <h2 className='font-semibold text-2xl lg:text-4xl'>French Classes for Adults</h2>
-                    <p className='text-sm text-[#54595f] my-3'>1-to-1 , 1-to-2 and Group Online French classes for adults (14+ years old) with professional teachers.</p>
-                </div>
-                <div className='lg:w-1/2'>
-                    <img src="/images/TLN_French-elements.png" alt="img" />
-                </div>
-            </div>
-            <div className="KidsEnglish h-[70vh]" >
+            <div className="bg-[url('/public/images/TLN-Adults-Korean-Banner.jpg')] bg-no-repeat bg-cover bg-center h-[70vh]" >
                 <div className="bg-[rgba(0,0,0,0.4)] h-full ">
                     <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
                         <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>French Language Levels for Kids</h1>
                         <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online French classes for kids (6-9 years old) with professional teachers.</h1>
                         <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button>
                     </div>
+                </div>
+            </div>
+            <div className="pt-10 px-10 lg:px28 lg:flex flex-row items-center">
+                <div className='lg:w-1/2'>
+                    <h2 className='font-semibold text-2xl lg:text-4xl'>Learn French Online With TLN</h2>
+                    <p className='text-sm text-[#54595f] my-3'>Learn French with The Language Network’s Online French class in India. TLN provides courses for French beginners as well as advanced learners. Our French language course covers everything from grammar to pronunciation. </p>
+                    <p className='text-sm text-[#54595f] my-3'>Now learn French with The Language Network and become fluent in French. Our French language courses are created to meet the learning needs of our students.</p>
+                </div>
+                <div className='lg:w-1/2'>
+                    <img src="/images/TLN_French-elements.png" alt="img" />
                 </div>
             </div>
 
