@@ -19,35 +19,35 @@ function CardData() {
     const rtn = [{
         path: '/images/SliderImgs/trainer.png',
         title: "Expert Trainers",
-        description: "Expert Trainers Expert Trainers Expert Trainers",
+        description: "Experienced & result-oriented",
     }, {
         path: '/images/SliderImgs/interactive-1.png',
         title: "Interactive Sessions",
-        description: "Expert Trainers Expert Trainers Expert Trainers",
+        description: "To deepen your connection with other cultures & traditions",
     }, {
         path: '/images/SliderImgs/study-material-1.png',
         title: "Free Study Material",
-        description: "Expert Trainers Expert Trainers Expert Trainers",
+        description: "Official course material and workbooks",
     }, {
         path: '/images/SliderImgs/review-1.png',
         title: "Review Sessions",
-        description: "Expert Trainers Expert Trainers Expert Trainers",
+        description: "Never miss a session! Track your progress & get personalised feedback",
     }, {
         path: '/images/SliderImgs/e-learning-1.png',
         title: "E-Learning",
-        description: "Expert Trainers Expert Trainers Expert Trainers",
+        description: "Learn at the comfort of your home with flexible timings",
     }, {
         path: '/images/SliderImgs/1_2-batch-1.png',
         title: "Small Batches",
-        description: "Expert Trainers Expert Trainers Expert Trainers",
+        description: "For personalised attention & effective learning",
     }, {
         path: '/images/SliderImgs/certified-1.png',
         title: "Certified Courses",
-        description: "Expert Trainers Expert Trainers Expert Trainers",
+        description: "Earn accredited certificate to boost your skills",
     }, {
         path: '/images/SliderImgs/counselling-1.png',
         title: "Free Counselling",
-        description: "Expert Trainers Expert Trainers Expert Trainers",
+        description: "Get counselled by our experts for better guidance to lead your path",
     },
 
     ]
