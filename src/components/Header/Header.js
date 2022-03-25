@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import React from 'react';
 import { IoIosArrowDown } from 'react-icons/io';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { FaFacebook } from 'react-icons/fa'
 import react from 'react';
 import { AiOutlineCloseSquare } from 'react-icons/ai';
 import { Link } from 'react-scroll';
@@ -44,10 +43,10 @@ class Header extends react.Component {
       var dom = document.getElementById('curriListM')
       var height = dom.style.height;
       var compare = height.localeCompare(text2);
-      if (compare == -1) {
+      if (compare === -1) {
         dom.style.height = '100%';
       }
-      else if (compare == 0) {
+      else if (compare === 0) {
         dom.style.height = '0';
       }
     }
@@ -130,7 +129,7 @@ class Header extends react.Component {
             <ul>
               <li><a href="https://www.facebook.com/teamlanguagenetwork" target="blank"><i class="fab flex items-center h-full"> <FaFacebookF className='w-full' /></i></a></li>
               <li><a href="https://www.instagram.com/thelanguagenetwork/" target="blank"><i class="fab flex items-center h-full"> <FaInstagram className='w-full' /></i></a></li>
-              <li><a href="" target="blank"><i class="fab flex items-center justify-center h-full"> <FaLinkedinIn className='w-8/12' /></i></a></li>
+              <li><a href="https://www.linkedin.com/company/the-languagenetwork/" target="blank"><i class="fab flex items-center justify-center h-full"> <FaLinkedinIn className='w-8/12' /></i></a></li>
               <li><a href="info@thelanguagenetwork.co"><i class="fab flex items-center h-full"> <FiMail className='w-full' /></i></a></li>
               <li><a href="https://in.pinterest.com/teamlanguagenetwork/"><i class="fab flex items-center h-full"> <FaPinterestP className='w-full' /></i></a></li>
               <li><a href="https://www.youtube.com/channel/UC2pMpIkwz5AzM-SRMX9rjLQ"><i class="fab flex items-center h-full"> <FaYoutube className='w-full' /></i></a></li>

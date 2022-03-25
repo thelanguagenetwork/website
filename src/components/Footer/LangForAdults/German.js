@@ -71,7 +71,7 @@ export default function AdultsGerman() {
                     <p className='text-sm text-[#54595f]'>These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and A2 the most advanced. Later your child will be able to continue with the DELF Junior B1 and the DELF B2 Junior.</p>
                 </div>
                 <div className='flex align-center px-20 py-20 lg:px-10 lg:py-10'>
-                    <img src='/images/French-levels@300x-1536x931.png' alt='img' />
+                    <img src='/images/French-levelsadults@300x-1536x931.png' alt='img' />
                 </div>
             </div>
             <div className='w-full text-center font-semibold text-3xl lg:text-4xl'>Benefits of Learning English with TLN?</div>
