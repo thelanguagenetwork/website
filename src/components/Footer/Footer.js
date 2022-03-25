@@ -51,10 +51,10 @@ export default function Footer() {
                                     </div>
                                     <ul>
                                         <li><a href="/">Home</a></li>
-                                        <li><a href="#">About us</a></li>
-                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="/AboutUs">About us</a></li>
+                                        <li><a href="/Careers">Careers</a></li>
                                         <li><a href="/Blog">Blog</a></li>
-                                        <li><a href="#">Press</a></li>
+                                        <li><a href="/Press">Press</a></li>
                                     </ul>
                                 </div>
 

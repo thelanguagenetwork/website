@@ -36,6 +36,8 @@ import img9 from '../IntExamswiper/exam-TOPIK.jpg';
 import Curriculum from '../curriculum/Curriculum';
 import GlobeMobile from '../Earth/GlobeMobile';
 
+
+
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 
@@ -81,7 +83,7 @@ export default function Home() {
         document.getElementById('Home-card-3').style.boxShadow = 'none';
 
     }
-        
+
 
     return (
         <div className='Home'>
@@ -254,7 +256,15 @@ export default function Home() {
 
             <div className="my-10 py-10 lg:flex flex-row h-auto w-full bg-[#f4f8fb]">
                 <div className='flex flex-col space-y-6 px-10 lg:px-40 justify-center lg:w-2/3'>
-                    <h1 className='font-bold text-3xl lg:text-4xl'>The Language Network saves you Money & Time</h1>
+                    <h1 className='font-bold text-3xl lg:text-4xl'>The Language Network saves you
+
+                        <div class="scroller">
+                            <span>
+                                Time<br />
+                                Money
+                            </span>
+                        </div>
+                    </h1>
                     <p className='text-lg '>Our online classes cut out that stressful commute so you can focus your energy on learning. We offer quality courses at affordable prices, with no hidden costs. Up to 30% cheaper than traditional language schools.</p>
                 </div>
                 <div className='flex align-center px-10 py-10 lg:px-20 lg:py-20'>
@@ -288,10 +298,10 @@ export default function Home() {
             </div>
 
 
-                    <div className='w-full'>
+            <div className='w-full'>
 
-            <Curriculum />
-                    </div>
+                <Curriculum />
+            </div>
 
             <div className="Home-container-11">
                 <h1>Happy Testimonials</h1>
