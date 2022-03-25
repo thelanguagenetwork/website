@@ -32,7 +32,7 @@ export default function Footer() {
                             <div className="col-xl-4 col-lg-4 mb-50">
                                 <div className="footer-widget">
                                     <div className="footer-logo">
-                                        <a href="index.html"><img src="/images/Logo-website.png" className="img-fluid" alt="logo" /></a>
+                                        <a href="/"><img src="/images/Logo-website.png" className="img-fluid" alt="logo" /></a>
                                     </div>
                                     <div className="footer-text">
                                         <p>The Language Network is a place to learn and immerse yourself in the world of languages. We are a dynamic institution promoting languages and celebrating cultures.</p>

@@ -434,12 +434,12 @@ export default function AdultsSpanish() {
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingEight">
-                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight"
+                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine"
                                 aria-expanded="false" aria-controls="flush-collapseEight">
                                 What is included in the Spanish Language course curriculum?
                             </button>
                         </h2>
-                        <div id="flush-collapseEight" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingEight"
+                        <div id="flush-collapseNine" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingNine"
                             data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body py-4 px-5">Our basic level curriculum includes grammar, phonetics, vocabulary, greetings, etc. Our higher level curriculum includes advance communication, complex grammar, complex vocabulary, cultural knowledge, social know-how, etc. </div>
                         </div>

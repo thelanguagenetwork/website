@@ -259,7 +259,7 @@ export default function Home() {
                     <h1 className='font-bold text-3xl lg:text-4xl'>The Language Network saves you
 
                         <div class="scroller">
-                            <span>
+                            <span  className='bg-gray-400 px-3'>
                                 Time<br />
                                 Money
                             </span>
