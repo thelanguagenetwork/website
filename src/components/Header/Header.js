@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import React from 'react';
 import { IoIosArrowDown } from 'react-icons/io';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { FaFacebook } from 'react-icons/fa'
 import react from 'react';
 import { AiOutlineCloseSquare } from 'react-icons/ai';
 import { Link } from 'react-scroll';
@@ -44,10 +43,10 @@ class Header extends react.Component {
       var dom = document.getElementById('curriListM')
       var height = dom.style.height;
       var compare = height.localeCompare(text2);
-      if (compare == -1) {
+      if (compare === -1) {
         dom.style.height = '100%';
       }
-      else if (compare == 0) {
+      else if (compare === 0) {
         dom.style.height = '0';
       }
     }
