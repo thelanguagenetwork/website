@@ -35,6 +35,7 @@ import img8 from '../IntExamswiper/exam-TEF.jpg';
 import img9 from '../IntExamswiper/exam-TOPIK.jpg';
 import Curriculum from '../curriculum/Curriculum';
 import GlobeMobile from '../Earth/GlobeMobile';
+import Team from '../Footer/Company/AboutUs/Team';
 
 
 
@@ -259,7 +260,7 @@ export default function Home() {
                     <h1 className='font-bold text-3xl lg:text-4xl'>The Language Network saves you
 
                         <div class="scroller">
-                            <span  className='bg-[#13bfab] px-3 text-center'>
+                            <span className='bg-[#13bfab] px-3 text-center'>
                                 Time<br />
                                 Money
                             </span>
@@ -277,10 +278,9 @@ export default function Home() {
                 <h1>FROM LEARNING A NEW LANGUAGE TO LIVING IT!</h1>
                 <h2>Why you should learn with The Language Network?</h2>
             </div>
-            <div className="Home-container-8 text-center">
+            <div className='w-5/6'>
                 <Display />
             </div>
-
             <div className="my-20 lg:flex flex-row h-auto w-full bg-[#f4f8fb]">
                 <div className='flex flex-col space-y-6 px-10 lg:px-40 justify-center lg:w-2/3'>
                     <h1 className='font-bold text-3xl lg:text-4xl'>TRANSFORM YOUR CAREER</h1>
@@ -303,7 +303,16 @@ export default function Home() {
                 <Curriculum />
             </div>
 
-            <div className="Home-container-11">
+            <div>
+                <div className="items-center justify-center px-3 lg:px-20 flex flex-col justify-center ">
+                    <h1 className="flex text-3xl lg:text-4xl font-semibold pt-20 items-center justify-center ">We work as a team</h1>
+                    <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-yellow-500 border-2 w-1/4 self-center mt-4 items-center justify-center"></hr>
+                    <span className="flex text-lg font-medium pt-10 lg:px-20 text-center">With a fantastic team of over 50+ trainers (and counting!) who make learning entertaining and effortless. Our trainers are qualified with an overall student rating of 5   out of 5.</span>
+                </div>
+            </div>
+                <Team />
+
+            <div className="Home-container-11 mt-20">
                 <h1>Happy Testimonials</h1>
                 <hr></hr>
                 <Testimonial />

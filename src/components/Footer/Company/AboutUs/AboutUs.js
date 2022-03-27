@@ -7,7 +7,7 @@ import "swiper/css/navigation"
 
 import About_display from "./About_display"
 import { TextareaAutosize } from '@mui/material';
-import Team from './team';
+import Team from './Team';
 
 export default function AboutUs() {
   return (
@@ -68,36 +68,38 @@ export default function AboutUs() {
         </div>
       </div>
       {/* slides */}
+
       <Team/>
       <span className="flex text-3xl lg:text-4xl font-semibold pt-20 items-center justify-center pb-10 px-10">Our Collaborating Partners</span>
-      <div className="Home-container-61  lg:px-40">
-        
-                <Swiper spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
-                    breakpoints={{
-                        640: {
-                            slidesPerView: 1
 
-                        },
-                        768: {
-                            slidesPerView: 3
-                        }
-                    }}
-                    pagination={{
-                        "clickable": false
-                    }} navigation={false} autoplay={{
-                        "delay": 2500,
-                        "disableOnInteraction": false
-                    }} 
-                    className="mySwiper">
-                    <SwiperSlide>
-                        <img  src="/images/Loyola_College_Chennai_-_Coat_of_arms.png" alt='img' />
-                    </SwiperSlide><SwiperSlide>
-                        <img  src="/images/Rcmg-Ghatkopar-300x300.png" alt='img' />
-                    </SwiperSlide><SwiperSlide>
-                        <img  src="/images/rotary.jpg" alt='img1' />
-                    </SwiperSlide>
-                </Swiper>
-            </div>
+      <div className="Home-container-61  lg:px-40">
+
+        <Swiper spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+          breakpoints={{
+            640: {
+              slidesPerView: 1
+
+            },
+            768: {
+              slidesPerView: 3
+            }
+          }}
+          pagination={{
+            "clickable": false
+          }} navigation={false} autoplay={{
+            "delay": 2500,
+            "disableOnInteraction": false
+          }}
+          className="mySwiper">
+          <SwiperSlide>
+            <img src="/images/Loyola_College_Chennai_-_Coat_of_arms.png" alt='img' />
+          </SwiperSlide><SwiperSlide>
+            <img src="/images/Rcmg-Ghatkopar-300x300.png" alt='img' />
+          </SwiperSlide><SwiperSlide>
+            <img src="/images/rotary.jpg" alt='img1' />
+          </SwiperSlide>
+        </Swiper>
+      </div>
 
     </div>
   )
