@@ -6,14 +6,16 @@ import "swiper/css/pagination"
 import "swiper/css/navigation"
 
 import About_display from "./About_display"
+import { TextareaAutosize } from '@mui/material';
+import Team from './team';
 
 export default function AboutUs() {
   return (
     <div>
-      <div className="pt-10 px-10 lg:px-24 lg:flex flex-row items-center justify-center">
+      <div className="lg:pt-10 lg:px-10 lg:px-24 lg:flex flex-row items-center justify-center">
         <div className="lg:w-1/2 flex flex-wrap pt-20">
           <div>
-            <h1 className="font-bold text-4xl px-10 text-[#13bfab]">Helping you learn from the comfort of your home</h1>
+            <h1 className="font-bold text-4xl px-3 lg:px-10 text-[#13bfab]">Helping you learn from the comfort of your home</h1>
           </div>
           <div className="flex flex-wrap text-lg px-10 ">
             <p className="font-bold pt-6">Immerse yourself in the world of languages and</p>
@@ -26,70 +28,77 @@ export default function AboutUs() {
           <span className="flex items-center text-xl font-medium ml-10 pt-0">Dive in deeper</span>
 
         </div>
-        <div className="lg:w-1/2 rounded-lg">
-          <video controls className="w-11/12 rounded-md mt-10 mr-10">
-            <source src="file_video.mp4" autoplay controls className="rounded-lg"></source>
+        <div className="px-8 lg:px-0 lg:w-1/2 rounded-lg">
+          <video controls autoPlay muted className="w-11/12 rounded-md mt-10 mr-10">
+            <source src="/videos/TLN_Online-Class_Self-Care-Education.mp4" className="rounded-lg"></source>
           </video>
         </div>
       </div>
 
-      <div className="pt-20 pl-10 lg:pl-24 lg:flex flex-row items-center justify-center">
-        <div className="lg:w-1/2 pl-10">
+      <div className="pt-20 lg:pl-10 lg:pl-24 lg:flex flex-row items-center justify-center">
+        <div className="lg:w-1/2 px-5 lg:px-0 lg:pl-10">
           <div className="text-4xl font-semibold text-[#13bfab]">To tell you a little bit about Us</div>
           <div className="flex flex-wrap items-baseline">
-          <div className="pt-8 tracking-wider">Whether it’s about mastering a timeless skill, cultivate new perspectives, or connect with fascinating people from around the world, </div>
-          <strong><em>The Language Network helps in curating a pleasant learning experience.</em></strong>
+            <div className="pt-8 tracking-wider">Whether it’s about mastering a timeless skill, cultivate new perspectives, or connect with fascinating people from around the world, </div>
+            <strong><em>The Language Network helps in curating a pleasant learning experience.</em></strong>
           </div>
         </div>
-        <div className="w-1/2 pr-40">
-          <img  src="/images/social_image.png"/>
+        <div className="px-10 lg:px-0 lg:w-1/2 lg:pr-40">
+          <img src="/images/social_image.png" />
         </div>
       </div>
 
-      <div>
-      <div className="lg:px-40">
-                {/* <Swiper spaceBetween={0} loop={true} loopFillGroupWithBlank={true}
+      <div className="py-20 ">
+        <div className="flex flex-col items-center justify-center lg:px-40 space-y-10">
+          <h1 className='lg:flex wrap font-bold text-2xl md:text-3xl lg:text-4xl'>Core Values that shape our
+            <div class="scroller bg-[]">
+              <span className='lg:pl-10 text-[#13bfab] lg:px-3'>
+                Behaviours<br />
+                Culture
+              </span>
+            </div>
+
+          </h1>
+          <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-yellow-500 border-2 w-1/4 self-center mt-4 items-center justify-center"></hr>
+          <About_display />
+        </div>
+        <div className="items-center justify-center px-3 lg:px-20 flex flex-col justify-center ">
+          <h1 className="flex text-3xl lg:text-4xl font-semibold pt-20 items-center justify-center ">We work as a team</h1>
+          <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-yellow-500 border-2 w-1/4 self-center mt-4 items-center justify-center"></hr>
+          <span className="flex text-lg font-medium pt-10 lg:px-20 text-center">With a fantastic team of over 50+ trainers (and counting!) who make learning entertaining and effortless. Our trainers are qualified with an overall student rating of 5   out of 5.</span>
+        </div>
+      </div>
+      {/* slides */}
+      <Team/>
+      <span className="flex text-3xl lg:text-4xl font-semibold pt-20 items-center justify-center pb-10">Our Collaborating Partners</span>
+      <div className="Home-container-61  lg:px-40">
+        
+                <Swiper spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
                     breakpoints={{
                         640: {
                             slidesPerView: 1
 
                         },
                         768: {
-                            slidesPerView: 1
+                            slidesPerView: 3
                         }
                     }}
-                    // pagination={{
-                    //     "clickable": true
-                    // }} 
-                    navigation={true} autoplay={{
+                    pagination={{
+                        "clickable": false
+                    }} navigation={false} autoplay={{
                         "delay": 2500,
                         "disableOnInteraction": false
-                    }} className="mySwiper">
+                    }} 
+                    className="mySwiper">
                     <SwiperSlide>
-                      <div className="flex flex-col">
-                        <img className="w-full h-16 w-16" src="/images/Website-core-value-icons-1.png" alt='img' />
-                        <p></p>
-                        <span>
-                            We work collaboratively towards a common purpose and goals of providing the best value of investment for the TLNier, Focused learning and priority support from our team. </span>
-                        <span className="h-10">
-                            </span>
-                      </div>
+                        <img  src="/images/Loyola_College_Chennai_-_Coat_of_arms.png" alt='img' />
                     </SwiperSlide><SwiperSlide>
-                        <img src="/images/Website-core-value-icons-2.png" alt='img' />
+                        <img  src="/images/Rcmg-Ghatkopar-300x300.png" alt='img' />
                     </SwiperSlide><SwiperSlide>
-                        <img src="/images/Website-core-value-icons-3.png" alt='img' />
+                        <img  src="/images/rotary.jpg" alt='img1' />
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="/images/Website-core-value-icons-4.png" alt='img' />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="/images/Website-core-value-icons-5.png" alt='img' />
-                    </SwiperSlide>
-                    
-                </Swiper> */}
-                <About_display/>
+                </Swiper>
             </div>
-      </div>
 
     </div>
   )

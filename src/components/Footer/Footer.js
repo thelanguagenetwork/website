@@ -15,14 +15,14 @@ export default function Footer() {
                 <button type="button" class="btn btn-info text-white mb-10 mb-3 flex" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '10px', paddingRight: '30px', paddingBottom: '10px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Contact Us</button>
             </div>
             <div className='flex-wrap px-3 bg-teal-400 w-full flex flex-row justify-evenly px-10 h-16'>
-                <img src='/images/payments/amazon-pay-icon.svg' class='w-20 lg:w-24 ' alt="a"/>
-                <img src='/images/payments/bhim-pay-icon.svg' class='w-20 lg:w-24 'alt="a"/>
-                <img src='/images/payments/finserv-icon.svg' class='w-20 lg:w-24 'alt="a"/>
-                <img src='/images/payments/google-pay.svg' class='w-20 lg:w-24 'alt="a"/>
-                <img src='/images/payments/paytm-icon.svg' class='w-20 lg:w-24 'alt="a"/>
-                <img src='/images/payments/Razorpay.svg' class='w-20 lg:w-24 'alt="a"/>
-                <img src='/images/payments/rupay-icon.svg' class='w-20 lg:w-24'alt="a"/>
-                <img src='/images/payments/upi-pay-icon.svg' class='w-20 lg:w-24'alt="a"/>
+                <img src='/images/payments/amazon-pay-icon.svg' class='w-20 lg:w-24 ' alt="a" />
+                <img src='/images/payments/bhim-pay-icon.svg' class='w-20 lg:w-24 ' alt="a" />
+                <img src='/images/payments/finserv-icon.svg' class='w-20 lg:w-24 ' alt="a" />
+                <img src='/images/payments/google-pay.svg' class='w-20 lg:w-24 ' alt="a" />
+                <img src='/images/payments/paytm-icon.svg' class='w-20 lg:w-24 ' alt="a" />
+                <img src='/images/payments/Razorpay.svg' class='w-20 lg:w-24 ' alt="a" />
+                <img src='/images/payments/rupay-icon.svg' class='w-20 lg:w-24' alt="a" />
+                <img src='/images/payments/upi-pay-icon.svg' class='w-20 lg:w-24' alt="a" />
             </div>
             <footer className="footer-section">
                 <div className="container w-full">
@@ -98,10 +98,12 @@ export default function Footer() {
                                         <h3>Subscribe</h3>
                                     </div>
                                     <ul>
-                                        <li><a href="FAQs">FAQs</a></li>
-                                        <li><a href="Contact">Contact</a></li>
-                                        <li><a href="Affiliate Program">Affiliate Program</a></li>
+                                        <li><a href="/Faqs">FAQs</a></li>
+                                        <li><a href="/Contact">Contact</a></li>
+                                        <li><a href="/Aff_prog">Affiliate Program</a></li>
                                     </ul>
+                                </div>
+                                <div className="footer-widget">
                                     <div className="footer-widget-heading">
                                         <h3>More</h3>
                                     </div>
@@ -111,6 +113,7 @@ export default function Footer() {
                                         <li><a href="/Dictionary">Dictionary</a></li>
                                     </ul>
                                 </div>
+
                             </div>
                         </div>
                     </div>

@@ -76,6 +76,8 @@ ul {
   font-weight: 600;
   margin-bottom: 40px;
   position: relative;
+  z-index: -10;
+
 }
 .footer-widget-heading h3::before {
   content: "";
@@ -85,6 +87,7 @@ ul {
   height: 2px;
   width: 50px;
   background: #ff5e14;
+  z-index: -10;
 }
 .footer-widget ul li {
   display: block;
