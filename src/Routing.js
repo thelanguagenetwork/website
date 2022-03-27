@@ -25,7 +25,9 @@ import KidsJapanese from './components/Footer/LangForKids/Japanese';
 import KidsKorean from './components/Footer/LangForKids/Korean';
 import AboutUs from './components/Footer/Company/AboutUs/AboutUs.js';
 import Careers from './components/Footer/Company/Careers/Careers';
-import Loader from './components/Loader';
+import Aff_prog from './components/Footer/Subscribe/aff_prog';
+import Faqs from './components/Footer/Subscribe/faqs';
+import Contact from './components/Footer/Subscribe/Contact';
 
 
 function Routing() {
@@ -59,6 +61,13 @@ function Routing() {
           <Route exact path='/Blog' element={<Blog/>} />
           <Route exact path='/AboutUs' element={<AboutUs />} />
           <Route exact path='/Careers' element={<Careers />} />
+
+          <Route exact path='/Faqs' element={<Faqs />} />
+
+          <Route exact path='/Contact' element={<Contact />} />
+
+          <Route exact path='/Aff_prog' element={<Aff_prog />} />
+
         </Routes>
         <Footer />
       </Router>
