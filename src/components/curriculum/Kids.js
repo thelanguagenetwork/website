@@ -43,13 +43,13 @@ function Kids() {
                 <h2>Bring The World To Your Child</h2>
                 <h1 className='mb-6'>Choose a language</h1>
                 <div className='Home-container-2-imgs'>
-                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-English.png' /><span className='pr-8'>English</span></a>
-                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-French-1.png' /><span className='pr-8'>French</span></a>
-                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Spanish-1.png' /><span className='pr-8'>Spanish</span></a>
-                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Germany-1.png' /><span className='pr-8'>German</span></a>
-                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Mandarin-1.png' /><span className='pr-8'>Mandarin</span></a>
-                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Japanese-1.png' /><span className='pr-8'>Japanese</span></a>
-                    <a className='my-2'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Korean-1.png' /><span className='pr-8'>Korean</span></a>
+                    <a className='my-2' href='/english-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-English.png' /><span className='pr-8'>English</span></a>
+                    <a className='my-2' href='/french-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-French-1.png' /><span className='pr-8'>French</span></a>
+                    <a className='my-2' href='/spanish-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Spanish-1.png' /><span className='pr-8'>Spanish</span></a>
+                    <a className='my-2' href='/german-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Germany-1.png' /><span className='pr-8'>German</span></a>
+                    <a className='my-2' href='/mandarin-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Mandarin-1.png' /><span className='pr-8'>Mandarin</span></a>
+                    <a className='my-2' href='/japanese-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Japanese-1.png' /><span className='pr-8'>Japanese</span></a>
+                    <a className='my-2' href='/korean-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Korean-1.png' /><span className='pr-8'>Korean</span></a>
                 </div>
             </div>
             <div className='h-[85vh] lg:px-80 text-center flex flex-column items-center justify-center bgimg-2'>

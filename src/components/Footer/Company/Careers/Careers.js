@@ -18,7 +18,7 @@ export default function Careers() {
           <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
             <div class="w-full sm:p-4 px-4 mb-6">
               <h1 class="title-font font-bold text-4xl mb-2 text-black">Let's say <div class="scroller2">
-                <span className='bg-gray-400 px-3'>
+                <span className='bg-[#13bfab] px-3'>
                   Salut<br />
                   Hello<br />
                   Hola<br />
