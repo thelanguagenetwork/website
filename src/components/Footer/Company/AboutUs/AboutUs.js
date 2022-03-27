@@ -48,16 +48,15 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className="py-20 ">
+      <div className="pt-20 ">
         <div className="flex flex-col items-center justify-center lg:px-40 space-y-10">
-          <h1 className='lg:flex wrap font-bold text-2xl md:text-3xl lg:text-4xl'>Core Values that shape our
-            <div class="scroller bg-[]">
-              <span className='lg:pl-10 text-[#13bfab] lg:px-3'>
+          <h1 className='lg:flex wrap font-bold text-2xl md:text-3xl lg:text-4xl '>Core Values that shape our
+            <div class="scroller">
+              <span className='lg:pl-10 text-[#13bfab] lg:px-3 items-center'>
                 Behaviours<br />
                 Culture
               </span>
             </div>
-
           </h1>
           <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-yellow-500 border-2 w-1/4 self-center mt-4 items-center justify-center"></hr>
           <About_display />
@@ -69,8 +68,10 @@ export default function AboutUs() {
         </div>
       </div>
       {/* slides */}
-      <Team />
-      <span className="flex text-3xl lg:text-4xl font-semibold pt-20 items-center justify-center pb-10">Our Collaborating Partners</span>
+
+      <Team/>
+      <span className="flex text-3xl lg:text-4xl font-semibold pt-20 items-center justify-center pb-10 px-10">Our Collaborating Partners</span>
+
       <div className="Home-container-61  lg:px-40">
 
         <Swiper spaceBetween={5} loop={true} loopFillGroupWithBlank={true}

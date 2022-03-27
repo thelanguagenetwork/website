@@ -90,7 +90,7 @@ export default () => {
                 {cardData.map((card, i) => {
                     return (
                         <SwiperSlide className="testi-slides w-full">
-                            <div className="relative h-96">
+                            <div className="relative h-80">
                                 <div class="flex card">
                                     <div class="image">
                                         <img src={card.pic} />
