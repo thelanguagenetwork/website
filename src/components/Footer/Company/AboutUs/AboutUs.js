@@ -6,6 +6,8 @@ import "swiper/css/pagination"
 import "swiper/css/navigation"
 
 import About_display from "./About_display"
+import { TextareaAutosize } from '@mui/material';
+import Team from './team';
 
 export default function AboutUs() {
   return (
@@ -27,8 +29,8 @@ export default function AboutUs() {
 
         </div>
         <div className="px-8 lg:px-0 lg:w-1/2 rounded-lg">
-          <video controls className="w-11/12 rounded-md mt-10 mr-10">
-            <source src="./file_video.mp4" autoplay controls className="rounded-lg"></source>
+          <video controls autoPlay muted className="w-11/12 rounded-md mt-10 mr-10">
+            <source src="/videos/TLN_Online-Class_Self-Care-Education.mp4" className="rounded-lg"></source>
           </video>
         </div>
       </div>
@@ -67,9 +69,10 @@ export default function AboutUs() {
         </div>
       </div>
       {/* slides */}
-      <div className="text-center">asddad</div>
-
-      <div className="Home-container-6  lg:px-40">
+      <Team/>
+      <span className="flex text-3xl lg:text-4xl font-semibold pt-20 items-center justify-center pb-10">Our Collaborating Partners</span>
+      <div className="Home-container-61  lg:px-40">
+        
                 <Swiper spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
                     breakpoints={{
                         640: {
@@ -88,11 +91,11 @@ export default function AboutUs() {
                     }} 
                     className="mySwiper">
                     <SwiperSlide>
-                        <img src="/images/Loyola_College_Chennai_-_Coat_of_arms.png" alt='img' />
+                        <img  src="/images/Loyola_College_Chennai_-_Coat_of_arms.png" alt='img' />
                     </SwiperSlide><SwiperSlide>
-                        <img src="/images/Rcmg-Ghatkopar-300x300.png" alt='img' />
+                        <img  src="/images/Rcmg-Ghatkopar-300x300.png" alt='img' />
                     </SwiperSlide><SwiperSlide>
-                        <img src="/images/rotary.png" alt='img' />
+                        <img  src="/images/rotary.jpg" alt='img1' />
                     </SwiperSlide>
                 </Swiper>
             </div>
