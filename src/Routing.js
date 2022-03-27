@@ -61,6 +61,8 @@ function Routing() {
           <Route exact path='/Blog' element={<Blog/>} />
           <Route exact path='/AboutUs' element={<AboutUs />} />
           <Route exact path='/Careers' element={<Careers />} />
+          <Route exact path='/Press' element={<Press />} />
+
 
           <Route exact path='/Faqs' element={<Faqs />} />
 
