@@ -58,7 +58,7 @@ export default () => {
     const cardData = CardData();
     return (
         <Swiper
-        
+
             infinite
             autoplay={
                 {
@@ -75,7 +75,7 @@ export default () => {
                     "spaceBetween": 20
                 },
                 "768": {
-                    "slidesPerView": 4, 
+                    "slidesPerView": 4,
                     "spaceBetween": 40
                 },
                 "1024": {
@@ -83,14 +83,14 @@ export default () => {
                     "spaceBetween": 5
                 }
             }}
-             >
+        >
             <section> {
                 cardData.map((card, i) => {
-                    return (<SwiperSlide className='mb-10'>
-                        <div className="lg:w-5/6 h-auto md:w-1/2 card " id="card" key={i} >
+                    return (<SwiperSlide className='mb-10 '>
+                        <div className="lg:w-5/6 h-auto md:w-1/2 card1 " id="card" key={i} >
                             <div class=" w-auto rounded-lg card-item flex items-center justify-evenly " >
                                 <div class=" w-full h-full flex items-center justify-center rounded-full" >
-                                    <img src={card.path} alt='img'/> 
+                                    <img src={card.path} alt='img' />
                                 </div>
                                 <h2 className="text-normal text-gray-900 font-normal title-font ml-2 title text-center" > {card.title} </h2>
                                 <p className="text-normal text-gray-900 font-normal title-font  ml-2 title text-center" > {card.description} </p>

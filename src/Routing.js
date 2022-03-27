@@ -28,6 +28,7 @@ import Careers from './components/Footer/Company/Careers/Careers';
 import Aff_prog from './components/Footer/Subscribe/aff_prog';
 import Faqs from './components/Footer/Subscribe/faqs';
 import Contact from './components/Footer/Subscribe/Contact';
+import Press from './components/Footer/Company/Press/Press';
 
 
 function Routing() {
@@ -57,10 +58,15 @@ function Routing() {
           <Route exact path='/mandarin-course-kids' element={<KidsMandarin />} />
           <Route exact path='/japanese-course-kids' element={<KidsJapanese />} />
           <Route exact path='/korean-course-kids' element={<KidsKorean />} />
+
           <Route exact path='/Dictionary' element={<Dict />} />
-          <Route exact path='/Blog' element={<Blog/>} />
+
+          {/* Footer > Company */}
           <Route exact path='/AboutUs' element={<AboutUs />} />
           <Route exact path='/Careers' element={<Careers />} />
+          <Route exact path='/Blog' element={<Blog/>} />
+          <Route exact path='/Press' element={<Press/>} />
+
 
           <Route exact path='/Faqs' element={<Faqs />} />
 
