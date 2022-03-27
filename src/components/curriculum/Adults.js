@@ -47,13 +47,13 @@ function Adults() {
                 <h2>Curating a pleasant learning experience</h2>
                 <h1 className='mb-6'>Choose a language</h1>
                 <div className='Home-container-2-imgs'>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-english@300x.png' /></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-french@300x.png' /></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-spanish@300x.png' /></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-german@300x.png' /></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-mandarin@300x.png' /></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-japanese@300x.png' /></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-korean@300x.png' /></a>
+                    <a href='/english-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-english@300x.png' /></a>
+                    <a href='/french-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-french@300x.png' /></a>
+                    <a href='/spanish-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-spanish@300x.png' /></a>
+                    <a href='/german-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-german@300x.png' /></a>
+                    <a href='/mandarin-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-mandarin@300x.png' /></a>
+                    <a href='/japanese-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-japanese@300x.png' /></a>
+                    <a href='/korean-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-korean@300x.png' /></a>
                 </div>
             </div>
 

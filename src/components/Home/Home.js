@@ -134,17 +134,17 @@ export default function Home() {
             </div>
 
 
-            <div className="Home-container-2 w-full lg:w-4/5 mt-52 lg:mt-72" >
+            <div className="Home-container-2 w-full lg:w-4/5 mt-52 lg:mt-72">
                 <h1>START YOUR JOURNEY WITH US!</h1>
                 <h2>Select a Foreign Language Course</h2>
                 <div className='Home-container-2-imgs'>
                     <a href='/english-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-english@300x.png' /></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-french@300x.png' /></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-spanish@300x.png' /></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-german@300x.png' /></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-mandarin@300x.png' /></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-japanese@300x.png' /></a>
-                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-korean@300x.png' /></a>
+                    <a href='/french-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-french@300x.png' /></a>
+                    <a href='/spanish-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-spanish@300x.png' /></a>
+                    <a href='/german-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-german@300x.png' /></a>
+                    <a href='/mandarin-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-mandarin@300x.png' /></a>
+                    <a href='/japanese-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-japanese@300x.png' /></a>
+                    <a href='/korean-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-korean@300x.png' /></a>
                 </div>
             </div>
 
@@ -209,7 +209,7 @@ export default function Home() {
                 <h1 className='text-[#13bfab] text-xl font-medium tracking-widest'>WE PREPARE YOU FOR</h1>
                 <h2 className='text-black text-4xl font-medium'>International Exams</h2>
             </div>
-            <div className="Home-container-6  lg:px-40">
+            <div className="Home-container-6 lg:px-40">
                 <Swiper spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
                     breakpoints={{
                         640: {
@@ -222,33 +222,33 @@ export default function Home() {
                     }}
                     pagination={{
                         "clickable": true
-                    }} navigation={true} autoplay={{
+                    }} navigation={false} autoplay={{
                         "delay": 2500,
                         "disableOnInteraction": false
-                    }} className="mySwiper">
-                    <SwiperSlide>
+                    }} >
+                    <SwiperSlide className="mb-20">
                         <img src={img1} alt='img' />
-                    </SwiperSlide><SwiperSlide>
+                    </SwiperSlide><SwiperSlide className="mb-20">
                         <img src={img2} alt='img' />
-                    </SwiperSlide><SwiperSlide>
+                    </SwiperSlide><SwiperSlide className="mb-20">
                         <img src={img3} alt='img' />
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className="mb-20">
                         <img src={img4} alt='img' />
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className="mb-20">
                         <img src={img5} alt='img' />
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className="mb-20">
                         <img src={img6} alt='img' />
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className="mb-20">
                         <img src={img7} alt='img' />
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className="mb-20">
                         <img src={img8} alt='img' />
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide className="mb-20">
                         <img src={img9} alt='img' />
                     </SwiperSlide>
                 </Swiper>
@@ -259,7 +259,7 @@ export default function Home() {
                     <h1 className='font-bold text-3xl lg:text-4xl'>The Language Network saves you
 
                         <div class="scroller">
-                            <span  className='bg-gray-400 px-3'>
+                            <span  className='bg-[#13bfab] px-3 text-center'>
                                 Time<br />
                                 Money
                             </span>
@@ -273,7 +273,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="Home-container-8 text-center">
+            <div className="Home-container-8 mt-14 text-center">
                 <h1>FROM LEARNING A NEW LANGUAGE TO LIVING IT!</h1>
                 <h2>Why you should learn with The Language Network?</h2>
             </div>
@@ -290,7 +290,7 @@ export default function Home() {
                         JOIN A COURSE
                     </button>
                 </div>
-                <div className='flex align-center px-10 py-10 lg:px-20 lg:py-20'>
+                <div className='flex align-center px-10 py-10 lg:px-32 lg:py-32'>
                     <img src='/images/certificate-mockup.png' alt='img' className='certificate-img' />
                 </div>
                 <img src='/images/dots-circle.png' alt='img' className='dots-circle-1 lg:block hidden' />
