@@ -75,12 +75,12 @@ export default () => {
             <section> {
                 cardData.map((card, i) => {
                     return (<SwiperSlide >
-                        <div className="lg:w-5/6 md:w-1/2 card1 " id="card" key={i} >
+                        <div className="lg:w-5/6 md:w-1/2 w-1/2 card1 mb-20 " id="card" key={i} >
                             <div class=" w-auto card1-item flex items-center justify-evenly space-y-4" >
                                 <div class=" w-full h-full flex items-center justify-center" >
                                     <img className="h-16" src={card.path} alt='img'/> 
                                 </div>
-                                <h2 className="text-2xl text-gray-900 font-semibold title-font ml-2 title text-center" > {card.title} </h2>
+                                <h2 className="text-2xl text-gray-900 font-semibold title-font ml-2 title text-center px-0" > {card.title} </h2>
                                 <em className="text-base text-gray-900 font-normal title-font  ml-2 title text-center" > {card.description} </em>
                             </div>
                         </div>
