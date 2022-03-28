@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaCircle } from 'react-icons/fa';
 import { AiFillStar } from 'react-icons/ai';
-import react from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination"

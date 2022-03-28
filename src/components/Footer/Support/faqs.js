@@ -1,19 +1,6 @@
 import React from 'react'
 
 export default function Faqs() {
-  const ColoredLine = ({ color }) => (
-    <hr
-      style={{
-        color: color,
-        backgroundColor: color,
-        height: 0.5,
-        width:100,
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center"
-      }}
-    />
-  );
   return (
     <div>
       <div>
