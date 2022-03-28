@@ -2,9 +2,8 @@ import React from 'react'
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 import { AiFillStar } from 'react-icons/ai';
-import { FaCircle } from 'react-icons/fa';
 
-export default function Aff_prog() {
+export default function AffProg() {
   return (
     <div>
       <div className='w-full px-4 lg:px-26 h-auto flex flex-row lg:flex-col justify-center items-center content-center flex-wrap' >
@@ -159,13 +158,13 @@ export default function Aff_prog() {
       <div className="Home-container-2 w-full lg:px-20 mt-4">
         <h2>Which language would you like to learn?</h2>
         <div className='Home-container-21-imgs mt-10'>
-          <a className='my-2'><img className='Home-container-21-img' alt='img' src='/images/English.png' /><span className=''>English</span></a>
-          <a className='my-2'><img className='Home-container-21-img' alt='img' src='/images/French.png' /><span className=''>French</span></a>
-          <a className='my-2'><img className='Home-container-21-img' alt='img' src='/images/Spanish.png' /><span className=''>Spanish</span></a>
-          <a className='my-2'><img className='Home-container-21-img' alt='img' src='/images/German.png' /><span className=''>German</span></a>
-          <a className='my-2'><img className='Home-container-21-img' alt='img' src='/images/mandarin.png' /><span className=''>Mandarin</span></a>
-          <a className='my-2'><img className='Home-container-21-img' alt='img' src='/images/japanese.png' /><span className=''>Japanese</span></a>
-          <a className='my-2'><img className='Home-container-21-img' alt='img' src='/images/Korean.png' /><span className=''>Korean</span></a>
+          <a href='/english-course-adults' className='my-2'><img className='Home-container-21-img' alt='img' src='/images/English.png' /><span className=''>English</span></a>
+          <a href='/french-course-adults' className='my-2'><img className='Home-container-21-img' alt='img' src='/images/French.png' /><span className=''>French</span></a>
+          <a href='/spanish-course-adults' className='my-2'><img className='Home-container-21-img' alt='img' src='/images/Spanish.png' /><span className=''>Spanish</span></a>
+          <a href='/german-course-adults' className='my-2'><img className='Home-container-21-img' alt='img' src='/images/German.png' /><span className=''>German</span></a>
+          <a href='/mandarin-course-adults' className='my-2'><img className='Home-container-21-img' alt='img' src='/images/mandarin.png' /><span className=''>Mandarin</span></a>
+          <a href='/japanese-course-adults' className='my-2'><img className='Home-container-21-img' alt='img' src='/images/japanese.png' /><span className=''>Japanese</span></a>
+          <a href='/korean-course-adults' className='my-2'><img className='Home-container-21-img' alt='img' src='/images/Korean.png' /><span className=''>Korean</span></a>
         </div>
       </div>
       <div>
