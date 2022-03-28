@@ -280,7 +280,7 @@ export default function Aff_prog() {
         If you have any questions about our affiliate program, you can reach us at
         </h1>
         <h1 className="text-center mt-2"> <a className="text-black underline" href="mailto:marketing@thelanguagenetwork.co">marketing@thelanguagenetwork.co</a></h1>
-       
+       <span></span>
       </div>
     </div>
   )
