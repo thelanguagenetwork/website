@@ -25,7 +25,7 @@ import KidsJapanese from './components/Footer/LangForKids/Japanese';
 import KidsKorean from './components/Footer/LangForKids/Korean';
 import AboutUs from './components/Footer/Company/AboutUs/AboutUs.js';
 import Careers from './components/Footer/Company/Careers/Careers';
-import Aff_prog from './components/Footer/Support/aff_prog';
+import AffProg from './components/Footer/Support/AffProg';
 import Faqs from './components/Footer/Support/faqs';
 import Contact from './components/Footer/Support/Contact';
 import Press from './components/Footer/Company/Press/Press';
@@ -70,7 +70,7 @@ function Routing() {
           {/* Support */}
           <Route exact path='/Faqs' element={<Faqs />} />
           <Route exact path='/Contact' element={<Contact />} />
-          <Route exact path='/Aff_prog' element={<Aff_prog />} />
+          <Route exact path='/Aff_prog' element={<AffProg />} />
 
           {/* More */}
           <Route exact path='/Dictionary' element={<Dict />} />

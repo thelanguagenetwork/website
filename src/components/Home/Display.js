@@ -54,7 +54,7 @@ function CardData() {
     return rtn;
 }
 
-export default () => {
+export default function Display() {
     const cardData = CardData();
     return (
         <Swiper
@@ -104,3 +104,6 @@ export default () => {
         </Swiper>
     );
 };
+
+
+

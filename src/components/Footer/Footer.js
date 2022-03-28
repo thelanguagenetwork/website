@@ -138,12 +138,12 @@ export default function Footer() {
                             <div className="col-xl-4 col-lg-4 d-none d-lg-block ">
                                 <div className="footer-menu">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/teamlanguagenetwork"><img src='/images/facebook.svg' /></a></li>
-                                        <li><a href="https://www.instagram.com/thelanguagenetwork/"><img src='/images/instagram.svg' /></a></li>
-                                        <li><a href="https://www.linkedin.com/company/the-languagenetwork/"><img src='/images/linkedin.svg' /></a></li>
-                                        <li><a href="mailto:info@thelanguagenetwork.co"><img src='/images/envelope-fill.svg' /></a></li>
-                                        <li><a href="https://in.pinterest.com/teamlanguagenetwork/"><img src='/images/pinterest.svg' /></a></li>
-                                        <li><a href="https://www.youtube.com/channel/UC2pMpIkwz5AzM-SRMX9rjLQ"><img src='/images/youtube.svg' /></a></li>
+                                        <li><a href="https://www.facebook.com/teamlanguagenetwork"><img src='/images/facebook.svg' alt='img'/></a></li>
+                                        <li><a href="https://www.instagram.com/thelanguagenetwork/"><img src='/images/instagram.svg' alt='img'/></a></li>
+                                        <li><a href="https://www.linkedin.com/company/the-languagenetwork/"><img src='/images/linkedin.svg' alt='img'/></a></li>
+                                        <li><a href="mailto:info@thelanguagenetwork.co"><img src='/images/envelope-fill.svg' alt='img'/></a></li>
+                                        <li><a href="https://in.pinterest.com/teamlanguagenetwork/"><img src='/images/pinterest.svg' alt='img'/></a></li>
+                                        <li><a href="https://www.youtube.com/channel/UC2pMpIkwz5AzM-SRMX9rjLQ"><img src='/images/youtube.svg' alt='img'/></a></li>
                                         <li><a href="https://thelanguagenetwork.medium.com/"><FaMedium style={{ color: '#000', fontSize: '17px' }} /></a></li>
                                     </ul>
                                 </div>
