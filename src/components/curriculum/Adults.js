@@ -62,7 +62,7 @@ function Adults() {
                     <h1 className='font-bold text-3xl lg:text-4xl'>Foreign Language Education for Everyone!</h1>
                     <p className='text-lg '>Live online language classes for kids, adolscents and adults at The Language Network, pioneering online language schools, with the assistance of professional teachers.</p>
                     <p className='text-lg '>With our professional live online language classes, TLN is the complete solution to perfectly assist kids in their path to fluency.</p>
-                    <button class="bg-teal-500 hover:bg-teal-400 text-white font-bold py-3 px-4 rounded" >
+                    <button class="bg-[#13BFAB] hover:bg-teal-400 text-white font-bold py-3 px-4 rounded" >
                         JOIN A COURSE
                     </button>
                 </div>
@@ -94,7 +94,7 @@ function Adults() {
                     Korean
                 </a>
             </div>
-            <div className='flex justify-center'>
+            <div className='flex justify-center mb-20'>
                 <Languages />
             </div>
 

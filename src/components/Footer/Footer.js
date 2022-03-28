@@ -95,7 +95,7 @@ export default function Footer() {
                             <div className="col-xl-2 col-lg-2 col-md-6 mb-50">
                                 <div className="footer-widget">
                                     <div className="footer-widget-heading">
-                                        <h3>Subscribe</h3>
+                                        <h3>Support</h3>
                                     </div>
                                     <ul>
                                         <li><a href="/Faqs">FAQs</a></li>
@@ -129,9 +129,9 @@ export default function Footer() {
                             <div className="col-xl-4 col-lg-4 d-none d-lg-block ">
                                 <div className="footer-menu">
                                     <ul>
-                                        <li><a href="#">Terms and Conditions</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Sitemap</a></li>
+                                        <li><a href="/Terms-And-Conditions">Terms and Conditions</a></li>
+                                        <li><a href="/Privacy-Policy">Privacy Policy</a></li>
+                                        <li><a href="/">Sitemap</a></li>
                                     </ul>
                                 </div>
                             </div>

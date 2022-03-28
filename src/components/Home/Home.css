@@ -611,7 +611,7 @@
 
 .card-item {
     height: 260px;
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;

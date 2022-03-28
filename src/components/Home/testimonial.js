@@ -68,7 +68,7 @@ export default () => {
     const cardData = CardData();
     return (
         <Swiper
-        navigation = {true}
+        navigation = {false}
             infinite
             autoplay={{
                 disableOnInteraction: false,
