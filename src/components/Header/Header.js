@@ -65,6 +65,7 @@ class Header extends react.Component {
 
   }
 
+  console.log(window.location)
 
     return (
       <>
@@ -84,7 +85,7 @@ class Header extends react.Component {
               </li>
               <div id='curriListM' >
                 <ul>
-                  <a href='/AdultsCourses'>ADULTS COURSES</a>
+                  <a href={'/AdultsCourses'}>ADULTS COURSES</a>
                 </ul>
                 <ul>
                   <a href='/KidsCourses'>KIDS COURSES</a>
@@ -97,9 +98,9 @@ class Header extends react.Component {
             <img src="/images/Logo-website.png" alt="Logo" />
           </Logo>
           <NavMenu>
-            <a href='/'>
+            <a {...window.location.pathname !== '/' ? {href :'/'}  : {}}  >
               <span >
-                <Link to="Curriculum" spy={true} smooth={false}  onClick={() => {change("Curriculum")}}> 
+                <Link to="Curriculum"  spy={true} smooth={false}  onClick={() => {change("Curriculum")}} > 
                   Curriculum
                 </Link>
               </span>

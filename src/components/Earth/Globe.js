@@ -24,6 +24,7 @@ export default function Globe3d() {
       arcDashLength={() => Math.random()}
       arcDashGap={() => Math.random()}
       arcDashAnimateTime={() => Math.random() * 6000 + 500}
+      enablePointerInteraction = {false}
       />
   )
 }

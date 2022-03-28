@@ -123,7 +123,7 @@ export default function AdultsTable() {
     const tableData = TableData();
     return (
         <div>
-            <div className="w-full font-medium text-4xl poppins text-center">Why learning with TLN is beneficial?</div>
+            <div className="w-full mb-20 font-medium text-4xl poppins text-center">Why learning with TLN is beneficial?</div>
             <div className=''>
                 <table class='shadow-md rounded w-5/6 m-auto'>
                     <tbody>

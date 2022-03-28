@@ -89,8 +89,8 @@ export default () => {
                     return (<SwiperSlide className='mb-10 '>
                         <div className="lg:w-5/6 h-auto md:w-1/2 card1 " id="card" key={i} >
                             <div class=" w-auto rounded-lg card-item flex items-center justify-evenly " >
-                                <div class=" w-full h-full flex items-center justify-center rounded-full" >
-                                    <img src={card.path} alt='img' />
+                                <div class="w-20 h-20 flex items-center justify-center rounded-full" >
+                                    <img src={card.path} alt='img' className='w-full h-full' />
                                 </div>
                                 <h2 className="text-normal text-gray-900 font-normal title-font ml-2 title text-center" > {card.title} </h2>
                                 <p className="text-normal text-gray-900 font-normal title-font  ml-2 title text-center" > {card.description} </p>

@@ -5,7 +5,7 @@ import PricingTable from './PricingTable';
 
 export default function LearningPrices(props) {
 
-    const [Opt, setOpt] = useState(1)
+    const [Opt, setOpt] = useState(3)
     const LearningPrices = () => {
         switch (Opt) {
             case 1:
