@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
       <div className="px-32">
         <div className="flex flex-wrap pt-20">
           <div className="w-10 mr-6">
-            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" />
+            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" alt='img'/>
           </div>
           <div className="flex items-center font-medium text-2xl ">
             Privacy Policy of www.thelanguagenetwork.co
@@ -29,7 +29,7 @@ export default function PrivacyPolicy() {
 
         <div className="flex flex-wrap pt-20">
           <div className="w-10 mr-6">
-            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" />
+            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" alt='img'/>
           </div>
           <div className="flex items-center font-medium text-2xl ">
             COOKIE POLICY
@@ -42,7 +42,7 @@ export default function PrivacyPolicy() {
 
         <div className="flex flex-wrap pt-20">
           <div className="w-10 mr-6">
-            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" />
+            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" alt='img'/>
           </div>
           <div className="flex items-center font-medium text-2xl ">
             WHAT INFORMATION DO WE COLLECT?
@@ -61,7 +61,7 @@ export default function PrivacyPolicy() {
 
         <div className="flex flex-wrap pt-20">
           <div className="w-10 mr-6">
-            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" />
+            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" alt='img'/>
           </div>
           <div className="flex items-center font-medium text-2xl ">
             HOW DO WE USE YOUR INFORMATION?
@@ -76,7 +76,7 @@ export default function PrivacyPolicy() {
 
         <div className="flex flex-wrap pt-20">
           <div className="w-10 mr-6">
-            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" />
+            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" alt='img'/>
           </div>
           <div className="flex items-center font-medium text-2xl ">
             WILL YOUR INFORMATION BE SHARED WITH ANYONE?
@@ -91,7 +91,7 @@ export default function PrivacyPolicy() {
 
         <div className="flex flex-wrap pt-20">
           <div className="w-10 mr-6">
-            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" />
+            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" alt='img'/>
           </div>
           <div className="flex items-center font-medium text-2xl ">
             WHO WILL YOUR INFORMATION BE SHARED WITH?
@@ -106,7 +106,7 @@ export default function PrivacyPolicy() {
 
         <div className="flex flex-wrap pt-20">
           <div className="w-10 mr-6">
-            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" />
+            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" alt='img'/>
           </div>
           <div className="flex items-center font-medium text-2xl ">
             HOW LONG DO WE KEEP YOUR INFORMATION?
@@ -120,7 +120,7 @@ export default function PrivacyPolicy() {
 
         <div className="flex flex-wrap pt-20">
           <div className="w-10 mr-6">
-            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" />
+            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" alt='img'/>
           </div>
           <div className="flex items-center font-medium text-2xl ">
             DO WE MAKE UPDATES TO THIS NOTICE?
@@ -135,7 +135,7 @@ export default function PrivacyPolicy() {
 
         <div className="flex flex-wrap pt-20">
           <div className="w-10 mr-6">
-            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" />
+            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" alt='img'/>
           </div>
           <div className="flex items-center font-medium text-2xl ">
             HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
@@ -148,7 +148,7 @@ export default function PrivacyPolicy() {
 
         <div className="flex flex-wrap pt-20">
           <div className="w-10 mr-6">
-            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" />
+            <img src="https://img.icons8.com/ios-filled/50/000000/security-checked.png" alt='img'/>
           </div>
           <div className="flex items-center font-medium text-2xl ">
             HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
