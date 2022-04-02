@@ -108,7 +108,7 @@ class Header extends react.Component {
 
             <a>
               <span id='curriculum' className='hover:text-teal-600' style={{ padding: '31px 0px' }} onMouseOver={expand} onMouseLeave={retract}>
-                courses
+                Courses
                 <IoIosArrowDown />
 
                 <div id='curriList' >
