@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaRegWindowMinimize,FaLightbulb } from 'react-icons/fa';
+import { FaRegWindowMinimize, FaLightbulb } from 'react-icons/fa';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 
@@ -54,136 +54,47 @@ export default function AdultsMandarin() {
                     <img src="/images/TLN_Mandarin-elements.png" alt="img" />
                 </div>
             </div>
-
-            <div className="my-20 lg:flex flex-row">
-                <div className='space-y-2 px-10 lg:px-20'>
-                    <h1 className="font-bold text-3xl lg:text-4xl">Mandarin Language Levels for Kids</h1>
-                    <p className='text-sm text-[#54595f]'>All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.</p>
-                    <p className='text-sm text-[#54595f]'>Online Mandarin for kids is divided into following levels:</p>
-                    <ul className='list-disc font-bold text-gray-600 pl-3 leading-10'>
-                        <li>Level A1-  A1.1, A1.1</li>
-                        <li> Level A2- A2.1, A2.2</li>
-                    </ul>
-                </div>
-                <div className='flex align-center px-20 py-20 lg:px-10 lg:py-10'>
-                    <img src='/images/French-levels@300x-1536x931.png' alt='img' />
-                </div>
-            </div>
-            <div className='w-full text-center font-semibold text-3xl lg:text-4xl'>Benefits of Learning English with TLN?</div>
-            <section class="text-gray-600 body-font">
-                <div class="container px-2 lg:px-5 py-20 mx-auto">
-                    <div class="flex flex-wrap -m-4">
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Language Immersion</h2>
-                                <p class="leading-relaxed text-base">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
-                            </div>
-                        </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Experienced Teachers</h2>
-                                <p class="leading-relaxed text-base">We have hired a team of experienced professionals to teach our students. Now learn only from the best and become a master of the English language.</p>
-                            </div>
-                        </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Simple to Complex Learning Curve</h2>
-                                <p class="leading-relaxed text-base">Our English language course for kids start from simple English and then covers complex aspects of the language. We understand the learning needs of our students and teach them accordingly.</p>
-                            </div>
-                        </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Classes from Home</h2>
-                                <p class="leading-relaxed text-base">The Language Network is an online language school. You do not need to waste your time and money to learn English now. Join TLN and learn from within the comforts of your own home.</p>
-                            </div>
-                        </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Age-appropriate program</h2>
-                                <p class="leading-relaxed text-base">Our English courses for kids are hand-tailored to meet the learning needs of children. Our courses are age-appropriate and focus on all aspects of language learning in an easy and understandable way.</p>
-                            </div>
-                        </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">European Standard of Education</h2>
-                                <p class="leading-relaxed text-base">We have created our courses by carefully considering the European standards of education. We also teach our students how to crack international language exams.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <div className='w-full text-center text-3xl lg:text-4xl font-medium '>Why learn a language with TLN?</div>
+            <div className='w-full text-center text-3xl lg:text-4xl font-medium mt-20'>How learning Mandarin with TLN unique?</div>
             <div className='w-full lg:px-32 py-18 flex flex-row flex-wrap  justify-evenly'>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
-                    <p className='text-sm text-gray-700'>Our English language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
+                    <h3 className='font-bold text-lg my-2'>Interview Preparation</h3>
+                    <p className='text-sm text-gray-700'>
+                        When you learn Mandarin with TLN, we also train you for interviews and other career aspects. We prepare you for the world. </p>
                 </div>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
-                    <p className='text-sm text-gray-700'>You can monitor your child’s progress with our English language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
+                    <h3 className='font-bold text-lg my-2'>CV Making</h3>
+                    <p className='text-sm text-gray-700'>Along with our Mandarin language course, we also teach you how to make proper C.V. We believe that all career aspects are important. </p>
                 </div>
-                <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-24@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
+                <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/deleadults.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>HSK Preparations</h3>
                     <p className='text-sm text-gray-700'>
-                        Our curriculum is created by carefully integrating all aspects of language learning. Our Learn English for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
+                        When you learn Mandarin with us, we also prepare you for international exams like HSK . We believe that our students should crack these exam so that we can teach you how to ace </p>
                 </div>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Learn from experts</h3>
+                    <h3 className='font-bold text-lg my-2'>Spoken Mandarin</h3>
                     <p className='text-sm text-gray-700'>
-                        After an extensive hiring process, we have carefully handpicked language experts, who are efficient in teaching kids and adolescents. Leave your children with our English language experts and expect nothing but better results.  </p>
+                        Our Mandarin language course focuses on spoken Mandarin a lot. We want our students to speak fluent Mandarin.</p>
                 </div>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Career Guidance</h3>
+                    <h3 className='font-bold text-lg my-2'>Progress with Study Plans</h3>
                     <p className='text-sm text-gray-700'>
-                        Our language trainers will guide your children to excel in their academic life. We will also conduct career counselling when it is needed. Push your kids to a new height with our English language courses.  </p>
+                        We have crafted proper study plans to meet your learning needs. Our study plans include all the tricks and tips that you will need to learn Mandarin.</p>
                 </div>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>International Exams</h3>
-                    <p className='text-sm text-gray-700'>
-                        TLN believes that all its students should appear for international exams like Cambridge. From an early age, we prepare them for these international exams.   </p>
-                </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Cultural Sensitivity</h3>
+                    <h3 className='font-bold text-lg my-2'>Small batches</h3>
                     <p className='text-sm text-gray-700'>
 
-                        Our English language course for kids and adolescents also includes cultural learning. We believe that Cultural learning is important when it comes to language learning. It helps the students learn more efficiently. Thus, we focus on the culture associated with the language.   </p>
-                </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Get Certified Results</h3>
-                    <p className='text-sm text-gray-700'>
-
-                        We provided certificates as our students excel in language learning. It ensures that the students will aim higher and be more motivated. Certificates are good for boosting student morale. Learn English with TLN and give wings to your children’s dreams.   </p>
+                        At TLN, we believe in small batches. Compact batches make it possible for our language experts to give proper attention to the students.</p>
                 </div>
             </div>
 
-            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium '>How is learning English beneficial for kids?</div>
+            <div className='w-full lg:mt-28 text-center text-3xl lg:text-4xl font-medium '>How to learn Mandarin effectively ?</div>
             <div className='flex flex-col lg:flex-row'>
                 <div className='pl-10 w-3/4 lg:w-[60rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
@@ -194,8 +105,8 @@ export default function AdultsMandarin() {
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Give Your Child a Head Start</h1>
-                            <p className='text-[#54595f] pt-2'>Start teaching Mandarin to your child and keep him ahead of his peers. See your child excel in the Mandarin language at a young age.</p>
+                            <h1 className='text-2xl font-medium'>Grammar and Vocabulary</h1>
+                            <p className='text-[#54595f] pt-2'>Language is all about vocabulary and how you place it. If you wish to master Mandarin, you will need to improve your grammar and vocabulary</p>
                         </div>
                     </div>
                     <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
@@ -204,8 +115,8 @@ export default function AdultsMandarin() {
                         </div>
                         <div>
                             <h1 className='text-2xl font-medium'>
-                                Cognitive Benefits</h1>
-                            <p className='text-[#54595f] pt-2'>Learning Mandarin at young age ropes in several cognitive benefits. Strengthen your brain cells and neurons by immersing your brain in new activities. A child’s brain is like a sponge. It will absorb knowledge in a much more efficient way.</p>
+                                Listening and Speaking</h1>
+                            <p className='text-[#54595f] pt-2'>When you learn Mandarin, all you want to do is be able to speak in Mandarin and understand it. Work on them and you will learn Mandarin effectively.</p>
                         </div>
                     </div>
                     <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
@@ -213,8 +124,8 @@ export default function AdultsMandarin() {
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Confident Communication</h1>
-                            <p className='text-[#54595f] pt-2'>The earlier you learn Mandarin, the more fluent you get in it. Start your child’s learning process from a young age and make them a master of communication.</p>
+                            <h1 className='text-2xl font-medium'>Cultural Know-how</h1>
+                            <p className='text-[#54595f] pt-2'>If you wish to learn Mandarin language properly, you will have to learn the culture associated with the language. Culture matters a lot while learning a language.</p>
                         </div>
                     </div>
                     <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
@@ -222,22 +133,41 @@ export default function AdultsMandarin() {
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Career in China</h1>
-                            <p className='text-[#54595f] pt-2'>After learning Mandarin, you can move to China for work or for education. You can also work as a translator, interpreter, teacher, etc after completing our Mandarin language course online.</p>
+                            <h1 className='text-2xl font-medium'>Practice with experts</h1>
+                            <p className='text-[#54595f] pt-2'>If you want to master Mandarin language, you will have to sharp it by talking to our language experts. Consistency is the key.</p>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div className='pt-20 w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>TLN and International Exams</div>
-            <p className='text-center w-full px-10 lg:px-60 pt-4 text-sm text-[#54595f]'> We want our students to excel in international exams like TOEFL and IELTS. We teach our students how to learn English in a way that will help them ace these standardised tests. All aspects of the test, including pronunciation, vocabulary, listening part, is being taken care of at TLN. We ensure that once you learn something you won’t forget it.</p>
-            <div className='px-3 group w-full flex flex-col items-center my-10'>
-                <img src="/images/international-exam-10-300x159.jpg" alt="img" className='w-60' />
-                <div className='px-10 shadow-xl text-center lg:w-2/3 p-4'>
-                    <h3 className='text-lg font-bold pb-3 group-hover:text-amber-400 ease-in duration-300'>YCT</h3>
-                    <p className='text-sm text-[#54595f]'>Youth Chinese Test (YCT),an international standardized test of Chinese language proficiency, assesses the primary and middle school students' abilities to use Chinese as second language in their daily and academic lives. YCT is divided into writing and speaking tests, which are independent to each other. The writing testconsistsof four levels, namely, YCT (level I), YCT (level II), YCT (level III), and YCT (level IV). The speaking testconsists oftwo levels, YCT Speaking (Primary Level) and YCT Speaking (Intermediate Level).</p>
                 </div>
             </div>
 
+            <div className='pt-20 w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>TLN and International Exams</div>
+            <p className='text-center w-full px-10 lg:px-60 pt-4 text-sm text-[#54595f]'> After our students learn Mandarin from us, we expect them to appear for international exams. HSK is one such exam related to Mandarin. We teach our students all the tricks and tips they need to crack HSK. All aspects of HSK are covered in our Mandarin language course. This includes comprehension, reading, grammar, vocabulary, etc.</p>
+            <div className='px-3 group w-full flex flex-col items-center my-10'>
+                <img src="/images/international-exam-5.jpg" alt="img" className='w-28' />
+                <div className='px-10 shadow-xl text-center lg:w-2/3 p-4'>
+                    <h3 className='text-lg font-bold pb-3 group-hover:text-amber-400 ease-in duration-300'>HSK</h3>
+                    <p className='text-sm text-[#54595f]'>HSK (Hanyu Shuiping Kaoshi) is the international proficiency exam for the Chinese language, standardized for foreign students of the language. This exam is conducted by Hanban, a non-governmental organization to test the proficiency of non-native speakers. There are six HSK levels: HSK1, HSK2, HSK3, HSK4, HSK5, HSK6. HSK was developed by the Beijing Language and Cultural University. Certificates are issued by the State Committee for the proficiency test. This certificate is recognized and accepted by many countries worldwide. Taking into consideration the recent trends in the Chinese language, the examination pattern was revised in 2012.</p>
+                </div>
+            </div>
+
+            <div className="my-20 lg:flex flex-row">
+                <div className='space-y-2 px-10 lg:px-20'>
+                    <h1 className="font-bold text-3xl lg:text-4xl">Mandarin Language Levels for Adults</h1>
+                    <p className='text-sm text-[#54595f]'>All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.</p>
+                    <p className='text-sm text-[#54595f]'>Online Mandarin for adults is divided into following levels:</p>
+                    <ul className='list-disc font-bold text-gray-600 pl-3 leading-10'>
+                        <li>Beginner Level: Level A1 | A1.1 | A1.2</li>
+                        <li>Elementory Level: Level A2 | A2.1 | A2.2 </li>
+                        <li>Intermediate Level: Level B1 |  Level B1.1 | Level B1.2 | Level B1.3 | Level B1.4</li>
+                        <li>Upper-Intermediate Level: Level B2 |  Level B2.1 | Level B2.2 | Level B2.3 | Level B2.4</li>
+                        <li>Advance Level: Level C1 | C1.1 | Level C1.2 | Level C1.3 | Level C2</li>
+                    </ul>
+                </div>
+                <div className='flex align-center px-20 py-20 lg:px-10 lg:py-10'>
+                    <img src='/images/French-levelsadults@300x-1536x931.png' alt='img' />
+                </div>
+            </div>
+            
             <div className='flex flex-col items-center '>
                 <div className="Home-container-3 ">
                     <h1>

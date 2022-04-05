@@ -43,8 +43,8 @@ export default function PricingTable(props) {
                     {
                     props.TableData.map((data, i) => {
                         return (
-                    <div class="col-md-3 col-sm-6">
-                        <div class="pricingTable">
+                    <div class="col-md-3 col-sm-6 ">
+                        <div class="pricingTable lg:mr-1 mr-0">
                             <div class="pricingTable-header">
                                 <i class={`fa ${icons[i]}`}></i>
                                 <div class="price-value flex flex-col"> ₹{data.DiscPrice} <span className='text-[1.4rem] line-through'>₹{data.OgPrice}</span> <span class="month">per month</span> </div>
@@ -161,7 +161,7 @@ export default function PricingTable(props) {
             <p className='w-full pb-20 text-center font-bold text-4xl underline underline-offset-8'>Frequently asked questions</p>
 
 
-            <div className='w-full px-28'>
+            <div className='w-full px-10 lg:px-28'>
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item border-t-0 border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingOne">

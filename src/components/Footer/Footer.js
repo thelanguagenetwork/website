@@ -99,7 +99,7 @@ export default function Footer() {
                                     </div>
                                     <ul>
                                         <li><a href="/Faqs">FAQs</a></li>
-                                        <li><a href="/Contact">Contact</a></li>
+                                        <li><a href="https://api.whatsapp.com/send/?phone=%2B919892773428&text&app_absent=0">Contact</a></li>
                                         <li><a href="/Aff_prog">Affiliate Program</a></li>
                                     </ul>
                                 </div>

@@ -273,7 +273,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="Home-container-8 mt-14 text-center">
+            <div className="Home-container-8 my-14 text-center">
                 <h1>FROM LEARNING A NEW LANGUAGE TO LIVING IT!</h1>
                 <h2>Why you should learn with The Language Network?</h2>
             </div>
