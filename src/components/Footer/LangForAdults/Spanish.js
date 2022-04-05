@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaRegWindowMinimize,FaLightbulb } from 'react-icons/fa';
+import { FaRegWindowMinimize, FaLightbulb } from 'react-icons/fa';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 
@@ -39,7 +39,7 @@ export default function AdultsSpanish() {
                 <div className="bg-[rgba(0,0,0,0.4)] h-full ">
                     <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
                         <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>Spanish Classes for Adults</h1>
-                        <h1 className='text-md my-10 text-white font-medium'>-to-1 , 1-to-2 and Group Online English classes for adults (14+ years old) with professional teachers.</h1>
+                        <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online English classes for adults (14+ years old) with professional teachers.</h1>
                         <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button>
                     </div>
                 </div>
@@ -55,87 +55,7 @@ export default function AdultsSpanish() {
                 </div>
             </div>
 
-            <div className="my-20 lg:flex flex-row">
-                <div className='space-y-2 px-10 lg:px-20'>
-                    <h1 className="font-bold text-3xl lg:text-4xl">Spanish Language Levels for Adults</h1>
-                    <p className='text-sm text-[#54595f]'>All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.</p>
-                    <p className='text-sm text-[#54595f]'>Online Spanish for adults is divided into following levels::</p>
-                    <ul className='list-disc font-bold text-gray-600 pl-3 leading-10'>
-                    <li>Beginner Level: Level A1 | A1.1 | A1.2</li>  
-                        <li>Elementory Level: Level A2 | A2.1 | A2.2 </li>
-                        <li>Intermediate Level: Level B1 |  Level B1.1 | Level B1.2 | Level B1.3 | Level B1.4</li>
-                        <li>Upper-Intermediate Level: Level B2 |  Level B2.1 | Level B2.2 | Level B2.3 | Level B2.4</li>
-                        <li>Advance Level: Level C1 | C1.1 | Level C1.2 | Level C1.3 | Level C2</li>
-                    </ul>
-                    <p className='text-sm text-[#54595f]'>These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and C2 the most advanced.</p>
-                </div>
-                <div className='flex align-center px-20 py-20 lg:px-10 lg:py-10'>
-                    <img src='/images/French-levelsadults@300x-1536x931.png' alt='img' />
-                </div>
-            </div>
-            <div className='w-full text-center font-semibold text-3xl lg:text-4xl'>Benefits of Learning Spanish with TLN?</div>
-            <section class="text-gray-600 body-font">
-                <div class="container px-2 lg:px-5 py-20 mx-auto">
-                    <div class="flex flex-wrap -m-4">
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Language Immersion</h2>
-                                <p class="leading-relaxed text-base">Now immerse your child in the world of knowledge with our English language course for Adults. Practice English with our language experts and receive lots of positive benefits.</p>
-                            </div>
-                        </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Experienced Teachers</h2>
-                                <p class="leading-relaxed text-base">We have hired a team of experienced professionals to teach our students. Now learn only from the best and become a master of Spanish language.</p>
-                            </div>
-                        </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Simple to Complex Learning Curve</h2>
-                                <p class="leading-relaxed text-base">Our English language course for Adults start from simple English and then covers complex aspects of the language. We understand the learning needs of our students and teach them accordingly.</p>
-                            </div>
-                        </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Classes from Home</h2>
-                                <p class="leading-relaxed text-base">The Language Network is an online language school. You do not need to waste your time and money to learn English now. Join TLN and learn from within the comforts of your own home.</p>
-                            </div>
-                        </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Age-appropriate program</h2>
-                                <p class="leading-relaxed text-base">Our English courses for Adults are hand-tailored to meet the learning needs of children. Our courses are age-appropriate and focus on all aspects of language learning in an easy and understandable way.</p>
-                            </div>
-                        </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">European Standard of Education</h2>
-                                <p class="leading-relaxed text-base">We have created our courses by carefully considering the European standards of education. We also teach our students how to crack international language exams.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <div className='w-full text-center text-3xl lg:text-4xl font-medium '>How learning Spanish with TLN unique?</div>
+            <div className='w-full text-center text-3xl lg:text-4xl font-medium mt-20'>How learning Spanish with TLN unique?</div>
             <div className='w-full lg:px-32 py-18 flex flex-row flex-wrap  justify-evenly'>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
@@ -147,47 +67,34 @@ export default function AdultsSpanish() {
                     <h3 className='font-bold text-lg my-2'>CV Making</h3>
                     <p className='text-sm text-gray-700'>Along with our Spanish language course, we also teach you how to make proper C.V. We believe that all career aspects are important. </p>
                 </div>
-                <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
+                <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/deleadults.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>SIELE Preparations</h3>
                     <p className='text-sm text-gray-700'>
-                    When you learn Spanish with us, we also prepare you for international exams like SIELE. We believe that our students should crack these exam so that we can teach you how to ace </p>
+                        When you learn Spanish with us, we also prepare you for international exams like SIELE. We believe that our students should crack these exam so that we can teach you how to ace </p>
                 </div>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Spoken Spanish</h3>
                     <p className='text-sm text-gray-700'>
-                    Our Spanish language course focuses on spoken Spanish a lot. We want our students to speak fluent Spanish.</p>
+                        Our Spanish language course focuses on spoken Spanish a lot. We want our students to speak fluent Spanish.</p>
                 </div>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Progress with Study Plans</h3>
                     <p className='text-sm text-gray-700'>
-                    We have crafted proper study plans to meet your learning needs. Our study plans include all the tricks and tips that you will need to learn Spanish.</p>
-                </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>International Exams</h3>
-                    <p className='text-sm text-gray-700'>
-                        TLN believes that all its students should appear for international exams like Cambridge. From an early age, we prepare them for these international exams.   </p>
+                        We have crafted proper study plans to meet your learning needs. Our study plans include all the tricks and tips that you will need to learn Spanish.</p>
                 </div>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Small batches</h3>
                     <p className='text-sm text-gray-700'>
 
-                    At TLN, we believe in small batches. Compact batches make it possible for our language experts to give proper attention to the students.</p>
-                </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Get Certified Results</h3>
-                    <p className='text-sm text-gray-700'>
-
-                        We provided certificates as our students excel in language learning. It ensures that the students will aim higher and be more motivated. Certificates are good for boosting student morale. Learn English with TLN and give wings to your children’s dreams.   </p>
+                        At TLN, we believe in small batches. Compact batches make it possible for our language experts to give proper attention to the students.</p>
                 </div>
             </div>
 
-            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium '>How to learn Spanish effectively ?</div>
+            <div className='w-full lg:mt-28 text-center text-3xl lg:text-4xl font-medium '>How to learn Spanish effectively ?</div>
             <div className='flex flex-col lg:flex-row'>
                 <div className='pl-10 w-3/4 lg:w-[60rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
@@ -230,24 +137,44 @@ export default function AdultsSpanish() {
                             <p className='text-[#54595f] pt-2'>If you want to master Spanish language, you will have to sharp it by talking to our language experts. Consistency is the key.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
-                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
-                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
-                        </div>
-                        <div>
-                            <h1 className='text-2xl font-medium'>Boost Academic Achievements</h1>
-                            <p className='text-[#54595f] pt-2'>When you start learning English at an early age, you become so fluent that other subjects become easier too. Memorising theoretical subjects becomes a piece of cake. This boosts your overall academic achievement.</p>
-                        </div>
+                </div>
+            </div>
+
+            <div className='pt-20 w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>TLN and International Exams</div>
+            <p className='text-center w-full px-10 lg:px-60 pt-4 text-sm text-[#54595f]'> We want our students to excel in international exams like TOEFL and IELTS. We teach our students how to learn English in a way that will help them ace these standardised tests. All aspects of the test, including pronunciation, vocabulary, listening part, is being taken care of at TLN. We ensure that once you learn something you won’t forget it.</p>
+            <div className='w-full lg:px-24 flex flex-col lg:flex-row'>
+                <div className='group w-full lg:w-1/2 flex flex-col items-center my-10'>
+                    <img src="/images/exam-siele-300x159.jpg" alt="img" className='w-36' />
+                    <div className='px-10 shadow-xl text-center lg:w-full p-4 h-full  '>
+                        <h3 className='text-lg font-bold pb-3 group-hover:text-amber-400 ease-in duration-300'>Siele</h3>
+                        <p className='text-sm text-[#54595f]'>Its is the most comprehensive online exam for certifying your Spanish proficiency. It is a single multilevel exam that allows you to obtain the SIELE certificate, a document that includes a score from 0 to 1000, the result of the sum of your scores from each of the four tests, and associated with the levels of the Common European Framework of Reference for Languages (CEFR).</p>
+                    </div>
+                </div>
+                <div className=' group  w-full lg:w-1/2 flex flex-col items-center my-10'>
+                    <img src="/images/international-exam-6.jpg" alt="img" className='w-36' />
+                    <div className='px-10 shadow-xl text-center lg:w-full p-4 h-full'>
+                        <h3 className='text-lg font-bold pb-3 group-hover:text-amber-400 ease-in duration-300'>Dele</h3>
+                        <p className='text-sm text-[#54595f]'>DELE (Diplomas of Spanish as a Foreign Language) are official titles certifying the degree of competence and mastery of the Spanish language, granted by the Ministry of Education, Culture and Sport of Spain. The certification is offered to correspond to the levels of the Common European Framework of Reference for Languages (CEFR).</p>
                     </div>
                 </div>
             </div>
-            <div className='pt-20 w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>TLN and International Exams</div>
-            <p className='text-center w-full px-10 lg:px-60 pt-4 text-sm text-[#54595f]'> We want our students to excel in international exams like TOEFL and IELTS. We teach our students how to learn English in a way that will help them ace these standardised tests. All aspects of the test, including pronunciation, vocabulary, listening part, is being taken care of at TLN. We ensure that once you learn something you won’t forget it.</p>
-            <div className='px-3 group w-full flex flex-col items-center my-10'>
-                <img src="/images/international-exam-6.jpg" alt="img" className='w-60' />
-                <div className='px-10 shadow-xl text-center lg:w-2/3 p-4'>
-                    <h3 className='text-lg font-bold pb-3 group-hover:text-amber-400 ease-in duration-300'>Dele</h3>
-                    <p className='text-sm text-[#54595f]'>DELE (Diplomas of Spanish as a Foreign Language) are official titles certifying the degree of competence and mastery of the Spanish language, granted by the Ministry of Education, Culture and Sport of Spain. The certification is offered to correspond to the levels of the Common European Framework of Reference for Languages (CEFR).</p>
+
+            <div className="my-20 lg:flex flex-row">
+                <div className='space-y-2 px-10 lg:px-20'>
+                    <h1 className="font-bold text-3xl lg:text-4xl">Spanish Language Levels for Adults</h1>
+                    <p className='text-sm text-[#54595f]'>All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.</p>
+                    <p className='text-sm text-[#54595f]'>Online Spanish for adults is divided into following levels::</p>
+                    <ul className='list-disc font-bold text-gray-600 pl-3 leading-10'>
+                        <li>Beginner Level: Level A1 | A1.1 | A1.2</li>
+                        <li>Elementory Level: Level A2 | A2.1 | A2.2 </li>
+                        <li>Intermediate Level: Level B1 |  Level B1.1 | Level B1.2 | Level B1.3 | Level B1.4</li>
+                        <li>Upper-Intermediate Level: Level B2 |  Level B2.1 | Level B2.2 | Level B2.3 | Level B2.4</li>
+                        <li>Advance Level: Level C1 | C1.1 | Level C1.2 | Level C1.3 | Level C2</li>
+                    </ul>
+                    <p className='text-sm text-[#54595f]'>These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and C2 the most advanced.</p>
+                </div>
+                <div className='flex align-center px-20 py-20 lg:px-10 lg:py-10'>
+                    <img src='/images/French-levelsadults@300x-1536x931.png' alt='img' />
                 </div>
             </div>
 
@@ -339,7 +266,7 @@ export default function AdultsSpanish() {
                         <h2 class="accordion-header mb-0" id="flush-headingOne">
                             <button class="accordion-button relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left font-bold bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
                                 aria-expanded="false" aria-controls="flush-collapseOne">
-                               How much time will it take to learn Spanish?
+                                How much time will it take to learn Spanish?
                             </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse border-0 collapse show"
@@ -363,7 +290,7 @@ export default function AdultsSpanish() {
                         <h2 class="accordion-header mb-0" id="flush-headingThree">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
                                 aria-expanded="false" aria-controls="flush-collapseThree">
-                              Do I get additional resources with the Spanish language course?
+                                Do I get additional resources with the Spanish language course?
                             </button>
                         </h2>
                         <div id="flush-collapseThree" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingThree"
@@ -388,7 +315,7 @@ export default function AdultsSpanish() {
                         <h2 class="accordion-header mb-0" id="flush-headingFive">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
                                 aria-expanded="false" aria-controls="flush-collapseFive">
-                               How can I improve my Spanish?
+                                How can I improve my Spanish?
                             </button>
                         </h2>
                         <div id="flush-collapseFive" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFive"

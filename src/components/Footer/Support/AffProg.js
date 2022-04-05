@@ -110,7 +110,7 @@ export default function AffProg() {
 
       <div className="bg-slate-100">
         <div className="lg:flex flex-row pt-10 pb-10">
-          <div className="text-left p-10 lg:pt-20 lg:pl-32 lg:w-1/3 space-y-5">
+          <div className="text-left px-10 lg:pt-20 lg:pl-32 lg:w-1/3 space-y-5 h-auto">
             <h1 className="text-3xl font-semibold">Why You Should Join?</h1>
             <h1 className="text-sm font-small">When you promote TLN, you’re not just promoting languages. You’re inspiring your audience to learn a foreign language.</h1>
           </div>
@@ -147,7 +147,7 @@ export default function AffProg() {
 
               </div>
 
-              <div className="w-1/2 mr-10"><button type="button" class="btn btn-info text-white mt-10 items-center justify-center" style={{ backgroundColor: '#13bfab', borderRadius: '30px', paddingTop: '16px', paddingRight: '30px', paddingBottom: '16px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Become an Affiliate</button></div>
+              <div className="w-full flex items-center justify-center"><button type="button" class="btn btn-info text-white mt-10 items-center justify-center" style={{ backgroundColor: '#13BFAB', borderRadius: '30px', paddingTop: '16px', paddingRight: '30px', paddingBottom: '16px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Become an Affiliate</button></div>
 
             </div>
           </section>
@@ -155,16 +155,16 @@ export default function AffProg() {
         </div>
         <h1 className="text-center text-[11px] pb-10 px-30">*Note: One must have a valid PayPal account in order to receive the earned commission. The amount earned will be credited to your PayPal account after the purchase has been successfully made from your affiliate link.</h1>
       </div>
-      <div className="Home-container-2 w-full lg:px-20 mt-4">
+      <div className="Home-container-2 w-full lg:px-20 mt-16">
         <h2>Which language would you like to learn?</h2>
         <div className='Home-container-21-imgs mt-10'>
-          <a href='/english-course-adults' className='my-2'><img className='Home-container-21-img' alt='img' src='/images/English.png' /><span className=''>English</span></a>
-          <a href='/french-course-adults' className='my-2'><img className='Home-container-21-img' alt='img' src='/images/French.png' /><span className=''>French</span></a>
-          <a href='/spanish-course-adults' className='my-2'><img className='Home-container-21-img' alt='img' src='/images/Spanish.png' /><span className=''>Spanish</span></a>
-          <a href='/german-course-adults' className='my-2'><img className='Home-container-21-img' alt='img' src='/images/German.png' /><span className=''>German</span></a>
-          <a href='/mandarin-course-adults' className='my-2'><img className='Home-container-21-img' alt='img' src='/images/mandarin.png' /><span className=''>Mandarin</span></a>
-          <a href='/japanese-course-adults' className='my-2'><img className='Home-container-21-img' alt='img' src='/images/japanese.png' /><span className=''>Japanese</span></a>
-          <a href='/korean-course-adults' className='my-2'><img className='Home-container-21-img' alt='img' src='/images/Korean.png' /><span className=''>Korean</span></a>
+          <a href='/english-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/English.png' /><span className=''>English</span></a>
+          <a href='/french-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/French.png' /><span className=''>French</span></a>
+          <a href='/spanish-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/Spanish.png' /><span className=''>Spanish</span></a>
+          <a href='/german-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/German.png' /><span className=''>German</span></a>
+          <a href='/mandarin-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/mandarin.png' /><span className=''>Mandarin</span></a>
+          <a href='/japanese-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/japanese.png' /><span className=''>Japanese</span></a>
+          <a href='/korean-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/Korean.png' /><span className=''>Korean</span></a>
         </div>
       </div>
       <div>

@@ -161,7 +161,7 @@ export default function PricingTable(props) {
             <p className='w-full pb-20 text-center font-bold text-4xl underline underline-offset-8'>Frequently asked questions</p>
 
 
-            <div className='w-full px-28'>
+            <div className='w-full px-10 lg:px-28'>
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item border-t-0 border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingOne">
