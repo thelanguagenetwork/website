@@ -90,8 +90,8 @@ export default function Home() {
             <div className='Home-container-1 w-full px-4 lg:px-26 relative h-auto flex flex-col lg:flex-row justify-center items-center content-center flex-wrap' >
                 <div className='w-full lg:w-5/12 flex flex-col space-y-6'>
                     <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab] pt-2'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>
-                    <h2 className='text-black font-semibold text-5xl'>Learn a Language in less than 3 months</h2>
-                    <span>At The Language Network, we help you master a new foreign language of your choice from the comfort of your home.</span>
+                    <h2 className='text-black font-medium text-5xl'>Learn a Language in less than 3 months</h2>
+                    <span className='font-medium'>At The Language Network, we help you master a new foreign language of your choice from the comfort of your home.</span>
                     <div><button type="button" class="btn btn-info text-white" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '16px', paddingRight: '30px', paddingBottom: '16px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Book a trial</button></div>
                 </div>
                 <div className='lg:w-5/12 w-full lg:block hidden'>
@@ -136,7 +136,7 @@ export default function Home() {
 
             <div className="Home-container-2 w-full lg:w-4/5 mt-52 lg:mt-72">
                 <h1>START YOUR JOURNEY WITH US!</h1>
-                <h2>Select a Foreign Language Course</h2>
+                <h2>Foreign Language Courses We Offer</h2>
                 <div className='Home-container-2-imgs'>
                     <a href='/english-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-english@300x.png' /></a>
                     <a href='/french-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-french@300x.png' /></a>
@@ -152,7 +152,7 @@ export default function Home() {
                 <h1>
                     Students at The Language Network
                 </h1>
-                <p>
+                <p className='font-medium'>
                     We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
                 </p>
             </div>
@@ -254,12 +254,12 @@ export default function Home() {
                 </Swiper>
             </div>
 
-            <div className="my-10 py-10 lg:flex flex-row h-auto w-full bg-[#f4f8fb]">
-                <div className='flex flex-col space-y-6 px-10 lg:px-40 justify-center lg:w-2/3'>
-                    <h1 className='font-bold text-3xl lg:text-4xl'>The Language Network saves you
+            <div className="my-10 py-20 lg:flex flex-row h-auto w-full bg-[#f4f8fb]">
+                <div className='flex flex-col space-y-6 lg:pl-20 lg:pr-52 justify-center lg:w-2/3'>
+                    <h1 className='font-medium text-3xl lg:text-4xl'>The Language Network saves you
 
                         <div class="scroller">
-                            <span className='bg-[#13bfab] px-3 text-center'>
+                            <span className='bg-[#13bfab] px-3 text-center text-white font-medium'>
                                 Time<br />
                                 Money
                             </span>
@@ -267,10 +267,8 @@ export default function Home() {
                     </h1>
                     <p className='text-lg '>Our online classes cut out that stressful commute so you can focus your energy on learning. We offer quality courses at affordable prices, with no hidden costs. Up to 30% cheaper than traditional language schools.</p>
                 </div>
-                <div className='flex align-center px-10 py-10 lg:px-20 lg:py-20'>
-                    <div class="progress blue">  <span class="progress-right"> <span class="progress-bar"></span> </span>
-                        <div class="progress-value">30% Lower</div>
-                    </div>
+                <div className='flex align-center w-72 '>
+                    <img src="/images/progress.png" alt="" className='pl-10' />
                 </div>
             </div>
             <div className="Home-container-8 my-14 text-center">

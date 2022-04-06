@@ -502,7 +502,8 @@
     height: 90%;
     border-radius: 50%;
     background: none;
-    font-size: 24px;
+    font-size: 19px;
+    font-weight: 700;
     color: rgb(0, 0, 0);
     line-height: 135px;
     text-align: center;
@@ -906,7 +907,7 @@
     position: absolute;
     top: 0;
     animation: slide 3s infinite;
-    font-weight: bold;
+    /* font-weight: bold; */
     
   }
   @keyframes slide {
@@ -929,7 +930,7 @@
     position: absolute;
     top: 0;
     animation: slide2 5s infinite;
-    font-weight: bold;
+    /* font-weight: bold; */
     
   }
   @keyframes slide2 {
