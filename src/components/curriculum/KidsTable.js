@@ -115,7 +115,7 @@ export default function KidsTable() {
     return (<>
         <div className="h-full font-medium text-4xl poppins text-center p-20">Why learning with TLN is beneficial?</div>
         <div className='py-10'>
-            <table class='shadow-md rounded w-5/6 m-auto'>
+            <table class='shadow-md rounded lg:w-5/6 w-full m-auto'>
                 <tbody>
                     <tr class=' flex text-left text-sm flex-wrap sm:no-wrap unwanted'>
                         <th scope='col' class='w-[30%] p-2 bg-gray-100 border border-r-0  border-y-1 font-normal flex items-center border-b-0 table-cells'></th>
