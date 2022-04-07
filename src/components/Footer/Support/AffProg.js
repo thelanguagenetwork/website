@@ -109,10 +109,10 @@ export default function AffProg() {
       </div>
 
       <div className="bg-slate-100">
-        <div className="lg:flex flex-row pt-10 pb-10">
+        <div className="md:flex lg:flex flex-row pt-10 pb-10">
           <div className="text-left px-10 lg:pt-20 lg:pl-32 lg:w-1/3 space-y-5 h-auto">
             <h1 className="text-3xl font-semibold">Why You Should Join?</h1>
-            <h1 className="text-sm font-small">When you promote TLN, you’re not just promoting languages. You’re inspiring your audience to learn a foreign language.</h1>
+            <h1 className="text-sm font-small pb-10">When you promote TLN, you’re not just promoting languages. You’re inspiring your audience to learn a foreign language.</h1>
           </div>
 
           <section class="text-gray-600 body-font lg:w-2/3">
@@ -157,14 +157,14 @@ export default function AffProg() {
       </div>
       <div className="Home-container-2 w-full lg:px-20 mt-16">
         <h2>Which language would you like to learn?</h2>
-        <div className='Home-container-21-imgs mt-10'>
-          <a href='/english-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/English.png' /><span className=''>English</span></a>
-          <a href='/french-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/French.png' /><span className=''>French</span></a>
-          <a href='/spanish-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/Spanish.png' /><span className=''>Spanish</span></a>
-          <a href='/german-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/German.png' /><span className=''>German</span></a>
-          <a href='/mandarin-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/mandarin.png' /><span className=''>Mandarin</span></a>
-          <a href='/japanese-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/japanese.png' /><span className=''>Japanese</span></a>
-          <a href='/korean-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/Korean.png' /><span className=''>Korean</span></a>
+        <div className='Home-container-2-imgs lg:flex flex-row mt-10 '>
+          <a href='/english-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/English.png' /><span className=''>English</span></a>
+          <a href='/french-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/French.png' /><span className=''>French</span></a>
+          <a href='/spanish-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/Spanish.png' /><span className=''>Spanish</span></a>
+          <a href='/german-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/German.png' /><span className=''>German</span></a>
+          <a href='/mandarin-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/mandarin.png' /><span className=''>Mandarin</span></a>
+          <a href='/japanese-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/japanese.png' /><span className=''>Japanese</span></a>
+          <a href='/korean-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/Korean.png' /><span className=''>Korean</span></a>
         </div>
       </div>
       <div>
