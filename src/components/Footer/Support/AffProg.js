@@ -2,6 +2,11 @@ import React from 'react'
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 import { AiFillStar } from 'react-icons/ai';
+import { FaAward } from 'react-icons/fa';
+import { GiReceiveMoney, GiWallet } from 'react-icons/gi';
+import { GrCertificate } from 'react-icons/gr';
+
+import { FiShare2, FiUserPlus } from 'react-icons/fi';
 
 export default function AffProg() {
   return (
@@ -54,100 +59,109 @@ export default function AffProg() {
           <h1 className='text-center font-semibold text-4xl pt-24 lg:pt-32 pb-2'>How it works</h1>
           <h1 className='text-center font-medium text-2xl'>Start earning in 3 simple steps</h1>
           <div>
+
             <section class="text-gray-600 body-font">
               <div class="container px-5 py-24 mx-auto flex flex-wrap">
                 <div class="flex flex-wrap -m-4">
-                  <div class="p-4 lg:w-1/3 md:w-full">
-                    <div class="flex sm:flex-row flex-col">
-                      <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
-                          <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path> <circle cx="12" cy="7" r="4"></circle>
-                        </svg>
-                      </div>
-                      <div class="flex-grow">
-                        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Join The Language Network</h2>
-                        <p class="leading-relaxed text-base">Register TLN’s affiliate program for free in less than 10 seconds. Joining is fast and easy</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="p-4 lg:w-1/3 md:w-full">
-                    <div class="flex sm:flex-row flex-col">
-                      <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-4 w-3 my-1 text-blue-500">
-                            <path fill="currentColor" d="M352 320c-22.608 0-43.387 7.819-59.79 20.895l-102.486-64.054a96.551 96.551 0 0 0 0-41.683l102.486-64.054C308.613 184.181 329.392 192 352 192c53.019 0 96-42.981 96-96S405.019 0 352 0s-96 42.981-96 96c0 7.158.79 14.13 2.276 20.841L155.79 180.895C139.387 167.819 118.608 160 96 160c-53.019 0-96 42.981-96 96s42.981 96 96 96c22.608 0 43.387-7.819 59.79-20.895l102.486 64.054A96.301 96.301 0 0 0 256 416c0 53.019 42.981 96 96 96s96-42.981 96-96-42.981-96-96-96z">
-                            </path>
-                          </svg>
 
-                        </svg>
-                      </div>
-                      <div class="flex-grow">
-                        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Refer and Inspire</h2>
-                        <p class="leading-relaxed text-base">Share your TLN Affiliate link with friends via Whatsapp, Instagram, Facebook or any other social Media platform.</p>
-                      </div>
-                    </div>
-                  </div>
                   <div class="p-4 lg:w-1/3 md:w-full">
-                    <div class="flex sm:flex-row flex-col">
-                      <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
-                          <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                    <div class="flex sm:flex-row flex-col hover:text-[#13BFAB] text-black transition-color duration-500">
+                      <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-[#fffff] text-[#13BFAB] hover:bg-[#13BFAB] transition-color duration-500 hover:text-white flex-shrink-0 shadow-2xl">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                          <svg class="h-30 w-14" viewBox="0 0 16 18">
+                            <FiUserPlus />
+                          </svg>
                         </svg>
                       </div>
                       <div class="flex-grow">
-                        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Earn</h2>
-                        <p class="leading-relaxed text-base">TLN will pay you a 20% commission (of the total course fees) for every new user that joins TLN.</p>
+                        <h2 class="text-lg font-semibold mb-2">Join The Language Network</h2>
+                        <p class="leading-relaxed text-base text-gray-600">Register TLN’s affiliate program for free in less than 10 seconds. Joining is fast and easy</p>
                       </div>
                     </div>
                   </div>
+
+                  <div class="p-4 lg:w-1/3 md:w-full">
+                    <div class="flex sm:flex-row flex-col hover:text-purple-700 text-black transition-color duration-500">
+                      <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-purple-700 bg-[#fffff] hover:bg-purple-700 transition-color duration-500 hover:text-white flex-shrink-0 shadow-2xl">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                          <svg class="h-30 w-14" viewBox="0 0 18 17">
+                            <FiShare2 />
+                          </svg>
+                        </svg>
+                      </div>
+                      <div class="flex-grow">
+                        <h2 class="text-lg title-font font-semibold mb-2">Refer and Inspire</h2>
+                        <p class="leading-relaxed text-base text-gray-600">Share your TLN Affiliate link with friends via Whatsapp, Instagram, Facebook or any other social Media platform.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="p-4 lg:w-1/3 md:w-full">
+                    <div class="flex sm:flex-row flex-col hover:text-green-500 text-black transition-color duration-500">
+                      <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-green-500 bg-[#fffff] hover:bg-green-500 transition-color duration-500 hover:text-white flex-shrink-0 shadow-2xl">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                          <svg class="h-30 w-14" viewBox="0 0 16 18">
+                            <GiWallet />
+                          </svg>
+                        </svg>
+                      </div>
+                      <div class="flex-grow">
+                        <h2 class="text-lg title-font font-semibold mb-2">Earn</h2>
+                        <p class="leading-relaxed text-base text-gray-600 ">TLN will pay you a 20% commission (of the total course fees) for every new user that joins TLN.</p>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </section>
+
           </div>
 
         </div>
       </div>
 
       <div className="bg-slate-100">
-        <div className="lg:flex flex-row pt-10 pb-10">
-          <div className="text-left px-10 lg:pt-20 lg:pl-32 lg:w-1/3 space-y-5 h-auto">
-            <h1 className="text-3xl font-semibold">Why You Should Join?</h1>
-            <h1 className="text-sm font-small">When you promote TLN, you’re not just promoting languages. You’re inspiring your audience to learn a foreign language.</h1>
+        <div className="md:flex lg:flex flex-row pt-10 pb-10">
+          <div className="sm:pb-0 lg:pb-24 md:flex items-center text-left px-10 lg:pt-20 lg:pl-32 lg:w-1/3 space-y-5 h-auto">
+            <div className="">
+              <h1 className="text-3xl font-semibold">Why You Should Join?</h1>
+              <h1 className="text-sm font-small pb-10">When you promote TLN, you’re not just promoting languages. You’re inspiring your audience to learn a foreign language.</h1>
+            </div>
           </div>
 
-          <section class="text-gray-600 body-font lg:w-2/3">
+          <section class="text-gray-600 body-font lg:w-2/3 ">
             <div class="">
 
               <div class="flex flex-wrap sm:-m-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
 
-                <div class="p-4 md:w-1/2 flex flex-col text-center items-center rounded-lg bg-white lg:w-5/12 mx-10 lg:mx-10">
-                  <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-                      <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                <div class="p-4 lg:w-5/12 flex flex-col text-center items-center rounded-lg bg-white lg:w-5/12 mx-10 lg:mx-10 hover:text-[#13BFAB] text-black transition-color duration-500">
+                  <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-[#fffff] text-[#13BFAB] hover:bg-[#13BFAB] transition-color duration-500 hover:text-white flex-shrink-0 shadow-2xl">
+                    <svg class="h-30 w-14" viewBox="0 0 16 18">
+                      <GiReceiveMoney />
                     </svg>
                   </div>
                   <div class="flex-grow">
-                    <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Generous Commission Payout</h2>
-                    <p class="leading-relaxed text-base">For every new user who completes a purchase from your affiliate link, you’ll earn a 20% commission (of the total course fees).</p>
+                    <h2 class="text-lg title-font font-medium mb-3">Generous Commission Payout</h2>
+                    <p class="leading-relaxed text-base text-gray-600">For every new user who completes a purchase from your affiliate link, you’ll earn a 20% commission (of the total course fees).</p>
                   </div>
                 </div>
 
-                <div class="p-4 md:w-1/2 flex flex-col text-center items-center rounded-lg  bg-white lg:w-5/12 mx-10 lg:mx-10">
-                  <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-                      <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                      <circle cx="12" cy="7" r="4"></circle>
+                <div class="p-4 lg:w-5/12 flex flex-col text-center items-center rounded-lg  bg-white lg:w-5/12 mx-10 lg:mx-10 hover:text-purple-700 text-black transition-color duration-500">
+                  <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-[#fffff] text-purple-700 hover:bg-purple-700 transition-color duration-500 hover:text-white flex-shrink-0 shadow-2xl">
+                    <svg class="w-10" viewBox="0 0 16 16">
+                      <FaAward />
                     </svg>
                   </div>
                   <div class="flex-grow">
-                    <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Excellence Certificate</h2>
-                    <p class="leading-relaxed text-base">TLN rewards the registered affiliates by providing excellence certificate after 50 referrals.</p>
+                    <h2 class="text-lg title-font font-medium mb-3">Excellence Certificate</h2>
+                    <p class="leading-relaxed text-base text-gray-600">TLN rewards the registered affiliates by providing excellence certificate after 50 referrals.</p>
                   </div>
                 </div>
 
               </div>
 
-              <div className="w-full flex items-center justify-center"><button type="button" class="btn btn-info text-white mt-10 items-center justify-center" style={{ backgroundColor: '#13BFAB', borderRadius: '30px', paddingTop: '16px', paddingRight: '30px', paddingBottom: '16px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Become an Affiliate</button></div>
+              <div className="w-full flex items-center justify-center mt-10 lg:mt-0"><button type="button" class="btn btn-info text-white mt-10 items-center justify-center" style={{ backgroundColor: '#13BFAB', borderRadius: '30px', paddingTop: '16px', paddingRight: '30px', paddingBottom: '16px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Become an Affiliate</button></div>
 
             </div>
           </section>
@@ -157,14 +171,14 @@ export default function AffProg() {
       </div>
       <div className="Home-container-2 w-full lg:px-20 mt-16">
         <h2>Which language would you like to learn?</h2>
-        <div className='Home-container-21-imgs mt-10'>
-          <a href='/english-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/English.png' /><span className=''>English</span></a>
-          <a href='/french-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/French.png' /><span className=''>French</span></a>
-          <a href='/spanish-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/Spanish.png' /><span className=''>Spanish</span></a>
-          <a href='/german-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/German.png' /><span className=''>German</span></a>
-          <a href='/mandarin-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/mandarin.png' /><span className=''>Mandarin</span></a>
-          <a href='/japanese-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/japanese.png' /><span className=''>Japanese</span></a>
-          <a href='/korean-course-adults' className='my-2 text-black hover:text-black font-medium'><img className='Home-container-21-img' alt='img' src='/images/Korean.png' /><span className=''>Korean</span></a>
+        <div className='Home-container-2-imgs lg:flex flex-row mt-10 '>
+          <a href='/english-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/English.png' /><span className=''>English</span></a>
+          <a href='/french-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/French.png' /><span className=''>French</span></a>
+          <a href='/spanish-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/Spanish.png' /><span className=''>Spanish</span></a>
+          <a href='/german-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/German.png' /><span className=''>German</span></a>
+          <a href='/mandarin-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/mandarin.png' /><span className=''>Mandarin</span></a>
+          <a href='/japanese-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/japanese.png' /><span className=''>Japanese</span></a>
+          <a href='/korean-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/Korean.png' /><span className=''>Korean</span></a>
         </div>
       </div>
       <div>
