@@ -59,12 +59,14 @@ export default function AffProg() {
           <h1 className='text-center font-semibold text-4xl pt-24 lg:pt-32 pb-2'>How it works</h1>
           <h1 className='text-center font-medium text-2xl'>Start earning in 3 simple steps</h1>
           <div>
+
             <section class="text-gray-600 body-font">
               <div class="container px-5 py-24 mx-auto flex flex-wrap">
                 <div class="flex flex-wrap -m-4">
+
                   <div class="p-4 lg:w-1/3 md:w-full">
-                    <div class="flex sm:flex-row flex-col">
-                      <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-inidgo-100 text-indigo-500 flex-shrink-0 shadow-2xl">
+                    <div class="flex sm:flex-row flex-col hover:text-[#13BFAB] text-black transition-color duration-500">
+                      <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-[#fffff] text-[#13BFAB] hover:bg-[#13BFAB] transition-color duration-500 hover:text-white flex-shrink-0 shadow-2xl">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
                           <svg class="h-30 w-14" viewBox="0 0 16 18">
                             <FiUserPlus />
@@ -72,29 +74,31 @@ export default function AffProg() {
                         </svg>
                       </div>
                       <div class="flex-grow">
-                        <h2 class="text-gray-900 text-lg title-font font-semibold mb-2">Join The Language Network</h2>
-                        <p class="leading-relaxed text-base">Register TLN’s affiliate program for free in less than 10 seconds. Joining is fast and easy</p>
+                        <h2 class="text-lg font-semibold mb-2">Join The Language Network</h2>
+                        <p class="leading-relaxed text-base text-gray-600">Register TLN’s affiliate program for free in less than 10 seconds. Joining is fast and easy</p>
                       </div>
                     </div>
                   </div>
+
                   <div class="p-4 lg:w-1/3 md:w-full">
-                    <div class="flex sm:flex-row flex-col">
-                      <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-inidgo-100 text-indigo-500 flex-shrink-0 shadow-2xl">
+                    <div class="flex sm:flex-row flex-col hover:text-purple-700 text-black transition-color duration-500">
+                      <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-purple-700 bg-[#fffff] hover:bg-purple-700 transition-color duration-500 hover:text-white flex-shrink-0 shadow-2xl">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-                          <svg class="h-30 w-14" viewBox="0 0 16 18">
+                          <svg class="h-30 w-14" viewBox="0 0 18 17">
                             <FiShare2 />
                           </svg>
                         </svg>
                       </div>
                       <div class="flex-grow">
-                        <h2 class="text-gray-900 text-lg title-font font-semibold mb-2">Refer and Inspire</h2>
-                        <p class="leading-relaxed text-base">Share your TLN Affiliate link with friends via Whatsapp, Instagram, Facebook or any other social Media platform.</p>
+                        <h2 class="text-lg title-font font-semibold mb-2">Refer and Inspire</h2>
+                        <p class="leading-relaxed text-base text-gray-600">Share your TLN Affiliate link with friends via Whatsapp, Instagram, Facebook or any other social Media platform.</p>
                       </div>
                     </div>
                   </div>
+
                   <div class="p-4 lg:w-1/3 md:w-full">
-                    <div class="flex sm:flex-row flex-col">
-                      <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-inidgo-100 text-indigo-500 flex-shrink-0 shadow-2xl">
+                    <div class="flex sm:flex-row flex-col hover:text-green-500 text-black transition-color duration-500">
+                      <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-green-500 bg-[#fffff] hover:bg-green-500 transition-color duration-500 hover:text-white flex-shrink-0 shadow-2xl">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
                           <svg class="h-30 w-14" viewBox="0 0 16 18">
                             <GiWallet />
@@ -102,14 +106,16 @@ export default function AffProg() {
                         </svg>
                       </div>
                       <div class="flex-grow">
-                        <h2 class="text-gray-900 text-lg title-font font-semibold mb-2">Earn</h2>
-                        <p class="leading-relaxed text-base">TLN will pay you a 20% commission (of the total course fees) for every new user that joins TLN.</p>
+                        <h2 class="text-lg title-font font-semibold mb-2">Earn</h2>
+                        <p class="leading-relaxed text-base text-gray-600 ">TLN will pay you a 20% commission (of the total course fees) for every new user that joins TLN.</p>
                       </div>
                     </div>
                   </div>
+
                 </div>
               </div>
             </section>
+
           </div>
 
         </div>
@@ -129,27 +135,27 @@ export default function AffProg() {
 
               <div class="flex flex-wrap sm:-m-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
 
-                <div class="p-4 lg:w-5/12 flex flex-col text-center items-center rounded-lg bg-white lg:w-5/12 mx-10 lg:mx-10">
-                  <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-inidgo-100 text-indigo-500 flex-shrink-0 shadow-2xl">
+                <div class="p-4 lg:w-5/12 flex flex-col text-center items-center rounded-lg bg-white lg:w-5/12 mx-10 lg:mx-10 hover:text-[#13BFAB] text-black transition-color duration-500">
+                  <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-[#fffff] text-[#13BFAB] hover:bg-[#13BFAB] transition-color duration-500 hover:text-white flex-shrink-0 shadow-2xl">
                     <svg class="h-30 w-14" viewBox="0 0 16 18">
                       <GiReceiveMoney />
                     </svg>
                   </div>
                   <div class="flex-grow">
-                    <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Generous Commission Payout</h2>
-                    <p class="leading-relaxed text-base">For every new user who completes a purchase from your affiliate link, you’ll earn a 20% commission (of the total course fees).</p>
+                    <h2 class="text-lg title-font font-medium mb-3">Generous Commission Payout</h2>
+                    <p class="leading-relaxed text-base text-gray-600">For every new user who completes a purchase from your affiliate link, you’ll earn a 20% commission (of the total course fees).</p>
                   </div>
                 </div>
 
-                <div class="p-4 lg:w-5/12 flex flex-col text-center items-center rounded-lg  bg-white lg:w-5/12 mx-10 lg:mx-10">
-                  <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-inidgo-100 text-indigo-500 flex-shrink-0 shadow-2xl">
-                    <svg class="h-30 w-14" viewBox="0 0 16 18">
+                <div class="p-4 lg:w-5/12 flex flex-col text-center items-center rounded-lg  bg-white lg:w-5/12 mx-10 lg:mx-10 hover:text-purple-700 text-black transition-color duration-500">
+                  <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-[#fffff] text-purple-700 hover:bg-purple-700 transition-color duration-500 hover:text-white flex-shrink-0 shadow-2xl">
+                    <svg class="w-10" viewBox="0 0 16 16">
                       <FaAward />
                     </svg>
                   </div>
                   <div class="flex-grow">
-                    <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Excellence Certificate</h2>
-                    <p class="leading-relaxed text-base">TLN rewards the registered affiliates by providing excellence certificate after 50 referrals.</p>
+                    <h2 class="text-lg title-font font-medium mb-3">Excellence Certificate</h2>
+                    <p class="leading-relaxed text-base text-gray-600">TLN rewards the registered affiliates by providing excellence certificate after 50 referrals.</p>
                   </div>
                 </div>
 
