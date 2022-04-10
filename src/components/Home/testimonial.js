@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import './Home.css'
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation"
@@ -67,7 +68,7 @@ function CardData() {
 export default () => {
     const cardData = CardData();
     return (
-        <Swiper
+        <Swiper className="pagi4"
         navigation = {false}
             infinite
             autoplay={{
@@ -92,15 +93,13 @@ export default () => {
                     spaceBetween: 20,
                 },
             }}
-            
-            className="px-3"
         >
             <section>
                
                 {cardData.map((card, i) => {
                     return (
-                        <SwiperSlide className="testi-slides w-full">
-                            <div class=" p-10 h-auto test-item shadow-lg rounded-xl " key={i} >
+                        <SwiperSlide className="testi-slides w-full ">
+                            <div class=" p-10 h-[30rem] test-item shadow-lg rounded-xl " key={i} >
                                 <div class="text-center">
                                     <img
                                         alt="testimonial"

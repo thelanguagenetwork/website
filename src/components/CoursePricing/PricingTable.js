@@ -43,7 +43,7 @@ export default function PricingTable(props) {
                     {
                     props.TableData.map((data, i) => {
                         return (
-                    <div class="col-md-3 col-sm-6 ">
+                    <div class="col-md-3 col-sm-6 my-3">
                         <div class="pricingTable lg:mr-1 mr-0">
                             <div class="pricingTable-header">
                                 <i class={`fa ${icons[i]}`}></i>

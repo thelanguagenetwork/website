@@ -57,7 +57,7 @@ function Adults() {
                 </div>
             </div>
 
-            <div className="my-20 lg:flex flex-row h-auto w-full bg-[#f4f8fb]">
+            <div className="mb-10 lg:flex flex-row h-auto w-full bg-[#f4f8fb]">
                 <div className='flex flex-col space-y-6 px-10 lg:px-20 justify-center lg:w-3/4'>
                     <h1 className='text-3xl font-medium lg:text-4xl'>Foreign Language Education for Everyone!</h1>
                     <p className='text-lg '>Live online language classes for kids, adolscents and adults at The Language Network, pioneering online language schools, with the assistance of professional teachers.</p>
