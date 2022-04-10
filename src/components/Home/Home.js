@@ -87,19 +87,28 @@ export default function Home() {
 
     return (
         <div className='Home'>
-            <div className='Home-container-1 w-full px-4 lg:px-26 relative h-auto flex flex-col lg:flex-row justify-center items-center content-center flex-wrap' >
+            <div className='Home-container-1 w-full px-4 lg:py-20 lg:px-26 relative h-[auto] flex flex-col lg:flex-row justify-center items-center content-center flex-wrap' >
                 <div className='w-full lg:w-5/12 flex flex-col space-y-6'>
-                    <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab] pt-2'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>
+                    <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab] lg:pt-2'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>
                     <h2 className='text-black font-medium text-5xl'>Learn a Language in less than 3 months</h2>
                     <span className='font-medium'>At The Language Network, we help you master a new foreign language of your choice from the comfort of your home.</span>
-                    <div><button type="button" class="btn btn-info text-white" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '16px', paddingRight: '30px', paddingBottom: '16px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Book a trial</button></div>
+                    <div><button type="button" class="btn btn-info text-white" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '16px', paddingRight: '30px', paddingBottom: '16px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Book a trial class</button></div>
                 </div>
-                <div className='lg:w-5/12 w-full lg:block hidden'>
-                    <Globe3d className='' />
+                <div className='lg:w-6/12 w-full lg:block hidden flex items-center justify-center pl-20'>
+                    {/* <Globe3d className='' /> */}
+                    <video width="90%" height="90%" className='rounded-xl'
+                        controls
+                        muted
+                        autoPlay={"autoplay"}
+                        preLoad="auto"
+                        loop >
+                        <source src="/videos/TLN_Hello-in-different-languages.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
-                <div className=" w-full absolute flex flex-row justify-center bottom-[-500px] lg:bottom-[-200px]">
+                <div className="w-full absolute flex flex-row justify-center bottom-[-500px] lg:bottom-[-150px]">
                     <div className='overlay-box'>
-                        <h1 className='lg:text-2xl text-lg'><CountUp start={0} end={5000} separator=","
+                        <h1 className='lg:text-3xl text-lg mb-2'><CountUp start={0} end={5000} separator=","
                             suffix="+" duration={1}>
                             {({ countUpRef, start }) => (
                                 <VisibilitySensor onChange={start}>
@@ -107,14 +116,14 @@ export default function Home() {
                                 </VisibilitySensor>
                             )}
                         </CountUp></h1>
-                        <h2 className='lg:text-2xl text-base'>Students</h2>
+                        <h2 className='lg:text-xl text-base'>Students</h2>
                     </div>
                     <div className='overlay-box'>
-                        <div className='stars lg:text-3xl text-base'><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /></div>
-                        <h2 className='lg:text-2xl text-base'>5 Star Rating</h2>
+                        <div className='stars lg:text-2xl text-base mb-2'><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /></div>
+                        <h2 className='lg:text-xl text-base text-center'>5 Star Rating</h2>
                     </div>
                     <div className='overlay-box'>
-                        <h1 className='lg:text-2xl text-lg'><CountUp start={0} end={200} separator=","
+                        <h1 className='lg:text-3xl text-lg  mb-2'><CountUp start={0} end={200} separator=","
                             suffix="+" duration={1}>
                             {({ countUpRef, start }) => (
                                 <VisibilitySensor onChange={start}>
@@ -122,19 +131,58 @@ export default function Home() {
                                 </VisibilitySensor>
                             )}
                         </CountUp></h1>
-                        <h2 className='lg:text-2xl text-base'>Expert Trainers</h2>
+                        <h2 className='lg:text-xl font-bold text-base'>Trainers</h2>
                     </div>
 
                 </div>
 
             </div>
 
-            <div className='w-full lg:hidden block'>
+            <div className="Home-container-61  lg:px-40 mt-10 lg:mt-64">
+                <h3 className='w-full text-center font-semibold text-4xl'>Our Education Partners</h3>
+
+                <Swiper className='pagi1' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 1
+
+                        },
+                        768: {
+                            slidesPerView: 4
+                        }
+                    }}
+                    pagination={{
+                        "clickable": true
+                    }} navigation={true} autoplay={{
+                        "delay": 2500,
+                        "disableOnInteraction": false
+                    }}
+                    >
+                    <SwiperSlide>
+                        <img src="/images/CSI-KJSIEIT-Logo-Final-150x150.png" alt='img' />
+                    </SwiperSlide><SwiperSlide>
+                        <img src="/images/RCSCW-150x150.png" alt='img' />
+                    </SwiperSlide><SwiperSlide>
+                        <img src="/images/DCAC-150x150.png" alt='img1' />
+                    </SwiperSlide><SwiperSlide>
+                        <img src="/images/Mithibai-college-image-F7E1045E5E3B-1-150x150.png" alt='img1' />
+                    </SwiperSlide><SwiperSlide>
+                        <img src="/images/Black-RAYS-Logo-PNG-150x150.png" alt='img1' />
+                    </SwiperSlide><SwiperSlide>
+                        <img src="/images/St-Andrews-Logo-150x150.png" alt='img1' />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/images/Asset-8@300x-150x150.png" alt='img1' />
+                    </SwiperSlide>
+                </Swiper>
+            </div>
+
+            {/* <div className='w-full lg:hidden block'>
                 <GlobeMobile className='' />
-            </div>
+            </div> */}
 
 
-            <div className="Home-container-2 w-full lg:w-4/5 mt-52 lg:mt-72">
+            <div className="Home-container-2 w-full lg:w-4/5 mt-72 lg:mt-28">
                 <h1>START YOUR JOURNEY WITH US!</h1>
                 <h2>Foreign Language Courses We Offer</h2>
                 <div className='Home-container-2-imgs'>
@@ -148,7 +196,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="Home-container-3">
+            <div className="Home-container-3  mt-4">
                 <h1>
                     Students at The Language Network
                 </h1>
@@ -187,7 +235,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="my-20 lg:flex flex-row h-auto w-full bg-[#f4f8fb]">
+            <div className="my-24 lg:flex px-10 flex-row h-auto w-full bg-[#f4f8fb]">
                 <div className='flex flex-col space-y-6 px-10 lg:px-20 justify-center'>
                     <h1 className='font-bold text-3xl lg:text-4xl'>Our courses are aligned with the CEFR levels</h1>
                     <p className='text-sm text-[#54595f]'>
@@ -200,7 +248,7 @@ export default function Home() {
                         All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
                     </p>
                 </div>
-                <div className='flex align-center px-10 py-10 lg:px-20 lg:py-20'>
+                <div className='flex align-center px-5 py-5 lg:px-20 lg:py-20'>
                     <img src='/images/CEFR-LEVELS-1.png' alt='img' />
                 </div>
             </div>
@@ -210,7 +258,7 @@ export default function Home() {
                 <h2 className='text-black text-4xl font-medium'>International Exams</h2>
             </div>
             <div className="Home-container-6 lg:px-40">
-                <Swiper spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+                <Swiper className='pagi2' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
                     breakpoints={{
                         640: {
                             slidesPerView: 1
@@ -222,40 +270,40 @@ export default function Home() {
                     }}
                     pagination={{
                         "clickable": true
-                    }} navigation={false} autoplay={{
+                    }} navigation={true} autoplay={{
                         "delay": 2500,
                         "disableOnInteraction": false
                     }} >
-                    <SwiperSlide className="mb-20">
+                    <SwiperSlide className="mb-10 p-20">
                         <img src={img1} alt='img' />
-                    </SwiperSlide><SwiperSlide className="mb-20">
+                    </SwiperSlide><SwiperSlide className="mb-10 p-20">
                         <img src={img2} alt='img' />
-                    </SwiperSlide><SwiperSlide className="mb-20">
+                    </SwiperSlide><SwiperSlide className="mb-10 p-20">
                         <img src={img3} alt='img' />
                     </SwiperSlide>
-                    <SwiperSlide className="mb-20">
+                    <SwiperSlide className="mb-10 p-20">
                         <img src={img4} alt='img' />
                     </SwiperSlide>
-                    <SwiperSlide className="mb-20">
+                    <SwiperSlide className="mb-10 p-20">
                         <img src={img5} alt='img' />
                     </SwiperSlide>
-                    <SwiperSlide className="mb-20">
+                    <SwiperSlide className="mb-10 p-20">
                         <img src={img6} alt='img' />
                     </SwiperSlide>
-                    <SwiperSlide className="mb-20">
+                    <SwiperSlide className="mb-10 p-20">
                         <img src={img7} alt='img' />
                     </SwiperSlide>
-                    <SwiperSlide className="mb-20">
+                    <SwiperSlide className="mb-10 p-20">
                         <img src={img8} alt='img' />
                     </SwiperSlide>
-                    <SwiperSlide className="mb-20">
+                    <SwiperSlide className="mb-10 p-20">
                         <img src={img9} alt='img' />
                     </SwiperSlide>
                 </Swiper>
             </div>
 
-            <div className="my-10 py-20 lg:flex flex-row h-auto w-full bg-[#f4f8fb]">
-                <div className='flex flex-col space-y-6 lg:pl-20 lg:pr-52 justify-center lg:w-2/3'>
+            <div className="my-5 py-20 lg:flex flex-row h-auto w-full bg-[#f4f8fb] px-10">
+                <div className='flex flex-col space-y-6 mx-4 lg:mx-0 lg:pl-20 lg:pr-52 justify-center lg:w-2/3'>
                     <h1 className='font-medium text-3xl lg:text-4xl'>The Language Network saves you
 
                         <div class="scroller">
@@ -265,9 +313,9 @@ export default function Home() {
                             </span>
                         </div>
                     </h1>
-                    <p className='text-lg '>Our online classes cut out that stressful commute so you can focus your energy on learning. We offer quality courses at affordable prices, with no hidden costs. Up to 30% cheaper than traditional language schools.</p>
+                    <p className='text-lg font-medium'>Our online classes cut out that stressful commute so you can focus your energy on learning. We offer quality courses at affordable prices, with no hidden costs. Up to 30% cheaper than traditional language schools.</p>
                 </div>
-                <div className='flex align-center w-72 '>
+                <div className='flex align-center w-72 mt-4 lg:mt-0'>
                     <img src="/images/progress.png" alt="" className='pl-10' />
                 </div>
             </div>
@@ -278,8 +326,8 @@ export default function Home() {
             <div className='w-5/6'>
                 <Display />
             </div>
-            <div className="my-20 lg:flex flex-row lg:h-[80vh] w-full bg-[#f4f8fb]">
-                <div className='flex flex-col space-y-6 px-10 lg:px-20 justify-center lg:w-2/3'>
+            <div className="my-20 px-10 lg:px-0 lg:pl-32  lg:flex flex-row lg:h-[75vh] w-full bg-[#f4f8fb]">
+                <div className='flex flex-col space-y-6  justify-center lg:w-2/3'>
                     <h1 className='font-bold text-3xl lg:text-4xl'>TRANSFORM YOUR CAREER</h1>
                     <h2 className='text-lg '>Earn Your Certification </h2>
                     <p className='text-lg '>Learn a foreign language as a step to boost your career or improve your CV.</p>
@@ -287,8 +335,8 @@ export default function Home() {
                         JOIN A COURSE
                     </button>
                 </div>
-                <div className='flex align-center justify-center px-10 py-10 lg:px-28 lg:py-28'>
-                    <img src='/images/certificate-mockup.png' alt='img' className='certificate-img' />
+                <div className='flex align-center justify-center py-10 lg:py-28 '>
+                    <img src='/images/certificate-mockup.png' alt='img' className='certificate-img lg:pl-14' />
                 </div>
                 <img src='/images/dots-circle.png' alt='img' className='dots-circle-1 lg:block hidden' />
                 <img src='/images/dots-circle.png' alt='img' className='dots-circle-2 lg:block hidden' />
@@ -307,7 +355,7 @@ export default function Home() {
                     <span className="flex text-lg font-medium pt-10 lg:px-20 text-center">With a fantastic team of over 50+ trainers (and counting!) who make learning entertaining and effortless. Our trainers are qualified with an overall student rating of 5   out of 5.</span>
                 </div>
             </div>
-                <Team />
+            <Team />
 
             <div className="Home-container-11 mt-20">
                 <h1>Happy Testimonials</h1>

@@ -65,8 +65,8 @@ export default function AffProg() {
                 <div class="flex flex-wrap -m-4">
 
                   <div class="p-4 lg:w-1/3 md:w-full">
-                    <div class="flex sm:flex-row flex-col hover:text-[#13BFAB] text-black transition-color duration-500">
-                      <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-[#fffff] text-[#13BFAB] hover:bg-[#13BFAB] transition-color duration-500 hover:text-white flex-shrink-0 shadow-2xl">
+                    <div class="flex sm:flex-row flex-col hover:text-[#13BFAB] group text-black transition-color duration-500">
+                      <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-[#fffff] text-[#13BFAB] group-hover:bg-[#13BFAB] transition-color duration-500 group-hover:text-white flex-shrink-0 shadow-2xl">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
                           <svg class="h-30 w-14" viewBox="0 0 16 18">
                             <FiUserPlus />
@@ -81,8 +81,8 @@ export default function AffProg() {
                   </div>
 
                   <div class="p-4 lg:w-1/3 md:w-full">
-                    <div class="flex sm:flex-row flex-col hover:text-purple-700 text-black transition-color duration-500">
-                      <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-purple-700 bg-[#fffff] hover:bg-purple-700 transition-color duration-500 hover:text-white flex-shrink-0 shadow-2xl">
+                    <div class="flex sm:flex-row flex-col hover:text-purple-700 group text-black transition-color duration-500">
+                      <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-purple-700 bg-[#fffff] group-hover:bg-purple-700 transition-color duration-500 group-hover:text-white flex-shrink-0 shadow-2xl">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
                           <svg class="h-30 w-14" viewBox="0 0 18 17">
                             <FiShare2 />
@@ -97,8 +97,8 @@ export default function AffProg() {
                   </div>
 
                   <div class="p-4 lg:w-1/3 md:w-full">
-                    <div class="flex sm:flex-row flex-col hover:text-green-500 text-black transition-color duration-500">
-                      <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-green-500 bg-[#fffff] hover:bg-green-500 transition-color duration-500 hover:text-white flex-shrink-0 shadow-2xl">
+                    <div class="flex sm:flex-row flex-col hover:text-green-500 group text-black transition-color duration-500">
+                      <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-green-500 bg-[#fffff] group-hover:bg-green-500 transition-color duration-500 group-hover:text-white flex-shrink-0 shadow-2xl">
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
                           <svg class="h-30 w-14" viewBox="0 0 16 18">
                             <GiWallet />
@@ -135,8 +135,8 @@ export default function AffProg() {
 
               <div class="flex flex-wrap sm:-m-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
 
-                <div class="p-4 lg:w-5/12 flex flex-col text-center items-center rounded-lg bg-white lg:w-5/12 mx-10 lg:mx-10 hover:text-[#13BFAB] text-black transition-color duration-500">
-                  <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-[#fffff] text-[#13BFAB] hover:bg-[#13BFAB] transition-color duration-500 hover:text-white flex-shrink-0 shadow-2xl">
+                <div class="group p-4 lg:w-5/12 flex flex-col text-center items-center rounded-lg bg-white lg:w-5/12 mx-10 lg:mx-10 hover:text-[#13BFAB] text-black transition-color duration-500">
+                  <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-[#fffff] text-[#13BFAB] group-hover:bg-[#13BFAB] transition-color duration-500 group-hover:text-white flex-shrink-0 shadow-2xl">
                     <svg class="h-30 w-14" viewBox="0 0 16 18">
                       <GiReceiveMoney />
                     </svg>
@@ -147,8 +147,8 @@ export default function AffProg() {
                   </div>
                 </div>
 
-                <div class="p-4 lg:w-5/12 flex flex-col text-center items-center rounded-lg  bg-white lg:w-5/12 mx-10 lg:mx-10 hover:text-purple-700 text-black transition-color duration-500">
-                  <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-[#fffff] text-purple-700 hover:bg-purple-700 transition-color duration-500 hover:text-white flex-shrink-0 shadow-2xl">
+                <div class="group p-4 lg:w-5/12 flex flex-col text-center items-center rounded-lg  bg-white lg:w-5/12 mx-10 lg:mx-10 hover:text-purple-700 text-black transition-color duration-500">
+                  <div class="w-20 h-20 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-[#fffff] text-purple-700 group-hover:bg-purple-700 transition-color duration-500 group-hover:text-white flex-shrink-0 shadow-2xl">
                     <svg class="w-10" viewBox="0 0 16 16">
                       <FaAward />
                     </svg>
