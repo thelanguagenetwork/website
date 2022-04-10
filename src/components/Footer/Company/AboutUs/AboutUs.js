@@ -13,16 +13,16 @@ export default function AboutUs() {
   return (
     <div>
       <div className="lg:pt-10 lg:px-10 lg:px-24 lg:flex flex-row items-center justify-center">
-        <div className="lg:w-1/2 flex flex-wrap pt-20">
+        <div className="lg:w-1/2 flex flex-wrap pt-20 ">
           <div>
             <h1 className="font-bold text-4xl px-3 lg:px-10 text-[#13bfab]">Helping you learn from the comfort of your home</h1>
           </div>
-          <div className="flex flex-wrap text-lg px-10 ">
+          <div className="flex flex-wrap text-lg px-3">
             <p className="font-bold pt-6">Immerse yourself in the world of languages and</p>
-            <p>be a part of a global society.&nbsp;</p>
+            <p className="md:pl-2 lg:pl-0 md:pt-6 lg:pt-0">be a part of a global society.&nbsp;</p>
             <p href="" className="font-bold">Join<span className="font-light"> our online classes led by professional trainers.</span></p>
           </div>
-          <svg onClick={console.log("hello")} xmlns="http://www.w3.org/2000/svg" className="flex  h-12 w-12 ml-20 my-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <svg onClick={console.log("hello")} xmlns="http://www.w3.org/2000/svg" className="flex  h-12 w-12 md:ml-20 ml-10 my-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z" />
           </svg>
           <span className="flex items-center text-xl font-medium ml-10 pt-0">Dive in deeper</span>
@@ -35,12 +35,12 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className="pt-20 lg:pl-10 lg:pl-24 lg:flex flex-row items-center justify-center">
-        <div className="lg:w-1/2 px-5 lg:px-0 lg:pl-10">
+      <div className="pt-20 lg:pl-20 lg:flex flex-row items-center justify-center">
+        <div className="lg:w-1/2 px-5 lg:px-0 lg:pl-10 sm:mx-2">
           <div className="text-4xl font-semibold text-[#13bfab]">To tell you a little bit about Us</div>
-          <div className="flex flex-wrap items-baseline">
-            <div className="pt-8 tracking-wider">Whether it’s about mastering a timeless skill, cultivate new perspectives, or connect with fascinating people from around the world, </div>
-            <strong><em>The Language Network helps in curating a pleasant learning experience.</em></strong>
+          <div className="items-baseline flex flex-wrap inline-block">
+            <div className="pt-8 tracking-wider font-semibold inline-block">Whether it’s about mastering a timeless skill, cultivate new perspectives, or connect with fascinating people from around the world, </div>
+            <div><strong className=""><em>The Language Network helps in curating a pleasant learning experience.</em></strong></div>
           </div>
         </div>
         <div className="px-10 lg:px-0 lg:w-1/2 lg:pr-40">
@@ -51,28 +51,28 @@ export default function AboutUs() {
       <div className="pt-20 ">
         <div className="flex flex-col items-center justify-center lg:px-40 space-y-10">
           <h1 className='lg:flex wrap font-bold text-2xl md:text-3xl lg:text-4xl '>Core Values that shape our
-            <div class="scroller">
-              <span className='lg:pl-10 text-[#13bfab] lg:px-3 items-center'>
+            <div class="scroller mt-0">
+              <span className='lg:pl-4 text-[#13bfab] lg:px-3 items-center'>
                 Behaviours<br />
                 Culture
               </span>
             </div>
           </h1>
-          <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-yellow-500 border-2 w-1/4 self-center mt-4 items-center justify-center"></hr>
+          <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-[#FFC000] border-2 w-1/3 self-center mt-4 items-center justify-center"></hr>
           <About_display />
         </div>
         <div className="items-center justify-center px-3 lg:px-20 flex flex-col justify-center ">
           <h1 className="flex text-3xl lg:text-4xl font-semibold pt-20 items-center justify-center ">We work as a team</h1>
-          <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-yellow-500 border-2 w-1/4 self-center mt-4 items-center justify-center"></hr>
+          <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-[#FFC000] border-2 w-1/4 self-center mt-4 items-center justify-center"></hr>
           <span className="flex text-lg font-medium pt-10 lg:px-20 text-center">With a fantastic team of over 50+ trainers (and counting!) who make learning entertaining and effortless. Our trainers are qualified with an overall student rating of 5   out of 5.</span>
         </div>
       </div>
       {/* slides */}
 
-      <Team/>
+      <Team />
       <span className="flex text-3xl lg:text-4xl font-semibold pt-20 items-center justify-center pb-10 px-10">Our Collaborating Partners</span>
 
-      <div className="Home-container-61  lg:px-40">
+      <div className="Home-container-61 lg:px-24">
 
         <Swiper spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
           breakpoints={{
@@ -92,15 +92,157 @@ export default function AboutUs() {
           }}
           className="mySwiper">
           <SwiperSlide>
-            <img src="/images/Loyola_College_Chennai_-_Coat_of_arms.png" alt='img' />
+            <img className="w-2/5" src="/images/Loyola_College_Chennai_-_Coat_of_arms.png" alt='img' />
           </SwiperSlide><SwiperSlide>
-            <img src="/images/Rcmg-Ghatkopar-300x300.png" alt='img' />
+            <img className="w-2/5" src="/images/Rcmg-Ghatkopar-300x300.png" alt='img' />
           </SwiperSlide><SwiperSlide>
-            <img src="/images/rotary.jpg" alt='img1' />
+            <img className="w-2/5" src="/images/rotary.jpg" alt='img1' />
           </SwiperSlide>
         </Swiper>
       </div>
+      <p className='w-full text-center font-bold text-4xl lg:pt-20 pt-10'>Frequently asked questions</p>
+      <div className="flex flex-col justify-center items-center pb-20 ">
+      <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-[#FFC000] border-2 w-1/5 self-center mt-4 items-center justify-center"></hr>
+      </div>
 
+
+      <div className='w-full px-10 lg:px-52'>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item border-t-0 border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+            <h2 class="accordion-header mb-0" id="flush-headingOne">
+              <button class="accordion-button relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left font-bold bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                aria-expanded="false" aria-controls="flush-collapseOne">
+                How much time will it take to learn English?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse border-0 collapse show"
+              aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body py-4 px-5">To learn English, you will need to spend around 1200 hours to achieve an advanced level. There are totally six levels of learning English. The basic levels include A1 and A2. Advanced levels include B1, B2, C1, and C2. C2 is the topmost level of English. After completing C2, you will speak godly English.</div>
+            </div>
+          </div>
+          <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+            <h2 class="accordion-header mb-0" id="flush-headingTwo">
+              <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                aria-expanded="false" aria-controls="flush-collapseTwo">
+                What is the duration of our English language course?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body py-4 px-5">The duration of our courses range from two months to two years. It depends on the level you are taking. Duration for each level is different. We provide all six levels of English.</div>
+            </div>
+          </div>
+          <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+            <h2 class="accordion-header mb-0" id="flush-headingThree">
+              <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                aria-expanded="false" aria-controls="flush-collapseThree">
+                Do I get additional resources with the English language course?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body py-4 px-5">Yes, there are additional resources when it comes to our English language course. They include movie screening, podcasts, online grammar activities, translation activities, etc.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+            <h2 class="accordion-header mb-0" id="flush-headingFour">
+              <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                aria-expanded="false" aria-controls="flush-collapseFour">
+                What are the career opportunities after I learn English?
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFour"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body py-4 px-5">After you learn English from us, you can work as a translator, writer, editor, anchor, etc. There are multiple career opportunities available after you learn the English language.</div>
+            </div>
+          </div>
+          <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+            <h2 class="accordion-header mb-0" id="flush-headingFive">
+              <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
+                aria-expanded="false" aria-controls="flush-collapseFive">
+                How can I improve my English?
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFive"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body py-4 px-5">Work on the four aspects of learning English. They include reading, writing, speaking, and listening. If you work on these four aspects, your English will automatically improve. In addition to this, also focus on grammar and vocabulary. Make a list of words that you have learned. Also, make a list of English words that you want to learn.</div>
+            </div>
+          </div>
+          <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+            <h2 class="accordion-header mb-0" id="flush-headingSix">
+              <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
+                aria-expanded="false" aria-controls="flush-collapseSix">
+                Which is better among American English and British English?
+              </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSix"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body py-4 px-5">Both are good. They are almost identical, with slight differences in spellings. Some countries prefer American English. In India, we use British English. Depending on your geographical location, you can pick one of the two variations.</div>
+            </div>
+          </div>
+          <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+            <h2 class="accordion-header mb-0" id="flush-headingSeven">
+              <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
+                aria-expanded="false" aria-controls="flush-collapseSeven">
+                How many students are accommodated in one batch?
+              </button>
+            </h2>
+            <div id="flush-collapseSeven" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSeven"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body py-4 px-5">The Language Network offers you the choice to join classes 1:1, duo or in a group. 1:1 or duo offers personal attention, greater understanding, and detailed study of the language. Group classes, on the other hand, offer more interaction, speaking practice, and people to practice the language with. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+            <h2 class="accordion-header mb-0" id="flush-headingEight">
+              <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight"
+                aria-expanded="false" aria-controls="flush-collapseEight">
+                Do you provide study material for enrolled students?
+              </button>
+            </h2>
+            <div id="flush-collapseEight" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingEight"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body py-4 px-5">Yes, we do provide study material to our students. We also have several activities in our English language course for kids. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+            <h2 class="accordion-header mb-0" id="flush-headingNine">
+              <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine"
+                aria-expanded="false" aria-controls="flush-collapseNine">
+                How can I book a course with TLN?
+              </button>
+            </h2>
+            <div id="flush-collapseNine" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingNine"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body py-4 px-5">If you wish to book an English language course with The Language Network, register with us here. We have also mentioned the prices of our English language course. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+            <h2 class="accordion-header mb-0" id="flush-headingTen">
+              <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen"
+                aria-expanded="false" aria-controls="flush-collapseTen">
+                Can I get class timings according to our convenience?
+              </button>
+            </h2>
+            <div id="flush-collapseTen" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingTen"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body py-4 px-5">Yes, you absolutely can get timings to match your convenience. We offer weekday and weekend batches, so you can choose whichever suits your schedule the best. </div>
+            </div>
+          </div>
+          <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+            <h2 class="accordion-header mb-0" id="flush-headingEleven">
+              <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven"
+                aria-expanded="false" aria-controls="flush-collapseEleven">
+                What is included in the curriculum?
+              </button>
+            </h2>
+            <div id="flush-collapseEleven" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingEleven"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body py-4 px-5">Our English language course’s curriculum includes Basic greetings, Phonetics, Grammar, Vocabulary, Communication, Cultural knowledge, Social know-how, etc.</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
