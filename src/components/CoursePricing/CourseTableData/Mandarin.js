@@ -1,34 +1,34 @@
 export const Mandarin_1_1 = [
     {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 1',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 2',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 3',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 4',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A4',
         OgPrice : 444,
         DiscPrice : 333,
@@ -36,7 +36,7 @@ export const Mandarin_1_1 = [
     },
     {
 
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A4',
         OgPrice : 444,
         DiscPrice : 333,
@@ -44,7 +44,7 @@ export const Mandarin_1_1 = [
     },
     {
 
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A4',
         OgPrice : 444,
         DiscPrice : 333,
@@ -54,49 +54,49 @@ export const Mandarin_1_1 = [
 
 export const Mandarin_1_2 = [
     {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A2',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A3',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A4',
         OgPrice : 444,
         DiscPrice : 333,
@@ -107,49 +107,49 @@ export const Mandarin_1_2 = [
 
 export const Mandarin_1_4 = [
     {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A2',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A3',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
     },
     {
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A4',
         OgPrice : 444,
         DiscPrice : 333,
