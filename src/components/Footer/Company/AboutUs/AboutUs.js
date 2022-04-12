@@ -8,8 +8,35 @@ import "swiper/css/navigation"
 import About_display from "./About_display"
 import { TextareaAutosize } from '@mui/material';
 import Team from './Team';
+import { Link } from 'react-scroll';
 
 export default function AboutUs() {
+
+  // const mybutton = document.getElementById("btn-back-to-top");
+  // // When the user scrolls down 20px from the top of the document, show the button
+  // window.onscroll = function () {
+  //   scrollFunction();
+  // };
+
+  // function scrollFunction() {
+  //   if (
+  //     document.body.scrollTop > 20 ||
+  //     document.documentElement.scrollTop > 20
+  //   ) {
+  //     // mybutton.style.display = "block";
+  //   } else {
+  //     mybutton.style.display = "none";
+
+  //   }
+  // }
+  // // When the user clicks on the button, scroll to the top of the document
+  // mybutton.addEventListener("click", backToTop);
+
+  // function backToTop() {
+  //   document.body.scrollTop = 1000;
+  //   document.documentElement.scrollTop = 1000;
+  // }
+
   return (
     <div>
       <div className="lg:pt-10 lg:px-10 lg:px-24 lg:flex flex-row items-center justify-center">
@@ -22,10 +49,18 @@ export default function AboutUs() {
             <p className="md:pl-2 lg:pl-0 md:pt-6 lg:pt-0">be a part of a global society.&nbsp;</p>
             <p href="" className="font-bold">Join<span className="font-light"> our online classes led by professional trainers.</span></p>
           </div>
-          <svg onClick={console.log("hello")} xmlns="http://www.w3.org/2000/svg" className="flex  h-12 w-12 md:ml-20 ml-10 my-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z" />
+          
+          {/* <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="inline-block p-3 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out bottom-5 right-5" id="btn-back-to-top">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" class="w-4 h-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"></path></svg>
+          </button> */}
+          <Link to="mve" spy={true} smooth={true}>
+            <div className="">
+            <svg xmlns="http://www.w3.org/2000/svg" className="shadow-xl shadow-yellow-200 animate-pulse hover:shadow-xl hover:shadow-yellow-300 flex h-12 w-12 ml-10 my-10 border-[#f2b919] border-[12px] p-0 rounded-3xl" fill="none" viewBox="0 0 24 24" stroke="#f2b919" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 9 9 0 18z" />
           </svg>
-          <span className="flex items-center text-xl font-medium ml-10 pt-0">Dive in deeper</span>
+          </div>
+          </Link>
+          <span className="flex items-center text-lg font-semibold ml-10 pt-0">Dive in deeper</span>
 
         </div>
         <div className="px-8 lg:px-0 lg:w-1/2 rounded-lg">
@@ -35,7 +70,7 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className="pt-20 lg:pl-20 lg:flex flex-row items-center justify-center">
+      <div className="pt-20 lg:pl-20 lg:flex flex-row items-center justify-center" id="mve">
         <div className="lg:w-1/2 px-5 lg:px-0 lg:pl-10 sm:mx-2">
           <div className="text-4xl font-semibold text-[#13bfab]">To tell you a little bit about Us</div>
           <div className="items-baseline flex flex-wrap inline-block">
@@ -48,7 +83,7 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className="pt-20 ">
+      <div className="pt-40">
         <div className="flex flex-col items-center justify-center lg:px-40 space-y-10">
           <h1 className='lg:flex wrap font-bold text-2xl md:text-3xl lg:text-4xl '>Core Values that shape our
             <div class="scroller mt-0">
@@ -102,7 +137,7 @@ export default function AboutUs() {
       </div>
       <p className='w-full text-center font-bold text-4xl lg:pt-20 pt-10'>Frequently asked questions</p>
       <div className="flex flex-col justify-center items-center pb-20 ">
-      <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-[#FFC000] border-2 w-1/5 self-center mt-4 items-center justify-center"></hr>
+        <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-[#FFC000] border-2 w-1/5 self-center mt-4 items-center justify-center"></hr>
       </div>
 
 
