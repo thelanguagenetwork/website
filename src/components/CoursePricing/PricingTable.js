@@ -47,7 +47,7 @@ export default function PricingTable(props) {
                         <div class="pricingTable lg:mr-1 mr-0">
                             <div class="pricingTable-header">
                                 <i class={`fa ${icons[i]}`}></i>
-                                <div class="price-value flex flex-col"> ₹{data.DiscPrice} <span className='text-[1.4rem] line-through'>₹{data.OgPrice}</span> <span class="month">per month</span> </div>
+                                <div class="price-value flex flex-col"> ₹{data.DiscPrice} <span className='text-[1.4rem] line-through'>{data.OgPrice}</span>  </div>
                             </div>
                             <h3 class="heading">Level {data.lvlName}</h3>
                             <div class="pricing-content">
