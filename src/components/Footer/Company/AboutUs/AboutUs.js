@@ -55,7 +55,7 @@ export default function AboutUs() {
           </button> */}
           <Link to="mve" spy={true} smooth={true}>
             <div className="">
-            <svg xmlns="http://www.w3.org/2000/svg" className="shadow-xl shadow-yellow-200 animate-pulse hover:shadow-xl hover:shadow-yellow-300 flex h-12 w-12 ml-10 my-10 border-[#f2b919] border-[12px] p-0 rounded-3xl" fill="none" viewBox="0 0 24 24" stroke="#f2b919" strokeWidth={2}>
+            <svg xmlns="http://www.w3.org/2000/svg" className="shadow-xl shadow-yellow-200 hover:animate-pulse hover:shadow-xl hover:shadow-yellow-300 flex h-12 w-12 ml-10 my-10 border-[#f2b919] border-[12px] p-0 rounded-3xl" fill="none" viewBox="0 0 24 24" stroke="#f2b919" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 9 9 0 18z" />
           </svg>
           </div>
