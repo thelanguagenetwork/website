@@ -45,7 +45,7 @@ export default function AdultsEnglish() {
                 </div>
             </div>
             <div className="pt-10 px-10 lg:px28 lg:flex flex-row items-center">
-                <div className='lg:w-1/2'>
+                <div className='lg:w-1/2 lg:px-20'>
                     <h2 className='font-semibold text-2xl lg:text-4xl'>Learn English online with TLN</h2>
                     <p className='text-sm text-[#54595f] my-3'>Learn English with our English language course online. We provide courses for beginners as well as advanced level learners. Our English language courses cover everything from English grammar to pronunciation.</p>
                     <p className='text-sm text-[#54595f] my-3'>Learn English with The Language Network and become fluent in English. Our English language courses are adjusted to meet every learner’s personal learning needs.</p>
@@ -56,7 +56,7 @@ export default function AdultsEnglish() {
             </div>
 
 
-            <div className='w-full text-center text-3xl lg:text-4xl font-medium mt-20'>Why learn a language with TLN?</div>
+            <div className='w-full text-center text-3xl lg:text-4xl font-semibold mt-20'>How is learning English with TLN unique?</div>
             <div className='w-full lg:px-32 py-18 flex flex-row flex-wrap  justify-evenly'>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
@@ -126,7 +126,7 @@ export default function AdultsEnglish() {
                         </div>
                         <div>
                             <h1 className='text-2xl font-medium'>
-                            Listening and Speaking</h1>
+                                Listening and Speaking</h1>
                             <p className='text-[#54595f] pt-2'>Learn English courses online with The Language Network because we focus on spoken English. We train our students to listen and speak English proficiently.</p>
                         </div>
                     </div>
@@ -139,7 +139,7 @@ export default function AdultsEnglish() {
                             <p className='text-[#54595f] pt-2'>Our English language courses not only focus on learning English but also focus on the culture associated with it. Learn English with us and stay updated with the latest slang and expressions.</p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
             <div className='pt-20 w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>TLN and International Exams</div>
@@ -153,14 +153,14 @@ export default function AdultsEnglish() {
             </div>
 
 
-            <div className="my-20 lg:flex flex-row h-auto w-full bg-[#f4f8fb]">
-                <div className='flex flex-col space-y-6 px-10 lg:px-20 justify-center'>
+            <div className="my-20 lg:flex flex-row h-auto w-full">
+                <div className='flex flex-col space-y-6 pl-10 lg:mx-20 justify-center'>
                     <h1 className='font-bold text-3xl lg:text-4xl'>English Language Levels for Adults</h1>
                     <p className='text-sm text-[#54595f]'>
-                    All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
+                        All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
                     </p>
                     <p className='text-sm text-[#54595f]'>
-                    Online English for adults is divided into following levels:
+                        Online English for adults is divided into following levels:
                     </p>
                     <ul className='list-disc text-[#54595f] font-bold text-md space-y-4 ml-3'>
                         <li>Beginner Level: Level A1 + Level A2</li>
@@ -170,10 +170,10 @@ export default function AdultsEnglish() {
                         <li>Advance Level: Level C1</li>
                     </ul>
                     <p className='text-sm text-[#54595f]'>
-                    These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and C2 the most advanced.
+                        These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and C2 the most advanced.
                     </p>
                 </div>
-                <div className='flex align-center px-10 py-10 lg:px-20 lg:py-20'>
+                <div className='flex align-center px-10 py-10 lg:pr-20 lg:py-20'>
                     <img src='/images/CEFR-LEVELS-1.png' alt='img' />
                 </div>
             </div>
@@ -257,7 +257,11 @@ export default function AdultsEnglish() {
                 </div>
             </section>
 
-            <p className='w-full pb-20 text-center font-bold text-4xl underline underline-offset-8'>Frequently asked questions</p>
+            <p className='w-full  text-center font-bold text-4xl pb-3'>Frequently asked questions</p>
+
+            <div className="flex flex-col items-center justify-center pb-20">
+            <hr class="flex flex-col justify-center align-center text-center border-[#FFC000] border-2 w-1/5 self-center items-center"></hr>
+            </div>
 
 
             <div className='w-full px-10 lg:px-28'>
@@ -339,7 +343,7 @@ export default function AdultsEnglish() {
                         <h2 class="accordion-header mb-0" id="flush-headingSeven">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
                                 aria-expanded="false" aria-controls="flush-collapseSeven">
-                               How many students are accommodated in one batch?
+                                How many students are accommodated in one batch?
                             </button>
                         </h2>
                         <div id="flush-collapseSeven" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSeven"
