@@ -7,28 +7,29 @@ export default function Careers() {
       <div className="bg-[url('/public/images/25388715424_65480dbf18_k.jpg')] bg-no-repeat bg-cover bg-center h-[60vh]" >
         <div className="bg-[rgba(0,0,0,0.7)] h-full ">
           <div className='h-full flex flex-col justify-center align-center text-center w-full px-10 lg:px-32'>
-            <h1 className='text-3xl lg:text-6xl leading-snug text-white font-thin'>Careers</h1>
+            <h1 className='text-3xl lg:text-7xl leading-snug text-white font-thin'>Careers</h1>
             <hr className='border-zinc-50 border-2 w-24 self-center mt-8' />
             <h1 className='text-xl my-10 text-white font-semibold'>Join us in revolutionising language learning</h1>
           </div>
         </div>
       </div>
+      
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto flex flex-wrap">
-          <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+        <div class="container  py-24 mx-auto flex flex-wrap">
+          <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-2/3 sm:w-2/3 content-start sm:pr-10">
             <div class="w-full sm:p-4 px-4 mb-6">
-              <h1 class="title-font font-bold text-4xl mb-2 text-black">Let's say <div class="scroller2">
-                <span className='bg-[#13bfab] px-3'>
+              <h1 class="title-font font-bold text-4xl lg:text-6xl mb-2 text-black">Let's say <div class="scroller2">
+                <span className='bg-[#13bfab] px-3 text-white text-center'>
                   Salut<br />
                   Hello<br />
                   Hola<br />
                   Ciao
                 </span>
               </div>to new opportunities!</h1>
-              <div class="leading-relaxed font-bold text-lg">We believe there’s always more to do, to try, and to achieve. Come be a part of “The Language Network”.</div>
+              <div class="leading-relaxed font-bold text-md lg:text-lg">We believe there’s always more to do, to try, and to achieve. Come be a part of “The Language Network”.</div>
             </div>
           </div>
-          <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+          <div class="lg:w-4/12 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
             <img class="object-cover object-center w-full h-full" src="https://dummyimage.com/600x300" alt="stats" />
           </div>
         </div>
