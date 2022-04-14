@@ -13,7 +13,7 @@ export default function IntroCourse() {
                 <div className="bg-[rgba(0,0,0,0.3)] h-full ">
                 {/* h-full flex flex-col justify-center align-left w-[40rem] */}
                     <div className='h-full flex flex-col justify-center align-left lg:mx-20'>
-                        <h1 className='mx-6 lg:w-1/2 md:mx-10 lg:mx-12 text-4xl md:text-6xl lg:text-6xl text-white font-extrabold'>Speak a language confidently in only 30 days</h1>
+                        <h1 style={{lineHeight:'4.5rem'}} className='mx-6 lg:w-1/2 md:mx-10 lg:mx-12 lg:pr-10 leading-8 text-4xl md:text-6xl lg:text-6xl text-white font-bold drop-shadow-2xl'>Speak a language confidently in only 30 days</h1>
                         <h1 className='mx-6 md:mx-10 lg:mx-12 md:text-md lg:text-lg my-4 text-white font-medium'>Join our Introductory Courses</h1>
                         <Link  to="LearnLang" spy={true} smooth={false}><button type="button" class="mx-6 md:mx-10 lg:mx-12 flex flex-row btn btn-outline-light hover:bg-[#13BFAB] rounded-3xl w-fit text-sm py-3 px-4 ">Choose Your Language <AiOutlineArrowDown className='self-center ml-2' /></button></Link>
                     </div>
@@ -23,23 +23,23 @@ export default function IntroCourse() {
             <div className='lg:flex flex-row w-full px-10 md:px-16 lg:px-20'>
                 <div class="p-4 lg:w-1/3">
                     <div class="h-full flex flex-col items-center bg-white hover:drop-shadow-2xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-center relative">
-                        <h2 class="tracking-widest h-20 w-20 my-2"><FaRegHandshake className='w-full h-full text-[#13BFAB]' /></h2>
-                        <h2 class="tracking-widest text-lg title-font font-bold text-black my-2">Instant Feedback</h2>
-                        <p class="leading-relaxed my-2">Track your progress and get personalised feedback</p>
+                        <h2 class="tracking-widest h-16 w-16 my-2"><FaRegHandshake className='w-full h-full text-[#13BFAB]' /></h2>
+                        <h2 class="tracking-widest text-xl title-font font-thin text-black my-2">Instant Feedback</h2>
+                        <p class="leading-relaxed my-2 text-[#54595f]">Track your progress and get personalised feedback</p>
                     </div>
                 </div>
                 <div class="p-4 lg:w-1/3">
                     <div class="h-full flex flex-col items-center bg-white  hover:drop-shadow-2xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-center relative">
-                        <h2 class="tracking-widest h-20 w-20 my-2"><ImBook className='w-full h-full text-[#13BFAB]' /></h2>
-                        <h2 class="tracking-widest text-lg title-font font-bold text-black my-2">Accreditation</h2>
-                        <p class="leading-relaxed my-2">Earn accredited certificate to boost your skills</p>
+                        <h2 class="tracking-widest h-16 w-16 my-2"><ImBook className='w-full h-full text-[#13BFAB]' /></h2>
+                        <h2 class="tracking-widest text-xl title-font font-thin text-black my-2">Accreditation</h2>
+                        <p class="leading-relaxed my-2 text-[#54595f]">Earn accredited certificate to boost your skills</p>
                     </div>
                 </div>
                 <div class="p-4 lg:w-1/3">
                     <div class="h-full flex flex-col items-center bg-white hover:drop-shadow-2xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-center relative">
-                        <h2 class="tracking-widest h-20 w-20 my-2"><GiTakeMyMoney className='w-full h-full text-[#13BFAB]' /></h2>
-                        <h2 class="tracking-widest text-lg title-font font-bold text-black my-2">Big rewards</h2>
-                        <p class="leading-relaxed my-2">Earn 100% cashback</p>
+                        <h2 class="tracking-widest h-16 w-16 my-2"><GiTakeMyMoney className='w-full h-full text-[#13BFAB]' /></h2>
+                        <h2 class="tracking-widest text-xl title-font font-thin text-black my-2">Big rewards</h2>
+                        <p class="leading-relaxed my-2 text-[#54595f]">Earn 100% cashback</p>
                     </div>
                 </div>
             </div>

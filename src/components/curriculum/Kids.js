@@ -39,7 +39,7 @@ function Kids() {
 
     return (
         <div>
-            <div className="Home-container-2 w-full lg:px-20 mt-4">
+            <div className="fadeIN Home-container-2 w-full lg:px-20 mt-4">
                 <h2>Bring The World To Your Child</h2>
                 <h1 className='mb-6'>Choose a language</h1>
                 <div className='Home-container-2-imgs'>
