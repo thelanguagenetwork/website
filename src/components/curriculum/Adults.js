@@ -43,7 +43,7 @@ function Adults() {
 
     return (
         <div>
-            <div className="Home-container-2 w-full lg:px-20 mt-4">
+            <div className="fadeIN Home-container-2 w-full lg:px-20 mt-4">
                 <h2>Curating a pleasant learning experience</h2>
                 <h1 className='mb-6'>Choose a language</h1>
                 <div className='Home-container-2-imgs'>
