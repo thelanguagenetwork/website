@@ -1,5 +1,6 @@
 export const German_1_1 = [
     {
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1',
        //OgPrice : 444,
@@ -7,6 +8,7 @@ export const German_1_1 = [
         Link: "https://rzp.io/l/oG1DBhmr"
     },
     {
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A2',
        // OgPrice : 444,
@@ -14,6 +16,7 @@ export const German_1_1 = [
         Link: "https://rzp.io/l/germanA21"
     },
     {
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B1',
         //OgPrice : 444,
@@ -21,6 +24,7 @@ export const German_1_1 = [
         Link: "https://rzp.io/l/germanB11"
     },
     {
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B2',
        // OgPrice : 444,
@@ -28,6 +32,7 @@ export const German_1_1 = [
         Link: "https://rzp.io/l/5GXIGr5Ug9"
     },
     {
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1+A2',
         //OgPrice : 444,
@@ -35,7 +40,7 @@ export const German_1_1 = [
         Link: "https://rzp.io/l/germana1a21"
     },
     {
-
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B1+B2',
         //OgPrice : 444,
@@ -43,7 +48,7 @@ export const German_1_1 = [
         Link: "https://rzp.io/l/germanb1b21"
     },
     {
-
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1+A2+B1+B2',
       //  OgPrice : 444,
@@ -54,6 +59,7 @@ export const German_1_1 = [
 
 export const German_1_2 = [
     {
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1',
       //  OgPrice : 444,
@@ -61,6 +67,7 @@ export const German_1_2 = [
         Link: "https://rzp.io/l/germana12"
     },
     {
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A2',
       // OgPrice : 19190,
@@ -68,6 +75,7 @@ export const German_1_2 = [
         Link: "https://rzp.io/l/D9Hp8Gt7"
     },
     {
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B1',
       //  OgPrice : 21590,
@@ -75,6 +83,7 @@ export const German_1_2 = [
         Link: "https://rzp.io/l/germanb12"
     },
     {
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B2',
       //  OgPrice : 23990,
@@ -82,6 +91,7 @@ export const German_1_2 = [
         Link: "https://rzp.io/l/germanB22"
     },
     {
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1+A2',
       //  OgPrice : 444,
@@ -89,6 +99,7 @@ export const German_1_2 = [
         Link: "https://rzp.io/l/germana1a22"
     },
     {
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B1+B2',
      //   OgPrice : 444,
@@ -96,6 +107,7 @@ export const German_1_2 = [
         Link: "https://rzp.io/l/germanb1b22"
     },
     {
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1+A2+B1+B2',
       //  OgPrice : 444,
@@ -107,6 +119,7 @@ export const German_1_2 = [
 
 export const German_1_4 = [
     {
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1',
         //OgPrice : 444,
@@ -114,6 +127,7 @@ export const German_1_4 = [
         Link: "https://rzp.io/l/GermanA1"
     },
     {
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A2',
       //  OgPrice : 444,
@@ -121,6 +135,7 @@ export const German_1_4 = [
         Link: "https://rzp.io/l/germana2"
     },
     {
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B1',
       //  OgPrice : 444,
@@ -128,6 +143,7 @@ export const German_1_4 = [
         Link: "https://rzp.io/l/germanb1"
     },
     {
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B2',
         //OgPrice : 444,
@@ -135,6 +151,7 @@ export const German_1_4 = [
         Link: "https://rzp.io/l/germanb2"
     },
     {
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1+A2',
       //  OgPrice : 444,
@@ -142,6 +159,7 @@ export const German_1_4 = [
         Link: "https://rzp.io/l/aNV0wBTb"
     },
     {
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B1+B2',
      //   OgPrice : 444,
@@ -149,6 +167,7 @@ export const German_1_4 = [
         Link: "https://rzp.io/l/germanb1b2"
     },
     {
+        language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1+A2+B1+B2',
      //   OgPrice : 444,
