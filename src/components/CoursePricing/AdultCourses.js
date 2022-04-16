@@ -54,7 +54,7 @@ export default function AdultsCourses() {
                 <a onClick={() => setLanguage('German')} className='mt-12'><img id={language === 'German' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-german@300x.png' /><span className='Home-container-2-img-span'>German</span></a>
                 <a onClick={() => setLanguage('Mandarin')} className='mt-12'><img id={language === 'Mandarin' ? 'selected' : ''} className='Home-container-2-img h-[95%]  lg:w-auto' alt='img' src='/images/adults-mandarin@300x.png' /><span className='Home-container-2-img-span'>Mandarin</span></a>
                 <a onClick={() => setLanguage('Japanese')} className='mt-12'><img id={language === 'Japanese' ? 'selected' : ''} className='Home-container-2-img h-[95%]  lg:w-auto' alt='img' src='/images/adults-japanese@300x.png' /><span className='Home-container-2-img-span'>Japanese</span></a>         
-                <a onClick={() => setLanguage('Korean')} className='mt-12'><img id={language === 'Korean' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src= '/images/adults-korean@300x.png'/><span className='Home-container-2-img-span'>Korean</span> </a>
+                <a onClick={() => setLanguage('Korean')} className='mt-12'><img id={language === 'Korean' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src= '/images/adults-japanese@300x.png'/><span className='Home-container-2-img-span'>Korean</span> </a>
             </div>
         </div>
         
