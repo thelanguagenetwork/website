@@ -1,5 +1,6 @@
 export const Spanish_1_1 = [
     {
+        language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1',
       //  OgPrice : 444,
@@ -7,6 +8,7 @@ export const Spanish_1_1 = [
         Link: "https://rzp.io/l/spanisha111"
     },
     {
+        language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A2',
       //  OgPrice : 444,
@@ -14,6 +16,7 @@ export const Spanish_1_1 = [
         Link: "https://rzp.io/l/spanisha21"
     },
     {
+        language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B1',
       //  OgPrice : 444,
@@ -21,6 +24,7 @@ export const Spanish_1_1 = [
         Link: "https://rzp.io/l/spanishb11"
     },
     {
+        language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B2',
       //  OgPrice : 444,
@@ -28,6 +32,7 @@ export const Spanish_1_1 = [
         Link: "https://rzp.io/l/spanishb21"
     },
     {
+        language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1+A2',
        // OgPrice : 444,
@@ -35,6 +40,7 @@ export const Spanish_1_1 = [
         Link: "https://rzp.io/l/spanisha1a21"
     },
     {
+        language: "Spanish",
 
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B1+B2',
@@ -43,6 +49,7 @@ export const Spanish_1_1 = [
         Link: "https://rzp.io/l/spnaishb1b21"
     },
     {
+        language: "Spanish",
 
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1+A2+B1+B2',
@@ -54,6 +61,7 @@ export const Spanish_1_1 = [
 
 export const Spanish_1_2 = [
     {
+        language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1',
        // OgPrice : 444,
@@ -61,6 +69,7 @@ export const Spanish_1_2 = [
         Link: "https://rzp.io/l/QInsHGRu"
     },
     {
+        language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A2',
       //  OgPrice : 444,
@@ -68,6 +77,7 @@ export const Spanish_1_2 = [
         Link: "https://rzp.io/l/PRisneS"
     },
     {
+        language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B1.1 + B1.2',
      //   OgPrice : 444,
@@ -75,6 +85,7 @@ export const Spanish_1_2 = [
         Link: "https://rzp.io/l/cmFaBrL"
     },
     {
+        language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B2.1 + B2.2',
        // OgPrice : 444,
@@ -82,6 +93,7 @@ export const Spanish_1_2 = [
         Link: "https://rzp.io/l/spanishb22"
     },
     {
+        language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1+A2',
       //  OgPrice : 444,
@@ -89,6 +101,7 @@ export const Spanish_1_2 = [
         Link: "https://rzp.io/l/spnaisha1a22"
     },
     {
+        language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B1+B2',
        // OgPrice : 444,
@@ -96,6 +109,7 @@ export const Spanish_1_2 = [
         Link: "https://rzp.io/l/spanishb1b22"
     },
     {
+        language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1+A2+B1+B2',
        // OgPrice : 444,
@@ -107,6 +121,7 @@ export const Spanish_1_2 = [
 
 export const Spanish_1_4 = [
     {
+        language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1',
        // OgPrice : 444,
@@ -114,6 +129,7 @@ export const Spanish_1_4 = [
         Link: "https://rzp.io/l/Spanisha1"
     },
     {
+        language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A2',
        // OgPrice : 444,
@@ -121,6 +137,7 @@ export const Spanish_1_4 = [
         Link: "https://rzp.io/l/spanisha2"
     },
     {
+        language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B1',
       //  OgPrice : 444,
@@ -128,6 +145,7 @@ export const Spanish_1_4 = [
         Link: "https://rzp.io/l/spanishb1"
     },
     {
+        language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B2',
        // OgPrice : 444,
@@ -135,6 +153,7 @@ export const Spanish_1_4 = [
         Link: "https://rzp.io/l/Spanishb2"
     },
     {
+        language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1+A2',
        // OgPrice : 444,
@@ -142,6 +161,7 @@ export const Spanish_1_4 = [
         Link: "https://rzp.io/l/Spanisha1a2"
     },
     {
+        language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B1+B2',
       //  OgPrice : 444,
@@ -149,6 +169,7 @@ export const Spanish_1_4 = [
         Link: "https://rzp.io/l/spanishb1b2"
     },
     {
+        language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1+A2+B1+B2',
        // OgPrice : 444,

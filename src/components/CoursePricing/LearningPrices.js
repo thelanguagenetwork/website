@@ -25,7 +25,6 @@ export default function LearningPrices(props) {
         }
     };
 
-
     return <div>
         <div className='w-full flex justify-center fadeIN'>
             <a onClick={() => setOpt(1)} id={Opt === 1 ? 'btnP' : ''} class="flex flex-col text-center buttons bg-white py-2.5 px-4 rounded-lg shadow lg:mx-3">
@@ -36,10 +35,13 @@ export default function LearningPrices(props) {
                 <h1 className='lg:text-xl font-medium text-md'>Duo Learning</h1>
                 <h2 className='text-gray-800 lg:text-sm text-xs'>(1 Teacher & 2 Student)</h2>
             </a>
+            {props.one_four[0].language !== 'Mandarin' &&
+            
             <a onClick={() => setOpt(3)} id={Opt === 3 ? 'btnP' : ''} class="flex flex-col text-center buttons bg-white  py-2.5 px-4 rounded-lg shadow lg:mx-3">
                 <h1 className='lg:text-xl font-medium text-md'>Group Learning</h1>
                 <h2 className='text-gray-800 lg:text-sm text-xs'>(1 Teacher & 6 Student)</h2>
-            </a>
+            </a>                
+            }
         </div>
         <LearningPrices />
     </div>;

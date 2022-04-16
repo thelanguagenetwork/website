@@ -1,5 +1,6 @@
 export const English_1_1 = [
     {
+        language: "English",
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
         lvlName: 'A1',
         OgPrice : 444,
@@ -7,6 +8,7 @@ export const English_1_1 = [
         Link: ""
     },
     {
+        language: "English",
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
         lvlName: 'A2',
         OgPrice : 444,
@@ -14,6 +16,7 @@ export const English_1_1 = [
         Link: ""
     },
     {
+        language: "English",
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
         lvlName: 'A3',
         OgPrice : 444,
@@ -21,6 +24,7 @@ export const English_1_1 = [
         Link: ""
     },
     {
+        language: "English",
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
         lvlName: 'A4',
         OgPrice : 444,
@@ -32,6 +36,7 @@ export const English_1_1 = [
 
 export const English_1_2 = [
     {
+        language: "English",
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
         lvlName: 'A1',
         OgPrice : 444,
@@ -39,6 +44,7 @@ export const English_1_2 = [
         Link: ""
     },
     {
+        language: "English",
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
         lvlName: 'A1',
         OgPrice : 444,
@@ -46,6 +52,7 @@ export const English_1_2 = [
         Link: ""
     },
     {
+        language: "English",
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
         lvlName: 'A1',
         OgPrice : 444,
@@ -53,6 +60,7 @@ export const English_1_2 = [
         Link: ""
     },
     {
+        language: "English",
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
         lvlName: 'A1',
         OgPrice : 444,
@@ -65,6 +73,7 @@ export const English_1_2 = [
 
 export const English_1_4 = [
     {
+        language: "English",
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
         lvlName: 'A1',
         OgPrice : 444,
@@ -72,6 +81,7 @@ export const English_1_4 = [
         Link: ""
     },
     {
+        language: "English",
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
         lvlName: 'A2',
         OgPrice : 444,
@@ -79,6 +89,7 @@ export const English_1_4 = [
         Link: ""
     },
     {
+        language: "English",
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
         lvlName: 'A3',
         OgPrice : 444,
@@ -86,6 +97,7 @@ export const English_1_4 = [
         Link: ""
     },
     {
+        language: "English",
         content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
         lvlName: 'A4',
         OgPrice : 444,
