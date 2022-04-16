@@ -97,7 +97,7 @@ export const Mandarin_1_2 = [
     },
     {
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'A4',
+        lvlName: '',
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
