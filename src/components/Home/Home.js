@@ -348,7 +348,7 @@ export default function Home() {
                 <Curriculum />
             </div>
 
-            <div>
+            <div className='mb-4'>
                 <div className="items-center justify-center px-3 lg:px-20 flex flex-col justify-center ">
                     <h1 className="flex text-3xl lg:text-4xl font-semibold pt-20 items-center justify-center ">We work as a team</h1>
                     <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-yellow-500 border-2 w-1/4 self-center mt-4 items-center justify-center"></hr>
