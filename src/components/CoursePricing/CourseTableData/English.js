@@ -1,71 +1,63 @@
 export const English_1_1 = [
     {
-        language: "English",
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A1',
-        OgPrice : 444,
-        DiscPrice : 333,
-        Link: ""
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+        lvlName: 'A1+A2',
+       // OgPrice : 444,
+        DiscPrice : 15990,
+        Link: "https://rzp.io/l/englishA1A21"
     },
     {
-        language: "English",
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A2',
-        OgPrice : 444,
-        DiscPrice : 333,
-        Link: ""
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+        lvlName: 'B1',
+       // OgPrice : 444,
+        DiscPrice : 19990,
+        Link: "https://rzp.io/l/englishb1"
     },
     {
-        language: "English",
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A3',
-        OgPrice : 444,
-        DiscPrice : 333,
-        Link: ""
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+        lvlName: 'B2',
+       // OgPrice : 444,
+        DiscPrice : 19990,
+        Link: "https://rzp.io/l/englishb21"
     },
     {
-        language: "English",
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A4',
-        OgPrice : 444,
-        DiscPrice : 333,
-        Link: ""
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+        lvlName: 'C1',
+       // OgPrice : 444,
+        DiscPrice : 19990,
+        Link: "https://rzp.io/l/JPEDwHu3V"
     },
    
 ]
 
 export const English_1_2 = [
     {
-        language: "English",
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A1',
-        OgPrice : 444,
-        DiscPrice : 333,
-        Link: ""
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+        lvlName: 'A1+A2',
+      //  OgPrice : 444,
+        DiscPrice :9990,
+        Link: "https://rzp.io/l/englishA1A22"
     },
     {
-        language: "English",
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A1',
-        OgPrice : 444,
-        DiscPrice : 333,
-        Link: ""
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+        lvlName: 'B1',
+       // OgPrice : 444,
+        DiscPrice : 13990,
+        Link: "https://rzp.io/l/englishb12"
     },
     {
-        language: "English",
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A1',
-        OgPrice : 444,
-        DiscPrice : 333,
-        Link: ""
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+        lvlName: 'B2',
+       // OgPrice : 444,
+        DiscPrice :13990,
+        Link: "https://rzp.io/l/englishB22"
     },
     {
-        language: "English",
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A1',
-        OgPrice : 444,
-        DiscPrice : 333,
-        Link: ""
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+        lvlName: 'C1',
+      //  OgPrice : 444,
+        DiscPrice : 13990,
+        Link: "https://rzp.io/l/englishC1"
     }
     
 ]
@@ -73,36 +65,32 @@ export const English_1_2 = [
 
 export const English_1_4 = [
     {
-        language: "English",
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A1',
-        OgPrice : 444,
-        DiscPrice : 333,
-        Link: ""
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+        lvlName: 'A1+A2',
+       // OgPrice : 444,
+        DiscPrice : 5990,
+        Link: "https://rzp.io/l/englishA1A2"
     },
     {
-        language: "English",
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A2',
-        OgPrice : 444,
-        DiscPrice : 333,
-        Link: ""
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+        lvlName: 'B1',
+       // OgPrice : 444,
+        DiscPrice : 9990,
+        Link: "https://rzp.io/l/englishb1group"
     },
     {
-        language: "English",
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A3',
-        OgPrice : 444,
-        DiscPrice : 333,
-        Link: ""
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+        lvlName: 'B2',
+        //OgPrice : 444,
+        DiscPrice :9990,
+        Link: "https://rzp.io/l/englishb2group"
     },
     {
-        language: "English",
-        content: ['Content 1','Content 2','Content 3','Content 4','Content 5'],
-        lvlName: 'A4',
-        OgPrice : 444,
-        DiscPrice : 333,
-        Link: ""
+        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+        lvlName: 'C1',
+       // OgPrice : 444,
+        DiscPrice : 9990,
+        Link: "https://rzp.io/l/englishc1group"
     }
     
 ]
