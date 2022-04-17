@@ -176,8 +176,8 @@ export default function AffProg() {
           <a href='/french-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/French.png' /><span className=''>French</span></a>
           <a href='/spanish-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/Spanish.png' /><span className=''>Spanish</span></a>
           <a href='/german-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/German.png' /><span className=''>German</span></a>
-          <a href='/mandarin-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/mandarin.png' /><span className=''>Mandarin</span></a>
-          <a href='/japanese-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/japanese.png' /><span className=''>Japanese</span></a>
+          <a href='/mandarin-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/Mandarin.png' /><span className=''>Mandarin</span></a>
+          <a href='/japanese-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/Japanese.png' /><span className=''>Japanese</span></a>
           <a href='/korean-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/Korean.png' /><span className=''>Korean</span></a>
         </div>
       </div>

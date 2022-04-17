@@ -3,7 +3,7 @@ export const Korean_1_1 = [
         language: "Korean",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'Topik 1 Level 1',
-//OgPrice : 444,
+        //OgPrice : 444,
         DiscPrice : 21990,
         Link: ""
     },
