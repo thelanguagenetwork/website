@@ -37,7 +37,7 @@ export default function PricingTable(props) {
     const icons = ['fa-adjust','fa-briefcase',"fa-cubes ",'fa-graduation-cap',"fa-desktop","fa-file-text-o","fa-pencil-square-o","fa-graduation-cap"];
 
     return (
-        <div class="demo py-20 px-28 fadeIN">
+        <div class="demo py-20 px-2 lg:px-28 fadeIN">
             <div class="container">
                 <div class="row flex flex-row flex-wrap justify-center">
                     {
