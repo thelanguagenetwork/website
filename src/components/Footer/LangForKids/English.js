@@ -139,18 +139,18 @@ export default function KidsEnglish() {
                     <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
                     <p className='text-sm text-gray-700'>Our English language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
                 </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
                     <p className='text-sm text-gray-700'>You can monitor your child’s progress with our English language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
                 </div>
-                <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
+                <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
                     <p className='text-sm text-gray-700'>
                         Our curriculum is created by carefully integrating all aspects of language learning. Our Learn English for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
                 </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Learn from experts</h3>
                     <p className='text-sm text-gray-700'>
@@ -168,14 +168,14 @@ export default function KidsEnglish() {
                     <p className='text-sm text-gray-700'>
                         TLN believes that all its students should appear for international exams like Cambridge. From an early age, we prepare them for these international exams.   </p>
                 </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/culture.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Cultural Sensitivity</h3>
                     <p className='text-sm text-gray-700'>
 
                         Our English language course for kids and adolescents also includes cultural learning. We believe that Cultural learning is important when it comes to language learning. It helps the students learn more efficiently. Thus, we focus on the culture associated with the language.   </p>
                 </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[30rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Get Certified Results</h3>
                     <p className='text-sm text-gray-700'>
