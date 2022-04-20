@@ -6,8 +6,8 @@ export default function Faqs() {
       <div>
         <div className="bg-zinc-100 py-6">
           <p className='w-full text-center font-medium text-5xl mt-20 text-[#13BFAB]'>Frequently Asked Questions</p>
-          <div className='items-center justify-center px-3 lg:px-20 flex flex-col justify-center py-4'> <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-black border-1 w-1/12 self-center items-center"/></div>
-         
+          <div className='items-center justify-center px-3 lg:px-20 flex flex-col justify-center py-4'> <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-black border-1 w-1/12 self-center items-center" /></div>
+
           <p className='w-full text-center font-large text-md mb-20'>Find answers to common questions, and get help!</p>
         </div>
 
@@ -56,7 +56,7 @@ export default function Faqs() {
               <h2 class="accordion-header mb-0" id="flush-headingFour">
                 <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
                   aria-expanded="false" aria-controls="flush-collapseFour">
-                 What makes TLN different from other language training schools?
+                  What makes TLN different from other language training schools?
                 </button>
               </h2>
               <div id="flush-collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFour"
@@ -88,6 +88,7 @@ export default function Faqs() {
                 <div class="accordion-body py-4 px-5">We do not have group batches for kids and adolescents. We only have one-on-one batches for kids. We believe that kids need more specialised attention so our English language course for kids only accommodates one student at a time.</div>
               </div>
             </div>
+
             <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
               <h2 class="accordion-header mb-0" id="flush-headingSeven">
                 <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
@@ -100,6 +101,7 @@ export default function Faqs() {
                 <div class="accordion-body py-4 px-5">If you have any doubts, feel free to contact our language experts. They will surely help you with your doubts and issues. </div>
               </div>
             </div>
+
             <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
               <h2 class="accordion-header mb-0" id="flush-headingEight">
                 <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight"
@@ -110,6 +112,140 @@ export default function Faqs() {
               <div id="flush-collapseEight" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingEight"
                 data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body py-4 px-5">Yes, we do provide study material to our students. We also have several activities in our English language course for kids. </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingNine">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine"
+                  aria-expanded="false" aria-controls="flush-collapseNine">
+                  Do you provide free demo classes?
+                </button>
+              </h2>
+              <div id="flush-collapseNine" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingNine"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">Yes, we absolutely do!
+                  <a className="text-black underline" href=""> Click here to register for a free trial class  </a>
+                  in the language of your choice today </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingTen">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen"
+                  aria-expanded="false" aria-controls="flush-collapseTen">
+                  How can I buy a course on TLN?
+                </button>
+              </h2>
+              <div id="flush-collapseTen" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingTen"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">To buy a course with us,<a className="text-black underline"> register with us here</a>. We will guide you through the whole process- from choosing the language, type of batch, timing, and any other assistance you might need.  </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingEle">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEle"
+                  aria-expanded="false" aria-controls="flush-collapseEle">
+                  Can I buy multiple language courses at the same time?
+                </button>
+              </h2>
+              <div id="flush-collapseEle" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingEle"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">Yes, you absolutely can. </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingTwe">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwe"
+                  aria-expanded="false" aria-controls="flush-collapseTwe">
+                  What if I don't like the language trainer?
+                </button>
+              </h2>
+              <div id="flush-collapseTwe" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingTwe"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">If you don’t like the trainer or are not able to understand their teaching methods, we will replace the trainer or shift you in another batch. </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingThr">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThr"
+                  aria-expanded="false" aria-controls="flush-collapseThr">
+                  How do I keep track of my classes?
+                </button>
+              </h2>
+              <div id="flush-collapseThr" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingThr"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">All the classes are uploaded on the drive. You have access to all the class recordings and they are updated on daily basis which helps you to revise as well as keep a track of your classes </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingFou">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFou"
+                  aria-expanded="false" aria-controls="flush-collapseFou">
+                  Are the teachers professionally trained?
+                </button>
+              </h2>
+              <div id="flush-collapseFou" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFou"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">All of our trainers are highly trained in the language they teach. We ensure the highest quality of language trainers to ensure that your knowledge base is the best.</div>
+              </div>
+            </div>
+
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingFiv">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFiv"
+                  aria-expanded="false" aria-controls="flush-collapseFiv">
+                  Can I start classes immediately?
+                </button>
+              </h2>
+              <div id="flush-collapseFiv" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFiv"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">We frequently start new batches, on both weekdays and weekends. If you are choosing 1:2 batches, you will have more flexibility with the class timing. </div>
+              </div>
+            </div>
+
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingSit">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSit"
+                  aria-expanded="false" aria-controls="flush-collapseSit">
+                  How do I get help and support?
+                </button>
+              </h2>
+              <div id="flush-collapseSit" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSit"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">For any help with regards to the languages, please feel  free to contact your language trainer without hesitation. For any other issues, please contact us at (<a className="text-black underline" href="">info@thelanguagenetwork.co</a>)</div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingSev">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSev"
+                  aria-expanded="false" aria-controls="flush-collapseSev">
+                  What is the total cost of the courses?
+                </button>
+              </h2>
+              <div id="flush-collapseSev" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSev"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">The cost depends on which language level you learn and the type of batch you choose. Check out the different pricing here, by clicking on Courses and choose the language you wish to go with. It will also explain the curriculum and what is covered.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingEig">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEig"
+                  aria-expanded="false" aria-controls="flush-collapseEig">
+                  What aspects are covered in the curriculum of the languages?
+                </button>
+              </h2>
+              <div id="flush-collapseEig" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingEig"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">Please check out the detailed curriculum of each language on our <a className="text-black underline" href="/">curriculum</a> page.</div>
               </div>
             </div>
           </div>
