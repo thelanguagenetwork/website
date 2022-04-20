@@ -182,113 +182,328 @@ export default function AffProg() {
         </div>
       </div>
       <div>
-        <p className='w-full pb-20 text-center font-medium text-4xl mt-20'>FAQ</p>
+        <p className='w-full pb-10 text-center font-medium text-4xl mt-10'>FAQ</p>
 
 
-        <div className='w-full px-10 lg:px-28'>
+        <div className='w-full px-10 lg:px-28 pt-20'>
           <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item border-t-0 border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+            <div class="accordion-item rounded-none bg-white">
               <h2 class="accordion-header mb-0" id="flush-headingOne">
                 <button class="accordion-button relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left font-bold bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
                   aria-expanded="false" aria-controls="flush-collapseOne">
-                  Why should I enrol my kid in TLN?
+                  How do I apply to become an Affiliate?
                 </button>
               </h2>
-              <div id="flush-collapseOne" class="accordion-collapse border-0 collapse show"
+              <div id="flush-collapseOne" class="accordion-collapse collapse show"
                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body py-4 px-5">TLN offers one-on-one batches. We give special attention to all our students. We have hired expert teachers for all our batches. We teach all aspects of language learning while focusing on the spoken part. Our English language course for kids covers grammar and vocabulary, speaking, reading, writing, and listening.</div>
+                <div class="accordion-body py-4 px-5">Visit our page, click on the “Become Affiliate” button and follow the steps as explained there.</div>
               </div>
             </div>
-            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
               <h2 class="accordion-header mb-0" id="flush-headingTwo">
                 <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
                   aria-expanded="false" aria-controls="flush-collapseTwo">
-                  What makes TLN different from other language learning institutes?
+                  Why should I join Language Network Affiliate Marketing?
                 </button>
               </h2>
               <div id="flush-collapseTwo" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingTwo"
                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body py-4 px-5">We only have one-on-one batches. We prepare our students for international exams. We have hand-tailored study plans to meet each student’s learning needs. Our English language course for kids also covers the English culture which tremendously helps language learning.</div>
+                <div class="accordion-body py-4 px-5">There is much to gain from our affiliate program! You get a commission from every person who joins our program on your recommendation, you learn how to generate leads and how to persuade people in lieu of getting sales.</div>
               </div>
             </div>
-            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
               <h2 class="accordion-header mb-0" id="flush-headingThree">
                 <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
                   aria-expanded="false" aria-controls="flush-collapseThree">
-                  What is the duration of each class?
+                  Do I need any qualifications to become a Language Network Affiliate Marketer?
                 </button>
               </h2>
               <div id="flush-collapseThree" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingThree"
                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body py-4 px-5">The duration of each English language course for kids is 1 hour. It is perfect for their attention spans.
+                <div class="accordion-body py-4 px-5">No, you do not need any particular qualifications to become an affiliate with us.
                 </div>
               </div>
             </div>
-            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
               <h2 class="accordion-header mb-0" id="flush-headingFour">
                 <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
                   aria-expanded="false" aria-controls="flush-collapseFour">
-                  What are the career opportunities after I learn English?
+                  What does a day as an Affiliate looks like?
                 </button>
               </h2>
               <div id="flush-collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFour"
                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body py-4 px-5">After you learn English from us, you can work as a translator, writer, editor, anchor, etc. There are multiple career opportunities available after you learn the English language.</div>
+                <div class="accordion-body py-4 px-5">A day in the life after joining our affiliate program would mean sending out links which include the specific discount code for a particular launch. Every new launch at the company would mean new link generations, sharing our posters and the link on your social media. You can talk about why that language launch would help potential leads.</div>
               </div>
             </div>
-            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
               <h2 class="accordion-header mb-0" id="flush-headingFive">
                 <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
                   aria-expanded="false" aria-controls="flush-collapseFive">
-                  Can the classes be downloaded?
+                  How do you select a Language Affiliate/ Partner?
                 </button>
               </h2>
               <div id="flush-collapseFive" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFive"
                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body py-4 px-5">Yes, the online classes can be downloaded. We also provide the downloaded classes to our students for a wholesome learning.</div>
+                <div class="accordion-body py-4 px-5">We have no particular requirements for our affiliate program. Prior experience in an affiliate program other than ours is a bonus, but it’s perfectly fine if you are a novice!</div>
               </div>
             </div>
-            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
               <h2 class="accordion-header mb-0" id="flush-headingSix">
                 <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
                   aria-expanded="false" aria-controls="flush-collapseSix">
-                  How many students do we accommodate in one batch?
+                  What other requirements are necessary for a Language Network Affiliate Marketer?
                 </button>
               </h2>
               <div id="flush-collapseSix" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSix"
                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body py-4 px-5">We do not have group batches for kids and adolescents. We only have one-on-one batches for kids. We believe that kids need more specialised attention so our English language course for kids only accommodates one student at a time.</div>
+                <div class="accordion-body py-4 px-5">Apart from a laptop and a stable internet connection, you need a PayPal account to become an Affiliate with us.</div>
               </div>
             </div>
-            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
               <h2 class="accordion-header mb-0" id="flush-headingSeven">
                 <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
                   aria-expanded="false" aria-controls="flush-collapseSeven">
-                  What if I have doubts?
+                  Can I become an Affiliate while working at another job?
                 </button>
               </h2>
               <div id="flush-collapseSeven" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSeven"
                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body py-4 px-5">If you have any doubts, feel free to contact our language experts. They will surely help you with your doubts and issues. </div>
+                <div class="accordion-body py-4 px-5">Yes! You can become an Affiliate with us even while working another job. As long as you are still able to meet our requirements, there should be no issue if you work another job.</div>
               </div>
             </div>
-            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
               <h2 class="accordion-header mb-0" id="flush-headingEight">
                 <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight"
                   aria-expanded="false" aria-controls="flush-collapseEight">
-                  Do you provide study material for enrolled students?
+                  Can I get the work timings according to my convenience?
                 </button>
               </h2>
               <div id="flush-collapseEight" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingEight"
                 data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body py-4 px-5">Yes, we do provide study material to our students. We also have several activities in our English language course for kids. </div>
+                <div class="accordion-body py-4 px-5">Absolutely! You can work according to your time and convenience- as long as you are still getting people to join our program, you may work when you can.</div>
               </div>
             </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingNine">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine"
+                  aria-expanded="false" aria-controls="flush-collapseNine">
+                  How will I know if my application is selected?
+                </button>
+              </h2>
+              <div id="flush-collapseNine" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingNine"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">
+                  Anyone can join our programme! You will get an email from our side about the status of your application, and we will guide you through the rest. If you get accepted, you will be added to the relevant WhatsApp group as well.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingTen">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen"
+                  aria-expanded="false" aria-controls="flush-collapseTen">
+                  Once I become a Language Associate, how will I be contacted?
+                </button>
+              </h2>
+              <div id="flush-collapseTen" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingTen"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">Once you become a part of our program, you will be sent an email with confirmation, and will be added into the relevant Whatsapp groups. All this is, of course, after you fill the form here. </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingEle">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEle"
+                  aria-expanded="false" aria-controls="flush-collapseEle">
+                  Do the people who join through my recommendation also get some benefits?
+                </button>
+              </h2>
+              <div id="flush-collapseEle" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingEle"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">Yes, even the people who join our program using your link get a discount on the program that they have applied for. They will get a discount of 20% on the program of their choice. </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingTwe">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwe"
+                  aria-expanded="false" aria-controls="flush-collapseTwe">
+                  Will it be very difficult to become an Affiliate?
+                </button>
+              </h2>
+              <div id="flush-collapseTwe" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingTwe"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">Not at all! You just need to send in an application, await our email, and after our orientation you are in!</div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingThr">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThr"
+                  aria-expanded="false" aria-controls="flush-collapseThr">
+                  Is there an orientation for Language Affiliate/ Partner?
+                </button>
+              </h2>
+              <div id="flush-collapseThr" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingThr"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">Yes, we will conduct an orientation session to ensure that you are completely sure about how the program takes place.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingFou">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFou"
+                  aria-expanded="false" aria-controls="flush-collapseFou">
+                  How much do I earn for my referrals as an Affiliate?
+                </button>
+              </h2>
+              <div id="flush-collapseFou" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFou"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">For every referral that becomes an actual sale, you get a referral fee equal to 20% of the course sold.</div>
+              </div>
+            </div>
+
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingFiv">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFiv"
+                  aria-expanded="false" aria-controls="flush-collapseFiv">
+                  How will I be paid for getting customers?
+                </button>
+              </h2>
+              <div id="flush-collapseFiv" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFiv"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">For every customer that you bring in, you will get a commission of 20% of the total course fee they enroll in. You will be paid every 20 days and sales made after the same will be pushed forward to the payout. </div>
+              </div>
+            </div>
+
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingSit">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSit"
+                  aria-expanded="false" aria-controls="flush-collapseSit">
+                  How will I receive details about my performance?
+                </button>
+              </h2>
+              <div id="flush-collapseSit" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSit"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">Once you become a part of our program, you will be given your login credentials. This will lead to your Easy Affiliate dashboard. This dashboard has all the details from lead status, to payment status, to daily performance.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingSev">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSev"
+                  aria-expanded="false" aria-controls="flush-collapseSev">
+                  Will I be trained after the selection?
+                </button>
+              </h2>
+              <div id="flush-collapseSev" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSev"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">Yes, we will have a training session for you that will teach you how to generate links, check your payment, and how to go about the program in detail.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingEig">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEig"
+                  aria-expanded="false" aria-controls="flush-collapseEig">
+                  Do I have to explain the program in detail to make the sale?
+                </button>
+              </h2>
+              <div id="flush-collapseEig" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingEig"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">No, you don’t have to explain the program in detail to make sales.
+                  All you have to do is tell your clients why you love the program, and ensure they click on your link. Following this, our sales team will get in touch with them and do the rest.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingNin">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNin"
+                  aria-expanded="false" aria-controls="flush-collapseNin">
+                  How will I receive my earnings ?
+                </button>
+              </h2>
+              <div id="flush-collapseNin" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingNin"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">You will receive your earnings every 20 days. The earnings for all the following sales will be carried over to the next payment. A PayPal account needs to be set up for smooth transfer of your earnings.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-headingTe">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTe"
+                  aria-expanded="false" aria-controls="flush-collapseTe">
+                  How much money can I earn ?
+                </button>
+              </h2>
+              <div id="flush-collapseTe" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingTe"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">There is no limit on the amount of money you can earn. You will earn as little and as much as you are able to- it’s all on you</div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-heading20">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse20"
+                  aria-expanded="false" aria-controls="flush-collapse20">
+                  Where can I share my link ?
+                </button>
+              </h2>
+              <div id="flush-collapse20" class="accordion-collapse border-0 collapse" aria-labelledby="flush-heading20"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">You can share your link with all people in your networks. This includes social media and other media that may help increase outreach.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-heading21">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse21"
+                  aria-expanded="false" aria-controls="flush-collapse21">
+                  How many people can use my code?
+                </button>
+              </h2>
+              <div id="flush-collapse21" class="accordion-collapse border-0 collapse" aria-labelledby="flush-heading21"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">Any number of people who can use your code. It all depends on your ability to bring in more people who are genuinely interested.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-heading22">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse22"
+                  aria-expanded="false" aria-controls="flush-collapse22">
+                  How do I set my preferred payment option?
+                </button>
+              </h2>
+              <div id="flush-collapse22" class="accordion-collapse border-0 collapse" aria-labelledby="flush-heading22"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">We are currently offering payment on Paypal and you need to have an account to become an Affiliate with us.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white  ">
+              <h2 class="accordion-header mb-0" id="flush-heading23">
+                <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse23"
+                  aria-expanded="false" aria-controls="flush-collapse23">
+                  What happens if I don’t update my account details before a payment cycle?
+                </button>
+              </h2>
+              <div id="flush-collapse23" class="accordion-collapse border-0 collapse" aria-labelledby="flush-heading23"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body py-4 px-5">If you fail to update your account details before a payment cycle, your earnings will carry forward to the next payment cycle. This will keep happening till you add your account details.Kindly do not delay this process and ensure your details are added in the beginning itself.</div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
       <div>
-        <h1 className="text-center text-2xl font-medium mt-20 mb-4">Still got questions?</h1>
+        <h1 className="text-center text-2xl font-semibold mt-20 mb-4">Still got questions?</h1>
         <h1 className="text-center">
           If you have any questions about our affiliate program, you can reach us at
         </h1>
