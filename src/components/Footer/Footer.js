@@ -40,7 +40,6 @@ export default function Footer() {
                                     <div className="footer-social-icon">
                                         <img src="/images/ISO9001-stamp.png" alt="img" />
                                         <img src="/images/Logo2.jpg" alt="img" style={{ paddingLeft: "10px" }} />
-                                        <img src='/images/startupindia.png' alt='img' style={{ width: '37%', paddingTop: '16px', paddingLeft: '10px' }} />
                                     </div>
                                 </div>
                             </div>
