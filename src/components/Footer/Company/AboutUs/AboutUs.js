@@ -147,135 +147,82 @@ export default function AboutUs() {
             <h2 class="accordion-header mb-0" id="flush-headingOne">
               <button class="accordion-button relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left font-bold bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
                 aria-expanded="false" aria-controls="flush-collapseOne">
-                How much time will it take to learn English?
+                What is The Language Network?
               </button>
             </h2>
             <div id="flush-collapseOne" class="accordion-collapse border-0 collapse show"
               aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body py-4 px-5">To learn English, you will need to spend around 1200 hours to achieve an advanced level. There are totally six levels of learning English. The basic levels include A1 and A2. Advanced levels include B1, B2, C1, and C2. C2 is the topmost level of English. After completing C2, you will speak godly English.</div>
+              <div class="accordion-body py-4 px-5">The Language Network is a place to learn and immerse yourself in the world of languages. We are a dynamic institution promoting languages and celebrating cultures.</div>
             </div>
           </div>
-          <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
-            <h2 class="accordion-header mb-0" id="flush-headingTwo">
-              <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
-                aria-expanded="false" aria-controls="flush-collapseTwo">
-                What is the duration of our English language course?
-              </button>
-            </h2>
-            <div id="flush-collapseTwo" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingTwo"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body py-4 px-5">The duration of our courses range from two months to two years. It depends on the level you are taking. Duration for each level is different. We provide all six levels of English.</div>
-            </div>
-          </div>
+          
           <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
             <h2 class="accordion-header mb-0" id="flush-headingThree">
               <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
                 aria-expanded="false" aria-controls="flush-collapseThree">
-                Do I get additional resources with the English language course?
+                What language courses does The Language Network provide?
               </button>
             </h2>
             <div id="flush-collapseThree" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingThree"
               data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body py-4 px-5">Yes, there are additional resources when it comes to our English language course. They include movie screening, podcasts, online grammar activities, translation activities, etc.
+              <div class="accordion-body py-4 px-5">The Language Network provides language courses in French, Spanish, German, English, Mandarin, Japanese, and Korean. We plan to start more courses soon- keep checking our website for more details!
               </div>
             </div>
           </div>
+
           <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
             <h2 class="accordion-header mb-0" id="flush-headingFour">
               <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
                 aria-expanded="false" aria-controls="flush-collapseFour">
-                What are the career opportunities after I learn English?
+               Why should I enroll in TLN's language courses?
               </button>
             </h2>
             <div id="flush-collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFour"
               data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body py-4 px-5">After you learn English from us, you can work as a translator, writer, editor, anchor, etc. There are multiple career opportunities available after you learn the English language.</div>
+              <div class="accordion-body py-4 px-5">Learning foreign languages is an asset at any age. They help you grow in your career and education. The Language Network has the best trainers, curated syllabus, and timing suited to your needs.</div>
             </div>
           </div>
+
           <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
             <h2 class="accordion-header mb-0" id="flush-headingFive">
               <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
                 aria-expanded="false" aria-controls="flush-collapseFive">
-                How can I improve my English?
+                What makes TLN different from other language training schools?
               </button>
             </h2>
             <div id="flush-collapseFive" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFive"
               data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body py-4 px-5">Work on the four aspects of learning English. They include reading, writing, speaking, and listening. If you work on these four aspects, your English will automatically improve. In addition to this, also focus on grammar and vocabulary. Make a list of words that you have learned. Also, make a list of English words that you want to learn.</div>
+              <div class="accordion-body py-4 px-5">The Language Network does more than just teach languages to pass exams. We aim to explore the culture of the language, the history of the language, and teach you how the spoken language differs from the written. Apart from this, we also teach you from the comfort of your home.</div>
             </div>
           </div>
+
           <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
             <h2 class="accordion-header mb-0" id="flush-headingSix">
               <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
                 aria-expanded="false" aria-controls="flush-collapseSix">
-                Which is better among American English and British English?
+                What is the duration of each class?
               </button>
             </h2>
             <div id="flush-collapseSix" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSix"
               data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body py-4 px-5">Both are good. They are almost identical, with slight differences in spellings. Some countries prefer American English. In India, we use British English. Depending on your geographical location, you can pick one of the two variations.</div>
+              <div class="accordion-body py-4 px-5">A typical class lasts for 2 hours, either on weekdays or on weekends depending on your choice of batch. The classes are designed to suit each age group of kids, adolescents, or adults.</div>
             </div>
           </div>
+
           <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
             <h2 class="accordion-header mb-0" id="flush-headingSeven">
               <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
                 aria-expanded="false" aria-controls="flush-collapseSeven">
-                How many students are accommodated in one batch?
+               Can the classes be downloaded?
               </button>
             </h2>
             <div id="flush-collapseSeven" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSeven"
               data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body py-4 px-5">The Language Network offers you the choice to join classes 1:1, duo or in a group. 1:1 or duo offers personal attention, greater understanding, and detailed study of the language. Group classes, on the other hand, offer more interaction, speaking practice, and people to practice the language with. </div>
+              <div class="accordion-body py-4 px-5">For the time being, all classes are conducted on Zoom. Post the classes, the recorded lectures are sent to the students so that they can go through them for revision, doubts, etc.</div>
             </div>
           </div>
-          <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
-            <h2 class="accordion-header mb-0" id="flush-headingEight">
-              <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight"
-                aria-expanded="false" aria-controls="flush-collapseEight">
-                Do you provide study material for enrolled students?
-              </button>
-            </h2>
-            <div id="flush-collapseEight" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingEight"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body py-4 px-5">Yes, we do provide study material to our students. We also have several activities in our English language course for kids. </div>
-            </div>
-          </div>
-          <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
-            <h2 class="accordion-header mb-0" id="flush-headingNine">
-              <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine"
-                aria-expanded="false" aria-controls="flush-collapseNine">
-                How can I book a course with TLN?
-              </button>
-            </h2>
-            <div id="flush-collapseNine" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingNine"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body py-4 px-5">If you wish to book an English language course with The Language Network, register with us here. We have also mentioned the prices of our English language course. </div>
-            </div>
-          </div>
-          <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
-            <h2 class="accordion-header mb-0" id="flush-headingTen">
-              <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen"
-                aria-expanded="false" aria-controls="flush-collapseTen">
-                Can I get class timings according to our convenience?
-              </button>
-            </h2>
-            <div id="flush-collapseTen" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingTen"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body py-4 px-5">Yes, you absolutely can get timings to match your convenience. We offer weekday and weekend batches, so you can choose whichever suits your schedule the best. </div>
-            </div>
-          </div>
-          <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
-            <h2 class="accordion-header mb-0" id="flush-headingEleven">
-              <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven"
-                aria-expanded="false" aria-controls="flush-collapseEleven">
-                What is included in the curriculum?
-              </button>
-            </h2>
-            <div id="flush-collapseEleven" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingEleven"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body py-4 px-5">Our English language course’s curriculum includes Basic greetings, Phonetics, Grammar, Vocabulary, Communication, Cultural knowledge, Social know-how, etc.</div>
-            </div>
-          </div>
+
+
         </div>
       </div>
     </div>

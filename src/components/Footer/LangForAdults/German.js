@@ -321,7 +321,7 @@ export default function AdultsGerman() {
                         <h2 class="accordion-header mb-0" id="flush-headingFive">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
                                 aria-expanded="false" aria-controls="flush-collapseFive">
-                                Can the classes be downloaded?
+                                 How can I improve my German? 
                             </button>
                         </h2>
                         <div id="flush-collapseFive" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFive"
@@ -333,36 +333,63 @@ export default function AdultsGerman() {
                         <h2 class="accordion-header mb-0" id="flush-headingSix">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
                                 aria-expanded="false" aria-controls="flush-collapseSix">
-                                How many students do we accommodate in one batch?
+                                How many students are accommodated in one batch?
                             </button>
                         </h2>
                         <div id="flush-collapseSix" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSix"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">We do not have group batches for kids and adolescents. We only have one-on-one batches for kids. We believe that kids need more specialised attention so our English language course for kids only accommodates one student at a time.</div>
+                            <div class="accordion-body py-4 px-5">You will need to focus on four aspects of learning to improve your German. This includes reading, writing, speaking, and listening. Work on these four aspects and master German in no time. Along with this, it is crucial that you focus on your vocabulary and grammar. Keep a list of learned words.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingSeven">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
                                 aria-expanded="false" aria-controls="flush-collapseSeven">
-                                What if I have doubts?
+                                Do you provide a free demo class? 
                             </button>
                         </h2>
                         <div id="flush-collapseSeven" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSeven"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">If you have any doubts, feel free to contact our language experts. They will surely help you with your doubts and issues. </div>
+                            <div class="accordion-body py-4 px-5">Yes, we do provide a free demo class. in the language of your choice today! </div>
                         </div>
                     </div>
+
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingEight">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight"
                                 aria-expanded="false" aria-controls="flush-collapseEight">
-                                Do you provide study material for enrolled students?
+                                How can I book a course with TLN? 
                             </button>
                         </h2>
                         <div id="flush-collapseEight" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingEight"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">Yes, we do provide study material to our students. We also have several activities in our English language course for kids. </div>
+                            <div class="accordion-body py-4 px-5">If you want to book a German language course with TLN, . We have provided all the details that you will require here.  </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+                        <h2 class="accordion-header mb-0" id="flush-headingNine">
+                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine"
+                                aria-expanded="false" aria-controls="flush-collapseNine">
+                               Can I get class timings according to my convenience? 
+                            </button>
+                        </h2>
+                        <div id="flush-collapseNine" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingNine"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body py-4 px-5">Yes, you can get batches according to your convenience. We have batches on Weekdays as well as Weekends.  </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+                        <h2 class="accordion-header mb-0" id="flush-headingTen">
+                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen"
+                                aria-expanded="false" aria-controls="flush-collapseTen">
+                              What is included in the curriculum? 
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTen" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingTen"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body py-4 px-5">Our basic level curriculum includes Greetings, Introductions, Phonetics, grammar and vocabulary. Our B1 and B2 curriculum includes Culture and social know-how, complex grammar, professional vocabulary, degree of fluency, express opinions, complex grammar structures, etc. </div>
                         </div>
                     </div>
                 </div>

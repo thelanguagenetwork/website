@@ -256,36 +256,36 @@ export default function AdultsMandarin() {
                         <h2 class="accordion-header mb-0" id="flush-headingOne">
                             <button class="accordion-button relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left font-bold bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
                                 aria-expanded="false" aria-controls="flush-collapseOne">
-                                Why should I enrol my kid in TLN?
+                               How much time will it take to learn Mandarin?
                             </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse border-0 collapse show"
                             aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">TLN offers one-on-one batches. We give special attention to all our students. We have hired expert teachers for all our batches. We teach all aspects of language learning while focusing on the spoken part. Our English language course for kids covers grammar and vocabulary, speaking, reading, writing, and listening.</div>
+                            <div class="accordion-body py-4 px-5">If you wish to learn the Mandarin language, you will need around 2200 hours of constant learning. You will need 2 to 3 years to master Mandarin. The more time you put in learning, the better you will learn.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingTwo">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
                                 aria-expanded="false" aria-controls="flush-collapseTwo">
-                                What makes TLN different from other language learning institutes?
+                                What is the duration of our Mandarin language online course? 
                             </button>
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingTwo"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">We only have one-on-one batches. We prepare our students for international exams. We have hand-tailored study plans to meet each student’s learning needs. Our English language course for kids also covers the English culture which tremendously helps language learning.</div>
+                            <div class="accordion-body py-4 px-5">The duration of our Mandarin language course ranges from 2 months to 2 years. This can change depending on the level you are taking. Mandarin language course is divided into 6 levels just like HSK. When you complete 6 levels, you will speak fluent Mandarin. </div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingThree">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
                                 aria-expanded="false" aria-controls="flush-collapseThree">
-                                What is the duration of each class?
+                                Do I get additional resources with the Mandarin language course? 
                             </button>
                         </h2>
                         <div id="flush-collapseThree" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingThree"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">The duration of each English language course for kids is 1 hour. It is perfect for their attention spans.
+                            <div class="accordion-body py-4 px-5">Yes, we provide additional resources with the Mandarin language course. These resources include podcasts, games, movie screenings, online grammar activities, etc.
                             </div>
                         </div>
                     </div>
@@ -293,60 +293,73 @@ export default function AdultsMandarin() {
                         <h2 class="accordion-header mb-0" id="flush-headingFour">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
                                 aria-expanded="false" aria-controls="flush-collapseFour">
-                                What are the career opportunities after I learn English?
+                                What are the career opportunities after I learn the Mandarin language? 
                             </button>
                         </h2>
                         <div id="flush-collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFour"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">After you learn English from us, you can work as a translator, writer, editor, anchor, etc. There are multiple career opportunities available after you learn the English language.</div>
+                            <div class="accordion-body py-4 px-5">There are various career opportunities after you learn Mandarin with us. You can work as a translator, writer, comic creator, editor, etc.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingFive">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
                                 aria-expanded="false" aria-controls="flush-collapseFive">
-                                Can the classes be downloaded?
+                             How can I improve my Mandarin? 
                             </button>
                         </h2>
                         <div id="flush-collapseFive" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFive"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">Yes, the online classes can be downloaded. We also provide the downloaded classes to our students for a wholesome learning.</div>
+                            <div class="accordion-body py-4 px-5">If you wish to learn Mandarin and improve it significantly you will need to focus on 6 facets of language learning. This includes grammar, vocabulary, reading, listening, writing, and speaking. If you master these 6 factors, you will be a master of Mandarin. Mandarin vocabulary is hard to learn in general. </div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingSix">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
                                 aria-expanded="false" aria-controls="flush-collapseSix">
-                                How many students do we accommodate in one batch?
+                                How many students are accommodated in one batch?
                             </button>
                         </h2>
                         <div id="flush-collapseSix" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSix"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">We do not have group batches for kids and adolescents. We only have one-on-one batches for kids. We believe that kids need more specialised attention so our English language course for kids only accommodates one student at a time.</div>
+                            <div class="accordion-body py-4 px-5">We believe in small batches. Our general batch size is 4-6 students. We also have 1:1 batches and 1:2 batches. Due to our small batches, we can focus on every student effectively.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingSeven">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
                                 aria-expanded="false" aria-controls="flush-collapseSeven">
-                                What if I have doubts?
+                                Do you provide a free demo class? 
                             </button>
                         </h2>
                         <div id="flush-collapseSeven" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSeven"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">If you have any doubts, feel free to contact our language experts. They will surely help you with your doubts and issues. </div>
+                            <div class="accordion-body py-4 px-5">Yes, we provide a free demo class. If you wish to sit for the demo class,  </div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingEight">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight"
                                 aria-expanded="false" aria-controls="flush-collapseEight">
-                                Do you provide study material for enrolled students?
+                                How can I book a course with The Language Network? 
                             </button>
                         </h2>
                         <div id="flush-collapseEight" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingEight"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">Yes, we do provide study material to our students. We also have several activities in our English language course for kids. </div>
+                            <div class="accordion-body py-4 px-5">If you wish to join our Korean language course,  you can register with us here. All the details that are necessary for you are provided on this link. You can directly contact our executives and get all the information that you need.   </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+                        <h2 class="accordion-header mb-0" id="flush-headingNine">
+                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine"
+                                aria-expanded="false" aria-controls="flush-collapseNine">
+                             What is included in the Mandarin language course curriculum? 
+                            </button>
+                        </h2>
+                        <div id="flush-collapseNine" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingNine"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body py-4 px-5">Our basic level curriculum includes Grammar, Vocabulary, Phonetics, greetings, and introduction. Higher levels of our Mandarin language offer Communication, Advance grammar, Complex vocabulary, etc. We also cover Cultural knowledge, social know-how, and Complex grammar. </div>
                         </div>
                     </div>
                 </div>
