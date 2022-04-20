@@ -31,7 +31,7 @@ import Contact from './components/Footer/Support/Contact';
 import Press from './components/Footer/Company/Press/Press';
 import TermsAndConditions from './components/Footer/Legal/TermsAndConditions';
 import PrivacyPolicy from './components/Footer/Legal/PrivacyPolicy';
-
+import './components/Home/BookTrial'
 
 function Routing() {
   return (
