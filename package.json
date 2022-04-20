@@ -40,9 +40,6 @@
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.3",
     "swiper": "^7.4.1",
-    "tripetto-runner-autoscroll": "^5.7.1",
-    "tripetto-runner-classic": "^3.7.1",
-    "tripetto-runner-foundation": "^6.3.0",
     "tw-elements": "^1.0.0-alpha11",
     "web-vitals": "^2.1.2"
   },

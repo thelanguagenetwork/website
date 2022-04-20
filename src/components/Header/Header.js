@@ -126,7 +126,7 @@ class Header extends react.Component {
             </a>
 
           </NavMenu>
-          <Trial href='/BookTrial'>
+          <Trial>
             <span>
               Book a trial
             </span>
