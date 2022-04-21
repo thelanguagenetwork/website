@@ -102,7 +102,7 @@ export default function Footer() {
                                         <li><a href="/Aff_prog">Affiliate Program</a></li>
                                     </ul>
                                 </div>
-                                <div className="footer-widget">
+                                {/* <div className="footer-widget">
                                     <div className="footer-widget-heading">
                                         <h3>More</h3>
                                     </div>
@@ -111,7 +111,7 @@ export default function Footer() {
                                         <li><a href="Events">Events</a></li>
                                         <li><a href="/Dictionary">Dictionary</a></li>
                                     </ul>
-                                </div>
+                                </div> */}
 
                             </div>
                         </div>

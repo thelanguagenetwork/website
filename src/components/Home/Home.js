@@ -92,7 +92,7 @@ export default function Home() {
                     <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab] lg:pt-2'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>
                     <h2 className='text-black font-medium text-5xl'>Learn a Language in less than 3 months</h2>
                     <span className='font-medium'>At The Language Network, we help you master a new foreign language of your choice from the comfort of your home.</span>
-                    <div><button type="button" class="btn btn-info text-white" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '16px', paddingRight: '30px', paddingBottom: '16px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Book a trial class</button></div>
+                    <a href='/BookTrial'><button type="button" class="btn btn-info text-white" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '16px', paddingRight: '30px', paddingBottom: '16px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Book a trial class</button></a>
                 </div>
                 <div className='lg:w-6/12 w-full lg:block hidden flex items-center justify-center pl-20'>
                     {/* <Globe3d className='' /> */}
@@ -157,7 +157,7 @@ export default function Home() {
                         "delay": 2500,
                         "disableOnInteraction": false
                     }}
-                    >
+                >
                     <SwiperSlide>
                         <img src="/images/CSI-KJSIEIT-Logo-Final-150x150.png" alt='img' />
                     </SwiperSlide><SwiperSlide>
@@ -331,9 +331,11 @@ export default function Home() {
                     <h1 className='font-bold text-3xl lg:text-4xl'>TRANSFORM YOUR CAREER</h1>
                     <h2 className='text-lg '>Earn Your Certification </h2>
                     <p className='text-lg '>Learn a foreign language as a step to boost your career or improve your CV.</p>
-                    <button class="bg-[#13BFAB] w-56 hover:bg-teal-400 text-white font-bold py-3 px-4 rounded" >
-                        JOIN A COURSE
-                    </button>
+                    <a href="/BookTrial">
+                        <button class="bg-[#13BFAB] w-56 hover:bg-teal-400 text-white font-bold py-3 px-4 rounded" >
+                            JOIN A COURSE
+                        </button>
+                    </a>
                 </div>
                 <div className='flex align-center justify-center py-10 lg:py-28 '>
                     <img src='/images/certificate-mockup.png' alt='img' className='certificate-img lg:pl-14' />
