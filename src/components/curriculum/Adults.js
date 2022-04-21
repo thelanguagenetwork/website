@@ -63,9 +63,11 @@ function Adults() {
                     <p className='text-lg '>Live online language classes for kids, adolscents and adults at The Language Network, pioneering online language schools, with the assistance of professional teachers.</p>
                     <p className='text-lg '>With our professional live online language classes, TLN is the complete solution to perfectly assist kids in their path to fluency.</p>
                     <div>
+                        <a href="/BookTrial">
                         <button class="bg-[#13BFAB] hover:bg-teal-400 text-white font-bold py-3 px-4 rounded w-auto" >
                         JOIN A COURSE
                     </button>
+                        </a>
                         </div>
                 </div>
                 <div className='flex align-center px-10 py-10 lg:px-20 lg:py-20'>

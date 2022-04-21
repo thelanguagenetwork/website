@@ -79,7 +79,7 @@ export default function PricingTable(props) {
                 </div>
             </div>
 
-            <div className='flex flex-col items-center mt-28'>
+            {/* <div className='flex flex-col items-center mt-28'>
                 <div className="Home-container-3 ">
                     <h1>
                         Students at The Language Network
@@ -298,7 +298,7 @@ export default function PricingTable(props) {
 
 
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
