@@ -48,9 +48,9 @@ export default function KidsJapanese() {
             <div className="KidsEnglish h-[70vh]" >
                 <div className="bg-[rgba(0,0,0,0.4)] h-full ">
                     <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
-                        <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>English Classes for Adults</h1>
-                        <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online English classes for adults (14+ years old) with professional teachers.</h1>
-                        <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button>
+                        <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>Japanese Classes for Adults</h1>
+                        <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online Japanese classes for adults (14+ years old) with professional teachers.</h1>
+                        <a href='/BookTrial'> <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button></a>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@ export default function KidsJapanese() {
                     <img src='/images/French-levels@300x-1536x931.png' alt='img' />
                 </div>
             </div>
-            <div className='w-full text-center font-semibold text-3xl lg:text-4xl'>Benefits of Learning English with TLN?</div>
+            <div className='w-full text-center font-semibold text-3xl lg:text-4xl'>Benefits of Learning Japanese with TLN?</div>
             <section class="text-gray-600 body-font">
                 <div class="container px-2 lg:px-5 py-20 mx-auto">
                     <div class="flex flex-wrap -m-4">
