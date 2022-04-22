@@ -4,7 +4,7 @@ export const Mandarin_1_1 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 1',
        // OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice : 13990,
         Link: ""
     },
     {
@@ -12,7 +12,7 @@ export const Mandarin_1_1 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 2',
        // OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice : 15990,
         Link: ""
     },
     {
@@ -20,7 +20,7 @@ export const Mandarin_1_1 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 3',
       //  OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice : 17990,
         Link: ""
     },
     {
@@ -28,33 +28,33 @@ export const Mandarin_1_1 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 4',
       //  OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice : 23990,
         Link: ""
     },
     {
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'A4',
+        lvlName: 'HSK 5',
        // OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice : 26990,
         Link: ""
     },
     {
         language: "Mandarin",
 
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'A4',
+        lvlName: 'HSK 1+2+3',
        // OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice : 38390,
         Link: ""
     },
     {
         language: "Mandarin",
 
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'A4',
+        lvlName: 'HSK 4+5',
         OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice : 45890,
         Link: ""
     }
 ]
@@ -64,62 +64,62 @@ export const Mandarin_1_2 = [
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 1',
-        OgPrice : 444,
-        DiscPrice : 333,
+      //  OgPrice : 444,
+        DiscPrice : 13990,
         Link: ""
     },
     {
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 2',
-        OgPrice : 444,
-        DiscPrice : 333,
+      //  OgPrice : 444,
+        DiscPrice : 15990,
         Link: ""
     },
     {
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 3',
-        OgPrice : 444,
-        DiscPrice : 333,
+      //  OgPrice : 444,
+        DiscPrice : 17990,
         Link: ""
     },
     {
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 4',
-        OgPrice : 444,
-        DiscPrice : 333,
+      //  OgPrice : 444,
+        DiscPrice : 21990,
         Link: ""
     },
     {
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'A2',
-        OgPrice : 444,
-        DiscPrice : 333,
+        lvlName: 'HSK 5',
+        //OgPrice : 444,
+        DiscPrice : 24990,
         Link: ""
     },
     {
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'A3',
-        OgPrice : 444,
-        DiscPrice : 333,
+        lvlName: 'HSK 1+2+3',
+      //  OgPrice : 444,
+        DiscPrice : 33590,
         Link: ""
     },
     {
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: '',
-        OgPrice : 444,
-        DiscPrice : 333,
+        lvlName: 'HSK 4+5',
+      //  OgPrice : 444,
+        DiscPrice : 33590,
         Link: ""
     },
 ]
 
 
-export const Mandarin_1_4 = [
+/*export const Mandarin_1_4 = [
     {
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
@@ -176,4 +176,4 @@ export const Mandarin_1_4 = [
         DiscPrice : 333,
         Link: ""
     },
-]
+]*/
