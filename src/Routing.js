@@ -31,7 +31,10 @@ import Contact from './components/Footer/Support/Contact';
 import Press from './components/Footer/Company/Press/Press';
 import TermsAndConditions from './components/Footer/Legal/TermsAndConditions';
 import PrivacyPolicy from './components/Footer/Legal/PrivacyPolicy';
+
+import Phrase from './components/Footer/PhraseBook/phrase';
 import './components/Home/BookTrial'
+
 
 function Routing() {
   return (
@@ -74,6 +77,8 @@ function Routing() {
 
           {/* More */}
           <Route exact path='/Dictionary' element={<Dict />} />
+          <Route exact path='/phrase' element={<Phrase />} />
+
 
           {/* Legal */}
           <Route exact path='/Terms-And-Conditions' element={<TermsAndConditions />} />
