@@ -189,3 +189,51 @@ ul {
   background-position: center;
   background-color: rgb(0, 0, 0);
 }
+
+.KidsFrench{
+  background-image: url("/public/images/TLN-Kids-French-Banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.KidsSpanish{
+  background-image: url("/public/images/TLN-Kids-Spanish-Banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.KidsGerman{
+  background-image: url("/public/images/TLN-Kids-German-Banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.KidsMandarin{
+  background-image: url("/public/images/TLN-Kids-Mandarin-Banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.KidsJapanese{
+  background-image: url("/public/images/TLN-Kids-Japanese-Banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.KidsKorean{
+  background-image: url("/public/images/TLN-Kids-Korean-Banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 0, 0);
+}
