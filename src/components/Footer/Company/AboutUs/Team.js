@@ -227,7 +227,7 @@ export default function Team() {
                         return (
                             <div class="p-3 lg:w-full ">
                                 <div class="h-[17rem] flex flex-col items-center sm:justify-start justify-center text-left sm:text-left shadow-lg rounded-xl">
-                                    <img alt="team" class="flex-shrink-0 rounded-t-lg w-full h-28 object-cover object-topd sm:mb-0" src={card.pic} />
+                                    <img alt="team" class="flex-shrink-0 rounded-t-lg w-full h-28 object-cover object-top sm:mb-0" src={card.pic} />
                                     <div class="flex-grow px-2">
                                         <h2 class="title-font font-medium text-2xl text-[#f2b919] my-3">{card.name}</h2>
                                         <h3 class="text-gray-500 mb-3">{card.post}</h3>
