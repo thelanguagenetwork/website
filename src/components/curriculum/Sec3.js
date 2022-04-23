@@ -106,9 +106,9 @@ export default function Sec3() {
                 </div>
 
             <div className='w-full flex  justify-center'>
-                <a href="/BookTrial">
+                <a href="/getstarted">
             <button class="bg-[#13BFAB] hover:bg-teal-400 text-white font-bold py-3 px-4 rounded" >
-                Book A Trial Class
+                Get Started
             </button>
                 </a>
             </div>

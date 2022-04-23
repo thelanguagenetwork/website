@@ -2,7 +2,7 @@ import { run } from "tripetto-runner-autoscroll";
 import { Export } from "tripetto-runner-foundation";
 
 let doc = 1;
-if (window.location.pathname === '/BookTrial') {
+if (window.location.pathname === '/getstarted') {
     doc = document.body;
 }
 else {

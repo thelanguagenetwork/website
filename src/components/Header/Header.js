@@ -91,7 +91,8 @@ class Header extends react.Component {
                   <a href='/KidsCourses'>KIDS COURSES</a>
                 </ul>
               </div>
-              <li>Book a trail</li>
+              <a href='/getstarted'>
+              <li>Get Started</li></a>
             </Lists>
           </Sidemenu>
           <Logo href='/'>
@@ -126,9 +127,9 @@ class Header extends react.Component {
             </a>
 
           </NavMenu>
-          <Trial href='/BookTrial'>
+          <Trial href='/getstarted'>
             <span>
-              Book a trial
+              Get Started
             </span>
 
           </Trial>
