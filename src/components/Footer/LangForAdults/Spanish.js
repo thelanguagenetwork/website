@@ -39,13 +39,13 @@ export default function AdultsSpanish() {
                 <div className="bg-[rgba(0,0,0,0.4)] h-full ">
                     <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
                         <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>Spanish Classes for Adults</h1>
-                        <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online English classes for adults (14+ years old) with professional teachers.</h1>
-                        <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button>
+                        <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online Spanish classes for adults (14+ years old) with professional teachers.</h1>
+                        <a href="/getstarted"><button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#13BFAB] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button></a>
                     </div>
                 </div>
             </div>
             <div className="pt-10 px-10 lg:px28 lg:flex flex-row items-center">
-                <div className='lg:w-1/2'>
+                <div className='lg:w-1/2 lg:px-20'>
                     <h2 className='font-semibold text-2xl lg:text-4xl'>Learn Spanish Online with The Language Network</h2>
                     <p className='text-sm text-[#54595f] my-3'>Learn Spanish online with The Language Network’s Spanish language course. TLN offers Spanish language courses for all age groups. We offer Spanish language courses for beginners, as well as advanced level language learners. </p>
                     <p className='text-sm text-[#54595f] my-3'>Learn Spanish with The Language Network and master the Spanish language. Our Spanish language courses are hand-tailored to meet every student’s learning need. Now learn Spanish from within the comforts of your own home.</p>
@@ -141,7 +141,7 @@ export default function AdultsSpanish() {
             </div>
 
             <div className='pt-20 w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>TLN and International Exams</div>
-            <p className='text-center w-full px-10 lg:px-60 pt-4 text-sm text-[#54595f]'> We want our students to excel in international exams like TOEFL and IELTS. We teach our students how to learn English in a way that will help them ace these standardised tests. All aspects of the test, including pronunciation, vocabulary, listening part, is being taken care of at TLN. We ensure that once you learn something you won’t forget it.</p>
+            <p className='text-center w-full px-10 lg:px-60 pt-4 text-sm text-[#54595f]'> We want our students to excel in international exams like TOEFL and IELTS. We teach our students how to learn Spanish in a way that will help them ace these standardised tests. All aspects of the test, including pronunciation, vocabulary, listening part, is being taken care of at TLN. We ensure that once you learn something you won’t forget it.</p>
             <div className='w-full lg:px-24 flex flex-col lg:flex-row'>
                 <div className='group w-full lg:w-1/2 flex flex-col items-center my-10'>
                     <img src="/images/exam-siele-300x159.jpg" alt="img" className='w-36' />
@@ -257,7 +257,12 @@ export default function AdultsSpanish() {
                 </div>
             </section>
 
-            <p className='w-full pb-20 text-center font-bold text-4xl underline underline-offset-8'>Frequently asked questions</p>
+           
+            <p className='w-full  text-center font-bold text-4xl pb-3'>Frequently asked questions</p>
+
+            <div className="flex flex-col items-center justify-center pb-20">
+            <hr class="flex flex-col justify-center align-center text-center border-[#FFC000] border-2 w-1/5 self-center items-center"></hr>
+            </div>
 
 
             <div className='w-full px-10 lg:px-28'>

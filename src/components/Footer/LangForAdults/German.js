@@ -39,13 +39,13 @@ export default function AdultsGerman() {
                 <div className="bg-[rgba(0,0,0,0.4)] h-full ">
                     <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
                         <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>German Classes for Adults</h1>
-                        <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online English classes for adults (14+ years old) with professional teachers.</h1>
-                        <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button>
+                        <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online German classes for adults (14+ years old) with professional teachers.</h1>
+                        <a href="/getstarted"><button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#13BFAB] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button></a>
                     </div>
                 </div>
             </div>
             <div className="pt-10 px-10 lg:px28 lg:flex flex-row items-center">
-                <div className='lg:w-1/2'>
+                <div className='lg:w-1/2 lg:px-20'>
                     <h2 className='font-semibold text-2xl lg:text-4xl'>Learn German Online With The Language Network</h2>
                     <p className='text-sm text-[#54595f] my-3'>Learn German online with TLN’s German language course. The Language Network provides courses for Beginner, Intermediate, and Advance level language learners. Our German language course covers everything from grammar to pronunciation. </p>
                     <p className='text-sm text-[#54595f] my-3'>Learn German with TLN and become a master of German language. Our German language course is hand tailored to meet every students learning need.</p>
@@ -263,7 +263,13 @@ export default function AdultsGerman() {
                 </div>
             </section>
 
-            <p className='w-full pb-20 text-center font-bold text-4xl underline underline-offset-8'>Frequently asked questions</p>
+          
+            <p className='w-full  text-center font-bold text-4xl pb-3'>Frequently asked questions</p>
+
+            <div className="flex flex-col items-center justify-center pb-20">
+            <hr class="flex flex-col justify-center align-center text-center border-[#FFC000] border-2 w-1/5 self-center items-center"></hr>
+            </div>
+
 
 
             <div className='w-full px-10 lg:px-28'>
