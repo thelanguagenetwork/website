@@ -75,7 +75,7 @@ export default function KidsEnglish() {
                 <div class="container px-2 lg:px-5 py-20 mx-auto">
                     <div class="flex flex-wrap -m-4 px-20">
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
+                            <div class="border border-gray-200 p-6 rounded-lg h-56">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-yellow-300 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
@@ -84,7 +84,7 @@ export default function KidsEnglish() {
                             </div>
                         </div>
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
+                            <div class="border border-gray-200 p-6 rounded-lg h-56">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-yellow-300 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
@@ -93,7 +93,7 @@ export default function KidsEnglish() {
                             </div>
                         </div>
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
+                            <div class="border border-gray-200 p-6 rounded-lg h-56">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-yellow-300 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
@@ -102,7 +102,7 @@ export default function KidsEnglish() {
                             </div>
                         </div>
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
+                            <div class="border border-gray-200 p-6 rounded-lg h-56">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-yellow-300 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
@@ -111,7 +111,7 @@ export default function KidsEnglish() {
                             </div>
                         </div>
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
+                            <div class="border border-gray-200 p-6 rounded-lg h-56">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-yellow-300 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
@@ -120,7 +120,7 @@ export default function KidsEnglish() {
                             </div>
                         </div>
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
+                            <div class="border border-gray-200 p-6 rounded-lg h-56">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-yellow-300 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>

@@ -77,59 +77,43 @@ export default function KidsSpanish() {
                 <div class="container px-2 lg:px-5 py-20 mx-auto">
                     <div class="flex flex-wrap -m-4">
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
+                            <div class="border border-gray-200 p-6 rounded-lg h-56">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Language Immersion</h2>
-                                <p class="leading-relaxed text-base">Now immerse your child in the world of knowledge with our Spanish language course for kids. Practice Spanish with our language experts and receive lots of positive benefits.</p>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Small Batches</h2>
+                                <p class="leading-relaxed text-base">Enjoy small 1:2 or group batches so you can practice, improve and get instant feedback</p>
                             </div>
                         </div>
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
+                            <div class="border border-gray-200 p-6 rounded-lg h-56">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Experienced Teachers</h2>
-                                <p class="leading-relaxed text-base">We have hired a team of experienced professionals to teach our students. Now learn only from the best and become a master of the Spanish language.</p>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">
+                                    Flexible Timings</h2>
+                                <p class="leading-relaxed text-base">Take online lessons at the time that suits you; learn in the morning or evening, weekday or weekend.</p>
                             </div>
                         </div>
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
+                            <div class="border border-gray-200 p-6 rounded-lg h-56">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Simple to Complex Learning Curve</h2>
-                                <p class="leading-relaxed text-base">Our Spanish language course for kids start from simple Spanish and then covers complex aspects of the language. We understand the learning needs of our students and teach them accordingly.</p>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Monitor your Child's Progress</h2>
+                                <p class="leading-relaxed text-base">By creating an account, the parent can easily monitor his/her child’s scheduled French lessons, assignments, and progress, so to keep on track!</p>
                             </div>
                         </div>
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
+                            <div class="border border-gray-200 p-6 rounded-lg h-56">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Classes from Home</h2>
-                                <p class="leading-relaxed text-base">The Language Network is an online language school. You do not need to waste your time and money to learn Spanish now. Join TLN and learn from within the comforts of your own home.</p>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Learn from the best</h2>
+                                <p class="leading-relaxed text-base">Qualified, expert teachers leading your class.</p>
                             </div>
                         </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Age-appropriate program</h2>
-                                <p class="leading-relaxed text-base">Our Spanish courses for kids are hand-tailored to meet the learning needs of children. Our courses are age-appropriate and focus on all aspects of language learning in an easy and understandable way.</p>
-                            </div>
-                        </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">European Standard of Education</h2>
-                                <p class="leading-relaxed text-base">We have created our courses by carefully considering the European standards of education. We also teach our students how to crack international language exams.</p>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </section>
@@ -243,7 +227,7 @@ export default function KidsSpanish() {
             <div className='pt-20 w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>TLN and International Exams</div>
             <p className='text-center w-full px-10 lg:px-60 pt-4 text-sm text-[#54595f]'> We want our students to excel in international exams like TOEFL and IELTS. We teach our students how to learn Spanish in a way that will help them ace these standardised tests. All aspects of the test, including pronunciation, vocabulary, listening part, is being taken care of at TLN. We ensure that once you learn something you won’t forget it.</p>
             <div className='px-3 group w-full flex flex-col items-center my-10'>
-                <img src="/images/international-exam-6.jpg" alt="img" className='w-60' />
+                <img src="/images/international-exam-6.jpg" alt="img" className='w-48' />
                 <div className='px-10 shadow-xl text-center lg:w-2/3 p-4'>
                     <h3 className='text-lg font-bold pb-3 group-hover:text-amber-400 ease-in duration-300'>Dele</h3>
                     <p className='text-sm text-[#54595f]'>DELF (Diplôme d’études en langue française) is the certified diploma of French language awarded by the French Ministry of National Education and is recognized worldwide. It allows validating and certifying for French language abilities. The DELF Prim is perfectly fit for children between 6 and 9 years old. It tests the French Language proficiency of your child to valorize his/her ability in French.</p>
@@ -372,18 +356,6 @@ export default function KidsSpanish() {
                             data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body py-4 px-5">The duration of each Spanish language course for kids is 1 hour. It is perfect for their attention spans.
                             </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
-                        <h2 class="accordion-header mb-0" id="flush-headingFour">
-                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
-                                aria-expanded="false" aria-controls="flush-collapseFour">
-                                What are the career opportunities after I learn Spanish?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFour"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">After you learn Spanish from us, you can work as a translator, writer, editor, anchor, etc. There are multiple career opportunities available after you learn the Spanish language.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">

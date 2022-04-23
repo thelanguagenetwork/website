@@ -45,23 +45,20 @@ export default function KidsJapanese() {
                     <img src="/images/TLN_Japanese-elements.png" alt="img" />
                 </div>
             </div>
-            <div className="KidsEnglish h-[70vh]" >
+            <div className="KidsJapanese h-[70vh]" >
                 <div className="bg-[rgba(0,0,0,0.4)] h-full ">
                     <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
 
-                        <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>English Classes for Adults</h1>
-                        <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online Japanese classes for adults (14+ years old) with professional teachers.</h1>
-                        <a href="/BookTrial"><button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button></a>
-
                         <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>Japanese Classes for Adults</h1>
                         <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online Japanese classes for adults (14+ years old) with professional teachers.</h1>
-                        <a href='/BookTrial'> <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button></a>
+                        <a href="/getstarted"><button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button></a>
 
+                       
                     </div>
                 </div>
             </div>
 
-            <div className="my-20 lg:flex flex-row">
+            <div className="my-20 lg:flex flex-row items-center">
                 <div className='space-y-2 px-10 lg:px-20'>
                     <h1 className="font-bold text-3xl lg:text-4xl">Japanese Language Levels for Kids</h1>
                     <p className='text-sm text-[#54595f]'>All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.</p>
@@ -366,18 +363,6 @@ export default function KidsJapanese() {
                             data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body py-4 px-5">The duration of each Japanese language course for kids is 1 hour. It is perfect for their attention spans.
                             </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
-                        <h2 class="accordion-header mb-0" id="flush-headingFour">
-                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
-                                aria-expanded="false" aria-controls="flush-collapseFour">
-                                What are the career opportunities after I learn Japanese?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFour"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">After you learn Japanese from us, you can work as a translator, writer, editor, anchor, etc. There are multiple career opportunities available after you learn the Japanese language.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
