@@ -40,12 +40,12 @@ export default function AdultsKorean() {
                     <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
                         <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>Korean Classes for Adults</h1>
                         <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online Korean classes for adults (14+ years old) with professional teachers.</h1>
-                        <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button>
+                        <a href="/getstarted"><button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#13BFAB] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button></a>
                     </div>
                 </div>
             </div>
             <div className="pt-10 px-10 lg:px28 lg:flex flex-row items-center">
-                <div className='lg:w-1/2'>
+                <div className='lg:w-1/2 lg:px-20'>
                     <h2 className='font-semibold text-2xl lg:text-4xl'>Learn Korean Online with The Language Network</h2>
                     <p className='text-sm text-[#54595f] my-3'>Learn Korean Online with TLN’s Korean language course. TLN has language courses for all age groups. We offer Korean courses online for beginners and advance level language learners. Our Korean language course covers all aspects of language learning.  </p>
                     <p className='text-sm text-[#54595f] my-3'  >Enrol your child in our Korean language course and give them a head start. Learning a second language will help your child in his career. There is no greater feeling than to see your child get confident in their life.</p>
@@ -248,7 +248,12 @@ export default function AdultsKorean() {
                 </div>
             </section>
 
-            <p className='w-full pb-20 text-center font-bold text-4xl underline underline-offset-8'>Frequently asked questions</p>
+      
+            <p className='w-full  text-center font-bold text-4xl pb-3'>Frequently asked questions</p>
+
+            <div className="flex flex-col items-center justify-center pb-20">
+            <hr class="flex flex-col justify-center align-center text-center border-[#FFC000] border-2 w-1/5 self-center items-center"></hr>
+            </div>
 
 
             <div className='w-full px-10 lg:px-28'>
@@ -274,7 +279,7 @@ export default function AdultsKorean() {
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingTwo"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">The duration of our courses range from two months to two years. It depends on the level you are taking. Duration for each level is different. We provide all six levels of English.
+                            <div class="accordion-body py-4 px-5">The duration of our courses range from two months to two years. It depends on the level you are taking. Duration for each level is different. We provide all six levels of Korean.
 
 </div>
                         </div>

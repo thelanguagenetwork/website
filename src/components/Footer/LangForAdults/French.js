@@ -40,12 +40,12 @@ export default function AdultsFrench() {
                     <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
                         <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>French Classes for Adults</h1>
                         <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online French classes for adults (14+ years old) with professional teachers.</h1>
-                        <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#13BFAB] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button>
+                        <a href="/getstarted"><button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#13BFAB] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button></a>
                     </div>
                 </div>
             </div>
             <div className="pt-10 px-20 lg:px28 lg:flex flex-row items-center">
-                <div className='lg:w-1/2'>
+                <div className='lg:w-1/2 lg:px-20'>
                     <h2 className='font-semibold text-2xl lg:text-4xl'>Learn French Online With TLN</h2>
                     <p className='text-sm text-[#54595f] my-3'>Learn French with The Language Network’s Online French class in India. TLN provides courses for French beginners as well as advanced learners. Our French language course covers everything from grammar to pronunciation.</p>
                     <p className='text-sm text-[#54595f] my-3'>Now learn French with The Language Network and become fluent in French. Our French language courses are created to meet the learning needs of our students.</p>
@@ -127,7 +127,7 @@ export default function AdultsFrench() {
                 </div>
             </div>
 
-            <div className='w-full my-20 text-center text-3xl lg:text-4xl font-medium '>How to learn English effectively?</div>
+            <div className='w-full my-20 text-center text-3xl lg:text-4xl font-medium '>How to learn French effectively?</div>
             <div className='flex flex-col lg:flex-row'>
                 <div className='pl-10 w-3/4 lg:w-[60rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
@@ -307,7 +307,7 @@ export default function AdultsFrench() {
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse border-0 collapse show"
                             aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">According to our estimates, an average English speaker would take around 700 hours to become proficient in French. There are 6 levels of French. These levels include A1, A2, B1, B2, C1, and C2. A1 and A2 are the basic levels of French. On the other hand, C1 and C2 are the advanced levels of French.</div>
+                            <div class="accordion-body py-4 px-5">According to our estimates, an average French speaker would take around 700 hours to become proficient in French. There are 6 levels of French. These levels include A1, A2, B1, B2, C1, and C2. A1 and A2 are the basic levels of French. On the other hand, C1 and C2 are the advanced levels of French.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
