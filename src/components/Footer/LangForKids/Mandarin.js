@@ -38,19 +38,19 @@ export default function KidsMandarin() {
             <div className="h-[100vh] pt-10 lg:pt-0 px-10 lg:px28 lg:flex flex-row items-center">
                 <div className='lg:w-1/2 lg:pl-10'>
                     <h2 className='font-semibold text-2xl lg:text-4xl'>Levels of Language Learning for Kids and Adolescents</h2>
-                    <p className='text-sm text-[#54595f] my-3'>At The Language Network, we believe in holistic learning. Our Mandarin language course for kids covers all the 10 Grades. Learning Mandarin at an early age will be extremely beneficial for kids of all ages ranging from 6 years to 14 years.</p>
-                    <p className='text-sm text-[#54595f] my-3'  >Enrol your child in our Mandarin language course and keep your child ahead of his peers. There is no better feeling than seeing your child get confident in his day to day life.</p>
+                    <p className='text-sm text-[#54595f] my-3'>At The Language Network, we consider learning as the most important activity. Our Mandarin language course for kids covers all the 10 grades. Language learning can start from a very early age. Enrol your child in our Mandarin language course for kids and give your child a head start. </p>
+                    <p className='text-sm text-[#54595f] my-3'  >Learning Mandarin as a second language will keep your child ahead of his peers. It will also benefit your child a lot in their career. There is no better feeling than seeing your child progress in their life.</p>
                 </div>
                 <div className='lg:w-1/2'>
                     <img src="/images/TLN_Mandarin-elements.png" alt="img" />
                 </div>
             </div>
-            <div className="KidsEnglish h-[70vh]" >
+            <div className="KidsMandarin h-[70vh]" >
                 <div className="bg-[rgba(0,0,0,0.4)] h-full ">
                     <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
                         <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>Mandarin Classes for Adults</h1>
                         <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online Mandarin classes for adults (14+ years old) with professional teachers.</h1>
-                        <a href="/BookTrial"> <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button></a>
+                        <a href="/getstarted"> <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button></a>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@ export default function KidsMandarin() {
                 <div class="container px-2 lg:px-5 py-20 mx-auto">
                     <div class="flex flex-wrap -m-4">
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
+                            <div class="border border-gray-200 p-6 rounded-lg h-60">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
@@ -83,7 +83,7 @@ export default function KidsMandarin() {
                             </div>
                         </div>
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
+                            <div class="border border-gray-200 p-6 rounded-lg h-60">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
@@ -92,7 +92,7 @@ export default function KidsMandarin() {
                             </div>
                         </div>
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
+                            <div class="border border-gray-200 p-6 rounded-lg h-60">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
@@ -101,7 +101,7 @@ export default function KidsMandarin() {
                             </div>
                         </div>
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
+                            <div class="border border-gray-200 p-6 rounded-lg h-60">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
@@ -110,7 +110,7 @@ export default function KidsMandarin() {
                             </div>
                         </div>
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
+                            <div class="border border-gray-200 p-6 rounded-lg h-60">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
@@ -119,7 +119,7 @@ export default function KidsMandarin() {
                             </div>
                         </div>
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
+                            <div class="border border-gray-200 p-6 rounded-lg h-60">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
@@ -227,7 +227,7 @@ export default function KidsMandarin() {
                 </div>
             </div>
 
-            <div className='flex flex-col items-center '>
+            <div className='flex flex-col items-center mt-28'>
                 <div className="Home-container-3 ">
                     <h1>
                         Students at The Language Network
@@ -350,18 +350,6 @@ export default function KidsMandarin() {
                             data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body py-4 px-5">The duration of each Mandarin language course for kids is 1 hour. It is perfect for their attention spans.
                             </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
-                        <h2 class="accordion-header mb-0" id="flush-headingFour">
-                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
-                                aria-expanded="false" aria-controls="flush-collapseFour">
-                                What are the career opportunities after I learn Mandarin?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFour"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">After you learn Mandarin from us, you can work as a translator, writer, editor, anchor, etc. There are multiple career opportunities available after you learn the Mandarin language.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
