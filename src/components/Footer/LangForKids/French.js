@@ -38,19 +38,19 @@ export default function KidsFrench() {
             <div className="h-[100vh] pt-10 lg:pt-0 px-10 lg:px28 lg:flex flex-row items-center">
                 <div className='lg:w-1/2 lg:px-10'>
                     <h2 className='font-semibold text-2xl lg:text-4xl'>Levels of Language Learning for Kids and Adolescents</h2>
-                    <p className='text-sm text-[#54595f] my-3'>At The Language Network, we believe in holistic learning. Our French language course for kids covers all the 10 Grades. Learning French at an early age will be extremely beneficial for kids of all ages ranging from 6 years to 14 years.</p>
-                    <p className='text-sm text-[#54595f] my-3'  >Enrol your child in our French language course and keep your child ahead of his peers. There is no better feeling than seeing your child get confident in his day to day life.</p>
+                    <p className='text-sm text-[#54595f] my-3'>At The Language Network, we believe that learning is of utmost importance. Our French language course covers all the 10 grades. Language Learning can start from the age of 6 years. </p>
+                    <p className='text-sm text-[#54595f] my-3's>Enrol your child in our French course for Kids and give your child a headstart. Learning a second language will keep your child ahead of his peers. It will help your child in his career. There is no greater feeling than seeing your child get confident in their life. </p>
                 </div>
                 <div className='lg:w-1/2'>
                     <img src="/images/TLN_French-elements.png" alt="img" />
                 </div>
             </div>
-            <div className="KidsEnglish h-[70vh]" >
+            <div className="KidsFrench h-[70vh]" >
                 <div className="bg-[rgba(0,0,0,0.4)] h-full ">
                     <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
                         <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>French Language Levels for Kids</h1>
                         <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online French classes for kids (6-9 years old) with professional teachers.</h1>
-                        <a href="/BookTrial"><button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button></a>
+                        <a href="/getstarted"><button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button></a>
                     </div>
                 </div>
             </div>
@@ -145,13 +145,13 @@ export default function KidsFrench() {
                     <p className='text-sm text-gray-700'>You can monitor your child’s progress with our French language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
                 </div>
                 <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-24@300x.png" alt="alt" className='p-8' />
+                    <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
                     <p className='text-sm text-gray-700'>
                         Our curriculum is created by carefully integrating all aspects of language learning. Our Learn French for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
                 </div>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
+                    <img src="/images/expert.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Learn from experts</h3>
                     <p className='text-sm text-gray-700'>
                         After an extensive hiring process, we have carefully handpicked language experts, who are efficient in teaching kids and adolescents. Leave your children with our French language experts and expect nothing but better results.  </p>
@@ -364,18 +364,6 @@ export default function KidsFrench() {
                             data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body py-4 px-5">The duration of each French language course for kids is 1 hour. It is perfect for their attention spans.
                             </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
-                        <h2 class="accordion-header mb-0" id="flush-headingFour">
-                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
-                                aria-expanded="false" aria-controls="flush-collapseFour">
-                                What are the career opportunities after I learn French?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFour"
-                            data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">After you learn French from us, you can work as a translator, writer, editor, anchor, etc. There are multiple career opportunities available after you learn the French language.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
