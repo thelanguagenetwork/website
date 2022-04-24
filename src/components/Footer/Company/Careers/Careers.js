@@ -1,5 +1,6 @@
-import React from 'react'
-import { FaBullhorn, FaEdit, FaPen, FaUserCog, FaUserGraduate, FaUserTie } from 'react-icons/fa'
+import React from 'react';
+import { FaBullhorn, FaEdit, FaPen, FaUserCog, FaUserGraduate, FaUserTie } from 'react-icons/fa';
+import gif from './animation_640_l2cy04nj.gif';
 
 export default function Careers() {
   return (
@@ -13,11 +14,11 @@ export default function Careers() {
           </div>
         </div>
       </div>
-      
+
       <section class="text-gray-600 body-font">
-        <div class="container  py-24 mx-auto flex flex-wrap">
-          <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-2/3 sm:w-2/3 content-start sm:pr-10">
-            <div class="w-full sm:p-4 px-4 mb-6">
+        <div class="container py-24 mx-auto flex flex-wrap">
+          <div class="flex flex-wrap  mt-auto mb-auto lg:w-7/12 sm:w-2/3 content-start">
+            <div class="w-full mb-6">
               <h1 class="title-font font-bold text-4xl lg:text-6xl mb-2 text-black">Let's say <div class="scroller2">
                 <span className='bg-[#13bfab] px-3 text-white text-center'>
                   Salut<br />
@@ -26,11 +27,11 @@ export default function Careers() {
                   Ciao
                 </span>
               </div>to new opportunities!</h1>
-              <div class="leading-relaxed font-bold text-md lg:text-lg">We believe there’s always more to do, to try, and to achieve. Come be a part of “The Language Network”.</div>
+              <div class="leading-relaxed font-bold text-md mt-5 text-black lg:text-lg">We believe there’s always more to do, to try, and to achieve. Come be a part of <i>“The Language Network”.</i></div>
             </div>
           </div>
-          <div class="lg:w-4/12 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-            <img class="object-cover object-center w-full h-full" src="https://dummyimage.com/600x300" alt="stats" />
+          <div class="lg:w-5/12 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+          <img src={gif} alt="Computer man" />        
           </div>
         </div>
       </section>
