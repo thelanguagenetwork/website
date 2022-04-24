@@ -91,7 +91,7 @@ export default function Home() {
                 <div className='w-full lg:w-5/12 flex flex-col space-y-6'>
                     <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab] lg:pt-2'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>
                     <h2 className='text-black font-medium text-5xl'>Learn a Language in less than 3 months</h2>
-                    <span className='font-medium'>At The Language Network, we help you master a new foreign language of your choice from the comfort of your home.</span>
+                    <span className='font-medium '>At The Language Network, we help you master a new foreign language of your choice from the comfort of your home.</span>
                     <a href='/getstarted'><button type="button" class="btn btn-info text-white" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '16px', paddingRight: '30px', paddingBottom: '16px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Get Started</button></a>
                 </div>
                 <div className='lg:w-6/12 w-full lg:block hidden flex items-center justify-center pl-20'>
@@ -139,7 +139,7 @@ export default function Home() {
             </div>
 
             <div className="Home-container-61  lg:px-40 mt-10 lg:mt-64">
-                <h3 className='w-full text-center font-semibold text-4xl'>Our Education Partners</h3>
+                <h3 className='w-full text-center font-semibold text-3xl lg:text-4xl'>Our Education Partners</h3>
 
                 <Swiper className='pagi1' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
                     breakpoints={{
@@ -197,9 +197,9 @@ export default function Home() {
             </div>
 
             <div className="Home-container-3  mt-4">
-                <h1>
+                <span className="font-semibold text-3xl lg:text-4xl">
                     Students at The Language Network
-                </h1>
+                </span>
                 <p className='font-medium'>
                     We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
                 </p>
@@ -236,8 +236,8 @@ export default function Home() {
             </div>
 
             <div className="my-24 lg:flex px-10 flex-row h-auto w-full bg-[#f4f8fb]">
-                <div className='flex flex-col space-y-6 px-10 lg:px-20 justify-center'>
-                    <h1 className='font-bold text-3xl lg:text-4xl'>Our courses are aligned with the CEFR levels</h1>
+                <div className='flex flex-col space-y-6 px-10 px-0 lg:px-20 justify-center'>
+                    <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-0'>Our courses are aligned with the CEFR levels</h1>
                     <p className='text-sm text-[#54595f]'>
                         <span className='bold'>
                             CEFR (Common European Framework of Reference for Languages)
@@ -303,7 +303,7 @@ export default function Home() {
             </div>
 
             <div className="my-5 py-20 lg:flex flex-row h-auto w-full bg-[#f4f8fb] px-10">
-                <div className='flex flex-col space-y-6 mx-4 lg:mx-0 lg:pl-20 lg:pr-52 justify-center lg:w-2/3'>
+                <div className='flex flex-col space-y-6 mx-0 lg:mx-4 lg:mx-0 lg:pl-20 lg:pr-52 justify-center lg:w-2/3'>
                     <h1 className='font-medium text-3xl lg:text-4xl'>The Language Network saves you
 
                         <div class="scroller">
@@ -321,14 +321,14 @@ export default function Home() {
             </div>
             <div className="Home-container-8 my-14 text-center">
                 <h1>FROM LEARNING A NEW LANGUAGE TO LIVING IT!</h1>
-                <h2>Why you should learn with The Language Network?</h2>
+                <span className="text-3xl font-semibold lg:text-4xl">Why you should learn with The Language Network?</span>
             </div>
             <div className='w-5/6'>
                 <Display />
             </div>
             <div className="my-20 px-10 lg:px-0 lg:pl-32  lg:flex flex-row lg:h-[75vh] w-full bg-[#f4f8fb]">
                 <div className='flex flex-col space-y-6  justify-center lg:w-2/3'>
-                    <h1 className='font-bold text-3xl lg:text-4xl'>TRANSFORM YOUR CAREER</h1>
+                    <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-0'>TRANSFORM YOUR CAREER</h1>
                     <h2 className='text-lg '>Earn Your Certification </h2>
                     <p className='text-lg '>Learn a foreign language as a step to boost your career or improve your CV.</p>
                     <a href="/getstarted">
