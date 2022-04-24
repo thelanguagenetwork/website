@@ -4,7 +4,7 @@ export const Japanese_1_1 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N5',
        // OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice : 39980,
         Link: ""
     },
     {
@@ -12,7 +12,7 @@ export const Japanese_1_1 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N4',
         //OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice :44990 ,
         Link: ""
     },
     {
@@ -20,7 +20,7 @@ export const Japanese_1_1 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N3',
        // OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice :49990,
         Link: ""
     },
   /*  {
@@ -36,7 +36,7 @@ export const Japanese_1_1 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N5+N4',
        // OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice : 84790,
         Link: ""
     },
    /* {
@@ -52,7 +52,7 @@ export const Japanese_1_1 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N5+N4+N3',
       //  OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice : 134780,
         Link: ""
     }
 ]
@@ -63,7 +63,7 @@ export const Japanese_1_2 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N5',
       //  OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice : 27980,
         Link: ""
     },
     {
@@ -71,7 +71,7 @@ export const Japanese_1_2 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N4',
       //  OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice :29990,
         Link: ""
     },
     {
@@ -79,7 +79,7 @@ export const Japanese_1_2 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N3',
       //  OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice : 34990,
         Link: ""
     },
     /*{
@@ -95,7 +95,7 @@ export const Japanese_1_2 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N5+N4',
        // OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice : 57970,
         Link: ""
     },
   /*  {
@@ -111,7 +111,7 @@ export const Japanese_1_2 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N5+N4+N3',
      //   OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice : 92960,
         Link: ""
     },
 ]
@@ -123,7 +123,7 @@ export const Japanese_1_4 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N5',
       //  OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice : 19980,
         Link: ""
     },
     {
@@ -131,7 +131,7 @@ export const Japanese_1_4 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N4',
       //  OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice :23990,
         Link: ""
     },
     {
@@ -139,7 +139,7 @@ export const Japanese_1_4 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N3',
        // OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice : 23990,
         Link: ""
     },
   /*  {
@@ -155,7 +155,7 @@ export const Japanese_1_4 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N5+N4',
       //  OgPrice : 444,
-        DiscPrice : 333,
+        DiscPrice : 43970,
         Link: ""
     },
   /*  {
