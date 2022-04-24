@@ -1,7 +1,11 @@
 import React from 'react'
 import './Footer.css';
 import { FaMedium } from 'react-icons/fa';
-
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Typography from '@mui/material/Typography';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 
 export default function Footer() {
@@ -12,7 +16,9 @@ export default function Footer() {
                 <br></br>
                 <span className='heading-2 mb-10'>Get in touch with our student support team for any queries or specific needs.</span>
                 <br></br>
+                <a href="mailto:info@thelanguagenetwork.co">
                 <button type="button" class="btn btn-info text-white mb-10 mb-3 flex" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '10px', paddingRight: '30px', paddingBottom: '10px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Contact Us</button>
+                </a>
             </div>
             <div className='flex-wrap px-3 bg-teal-400 w-full flex flex-row justify-evenly px-10 h-16'>
                 <img src='/images/payments/amazon-pay-icon.svg' class='w-20 lg:w-24 ' alt="a" />
@@ -27,7 +33,9 @@ export default function Footer() {
             <footer className="footer-section">
                 <div className="container w-full">
 
-                    <div className="footer-content pt-5 pb-5">
+
+
+                    <div className="footer-content pt-5 pb-5 px-4">
                         <div className="row">
                             <div className="col-xl-4 col-lg-4 mb-50">
                                 <div className="footer-widget">
@@ -43,7 +51,114 @@ export default function Footer() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-1 col-lg-2 col-md-6 mb-30 lg:mx-12">
+
+                            <div className='block lg:hidden mt-10 space-y-3 w-full'>
+                                <Accordion className='' style={{ boxShadow: "none" }}>
+                                    <AccordionSummary
+                                        expandIcon={<ExpandMoreIcon />}
+                                        aria-controls="panel1a-content"
+                                        id="panel1a-header"
+                                    >
+                                        <Typography style={{ color: '#13bfab', fontWeight: 500 }}>Company</Typography>
+                                    </AccordionSummary>
+                                    <AccordionDetails>
+                                        <Typography style={{ color: '#000', fontWeight: 500, padding: 0 }}>
+                                            <ul className='space-y-4 text-sm'>
+                                                <li><a href="/">Home</a></li>
+                                                <li><a href="/AboutUs">About us</a></li>
+                                                <li><a href="/Careers">Careers</a></li>
+                                                <li><a href="/Blog">Blog</a></li>
+                                                <li><a href="/Press">Press</a></li>
+                                            </ul>
+                                        </Typography>
+                                    </AccordionDetails>
+                                </Accordion>
+                                <Accordion className='' style={{ boxShadow: "none" }}>
+                                    <AccordionSummary
+                                        expandIcon={<ExpandMoreIcon />}
+                                        aria-controls="panel1a-content"
+                                        id="panel1a-header"
+                                    >
+                                        <Typography style={{ color: '#13bfab', fontWeight: 500 }}>Languages for Adults</Typography>
+                                    </AccordionSummary>
+                                    <AccordionDetails>
+                                        <Typography style={{ color: '#000', fontWeight: 500, padding: 0 }}>
+                                            <ul className='space-y-4 text-sm'>
+                                                <li><a href="/IntoCourses">Introductory Courses</a></li>
+                                                <li><a href="/english-course-adults">English Courses</a></li>
+                                                <li><a href="/french-course-adults">French Courses</a></li>
+                                                <li><a href="/spanish-course-adults">Spanish Courses</a></li>
+                                                <li><a href="/german-course-adults">German Courses</a></li>
+                                                <li><a href="/mandarin-course-adults">Mandarin Courses</a></li>
+                                                <li><a href="/japanese-course-adults">Japanese Courses</a></li>
+                                                <li><a href="/korean-course-adults">Korean Courses</a></li>
+                                            </ul>
+                                        </Typography>
+                                    </AccordionDetails>
+                                </Accordion>
+                                <Accordion className='' style={{ boxShadow: "none" }}>
+                                    <AccordionSummary
+                                        expandIcon={<ExpandMoreIcon />}
+                                        aria-controls="panel1a-content"
+                                        id="panel1a-header"
+                                    >
+                                        <Typography style={{ color: '#13bfab', fontWeight: 500 }}>Languages fo Kids</Typography>
+                                    </AccordionSummary>
+                                    <AccordionDetails>
+                                        <Typography style={{ color: '#000', fontWeight: 500, padding: 0 }}>
+                                            <ul className='space-y-4 text-sm'>
+                                                <li><a href="/english-course-kids">Kids English Courses</a></li>
+                                                <li><a href="/french-course-kids">Kids French Courses</a></li>
+                                                <li><a href="/spanish-course-kids">Kids Spanish Courses</a></li>
+                                                <li><a href="/german-course-kids">Kids German Courses</a></li>
+                                                <li><a href="/mandarin-course-kids">Kids Mandarin Courses</a></li>
+                                                <li><a href="/japanese-course-kids">Kids Japanese Courses</a></li>
+                                                <li><a href="/korean-course-kids">Kids Korean Courses</a></li>
+                                            </ul>
+                                        </Typography>
+                                    </AccordionDetails>
+                                </Accordion>
+                                <Accordion className='' style={{ boxShadow: "none" }}>
+                                    <AccordionSummary
+                                        expandIcon={<ExpandMoreIcon />}
+                                        aria-controls="panel1a-content"
+                                        id="panel1a-header"
+                                    >
+                                        <Typography style={{ color: '#13bfab', fontWeight: 500 }}>Support</Typography>
+                                    </AccordionSummary>
+                                    <AccordionDetails>
+                                        <Typography style={{ color: '#000', fontWeight: 500, padding: 0 }}>
+                                            <ul className='space-y-4 text-sm'>
+                                                <li><a href="/Faqs">FAQs</a></li>
+                                                <li><a href="https://api.whatsapp.com/send/?phone=%2B919892773428&text&app_absent=0">Contact</a></li>
+                                                <li><a href="/Aff_prog">Affiliate Program</a></li>
+                                            </ul>
+                                        </Typography>
+                                    </AccordionDetails>
+                                </Accordion>
+                                {/* <Accordion className='' style={{ boxShadow: "none" }}>
+                                    <AccordionSummary
+                                        expandIcon={<ExpandMoreIcon />}
+                                        aria-controls="panel1a-content"
+                                        id="panel1a-header"
+                                    >
+                                        <Typography style={{ color: '#13bfab', fontWeight: 500 }}>More</Typography>
+                                    </AccordionSummary>
+                                    <AccordionDetails>
+                                        <Typography style={{ color: '#000', fontWeight: 500, padding: 0 }}>
+                                            <ul className='space-y-4 text-sm'>
+                                                <li><a href="/phrase">Phrasebook</a></li>
+                                                <li><a href="Events">Events</a></li>
+                                                <li><a href="/Dictionary">Dictionary</a></li>
+                                            </ul>
+                                        </Typography>
+                                    </AccordionDetails>
+                                </Accordion> */}
+
+                            </div>
+
+
+                            <div className="col-xl-1 col-lg-2 col-md-6 mb-30 lg:mx-12 hidden lg:block">
                                 <div className="footer-widget">
                                     <div className="footer-widget-heading">
                                         <h3>Company</h3>
@@ -58,7 +173,7 @@ export default function Footer() {
                                 </div>
 
                             </div>
-                            <div className="col-xl-2 col-lg-2 col-md-6 mb-50">
+                            <div className="col-xl-2 col-lg-2 col-md-6 mb-50 hidden lg:block">
                                 <div className="footer-widget">
                                     <div className="footer-widget-heading">
                                         <h3>Languages for Adults</h3>
@@ -75,7 +190,7 @@ export default function Footer() {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-xl-2 col-lg-2 col-md-6 mb-50">
+                            <div className="col-xl-2 col-lg-2 col-md-6 mb-50 hidden lg:block">
                                 <div className="footer-widget">
                                     <div className="footer-widget-heading">
                                         <h3>Languages fo Kids</h3>
@@ -91,7 +206,7 @@ export default function Footer() {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-xl-2 col-lg-2 col-md-6 mb-50">
+                            <div className="col-xl-2 col-lg-2 col-md-6 mb-50 hidden lg:block">
                                 <div className="footer-widget">
                                     <div className="footer-widget-heading">
                                         <h3>Support</h3>
@@ -112,8 +227,9 @@ export default function Footer() {
                                         <li><a href="/Dictionary">Dictionary</a></li>
                                     </ul>
                                 </div> */}
-
                             </div>
+
+
                         </div>
                     </div>
                 </div>
@@ -137,12 +253,12 @@ export default function Footer() {
                             <div className="col-xl-4 col-lg-4 d-none d-lg-block ">
                                 <div className="footer-menu">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/teamlanguagenetwork"><img src='/images/facebook.svg' alt='img'/></a></li>
-                                        <li><a href="https://www.instagram.com/thelanguagenetwork/"><img src='/images/instagram.svg' alt='img'/></a></li>
-                                        <li><a href="https://www.linkedin.com/company/the-languagenetwork/"><img src='/images/linkedin.svg' alt='img'/></a></li>
-                                        <li><a href="mailto:info@thelanguagenetwork.co"><img src='/images/envelope-fill.svg' alt='img'/></a></li>
-                                        <li><a href="https://in.pinterest.com/teamlanguagenetwork/"><img src='/images/pinterest.svg' alt='img'/></a></li>
-                                        <li><a href="https://www.youtube.com/channel/UC2pMpIkwz5AzM-SRMX9rjLQ"><img src='/images/youtube.svg' alt='img'/></a></li>
+                                        <li><a href="https://www.facebook.com/teamlanguagenetwork"><img src='/images/facebook.svg' alt='img' /></a></li>
+                                        <li><a href="https://www.instagram.com/thelanguagenetwork/"><img src='/images/instagram.svg' alt='img' /></a></li>
+                                        <li><a href="https://www.linkedin.com/company/the-languagenetwork/"><img src='/images/linkedin.svg' alt='img' /></a></li>
+                                        <li><a href="mailto:info@thelanguagenetwork.co"><img src='/images/envelope-fill.svg' alt='img' /></a></li>
+                                        <li><a href="https://in.pinterest.com/teamlanguagenetwork/"><img src='/images/pinterest.svg' alt='img' /></a></li>
+                                        <li><a href="https://www.youtube.com/channel/UC2pMpIkwz5AzM-SRMX9rjLQ"><img src='/images/youtube.svg' alt='img' /></a></li>
                                         <li><a href="https://thelanguagenetwork.medium.com/"><FaMedium style={{ color: '#000', fontSize: '17px' }} /></a></li>
                                     </ul>
                                 </div>
