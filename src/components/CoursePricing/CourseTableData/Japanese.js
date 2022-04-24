@@ -5,7 +5,7 @@ export const Japanese_1_1 = [
         lvlName: 'N5',
        // OgPrice : 444,
         DiscPrice : 39980,
-        Link: ""
+        Link: "https://rzp.io/l/japaneseN51"
     },
     {
         language: "Japanese",
@@ -13,7 +13,7 @@ export const Japanese_1_1 = [
         lvlName: 'N4',
         //OgPrice : 444,
         DiscPrice :44990 ,
-        Link: ""
+        Link: "https://rzp.io/l/japanesen41"
     },
     {
         language: "Japanese",
@@ -21,7 +21,7 @@ export const Japanese_1_1 = [
         lvlName: 'N3',
        // OgPrice : 444,
         DiscPrice :49990,
-        Link: ""
+        Link: "https://rzp.io/l/japaneseN31"
     },
   /*  {
         language: "Japanese",
@@ -37,7 +37,7 @@ export const Japanese_1_1 = [
         lvlName: 'N5+N4',
        // OgPrice : 444,
         DiscPrice : 84790,
-        Link: ""
+        Link: "https://rzp.io/l/japanesen5n41"
     },
    /* {
         language: "Japanese",
@@ -53,7 +53,7 @@ export const Japanese_1_1 = [
         lvlName: 'N5+N4+N3',
       //  OgPrice : 444,
         DiscPrice : 134780,
-        Link: ""
+        Link: "https://rzp.io/l/japanesen5n4n31"
     }
 ]
 
@@ -64,7 +64,7 @@ export const Japanese_1_2 = [
         lvlName: 'N5',
       //  OgPrice : 444,
         DiscPrice : 27980,
-        Link: ""
+        Link: "https://rzp.io/l/japaneseN52"
     },
     {
         language: "Japanese",
@@ -72,7 +72,7 @@ export const Japanese_1_2 = [
         lvlName: 'N4',
       //  OgPrice : 444,
         DiscPrice :29990,
-        Link: ""
+        Link: "https://rzp.io/l/japaneseN42"
     },
     {
         language: "Japanese",
@@ -80,7 +80,7 @@ export const Japanese_1_2 = [
         lvlName: 'N3',
       //  OgPrice : 444,
         DiscPrice : 34990,
-        Link: ""
+        Link: "https://rzp.io/l/japaneseN32"
     },
     /*{
         language: "Japanese",
@@ -96,7 +96,7 @@ export const Japanese_1_2 = [
         lvlName: 'N5+N4',
        // OgPrice : 444,
         DiscPrice : 57970,
-        Link: ""
+        Link: "https://rzp.io/l/japanesen5n42"
     },
   /*  {
         language: "Japanese",
@@ -112,7 +112,7 @@ export const Japanese_1_2 = [
         lvlName: 'N5+N4+N3',
      //   OgPrice : 444,
         DiscPrice : 92960,
-        Link: ""
+        Link: "https://rzp.io/l/japanesen5n4n32"
     },
 ]
 
@@ -124,7 +124,7 @@ export const Japanese_1_4 = [
         lvlName: 'N5',
       //  OgPrice : 444,
         DiscPrice : 19980,
-        Link: ""
+        Link: "https://rzp.io/l/vOWn7K0n2"
     },
     {
         language: "Japanese",
@@ -132,7 +132,7 @@ export const Japanese_1_4 = [
         lvlName: 'N4',
       //  OgPrice : 444,
         DiscPrice :23990,
-        Link: ""
+        Link: "https://rzp.io/l/japanesen4"
     },
     {
         language: "Japanese",
@@ -140,7 +140,7 @@ export const Japanese_1_4 = [
         lvlName: 'N3',
        // OgPrice : 444,
         DiscPrice : 23990,
-        Link: ""
+        Link: "https://rzp.io/l/MyAYiP8N"
     },
   /*  {
         language: "Japanese",
@@ -156,7 +156,7 @@ export const Japanese_1_4 = [
         lvlName: 'N5+N4',
       //  OgPrice : 444,
         DiscPrice : 43970,
-        Link: ""
+        Link: "https://rzp.io/l/japanesen5n4"
     },
   /*  {
         language: "Japanese",
@@ -172,6 +172,6 @@ export const Japanese_1_4 = [
         lvlName: 'N5+N4+N3',
       //  OgPrice : 444,
         DiscPrice : 67960,
-        Link: ""
+        Link: "https://rzp.io/l/japanesen543"
     },
 ]
