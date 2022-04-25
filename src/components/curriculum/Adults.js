@@ -47,17 +47,17 @@ function Adults() {
                 <h2>Curating a pleasant learning experience</h2>
                 <h1 className='mb-6'>Choose a language</h1>
                 <div className='Home-container-2-imgs'>
-                    <a href='/english-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-english@300x.png' /></a>
-                    <a href='/french-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-french@300x.png' /></a>
-                    <a href='/spanish-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-spanish@300x.png' /></a>
-                    <a href='/german-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-german@300x.png' /></a>
-                    <a href='/mandarin-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-mandarin@300x.png' /></a>
-                    <a href='/japanese-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-japanese@300x.png' /></a>
-                    <a href='/korean-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-korean@300x.png' /></a>
+                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-english@300x.png' onClick={() => setLang('English')} id={lang === 'English' ? 'btnP2' : ''}/></a>
+                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-french@300x.png' onClick={() => setLang('french')} id={lang === 'french' ? 'btnP2' : ''}/></a>
+                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-spanish@300x.png' onClick={() => setLang('spanish')} id={lang === 'spanish' ? 'btnP2' : ''}/></a>
+                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-german@300x.png' onClick={() => setLang('german')} id={lang === 'german' ? 'btnP2' : ''}/></a>
+                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-mandarin@300x.png' onClick={() => setLang('mandarin')} id={lang === 'mandarin' ? 'btnP2' : ''}/></a>
+                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-japanese@300x.png' onClick={() => setLang('japanese')} id={lang === 'japanese' ? 'btnP2' : ''}/></a>
+                    <a><img className='Home-container-2-img' alt='img' src='/images/adults-korean@300x.png' onClick={() => setLang('korean')} id={lang === 'korean' ? 'btnP2' : ''}/></a>
                 </div>
             </div>
 
-            <div className="mb-10 lg:flex flex-row h-auto w-full bg-[#f4f8fb]">
+            {/* <div className="mb-10 lg:flex flex-row h-auto w-full bg-[#f4f8fb]">
                 <div className='flex flex-col space-y-6 px-10 lg:px-20 justify-center lg:w-3/4'>
                     <h1 className='text-3xl font-medium lg:text-4xl pt-10 lg:pt-0'>Foreign Language Education for Everyone!</h1>
                     <p className='text-lg '>Live online language classes for kids, adolscents and adults at The Language Network, pioneering online language schools, with the assistance of professional teachers.</p>
@@ -73,9 +73,9 @@ function Adults() {
                 <div className='flex align-center px-10 py-10 lg:px-20 lg:py-20'>
                     <img src='/images/Adults_online-lecture.png' alt='img' className='certificate-img' />
                 </div>
-            </div>
+            </div> */}
 
-            <div className='w-full flex flex-row flex-wrap items-center justify-center  mb-3'>
+            {/* <div className='w-full flex flex-row flex-wrap items-center justify-center  mb-3'>
             <a onClick={() => setLang('English')} id={lang === 'English' ? 'btnP' : ''} class="buttons bg-white py-2.5 px-4 rounded-lg shadow mx-3 mb-3">
                     English
                 </a>
@@ -97,7 +97,7 @@ function Adults() {
                 <a onClick={() => setLang('korean')} id={lang === 'korean' ? 'btnP' : ''} class="buttons bg-white py-2.5 px-4 rounded-lg shadow mx-3 mb-3">
                     Korean
                 </a>
-            </div>
+            </div> */}
             <div className='flex justify-center mb-20'>
                 <Languages />
             </div>

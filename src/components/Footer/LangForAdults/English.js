@@ -365,7 +365,7 @@ export default function AdultsEnglish() {
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingNine">
-                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine"
+                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none focus:text-[#13BFAB]" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine"
                                 aria-expanded="false" aria-controls="flush-collapseNine">
                                 How can I book a course with TLN?
                             </button>
