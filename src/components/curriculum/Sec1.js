@@ -19,23 +19,7 @@ export default function Sec1() {
                 <img className='w-3/4' src='\images\Curriculum_banner_1.png' alt='img' />
             </div>
         </div>
-        <div className="mb-10 lg:flex flex-row h-auto w-full bg-[#f4f8fb]">
-            <div className='flex flex-col space-y-6 px-10 lg:px-20 justify-center lg:w-3/4'>
-                <h1 className='text-3xl font-medium lg:text-4xl pt-10 lg:pt-0'>Foreign Language Education for Everyone!</h1>
-                <p className='text-lg '>Live online language classes for kids, adolscents and adults at The Language Network, pioneering online language schools, with the assistance of professional teachers.</p>
-                <p className='text-lg '>With our professional live online language classes, TLN is the complete solution to perfectly assist kids in their path to fluency.</p>
-                <div>
-                    <a href="/getstarted">
-                        <button class="bg-[#13BFAB] hover:bg-teal-400 text-white font-bold py-3 px-4 rounded w-auto" >
-                            JOIN A COURSE
-                        </button>
-                    </a>
-                </div>
-            </div>
-            <div className='flex align-center px-10 py-10 lg:px-20 lg:py-20'>
-                <img src='/images/Adults_online-lecture.png' alt='img' className='certificate-img' />
-            </div>
-        </div>
+        
     </div>
     )
 }
