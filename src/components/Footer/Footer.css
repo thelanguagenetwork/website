@@ -237,3 +237,8 @@ ul {
   background-position: center;
   background-color: rgb(0, 0, 0);
 }
+
+
+.accordion-button:not(.collapsed){
+  color: #13BFAB;
+}
