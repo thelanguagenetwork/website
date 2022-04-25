@@ -119,7 +119,7 @@ export const Mandarin_1_2 = [
 ]
 
 
-/*export const Mandarin_1_4 = [
+export const Mandarin_1_4 = [
     {
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
@@ -176,4 +176,4 @@ export const Mandarin_1_2 = [
         DiscPrice : 333,
         Link: ""
     },
-]*/
+]
