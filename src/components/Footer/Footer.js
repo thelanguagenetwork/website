@@ -16,7 +16,7 @@ export default function Footer() {
                 <br></br>
                 <span className='heading-2 mb-10'>Get in touch with our student support team for any queries or specific needs.</span>
                 <br></br>
-                <a href="mailto:info@thelanguagenetwork.co">
+                <a href="mailto:support@thelanguagenetwork.co">
                 <button type="button" class="btn btn-info text-white mb-10 mb-3 flex" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '10px', paddingRight: '30px', paddingBottom: '10px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Contact Us</button>
                 </a>
             </div>

@@ -85,7 +85,7 @@ function Kids() {
                 <KidsTable />
                 <div className="w-full flex justify-center">
               <a href='getstarted'> <button class="bg-teal-500 hover:bg-teal-400 text-white font-bold py-3 px-4 rounded-xl" >
-                            Book A Trial Class
+                            Get Started
                 </button></a> 
                 </div>
         </div>
