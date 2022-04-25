@@ -98,7 +98,7 @@ export default () => {
                
                 {cardData.map((card, i) => {
                     return (
-                        <SwiperSlide className="testi-slides w-full ">
+                        <SwiperSlide className="testi-slides w-full px-3 lg:px-0  pt-3 lg:pt-0">
                             <div class=" p-10 h-[32rem] lg:h-[27rem] test-item shadow-lg rounded-xl " key={i} >
                                 <div class="text-center">
                                     <img
