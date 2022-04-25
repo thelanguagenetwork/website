@@ -152,8 +152,8 @@ export default function Careers() {
               <div class="h-full flex sm:flex-row flex-col items-left sm:justify-start justify-center text-left">
                 <img alt="team" class="flex-shrink-0 rounded-lg w-40 h-40 object-cover object-center sm:mb-0 mb-4" src="/images/1470399656_Branding.png" />
                 <div class="flex-grow sm:pl-8">
-                  <h2 class="title-font font-bold text-3xl text-[#13bfab]">Holden Caulfield</h2>
-                  <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                  <h2 class="title-font font-bold text-3xl text-[#13bfab]">We value our people</h2>
+                  <p class="mb-4">Work with a highly-motivated team in a collaborative environment.</p>
                 </div>
               </div>
             </div>
@@ -161,8 +161,8 @@ export default function Careers() {
               <div class="h-full flex sm:flex-row flex-col items-left sm:justify-start justify-center text-left">
                 <img alt="team" class="flex-shrink-0 rounded-lg w-40 h-40 object-cover object-center sm:mb-0 mb-4" src="/images/1470399715_E-Commerce.png" />
                 <div class="flex-grow sm:pl-8">
-                  <h2 class="title-font font-bold text-3xl text-[#13bfab]">Holden Caulfield</h2>
-                  <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                  <h2 class="title-font font-bold text-3xl text-[#13bfab]">Live it up</h2>
+                  <p class="mb-4">One benefit of having amazing coworkers is enjoying each other’s company, and we make up some good excuses to have fun together.</p>
                 </div>
               </div>
             </div>
@@ -170,8 +170,8 @@ export default function Careers() {
               <div class="h-full flex sm:flex-row flex-col items-left sm:justify-start justify-center text-left">
                 <img alt="team" class="flex-shrink-0 rounded-lg w-40 h-40 object-cover object-center sm:mb-0 mb-4" src="/images/1470399614_Social_Media.png" />
                 <div class="flex-grow sm:pl-8">
-                  <h2 class="title-font font-bold text-3xl text-[#13bfab]">Holden Caulfield</h2>
-                  <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                  <h2 class="title-font font-bold text-3xl text-[#13bfab]">Stay informed</h2>
+                  <p class="mb-4">We’re dedicated to ensuring all employees have the information they need to do their jobs well. We share key aspects of the business across the whole team for better understanding.</p>
                 </div>
               </div>
             </div>
@@ -179,8 +179,8 @@ export default function Careers() {
               <div class="h-full flex sm:flex-row flex-col items-left sm:justify-start justify-center text-left">
                 <img alt="team" class="flex-shrink-0 rounded-lg w-40 h-40 object-cover object-center sm:mb-0 mb-4" src="/images/1470399662_Marketing.png" />
                 <div class="flex-grow sm:pl-8">
-                  <h2 class="title-font font-bold text-3xl text-[#13bfab]">Holden Caulfield</h2>
-                  <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                  <h2 class="title-font font-bold text-3xl text-[#13bfab]">Work flexible hours</h2>
+                  <p class="mb-4">We believe that quality time outside the office is vital to our employees satisfaction at work. That’s why our flexible schedule encourages team members to take time off so they can come back refreshed.</p>
                 </div>
               </div>
             </div>
@@ -188,8 +188,8 @@ export default function Careers() {
               <div class="h-full flex sm:flex-row flex-col items-left sm:justify-start justify-center text-left">
                 <img alt="team" class="flex-shrink-0 rounded-lg w-40 h-40 object-cover object-center sm:mb-0 mb-4" src="/images/1470399671_SEO.png" />
                 <div class="flex-grow sm:pl-8">
-                  <h2 class="title-font font-bold text-3xl text-[#13bfab]">Holden Caulfield</h2>
-                  <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                  <h2 class="title-font font-bold text-3xl text-[#13bfab]">Growth</h2>
+                  <p class="mb-4">Climb your career ladder and develop quickly within your role.</p>
                 </div>
               </div>
             </div>
