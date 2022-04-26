@@ -89,7 +89,7 @@ export default function Display() {
                     return (<SwiperSlide className='mb-10'>
                         <div className="md:h-96 lg:h-auto w-full lg:w-5/6 h-auto md:w-1/2 card1 pt-4" id="card" key={i} >
                             <div class="md:h-[23rem] lg:h-[17rem] h-auto w-auto rounded-lg card-item1 flex items-center align-top h-64" >
-                                <div class="w-14 h-14 flex items-center justify-center rounded-full mt-8" >
+                                <div class="w-14 h-14 flex items-center justify-center rounded-full mt-8 mb-4" >
                                     <img src={card.path} alt='img' className='w-full h-full' />
                                 </div>
                                 <h2 className="text-normal text-gray-900 font-normal title-font ml-2 title text-center" > {card.title} </h2>

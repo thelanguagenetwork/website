@@ -326,8 +326,8 @@ export default function Home() {
             <div className='w-full px-10 lg:px-20'>
                 <Display />
             </div>
-            <div className="my-20 px-10 lg:px-0 lg:pl-32  lg:flex flex-row lg:h-[75vh] w-full bg-[#f4f8fb]">
-                <div className='flex flex-col space-y-6  justify-center lg:w-2/3'>
+            <div className="my-20 px-10 lg:px-0 lg:pl-32 lg:flex flex-row lg:h-[65vh] w-full bg-[#f4f8fb]">
+                <div className='flex flex-col space-y-6 justify-center lg:w-2/3'>
                     <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-0'>TRANSFORM YOUR CAREER</h1>
                     <h2 className='text-lg '>Earn Your Certification </h2>
                     <p className='text-lg '>Learn a foreign language as a step to boost your career or improve your CV.</p>
@@ -337,7 +337,7 @@ export default function Home() {
                         </button>
                     </a>
                 </div>
-                <div className='flex align-center justify-center py-10 lg:py-28 '>
+                <div className='flex align-center justify-center py-10 lg:py-14 '>
                     <img src='/images/certificate-mockup.png' alt='img' className='certificate-img lg:pl-14' />
                 </div>
                 <img src='/images/dots-circle.png' alt='img' className='dots-circle-1 lg:block hidden' />

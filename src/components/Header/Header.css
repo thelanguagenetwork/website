@@ -57,6 +57,8 @@
   transform: translate(0, -10%);
 }
 
+
+
 .social-menu ul li:nth-child(1) a:hover{
   opacity: 1;
   background-color: rgb(66 103 178);

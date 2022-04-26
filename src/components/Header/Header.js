@@ -108,7 +108,7 @@ class Header extends react.Component {
             </a>
 
             <a>
-              <span id='curriculum' className='hover:text-teal-600' style={{ padding: '31px 0px' }} onMouseOver={expand} onMouseLeave={retract}>
+              <span id='curriculum' className='hover:text-teal-600' style={{ padding: '31px 31px 0px 0px' }} onMouseOver={expand} onMouseLeave={retract}>
                 Courses
                 <IoIosArrowDown />
 
@@ -197,21 +197,21 @@ const Logo = styled.a`
 
 
 const NavMenu = styled.div`
-              align-items: center;
+              align-items: baseline;
               display: flex;
               flex-flow: row nowrap;
               height: auto;
               justify-content: flex-end;
               margin: 0px;
-              padding: 0px;
+              padding-bottom: 8px;
               position: relative;
               margin-right: auto;
               margin-left: 25px;
               a {
                 text - decoration: none;
               display: flex;
-              align-items: center;
-              padding: 12px 12px;
+              align-items: baseline;
+              padding: 12px 12px 0px 12px;
               cursor: pointer;
               height: 100%;
               img {
@@ -228,7 +228,7 @@ const NavMenu = styled.div`
               font-weight: 500;
               letter-spacing: 1.42px;
               line-height: 1.08;
-              padding: 3px 0px;
+              /* padding: 3px 0px; */
               white-space: nowrap;
               position: relative;
               text-decoration: none;
