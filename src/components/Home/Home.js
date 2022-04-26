@@ -235,8 +235,8 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="my-24 lg:flex px-10 flex-row h-auto w-full bg-[#f4f8fb]">
-                <div className='flex flex-col space-y-6 px-10 px-0 lg:px-20 justify-center'>
+            <div className="my-24 lg:flex px-4 lg:px-10  flex-row h-auto w-full bg-[#f4f8fb]">
+                <div className='flex flex-col space-y-6 px-4 lg:px-20 justify-center'>
                     <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-0'>Our courses are aligned with the CEFR levels</h1>
                     <p className='text-sm text-[#54595f]'>
                         <span className='bold'>
@@ -315,15 +315,15 @@ export default function Home() {
                     </h1>
                     <p className='text-lg font-medium'>Our online classes cut out that stressful commute so you can focus your energy on learning. We offer quality courses at affordable prices, with no hidden costs. Up to 30% cheaper than traditional language schools.</p>
                 </div>
-                <div className='flex align-center w-72 mt-4 lg:mt-0'>
-                    <img src="/images/progress.png" alt="" className='pl-10' />
+                <div className='flex align-center w-80 lg:w-1/2 lg:p-20 mt-4 lg:mt-0 items-center'>
+                    <img src="/images/progress.png" alt="" className='lg:pl-10 px-10 lg:px-20' />
                 </div>
             </div>
             <div className="Home-container-8 my-14 text-center">
                 <h1>FROM LEARNING A NEW LANGUAGE TO LIVING IT!</h1>
-                <span className="text-3xl font-semibold lg:text-4xl">Why you should learn with The Language Network?</span>
+                <span className="text-2xl font-semibold lg:text-4xl">Why you should learn with The Language Network?</span>
             </div>
-            <div className='w-5/6'>
+            <div className='w-full px-10 lg:px-20'>
                 <Display />
             </div>
             <div className="my-20 px-10 lg:px-0 lg:pl-32  lg:flex flex-row lg:h-[75vh] w-full bg-[#f4f8fb]">
