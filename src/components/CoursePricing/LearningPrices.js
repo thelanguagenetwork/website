@@ -5,7 +5,7 @@ import PricingTable from './PricingTable';
 
 export default function LearningPrices(props) {
 
-    const [Opt, setOpt] = useState(3)
+    const [Opt, setOpt] = useState(props.one_four[0].language === 'Mandarin'? 1 : 3)
     const LearningPrices = () => {
         switch (Opt) {
             case 1:
@@ -24,6 +24,8 @@ export default function LearningPrices(props) {
                 break;
         }
     };
+
+
 
     return <div>
         <div className='w-full flex justify-center fadeIN'>
