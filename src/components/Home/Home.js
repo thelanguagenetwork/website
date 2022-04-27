@@ -88,7 +88,7 @@ export default function Home() {
     return (
         <div className='Home'>
             <div className='Home-container-1 w-full px-4 lg:py-20 lg:px-26 relative h-[auto] flex flex-col lg:flex-row justify-center items-center content-center flex-wrap' >
-                <div className='w-full lg:w-5/12 flex flex-col space-y-6'>
+                <div className='w-full lg:w-5/12 flex flex-col space-y-6 pt-10 lg:pt-0'>
                     <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab] lg:pt-2'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>
                     <h2 className='text-black font-medium text-5xl'>Learn a Language in less than 3 months</h2>
                     <span className='font-medium '>At The Language Network, we help you master a new foreign language of your choice from the comfort of your home.</span>
