@@ -5,15 +5,95 @@ const tick = "/images/check-mark@20.png"
 function TableData() {
     const tdata = [
         {
-            title: "Placement",
-            Introductory: cross,
-            LevelA1: cross,
-            LevelA2: cross,
-            LevelB1: cross,
+            title: "Study Material",
+            Introductory: tick,
+            LevelA1: tick,
+            LevelA2: tick,
+            LevelB1: tick,
             LevelB2: tick,
-            LevelA1A2: cross,
+            LevelA1A2: tick,
+            LevelA1A2B1B2: tick
+        }, 
+        {
+            title: "Progress Report",
+            Introductory: tick,
+            LevelA1: tick,
+            LevelA2: tick,
+            LevelB1: tick,
+            LevelB2: tick,
+            LevelA1A2: tick,
+            LevelA1A2B1B2: tick
+        }, 
+        {
+            title: "Instant Review",
+            Introductory: tick,
+            LevelA1: tick,
+            LevelA2: tick,
+            LevelB1: tick,
+            LevelB2: tick,
+            LevelA1A2: tick,
+            LevelA1A2B1B2: tick
+        }, 
+        {
+            title: "E-learning material",
+            Introductory: tick,
+            LevelA1: tick,
+            LevelA2: tick,
+            LevelB1: tick,
+            LevelB2: tick,
+            LevelA1A2: tick,
+            LevelA1A2B1B2: tick
+        }, 
+        {
+            title: "Assessments & Quizzes",
+            Introductory: tick,
+            LevelA1: tick,
+            LevelA2: tick,
+            LevelB1: tick,
+            LevelB2: tick,
+            LevelA1A2: tick,
             LevelA1A2B1B2: tick
         },
+        {
+            title: "Exam Prep",
+            Introductory: cross,
+            LevelA1: tick,
+            LevelA2: tick,
+            LevelB1: tick,
+            LevelB2: tick,
+            LevelA1A2: tick,
+            LevelA1A2B1B2: tick
+        }, 
+        {
+            title: "Counseling",
+            Introductory: cross,
+            LevelA1: tick,
+            LevelA2: tick,
+            LevelB1: tick,
+            LevelB2: tick,
+            LevelA1A2: tick,
+            LevelA1A2B1B2: tick
+        }, 
+        {
+            title: "Certificate",
+            Introductory: cross,
+            LevelA1: tick,
+            LevelA2: tick,
+            LevelB1: tick,
+            LevelB2: tick,
+            LevelA1A2: tick,
+            LevelA1A2B1B2: tick
+        }, 
+        {
+            title: "Access content & upskilling opportunities",
+            Introductory: cross,
+            LevelA1: tick,
+            LevelA2: tick,
+            LevelB1: tick,
+            LevelB2: tick,
+            LevelA1A2: tick,
+            LevelA1A2B1B2: tick
+        }, 
         {
             title: "Mentoring Sessions",
             Introductory: cross,
@@ -33,88 +113,20 @@ function TableData() {
             LevelB2: tick,
             LevelA1A2: tick,
             LevelA1A2B1B2: tick
-        }, {
-            title: "Exam Prep",
+        },
+        {
+            title: "Placement",
             Introductory: cross,
-            LevelA1: tick,
-            LevelA2: tick,
-            LevelB1: tick,
+            LevelA1: cross,
+            LevelA2: cross,
+            LevelB1: cross,
             LevelB2: tick,
-            LevelA1A2: tick,
-            LevelA1A2B1B2: tick
-        }, {
-            title: "Counseling",
-            Introductory: cross,
-            LevelA1: tick,
-            LevelA2: tick,
-            LevelB1: tick,
-            LevelB2: tick,
-            LevelA1A2: tick,
-            LevelA1A2B1B2: tick
-        }, {
-            title: "Certificate",
-            Introductory: cross,
-            LevelA1: tick,
-            LevelA2: tick,
-            LevelB1: tick,
-            LevelB2: tick,
-            LevelA1A2: tick,
-            LevelA1A2B1B2: tick
-        }, {
-            title: "Access content & upskilling opportunities",
-            Introductory: cross,
-            LevelA1: tick,
-            LevelA2: tick,
-            LevelB1: tick,
-            LevelB2: tick,
-            LevelA1A2: tick,
-            LevelA1A2B1B2: tick
-        }, {
-            title: "Study Material",
-            Introductory: tick,
-            LevelA1: tick,
-            LevelA2: tick,
-            LevelB1: tick,
-            LevelB2: tick,
-            LevelA1A2: tick,
-            LevelA1A2B1B2: tick
-        }, {
-            title: "Progress Report",
-            Introductory: tick,
-            LevelA1: tick,
-            LevelA2: tick,
-            LevelB1: tick,
-            LevelB2: tick,
-            LevelA1A2: tick,
-            LevelA1A2B1B2: tick
-        }, {
-            title: "Instant Review",
-            Introductory: tick,
-            LevelA1: tick,
-            LevelA2: tick,
-            LevelB1: tick,
-            LevelB2: tick,
-            LevelA1A2: tick,
-            LevelA1A2B1B2: tick
-        }, {
-            title: "E-learning material",
-            Introductory: tick,
-            LevelA1: tick,
-            LevelA2: tick,
-            LevelB1: tick,
-            LevelB2: tick,
-            LevelA1A2: tick,
-            LevelA1A2B1B2: tick
-        }, {
-            title: "Assessments & Quizzes",
-            Introductory: tick,
-            LevelA1: tick,
-            LevelA2: tick,
-            LevelB1: tick,
-            LevelB2: tick,
-            LevelA1A2: tick,
+            LevelA1A2: cross,
             LevelA1A2B1B2: tick
         },
+         
+        
+        
     ];
     return tdata;
 }
