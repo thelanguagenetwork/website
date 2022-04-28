@@ -53,7 +53,7 @@ export const Mandarin_1_1 = [
 
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 4+5',
-        OgPrice : 444,
+        // OgPrice : 444,
         DiscPrice : 45890,
         Link: ""
     }

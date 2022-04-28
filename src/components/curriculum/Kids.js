@@ -52,13 +52,13 @@ function Kids() {
                     <a className='my-2 text-black hover:text-black font-medium' href='/korean-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Korean-1.png' /><span className='pr-8'>Korean</span></a>
                 </div>
             </div>
-            <div className='h-[85vh] lg:px-80 text-center flex flex-column items-center justify-center bgimg-2'>
+            {/* <div className='h-[85vh] lg:px-80 text-center flex flex-column items-center justify-center bgimg-2'>
                 <h1 className='text-white font-semibold text-4xl mb-12'>Foreign Language Education for Everyone!</h1>
                 <p className='text-white font-medium text-lg px-4 mt-2'>Live online language classes for kids, adolscents and adults at The Language Network, pioneering online language schools, with the assistance of professional teachers.</p>
                 <p className='text-white font-medium text-lg px-4 mt-2 mb-3'>With our professional live online language classes, TLN is the complete solution to perfectly assist kids in their path to fluency.</p>
                 <a href="/getstarted"><button type="button" class="btn btn-outline-light rounded-xl px-8 py-3 font-medium">Get Started</button></a>
                 <img src="/images/Ship.png" alt="alt" className='w-[15%] absolute top-[-2.8rem] right-[12rem] lg:block hidden' />
-            </div>
+            </div> */}
             <div className='infosec w-full lg:p-20 sm:p-3 flex flex-col lg:flex-row items-center mt-24'>
                 <div className='p-2 w-full lg:w-[40%]'>
                     <h1 className='font-medium text-3xl'>Learning, unbeknownst to many, starts at a very early age</h1>

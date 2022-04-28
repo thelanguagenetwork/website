@@ -62,11 +62,11 @@ export default function Home() {
         document.getElementById('Home-card-1').style.boxShadow = '0px 0px 38px -10px #460090';
     }
 
-    function changeCol2() {
-        document.getElementById('Home-card-text-h2').style.color = '#f2b919';
-        document.getElementById('Home-card-2').style.boxShadow = '0px 0px 38px -10px #f2b919';
+    // function changeCol2() {
+    //     document.getElementById('Home-card-text-h2').style.color = '#f2b919';
+    //     document.getElementById('Home-card-2').style.boxShadow = '0px 0px 38px -10px #f2b919';
 
-    }
+    // }
 
     function changeCol3() {
         document.getElementById('Home-card-text-h3').style.color = '#13bfab';
@@ -76,10 +76,10 @@ export default function Home() {
 
     function changeBack() {
         document.getElementById('Home-card-text-h1').style.color = '#000';
-        document.getElementById('Home-card-text-h2').style.color = '#000';
+        // document.getElementById('Home-card-text-h2').style.color = '#000';
         document.getElementById('Home-card-text-h3').style.color = '#000';
         document.getElementById('Home-card-1').style.boxShadow = 'none';
-        document.getElementById('Home-card-2').style.boxShadow = 'none';
+        // document.getElementById('Home-card-2').style.boxShadow = 'none';
         document.getElementById('Home-card-3').style.boxShadow = 'none';
 
     }
@@ -172,7 +172,7 @@ export default function Home() {
                         <img src="/images/St-Andrews-Logo-150x150.png" alt='img1' />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/images/Asset-8@300x-150x150.png" alt='img1' />
+                        <img src="/images/Asset 8@300x.png" alt='img1' className='w-[80%]' />
                     </SwiperSlide>
                 </Swiper>
             </div>
@@ -204,18 +204,19 @@ export default function Home() {
                     We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
                 </p>
             </div>
+            <div className='w-full flex flex-col items-center justify-center'>
 
-            <div className="w-5/6 lg:flex flex-row space-y-10 lg:space-y-0 mt-12">
-                <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
-                    <div className="Home-card-img">
-                        <img src='/images/Adolscents@300x.png' alt='img' />
+                <div className="w-5/6 lg:flex flex-row space-y-10 lg:space-y-0 mt-12 items-center justify-center">
+                    <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
+                        <div className="Home-card-img">
+                            <img src='/images/Adolscents@300x.png' alt='img' />
+                        </div>
+                        <div className='Home-card-text'>
+                            <h1 id='Home-card-text-h1'>Kids (6-9 years)</h1>
+                            <p>Children in this age range can learn any foreign language with the right professional assistance. Kids have a high sense of creativity and imagination. At, TLN we know how to use this imagination and methodically focuses on aspects of language that boost performance and imagination</p>
+                        </div>
                     </div>
-                    <div className='Home-card-text'>
-                        <h1 id='Home-card-text-h1'>Kids (6-9 years)</h1>
-                        <p>Children in this age range can learn any foreign language with the right professional assistance. Kids have a high sense of creativity and imagination. At, TLN we know how to use this imagination and methodically focuses on aspects of language that boost performance and imagination</p>
-                    </div>
-                </div>
-                <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-2' onMouseOver={changeCol2} onMouseLeave={changeBack}>
+                    {/* <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-2' onMouseOver={changeCol2} onMouseLeave={changeBack}>
                     <div className="Home-card-img">
                         <img src='/images/Kids@300x-1.png' alt='img' />
                     </div>
@@ -223,17 +224,19 @@ export default function Home() {
                         <h1 id='Home-card-text-h2'>Adolscents (10-13 years)</h1>
                         <p>Students in this age group are usually energetic, curious, and eager to explore the world! At TLN, we teach more than just the language. We take you through the culture; traditions, clothing, food, festivals, etc. This means that you are learning more than the writing system or pronunciation.</p>
                     </div>
-                </div>
-                <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-3' onMouseOver={changeCol3} onMouseLeave={changeBack}>
-                    <div className="Home-card-img">
-                        <img src='/images/adults@300x.png' alt='img' />
-                    </div>
-                    <div className='Home-card-text'>
-                        <h1 id='Home-card-text-h3'>Adults (14+ years)</h1>
-                        <p>Getting a certificate is an essential part of verifying your language skills. TLN prepares you for all types of language exams with the professional assistance of highly-qualified teachers. We also offer online classes per your convenience.</p>
+                </div> */}
+                    <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-3' onMouseOver={changeCol3} onMouseLeave={changeBack}>
+                        <div className="Home-card-img">
+                            <img src='/images/adults@300x.png' alt='img' />
+                        </div>
+                        <div className='Home-card-text'>
+                            <h1 id='Home-card-text-h3'>Adults (14+ years)</h1>
+                            <p>Getting a certificate is an essential part of verifying your language skills. TLN prepares you for all types of language exams with the professional assistance of highly-qualified teachers. We also offer online classes per your convenience.</p>
+                        </div>
                     </div>
                 </div>
             </div>
+
 
             <div className="my-24 lg:flex px-4 lg:px-10  flex-row h-auto w-full bg-[#f4f8fb]">
                 <div className='flex flex-col space-y-6 px-4 lg:px-20 justify-center'>
