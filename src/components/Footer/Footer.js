@@ -6,18 +6,52 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-
+import { FiMail } from 'react-icons/fi'
+import { FaLinkedinIn, FaInstagram, FaFacebookF, FaPinterestP, FaYoutube } from 'react-icons/fa'
+import {BiLeftArrow} from 'react-icons/bi'
+import {useState} from 'react';
 
 export default function Footer() {
+    const [open, setOpen] = useState(true)
+
+    function openClose() {
+      if (open === false) {
+        document.getElementById('menuButton').style.right = '-55px';
+        const element = document.getElementById('openButton')
+        element.classList.remove('rotate-180');
+        setOpen(true)
+      }
+      else{
+        document.getElementById('menuButton').style.right = '15px';
+        const element = document.getElementById('openButton')
+        element.classList.add('rotate-180');
+        setOpen(false)
+      }
+    }
+
     return (
         <div className="bg-[#f4f8fb]" style={{ bottom: '0px', left: '0px' }}>
+            <div class="menu-button ease-in duration-300" id='menuButton'>
+               <a onClick={() => openClose()} className=' absolute left-[-22px] top-[-6px] z-50'><BiLeftArrow id='openButton' className='ease-in duration-300'/></a>
+                <div class="social-menu">
+                    <ul>
+                        <li><a href="https://www.facebook.com/teamlanguagenetwork" target="blank"><i class="fab flex items-center h-full"> <FaFacebookF className='w-full' /></i></a></li>
+                        <li><a href="https://www.instagram.com/thelanguagenetwork/" target="blank"><i class="fab flex items-center h-full"> <FaInstagram className='w-full' /></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/the-languagenetwork/" target="blank"><i class="fab flex items-center justify-center h-full"> <FaLinkedinIn className='w-8/12' /></i></a></li>
+                        <li><a href="mailto:info@thelanguagenetwork.co"><i class="fab flex items-center h-full"> <FiMail className='w-full' /></i></a></li>
+                        <li><a href="https://in.pinterest.com/teamlanguagenetwork/"><i class="fab flex items-center h-full"> <FaPinterestP className='w-full' /></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC2pMpIkwz5AzM-SRMX9rjLQ"><i class="fab flex items-center h-full"> <FaYoutube className='w-full' /></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
             <div className="mt-10 px-10 bg-#dfdfdf space-y-1 flex flex-col items-center pb-8">
                 <span className='mt-5 flex flex-col text-2xl lg:text-5xl font-medium'>We're here to help</span>
                 <br></br>
                 <span className='text-md lg:text-lg mb-10'>Get in touch with our student support team for any queries or specific needs.</span>
                 <br></br>
                 <a href="mailto:support@thelanguagenetwork.co">
-                <button type="button" class="btn btn-info text-white mb-10 mb-3 flex" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '10px', paddingRight: '30px', paddingBottom: '10px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Contact Us</button>
+                    <button type="button" class="btn btn-info text-white mb-10 mb-3 flex" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '10px', paddingRight: '30px', paddingBottom: '10px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Contact Us</button>
                 </a>
             </div>
             <div className='flex-wrap px-3 bg-teal-400 w-full flex flex-row justify-evenly px-10 h-20 lg:h-12 space-x-3.5 lg:space-x-0.5'>

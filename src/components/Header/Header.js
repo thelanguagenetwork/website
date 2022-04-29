@@ -139,7 +139,7 @@ class Header extends react.Component {
         </Nav>
 
 
-        <div class="menu-button">
+        {/* <div class="menu-button">
           <div class="social-menu">
             <ul>
               <li><a href="https://www.facebook.com/teamlanguagenetwork" target="blank"><i class="fab flex items-center h-full"> <FaFacebookF className='w-full' /></i></a></li>
@@ -150,7 +150,7 @@ class Header extends react.Component {
               <li><a href="https://www.youtube.com/channel/UC2pMpIkwz5AzM-SRMX9rjLQ"><i class="fab flex items-center h-full"> <FaYoutube className='w-full' /></i></a></li>
             </ul>
           </div>
-        </div>
+        </div> */}
 
       </>
     )
