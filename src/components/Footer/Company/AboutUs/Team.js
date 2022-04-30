@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Slider from "react-slick";
 import { useState, useEffect, useRef } from "react";
 // import React from 'react'
@@ -197,7 +197,7 @@ export default function Team() {
     return (
         <div className="w-full lg:px-20">
             <div className="w-full flex flex-row items-center">
-                <Slider asNavFor={nav2} autoplay={true} ref={slider1} dots={false} arrows={true} nextArrow={<SampleNextArrow />} prevArrow={<SamplePrevArrow />} className='w-full lg:w-[50%] lg:mr-3'>
+                <Slider asNavFor={nav2} autoplay={true} ref={slider1} dots={false} arrows={false} className='w-full lg:w-[50%] lg:mr-3'>
                     {cardData1.map((card, i) => {
                         return (
                             <div class="p-2 lg:w-full px-3 lg:px-0">
@@ -220,8 +220,10 @@ export default function Team() {
                     slidesToShow={3}
                     swipeToSlide={true}
                     focusOnSelect={true}
-                    arrows={false}
-                    className='w-[50%] flex flex-row'
+                    arrows={true}
+                    prevArrow={<SamplePrevArrow />}
+                    nextArrow={<SampleNextArrow />} 
+                    className='w-[50%] hidden lg:flex lg:flex-row'
                 >
                     {cardData2.map((card, j) => {
                         return (
