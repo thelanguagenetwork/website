@@ -34,7 +34,7 @@ import PrivacyPolicy from './components/Footer/Legal/PrivacyPolicy';
 
 import Phrase from './components/Footer/PhraseBook/phrase';
 import './components/Home/BookTrial'
-
+import ForeignLangTrainers from './components/Footer/Company/Careers/links_to/ForeignLangTrainers';
 
 function Routing() {
   return (
@@ -84,8 +84,8 @@ function Routing() {
           <Route exact path='/Terms-And-Conditions' element={<TermsAndConditions />} />
           <Route exact path='/Privacy-Policy' element={<PrivacyPolicy />} />
 
-
-
+          {/* Link_to */}
+          <Route exact path='/Careers/ForeignLangTrainers' element={<ForeignLangTrainers />} />
         </Routes>
         <Footer />
       </Router>

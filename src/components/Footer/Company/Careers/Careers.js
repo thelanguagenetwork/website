@@ -31,7 +31,7 @@ export default function Careers() {
             </div>
           </div>
           <div class="lg:w-5/12 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-          <img src={gif} alt="Computer man" />        
+            <img src={gif} alt="Computer man" />
           </div>
         </div>
       </section>
@@ -50,7 +50,7 @@ export default function Careers() {
                 </div>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Foreign Language Trainers</h2>
                 <p class="leading-relaxed text-base">Location: Mumbai, Pune</p>
-                <a href='/' class="text-indigo-500 inline-flex items-center my-4">Learn More
+                <a href='/Careers/ForeignLangTrainers' class="text-indigo-500 inline-flex items-center my-4">Learn More
                   <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M5 12h14"></path>
                     <path d="M12 5l7 7-7 7"></path>
@@ -122,6 +122,7 @@ export default function Careers() {
                 </a>
               </div>
             </div>
+
             <div class="xl:w-1/3 md:w-1/2 p-4 w-full">
               <div class="border border-gray-200 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
@@ -138,6 +139,7 @@ export default function Careers() {
                 </a>
               </div>
             </div>
+
           </div>
         </div>
       </section>
