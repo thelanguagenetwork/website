@@ -12,7 +12,7 @@ import {BiLeftArrow} from 'react-icons/bi'
 import {useState} from 'react';
 
 export default function Footer() {
-    const [open, setOpen] = useState(true)
+    const [open, setOpen] = useState(false)
 
     function openClose() {
       if (open === false) {
@@ -32,7 +32,7 @@ export default function Footer() {
     return (
         <div className="bg-[#f4f8fb]" style={{ bottom: '0px', left: '0px' }}>
             <div class="menu-button ease-in duration-300" id='menuButton'>
-               <a onClick={() => openClose()} className=' absolute left-[-22px] top-[-6px] z-50'><BiLeftArrow id='openButton' className='ease-in duration-300'/></a>
+               <a onClick={() => openClose()} className=' absolute left-[-22px] top-[-6px] z-50'><BiLeftArrow id='openButton' className='ease-in duration-300 rotate-180'/></a>
                 <div class="social-menu">
                     <ul>
                         <li><a href="https://www.facebook.com/teamlanguagenetwork" target="blank"><i class="fab flex items-center h-full"> <FaFacebookF className='w-full' /></i></a></li>
