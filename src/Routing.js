@@ -35,7 +35,7 @@ import PrivacyPolicy from './components/Footer/Legal/PrivacyPolicy';
 import Phrase from './components/Footer/PhraseBook/phrase';
 import './components/Home/BookTrial'
 import ForeignLangTrainers from './components/Footer/Company/Careers/links_to/ForeignLangTrainers';
-
+import BusinessDevIntern from './components/Footer/Company/Careers/links_to/BusinessDevIntern';
 function Routing() {
   return (
     <div className="App">
@@ -86,6 +86,8 @@ function Routing() {
 
           {/* Link_to */}
           <Route exact path='/Careers/ForeignLangTrainers' element={<ForeignLangTrainers />} />
+          <Route exact path='/Careers/BusinessDevIntern' element={<BusinessDevIntern />} />
+
         </Routes>
         <Footer />
       </Router>

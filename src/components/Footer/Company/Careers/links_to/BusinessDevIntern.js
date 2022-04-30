@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiFillStar } from 'react-icons/ai'
-export default function ForeignLangTrainers() {
+export default function BusinessDevIntern() {
   return (
     <div>
       <div className="bg-[url('/public/images/25388715424_65480dbf18_k.jpg')] bg-no-repeat bg-cover bg-center h-[60vh]" >
@@ -15,7 +15,7 @@ export default function ForeignLangTrainers() {
 
 
       <div className="flex flex-col justify-center items-left px-10 py-10 lg:px-44 lg:pt-28 space-y-9">
-        <h1 className="text-3xl lg:text-5xl font-small">Foreign Language Trainers</h1>
+        <h1 className="text-3xl lg:text-5xl font-small">Business Development Intern</h1>
         <span><strong>Languages: </strong>French, German, Spanish, Mandarin, English, Italian, Portuguese, Russian, Arabic and Japanese</span>
         <span><strong>Type: </strong> Work from home (Online classes)</span>
         <span><strong>Location: </strong>Mumbai, Pune</span>
