@@ -63,7 +63,7 @@ export const French_1_2 = [
     content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
     lvlName: 'A1',
     //  OgPrice : 444,
-    DiscPrice: 333,
+    DiscPrice: 16790,
     Link: "https://rzp.io/l/frencha12"
   },
   {
@@ -71,7 +71,7 @@ export const French_1_2 = [
     content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
     lvlName: 'A2',
     //  OgPrice : 444,
-    DiscPrice: 333,
+    DiscPrice: 21590,
     Link: "https://rzp.io/l/FrenchA22"
   },
   {
@@ -79,7 +79,7 @@ export const French_1_2 = [
     content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
     lvlName: 'B1',
     //  OgPrice : 444,
-    DiscPrice: 333,
+    DiscPrice:45580, 
     Link: "https://rzp.io/l/frenchB12"
   },
   {
@@ -87,7 +87,7 @@ export const French_1_2 = [
     content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
     lvlName: 'B2',
     //  OgPrice : 444,
-    DiscPrice: 333,
+    DiscPrice: 47980,
     Link: "https://rzp.io/l/frenchb22"
   },
   {
@@ -95,7 +95,7 @@ export const French_1_2 = [
     content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
     lvlName: 'A1+A2',
     //   OgPrice : 444,
-    DiscPrice: 333,
+    DiscPrice: 30790,
     Link: "https://rzp.io/l/frencha1a22"
   },
   {
@@ -103,7 +103,7 @@ export const French_1_2 = [
     content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
     lvlName: 'B1+B2',
     //  OgPrice : 444,
-    DiscPrice: 333,
+    DiscPrice: 74890,
     Link: "https://rzp.io/l/frenchb1b22"
   },
   {
@@ -111,7 +111,7 @@ export const French_1_2 = [
     content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
     lvlName: 'A1+A2+B1+B2',
     //   OgPrice : 444,
-    DiscPrice: 333,
+    DiscPrice: 105590,
     Link: "https://rzp.io/l/frencha1a2b1b22"
   }
 ]

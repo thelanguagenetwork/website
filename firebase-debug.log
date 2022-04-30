@@ -1,0 +1,13 @@
+[debug] [2022-04-30T03:31:57.425Z] ----------------------------------------------------------------------
+[debug] [2022-04-30T03:31:57.427Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mainak Saha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-04-30T03:31:57.428Z] CLI Version:   10.7.2
+[debug] [2022-04-30T03:31:57.428Z] Platform:      win32
+[debug] [2022-04-30T03:31:57.428Z] Node Version:  v16.14.0
+[debug] [2022-04-30T03:31:57.429Z] Time:          Sat Apr 30 2022 09:01:57 GMT+0530 (India Standard Time)
+[debug] [2022-04-30T03:31:57.429Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-30T03:31:57.489Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-30T03:31:57.490Z] > authorizing via signed-in user (team.language.network@gmail.com)
+[debug] [2022-04-30T03:31:57.490Z] [iam] checking project thelanguagenetwork-23501 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-04-30T03:31:57.492Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/thelanguagenetwork-23501:testIamPermissions [none]
+[debug] [2022-04-30T03:31:57.492Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/thelanguagenetwork-23501:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
