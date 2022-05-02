@@ -85,7 +85,7 @@ export default function AboutUs() {
 
       <div className="pt-40">
         <div className="flex flex-col items-center justify-center lg:px-40 space-y-10">
-          <h1 className='lg:flex wrap font-bold text-2xl md:text-3xl lg:text-4xl '>Core Values that shape our
+          <h1 className='lg:flex wrap font-bold text-2xl md:text-3xl lg:text-4xl ml-28'>Core Values that shape our
             <div class="scroller mt-0">
               <span className='lg:pl-4 text-[#13bfab] lg:px-3 items-center'>
                 Behaviours<br />

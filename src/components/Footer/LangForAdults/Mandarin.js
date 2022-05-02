@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaRegWindowMinimize, FaLightbulb } from 'react-icons/fa';
+import { FaRegWindowMinimize } from 'react-icons/fa';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 
@@ -68,7 +68,7 @@ export default function AdultsMandarin() {
                     <p className='text-sm text-gray-700'>Along with our Mandarin language course, we also teach you how to make proper C.V. We believe that all career aspects are important. </p>
                 </div>
                 <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/deleadults.png" alt="alt" className='p-8' />
+                    <img src="/images/Asset-34@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>HSK Preparations</h3>
                     <p className='text-sm text-gray-700'>
                         When you learn Mandarin with us, we also prepare you for international exams like HSK . We believe that our students should crack these exam so that we can teach you how to ace </p>
