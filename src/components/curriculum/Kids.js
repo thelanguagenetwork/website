@@ -1,6 +1,13 @@
 import React from 'react'
 import { useState } from 'react';
 import KidsTable from './KidsTable';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination"
+import "swiper/css/navigation"
+import SwiperCore, {
+    Autoplay, Pagination, Navigation
+} from 'swiper';
 
 function Kids() {
 
@@ -42,7 +49,7 @@ function Kids() {
             <div className="fadeIN Home-container-2 w-full lg:px-20 mt-4">
                 <h2>Bring The World To Your Child</h2>
                 <h1 className='mb-6'>Choose a language</h1>
-                <div className='Home-container-2-imgs'>
+                <div className='Home-container-2-imgs hidden lg:flex'>
                     <a className='my-2 text-black hover:text-black font-medium' href='/english-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-English.png' /><span className='pr-8'>English</span></a>
                     <a className='my-2 text-black hover:text-black font-medium' href='/french-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-French-1.png' /><span className='pr-8'>French</span></a>
                     <a className='my-2 text-black hover:text-black font-medium' href='/spanish-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Spanish-1.png' /><span className='pr-8'>Spanish</span></a>
@@ -51,6 +58,35 @@ function Kids() {
                     <a className='my-2 text-black hover:text-black font-medium' href='/japanese-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Japanese-1.png' /><span className='pr-8'>Japanese</span></a>
                     <a className='my-2 text-black hover:text-black font-medium' href='/korean-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Korean-1.png' /><span className='pr-8'>Korean</span></a>
                 </div>
+                <Swiper className='pagi1 block lg:hidden' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 1
+
+                        },
+                    }}
+                    pagination={{
+                        "clickable": true
+                    }} navigation={true} autoplay={{
+                        "delay": 2500,
+                        "disableOnInteraction": false
+                    }}
+                >
+                    <SwiperSlide>
+                        <a className='m-24 text-black hover:text-black font-medium' href='/french-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-French-1.png' /><span className='pr-12'>French</span></a>                    </SwiperSlide>
+                    <SwiperSlide>
+                        <a className='m-24 text-black hover:text-black font-medium' href='/english-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-English.png' /><span className='pr-12'>English</span></a>                    </SwiperSlide>
+                    <SwiperSlide>
+                        <a className='m-24 text-black hover:text-black font-medium' href='/spanish-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Spanish-1.png' /><span className='pr-12'>Spanish</span></a>                    </SwiperSlide>
+                    <SwiperSlide>
+                        <a className='m-24 text-black hover:text-black font-medium' href='/german-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Germany-1.png' /><span className='pr-12'>German</span></a>                    </SwiperSlide>
+                    <SwiperSlide>
+                        <a className='m-24 text-black hover:text-black font-medium' href='/mandarin-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Mandarin-1.png' /><span className='pr-12'>Mandarin</span></a>                    </SwiperSlide>
+                    <SwiperSlide>
+                        <a className='m-24 text-black hover:text-black font-medium' href='/japanese-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Japanese-1.png' /><span className='pr-12'>Japanese</span></a>                    </SwiperSlide>
+                    <SwiperSlide>
+                        <a className='m-24 text-black hover:text-black font-medium' href='/korean-course-kids'><img className='Home-container-2-img' alt='img' src='/images/Astronaut-Korean-1.png' /><span className='pr-12'>Korean</span></a>                    </SwiperSlide>
+                </Swiper>
             </div>
             {/* <div className='h-[85vh] lg:px-80 text-center flex flex-column items-center justify-center bgimg-2'>
                 <h1 className='text-white font-semibold text-4xl mb-12'>Foreign Language Education for Everyone!</h1>
@@ -59,7 +95,7 @@ function Kids() {
                 <a href="/getstarted"><button type="button" class="btn btn-outline-light rounded-xl px-8 py-3 font-medium">Get Started</button></a>
                 <img src="/images/Ship.png" alt="alt" className='w-[15%] absolute top-[-2.8rem] right-[12rem] lg:block hidden' />
             </div> */}
-            <div className='infosec w-full lg:p-20 sm:p-3 flex flex-col lg:flex-row items-center mt-24'>
+            <div className='infosec w-full lg:p-20 flex flex-col lg:flex-row items-center mt-24'>
                 <div className='p-2 w-full lg:w-[40%]'>
                     <h1 className='font-medium text-3xl'>Learning, unbeknownst to many, starts at a very early age</h1>
                     <p className='text-gray-700 text-md'>Take a look at the various benefits that Early learning in Kids provide</p>
@@ -82,12 +118,12 @@ function Kids() {
                     <Description />
                 </div>
             </div>
-                <KidsTable />
-                <div className="w-full flex justify-center">
-              <a href='getstarted'> <button class="bg-teal-500 hover:bg-teal-400 text-white font-bold py-3 px-4 rounded-xl" >
-                            Get Started
-                </button></a> 
-                </div>
+            <KidsTable />
+            <div className="w-full flex justify-center">
+                <a href='getstarted'> <button class="bg-teal-500 hover:bg-teal-400 text-white font-bold py-3 px-4 rounded-xl" >
+                    Get Started
+                </button></a>
+            </div>
         </div>
     )
 }

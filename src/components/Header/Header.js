@@ -108,7 +108,7 @@ class Header extends react.Component {
             </a>
 
             <a>
-              <span id='curriculum' className='hover:text-teal-600' style={{ padding: '31px 31px 0px 0px' }} onMouseOver={expand} onMouseLeave={retract}>
+              <span id='curriculum' className='hover:text-teal-600' style={{ padding: '31px 31px 19px 0px' }} onMouseOver={expand} onMouseLeave={retract}>
                 Courses
                 <IoIosArrowDown />
 
@@ -157,16 +157,12 @@ class Header extends react.Component {
   }
 }
 
-
-
-
-
 const Nav = styled.nav`
               position: relative;
               top: 0;
               left: 0;
               right: 0;
-              height: 12vh;
+              height: 10vh;
               background-color: #ffffff;
               box-shadow: 0px 0px 8px 0px rgb(216 216 216 / 50%);
               display: flex;
@@ -197,7 +193,7 @@ const Logo = styled.a`
 
 
 const NavMenu = styled.div`
-              align-items: baseline;
+              align-items: center;
               display: flex;
               flex-flow: row nowrap;
               height: auto;
@@ -210,7 +206,7 @@ const NavMenu = styled.div`
               a {
                 text - decoration: none;
               display: flex;
-              align-items: baseline;
+              align-items: center;
               padding: 12px 12px 0px 12px;
               cursor: pointer;
               height: 100%;
@@ -313,7 +309,7 @@ const Trial = styled.a`
               margin: 0;
               outline: 0;
               padding: 0;
-              vertical-align: baseline;
+              vertical-align: center;
               color: #ffffff;
   }
               &:hover{
