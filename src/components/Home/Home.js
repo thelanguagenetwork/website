@@ -185,10 +185,10 @@ export default function Home() {
             </div> */}
 
 
-            <div className="Home-container-2 w-full lg:w-4/5 mt-72 lg:mt-28">
+            <div className="Home-container-2  lg:pb-[60px] pb-2 w-full lg:w-4/5 mt-72 lg:mt-28">
                 <h1>START YOUR JOURNEY WITH US!</h1>
                 <h2>Foreign Language Courses We Offer</h2>
-                <div className='Home-container-2-imgs'>
+                <div className='Home-container-2-imgs hidden lg:flex'>
                     <a href='/english-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-english@300x.png' /></a>
                     <a href='/french-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-french@300x.png' /></a>
                     <a href='/spanish-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-spanish@300x.png' /></a>
@@ -197,9 +197,40 @@ export default function Home() {
                     <a href='/japanese-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-japanese@300x.png' /></a>
                     <a href='/korean-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-korean@300x.png' /></a>
                 </div>
+                <Swiper className='pagi1 block lg:hidden mb-12 lg:mb-0' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 1
+
+                        },
+                    }}
+                    pagination={{
+                        "clickable": true
+                    }} navigation={true} autoplay={{
+                        "delay": 2500,
+                        "disableOnInteraction": false
+                    }}
+                >
+                    <SwiperSlide>
+                        <a href='/english-course-adults'><img className='Home-container-2-img px-12' alt='img' src='/images/adults-english@300x.png' /></a>
+                    </SwiperSlide><SwiperSlide>
+                        <a href='/french-course-adults'><img className='Home-container-2-img px-12' alt='img' src='/images/adults-french@300x.png' /></a>
+                    </SwiperSlide><SwiperSlide>
+                        <a href='/spanish-course-adults'><img className='Home-container-2-img px-12' alt='img' src='/images/adults-spanish@300x.png' /></a>
+                    </SwiperSlide><SwiperSlide>
+                        <a href='/german-course-adults'><img className='Home-container-2-img px-12' alt='img' src='/images/adults-german@300x.png' /></a>
+                    </SwiperSlide><SwiperSlide>
+                        <a href='/mandarin-course-adults'><img className='Home-container-2-img px-12' alt='img' src='/images/adults-mandarin@300x.png' /></a>
+                    </SwiperSlide><SwiperSlide>
+                        <a href='/japanese-course-adults'><img className='Home-container-2-img px-12' alt='img' src='/images/adults-japanese@300x.png' /></a>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <a href='/korean-course-adults'><img className='Home-container-2-img px-12' alt='img' src='/images/adults-korean@300x.png' /></a>
+                    </SwiperSlide>
+                </Swiper>
             </div>
 
-            <div className="Home-container-3  mt-4">
+            <div className="Home-container-3 lg:px-72 lg:mt-32">
                 <span className="font-semibold text-3xl lg:text-4xl">
                     Students at The Language Network
                 </span>
@@ -209,7 +240,7 @@ export default function Home() {
             </div>
             <div className='w-full flex flex-col items-center justify-center'>
 
-            <div className="w-5/6 lg:flex flex-row space-y-10 lg:space-y-0 mt-12">
+                <div className="w-5/6 lg:flex flex-row space-y-10 lg:space-y-0 mt-12">
                     <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
                         <div className="Home-card-img">
                             <img src='/images/Adolscents@300x.png' alt='img' />
@@ -254,7 +285,7 @@ export default function Home() {
                         All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
                     </p>
                 </div>
-                <div className='flex align-center px-5 py-5 lg:px-20 lg:py-20'>
+                <div className='flex align-center px-3 py-3 lg:px-20 lg:py-20'>
                     <img src='/images/CEFR-LEVELS-1.png' alt='img' />
                 </div>
             </div>
@@ -308,10 +339,9 @@ export default function Home() {
                 </Swiper>
             </div>
 
-            <div className="my-5 py-20 lg:flex flex-row h-auto w-full bg-[#f4f8fb] px-10">
+            <div className="my-5 lg:flex flex-row h-auto w-full bg-[#f4f8fb] px-8 py-4">
                 <div className='flex flex-col space-y-6 mx-0 lg:mx-4 lg:mx-0 lg:pl-20 lg:pr-52 justify-center lg:w-2/3'>
                     <h1 className='font-medium text-3xl lg:text-4xl'>The Language Network saves you
-
                         <div class="scroller">
                             <span className='bg-[#13bfab] px-3 text-center text-white font-medium'>
                                 Time<br />
@@ -365,7 +395,7 @@ export default function Home() {
             </div>
             <Team />
 
-            <div className="Home-container-11 mt-20">
+            <div className="Home-container-11 mt-20 mb-20 lg:mb-0">
                 <h1>Happy Testimonials</h1>
                 <hr></hr>
                 <Testimonial />

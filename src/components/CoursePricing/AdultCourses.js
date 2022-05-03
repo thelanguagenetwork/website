@@ -3,6 +3,14 @@ import './Courses.css';
 import { useState } from 'react';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination"
+import "swiper/css/navigation"
+import SwiperCore, {
+    Autoplay, Pagination, Navigation
+} from 'swiper';
+
 import LearningPrices from './LearningPrices';
 import { English_1_1, English_1_2, English_1_4 } from './CourseTableData/English.js'
 import { French_1_1, French_1_2, French_1_4 } from './CourseTableData/French'
@@ -64,7 +72,7 @@ export default function AdultsCourses() {
             case 'French':
                 return (<div>
                     <LearningPrices one_one={French_1_1} one_two={French_1_2} one_four={French_1_4} />
-                    <AdultsFrench />       
+                    <AdultsFrench />
                 </div>)
                 break;
             case 'Spanish':
@@ -112,7 +120,7 @@ export default function AdultsCourses() {
         <div className="Home-container-2 px-5 fadeIN" style={{ width: '100%', marginTop: '2rem', paddingTop: 0 }}>
             <h2>A Fun, Proven method for Learning</h2>
             <h1 className='mb-12'>Choose a language</h1>
-            <div className='Home-container-2-imgs'>
+            <div className='Home-container-2-imgs hidden lg:flex'>
                 <a onClick={() => setLanguage('English')} className='lg:mt-12'><img id={language === 'English' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-english@300x.png' /></a>
                 <a onClick={() => setLanguage('French')} className='lg:mt-12'><img id={language === 'French' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-french@300x.png' /></a>
                 <a onClick={() => setLanguage('Spanish')} className='lg:mt-12'><img id={language === 'Spanish' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-spanish@300x.png' /></a>
@@ -121,6 +129,42 @@ export default function AdultsCourses() {
                 <a onClick={() => setLanguage('Japanese')} className='lg:mt-12'><img id={language === 'Japanese' ? 'selected' : ''} className='Home-container-2-img h-[95%]  lg:w-auto' alt='img' src='/images/adults-japanese@300x.png' /></a>
                 <a onClick={() => setLanguage('Korean')} className='lg:mt-12'><img id={language === 'Korean' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-korean@300x.png' /></a>
             </div>
+            <Swiper className='pagi1 block lg:hidden' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+                breakpoints={{
+                    640: {
+                        slidesPerView: 1
+
+                    },
+                }}
+                pagination={{
+                    "clickable": true
+                }} navigation={true} autoplay={{
+                    "delay": 2500,
+                    "disableOnInteraction": false
+                }}
+            >
+                <SwiperSlide>
+                    <a onClick={() => setLanguage('English')} className='m-12'><img id={language === 'English' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-english@300x.png' /></a>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <a onClick={() => setLanguage('French')} className='m-12'><img id={language === 'French' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-french@300x.png' /></a>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <a onClick={() => setLanguage('Spanish')} className='m-12'><img id={language === 'Spanish' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-spanish@300x.png' /></a>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <a onClick={() => setLanguage('German')} className='m-12'><img id={language === 'German' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-german@300x.png' /></a>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <a onClick={() => setLanguage('Mandarin')} className='m-12'><img id={language === 'Mandarin' ? 'selected' : ''} className='Home-container-2-img h-[95%]  lg:w-auto' alt='img' src='/images/adults-mandarin@300x.png' /></a>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <a onClick={() => setLanguage('Japanese')} className='m-12'><img id={language === 'Japanese' ? 'selected' : ''} className='Home-container-2-img h-[95%]  lg:w-auto' alt='img' src='/images/adults-japanese@300x.png' /></a>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <a onClick={() => setLanguage('Korean')} className='m-12'><img id={language === 'Korean' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-korean@300x.png' /></a>
+                </SwiperSlide>
+            </Swiper>
         </div>
 
         <LanguageSec />

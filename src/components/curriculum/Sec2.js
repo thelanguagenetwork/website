@@ -1,6 +1,6 @@
 import React from 'react'
 import Adults from './Adults';
-import Adolescents from './Adolescents';
+// import Adolescents from './Adolescents';
 import Kids from './Kids';
 import { useState } from 'react';
 
@@ -36,16 +36,16 @@ export default function Sec2() {
 
     return (
         <div className='w-full'>
-            <div className='w-full flex lg:flex-row flex-col lg:justify-center items-center'>
-                <a onClick={() => {change("Adults-Curriculum");setLvl(1);}} id={Lvl === 1 ? 'btnP' : ''} class="buttons bg-white py-2.5 px-4 rounded-lg shadow mx-3">
+            <div className='w-full flex lg:flex-row flex-col lg:justify-center items-center space-y-3 lg:space-y-0'>
+                <div onClick={() => {change("Adults-Curriculum");setLvl(1);}} id={Lvl === 1 ? 'btnP' : ''}  class="buttons bg-white py-2.5 px-4 rounded-lg shadow mx-3">
                     Adults Curriculum
-                </a>
+                </div>
                 {/* <a onClick={() => {change("Adolescents-Curriculum");setLvl(2);}} id={Lvl === 2 ? 'btnP' : ''} class="buttons bg-white  py-2.5 px-4 rounded-lg shadow mx-3">
                     Adolescents Curriculum
                 </a> */}
-                <a onClick={() => {change("Kids-Curriculum");setLvl(3);}} id={Lvl === 3 ? 'btnP' : ''} class="buttons bg-white py-2.5 px-4 rounded-lg shadow mx-3">
+                <div onClick={() => {change("Kids-Curriculum");setLvl(3);}} id={Lvl === 3 ? 'btnP' : ''}  class="buttons bg-white py-2.5 px-4 rounded-lg shadow mx-3">
                     Kids Curriculum
-                </a>
+                </div>
             </div>
             <Age />
         </div>
