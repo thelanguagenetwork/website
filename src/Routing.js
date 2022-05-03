@@ -36,6 +36,10 @@ import Phrase from './components/Footer/PhraseBook/phrase';
 import './components/Home/BookTrial'
 import ForeignLangTrainers from './components/Footer/Company/Careers/links_to/ForeignLangTrainers';
 import BusinessDevIntern from './components/Footer/Company/Careers/links_to/BusinessDevIntern';
+import GraphicDesignInterface from './components/Footer/Company/Careers/links_to/GraphicDesignInterface';
+import ContentWritingInterns from './components/Footer/Company/Careers/links_to/ContentWritingInterns';
+import MarketingInterns from './components/Footer/Company/Careers/links_to/MarketingInterns';
+import OperationIntern from './components/Footer/Company/Careers/links_to/OperationIntern';
 function Routing() {
   return (
     <div className="App">
@@ -87,6 +91,12 @@ function Routing() {
           {/* Link_to */}
           <Route exact path='/Careers/ForeignLangTrainers' element={<ForeignLangTrainers />} />
           <Route exact path='/Careers/BusinessDevIntern' element={<BusinessDevIntern />} />
+          <Route exact path='/Careers/GraphicDesignInterface' element={<GraphicDesignInterface />} />
+          <Route exact path='/Careers/ContentWritingInterns' element={<ContentWritingInterns />} />
+          <Route exact path='/Careers/MarketingInterns' element={<MarketingInterns />} />
+          <Route exact path='/Careers/OperationIntern' element={<OperationIntern />} />
+
+
 
         </Routes>
         <Footer />
