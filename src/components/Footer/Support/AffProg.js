@@ -5,6 +5,12 @@ import { AiFillStar } from 'react-icons/ai';
 import { FaAward } from 'react-icons/fa';
 import { GiReceiveMoney, GiWallet } from 'react-icons/gi';
 import { GrCertificate } from 'react-icons/gr';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination"
+import "swiper/css/navigation"
+import Popup from '../../curriculum/Pop/Popup';
+
 
 import { FiShare2, FiUserPlus } from 'react-icons/fi';
 
@@ -171,7 +177,7 @@ export default function AffProg() {
       </div>
       <div className="Home-container-2 w-full lg:px-20 mt-16">
         <h2>Which language would you like to learn?</h2>
-        <div className='Home-container-2-imgs lg:flex flex-row mt-10 '>
+        <div className='Home-container-2-imgs hidden lg:flex flex-row mt-10 '>
           <a href='/english-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/English.png' /><span className=''>English</span></a>
           <a href='/french-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/French.png' /><span className=''>French</span></a>
           <a href='/spanish-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/Spanish.png' /><span className=''>Spanish</span></a>
@@ -180,6 +186,28 @@ export default function AffProg() {
           <a href='/japanese-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/Japanese.png' /><span className=''>Japanese</span></a>
           <a href='/korean-course-adults' className='my-2 text-black hover:text-black font-medium lg:flex flex-col'><img className='Home-container-21-img' alt='img' src='/images/Korean.png' /><span className=''>Korean</span></a>
         </div>
+        <Swiper className='pagi1 block lg:hidden mb-12 lg:mb-0' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 1
+
+                        },
+                    }}
+                    pagination={false} navigation={true} autoplay={{
+                        "delay": 2500,
+                        "disableOnInteraction": false
+                    }}
+                >
+                    <SwiperSlide>
+                        <Popup sub="English" a1="/english-course-adults" a2="/english-course-kids" im="/images/English.png" src1="/images/adults-english@300x.png" src2='/images/Astronaut-English.png' />                    </SwiperSlide><SwiperSlide>
+                        <Popup sub="French" a1="/french-course-adults" a2="/french-course-kids" im="/images/French.png" src1="/images/adults-french@300x.png" src2='/images/Astronaut-French-1.png' />                    </SwiperSlide><SwiperSlide>
+                        <Popup sub="Spanish" a1="/spanish-course-adults" a2="/spanish-course-kids" im="/images/Spanish.png" src1="/images/adults-spanish@300x.png" src2='/images/Astronaut-Spanish-1.png' />                    </SwiperSlide><SwiperSlide>
+                        <Popup sub="German" a1="/german-course-adults" a2="/german-course-kids" im="/images/German.png" src1="/images/adults-german@300x.png" src2='/images/Astronaut-Germany-1.png' />                    </SwiperSlide><SwiperSlide>
+                        <Popup sub="Mandarin" a1="/mandarin-course-adults" a2="/mandarin-course-kids" im="/images/Mandarin.png" src1="/images/adults-mandarin@300x.png" src2='/images/Astronaut-Mandarin-1.png' />                    </SwiperSlide><SwiperSlide>
+                        <Popup sub="Japanese" a1="/japanese-course-adults" a2="/japanese-course-kids" im="/images/Japanese.png" src1="/images/adults-japanese@300x.png" src2='/images/Astronaut-Japanese-1.png' />                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Popup sub="Korean" a1="/korean-course-adults" a2="/korean-course-kids" im="/images/Korean.png" src1="/images/adults-korean@300x.png" src2='/images/Astronaut-Korean-1.png' />                    </SwiperSlide>
+                </Swiper>
       </div>
       <div>
         <p className='w-full pb-10 text-center font-medium text-4xl mt-10'>FAQ</p>

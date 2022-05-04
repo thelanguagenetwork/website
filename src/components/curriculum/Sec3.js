@@ -34,7 +34,7 @@ export default function Sec3() {
     // }
 
     return <div className='relative flex flex-col items-center mt-32'>
-        <div className="Home-container-3">
+        <div className="Home-container-3 lg:px-52">
             <h1>
                 Students at The Language Network
             </h1>
@@ -74,7 +74,7 @@ export default function Sec3() {
         </div> */}
         <section class="text-gray-600 body-font">
             <div class="container px-5 py-20 mx-auto">
-                <div class="flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
+                <div class="hidden lg:flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
                     <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
                         <img src="/images/account.png" alt="img" className='' />
                     </div>
@@ -82,6 +82,16 @@ export default function Sec3() {
                         <h1 className='text-xl tracking-widest font-medium text-black'>STEP 1</h1>
                         <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Register with us</h2>
                         <p class="leading-relaxed text-black ">Fill out a form with your personal and contact information, choose your language and register with us. Our team of experts will will assist you with the online classes, study materials and lots more.</p>
+                    </div>
+                </div>
+                <div class="flex lg:hidden items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
+                    <div class="flex-grow sm:text-left mt-6 sm:mt-0">
+                        <h1 className='text-xl tracking-widest font-medium text-black'>STEP 1</h1>
+                        <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Register with us</h2>
+                        <p class="leading-relaxed text-black ">Fill out a form with your personal and contact information, choose your language and register with us. Our team of experts will will assist you with the online classes, study materials and lots more.</p>
+                    </div>
+                    <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
+                        <img src="/images/account.png" alt="img" className='' />
                     </div>
                 </div>
                 <div class="flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
@@ -94,7 +104,7 @@ export default function Sec3() {
                         <img src="/images/classroom.png" alt="img"/>
                     </div>
                 </div>
-                <div class="flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
+                <div class="hidden lg:flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
                     <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
                         <img src="/images/get-started.png" alt="img"/>
                     </div>
@@ -102,6 +112,16 @@ export default function Sec3() {
                         <h1 className='text-xl tracking-widest font-medium text-black'>STEP 3</h1>
                         <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Get started</h2>
                         <p class="leading-relaxed text-black ">Practice what you learn with other students. We provide small batches, so you’ll get personalized attention with the expert language teachers.</p>
+                    </div>
+                </div>
+                <div class="flex lg:hidden items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
+                    <div class="flex-grow sm:text-left mt-6 sm:mt-0">
+                        <h1 className='text-xl tracking-widest font-medium text-black'>STEP 3</h1>
+                        <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Get started</h2>
+                        <p class="leading-relaxed text-black ">Practice what you learn with other students. We provide small batches, so you’ll get personalized attention with the expert language teachers.</p>
+                    </div>
+                    <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
+                        <img src="/images/get-started.png" alt="img"/>
                     </div>
                 </div>
 

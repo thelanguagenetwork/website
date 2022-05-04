@@ -45,7 +45,7 @@
     position: relative;
     background-image: url('/public/images/bg-blob.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    /* background-size: fill; */
     background-position: right;
 }
 
@@ -274,14 +274,14 @@
     font-family: 'Poppins';
     font-size: 35px;
     font-weight: 600;
-    line-height: 1.5em;
+    /* line-height: 1.5em; */
 }
 .Home-container-3 > p{
     color: #000000;
     border: 0;
     font-size: 17px;
     font-family: 'Poppins';
-    text-align: center;
+    /* text-align: center; */
     margin: 0;
     outline: 0;
     vertical-align: baseline;
@@ -400,7 +400,7 @@
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    /* background: #fff; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -952,6 +952,12 @@
 
 .testi-slides{
     height: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+    .testi-slides{
+        height: 668px;
+    }
 }
 
 .Home-container-11 > h1{

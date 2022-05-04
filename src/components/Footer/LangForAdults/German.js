@@ -2,6 +2,10 @@ import React from 'react';
 import { FaRegWindowMinimize, FaLightbulb } from 'react-icons/fa';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination"
+import "swiper/css/navigation"
 
 export default function AdultsGerman() {
 
@@ -56,7 +60,7 @@ export default function AdultsGerman() {
             </div>
 
             <div className='w-full text-center text-3xl lg:text-4xl font-medium mt-20'>Why learn a language with TLN?</div>
-            <div className='w-full lg:px-32 py-18 flex flex-row flex-wrap  justify-evenly'>
+            <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly'>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>
@@ -105,6 +109,80 @@ export default function AdultsGerman() {
                 </div>
 
             </div>
+            <Swiper className='pagi1 block lg:hidden w-full px-10 md:px-16 bg-inherit' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+                breakpoints={{
+                    640: {
+                        slidesPerView: 1
+
+                    },
+                    768: {
+                        slidesPerView: 4
+                    }
+                }}
+                pagination={false} navigation={true} autoplay={{
+                    "delay": 2500,
+                    "disableOnInteraction": false
+                }}
+            >
+                <SwiperSlide>
+                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>
+                        Interview preparations ​</h3>
+                    <p className='text-sm text-gray-700'>
+                        While you learn German with us, we also prepare you for interview. Dont just learn German, focus on every aspect that is needed for sustenance.  </p>
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                   <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>
+                        CV making</h3>
+                    <p className='text-sm text-gray-700'>
+                        We also teach our students how to craft a perfect C.V. There is a cut throat competition in today’s world, so we teach you how to make C.V.s that will get you some attention.  </p>
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                   <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-30@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>
+                        GOETHE Preparations</h3>
+                    <p className='text-sm text-gray-700'>
+
+                        Our expert German trainers prepare you for international exams like Goethe. These international exams are important for those who wish to move abroad. We make sure that our students get trained to ace these exams.    </p>
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                   <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>
+                        Spoken German</h3>
+                    <p className='text-sm text-gray-700'>
+
+                        When our students learns German, we give emphasis to the spoken part more. We believe that our students should be able to better communicate in German. Our German language course covers all aspects of learning.   </p>
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                   <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>
+                        Unique Study Plans</h3>
+                    <p className='text-sm text-gray-700'>
+
+                        We have created unique study plans to meet our students learning needs. Learn German with our master plan and ace at German language. Our German language courses are carefully made for our students. </p>
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>
+                        Compact batches</h3>
+                    <p className='text-sm text-gray-700'>
+
+                        We believe in small batches. Learn German with us and get specialised attention from our language experts. You can also opt for one-on-one batches.   </p>
+                </div>
+                </SwiperSlide>
+            </Swiper>
 
             <div className='w-full lg:mt-28 text-center text-3xl lg:text-4xl font-medium '>How to learn German effectively?</div>
             <div className='flex flex-col lg:flex-row'>
@@ -194,41 +272,89 @@ export default function AdultsGerman() {
                     </p>
                 </div>
 
-                <div className="w-5/6 lg:flex flex-row space-y-10 lg:space-y-0 mt-12">
-                    <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
-                        <div className="Home-card-img">
-                            <img src='/images/Adolscents@300x.png' alt='img' />
+                <div className='w-full flex flex-col items-center justify-center'>
+                    <div className="w-5/6 hidden lg:flex flex-row space-y-10 lg:space-y-0 mt-12">
+                        <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
+                            <div className="Home-card-img">
+                                <img src='/images/Adolscents@300x.png' alt='img' />
+                            </div>
+                            <div className='Home-card-text'>
+                                <h1 id='Home-card-text-h1'>Kids (6-9 years)</h1>
+                                <p>Children in this age range can learn any foreign language with the right professional assistance. Kids have a high sense of creativity and imagination. At, TLN we know how to use this imagination and methodically focuses on aspects of language that boost performance and imagination</p>
+                            </div>
                         </div>
-                        <div className='Home-card-text'>
-                            <h1 id='Home-card-text-h1'>Kids (6-9 years)</h1>
-                            <p>Children in this age range can learn any foreign language with the right professional assistance. Kids have a high sense of creativity and imagination. At, TLN we know how to use this imagination and methodically focuses on aspects of language that boost performance and imagination</p>
+                        <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-2' onMouseOver={changeCol2} onMouseLeave={changeBack}>
+                            <div className="Home-card-img">
+                                <img src='/images/Kids@300x-1.png' alt='img' />
+                            </div>
+                            <div className='Home-card-text'>
+                                <h1 id='Home-card-text-h2'>Adolscents (10-13 years)</h1>
+                                <p>Students in this age group are usually energetic, curious, and eager to explore the world! At TLN, we teach more than just the language. We take you through the culture; traditions, clothing, food, festivals, etc. This means that you are learning more than the writing system or pronunciation.</p>
+                            </div>
+                        </div>
+                        <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-3' onMouseOver={changeCol3} onMouseLeave={changeBack}>
+                            <div className="Home-card-img">
+                                <img src='/images/adults@300x.png' alt='img' />
+                            </div>
+                            <div className='Home-card-text'>
+                                <h1 id='Home-card-text-h3'>Adults (14+ years)</h1>
+                                <p>Getting a certificate is an essential part of verifying your language skills. TLN prepares you for all types of language exams with the professional assistance of highly-qualified teachers. We also offer online classes per your convenience.</p>
+                            </div>
                         </div>
                     </div>
-                    <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-2' onMouseOver={changeCol2} onMouseLeave={changeBack}>
-                        <div className="Home-card-img">
-                            <img src='/images/Kids@300x-1.png' alt='img' />
-                        </div>
-                        <div className='Home-card-text'>
-                            <h1 id='Home-card-text-h2'>Adolscents (10-13 years)</h1>
-                            <p>Students in this age group are usually energetic, curious, and eager to explore the world! At TLN, we teach more than just the language. We take you through the culture; traditions, clothing, food, festivals, etc. This means that you are learning more than the writing system or pronunciation.</p>
-                        </div>
-                    </div>
-                    <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-3' onMouseOver={changeCol3} onMouseLeave={changeBack}>
-                        <div className="Home-card-img">
-                            <img src='/images/adults@300x.png' alt='img' />
-                        </div>
-                        <div className='Home-card-text'>
-                            <h1 id='Home-card-text-h3'>Adults (14+ years)</h1>
-                            <p>Getting a certificate is an essential part of verifying your language skills. TLN prepares you for all types of language exams with the professional assistance of highly-qualified teachers. We also offer online classes per your convenience.</p>
-                        </div>
-                    </div>
+                    <Swiper className='pagi1 w-5/6 flex lg:hidden flex-row mt-12' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+                        breakpoints={{
+                            640: {
+                                slidesPerView: 1
+
+                            },
+                        }}
+                        pagination={false} navigation={true} autoplay={{
+                            "delay": 2500,
+                            "disableOnInteraction": false
+                        }}
+                    >
+                        <SwiperSlide>
+                            <div className="w-full w-5/6 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
+                                <div className="Home-card-img">
+                                    <img src='/images/Adolscents@300x.png' alt='img' />
+                                </div>
+                                <div className='Home-card-text'>
+                                    <h1 id='Home-card-text-h1'>Kids (6-9 years)</h1>
+                                    <p>Children in this age range can learn any foreign language with the right professional assistance. Kids have a high sense of creativity and imagination. At, TLN we know how to use this imagination and methodically focuses on aspects of language that boost performance and imagination</p>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="w-full w-5/6 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-2' onMouseOver={changeCol2} onMouseLeave={changeBack}>
+                                <div className="Home-card-img">
+                                    <img src='/images/Kids@300x-1.png' alt='img' />
+                                </div>
+                                <div className='Home-card-text'>
+                                    <h1 id='Home-card-text-h2'>Adolscents (10-13 years)</h1>
+                                    <p>Students in this age group are usually energetic, curious, and eager to explore the world! At TLN, we teach more than just the language. We take you through the culture; traditions, clothing, food, festivals, etc. This means that you are learning more than the writing system or pronunciation.</p>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="w-full w-5/6 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-3' onMouseOver={changeCol3} onMouseLeave={changeBack}>
+                                <div className="Home-card-img">
+                                    <img src='/images/adults@300x.png' alt='img' />
+                                </div>
+                                <div className='Home-card-text'>
+                                    <h1 id='Home-card-text-h3'>Adults (14+ years)</h1>
+                                    <p>Getting a certificate is an essential part of verifying your language skills. TLN prepares you for all types of language exams with the professional assistance of highly-qualified teachers. We also offer online classes per your convenience.</p>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                    </Swiper>
                 </div>
             </div>
 
-            <p className='w-full lg:px-80 pt-20 text-center font-medium text-4xl'>Join us in a language trip now, by following these simple steps</p>
+            <p className='w-full px-3 lg:px-80 pt-20 text-center font-medium text-4xl'>Join us in a language trip now, by following these simple steps</p>
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-20 mx-auto">
-                    <div class="flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
+                    <div class="hidden lg:flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
                         <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
                             <img src="/images/account.png" alt="img" className='' />
                         </div>
@@ -236,6 +362,16 @@ export default function AdultsGerman() {
                             <h1 className='text-xl tracking-widest font-medium text-black'>STEP 1</h1>
                             <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Register with us</h2>
                             <p class="leading-relaxed text-black ">Fill out a form with your personal and contact information, choose your language and register with us. Our team of experts will will assist you with the online classes, study materials and lots more.</p>
+                        </div>
+                    </div>
+                    <div class="flex lg:hidden items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
+                        <div class="flex-grow sm:text-left mt-6 sm:mt-0">
+                            <h1 className='text-xl tracking-widest font-medium text-black'>STEP 1</h1>
+                            <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Register with us</h2>
+                            <p class="leading-relaxed text-black ">Fill out a form with your personal and contact information, choose your language and register with us. Our team of experts will will assist you with the online classes, study materials and lots more.</p>
+                        </div>
+                        <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
+                            <img src="/images/account.png" alt="img" className='' />
                         </div>
                     </div>
                     <div class="flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
@@ -248,7 +384,7 @@ export default function AdultsGerman() {
                             <img src="/images/classroom.png" alt="img" />
                         </div>
                     </div>
-                    <div class="flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
+                    <div class="hidden lg:flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
                         <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
                             <img src="/images/get-started.png" alt="img" />
                         </div>
@@ -258,8 +394,24 @@ export default function AdultsGerman() {
                             <p class="leading-relaxed text-black ">Practice what you learn with other students. We provide small batches, so you’ll get personalized attention with the expert language teachers.</p>
                         </div>
                     </div>
+                    <div class="flex lg:hidden items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
+                        <div class="flex-grow sm:text-left mt-6 sm:mt-0">
+                            <h1 className='text-xl tracking-widest font-medium text-black'>STEP 3</h1>
+                            <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Get started</h2>
+                            <p class="leading-relaxed text-black ">Practice what you learn with other students. We provide small batches, so you’ll get personalized attention with the expert language teachers.</p>
+                        </div>
+                        <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
+                            <img src="/images/get-started.png" alt="img" />
+                        </div>
+                    </div>
 
-
+                    <div className='w-full flex  justify-center'>
+                        <a href="/getstarted">
+                            <button class="bg-[#13BFAB] hover:bg-teal-400 text-white font-bold py-3 px-4 rounded" >
+                                Get Started
+                            </button>
+                        </a>
+                    </div>
                 </div>
             </section>
 

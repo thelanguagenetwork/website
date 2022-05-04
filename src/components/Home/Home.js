@@ -18,7 +18,7 @@ import VisibilitySensor from 'react-visibility-sensor';
 
 import Testimonial from './testimonial.js';
 
-import Globe3d from '../Earth/Globe';
+// import Globe3d from '../Earth/Globe';
 
 
 // import images for International Exams
@@ -33,7 +33,7 @@ import img7 from '../IntExamswiper/exam-siele.jpg';
 import img8 from '../IntExamswiper/exam-TEF.jpg';
 import img9 from '../IntExamswiper/exam-TOPIK.jpg';
 import Curriculum from '../curriculum/Curriculum';
-import GlobeMobile from '../Earth/GlobeMobile';
+// import GlobeMobile from '../Earth/GlobeMobile';
 import Team from '../Footer/Company/AboutUs/Team';
 import Popup from '../curriculum/Pop/Popup'
 
@@ -90,14 +90,14 @@ export default function Home() {
 
     return (
         <div className='Home'>
-            <div className='Home-container-1 w-full px-4 lg:py-20 lg:px-26 relative h-[auto] flex flex-col lg:flex-row justify-center items-center content-center flex-wrap' >
-                <div className='w-full lg:w-5/12 flex flex-col space-y-6 pt-10 lg:pt-0'>
+            <div className='Home-container-1 bg-cover lg:bg-contain w-full px-4 lg:py-20 lg:px-26 relative h-[auto] flex flex-col lg:flex-row justify-center items-center content-center flex-wrap' >
+                <div className='w-full lg:w-5/12 flex flex-col space-y-6 pt-2 lg:pt-0'>
                     <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab] lg:pt-2'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>
                     <h2 className='text-black font-medium text-5xl'>Learn a Language in less than 3 months</h2>
                     <span className='font-medium '>At The Language Network, we help you master a new foreign language of your choice from the comfort of your home.</span>
                     <a href='/getstarted'><button type="button" class="btn btn-info text-white" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '16px', paddingRight: '30px', paddingBottom: '16px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Get Started</button></a>
                 </div>
-                <div className='lg:w-6/12 w-full lg:block hidden flex items-center justify-center pl-20'>
+                <div className='w-full lg:w-6/12 flex items-center justify-center lg:pl-20 mt-7'>
                     {/* <Globe3d className='' /> */}
                     <video width="90%" height="90%" className='rounded-xl'
                         controls
@@ -109,7 +109,7 @@ export default function Home() {
                         Your browser does not support the video tag.
                     </video>
                 </div>
-                <div className="w-full absolute flex flex-row justify-center bottom-[-500px] lg:bottom-[-150px]">
+                <div className="w-full absolute flex flex-row justify-center bottom-[-550px] lg:bottom-[-150px]">
                     <div className='overlay-box'>
                         <h1 className='lg:text-3xl text-lg mb-2'><CountUp start={0} end={5000} separator=","
                             suffix="+" duration={1}>
@@ -141,7 +141,7 @@ export default function Home() {
 
             </div>
 
-            <div className="Home-container-61  lg:px-40 mt-10 lg:mt-64">
+            <div className="Home-container-61 lg:px-40 mt-10 lg:mt-64">
                 <h3 className='w-full text-center font-semibold text-3xl lg:text-4xl'>Our Education Partners</h3>
 
                 <Swiper className='pagi1' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
@@ -175,7 +175,7 @@ export default function Home() {
                         <img src="/images/St-Andrews-Logo-150x150.png" alt='img1' />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/images/Asset 8@300x.png" alt='img1' className='w-[80%]' />
+                        <img src="/images/Asset 8@300x.png" alt='img1' className='w-[60%]' />
                     </SwiperSlide>
                 </Swiper>
             </div>
@@ -185,10 +185,10 @@ export default function Home() {
             </div> */}
 
 
-            <div className="Home-container-2  lg:pb-[60px] pb-2 w-full lg:w-4/5 mt-72 lg:mt-28">
+            <div className="Home-container-2  lg:pb-[60px] pb-2 w-full lg:w-4/5 mt-52 lg:mt-28">
                 <h1>START YOUR JOURNEY WITH US!</h1>
                 <h2>Foreign Language Courses We Offer</h2>
-                <div className=' lg:flex lg:pt-10 w-3/4 lg:w-full sm:space-y-4 lg:space-y-0 py-5'>
+                <div className='hidden lg:flex lg:pt-10 w-3/4 lg:w-full sm:space-y-4 lg:space-y-0 py-5'>
                     {/* <a href='/english-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-english@300x.png' /></a>
                     <a href='/french-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-french@300x.png' /></a>
                     <a href='/spanish-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-spanish@300x.png' /></a>
@@ -196,48 +196,39 @@ export default function Home() {
                     <a href='/mandarin-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-mandarin@300x.png' /></a>
                     <a href='/japanese-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-japanese@300x.png' /></a>
                     <a href='/korean-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-korean@300x.png' /></a> */}
-                    <Popup sub="English" a1="/english-course-adults" a2="/english-course-kids" im="/images/English.png" src1="/images/adults-english@300x.png" src2='/images/Astronaut-English.png'/>
+                    <Popup sub="English" a1="/english-course-adults" a2="/english-course-kids" im="/images/English.png" src1="/images/adults-english@300x.png" src2='/images/Astronaut-English.png' />
                     <Popup sub="French" a1="/french-course-adults" a2="/french-course-kids" im="/images/French.png" src1="/images/adults-french@300x.png" src2='/images/Astronaut-French-1.png' />
-                    <Popup sub="Spanish" a1="/spanish-course-adults" a2="/spanish-course-kids" im="/images/Spanish.png" src1="/images/adults-spanish@300x.png" src2='/images/Astronaut-Spanish-1.png'/>
-                    <Popup sub="German" a1="/german-course-adults" a2="/german-course-kids" im="/images/German.png" src1="/images/adults-german@300x.png" src2='/images/Astronaut-Germany-1.png'/>
-                    <Popup sub="Mandarin" a1="/mandarin-course-adults" a2="/mandarin-course-kids" im="/images/Mandarin.png" src1="/images/adults-mandarin@300x.png" src2='/images/Astronaut-Mandarin-1.png'/>
-                    <Popup sub="Japanese" a1="/japanese-course-adults" a2="/japanese-course-kids" im="/images/Japanese.png" src1="/images/adults-japanese@300x.png" src2='/images/Astronaut-Japanese-1.png'/>
-                    <Popup sub="Korean" a1="/korean-course-adults" a2="/korean-course-kids" im="/images/Korean.png" src1="/images/adults-korean@300x.png" src2='/images/Astronaut-Korean-1.png'/>
+                    <Popup sub="Spanish" a1="/spanish-course-adults" a2="/spanish-course-kids" im="/images/Spanish.png" src1="/images/adults-spanish@300x.png" src2='/images/Astronaut-Spanish-1.png' />
+                    <Popup sub="German" a1="/german-course-adults" a2="/german-course-kids" im="/images/German.png" src1="/images/adults-german@300x.png" src2='/images/Astronaut-Germany-1.png' />
+                    <Popup sub="Mandarin" a1="/mandarin-course-adults" a2="/mandarin-course-kids" im="/images/Mandarin.png" src1="/images/adults-mandarin@300x.png" src2='/images/Astronaut-Mandarin-1.png' />
+                    <Popup sub="Japanese" a1="/japanese-course-adults" a2="/japanese-course-kids" im="/images/Japanese.png" src1="/images/adults-japanese@300x.png" src2='/images/Astronaut-Japanese-1.png' />
+                    <Popup sub="Korean" a1="/korean-course-adults" a2="/korean-course-kids" im="/images/Korean.png" src1="/images/adults-korean@300x.png" src2='/images/Astronaut-Korean-1.png' />
                 </div>
-                {/* <Swiper className='pagi1 block lg:hidden mb-12 lg:mb-0' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+                <Swiper className='pagi1 block lg:hidden mb-12 lg:mb-0' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
                     breakpoints={{
                         640: {
                             slidesPerView: 1
 
                         },
                     }}
-                    pagination={{
-                        "clickable": true
-                    }} navigation={true} autoplay={{
+                    pagination={false} navigation={true} autoplay={{
                         "delay": 2500,
                         "disableOnInteraction": false
                     }}
                 >
                     <SwiperSlide>
-                        <a href='/english-course-adults'><img className='Home-container-2-img px-12' alt='img' src='/images/adults-english@300x.png' /></a>
-                    </SwiperSlide><SwiperSlide>
-                        <a href='/french-course-adults'><img className='Home-container-2-img px-12' alt='img' src='/images/adults-french@300x.png' /></a>
-                    </SwiperSlide><SwiperSlide>
-                        <a href='/spanish-course-adults'><img className='Home-container-2-img px-12' alt='img' src='/images/adults-spanish@300x.png' /></a>
-                    </SwiperSlide><SwiperSlide>
-                        <a href='/german-course-adults'><img className='Home-container-2-img px-12' alt='img' src='/images/adults-german@300x.png' /></a>
-                    </SwiperSlide><SwiperSlide>
-                        <a href='/mandarin-course-adults'><img className='Home-container-2-img px-12' alt='img' src='/images/adults-mandarin@300x.png' /></a>
-                    </SwiperSlide><SwiperSlide>
-                        <a href='/japanese-course-adults'><img className='Home-container-2-img px-12' alt='img' src='/images/adults-japanese@300x.png' /></a>
-                    </SwiperSlide>
+                        <Popup sub="English" a1="/english-course-adults" a2="/english-course-kids" im="/images/English.png" src1="/images/adults-english@300x.png" src2='/images/Astronaut-English.png' />                    </SwiperSlide><SwiperSlide>
+                        <Popup sub="French" a1="/french-course-adults" a2="/french-course-kids" im="/images/French.png" src1="/images/adults-french@300x.png" src2='/images/Astronaut-French-1.png' />                    </SwiperSlide><SwiperSlide>
+                        <Popup sub="Spanish" a1="/spanish-course-adults" a2="/spanish-course-kids" im="/images/Spanish.png" src1="/images/adults-spanish@300x.png" src2='/images/Astronaut-Spanish-1.png' />                    </SwiperSlide><SwiperSlide>
+                        <Popup sub="German" a1="/german-course-adults" a2="/german-course-kids" im="/images/German.png" src1="/images/adults-german@300x.png" src2='/images/Astronaut-Germany-1.png' />                    </SwiperSlide><SwiperSlide>
+                        <Popup sub="Mandarin" a1="/mandarin-course-adults" a2="/mandarin-course-kids" im="/images/Mandarin.png" src1="/images/adults-mandarin@300x.png" src2='/images/Astronaut-Mandarin-1.png' />                    </SwiperSlide><SwiperSlide>
+                        <Popup sub="Japanese" a1="/japanese-course-adults" a2="/japanese-course-kids" im="/images/Japanese.png" src1="/images/adults-japanese@300x.png" src2='/images/Astronaut-Japanese-1.png' />                    </SwiperSlide>
                     <SwiperSlide>
-                        <a href='/korean-course-adults'><img className='Home-container-2-img px-12' alt='img' src='/images/adults-korean@300x.png' /></a>
-                    </SwiperSlide>
-                </Swiper> */}
+                        <Popup sub="Korean" a1="/korean-course-adults" a2="/korean-course-kids" im="/images/Korean.png" src1="/images/adults-korean@300x.png" src2='/images/Astronaut-Korean-1.png' />                    </SwiperSlide>
+                </Swiper>
             </div>
 
-            <div className="Home-container-3 lg:px-72 lg:mt-32">
+            <div className="Home-container-3 w-full lg:px-72 lg:mt-32">
                 <span className="font-semibold text-3xl lg:text-4xl">
                     Students at The Language Network
                 </span>
@@ -246,8 +237,7 @@ export default function Home() {
                 </p>
             </div>
             <div className='w-full flex flex-col items-center justify-center'>
-
-                <div className="w-5/6 lg:flex flex-row space-y-10 lg:space-y-0 mt-12">
+                <div className="w-5/6 hidden lg:flex flex-row space-y-10 lg:space-y-0 mt-12">
                     <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
                         <div className="Home-card-img">
                             <img src='/images/Adolscents@300x.png' alt='img' />
@@ -276,7 +266,54 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+                <Swiper className='pagi1 w-5/6 flex lg:hidden flex-row mt-12' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 1
+
+                        },
+                    }}
+                    pagination={false} navigation={true} autoplay={{
+                        "delay": 2500,
+                        "disableOnInteraction": false
+                    }}
+                >
+                    <SwiperSlide>
+                        <div className="w-full w-5/6 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
+                            <div className="Home-card-img">
+                                <img src='/images/Adolscents@300x.png' alt='img' />
+                            </div>
+                            <div className='Home-card-text'>
+                                <h1 id='Home-card-text-h1'>Kids (6-9 years)</h1>
+                                <p>Children in this age range can learn any foreign language with the right professional assistance. Kids have a high sense of creativity and imagination. At, TLN we know how to use this imagination and methodically focuses on aspects of language that boost performance and imagination</p>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="w-full w-5/6 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-2' onMouseOver={changeCol2} onMouseLeave={changeBack}>
+                            <div className="Home-card-img">
+                                <img src='/images/Kids@300x-1.png' alt='img' />
+                            </div>
+                            <div className='Home-card-text'>
+                                <h1 id='Home-card-text-h2'>Adolscents (10-13 years)</h1>
+                                <p>Students in this age group are usually energetic, curious, and eager to explore the world! At TLN, we teach more than just the language. We take you through the culture; traditions, clothing, food, festivals, etc. This means that you are learning more than the writing system or pronunciation.</p>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="w-full w-5/6 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-3' onMouseOver={changeCol3} onMouseLeave={changeBack}>
+                            <div className="Home-card-img">
+                                <img src='/images/adults@300x.png' alt='img' />
+                            </div>
+                            <div className='Home-card-text'>
+                                <h1 id='Home-card-text-h3'>Adults (14+ years)</h1>
+                                <p>Getting a certificate is an essential part of verifying your language skills. TLN prepares you for all types of language exams with the professional assistance of highly-qualified teachers. We also offer online classes per your convenience.</p>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                </Swiper>
             </div>
+
 
 
             <div className="my-24 lg:flex px-4 lg:px-10  flex-row h-auto w-full bg-[#f4f8fb]">
@@ -402,7 +439,7 @@ export default function Home() {
             </div>
             <Team />
 
-            <div className="Home-container-11 mt-20 mb-20 lg:mb-0">
+            <div className="Home-container-11 mt-20 lg:mb-0">
                 <h1>Happy Testimonials</h1>
                 <hr></hr>
                 <Testimonial />
