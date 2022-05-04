@@ -54,7 +54,7 @@ export default function Footer() {
                     <button type="button" class="btn btn-info text-white mb-10 mb-3 flex" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '10px', paddingRight: '30px', paddingBottom: '10px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Contact Us</button>
                 </a>
             </div>
-            <div className='flex-wrap px-3 bg-teal-400 w-full flex flex-row justify-evenly px-10 h-20 lg:h-12 space-x-3.5 lg:space-x-0.5'>
+            <div className='hidden lg:flex flex-wrap px-3 bg-teal-400 w-full  flex-row justify-evenly px-10 h-20 lg:h-12 space-x-3.5 lg:space-x-0.5'>
                 <img src='/images/payments/amazon-pay-icon.svg' class='w-14 lg:w-14 ' alt="a" />
                 <img src='/images/payments/bhim-pay-icon.svg' class='w-14 lg:w-14 ' alt="a" />
                 <img src='/images/payments/finserv-icon.svg' class='w-14 lg:w-14 ' alt="a" />
@@ -63,6 +63,20 @@ export default function Footer() {
                 <img src='/images/payments/Razorpay.svg' class='w-16 lg:w-20 ' alt="a" />
                 <img src='/images/payments/rupay-icon.svg' class='w-14 lg:w-14' alt="a" />
                 <img src='/images/payments/upi-pay-icon.svg' class='w-14 lg:w-14' alt="a" />
+            </div>
+            <div className='flex lg:hidden flex-wrap lg:px-3 bg-teal-400 w-full  flex-row justify-evenly  h-20 lg:h-12 space-x-3.5 lg:space-x-0.5'>
+                <div className='flex lg:hidden felx-row w-full justify-evenly'>
+                <img src='/images/payments/amazon-pay-icon.svg' class='w-14 lg:w-14 ' alt="a" />
+                <img src='/images/payments/bhim-pay-icon.svg' class='w-14 lg:w-14 ' alt="a" />
+                <img src='/images/payments/finserv-icon.svg' class='w-14 lg:w-14 ' alt="a" />
+                <img src='/images/payments/google-pay.svg' class='w-16 lg:w-20 ' alt="a" />
+                </div>
+                <div className='flex lg:hidden felx-row w-full justify-evenly'>
+                <img src='/images/payments/paytm-icon.svg' class='w-14 lg:w-14 ' alt="a" />
+                <img src='/images/payments/Razorpay.svg' class='w-16 lg:w-20 ' alt="a" />
+                <img src='/images/payments/rupay-icon.svg' class='w-14 lg:w-14' alt="a" />
+                <img src='/images/payments/upi-pay-icon.svg' class='w-14 lg:w-14' alt="a" />
+                </div>
             </div>
             <footer className="footer-section">
                 <div className="container w-full">

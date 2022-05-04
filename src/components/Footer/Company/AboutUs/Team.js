@@ -185,6 +185,9 @@ export default function Team() {
     const [nav2, setNav2] = useState(null);
     const slider1 = useRef(null);
     const slider2 = useRef(null);
+    const scrsize = window.matchMedia("(min-width: 768px)").matches;
+
+    // setScrsize(window.matchMedia("(min-width: 768px)").matches);
 
     useEffect(() => {
         setNav1(slider1.current);
@@ -193,6 +196,8 @@ export default function Team() {
 
     const cardData1 = CardData1();
     const cardData2 = CardData2();
+
+    console.log(scrsize)
 
     return (
         <div className="w-full lg:px-20">
@@ -220,7 +225,7 @@ export default function Team() {
                     slidesToShow={3}
                     swipeToSlide={true}
                     focusOnSelect={true}
-                    arrows={true}
+                    arrows={scrsize  === true ? true:false}
                     prevArrow={<SamplePrevArrow />}
                     nextArrow={<SampleNextArrow />} 
                     className='w-[50%] hidden lg:flex lg:flex-row'

@@ -4,6 +4,10 @@ import { FaRegHandshake } from 'react-icons/fa'
 import { ImBook } from 'react-icons/im'
 import { GiTakeMyMoney } from 'react-icons/gi'
 import {Link} from 'react-scroll'
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination"
+import "swiper/css/navigation"
 
 
 export default function IntroCourse() {
@@ -20,36 +24,81 @@ export default function IntroCourse() {
                 </div>
             </div>
             <h3 className='px-2 mt-20 text-2xl w-full md:text-3xl lg:text-4xl font-bold text-center mt-24 mb-10'>The best way to learn a language</h3>
-            <div className='lg:flex flex-row w-full px-10 md:px-16 lg:px-20'>
+            <div className='hidden lg:flex flex-row w-full px-10 md:px-16 lg:px-20'>
                 <div class="p-4 lg:w-1/3">
-                    <div class="h-full flex flex-col items-center bg-white hover:drop-shadow-2xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-center relative">
-                        <h2 class="tracking-widest h-16 w-16 my-2"><FaRegHandshake className='w-full h-full text-[#13BFAB]' /></h2>
-                        <h2 class="tracking-widest text-xl title-font font-thin text-black my-2">Instant Feedback</h2>
-                        <p class="leading-relaxed my-2 text-[#54595f]">Track your progress and get personalised feedback</p>
+                    <div class="h-full flex flex-col items-center bg-white drop-shadow-md hover:drop-shadow-xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-center relative">
+                        <h2 class="tracking-widest h-20 w-20 my-2"><FaRegHandshake className='w-full h-full' /></h2>
+                        <h2 class="tracking-widest text-lg title-font font-bold text-black my-2">Instant Feedback</h2>
+                        <p class="leading-relaxed my-2">Track your progress and get personalised feedback</p>
                     </div>
                 </div>
                 <div class="p-4 lg:w-1/3">
-                    <div class="h-full flex flex-col items-center bg-white  hover:drop-shadow-2xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-center relative">
-                        <h2 class="tracking-widest h-16 w-16 my-2"><ImBook className='w-full h-full text-[#13BFAB]' /></h2>
-                        <h2 class="tracking-widest text-xl title-font font-thin text-black my-2">Accreditation</h2>
-                        <p class="leading-relaxed my-2 text-[#54595f]">Earn accredited certificate to boost your skills</p>
+                    <div class="h-full flex flex-col items-center bg-white drop-shadow-md hover:drop-shadow-xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-center relative">
+                        <h2 class="tracking-widest h-20 w-20 my-2"><ImBook className='w-full h-full' /></h2>
+                        <h2 class="tracking-widest text-lg title-font font-bold text-black my-2">Accreditation</h2>
+                        <p class="leading-relaxed my-2">Earn accredited certificate to boost your skills</p>
                     </div>
                 </div>
                 <div class="p-4 lg:w-1/3">
-                    <div class="h-full flex flex-col items-center bg-white hover:drop-shadow-2xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-center relative">
-                        <h2 class="tracking-widest h-16 w-16 my-2"><GiTakeMyMoney className='w-full h-full text-[#13BFAB]' /></h2>
-                        <h2 class="tracking-widest text-xl title-font font-thin text-black my-2">Big rewards</h2>
-                        <p class="leading-relaxed my-2 text-[#54595f]">Earn 100% cashback</p>
+                    <div class="h-full flex flex-col items-center bg-white drop-shadow-md hover:drop-shadow-xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-center relative">
+                        <h2 class="tracking-widest h-20 w-20 my-2"><GiTakeMyMoney className='w-full h-full' /></h2>
+                        <h2 class="tracking-widest text-lg title-font font-bold text-black my-2">Big rewards</h2>
+                        <p class="leading-relaxed my-2">Earn 100% cashback</p>
                     </div>
                 </div>
             </div>
+            <Swiper className='pagi1 block lg:hidden w-full px-10 md:px-16' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+                breakpoints={{
+                    640: {
+                        slidesPerView: 1
+
+                    },
+                    768: {
+                        slidesPerView: 4
+                    }
+                }}
+                pagination={{
+                    "clickable": true
+                }} navigation={true} autoplay={{
+                    "delay": 2500,
+                    "disableOnInteraction": false
+                }}
+            >
+                <SwiperSlide>
+                <div class="p-4 w-full lg:w-1/3">
+                    <div class="h-full flex flex-col items-center bg-white drop-shadow-md hover:drop-shadow-xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-center relative">
+                        <h2 class="tracking-widest h-20 w-20 my-2"><FaRegHandshake className='w-full h-full' /></h2>
+                        <h2 class="tracking-widest text-lg title-font font-bold text-black my-2">Instant Feedback</h2>
+                        <p class="leading-relaxed my-2">Track your progress and get personalised feedback</p>
+                    </div>
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                <div class="p-4 w-full lg:w-1/3">
+                    <div class="h-full flex flex-col items-center bg-white drop-shadow-md hover:drop-shadow-xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-center relative">
+                        <h2 class="tracking-widest h-20 w-20 my-2"><ImBook className='w-full h-full' /></h2>
+                        <h2 class="tracking-widest text-lg title-font font-bold text-black my-2">Accreditation</h2>
+                        <p class="leading-relaxed my-2">Earn accredited certificate to boost your skills</p>
+                    </div>
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                <div class="p-4 w-full lg:w-1/3">
+                    <div class="h-full flex flex-col items-center bg-white drop-shadow-md hover:drop-shadow-xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-center relative">
+                        <h2 class="tracking-widest h-20 w-20 my-2"><GiTakeMyMoney className='w-full h-full' /></h2>
+                        <h2 class="tracking-widest text-lg title-font font-bold text-black my-2">Big rewards</h2>
+                        <p class="leading-relaxed my-4">Earn 100% cashback</p>
+                    </div>
+                </div>
+                </SwiperSlide>
+            </Swiper>
             <div id='LearnLang' className='h-auto bg-[#f4f8fb] w-full lg:flex flex-row flex-wrap items-center mt-10'>
                 <div className='py-10 lg:w-1/2 px-24 '>
                     <h3 className='font-bold text-3xl lg:text-5xl my-4'>Languages you can learn</h3>
                     <h1 className='my-4'>Invest a mere month of your time to learn a language.</h1>
                     <button type="button" class="flex flex-row btn btn-outline-dark hover:bg-[#13bfab] rounded-full  w-fit text-md py-3 px-4 ">Download Brochure</button>
                 </div>
-                <div className='lg:w-1/2 md:flex lg:flex flex-row flex-wrap justify-center algin-center pr-20'>
+                <div className='lg:w-1/2 hidden md:flex lg:flex flex-row flex-wrap justify-center algin-center pr-20'>
                     {/* lg:px-28 lg:py-10 sm:p-10 */}
                     <div className='p-6 md:w-1/2 flex flex-col items-center lg:my-0'>
                         <a href='/docs/French-Introductory-Course_Prospectus_compressed.pdf'>
@@ -76,9 +125,57 @@ export default function IntroCourse() {
                         </a>
                     </div>
                 </div>
+                <Swiper className='pagi1 block lg:hidden w-full px-10 md:px-16 bg-inherit' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+                breakpoints={{
+                    640: {
+                        slidesPerView: 1
+
+                    },
+                    768: {
+                        slidesPerView: 4
+                    }
+                }}
+                pagination={false} navigation={true} autoplay={{
+                    "delay": 2500,
+                    "disableOnInteraction": false
+                }}
+            >
+                <SwiperSlide>
+                <div className='p-6 md:w-1/2 flex flex-col items-center lg:my-0'>
+                        <a href='/docs/French-Introductory-Course_Prospectus_compressed.pdf'>
+                        <img src="/images/French.png" alt="img" className='w-24' />
+                        <h2 className='font-medium text-2xl mt-3 text-black text-center'>French</h2>
+                        </a>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                <div className='p-6 md:w-1/2 flex flex-col items-center sm:my-4 lg:my-0'>
+                        <a href="/docs/German-Introductory-Course_Prospectus_compressed.pdf">
+                        <img src="/images/German.png" alt="img" className='w-24' />
+                        <h2 className='font-medium text-2xl mt-3 text-black text-center'>German</h2>
+                        </a>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                <div className='p-6 md:w-1/2 flex flex-col items-center sm:my-4 lg:my-0'>
+                        <a href="/docs/Spanish-Introductory-Course_Prospectus_compressed.pdf">
+                        <img src="/images/Spanish.png" alt="img" className='w-24' />
+                        <h2 className='font-medium text-2xl mt-3 text-black text-center'>Spanish</h2>
+                        </a>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                <div className='p-6 md:w-1/2 flex flex-col items-center sm:my-4 lg:my-0'>
+                        <a href="/docs/Korean-Introductory-Course_Prospectus_compressed.pdf">
+                        <img src="/images/Korean.png" alt="img" className='w-24' />
+                        <h2 className='font-medium text-2xl mt-3 text-black text-center'>Korean</h2>
+                        </a>
+                    </div>
+                </SwiperSlide>
+            </Swiper>
                 <div className='w-full text-center text-xs mb-4'>*To receive the cashback you must follow The Language Network T&C’s.</div>
             </div>
-            <div className="flex items-center justify-center font-bold text-4xl py-12 pb-20">Learn a language at par with professionals at affordable prices</div>
+            <div className="flex items-center justify-center font-bold text-4xl py-12 pb-20 px-4 text-center">Learn a language at par with professionals at affordable prices</div>
             <div className='w-full flex lg:flex-row flex-col justify-center pt-4 px-10 lg:px-0'>
                 
                 <div class="lg:w-1/4 w-full rounded-lg shadow-2xl overflow-hidden mb-4 lg:mx-20">

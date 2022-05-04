@@ -2,6 +2,11 @@ import React from 'react';
 import { FaRegWindowMinimize, FaLightbulb } from 'react-icons/fa';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination"
+import "swiper/css/navigation"
+
 
 export default function KidsFrench() {
 
@@ -133,7 +138,7 @@ export default function KidsFrench() {
             </section>
 
             <div className='w-full text-center text-3xl lg:text-4xl font-medium '>Why learn French with TLN?</div>
-            <div className='w-full lg:px-32 py-18 flex flex-row flex-wrap  justify-evenly'>
+            <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly'>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
@@ -176,6 +181,78 @@ export default function KidsFrench() {
                         Our French language course for kids and adolescents also includes cultural learning. We believe that Cultural learning is important when it comes to language learning. It helps the students learn more efficiently. Thus, we focus on the culture associated with the language.   </p>
                 </div>
             </div>
+            <Swiper className='pagi1 block lg:hidden w-full px-10 md:px-16 bg-inherit' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+                breakpoints={{
+                    640: {
+                        slidesPerView: 1
+
+                    },
+                    768: {
+                        slidesPerView: 4
+                    }
+                }}
+                pagination={false} navigation={true} autoplay={{
+                    "delay": 2500,
+                    "disableOnInteraction": false
+                }}
+            >
+                <SwiperSlide>
+                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
+                    <p className='text-sm text-gray-700'>Our French language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
+                    <p className='text-sm text-gray-700'>You can monitor your child’s progress with our French language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                     <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
+                    <p className='text-sm text-gray-700'>
+                        Our curriculum is created by carefully integrating all aspects of language learning. Our Learn French for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                   <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/expert.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>Learn from experts</h3>
+                    <p className='text-sm text-gray-700'>
+                        After an extensive hiring process, we have carefully handpicked language experts, who are efficient in teaching kids and adolescents. Leave your children with our French language experts and expect nothing but better results.  </p>
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/career-guidance.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>Career Guidance</h3>
+                    <p className='text-sm text-gray-700'>
+                        Our language trainers will guide your children to excel in their academic life. We will also conduct career counselling when it is needed. Push your kids to a new height with our French language courses.  </p>
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                   <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>International Exams</h3>
+                    <p className='text-sm text-gray-700'>
+                        TLN believes that all its students should appear for international exams like Cambridge. From an early age, we prepare them for these international exams.   </p>
+                </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                   <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/culture.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>Cultural Sensitivity</h3>
+                    <p className='text-sm text-gray-700'>
+
+                        Our French language course for kids and adolescents also includes cultural learning. We believe that Cultural learning is important when it comes to language learning. It helps the students learn more efficiently. Thus, we focus on the culture associated with the language.   </p>
+                </div>
+                </SwiperSlide>
+                
+            </Swiper>
 
             <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium '>How is learning French beneficial for kids?</div>
             <div className='flex flex-col lg:flex-row'>
@@ -251,41 +328,89 @@ export default function KidsFrench() {
                     </p>
                 </div>
 
-                <div className="w-5/6 lg:flex flex-row space-y-10 lg:space-y-0 mt-12">
-                    <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
-                        <div className="Home-card-img">
-                            <img src='/images/Adolscents@300x.png' alt='img' />
+                <div className='w-full flex flex-col items-center justify-center'>
+                    <div className="w-5/6 hidden lg:flex flex-row space-y-10 lg:space-y-0 mt-12">
+                        <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
+                            <div className="Home-card-img">
+                                <img src='/images/Adolscents@300x.png' alt='img' />
+                            </div>
+                            <div className='Home-card-text'>
+                                <h1 id='Home-card-text-h1'>Kids (6-9 years)</h1>
+                                <p>Children in this age range can learn any foreign language with the right professional assistance. Kids have a high sense of creativity and imagination. At, TLN we know how to use this imagination and methodically focuses on aspects of language that boost performance and imagination</p>
+                            </div>
                         </div>
-                        <div className='Home-card-text'>
-                            <h1 id='Home-card-text-h1'>Kids (6-9 years)</h1>
-                            <p>Children in this age range can learn any foreign language with the right professional assistance. Kids have a high sense of creativity and imagination. At, TLN we know how to use this imagination and methodically focuses on aspects of language that boost performance and imagination</p>
+                        <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-2' onMouseOver={changeCol2} onMouseLeave={changeBack}>
+                            <div className="Home-card-img">
+                                <img src='/images/Kids@300x-1.png' alt='img' />
+                            </div>
+                            <div className='Home-card-text'>
+                                <h1 id='Home-card-text-h2'>Adolscents (10-13 years)</h1>
+                                <p>Students in this age group are usually energetic, curious, and eager to explore the world! At TLN, we teach more than just the language. We take you through the culture; traditions, clothing, food, festivals, etc. This means that you are learning more than the writing system or pronunciation.</p>
+                            </div>
+                        </div>
+                        <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-3' onMouseOver={changeCol3} onMouseLeave={changeBack}>
+                            <div className="Home-card-img">
+                                <img src='/images/adults@300x.png' alt='img' />
+                            </div>
+                            <div className='Home-card-text'>
+                                <h1 id='Home-card-text-h3'>Adults (14+ years)</h1>
+                                <p>Getting a certificate is an essential part of verifying your language skills. TLN prepares you for all types of language exams with the professional assistance of highly-qualified teachers. We also offer online classes per your convenience.</p>
+                            </div>
                         </div>
                     </div>
-                    <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-2' onMouseOver={changeCol2} onMouseLeave={changeBack}>
-                        <div className="Home-card-img">
-                            <img src='/images/Kids@300x-1.png' alt='img' />
-                        </div>
-                        <div className='Home-card-text'>
-                            <h1 id='Home-card-text-h2'>Adolscents (10-13 years)</h1>
-                            <p>Students in this age group are usually energetic, curious, and eager to explore the world! At TLN, we teach more than just the language. We take you through the culture; traditions, clothing, food, festivals, etc. This means that you are learning more than the writing system or pronunciation.</p>
-                        </div>
-                    </div>
-                    <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-3' onMouseOver={changeCol3} onMouseLeave={changeBack}>
-                        <div className="Home-card-img">
-                            <img src='/images/adults@300x.png' alt='img' />
-                        </div>
-                        <div className='Home-card-text'>
-                            <h1 id='Home-card-text-h3'>Adults (14+ years)</h1>
-                            <p>Getting a certificate is an essential part of verifying your language skills. TLN prepares you for all types of language exams with the professional assistance of highly-qualified teachers. We also offer online classes per your convenience.</p>
-                        </div>
-                    </div>
+                    <Swiper className='pagi1 w-5/6 flex lg:hidden flex-row mt-12' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+                        breakpoints={{
+                            640: {
+                                slidesPerView: 1
+
+                            },
+                        }}
+                        pagination={false} navigation={true} autoplay={{
+                            "delay": 2500,
+                            "disableOnInteraction": false
+                        }}
+                    >
+                        <SwiperSlide>
+                            <div className="w-full w-5/6 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
+                                <div className="Home-card-img">
+                                    <img src='/images/Adolscents@300x.png' alt='img' />
+                                </div>
+                                <div className='Home-card-text'>
+                                    <h1 id='Home-card-text-h1'>Kids (6-9 years)</h1>
+                                    <p>Children in this age range can learn any foreign language with the right professional assistance. Kids have a high sense of creativity and imagination. At, TLN we know how to use this imagination and methodically focuses on aspects of language that boost performance and imagination</p>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="w-full w-5/6 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-2' onMouseOver={changeCol2} onMouseLeave={changeBack}>
+                                <div className="Home-card-img">
+                                    <img src='/images/Kids@300x-1.png' alt='img' />
+                                </div>
+                                <div className='Home-card-text'>
+                                    <h1 id='Home-card-text-h2'>Adolscents (10-13 years)</h1>
+                                    <p>Students in this age group are usually energetic, curious, and eager to explore the world! At TLN, we teach more than just the language. We take you through the culture; traditions, clothing, food, festivals, etc. This means that you are learning more than the writing system or pronunciation.</p>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="w-full w-5/6 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-3' onMouseOver={changeCol3} onMouseLeave={changeBack}>
+                                <div className="Home-card-img">
+                                    <img src='/images/adults@300x.png' alt='img' />
+                                </div>
+                                <div className='Home-card-text'>
+                                    <h1 id='Home-card-text-h3'>Adults (14+ years)</h1>
+                                    <p>Getting a certificate is an essential part of verifying your language skills. TLN prepares you for all types of language exams with the professional assistance of highly-qualified teachers. We also offer online classes per your convenience.</p>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                    </Swiper>
                 </div>
             </div>
 
             <p className='w-full lg:px-80 pt-20 text-center font-medium text-4xl'>Join us in a language trip now, by following these simple steps</p>
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-20 mx-auto">
-                    <div class="flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
+                    <div class="hidden lg:flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
                         <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
                             <img src="/images/account.png" alt="img" className='' />
                         </div>
@@ -293,6 +418,16 @@ export default function KidsFrench() {
                             <h1 className='text-xl tracking-widest font-medium text-black'>STEP 1</h1>
                             <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Register with us</h2>
                             <p class="leading-relaxed text-black ">Fill out a form with your personal and contact information, choose your language and register with us. Our team of experts will will assist you with the online classes, study materials and lots more.</p>
+                        </div>
+                    </div>
+                    <div class="flex lg:hidden items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
+                        <div class="flex-grow sm:text-left mt-6 sm:mt-0">
+                            <h1 className='text-xl tracking-widest font-medium text-black'>STEP 1</h1>
+                            <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Register with us</h2>
+                            <p class="leading-relaxed text-black ">Fill out a form with your personal and contact information, choose your language and register with us. Our team of experts will will assist you with the online classes, study materials and lots more.</p>
+                        </div>
+                        <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
+                            <img src="/images/account.png" alt="img" className='' />
                         </div>
                     </div>
                     <div class="flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
@@ -305,7 +440,7 @@ export default function KidsFrench() {
                             <img src="/images/classroom.png" alt="img" />
                         </div>
                     </div>
-                    <div class="flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
+                    <div class="hidden lg:flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
                         <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
                             <img src="/images/get-started.png" alt="img" />
                         </div>
@@ -315,11 +450,26 @@ export default function KidsFrench() {
                             <p class="leading-relaxed text-black ">Practice what you learn with other students. We provide small batches, so you’ll get personalized attention with the expert language teachers.</p>
                         </div>
                     </div>
+                    <div class="flex lg:hidden items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
+                        <div class="flex-grow sm:text-left mt-6 sm:mt-0">
+                            <h1 className='text-xl tracking-widest font-medium text-black'>STEP 3</h1>
+                            <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Get started</h2>
+                            <p class="leading-relaxed text-black ">Practice what you learn with other students. We provide small batches, so you’ll get personalized attention with the expert language teachers.</p>
+                        </div>
+                        <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
+                            <img src="/images/get-started.png" alt="img" />
+                        </div>
+                    </div>
 
-
+                    <div className='w-full flex  justify-center'>
+                        <a href="/getstarted">
+                            <button class="bg-[#13BFAB] hover:bg-teal-400 text-white font-bold py-3 px-4 rounded" >
+                                Get Started
+                            </button>
+                        </a>
+                    </div>
                 </div>
             </section>
-
             <p className='w-full  text-center font-bold text-4xl pb-3'>Frequently asked questions</p>
 
             <div className="flex flex-col items-center justify-center pb-20">

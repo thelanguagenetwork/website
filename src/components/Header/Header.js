@@ -87,9 +87,9 @@ class Header extends react.Component {
                 <ul>
                   <a href={'/AdultsCourses'}>ADULTS COURSES</a>
                 </ul>
-                <ul>
+                {/* <ul>
                   <a href='/KidsCourses'>KIDS COURSES</a>
-                </ul>
+                </ul> */}
               </div>
               <a href='/getstarted'>
               <li>Get Started</li></a>

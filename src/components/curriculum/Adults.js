@@ -131,10 +131,7 @@ function Adults() {
                     }}
                     pagination={{
                         "clickable": true
-                    }} navigation={true} autoplay={{
-                        "delay": 2500,
-                        "disableOnInteraction": false
-                    }}
+                    }} navigation={true} autoplay={false}
                 >
                     <SwiperSlide>
                         <a onClick={() => setLang('English')} className='m-12'><img id={lang === 'English' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-english@300x.png' /></a>
