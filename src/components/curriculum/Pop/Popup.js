@@ -11,25 +11,26 @@ function MyVerticallyCenteredModal(props) {
         >
             <Modal.Header closeButton>
                 <Modal.Title id="contained-modal-title-vcenter flex align-center items-center justify-center">
-                    Select One
+                    <span>Courses Offered</span>
+                    
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <div className="flex flex-col items-center">
-                    <div className="flex flex-row justify-center items-center space-x-80 ">
+                <div className="lg:flex flex-col items-center">
+                    <div className="pl-16 lg:pl-0 lg:flex flex-row justify-center items-center space-x-28 lg:space-x-80  ">
                         <span className="w-1/2 pr-4">Adults</span>
                         <span className="w-1/2 pr-4">Kids</span>
                     </div>
-                    <div className="flex flex-row">
+                    <div className="flex flex-row divide-x">
 
-                        <div className="flex justify-center w-full px-20 justify-center items-center">
+                        <div className="flex justify-center w-1/2 px-10 lg:px-20 justify-center items-center">
                             <div className="flex flex-col content-center">
                                 <a href={props.a1}><img src={props.src1} alt="Img" /></a>
                             </div>
                         </div>
 
-                        <div className="flex justify-center w-full px-32 justify-center items-center">
-                            <div className="flex flex-col">
+                        <div className="flex justify-center w-1/2 px-[3.5rem] lg:px-32 justify-center items-center">
+                            <div className="flex flex-col pb-3">
                                 <a href={props.a2}><img src={props.src2} alt="Img" /></a>
                             </div>
                         </div>
@@ -48,11 +49,11 @@ function Popup(pop) {
     const [modalShow, setModalShow] = React.useState(false);
 
     return (
-        <>  <div className="">
+        <>  <div className="space-y-2">
             <span onClick={() => setModalShow(true)} class="border-transparent border-0 btn-val hover:cursor-pointer" >
-                <div className='p-6 md:w-1/2 flex flex-col items-center'>
-                    <img src={pop.im} alt="img" className='w-44' />
-                    <h2 className='font-medium text-2xl mt-3 text-black text-center'>{pop.sub}</h2>
+                <div className='p-6 md:w-3/4 flex flex-col items-center'>
+                    <img src={pop.im} alt="img" className='w-[9rem] lg:w-[19rem]' />
+                    <h3 className='font-medium text-2xl mt-3 text-black text-center'>{pop.sub}</h3>
                 </div>
             </span>
         </div>
