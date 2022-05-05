@@ -31,8 +31,8 @@ export default function Footer() {
 
     return (
         <div className="bg-[#f4f8fb]" style={{ bottom: '0px', left: '0px' }}>
-            <div class="menu-button ease-in duration-300" id='menuButton'>
-               <a onClick={() => openClose()} className=' absolute left-[-22px] top-[-6px] z-50'><BiLeftArrow id='openButton' className='ease-in duration-300 rotate-180'/></a>
+            <div class="hidden lg:block menu-button ease-in duration-300" id='menuButton'>
+               <div onClick={() => openClose()} className=' absolute left-[-22px] top-[-6px] z-50'><BiLeftArrow id='openButton' className='ease-in duration-300 rotate-180'/></div>
                 <div class="social-menu">
                     <ul>
                         <li><a href="https://www.facebook.com/teamlanguagenetwork" target="blank"><i class="fab flex items-center h-full"> <FaFacebookF className='w-full' /></i></a></li>
@@ -45,7 +45,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="mt-10 px-10 bg-#dfdfdf space-y-1 flex flex-col items-center pb-8">
+            <div className="mt-20 px-10 bg-#dfdfdf space-y-1 flex flex-col items-center pb-8">
                 <span className='mt-5 flex flex-col text-2xl lg:text-5xl font-medium'>We're here to help</span>
                 <br></br>
                 <span className='text-md lg:text-lg mb-10'>Get in touch with our student support team for any queries or specific needs.</span>
@@ -54,7 +54,7 @@ export default function Footer() {
                     <button type="button" class="btn btn-info text-white mb-10 mb-3 flex" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '10px', paddingRight: '30px', paddingBottom: '10px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Contact Us</button>
                 </a>
             </div>
-            <div className='hidden lg:flex flex-wrap px-3 bg-teal-400 w-full  flex-row justify-evenly px-10 h-20 lg:h-12 space-x-3.5 lg:space-x-0.5'>
+            <div className='hidden lg:flex flex-wrap px-3 bg-[rgb(46,49,49)] w-full  flex-row justify-evenly px-10 h-20 lg:h-12 space-x-3.5 lg:space-x-0.5'>
                 <img src='/images/payments/amazon-pay-icon.svg' class='w-14 lg:w-14 ' alt="a" />
                 <img src='/images/payments/bhim-pay-icon.svg' class='w-14 lg:w-14 ' alt="a" />
                 <img src='/images/payments/finserv-icon.svg' class='w-14 lg:w-14 ' alt="a" />
@@ -64,7 +64,7 @@ export default function Footer() {
                 <img src='/images/payments/rupay-icon.svg' class='w-14 lg:w-14' alt="a" />
                 <img src='/images/payments/upi-pay-icon.svg' class='w-14 lg:w-14' alt="a" />
             </div>
-            <div className='flex lg:hidden flex-wrap lg:px-3 bg-teal-400 w-full  flex-row justify-evenly  h-20 lg:h-12 space-x-3.5 lg:space-x-0.5'>
+            <div className='flex lg:hidden flex-wrap lg:px-3 bg-[rgb(46,49,49)] w-full  flex-row justify-evenly  h-20 lg:h-12 space-x-3.5 lg:space-x-0.5'>
                 <div className='flex lg:hidden felx-row w-full justify-evenly'>
                 <img src='/images/payments/amazon-pay-icon.svg' class='w-14 lg:w-14 ' alt="a" />
                 <img src='/images/payments/bhim-pay-icon.svg' class='w-14 lg:w-14 ' alt="a" />

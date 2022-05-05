@@ -24,7 +24,7 @@
  }
 
  .pagi1.swiper-horizontal > .swiper-pagination-bullets ,.swiper-pagination-custom, .swiper-pagination-fraction{
-    bottom: 38px;
+    bottom: 0px;
  }
  
  .pagi2.swiper-horizontal > .swiper-pagination-bullets ,.swiper-pagination-custom, .swiper-pagination-fraction{
