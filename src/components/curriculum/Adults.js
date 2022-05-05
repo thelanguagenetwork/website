@@ -134,20 +134,20 @@ function Adults() {
                     }} navigation={true} autoplay={false}
                 >
                     <SwiperSlide>
-                        <a onClick={() => setLang('English')} className='m-12'><img id={lang === 'English' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-english@300x.png' /></a>
+                        <a onClick={() => setLang('English')} className='m-20'><img id={lang === 'English' ? 'selected' : ''} className='Home-container-2-img  h-auto lg:w-auto' alt='img' src='/images/adults-english@300x.png' /></a>
                     </SwiperSlide><SwiperSlide>
-                        <a onClick={() => setLang('French')} className='m-12'><img id={lang === 'French' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-french@300x.png' /></a>
+                        <a onClick={() => setLang('French')} className='m-20'><img id={lang === 'French' ? 'selected' : ''} className='Home-container-2-img  h-auto lg:w-auto' alt='img' src='/images/adults-french@300x.png' /></a>
                     </SwiperSlide><SwiperSlide>
-                        <a onClick={() => setLang('Spanish')} className='m-12'><img id={lang === 'Spanish' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-spanish@300x.png' /></a>
+                        <a onClick={() => setLang('Spanish')} className='m-20'><img id={lang === 'Spanish' ? 'selected' : ''} className='Home-container-2-img  h-auto lg:w-auto' alt='img' src='/images/adults-spanish@300x.png' /></a>
                     </SwiperSlide><SwiperSlide>
-                        <a onClick={() => setLang('German')} className='m-12'><img id={lang === 'German' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-german@300x.png' /></a>
+                        <a onClick={() => setLang('German')} className='m-20'><img id={lang === 'German' ? 'selected' : ''} className='Home-container-2-img  h-auto lg:w-auto' alt='img' src='/images/adults-german@300x.png' /></a>
                     </SwiperSlide><SwiperSlide>
-                        <a onClick={() => setLang('Mandarin')} className='m-12'><img id={lang === 'Mandarin' ? 'selected' : ''} className='Home-container-2-img h-[95%]  lg:w-auto' alt='img' src='/images/adults-mandarin@300x.png' /></a>
+                        <a onClick={() => setLang('Mandarin')} className='m-20'><img id={lang === 'Mandarin' ? 'selected' : ''} className='Home-container-2-img h-auto  lg:w-auto' alt='img' src='/images/adults-mandarin@300x.png' /></a>
                     </SwiperSlide><SwiperSlide>
-                        <a onClick={() => setLang('Japanese')} className='m-12'><img id={lang === 'Japanese' ? 'selected' : ''} className='Home-container-2-img h-[95%]  lg:w-auto' alt='img' src='/images/adults-japanese@300x.png' /></a>
+                        <a onClick={() => setLang('Japanese')} className='m-20'><img id={lang === 'Japanese' ? 'selected' : ''} className='Home-container-2-img h-auto  lg:w-auto' alt='img' src='/images/adults-japanese@300x.png' /></a>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <a onClick={() => setLang('Korean')} className='m-12'><img id={lang === 'Korean' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-korean@300x.png' /></a>
+                        <a onClick={() => setLang('Korean')} className='m-20'><img id={lang === 'Korean' ? 'selected' : ''} className='Home-container-2-img  h-auto lg:w-auto' alt='img' src='/images/adults-korean@300x.png' /></a>
                     </SwiperSlide>
                 </Swiper>
             </div>

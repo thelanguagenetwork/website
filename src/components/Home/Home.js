@@ -36,6 +36,7 @@ import Curriculum from '../curriculum/Curriculum';
 // import GlobeMobile from '../Earth/GlobeMobile';
 import Team from '../Footer/Company/AboutUs/Team';
 import Popup from '../curriculum/Pop/Popup'
+import Levels from './Levels';
 
 
 SwiperCore.use([Autoplay, Pagination, Navigation]);
@@ -93,7 +94,7 @@ export default function Home() {
             <div className='Home-container-1 bg-cover lg:bg-contain w-full px-4 lg:py-20 lg:px-26 relative h-[auto] flex flex-col lg:flex-row justify-center items-center content-center flex-wrap' >
                 <div className='w-full lg:w-5/12 flex flex-col space-y-6 pt-2 lg:pt-0'>
                     <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab] lg:pt-2'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>
-                    <h2 className='text-black font-medium text-5xl'>Learn a Language in less than 3 months</h2>
+                    <h2 className='text-black font-semibold lg:font-medium text-2xl lg:text-5xl'>Learn a Language in less than 3 months</h2>
                     <span className='font-medium '>At The Language Network, we help you master a new foreign language of your choice from the comfort of your home.</span>
                     <a href='/getstarted'><button type="button" class="btn btn-info text-white" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '16px', paddingRight: '30px', paddingBottom: '16px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Get Started</button></a>
                 </div>
@@ -109,7 +110,7 @@ export default function Home() {
                         Your browser does not support the video tag.
                     </video>
                 </div>
-                <div className="w-full absolute flex flex-row justify-center bottom-[-550px] lg:bottom-[-150px]">
+                <div className="w-full absolute flex flex-row justify-center bottom-[-125px] lg:bottom-[-150px]">
                     <div className='overlay-box'>
                         <h1 className='lg:text-3xl text-lg mb-2'><CountUp start={0} end={5000} separator=","
                             suffix="+" duration={1}>
@@ -141,51 +142,14 @@ export default function Home() {
 
             </div>
 
-            <div className="Home-container-61 lg:px-40 mt-10 lg:mt-64">
-                <h3 className='w-full text-center font-semibold text-3xl lg:text-4xl'>Our Education Partners</h3>
 
-                <Swiper className='pagi1' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
-                    breakpoints={{
-                        640: {
-                            slidesPerView: 1
-
-                        },
-                        768: {
-                            slidesPerView: 4
-                        }
-                    }}
-                    pagination={{
-                        "clickable": true
-                    }} navigation={true} autoplay={{
-                        "delay": 2500,
-                        "disableOnInteraction": false
-                    }}
-                >
-                    <SwiperSlide>
-                        <img src="/images/CSI-KJSIEIT-Logo-Final-150x150.png" alt='img' />
-                    </SwiperSlide><SwiperSlide>
-                        <img src="/images/RCSCW-150x150.png" alt='img' />
-                    </SwiperSlide><SwiperSlide>
-                        <img src="/images/DCAC-150x150.png" alt='img1' />
-                    </SwiperSlide><SwiperSlide>
-                        <img src="/images/Mithibai-college-image-F7E1045E5E3B-1-150x150.png" alt='img1' />
-                    </SwiperSlide><SwiperSlide>
-                        <img src="/images/Black-RAYS-Logo-PNG-150x150.png" alt='img1' />
-                    </SwiperSlide><SwiperSlide>
-                        <img src="/images/St-Andrews-Logo-150x150.png" alt='img1' />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="/images/Asset 8@300x.png" alt='img1' className='w-[60%]' />
-                    </SwiperSlide>
-                </Swiper>
-            </div>
 
             {/* <div className='w-full lg:hidden block'>
                 <GlobeMobile className='' />
             </div> */}
 
 
-            <div className="Home-container-2  lg:pb-[60px] pb-2 w-full lg:w-4/5 mt-52 lg:mt-28">
+            <div className="Home-container-2  lg:pb-[60px] pb-2 w-full lg:w-4/5 mt-52 lg:mt-52">
                 <h1>START YOUR JOURNEY WITH US!</h1>
                 <h2>Foreign Language Courses We Offer</h2>
                 <div className='hidden lg:flex lg:pt-10 w-3/4 lg:w-full sm:space-y-4 lg:space-y-0 py-5'>
@@ -316,8 +280,8 @@ export default function Home() {
 
 
 
-            <div className="my-24 lg:flex px-4 lg:px-10  flex-row h-auto w-full bg-[#f4f8fb]">
-                <div className='flex flex-col space-y-6 px-4 lg:px-20 justify-center'>
+            <div className="my-24 lg:flex sm:px-4 lg:px-20 lg:py-10 flex-row h-auto w-full bg-[#f4f8fb]">
+                <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center'>
                     <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-0'>Our courses are aligned with the CEFR levels</h1>
                     <p className='text-sm text-[#54595f]'>
                         <span className='bold'>
@@ -329,8 +293,8 @@ export default function Home() {
                         All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
                     </p>
                 </div>
-                <div className='flex align-center px-3 py-3 lg:px-20 lg:py-20'>
-                    <img src='/images/CEFR-LEVELS-1.png' alt='img' />
+                <div className='flex align-center w-full lg:w-2/3'>
+                    <Levels />
                 </div>
             </div>
 
@@ -383,7 +347,7 @@ export default function Home() {
                 </Swiper>
             </div>
 
-            <div className="my-5 lg:flex flex-row h-auto w-full bg-[#f4f8fb] px-8 py-4">
+            <div className="py-3 lg:py-0 my-5 lg:flex flex-row h-auto w-full bg-[#f4f8fb] px-8">
                 <div className='flex flex-col space-y-6 mx-0 lg:mx-4 lg:mx-0 lg:pl-20 lg:pr-52 justify-center lg:w-2/3'>
                     <h1 className='font-medium text-3xl lg:text-4xl'>The Language Network saves you
                         <div class="scroller">
@@ -439,11 +403,51 @@ export default function Home() {
             </div>
             <Team />
 
+            <div className="Home-container-61 lg:px-40 mt-10 lg:mt-64">
+                <h3 className='w-full text-center font-semibold text-3xl lg:text-4xl'>Our Education Partners</h3>
+
+                <Swiper className='pagi1' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 1
+
+                        },
+                        768: {
+                            slidesPerView: 4
+                        }
+                    }}
+                    pagination={{
+                        "clickable": true
+                    }} navigation={true} autoplay={{
+                        "delay": 2500,
+                        "disableOnInteraction": false
+                    }}
+                >
+                    <SwiperSlide>
+                        <img src="/images/CSI-KJSIEIT-Logo-Final-150x150.png" alt='img' />
+                    </SwiperSlide><SwiperSlide>
+                        <img src="/images/RCSCW-150x150.png" alt='img' />
+                    </SwiperSlide><SwiperSlide>
+                        <img src="/images/DCAC-150x150.png" alt='img1' />
+                    </SwiperSlide><SwiperSlide>
+                        <img src="/images/Mithibai-college-image-F7E1045E5E3B-1-150x150.png" alt='img1' />
+                    </SwiperSlide><SwiperSlide>
+                        <img src="/images/Black-RAYS-Logo-PNG-150x150.png" alt='img1' />
+                    </SwiperSlide><SwiperSlide>
+                        <img src="/images/St-Andrews-Logo-150x150.png" alt='img1' />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="/images/Asset 8@300x.png" alt='img1' className='w-[60%]' />
+                    </SwiperSlide>
+                </Swiper>
+            </div>
+
             <div className="Home-container-11 mt-20 lg:mb-0">
                 <h1>Happy Testimonials</h1>
                 <hr></hr>
                 <Testimonial />
             </div>
+
 
         </div>
 
