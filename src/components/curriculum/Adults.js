@@ -31,6 +31,7 @@ import { Korean_1_1, Korean_1_2, Korean_1_4 } from '../CoursePricing/CourseTable
 function Adults() {
 
     const [lang, setLang] = useState('French')
+
     const Languages = () => {
         switch (lang) {
             case 'English':

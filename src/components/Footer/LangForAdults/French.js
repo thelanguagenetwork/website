@@ -61,14 +61,14 @@ export default function AdultsFrench() {
 
 
             <div className='w-full text-center px-4 lg:px-0 text-3xl lg:text-4xl font-medium mt-20'>How is learning French with The Language Network different?</div>
-            <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly lg:space-x-24'>
-                <div className='h-[14rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-40 flex flex-col items-center text-center '>
+            <div className='w-full  py-18 hidden lg:flex flex-row flex-wrap  justify-evenly lg:space-x-14 lg:px-10'>
+                <div className='h-[14rem] my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-60 flex flex-col items-center text-center '>
                     <img src="/images/Asset-27@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>DELF preparations</h3>
                     <p className='text-sm text-gray-700'>
                         Our language experts teach our students how to ace standardised exams like DEFL. We believe that just learning French is not enough. Our students must also learn how to deal with international exams. How to crack DELF is one of our primary objectives.    </p>
                 </div>
-                <div className='h-[14rem] lg:mx-10 sm:mx-auto my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-40 flex flex-col items-center text-center'>
+                <div className='h-[14rem] lg:mx-10 sm:mx-auto my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>
 
@@ -77,7 +77,7 @@ export default function AdultsFrench() {
 
                         We teach our students how to crack interviews in French. We teach our students to ace French. We understand that cracking interviews is necessary for sustenance. Get the confidence to crack interviews and get the jobs you desire.   </p>
                 </div>
-                <div className='h-[13rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-40 flex flex-col items-center text-center'>
+                <div className='h-[13rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>
 
@@ -87,7 +87,7 @@ export default function AdultsFrench() {
 
                         CV making is an important aspect of getting your desired jobs. We often make mistakes while making our CV. At The Language Network, we teach our students how to make eye-catching CVs. Learn French and also learn how to use your knowledge to the fullest with TLN.     </p>
                 </div>
-                <div className='h-[13rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[29rem] w-40 lg:flex flex-col items-center text-center'>
+                <div className='h-[13rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[29rem] w-60 lg:flex flex-col items-center text-center'>
                     <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>
 
@@ -97,7 +97,7 @@ export default function AdultsFrench() {
 
                         While learning French we often focus only on understanding part of the language. Spoken French is also equally important. Our French language course puts emphasis on Spoken French. We have activities that improve the spoken part.    </p>
                 </div>
-                <div className='h-[14rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-40 flex flex-col items-center text-center'>
+                <div className='h-[14rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>
 
@@ -107,7 +107,7 @@ export default function AdultsFrench() {
 
                         Learn French with our study plans and ace at spoken and written French. We have created study plans with respect to international exams. These hand-tailored study plans will help you excel in French.    </p>
                 </div>
-                <div className='h-[14rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-40 flex flex-col items-center text-center'>
+                <div className='h-[14rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>
 
@@ -117,7 +117,7 @@ export default function AdultsFrench() {
 
                         The Language Network believes that each individual needs personal focus. Thus, we maintain small batches for all our language courses. We also provide one-on-one batches. Students always get the attention they deserve.     </p>
                 </div>
-                <div className='h-[14rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-40 flex flex-col items-center text-center'>
+                <div className='h-[14rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-28@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>
 
@@ -322,7 +322,7 @@ export default function AdultsFrench() {
 
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className="w-5/6 hidden lg:flex flex-row space-y-10 lg:space-y-0 mt-12">
-                        <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
+                        <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300 rounded-2xl" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
                             <div className="Home-card-img">
                                 <img src='/images/Adolscents@300x.png' alt='img' />
                             </div>
@@ -331,7 +331,7 @@ export default function AdultsFrench() {
                                 <p>Children in this age range can learn any foreign language with the right professional assistance. Kids have a high sense of creativity and imagination. At, TLN we know how to use this imagination and methodically focuses on aspects of language that boost performance and imagination</p>
                             </div>
                         </div>
-                        <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-2' onMouseOver={changeCol2} onMouseLeave={changeBack}>
+                        <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300 rounded-2xl" id='Home-card-2' onMouseOver={changeCol2} onMouseLeave={changeBack}>
                             <div className="Home-card-img">
                                 <img src='/images/Kids@300x-1.png' alt='img' />
                             </div>
@@ -340,7 +340,7 @@ export default function AdultsFrench() {
                                 <p>Students in this age group are usually energetic, curious, and eager to explore the world! At TLN, we teach more than just the language. We take you through the culture; traditions, clothing, food, festivals, etc. This means that you are learning more than the writing system or pronunciation.</p>
                             </div>
                         </div>
-                        <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-3' onMouseOver={changeCol3} onMouseLeave={changeBack}>
+                        <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300 rounded-2xl" id='Home-card-3' onMouseOver={changeCol3} onMouseLeave={changeBack}>
                             <div className="Home-card-img">
                                 <img src='/images/adults@300x.png' alt='img' />
                             </div>
