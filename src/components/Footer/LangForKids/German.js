@@ -135,17 +135,17 @@ export default function KidsGerman() {
                     <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
                     <p className='text-sm text-gray-700'>You can monitor your child’s progress with our German language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
                 </div>
-                <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
+               {/* <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-24@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
                     <p className='text-sm text-gray-700'>
                         Our curriculum is created by carefully integrating all aspects of language learning. Our Learn German for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
-                </div>
+                </div>*/}
                 <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Learn from experts</h3>
                     <p className='text-sm text-gray-700'>
-                        After an extensive hiring process, we have carefully handpicked language experts, who are efficient in teaching kids and adolescents. Leave your children with our German language experts and expect nothing but better results.  </p>
+                        After an extensive hiring process, we have carefully handpicked language experts, who are efficient in teaching kids and adolescents. </p>
                 </div>
                 <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
@@ -154,7 +154,7 @@ export default function KidsGerman() {
                         Our language trainers will guide your children to excel in their academic life. We will also conduct career counselling when it is needed. Push your kids to a new height with our German language courses.  </p>
                 </div>
                 <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
+                    <img src="/images/Asset-30@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>International Exams</h3>
                     <p className='text-sm text-gray-700'>
                         TLN believes that all its students should appear for international exams like Cambridge. From an early age, we prepare them for these international exams.   </p>
@@ -164,14 +164,14 @@ export default function KidsGerman() {
                     <h3 className='font-bold text-lg my-2'>Cultural Sensitivity</h3>
                     <p className='text-sm text-gray-700'>
 
-                        Our German language course for kids and adolescents also includes cultural learning. We believe that Cultural learning is important when it comes to language learning. It helps the students learn more efficiently. Thus, we focus on the culture associated with the language.   </p>
+                        Our German language course for kids and adolescents also includes cultural learning. We believe that Cultural learning is important when it comes to language learning. It helps the students learn more efficiently. </p>
                 </div>
                 <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Get Certified Results</h3>
                     <p className='text-sm text-gray-700'>
 
-                        We provided certificates as our students excel in language learning. It ensures that the students will aim higher and be more motivated. Certificates are good for boosting student morale. Learn German with TLN and give wings to your children’s dreams.   </p>
+                        We provided certificates as our students excel in language learning. It ensures that the students will aim higher and be more motivated. Certificates are good for boosting student morale.</p>
                 </div>
             </div>
             <Swiper className='pagi1 block lg:hidden w-full px-10 md:px-16 bg-inherit' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
