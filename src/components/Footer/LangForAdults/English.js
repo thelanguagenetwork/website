@@ -61,7 +61,7 @@ export default function AdultsEnglish() {
 
 
             <div className='w-full text-center text-3xl lg:text-4xl font-semibold mt-20'>How is learning English with TLN unique?</div>
-            <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly'>
+            <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly lg:space-x-24'>
                 <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Interview preparations ​</h3>
@@ -268,7 +268,8 @@ export default function AdultsEnglish() {
 
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className="w-5/6 hidden lg:flex flex-row space-y-10 lg:space-y-0 mt-12">
-                        <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
+
+                        <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300 rounded-2xl" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
                             <div className="Home-card-img">
                                 <img src='/images/Adolscents@300x.png' alt='img' />
                             </div>
@@ -277,7 +278,7 @@ export default function AdultsEnglish() {
                                 <p>Children in this age range can learn any foreign language with the right professional assistance. Kids have a high sense of creativity and imagination. At, TLN we know how to use this imagination and methodically focuses on aspects of language that boost performance and imagination</p>
                             </div>
                         </div>
-                        <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-2' onMouseOver={changeCol2} onMouseLeave={changeBack}>
+                        <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300 rounded-2xl" id='Home-card-2' onMouseOver={changeCol2} onMouseLeave={changeBack}>
                             <div className="Home-card-img">
                                 <img src='/images/Kids@300x-1.png' alt='img' />
                             </div>
@@ -286,7 +287,7 @@ export default function AdultsEnglish() {
                                 <p>Students in this age group are usually energetic, curious, and eager to explore the world! At TLN, we teach more than just the language. We take you through the culture; traditions, clothing, food, festivals, etc. This means that you are learning more than the writing system or pronunciation.</p>
                             </div>
                         </div>
-                        <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-3' onMouseOver={changeCol3} onMouseLeave={changeBack}>
+                        <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300 rounded-2xl" id='Home-card-3' onMouseOver={changeCol3} onMouseLeave={changeBack}>
                             <div className="Home-card-img">
                                 <img src='/images/adults@300x.png' alt='img' />
                             </div>

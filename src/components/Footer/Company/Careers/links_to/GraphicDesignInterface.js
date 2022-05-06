@@ -21,7 +21,8 @@ export default function GraphicDesignInterface() {
                 <span><strong>Start Date: </strong>Immediate</span>
 
                 <span><strong>Working hours:</strong> 4 months</span>
-                <button type="button" class="btn btn-info text-white mb-10 mb-3 flex w-36" style={{ backgroundColor: '#13bfab', borderRadius: '5px', paddingTop: '10px', paddingRight: '30px', paddingBottom: '10px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>APPLY NOW</button>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5gos89jC1wQhIjPG5xZx-ZN9CW3giKaErbL_Gf_a9ZbxNUQ/viewform"><button type="button" class="btn btn-info text-white mb-10 mb-3 flex w-36" style={{ backgroundColor: '#13bfab', borderRadius: '5px', paddingTop: '10px', paddingRight: '30px', paddingBottom: '10px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>APPLY NOW</button></a>
+
             </div>
 
             <div className="px-8 lg:px-28 pb-10"><span className=" font-bold text-md">Interested  in building real-world graphic design experience? We’re a forward-thinking organization looking for a talented and knowledgeable designer with fresh, creative ideas and an excellent eye for detail.  </span></div>
@@ -107,7 +108,8 @@ export default function GraphicDesignInterface() {
                 </div>
             </div>
             <div className="flex justify-center py-10">
-                <button type="button" class="btn btn-info text-white mb-10 mb-3 flex w-36" style={{ backgroundColor: '#13bfab', borderRadius: '5px', paddingTop: '10px', paddingRight: '30px', paddingBottom: '10px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>APPLY NOW</button>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5gos89jC1wQhIjPG5xZx-ZN9CW3giKaErbL_Gf_a9ZbxNUQ/viewform"><button type="button" class="btn btn-info text-white mb-10 mb-3 flex w-36" style={{ backgroundColor: '#13bfab', borderRadius: '5px', paddingTop: '10px', paddingRight: '30px', paddingBottom: '10px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>APPLY NOW</button></a>
+
             </div>
         </div>
     )
