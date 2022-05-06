@@ -93,7 +93,7 @@ export default function IntroCourse() {
                 </SwiperSlide>
             </Swiper>
             <div id='LearnLang' className='h-auto bg-[#f4f8fb] w-full lg:flex flex-row flex-wrap items-center mt-10'>
-                <div className='py-10 lg:w-1/2 px-24 '>
+                <div className='py-10 lg:w-1/2 px-10 lg:px-24  '>
                     <h3 className='font-bold text-3xl lg:text-5xl my-4'>Languages you can learn</h3>
                     <h1 className='my-4'>Invest a mere month of your time to learn a language.</h1>
                     <button type="button" class="flex flex-row btn btn-outline-dark hover:bg-[#13bfab] rounded-full  w-fit text-md py-3 px-4 ">Download Brochure</button>
@@ -173,9 +173,9 @@ export default function IntroCourse() {
                     </div>
                 </SwiperSlide>
             </Swiper>
-                <div className='w-full text-center text-xs mb-4'>*To receive the cashback you must follow The Language Network T&C’s.</div>
+                <div className='w-full text-center text-xs mb-4 px-5 '>*To receive the cashback you must follow The Language Network T&C’s.</div>
             </div>
-            <div className="flex items-center justify-center font-bold text-4xl py-12 pb-20 px-4 text-center">Learn a language at par with professionals at affordable prices</div>
+            <div className="flex items-center justify-center font-bold text-2xl lg:text-4xl py-12 pb-20 px-4 text-center">Learn a language at par with professionals at affordable prices</div>
             <div className='w-full flex lg:flex-row flex-col justify-center pt-4 px-10 lg:px-0'>
                 
                 <div class="lg:w-1/4 w-full rounded-lg shadow-2xl overflow-hidden mb-4 lg:mx-20">

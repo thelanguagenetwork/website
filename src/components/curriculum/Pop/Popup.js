@@ -10,30 +10,30 @@ function MyVerticallyCenteredModal(props) {
             aria-labelledby="contained-modal-title-vcenter"
             centered
         >
-            <Modal.Header className="flex justify-center bg-[#13bfab] mx-0 border-black" closeButton>
+            <Modal.Header className="flex justify-center mx-0" closeButton>
                 <Modal.Title  id="contained-modal-title-vcenter flex align-center items-center justify-center">
-                    <span>Courses Offered</span>
+                    <span>Select you age group</span>
                     
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
                 <div className="lg:flex flex-col items-center">
-                    <div className="pl-16 lg:pl-0 lg:flex flex-row justify-center items-center space-x-28 lg:space-x-80 pb-3 ">
-                        <span className="w-1/2 pr-4 font-semibold underline decoration-sky-500 underline-offset-4 text-2xl">Adult</span>
-                        
-                        <span className="w-1/2 pr-4 font-semibold  underline decoration-sky-500 underline-offset-4 text-2xl">Kid</span>
-                    </div>
                     <div className="flex flex-row divide-x">
 
-                        <div className="flex justify-center w-1/2 px-10 lg:px-20 justify-center items-center">
-                            <div className="flex flex-col content-center">
-                                <a href={props.a1}><img src="/images/man.jpg" alt="Img" /></a>
+                        <div className="flex justify-center w-1/2 justify-center items-center">
+                            <div className="flex flex-col content-center justify-center items-center  ">
+                                <a className="flex justify-center" href={props.a1}><img className="w-1/2 md: lg: flex justify-center" src="/images/man.jpg" alt="Img" /></a>
+                                <span className="flex justify-center py-2 font-semibold text-lg ">Adults</span>
+                                <p className="flex justify-center">Age Group: 14+ years</p>
                             </div>
                         </div>
 
-                        <div className="flex justify-center w-1/2 px-[3.4rem] mt-10 lg:px-[6rem] justify-center items-center">
-                            <div className="flex flex-col pb-3">
-                                <a href={props.a2}><img src="/images/boy.jpg" alt="Img" /></a>
+                        <div className="flex justify-center w-1/2 justify-center items-center">
+                            <div className="flex flex-col items-center content-center pt-[1.2rem] lg:pt-[2rem]">
+                                <a className="flex justify-center" href={props.a2}><img className="w-5/12 md: lg:" src="/images/boy.jpg" alt="Img" /></a>
+                                <span className="flex justify-center py-2 font-semibold text-lg">Kids and Teens</span>
+                                <p className="flex justify-center">Age Group: 6-13 years</p>
+
                             </div>
                         </div>
 

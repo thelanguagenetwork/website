@@ -60,7 +60,7 @@ export default function AdultsFrench() {
             </div>
 
 
-            <div className='w-full text-center px-4 lg:px-0 text-3xl lg:text-4xl font-medium mt-20'>How is learning French with The Language Network different?</div>
+            <div className='w-full text-center px-4 lg:px-0 text-2xl lg:text-4xl font-medium mt-20'>How is learning French with The Language Network different?</div>
             <div className='w-full  py-18 hidden lg:flex flex-row flex-wrap  justify-evenly lg:space-x-14 lg:px-10'>
                 <div className='h-[14rem] my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-60 flex flex-col items-center text-center '>
                     <img src="/images/Asset-27@300x.png" alt="alt" className='p-8' />
@@ -311,7 +311,7 @@ export default function AdultsFrench() {
             </div>
 
             <div className='flex flex-col items-center '>
-                <div className="Home-container-3 ">
+                <div className="Home-container-3">
                     <h1>
                         Students at The Language Network
                     </h1>

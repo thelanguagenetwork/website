@@ -60,7 +60,7 @@ export default function AdultsEnglish() {
             </div>
 
 
-            <div className='w-full text-center text-3xl lg:text-4xl font-semibold mt-20'>How is learning English with TLN unique?</div>
+            <div className='w-full text-center text-2xl lg:text-4xl font-semibold mt-20 px-10'>How is learning English with TLN unique?</div>
             <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly lg:space-x-24'>
                 <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
@@ -232,7 +232,7 @@ export default function AdultsEnglish() {
 
 
             <div className="my-20 lg:flex flex-row h-auto w-full">
-                <div className='flex flex-col space-y-6 pl-10 lg:mx-20 justify-center'>
+                <div className='flex flex-col space-y-6 px-5 lg:mx-20 justify-center'>
                     <h1 className='font-bold text-3xl lg:text-4xl'>English Language Levels for Adults</h1>
                     <p className='text-sm text-[#54595f]'>
                         All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
@@ -261,10 +261,11 @@ export default function AdultsEnglish() {
                     <h1>
                         Students at The Language Network
                     </h1>
-                    <p>
+                    <p className="flex justify-center items-center px-10 lg:px-36">
                         We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
                     </p>
                 </div>
+
 
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className="w-5/6 hidden lg:flex flex-row space-y-10 lg:space-y-0 mt-12">
@@ -346,7 +347,7 @@ export default function AdultsEnglish() {
                 </div>
             </div>
 
-            <p className='w-full lg:px-80 pt-20 text-center font-medium text-4xl'>Join us in a language trip now, by following these simple steps</p>
+            <p className='w-full lg:px-80 pt-20 text-center font-medium text-3xl lg:text-4xl px-10 lg:px-0'>Join us in a language trip now, by following these simple steps</p>
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-20 mx-auto">
                     <div class="hidden lg:flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
@@ -540,7 +541,7 @@ export default function AdultsEnglish() {
                             <div class="accordion-body py-4 px-5">Yes, you absolutely can get timings to match your convenience. We offer weekday and weekend batches, so you can choose whichever suits your schedule the best. </div>
                         </div>
                     </div>
-                    <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
+                    <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200 mb-10">
                         <h2 class="accordion-header mb-0" id="flush-headingEleven">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven"
                                 aria-expanded="false" aria-controls="flush-collapseEleven">
