@@ -23,6 +23,22 @@
     background-position: center;
  }
 
+ .levelSwiper .swiper-button-prev{
+    position: absolute;
+    top: 96.5%;
+    z-index: 15;
+ }
+ .levelSwiper .swiper-button-next{
+    position: absolute;
+    top: 96.5%;
+    z-index: 15;
+
+ }
+
+ .levelSwiper.swiper-horizontal > .swiper-pagination-bullets ,.swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 0px;
+ }
+
  .pagi1.swiper-horizontal > .swiper-pagination-bullets ,.swiper-pagination-custom, .swiper-pagination-fraction{
     bottom: 0px;
  }

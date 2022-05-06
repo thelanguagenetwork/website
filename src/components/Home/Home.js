@@ -442,7 +442,7 @@ export default function Home() {
                 </Swiper>
             </div>
 
-            <div className="Home-container-11 mt-20 lg:mb-0">
+            <div className="Home-container-11 mt-20 lg:mb-20">
                 <h1>Happy Testimonials</h1>
                 <hr></hr>
                 <Testimonial />
