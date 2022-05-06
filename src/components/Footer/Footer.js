@@ -45,7 +45,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="mt-20 px-10 bg-#dfdfdf space-y-1 flex flex-col items-center pb-8">
+            <div className="px-10 bg-#dfdfdf space-y-1 flex flex-col items-center pb-8">
                 <span className='mt-5 flex flex-col text-2xl lg:text-5xl font-medium'>We're here to help</span>
                 <br></br>
                 <span className='text-md lg:text-lg mb-10'>Get in touch with our student support team for any queries or specific needs.</span>

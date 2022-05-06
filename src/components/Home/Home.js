@@ -293,7 +293,7 @@ export default function Home() {
                         All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
                     </p>
                 </div>
-                <div className='flex align-center w-full lg:w-2/3'>
+                <div className='flex align-center w-full py-10 lg:py-0 lg:w-2/3'>
                     <Levels />
                 </div>
             </div>
@@ -442,7 +442,7 @@ export default function Home() {
                 </Swiper>
             </div>
 
-            <div className="Home-container-11 mt-20 lg:mb-0">
+            <div className="Home-container-11 mt-20 lg:mb-20">
                 <h1>Happy Testimonials</h1>
                 <hr></hr>
                 <Testimonial />
