@@ -162,7 +162,7 @@ export default function KidsMandarin() {
                 </div>
 
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[29rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-31@300x.png" alt="alt" className='p-8' />
+                    <img src="/images/Asset-34@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>International Exams</h3>
                     <p className='text-sm text-gray-700'>
                         Our Mandarin language course for Kids does not only teach the Mandarin language. We also prepare our students for international exams associated with the language. We believe that our students should aim for the best.   </p>
