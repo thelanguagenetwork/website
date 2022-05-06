@@ -20,7 +20,8 @@ export default function ForeignLangTrainers() {
         <span><strong>Type: </strong> Work from home (Online classes)</span>
         <span><strong>Location: </strong>Mumbai, Pune</span>
         <span><strong>Working hours:</strong> Part-time</span>
-        <button type="button" class="btn btn-info text-white mb-10 mb-3 flex w-36" style={{ backgroundColor: '#13bfab', borderRadius: '5px', paddingTop: '10px', paddingRight: '30px', paddingBottom: '10px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>APPLY NOW</button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5gos89jC1wQhIjPG5xZx-ZN9CW3giKaErbL_Gf_a9ZbxNUQ/viewform"><button type="button" class="btn btn-info text-white mb-10 mb-3 flex w-36" style={{ backgroundColor: '#13bfab', borderRadius: '5px', paddingTop: '10px', paddingRight: '30px', paddingBottom: '10px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>APPLY NOW</button></a>
+
       </div>
 
       <div className="px-8 lg:px-28">
@@ -54,22 +55,23 @@ export default function ForeignLangTrainers() {
         <h1 className="text-2xl font-semibold pb-8">Perks:</h1>
         <div className="flex flex-col space-y-5 px-4">
           <div className="flex flex-row items-center space-x-2">
-          <AiFillStar className="text-xl text-[#13BFAB] justify-center mr-2" /> Hourly pay structure/contract
+            <AiFillStar className="text-xl text-[#13BFAB] justify-center mr-2" /> Hourly pay structure/contract
           </div>
           <div className="flex flex-row items-center">
-          <AiFillStar className="text-xl text-[#13BFAB] justify-center mr-2" /> Flexible work hours
+            <AiFillStar className="text-xl text-[#13BFAB] justify-center mr-2" /> Flexible work hours
           </div>
           <div className="flex flex-row items-center">
-          <AiFillStar className="text-xl text-[#13BFAB] justify-center mr-2" /> Letter of recommendation
+            <AiFillStar className="text-xl text-[#13BFAB] justify-center mr-2" /> Letter of recommendation
           </div>
           <div className="flex flex-row items-center">
-          <AiFillStar className="text-xl text-[#13BFAB] justify-center mr-2" /> Experience letter
+            <AiFillStar className="text-xl text-[#13BFAB] justify-center mr-2" /> Experience letter
           </div>
         </div>
       </div>
       <div className="flex justify-center py-10">
-      <button type="button" class="btn btn-info text-white mb-10 mb-3 flex w-36" style={{ backgroundColor: '#13bfab', borderRadius: '5px', paddingTop: '10px', paddingRight: '30px', paddingBottom: '10px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>APPLY NOW</button>
-      </div> 
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5gos89jC1wQhIjPG5xZx-ZN9CW3giKaErbL_Gf_a9ZbxNUQ/viewform"><button type="button" class="btn btn-info text-white mb-10 mb-3 flex w-36" style={{ backgroundColor: '#13bfab', borderRadius: '5px', paddingTop: '10px', paddingRight: '30px', paddingBottom: '10px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>APPLY NOW</button></a>
+
+      </div>
     </div>
   )
 }
