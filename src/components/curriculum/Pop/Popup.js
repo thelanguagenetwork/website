@@ -36,7 +36,7 @@ function MyVerticallyCenteredModal(props) {
 
                         <div className="flex justify-center w-1/2 justify-center items-center">
                             <div className="flex flex-col items-center content-center pt-[1.2rem] lg:pt-[2rem]">
-                                <a className="flex justify-center" href={props.a2}><img className="w-5/12 md: lg:" src="/images/boy.jpg" alt="Img" /></a>
+                                <a className="flex justify-center" href={props.a2}><img className="w-5/12 md: lg:" src="/images/Boy.jpg" alt="Img" /></a>
                                 <span className="flex justify-center py-2 font-semibold text-lg">Kids and Teens</span>
                                 <p className="flex justify-center">Age Group: 6-13 years</p>
 

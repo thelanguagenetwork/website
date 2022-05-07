@@ -177,15 +177,7 @@ export default function Careers() {
                 </div>
               </div>
             </div>
-            <div class="p-4 lg:w-2/5">
-              <div class="h-full flex sm:flex-row flex-col items-left sm:justify-start justify-center text-left">
-                <img alt="team" class="flex-shrink-0 rounded-lg w-20 h-20 object-cover object-center sm:mb-0 mb-4" src="/images/1470399662_Marketing.png" />
-                <div class="flex-grow sm:pl-8">
-                  <h2 class="title-font font-bold text-3xl text-[#13bfab]">Work flexible hours</h2>
-                  <p class="mb-4">We believe that quality time outside the office is vital to our employees satisfaction at work. That’s why our flexible schedule encourages team members to take time off so they can come back refreshed.</p>
-                </div>
-              </div>
-            </div>
+            
             <div class="p-4 lg:w-2/5">
               <div class="h-full flex sm:flex-row flex-col items-left sm:justify-start justify-center text-left">
                 <img alt="team" class="flex-shrink-0 rounded-lg w-20 h-20 object-cover object-center sm:mb-0 mb-4" src="/images/1470399671_SEO.png" />

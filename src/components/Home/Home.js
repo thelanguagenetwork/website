@@ -216,7 +216,7 @@ export default function Home() {
                             <img src='/images/Kids@300x-1.png' alt='img' />
                         </div>
                         <div className='Home-card-text'>
-                            <h1 id='Home-card-text-h2'>Adolscents (10-13 years)</h1>
+                            <h1 id='Home-card-text-h2'>Teens (10-13 years)</h1>
                             <p>Students in this age group are usually energetic, curious, and eager to explore the world! At TLN, we teach more than just the language. We take you through the culture; traditions, clothing, food, festivals, etc. This means that you are learning more than the writing system or pronunciation.</p>
                         </div>
                     </div>
@@ -259,7 +259,7 @@ export default function Home() {
                                 <img src='/images/Kids@300x-1.png' alt='img' />
                             </div>
                             <div className='Home-card-text'>
-                                <h1 id='Home-card-text-h2'>Adolscents (10-13 years)</h1>
+                                <h1 id='Home-card-text-h2'>Teens (10-13 years)</h1>
                                 <p>Students in this age group are usually energetic, curious, and eager to explore the world! At TLN, we teach more than just the language. We take you through the culture; traditions, clothing, food, festivals, etc. This means that you are learning more than the writing system or pronunciation.</p>
                             </div>
                         </div>
@@ -280,9 +280,9 @@ export default function Home() {
 
 
 
-            <div className="my-24 lg:flex sm:px-4 lg:px-20 lg:py-10 flex-row h-auto w-full bg-[#f4f8fb]">
-                <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center'>
-                    <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-0'>Our courses are aligned with the CEFR levels</h1>
+            <div className="my-24 lg:flex sm:px-4 lg:px-20 lg:pt-10 flex-row h-auto w-full bg-[#f4f8fb]">
+                <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
+                    <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>Our courses are aligned with the CEFR levels</h1>
                     <p className='text-sm text-[#54595f]'>
                         <span className='bold'>
                             CEFR (Common European Framework of Reference for Languages)
@@ -293,7 +293,7 @@ export default function Home() {
                         All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
                     </p>
                 </div>
-                <div className='flex align-center w-full py-10 lg:py-0 lg:w-2/3'>
+                <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
                     <Levels />
                 </div>
             </div>

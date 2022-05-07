@@ -36,11 +36,11 @@ export default function Sec3() {
     return <div className='relative flex flex-col items-center mt-32'>
         <div className="Home-container-3 lg:px-52">
             <h1>
-                Students at The Language Network
+            Join us in a language trip now, by following these simple steps
             </h1>
-            <p>
+           {/* <p>
                 We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
-            </p>
+            </p>*/}
         </div>
 
         {/* <div className="Home-container-4">
