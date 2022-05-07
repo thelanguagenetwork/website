@@ -62,7 +62,7 @@ export default function AdultsEnglish() {
 
 
             <div className='w-full text-center text-2xl lg:text-4xl font-semibold mt-20 px-10'>How is learning English with TLN unique?</div>
-            <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly lg:space-x-24'>
+            <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly '>
                 <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Interview preparations ​</h3>
@@ -251,7 +251,7 @@ export default function AdultsEnglish() {
                     <h1>
                         Students at The Language Network
                     </h1>
-                    <p className="flex justify-center items-center px-10 lg:px-36" >
+                    <p className="flex justify-center items-center lg:px-36 pt-3" >
                         We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
                     </p>
                 </div>

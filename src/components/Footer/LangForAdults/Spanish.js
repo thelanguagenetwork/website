@@ -264,7 +264,7 @@ export default function AdultsSpanish() {
                     <h1>
                         Students at The Language Network
                     </h1>
-                    <p className='px-10 lg:px-36'>
+                    <p className='lg:px-36 pt-3'>
                         We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
                     </p>
                 </div>
@@ -348,7 +348,7 @@ export default function AdultsSpanish() {
                 </div>
             </div>
 
-            <p className='w-full px-3 lg:px-80 pt-20 text-center font-medium text-4xl'>Join us in a language trip now, by following these simple steps</p>
+            <p className='w-full px-3 lg:px-80 pt-20 text-center font-medium text-3xl lg:text-4xl'>Join us in a language trip now, by following these simple steps</p>
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-20 mx-auto">
                     <div class="hidden lg:flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
