@@ -4,11 +4,11 @@ export default function Faqs() {
   return (
     <div>
       <div>
-        <div className="bg-zinc-100 py-6">
+        <div className="bg-zinc-100 dark:bg-zinc-700 py-6">
           <p className='w-full text-center font-medium text-5xl mt-20 text-[#13BFAB]'>Frequently Asked Questions</p>
           <div className='items-center justify-center px-3 lg:px-20 flex flex-col justify-center py-4'> <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-black border-1 w-1/12 self-center items-center" /></div>
 
-          <p className='w-full text-center font-large text-md mb-20'>Find answers to common questions, and get help!</p>
+          <p className='w-full dark:text-white text-center font-large text-md mb-20'>Find answers to common questions, and get help!</p>
         </div>
 
 

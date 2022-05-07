@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination"
 import "swiper/css/navigation"
+import Levels from '../../Home/Levels';
 
 export default function AdultsFrench() {
 
@@ -146,85 +147,85 @@ export default function AdultsFrench() {
                 }}
             >
                 <SwiperSlide>
-                     <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-60 flex flex-col items-center text-center '>
-                    <img src="/images/Asset-27@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>DELF preparations</h3>
-                    <p className='text-sm text-gray-700'>
-                        Our language experts teach our students how to ace standardised exams like DEFL. We believe that just learning French is not enough. Our students must also learn how to deal with international exams. How to crack DELF is one of our primary objectives.    </p>
-                </div>
+                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-60 flex flex-col items-center text-center '>
+                        <img src="/images/Asset-27@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>DELF preparations</h3>
+                        <p className='text-sm text-gray-700'>
+                            Our language experts teach our students how to ace standardised exams like DEFL. We believe that just learning French is not enough. Our students must also learn how to deal with international exams. How to crack DELF is one of our primary objectives.    </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                   <div className='h-[18rem] lg:mx-10 sm:mx-auto my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
+                    <div className='h-[18rem] lg:mx-10 sm:mx-auto my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>
 
-                        Interview preparations ​</h3>
-                    <p className='text-sm text-gray-700'>
+                            Interview preparations ​</h3>
+                        <p className='text-sm text-gray-700'>
 
-                        We teach our students how to crack interviews in French. We teach our students to ace French. We understand that cracking interviews is necessary for sustenance. Get the confidence to crack interviews and get the jobs you desire.   </p>
-                </div>
+                            We teach our students how to crack interviews in French. We teach our students to ace French. We understand that cracking interviews is necessary for sustenance. Get the confidence to crack interviews and get the jobs you desire.   </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
+                        <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>
 
-                        CV making</h3>
-                    <p className='text-sm text-gray-700'>
+                            CV making</h3>
+                        <p className='text-sm text-gray-700'>
 
 
-                        CV making is an important aspect of getting your desired jobs. We often make mistakes while making our CV. At The Language Network, we teach our students how to make eye-catching CVs. Learn French and also learn how to use your knowledge to the fullest with TLN.     </p>
-                </div>
+                            CV making is an important aspect of getting your desired jobs. We often make mistakes while making our CV. At The Language Network, we teach our students how to make eye-catching CVs. Learn French and also learn how to use your knowledge to the fullest with TLN.     </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[29rem] w-60 lg:flex flex-col items-center text-center'>
-                    <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
+                        <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>
 
-                        Spoken French</h3>
-                    <p className='text-sm text-gray-700'>
+                            Spoken French</h3>
+                        <p className='text-sm text-gray-700'>
 
 
-                        While learning French we often focus only on understanding part of the language. Spoken French is also equally important. Our French language course puts emphasis on Spoken French. We have activities that improve the spoken part.    </p>
-                </div>
+                            While learning French we often focus only on understanding part of the language. Spoken French is also equally important. Our French language course puts emphasis on Spoken French. We have activities that improve the spoken part.    </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                   <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
+                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>
 
-                        Learn with Study plans</h3>
-                    <p className='text-sm text-gray-700'>
+                            Learn with Study plans</h3>
+                        <p className='text-sm text-gray-700'>
 
 
-                        Learn French with our study plans and ace at spoken and written French. We have created study plans with respect to international exams. These hand-tailored study plans will help you excel in French.    </p>
-                </div>
+                            Learn French with our study plans and ace at spoken and written French. We have created study plans with respect to international exams. These hand-tailored study plans will help you excel in French.    </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                     <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
+                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>
 
-                        Compact batches</h3>
-                    <p className='text-sm text-gray-700'>
+                            Compact batches</h3>
+                        <p className='text-sm text-gray-700'>
 
 
-                        The Language Network believes that each individual needs personal focus. Thus, we maintain small batches for all our language courses. We also provide one-on-one batches. Students always get the attention they deserve.     </p>
-                </div>
+                            The Language Network believes that each individual needs personal focus. Thus, we maintain small batches for all our language courses. We also provide one-on-one batches. Students always get the attention they deserve.     </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                     <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-28@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
+                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-28@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>
 
 
-                        Learning activities</h3>
-                    <p className='text-sm text-gray-700'>
+                            Learning activities</h3>
+                        <p className='text-sm text-gray-700'>
 
 
 
-                        Our study plans also include fun activities that boost learning. There are several activities that our language experts conduct in order to better explain the subject. These activities include debates, charades, podcasts, etc.      </p>
-                </div>
+                            Our study plans also include fun activities that boost learning. There are several activities that our language experts conduct in order to better explain the subject. These activities include debates, charades, podcasts, etc.      </p>
+                    </div>
                 </SwiperSlide>
             </Swiper>
 
@@ -285,14 +286,14 @@ export default function AdultsFrench() {
             </div>
 
 
-            <div className="my-28 py-9 lg:flex flex-row h-auto w-full bg-[#f4f8fb]">
+            {/* <div className="my-28 py-9 lg:flex flex-row h-auto w-full bg-[#f4f8fb]">
                 <div className='flex flex-col space-y-6 px-10 lg:px-20 justify-center'>
                     <h1 className='font-bold text-3xl lg:text-4xl'>French Language Levels for Adults</h1>
                     <p className='text-sm text-[#54595f]'>
                         All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
                     </p>
                     <p className='text-sm text-[#54595f]'>
-                    Online French for adolescents is divided into following levels:
+                        Online French for adolescents is divided into following levels:
                     </p>
                     <ul className='list-disc text-[#54595f] font-bold text-md space-y-4 ml-3'>
                         <li>Beginner Level: Level A1 | Level A2</li>
@@ -302,11 +303,26 @@ export default function AdultsFrench() {
                         <li>Advance Level: Level C1</li>
                     </ul>
                     <p className='text-sm text-[#54595f]'>
-                    These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). The diploma’s value is the exact same as the standard DELF. The DELF junior version has 4 independent diplomas: DELF A1 junior version, DELF A2 junior version, DELF B1 junior version, DELF B2 junior version.
+                        These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). The diploma’s value is the exact same as the standard DELF. The DELF junior version has 4 independent diplomas: DELF A1 junior version, DELF A2 junior version, DELF B1 junior version, DELF B2 junior version.
                     </p>
                 </div>
                 <div className='flex align-center px-10 py-10 lg:px-20 lg:py-20'>
                     <img src='/images/French-levels-adolescents@300x-1536x572.png' alt='img' />
+                </div>
+            </div> */}
+            
+            <div className="my-24 lg:flex sm:px-4 lg:px-20 lg:pt-10 flex-row h-auto w-full bg-[#f4f8fb]">
+                <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
+                    <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>French Language Levels for Adults</h1>
+                    <p className='text-sm text-[#54595f]'>
+                        All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
+                    </p>
+                    <p className='text-sm text-[#54595f]'>
+                        These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). The diploma’s value is the exact same as the standard DELF. The DELF junior version has 4 independent diplomas: DELF A1 junior version, DELF A2 junior version, DELF B1 junior version, DELF B2 junior version.
+                    </p>
+                </div>
+                <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
+                    <Levels />
                 </div>
             </div>
 
@@ -315,7 +331,7 @@ export default function AdultsFrench() {
                     <h1>
                         Students at The Language Network
                     </h1>
-                    <p>
+                    <p className='px-10 lg:px-36'>
                         We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
                     </p>
                 </div>
@@ -467,7 +483,7 @@ export default function AdultsFrench() {
             <p className='w-full  text-center font-semibold text-3xl pb-3'>Frequently asked questions</p>
 
             <div className="flex flex-col items-center justify-center pb-20">
-            <hr class="flex flex-col justify-center align-center text-center border-[#FFC000] border-2 w-1/5 self-center items-center"></hr>
+                <hr class="flex flex-col justify-center align-center text-center border-[#FFC000] border-2 w-1/5 self-center items-center"></hr>
             </div>
 
 
@@ -515,7 +531,7 @@ export default function AdultsFrench() {
                         <h2 class="accordion-header mb-0" id="flush-headingFour">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
                                 aria-expanded="false" aria-controls="flush-collapseFour">
-                               What are the career opportunities after I learn French?
+                                What are the career opportunities after I learn French?
                             </button>
                         </h2>
                         <div id="flush-collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFour"

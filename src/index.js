@@ -5,11 +5,14 @@ import App from './App';
 import "swiper/css/bundle";
 import 'tw-elements';
 import 'flowbite';
+import { ThemeProvider } from './components/Header/themeContext';
 
 
 ReactDOM.render(
   <React.StrictMode>
+    <ThemeProvider>
     <App />
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

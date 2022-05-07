@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination"
 import "swiper/css/navigation"
+import KidsLevels from './KidsLevels';
 
 
 export default function KidsMandarin() {
@@ -60,7 +61,7 @@ export default function KidsMandarin() {
                 </div>
             </div>
 
-            <div className="my-20 lg:flex flex-row">
+            {/* <div className="my-20 lg:flex flex-row">
                 <div className='space-y-2 px-10 lg:px-20'>
                     <h1 className="font-bold text-3xl lg:text-4xl">Mandarin Language Levels for Kids</h1>
                     <p className='text-sm text-[#54595f]'>All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.</p>
@@ -73,7 +74,22 @@ export default function KidsMandarin() {
                 <div className='flex align-center px-20 py-20 lg:px-10 lg:py-10'>
                     <img src='/images/French-levels@300x-1536x931.png' alt='img' />
                 </div>
+            </div> */}
+
+            <div className="my-24 lg:flex sm:px-4 lg:px-20 lg:pt-10 flex-row h-auto w-full bg-[#f4f8fb]">
+                <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
+                    <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>Mandarin Language Levels for Kids</h1>
+                    <p className='text-sm text-[#54595f]'>
+                    All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
+                    </p>
+                    <p className='text-sm text-[#54595f]'>
+                    These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and A2 the most advanced. Later your child will be able to continue with the DELF Junior B1 and the DELF B2 Junior.                    </p>
+                </div>
+                <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
+                    <KidsLevels />
+                </div>
             </div>
+            
             <div className='w-full text-center font-semibold text-3xl lg:text-4xl'>Benefits of Learning Mandarin with TLN?</div>
             <section class="text-gray-600 body-font">
                 <div class="container px-2 lg:px-5 py-20 mx-auto">

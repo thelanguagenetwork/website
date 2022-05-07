@@ -8,6 +8,7 @@ import { Link } from 'react-scroll';
 import './Header.css';
 import { FiMail } from 'react-icons/fi'
 import { FaLinkedinIn, FaInstagram, FaFacebookF, FaPinterestP, FaYoutube } from 'react-icons/fa'
+import Toggle from './toggle';
 
 
 class Header extends react.Component {
@@ -69,7 +70,7 @@ class Header extends react.Component {
 
     return (
       <>
-        <Nav>
+        <Nav className='dark:bg-[#13BFAB]'>
           <Overlay id='overlay' onMouseDown={menuBackRetract}>
           </Overlay>
           <Sidemenu id='sidemenu'>
@@ -133,6 +134,7 @@ class Header extends react.Component {
             </span>
 
           </Trial>
+          {/* <Toggle /> */}
           <Menu onMouseDown={menuBackExpand}>
             <GiHamburgerMenu style={{ color: 'rgb(0 0 0)', width: "75%", height: '100%' }} />
           </Menu>

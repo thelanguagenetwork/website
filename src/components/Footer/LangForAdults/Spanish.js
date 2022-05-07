@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination"
 import "swiper/css/navigation"
+import Levels from '../../Home/Levels';
 
 export default function AdultsSpanish() {
 
@@ -114,50 +115,50 @@ export default function AdultsSpanish() {
             >
                 <SwiperSlide>
                     <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Interview Preparation</h3>
-                    <p className='text-sm text-gray-700'>When you learn Spanish with TLN, we also train you how to crack interviews. We prepare you for the world.</p>
-                </div>
+                        <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Interview Preparation</h3>
+                        <p className='text-sm text-gray-700'>When you learn Spanish with TLN, we also train you how to crack interviews. We prepare you for the world.</p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>CV Making</h3>
-                    <p className='text-sm text-gray-700'>Along with our Spanish language course, we also teach you how to make proper C.V. We believe that all career aspects are important. </p>
-                </div>
+                        <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>CV Making</h3>
+                        <p className='text-sm text-gray-700'>Along with our Spanish language course, we also teach you how to make proper C.V. We believe that all career aspects are important. </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/deleadults.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>SIELE Preparations</h3>
-                    <p className='text-sm text-gray-700'>
-                        When you learn Spanish with us, we also prepare you for international exams like SIELE. We believe that our students should crack these exam so that we can teach you how to ace </p>
-                </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                   <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Spoken Spanish</h3>
-                    <p className='text-sm text-gray-700'>
-                        Our Spanish language course focuses on spoken Spanish a lot. We want our students to speak fluent Spanish.</p>
-                </div>
+                        <img src="/images/deleadults.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>SIELE Preparations</h3>
+                        <p className='text-sm text-gray-700'>
+                            When you learn Spanish with us, we also prepare you for international exams like SIELE. We believe that our students should crack these exam so that we can teach you how to ace </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Progress with Study Plans</h3>
-                    <p className='text-sm text-gray-700'>
-                        We have crafted proper study plans to meet your learning needs. Our study plans include all the tricks and tips that you will need to learn Spanish.</p>
-                </div>
+                        <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Spoken Spanish</h3>
+                        <p className='text-sm text-gray-700'>
+                            Our Spanish language course focuses on spoken Spanish a lot. We want our students to speak fluent Spanish.</p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Small batches</h3>
-                    <p className='text-sm text-gray-700'>
+                        <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Progress with Study Plans</h3>
+                        <p className='text-sm text-gray-700'>
+                            We have crafted proper study plans to meet your learning needs. Our study plans include all the tricks and tips that you will need to learn Spanish.</p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Small batches</h3>
+                        <p className='text-sm text-gray-700'>
 
-                        At TLN, we believe in small batches. Compact batches make it possible for our language experts to give proper attention to the students.</p>
-                </div>
+                            At TLN, we believe in small batches. Compact batches make it possible for our language experts to give proper attention to the students.</p>
+                    </div>
                 </SwiperSlide>
             </Swiper>
 
@@ -226,7 +227,7 @@ export default function AdultsSpanish() {
                 </div>
             </div>
 
-            <div className="my-20 lg:flex flex-row">
+            {/* <div className="my-20 lg:flex flex-row">
                 <div className='space-y-2 px-10 lg:px-20'>
                     <h1 className="font-bold text-3xl lg:text-4xl">Spanish Language Levels for Adults</h1>
                     <p className='text-sm text-[#54595f]'>All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.</p>
@@ -243,6 +244,19 @@ export default function AdultsSpanish() {
                 <div className='flex align-center px-20 py-20 lg:px-10 lg:py-10'>
                     <img src='/images/French-levelsadults@300x-1536x931.png' alt='img' />
                 </div>
+            </div> */}
+
+            <div className="my-24 lg:flex sm:px-4 lg:px-20 lg:pt-10 flex-row h-auto w-full bg-[#f4f8fb]">
+                <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
+                    <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>Spanish Language Levels for Adults</h1>
+                    <p className='text-sm text-[#54595f]'>
+                        All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.</p>
+                    <p className='text-sm text-[#54595f]'>
+                        These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and C2 the most advanced.                    </p>
+                </div>
+                <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
+                    <Levels />
+                </div>
             </div>
 
             <div className='flex flex-col items-center '>
@@ -250,7 +264,7 @@ export default function AdultsSpanish() {
                     <h1>
                         Students at The Language Network
                     </h1>
-                    <p>
+                    <p className='px-10 lg:px-36'>
                         We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
                     </p>
                 </div>
@@ -398,11 +412,11 @@ export default function AdultsSpanish() {
                 </div>
             </section>
 
-           
+
             <p className='w-full  text-center font-bold text-4xl pb-3'>Frequently asked questions</p>
 
             <div className="flex flex-col items-center justify-center pb-20">
-            <hr class="flex flex-col justify-center align-center text-center border-[#FFC000] border-2 w-1/5 self-center items-center"></hr>
+                <hr class="flex flex-col justify-center align-center text-center border-[#FFC000] border-2 w-1/5 self-center items-center"></hr>
             </div>
 
 
