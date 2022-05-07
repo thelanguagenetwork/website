@@ -58,7 +58,7 @@ export default function Display() {
     const cardData = CardData();
     return (
         <Swiper
-
+            className=' pagi5'
             infinite
             autoplay={
                 {

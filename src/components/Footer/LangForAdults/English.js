@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination"
 import "swiper/css/navigation"
+import Levels from '../../Home/Levels';
 
 export default function AdultsEnglish() {
 
@@ -230,38 +231,27 @@ export default function AdultsEnglish() {
                 </div>
             </div>
 
-
-            <div className="my-20 lg:flex flex-row h-auto w-full">
-                <div className='flex flex-col space-y-6 px-5 lg:mx-20 justify-center'>
-                    <h1 className='font-bold text-3xl lg:text-4xl'>English Language Levels for Adults</h1>
+            <div className="my-24 lg:flex sm:px-4 lg:px-20 lg:pt-10 flex-row h-auto w-full bg-[#f4f8fb]">
+                <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
+                    <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>English Language Levels for Adults</h1>
                     <p className='text-sm text-[#54595f]'>
                         All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
                     </p>
                     <p className='text-sm text-[#54595f]'>
-                        Online English for adults is divided into following levels:
-                    </p>
-                    <ul className='list-disc text-[#54595f] font-bold text-md space-y-4 ml-3'>
-                        <li>Beginner Level: Level A1 + Level A2</li>
-                        <li>Elementory Level: Level A2</li>
-                        <li>Intermediate Level: Level B1</li>
-                        <li>Upper-Intermediate Level: Level B2</li>
-                        <li>Advance Level: Level C1</li>
-                    </ul>
-                    <p className='text-sm text-[#54595f]'>
                         These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and C2 the most advanced.
                     </p>
                 </div>
-                <div className='flex align-center px-10 py-10 lg:pr-20 lg:py-20'>
-                    <img src='/images/CEFR-LEVELS-1.png' alt='img' />
+                <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
+                    <Levels />
                 </div>
             </div>
 
             <div className='flex flex-col items-center '>
-                <div className="Home-container-3 ">
+                <div className="Home-container-3">
                     <h1>
                         Students at The Language Network
                     </h1>
-                    <p className="flex justify-center items-center px-10 lg:px-36">
+                    <p className="flex justify-center items-center px-10 lg:px-36" >
                         We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
                     </p>
                 </div>
