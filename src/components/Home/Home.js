@@ -216,7 +216,7 @@ export default function Home() {
                             <img src='/images/Kids@300x-1.png' alt='img' />
                         </div>
                         <div className='Home-card-text'>
-                            <h1 id='Home-card-text-h2'>Adolscents (10-13 years)</h1>
+                            <h1 id='Home-card-text-h2'>Teens (10-13 years)</h1>
                             <p>Students in this age group are usually energetic, curious, and eager to explore the world! At TLN, we teach more than just the language. We take you through the culture; traditions, clothing, food, festivals, etc. This means that you are learning more than the writing system or pronunciation.</p>
                         </div>
                     </div>
@@ -259,7 +259,7 @@ export default function Home() {
                                 <img src='/images/Kids@300x-1.png' alt='img' />
                             </div>
                             <div className='Home-card-text'>
-                                <h1 id='Home-card-text-h2'>Adolscents (10-13 years)</h1>
+                                <h1 id='Home-card-text-h2'>Teens (10-13 years)</h1>
                                 <p>Students in this age group are usually energetic, curious, and eager to explore the world! At TLN, we teach more than just the language. We take you through the culture; traditions, clothing, food, festivals, etc. This means that you are learning more than the writing system or pronunciation.</p>
                             </div>
                         </div>

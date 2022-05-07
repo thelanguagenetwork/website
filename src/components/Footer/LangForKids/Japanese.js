@@ -55,7 +55,7 @@ export default function KidsJapanese() {
                 <div className="bg-[rgba(0,0,0,0.4)] h-full ">
                     <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
 
-                        <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>Japanese Classes for Adults</h1>
+                        <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>Japanese Classes for Kids</h1>
                         <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online Japanese classes for adults (14+ years old) with professional teachers.</h1>
                         <a href="/getstarted"><button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">BOOK A TRIAL CLASS</button></a>
 
