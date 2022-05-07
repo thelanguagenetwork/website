@@ -3,3 +3,7 @@
     border: none;
     background: none;
 }
+.modal-content{
+    border-radius: 2.5rem;
+    border-color: None;
+}
