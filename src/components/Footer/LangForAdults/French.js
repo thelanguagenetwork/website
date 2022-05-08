@@ -62,8 +62,8 @@ export default function AdultsFrench() {
 
 
             <div className='w-full text-center px-4 lg:px-0 text-2xl lg:text-4xl font-medium mt-20'>How is learning French with The Language Network different?</div>
-            <div className='w-full  py-18 hidden lg:flex flex-row flex-wrap  justify-evenly lg:space-x-14 lg:px-10'>
-                <div className='h-[14rem] my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-60 flex flex-col items-center text-center '>
+            <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly '>
+                <div className='h-[14rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-60 flex flex-col items-center text-center '>
                     <img src="/images/Asset-27@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>DELF preparations</h3>
                     <p className='text-sm text-gray-700'>
@@ -331,7 +331,7 @@ export default function AdultsFrench() {
                     <h1>
                         Students at The Language Network
                     </h1>
-                    <p className='px-10 lg:px-36'>
+                    <p className='lg:px-36 pt-3'>
                         We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
                     </p>
                 </div>
@@ -415,7 +415,7 @@ export default function AdultsFrench() {
                 </div>
             </div>
 
-            <p className='w-full lg:px-80 pt-20 text-center font-medium text-2xl px-10 lg:text-4xl'>Join us in a language trip now, by following these simple steps</p>
+            <p className='w-full lg:px-80 pt-20 text-center font-medium text-3xl px-10 lg:text-4xl'>Join us in a language trip now, by following these simple steps</p>
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-20 mx-auto">
                     <div class="hidden lg:flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">

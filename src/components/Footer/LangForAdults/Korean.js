@@ -60,7 +60,7 @@ export default function AdultsKorean() {
                 </div>
             </div>
 
-            <div className='w-full text-center text-3xl lg:text-4xl font-medium mt-20'>How learning Korean with TLN unique?</div>
+            <div className='w-full text-center text-3xl lg:text-4xl font-medium mt-20 px-3'>How learning Korean with TLN unique?</div>
             <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly'>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
@@ -254,11 +254,11 @@ export default function AdultsKorean() {
 
 
             <div className='flex flex-col items-center '>
-                <div className="Home-container-3 ">
+                <div className="Home-container-3">
                     <h1>
                         Students at The Language Network
                     </h1>
-                    <p className='px-10 lg:px-36'>
+                    <p className='px-2 lg:px-36 pt-3'>
                         We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
                     </p>
                 </div>

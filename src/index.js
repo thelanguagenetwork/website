@@ -10,9 +10,9 @@ import { ThemeProvider } from './components/Header/themeContext';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider>
+    {/* <ThemeProvider> */}
     <App />
-    </ThemeProvider>
+    {/* </ThemeProvider> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
