@@ -12,9 +12,9 @@ function MyVerticallyCenteredModal(props) {
             {/* <button onClick={props.onHide} type="button" class="close btn-val" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">×</span>
             </button> */}
-            <div className="flow-root px-10 items-end">
-            <button onClick={props.onHide} className="btn-val border-0 focus:outline-none  pt-3 float-right w-1/8 font-bold text-black bg-[#fffff]  hover:bg-white hover:text-black border-white"><span className="text-2xl" aria-hidden="true">×</span>
-            </button>
+            <div className="flow-root px-8 items-end">
+                <button onClick={props.onHide} className="btn-val border-0 focus:outline-none  pt-2 float-right w-1/8 font-bold text-black bg-[#fffff]  hover:bg-white hover:text-black border-white"><span className="text-2xl" aria-hidden="true">×</span>
+                </button>
             </div>
             <Modal.Header className="flex mx-0 " closeButton>
                 <Modal.Title id="contained-modal-title-vcenter  w-full ">
@@ -23,20 +23,20 @@ function MyVerticallyCenteredModal(props) {
             </Modal.Header>
 
             <Modal.Body>
-                <div className="lg:flex flex-col items-center">
-                    <div className="flex flex-row divide-x pb-10 lg:pb-16">
+                <div className="items-center">
+                    <div className="flex flex-row divide-x sm:py-4 pb-5">
 
-                        <div className="flex justify-center w-1/2 justify-center items-center">
+                        <div className="flex justify-center w-full justify-center items-center">
                             <div className="flex flex-col content-center justify-center items-center  ">
-                                <a className="flex justify-center" href={props.a1}><img className="w-1/2 md: lg: flex justify-center" src="/images/man.jpg" alt="Img" /></a>
+                                <a className="flex justify-center" href={props.a1}><img className="w-full flex justify-center" src="/images/adults.png" alt="Img" /></a>
                                 <span className="flex justify-center py-2 font-semibold text-lg ">Adults</span>
                                 <p className="flex justify-center">Age Group: 14+ years</p>
                             </div>
                         </div>
 
-                        <div className="flex justify-center w-1/2 justify-center items-center">
-                            <div className="flex flex-col items-center content-center pt-[1.2rem] lg:pt-[2rem]">
-                                <a className="flex justify-center" href={props.a2}><img className="w-5/12 md: lg:" src="/images/Boy.jpg" alt="Img" /></a>
+                        <div className="flex justify-center w-full justify-center items-center">
+                            <div className="flex flex-col items-center content-center ">
+                                <a className="flex justify-center" href={props.a2}><img className="w-full" src="/images/kids.png" alt="Img" /></a>
                                 <span className="flex justify-center py-2 font-semibold text-lg">Kids and Teens</span>
                                 <p className="flex justify-center">Age Group: 6-13 years</p>
 
@@ -46,7 +46,7 @@ function MyVerticallyCenteredModal(props) {
                     </div>
                 </div>
             </Modal.Body>
-        </Modal>
+        </Modal >
 
     );
 }
