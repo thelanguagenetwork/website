@@ -425,14 +425,14 @@ export default function KidsJapanese() {
                         <div class="flex-grow sm:text-left mt-6 sm:mt-0">
                             <h1 className='text-xl tracking-widest font-medium text-black'>STEP 1</h1>
                             <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Register with us</h2>
-                            <p class="leading-relaxed text-black ">Fill out a form with your personal and contact information, choose your language and register with us. Our team of experts will will assist you with the online classes, study materials and lots more.</p>
+                            <p class="leading-relaxed text-black ">Fill out our form. Provide your personal details, Choose your preferred language, and register with us. Our executives will assist you with the online classes, study material, and lot more!</p>
                         </div>
                     </div>
                     <div class="flex lg:hidden items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
                         <div class="flex-grow sm:text-left mt-6 sm:mt-0">
                             <h1 className='text-xl tracking-widest font-medium text-black'>STEP 1</h1>
                             <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Register with us</h2>
-                            <p class="leading-relaxed text-black ">Fill out a form with your personal and contact information, choose your language and register with us. Our team of experts will will assist you with the online classes, study materials and lots more.</p>
+                            <p class="leading-relaxed text-black ">Fill out our form. Provide your personal details, Choose your preferred language, and register with us. Our executives will assist you with the online classes, study material, and lot more!</p>
                         </div>
                         <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
                             <img src="/images/account.png" alt="img" className='' />
@@ -442,7 +442,7 @@ export default function KidsJapanese() {
                         <div class="flex-grow sm:text-right sm:mr-24 mt-6 sm:mt-0">
                             <h1 className='text-xl tracking-widest font-medium text-black'>STEP 2</h1>
                             <h2 class="poppins text-[#f2b919] text-2xl font-medium mb-8">Access your virtual classroom</h2>
-                            <p class="leading-relaxed text-black ">Learn on your own schedule: Based on your type of class you chose (Eg: Group, Duo or 1:1) You will be provided with the zoom link to join your respective language class.</p>
+                            <p class="leading-relaxed text-black ">Learn when you want to learn! You will be provided with a Class link, where you can log in and start learning!</p>
                         </div>
                         <div data-aos="fade-left" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
                             <img src="/images/classroom.png" alt="img" />
@@ -455,14 +455,14 @@ export default function KidsJapanese() {
                         <div class="flex-grow sm:text-left mt-6 sm:mt-0">
                             <h1 className='text-xl tracking-widest font-medium text-black'>STEP 3</h1>
                             <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Get started</h2>
-                            <p class="leading-relaxed text-black ">Practice what you learn with other students. We provide small batches, so you’ll get personalized attention with the expert language teachers.</p>
+                            <p class="leading-relaxed text-black ">Practice what you learn with other students. We offer small batches so you can get personalized attention from our language experts.</p>
                         </div>
                     </div>
                     <div class="flex lg:hidden items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
                         <div class="flex-grow sm:text-left mt-6 sm:mt-0">
                             <h1 className='text-xl tracking-widest font-medium text-black'>STEP 3</h1>
                             <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Get started</h2>
-                            <p class="leading-relaxed text-black ">Practice what you learn with other students. We provide small batches, so you’ll get personalized attention with the expert language teachers.</p>
+                            <p class="leading-relaxed text-black ">Practice what you learn with other students. We offer small batches so you can get personalized attention from our language experts.</p>
                         </div>
                         <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
                             <img src="/images/get-started.png" alt="img" />
