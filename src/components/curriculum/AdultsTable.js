@@ -142,7 +142,7 @@ export default function AdultsTable() {
             <div className='hidden ... md:block'>
                 <table class='shadow-md rounded w-5/6 m-auto '>
                     <tbody>
-                        {/* <tr class=' flex text-left text-sm flex-wrap sm:no-wrap unwanted'>
+                        <tr class=' flex text-left text-sm flex-wrap sm:no-wrap unwanted'>
                             <th scope='col' class='w-[30%] p-2 bg-gray-100 border border-r-0  border-y-1 font-normal flex items-center border-b-0 table-cells'></th>
                             <td class='w-[13%] p-2 border border-r-0  border-gray-300 flex items-center justify-center font-bold text-teal-700 text-lg flex-wrap table-cells'>Introductory</td>
                             <td class='w-[8%] p-2 border border-r-0  border-gray-300 flex items-center justify-center text-center font-bold text-teal-700 text-lg flex-wrap table-cells'>Level A1</td>
@@ -151,7 +151,7 @@ export default function AdultsTable() {
                             <td class='w-[8%] p-2 border border-r-0  border-gray-300 flex items-center justify-center text-center font-bold text-teal-700 text-lg flex-wrap table-cells'>Level B2</td>
                             <td class='w-[10%] p-2 border border-r-0  border-gray-300 flex items-center justify-center text-center font-bold text-teal-700 text-lg flex-wrap table-cells'>Level A1+A2</td>
                             <td class='w-[15%] p-2 border border-r-0  border-gray-300    flex items-center justify-center text-center font-bold text-teal-700 text-lg flex-wrap table-cells'>Level A1+A2+B1+B2</td>
-                        </tr> */}
+                        </tr>
                         {tableData.map((Tdata, i) => {
                             return (
                                 <tr class=' flex text-left text-sm flex-wrap sm:no-wrap' key={i}>
