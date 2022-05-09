@@ -302,6 +302,7 @@ export default function Home() {
                 <h1 className='text-[#13bfab] text-xl font-medium tracking-widest'>WE PREPARE YOU FOR</h1>
                 <h2 className='text-black text-4xl font-medium'>International Exams</h2>
             </div>
+            
             <div className="Home-container-6 lg:px-40">
                 <Swiper className='pagi2' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
                     breakpoints={{
