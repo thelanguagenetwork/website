@@ -20,13 +20,13 @@ export const English_1_1 = [
         DiscPrice : 19990,
         Link: "https://rzp.io/l/englishb21"
     },
-    {
+  /*  {
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'C1',
        // OgPrice : 444,
         DiscPrice : 19990,
         Link: "https://rzp.io/l/JPEDwHu3V"
-    },
+    },*/
    
 ]
 
@@ -52,13 +52,13 @@ export const English_1_2 = [
         DiscPrice :13990,
         Link: "https://rzp.io/l/englishB22"
     },
-    {
+  /*  {
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'C1',
       //  OgPrice : 444,
         DiscPrice : 13990,
         Link: "https://rzp.io/l/englishC1"
-    }
+    }*/
     
 ]
 

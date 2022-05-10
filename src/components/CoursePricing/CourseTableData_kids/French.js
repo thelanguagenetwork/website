@@ -23,7 +23,7 @@ export const French_1_1 = [
       DiscPrice: 59980,
       Link: "https://rzp.io/l/frenchb11"
     },
-    {
+  /*  {
       language: "French",
       content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
       lvlName: 'B2',
@@ -54,7 +54,7 @@ export const French_1_1 = [
       //  OgPrice : 444,
       DiscPrice: 147990,
       Link: "https://rzp.io/l/frencha1a2b1b21"
-    }
+    }*/
   ]
   
   export const French_1_2 = [
@@ -82,7 +82,7 @@ export const French_1_1 = [
       DiscPrice:45580, 
       Link: "https://rzp.io/l/frenchB12"
     },
-    {
+  /*  {
       language: "French",
       content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
       lvlName: 'B2',
@@ -113,12 +113,12 @@ export const French_1_1 = [
       //   OgPrice : 444,
       DiscPrice: 105590,
       Link: "https://rzp.io/l/frencha1a2b1b22"
-    }
+    }*/
   ]
   
   
   export const French_1_4 = [
-    {
+   {
       language: "French",
       content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
       lvlName: 'A1',
@@ -126,7 +126,7 @@ export const French_1_1 = [
       DiscPrice: 11990,
       Link: "https://rzp.io/l/frencha1"
     },
-    {
+   /* {
       language: "French",
       content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
       lvlName: 'A2',
@@ -173,5 +173,5 @@ export const French_1_1 = [
       //  OgPrice : 444,
       DiscPrice: 82490,
       Link: "https://rzp.io/l/frenchA1a2b1b2"
-    }
+    }*/
   ]

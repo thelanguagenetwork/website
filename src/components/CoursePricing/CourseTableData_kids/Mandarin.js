@@ -23,7 +23,7 @@ export const Mandarin_1_1 = [
         DiscPrice : 17990,
         Link: ""
     },
-    {
+  /*  {
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 4',
@@ -56,7 +56,7 @@ export const Mandarin_1_1 = [
         // OgPrice : 444,
         DiscPrice : 45890,
         Link: ""
-    }
+    }*/
 ]
 
 export const Mandarin_1_2 = [
@@ -84,7 +84,7 @@ export const Mandarin_1_2 = [
         DiscPrice : 17990,
         Link: ""
     },
-    {
+   /* {
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 4',
@@ -115,7 +115,7 @@ export const Mandarin_1_2 = [
       //  OgPrice : 444,
         DiscPrice : 33590,
         Link: ""
-    },
+    },*/
 ]
 
 
@@ -144,7 +144,7 @@ export const Mandarin_1_4 = [
         DiscPrice : 333,
         Link: ""
     },
-    {
+  /*  {
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 4',
@@ -175,5 +175,5 @@ export const Mandarin_1_4 = [
         OgPrice : 444,
         DiscPrice : 333,
         Link: ""
-    },
+    },*/
 ]

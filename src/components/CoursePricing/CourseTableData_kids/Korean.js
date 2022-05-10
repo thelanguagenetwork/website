@@ -5,7 +5,7 @@ export const Korean_1_1 = [
         lvlName: 'Topik 1 Level 1',
         //OgPrice : 444,
         DiscPrice : 21990,
-        Link: "https://rzp.io/l/koreanlevel11"
+        Link: ""
     },
     {
         language: "Korean",
@@ -13,7 +13,7 @@ export const Korean_1_1 = [
         lvlName: 'Topik 1 Level 2',
         //OgPrice : 444,
         DiscPrice : 25990,
-        Link: "https://rzp.io/l/3Oi1ZvGK"
+        Link: ""
     },
     {
         language: "Korean",
@@ -21,15 +21,15 @@ export const Korean_1_1 = [
         lvlName: 'Topik 2 Level 3',
         //OgPrice : 444,
         DiscPrice : 29990,
-        Link: "https://rzp.io/l/koreanlevel31"
+        Link: ""
     },
-    {
+  /*  {
         language: "Korean",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'Topik 2 Level 4',
        // OgPrice : 444,
         DiscPrice : 29990,
-        Link: "https://rzp.io/l/koreanlevel41"
+        Link: ""
     },
     {
         language: "Korean",
@@ -37,7 +37,7 @@ export const Korean_1_1 = [
         lvlName: 'Topik 1 Level 1+2',
       //  OgPrice : 444,
         DiscPrice : 38390,
-        Link: "https://rzp.io/l/koreantopik11"
+        Link: ""
     },
     {
         language: "Korean",
@@ -56,7 +56,7 @@ export const Korean_1_1 = [
        // OgPrice : 444,
         DiscPrice : 80990,
         Link: "https://rzp.io/l/koreantopik121"
-    }
+    }*/
 ]
 
 export const Korean_1_2 = [
@@ -84,7 +84,7 @@ export const Korean_1_2 = [
         DiscPrice : 24990,
         Link: "https://rzp.io/l/koreanlevel32"
     },
-    {
+  /*  {
         language: "Korean",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'Topik 2 Level 4',
@@ -115,7 +115,7 @@ export const Korean_1_2 = [
        // OgPrice : 444,
         DiscPrice : 64990,
         Link: "https://rzp.io/l/koreantopik1222"
-    },
+    },*/
 ]
 
 

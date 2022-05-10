@@ -5,7 +5,7 @@ export const Japanese_1_1 = [
         lvlName: 'N5',
        // OgPrice : 444,
         DiscPrice : 39980,
-        Link: "https://rzp.io/l/japaneseN51"
+        Link: ""
     },
     {
         language: "Japanese",
@@ -13,7 +13,7 @@ export const Japanese_1_1 = [
         lvlName: 'N4',
         //OgPrice : 444,
         DiscPrice :44990 ,
-        Link: "https://rzp.io/l/japanesen41"
+        Link: ""
     },
     {
         language: "Japanese",
@@ -21,7 +21,7 @@ export const Japanese_1_1 = [
         lvlName: 'N3',
        // OgPrice : 444,
         DiscPrice :49990,
-        Link: "https://rzp.io/l/japaneseN31"
+        Link: ""
     },
   /*  {
         language: "Japanese",
@@ -31,14 +31,14 @@ export const Japanese_1_1 = [
         DiscPrice : 333,
         Link: ""
     },*/
-    {
+   /* {
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N5+N4',
        // OgPrice : 444,
         DiscPrice : 84790,
         Link: "https://rzp.io/l/japanesen5n41"
-    },
+    },*/
    /* {
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
@@ -47,14 +47,14 @@ export const Japanese_1_1 = [
         DiscPrice : 333,
         Link: ""
     },*/
-    {
+   /* {
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N5+N4+N3',
       //  OgPrice : 444,
         DiscPrice : 134780,
         Link: "https://rzp.io/l/japanesen5n4n31"
-    }
+    }*/
 ]
 
 export const Japanese_1_2 = [
@@ -64,7 +64,7 @@ export const Japanese_1_2 = [
         lvlName: 'N5',
       //  OgPrice : 444,
         DiscPrice : 27980,
-        Link: "https://rzp.io/l/japaneseN52"
+        Link: ""
     },
     {
         language: "Japanese",
@@ -72,7 +72,7 @@ export const Japanese_1_2 = [
         lvlName: 'N4',
       //  OgPrice : 444,
         DiscPrice :29990,
-        Link: "https://rzp.io/l/japaneseN42"
+        Link: ""
     },
     {
         language: "Japanese",
@@ -90,7 +90,7 @@ export const Japanese_1_2 = [
         DiscPrice : 333,
         Link: ""
     },*/
-    {
+  /*  {
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N5+N4',
@@ -106,19 +106,19 @@ export const Japanese_1_2 = [
         DiscPrice : 333,
         Link: ""
     },*/
-    {
+   /* {
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N5+N4+N3',
      //   OgPrice : 444,
         DiscPrice : 92960,
         Link: "https://rzp.io/l/japanesen5n4n32"
-    },
+    }*/
 ]
 
 
 export const Japanese_1_4 = [
-    {
+  /*  {
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N5',
@@ -158,14 +158,14 @@ export const Japanese_1_4 = [
         DiscPrice : 43970,
         Link: "https://rzp.io/l/japanesen5n4"
     },
-  /*  {
+    {
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N3+N2',
       //  OgPrice : 444,
         DiscPrice : 333,
         Link: ""
-    },*/
+    },
     {
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
