@@ -302,7 +302,7 @@ export default function Home() {
                 <h1 className='text-[#13bfab] text-xl font-medium tracking-widest'>WE PREPARE YOU FOR</h1>
                 <h2 className='text-black text-4xl font-medium'>International Exams</h2>
             </div>
-            
+
             <div className="Home-container-6 lg:px-40">
                 <Swiper className='pagi2' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
                     breakpoints={{
@@ -404,7 +404,7 @@ export default function Home() {
             </div>
             <Team />
 
-            <div className="Home-container-61 lg:px-40 mt-10 lg:mt-36">
+            {/* <div className="Home-container-61 lg:px-40 mt-10 lg:mt-36">
                 <h3 className='w-full text-center font-semibold text-3xl lg:text-4xl'>Our Education Partners</h3>
 
                 <Swiper className='pagi1' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
@@ -441,12 +441,47 @@ export default function Home() {
                         <img src="/images/Asset 8@300x.png" alt='img1' className='w-[60%]' />
                     </SwiperSlide>
                 </Swiper>
-            </div>
+            </div> */}
+
 
             <div className="Home-container-11 mt-20 lg:mb-20">
                 <h1>Happy Testimonials</h1>
                 <hr></hr>
                 <Testimonial />
+            </div>
+            <div className="my-20">
+                <h3 className='w-full text-center font-semibold text-3xl lg:text-4xl'>Our Education Partners</h3>
+
+                <div className="flex flex-row px-10 justify-center items-center ">
+                    <div className="p-6 w-1/3 flex flex-col items-center"> <img src="/images/CSI-KJSIEIT-Logo-Final-150x150.png" alt='img' /></div>
+                    <div className="p-6 w-1/3 flex flex-col items-center"> <img src="/images/RCSCW-150x150.png" alt='img' /></div>
+
+                    <div className="p-6 w-1/3 flex flex-col items-center"><img src="/images/DCAC-150x150.png" alt='img1' /> </div>
+
+                    <div className="p-4 w-1/2 flex flex-col items-center"> <img src="/images/Mithibai-college-image-F7E1045E5E3B-1-150x150.png" alt='img1' /></div>
+                    <div className="p-4 w-1/2 flex flex-col items-center">     <img src="/images/Black-RAYS-Logo-PNG-150x150.png" alt='img1' /></div>
+                    <div className="p-4 w-1/2 flex flex-col items-center"> <img src="/images/St-Andrews-Logo-150x150.png" alt='img1' /></div>
+                    <div className="p-4 w-1/2 flex flex-col items-center pt-10"> <img src="/images/Asset 8@300x.png" alt='img1' /></div>
+                </div>
+                <div className="flex flex-row items-center justify-center block md:hidden">
+                    <div className="flex flex-col w-1/2 justify-center">
+                    <div className="p-12 w-full flex flex-col items-center"> <img src="/images/CSI-KJSIEIT-Logo-Final-150x150.png" alt='img' /></div>
+                    <div className="p-12 w-full flex flex-col items-center"> <img src="/images/RCSCW-150x150.png" alt='img' /></div>
+                    <div className="p-12 w-full flex flex-col items-center"><img src="/images/DCAC-150x150.png" alt='img1' /> </div>
+                    </div>
+
+                    <div className="flex flex-col w-1/2 justify-center">
+                    <div className="p-10 w-full flex flex-col items-center"> <img src="/images/Mithibai-college-image-F7E1045E5E3B-1-150x150.png" alt='img1' /></div>
+                    <div className="p-10 w-full flex flex-col items-center">     <img src="/images/Black-RAYS-Logo-PNG-150x150.png" alt='img1' /></div>
+                    <div className="p-10 w-full flex flex-col items-center"> <img src="/images/St-Andrews-Logo-150x150.png" alt='img1' /></div>
+                    </div>
+
+                </div>
+                <div className="flex items-center justify-center block md:hidden">
+                <div className="p-10 w-1/2 flex flex-col items-center pt-10"> <img src="/images/Asset 8@300x.png" alt='img1' /></div>
+
+                </div>
+
             </div>
 
 
