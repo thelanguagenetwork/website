@@ -5,6 +5,8 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import AdultsCourses from './components/CoursePricing/AdultCourses';
+import KidsCourses from './components/CoursePricing/KidsCourses';
+
 import IntroCourse from './components/Footer/LangForAdults/IntroCourse';
 import Dict from './components/Footer/dict/dict';
 import Blog from './components/Footer/Company/blog/Blog';
@@ -48,6 +50,8 @@ function Routing() {
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path='/AdultsCourses' element={<AdultsCourses />} />
+          <Route exact path='/KidsCourses' element={<KidsCourses />} />
+
 
           {/* Language For Adults */}
           <Route exact path='/IntoCourses' element={<IntroCourse />} />
