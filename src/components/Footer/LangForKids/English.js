@@ -200,7 +200,6 @@ export default function KidsEnglish() {
                     <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Get Certified Results</h3>
                     <p className='text-sm text-gray-700'>
-
                         We provided certificates as our students excel in language learning. It ensures that the students will aim higher and be more motivated. Certificates are good for boosting student morale. Learn English with TLN and give wings to your children’s dreams.   </p>
                 </div>
             </div>
