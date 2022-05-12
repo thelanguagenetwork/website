@@ -89,7 +89,7 @@ class Header extends react.Component {
                   <a href={'/AdultsCourses'}>ADULTS COURSES</a>
                 </ul>
                 <ul>
-                  <a href='/KidsCourses'>KIDS & Teens COURSES</a>
+                  <a href='/KidsCourses'>KIDS & TEENS COURSES</a>
                 </ul>
               </div>
               <a href='/getstarted'>
@@ -116,7 +116,7 @@ class Header extends react.Component {
                 <div id='curriList' >
                   <a href='/KidsCourses'>
                     <img src="/images/Adolscents@300x.png" alt="img" />
-                    <span>KIDS & Teens COURSES</span>
+                    <span>KIDS & TEENS COURSES</span>
                   </a>
 
                   <a href='/AdultsCourses'>
