@@ -5,18 +5,18 @@ import gif from './animation_640_l2cy04nj.gif';
 export default function Careers() {
   return (
     <div>
-    
-        
-          <div className='h-full flex flex-col justify-center align-center text-center w-full px-10 lg:px-32 mt-10'>
-            <h1 className='"title-font font-bold text-4xl lg:text-6xl text-black px-10 lg:px-20"'>Careers</h1>
-            <hr className='border-zinc-50 border-2 w-24 self-center mt-2 text-black border-[#000000] ' />
-            <h1 className='text-xl my-10 text-black font-semibold'>Join us in revolutionising language learning</h1>
-    
-        
+
+
+      <div className='h-full flex flex-col justify-center align-center text-center w-full px-10 lg:px-32 mt-28'>
+        <h1 className='"title-font font-bold text-4xl lg:text-6xl text-black px-10 lg:px-20"'>Careers</h1>
+        <hr className='border-zinc-50 border-2 w-24 self-center mt-2 text-black border-[#000000] ' />
+        <h1 className='text-xl my-10 text-black font-semibold'>Join us in revolutionising language learning</h1>
+
+
       </div>
 
       <section class="text-gray-600 body-font">
-        
+
         <div class="container lg:py-24 py-16 mx-auto flex flex-wrap">
           <div class="flex flex-wrap  mt-2 mb-auto lg:w-7/12 sm:w-2/3 content-start ">
             <div class="w-full mb-6">
@@ -44,7 +44,7 @@ export default function Careers() {
               <hr className='border-yellow-400 border-2 lg:w-72 w-40 self-center mt-2' />
 
             </div>
-            <div class="xl:w-1/5 md:w-1/2 p-4 w-full">
+            <div class="xl:w-1/3 md:w-1/2 p-6 md:p-12 w-full">
               <div class="border border-gray-200 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <FaUserGraduate className='w-2/3 h-2/3 text-[#13bfab]' />
@@ -59,7 +59,7 @@ export default function Careers() {
                 </a>
               </div>
             </div>
-            <div class="xl:w-1/5 md:w-1/2 p-4 w-full">
+            <div class="xl:w-1/3 md:w-1/2 p-6 md:p-12 w-full">
               <div class="border border-gray-200 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <FaUserTie className='w-2/3 h-2/3 text-[#13bfab]' />
@@ -75,7 +75,7 @@ export default function Careers() {
                 </a>
               </div>
             </div>
-            <div class="xl:w-1/5 md:w-1/2 p-4 w-full">
+            <div class="xl:w-1/3 md:w-1/2 p-6 md:p-12 w-full">
               <div class="border border-gray-200 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <FaEdit className='w-2/3 h-2/3 text-[#13bfab]' />
@@ -91,7 +91,7 @@ export default function Careers() {
                 </a>
               </div>
             </div>
-            <div class="xl:w-1/5 md:w-1/2 p-4 w-full">
+            <div class="xl:w-1/3 md:w-1/2 p-6 md:p-12 w-full">
               <div class="border border-gray-200 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <FaPen className='w-2/3 h-2/3 text-[#13bfab]' />
@@ -107,7 +107,7 @@ export default function Careers() {
                 </a>
               </div>
             </div>
-            <div class="xl:w-1/5 md:w-1/2 p-4 w-full">
+            <div class="xl:w-1/3 md:w-1/2 p-6 md:p-12 w-full">
               <div class="border border-gray-200 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <FaBullhorn className='w-2/3 h-2/3 text-[#13bfab]' />
@@ -124,8 +124,8 @@ export default function Careers() {
               </div>
             </div>
 
-            <div class="xl:w-1/5 md:w-1/2 p-4 w-full">
-              <div class="border border-gray-200 p-6 rounded-lg">
+            <div class="xl:w-1/3 md:w-1/2 p-6 md:p-12 w-full">
+              <div class="border border-gray-200 p-6  rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <FaUserCog className='w-2/3 h-2/3 text-[#13bfab]' />
 
@@ -144,11 +144,11 @@ export default function Careers() {
           </div>
         </div>
       </section>
-      
 
-      <div className="mt-2  bg-no-repeat bg-fixed bg-cover bg-center h-[19rem] " >
+
+      <div className="mt-2  bg-no-repeat bg-fixed bg-cover bg-center " >
         <div className="h-full ">
-          <div className='h-full flex flex-col justify-center align-center text-center w-full px-10 lg:px-32'>
+          <div className='h-full flex flex-col justify-center align-center text-center w-full px-10 lg:px-32 mb-20'>
             <h1 className='text-3xl lg:text-6xl leading-snug text-black font-thin'>JOIN OUR TEAM</h1>
           </div>
         </div>

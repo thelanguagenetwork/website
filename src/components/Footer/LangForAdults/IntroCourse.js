@@ -176,9 +176,8 @@ export default function IntroCourse() {
                 <div className='w-full text-center text-xs mb-4 px-5 '>*To receive the cashback you must follow The Language Network T&C’s.</div>
             </div>
             <div className="flex items-center justify-center font-bold text-2xl lg:text-4xl py-12 pb-20 px-4 text-center">Learn a language at par with professionals at affordable prices</div>
-            <div className='w-full flex lg:flex-row flex-col justify-center pt-4 px-20 lg:px-0 mb-10'>
-                
-                <div class="lg:w-1/4 w-full rounded-lg shadow-2xl overflow-hidden mb-4 lg:mx-20 lg:mb-10 sm:mb-0">
+            <div className='w-full flex lg:flex-row flex-col justify-center pt-4 px-28 lg:px-0 mb-10 '>
+                <div class="lg:w-1/4 rounded-lg shadow-2xl  mb-4 lg:mx-20 lg:mb-10 sm:mb-0">
                     <div class="px-6 py-8 bg-white dark:bg-gray-800 sm:p-10 sm:pb-6 relative">
                         <div class="flex justify-center">
                             <span class="inline-flex px-4 py-1 text-dark dark:text-white rounded-full text-lg leading-5 font-semibold tracking-wide uppercase">

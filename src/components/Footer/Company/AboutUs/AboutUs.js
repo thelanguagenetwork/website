@@ -49,7 +49,7 @@ export default function AboutUs() {
             <p className="md:pl-2 lg:pl-0 md:pt-6 lg:pt-0">be a part of a global society.&nbsp;</p>
             <p href="" className="font-bold">Join<span className="font-light"> our online classes led by professional trainers.</span></p>
           </div>
-          
+
           {/* <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="inline-block p-3 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out bottom-5 right-5" id="btn-back-to-top">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" class="w-4 h-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"></path></svg>
           </button> */}
@@ -96,38 +96,37 @@ export default function AboutUs() {
           <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-[#FFC000] border-2 w-1/3 self-center mt-4 items-center justify-center"></hr>
           <AboutDisplay />
         </div>
-        
+
         <div className="items-center justify-center px-3 lg:px-20 flex flex-col justify-center ">
           <h1 className="flex text-3xl lg:text-4xl font-semibold pt-20 items-center justify-center ">We work as a team</h1>
           <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-[#FFC000] border-2 w-1/4 self-center mt-4 items-center justify-center"></hr>
           <span className="flex text-lg font-medium pt-10 lg:px-20 text-center">With a fantastic team of over 50+ trainers (and counting!) who make learning entertaining and effortless. Our trainers are qualified with an overall student rating of 5   out of 5.</span>
         </div>
       </div>
-      
+
       {/* slides */}
       <Team />
       <div className="items-center justify-center px-3 lg:px-20 flex flex-col justify-center ">
-      <h1 className="flex text-3xl lg:text-4xl font-semibold pt-20 items-center justify-center ">Our partners</h1>
-      <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-[#FFC000] border-2 w-1/4 self-center mt-4 items-center justify-center"></hr>
+        <h1 className="flex text-3xl lg:text-4xl font-semibold pt-20 items-center justify-center ">Our partners</h1>
+        <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-[#FFC000] border-2 w-1/4 self-center mt-4 items-center justify-center"></hr>
       </div>
-    
-     
-      
-     
+
+
+
+
       <div className="lg:px-24">
-     
-      <div className='pl-14'>
-      <div class="flex justify-center item-center grid grid-cols-3 gap-3">
-   
-            <div><img className="w-3/5 px-5" src="/images/Loyola_College_Chennai_-_Coat_of_arms.png" alt='img' /></div>
-          
-            <div><img className="w-3/5 px-5" src="/images/Rcmg-Ghatkopar-300x300.png" alt='img' /></div>
-          
-            <div><img className="w-3/5 px-5" src="/images/rotary.jpg" alt='img1' /></div>
-      </div> 
-      </div>     
-          
-       
+
+        <div className=''>
+          <div class="flex justify-center items-center align-center grid grid-cols-3 gap-3 pt-10">
+              <div className="px-20"><img className="w-full px-5" src="/images/Loyola_College_Chennai_-_Coat_of_arms.png" alt='img' /></div>
+
+              <div className="px-18"><img className="w-full px-5" src="/images/Rcmg-Ghatkopar-300x300.png" alt='img' /></div>
+
+              <div className="px-20"><img className="w-full px-5" src="/images/rotary.jpg" alt='img1' /></div>
+          </div>
+        </div>
+
+
       </div>
       <p className='w-full text-center font-bold text-4xl lg:pt-20 pt-10'>Frequently asked questions</p>
       <div className="flex flex-col justify-center items-center pb-20 ">
@@ -149,7 +148,7 @@ export default function AboutUs() {
               <div class="accordion-body py-4 px-3 lg:px-5">The Language Network is a place to learn and immerse yourself in the world of languages. We are a dynamic institution promoting languages and celebrating cultures.</div>
             </div>
           </div>
-          
+
           <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
             <h2 class="accordion-header mb-0" id="flush-headingThree">
               <button class="accordion-button collapsed relative flex items-center w-full py-4 px-3 lg:px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
@@ -168,7 +167,7 @@ export default function AboutUs() {
             <h2 class="accordion-header mb-0" id="flush-headingFour">
               <button class="accordion-button collapsed relative flex items-center w-full py-4 px-3 lg:px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
                 aria-expanded="false" aria-controls="flush-collapseFour">
-               Why should I enroll in TLN's language courses?
+                Why should I enroll in TLN's language courses?
               </button>
             </h2>
             <div id="flush-collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFour"
@@ -207,7 +206,7 @@ export default function AboutUs() {
             <h2 class="accordion-header mb-0" id="flush-headingSeven">
               <button class="accordion-button collapsed relative flex items-center w-full py-4 px-3 lg:px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
                 aria-expanded="false" aria-controls="flush-collapseSeven">
-               Can the classes be downloaded?
+                Can the classes be downloaded?
               </button>
             </h2>
             <div id="flush-collapseSeven" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSeven"
