@@ -27,21 +27,21 @@ export default function IntroCourse() {
             <div className='hidden lg:flex flex-row w-full px-10 md:px-16 lg:px-20'>
                 <div class="p-4 lg:w-1/3">
                     <div class="h-full flex flex-col items-center bg-white drop-shadow-md hover:drop-shadow-xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-center relative">
-                        <h2 class="tracking-widest h-20 w-20 my-2"><FaRegHandshake className='w-full h-full' /></h2>
+                        <h2 class="tracking-widest h-20 w-20 my-2"><FaRegHandshake className='w-2/3 h-2/3' /></h2>
                         <h2 class="tracking-widest text-lg title-font font-bold text-black my-2">Instant Feedback</h2>
                         <p class="leading-relaxed my-2">Track your progress and get personalised feedback</p>
                     </div>
                 </div>
                 <div class="p-4 lg:w-1/3">
                     <div class="h-full flex flex-col items-center bg-white drop-shadow-md hover:drop-shadow-xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-center relative">
-                        <h2 class="tracking-widest h-20 w-20 my-2"><ImBook className='w-full h-full' /></h2>
+                        <h2 class="tracking-widest h-20 w-20 my-2"><ImBook className='w-2/3 h-2/3' /></h2>
                         <h2 class="tracking-widest text-lg title-font font-bold text-black my-2">Accreditation</h2>
                         <p class="leading-relaxed my-2">Earn accredited certificate to boost your skills</p>
                     </div>
                 </div>
                 <div class="p-4 lg:w-1/3">
                     <div class="h-full flex flex-col items-center bg-white drop-shadow-md hover:drop-shadow-xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-center relative">
-                        <h2 class="tracking-widest h-20 w-20 my-2"><GiTakeMyMoney className='w-full h-full' /></h2>
+                        <h2 class="tracking-widest h-20 w-20 my-2"><GiTakeMyMoney className='w-2/3 h-2/3' /></h2>
                         <h2 class="tracking-widest text-lg title-font font-bold text-black my-2">Big rewards</h2>
                         <p class="leading-relaxed my-2">Earn 100% cashback</p>
                     </div>
@@ -67,7 +67,7 @@ export default function IntroCourse() {
                 <SwiperSlide>
                 <div class="p-4 w-full lg:w-1/3">
                     <div class="h-full flex flex-col items-center bg-white drop-shadow-md hover:drop-shadow-xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-center relative">
-                        <h2 class="tracking-widest h-20 w-20 my-2"><FaRegHandshake className='w-full h-full' /></h2>
+                        <h2 class="tracking-widest h-20 w-20 my-2"><FaRegHandshake className='w-2/3 h-2/3' /></h2>
                         <h2 class="tracking-widest text-lg title-font font-bold text-black my-2">Instant Feedback</h2>
                         <p class="leading-relaxed my-2">Track your progress and get personalised feedback</p>
                     </div>
@@ -76,7 +76,7 @@ export default function IntroCourse() {
                 <SwiperSlide>
                 <div class="p-4 w-full lg:w-1/3">
                     <div class="h-full flex flex-col items-center bg-white drop-shadow-md hover:drop-shadow-xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-center relative">
-                        <h2 class="tracking-widest h-20 w-20 my-2"><ImBook className='w-full h-full' /></h2>
+                        <h2 class="tracking-widest h-20 w-20 my-2"><ImBook className='w-2/3 h-2/3' /></h2>
                         <h2 class="tracking-widest text-lg title-font font-bold text-black my-2">Accreditation</h2>
                         <p class="leading-relaxed my-2">Earn accredited certificate to boost your skills</p>
                     </div>
@@ -85,7 +85,7 @@ export default function IntroCourse() {
                 <SwiperSlide>
                 <div class="p-4 w-full lg:w-1/3">
                     <div class="h-full flex flex-col items-center bg-white drop-shadow-md hover:drop-shadow-xl ease-in duration-300 px-8 pt-16 pb-12 rounded-xl overflow-hidden text-center relative">
-                        <h2 class="tracking-widest h-20 w-20 my-2"><GiTakeMyMoney className='w-full h-full' /></h2>
+                        <h2 class="tracking-widest h-20 w-20 my-2"><GiTakeMyMoney className='w-2/3 h-2/3' /></h2>
                         <h2 class="tracking-widest text-lg title-font font-bold text-black my-2">Big rewards</h2>
                         <p class="leading-relaxed my-4">Earn 100% cashback</p>
                     </div>
@@ -176,9 +176,9 @@ export default function IntroCourse() {
                 <div className='w-full text-center text-xs mb-4 px-5 '>*To receive the cashback you must follow The Language Network T&C’s.</div>
             </div>
             <div className="flex items-center justify-center font-bold text-2xl lg:text-4xl py-12 pb-20 px-4 text-center">Learn a language at par with professionals at affordable prices</div>
-            <div className='w-full flex lg:flex-row flex-col justify-center pt-4 px-10 lg:px-0'>
+            <div className='w-full flex lg:flex-row flex-col justify-center pt-4 px-20 lg:px-0 mb-10'>
                 
-                <div class="lg:w-1/4 w-full rounded-lg shadow-2xl overflow-hidden mb-4 lg:mx-20">
+                <div class="lg:w-1/4 w-full rounded-lg shadow-2xl overflow-hidden mb-4 lg:mx-20 lg:mb-10 sm:mb-0">
                     <div class="px-6 py-8 bg-white dark:bg-gray-800 sm:p-10 sm:pb-6 relative">
                         <div class="flex justify-center">
                             <span class="inline-flex px-4 py-1 text-dark dark:text-white rounded-full text-lg leading-5 font-semibold tracking-wide uppercase">
@@ -249,7 +249,7 @@ export default function IntroCourse() {
                     </div>
 
                 </div>
-                <div class="lg:w-1/4 w-full rounded-lg shadow-2xl overflow-hidden mb-4 lg:mx-20">
+                <div class="lg:w-1/4 w-full rounded-lg shadow-2xl overflow-hidden mb-4 lg:mx-20 lg:mb-0 ">
                     <div class="px-6 py-8 bg-white dark:bg-gray-800 sm:p-10 sm:pb-6 relative">
                         <div class="flex justify-center">
                             <span class="inline-flex px-4 py-1 text-dark dark:text-white rounded-full text-lg leading-5 font-semibold tracking-wide uppercase">

@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { useState, useEffect, useRef } from "react";
+import { BsArrowRightShort } from 'react-icons/bs';
 // import React from 'react'
 // import "./team.css"
 // import { Swiper, SwiperSlide } from "swiper/react";
@@ -172,6 +173,7 @@ function SampleNextArrow(props) {
 function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
+        // <BsArrowRightShort  onClick={onClick} style={{display: "block", background: "#13BFAB", opacity: '0.5', borderRadius: "10px", top: "110%", right: '275px' }} />
         <div
             className={className}
             style={{ ...style, display: "block", background: "#13BFAB", opacity: '0.5', borderRadius: "10px", top: "110%", left: '275px' }}
@@ -202,13 +204,13 @@ export default function Team() {
     return (
         <div className="w-full lg:px-20">
             <div className="w-full flex flex-row items-center">
-                <Slider asNavFor={nav2} autoplay={true} ref={slider1} dots={false} arrows={false} className='w-full lg:w-[50%] lg:mr-3'>
+                <Slider asNavFor={nav2} autoplay={true} ref={slider1} dots={false} arrows={true} className='w-full lg:w-[50%] lg:mr-3'>
                     {cardData1.map((card, i) => {
                         return (
                             <div class="p-2 lg:w-full px-3 lg:px-0">
                                 <div className="h-[29rem] lg:h-[17rem] flex sm:flex-row flex-col items-center sm:justify-start justify-center text-left sm:text-left shadow-xl rounded-xl px-2">
                                     <img alt="team" class="flex-shrink-0 rounded-t-lg lg:rounded-l-lg w-52 lg:h-full object-cover object-center sm:mb-0" src={card.pic} />
-                                    <div className="flex-grow px-2 ">
+                                    <div className="flex-grow px-2 px-3">
                                         <h2 class="title-font font-medium text-3xl my-3 lg:my-0 lg:mb-3  text-[#f2b919]">{card.name}</h2>
                                         <h3 class="text-gray-500 mb-3">{card.post}</h3>
                                         <p class="mb-4 text-sm">"{card.desc}"</p>
@@ -226,6 +228,7 @@ export default function Team() {
                     swipeToSlide={true}
                     focusOnSelect={true}
                     arrows={scrsize  === true ? true:false}
+                    
                     prevArrow={<SamplePrevArrow />}
                     nextArrow={<SampleNextArrow />} 
                     className='w-[50%] hidden lg:flex lg:flex-row'
