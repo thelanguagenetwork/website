@@ -117,12 +117,20 @@ export default function AboutUs() {
       <div className="lg:px-24">
 
         <div className=''>
-          <div class="flex justify-center items-center align-center grid grid-cols-3 gap-3 pt-10">
-              <div className="px-20"><img className="w-full px-5" src="/images/Loyola_College_Chennai_-_Coat_of_arms.png" alt='img' /></div>
+          <div class="flex justify-center items-center align-center lg:grid grid-cols-3 gap-3 pt-10 lg:block sm:hidden md:block">
+            <div className="px-10 lg:px-20"><img className="w-full px-5" src="/images/Loyola_College_Chennai_-_Coat_of_arms.png" alt='img' /></div>
 
-              <div className="px-18"><img className="w-full px-5" src="/images/Rcmg-Ghatkopar-300x300.png" alt='img' /></div>
+            <div className="px-10 lg:px-18"><img className="w-full px-5" src="/images/Rcmg-Ghatkopar-300x300.png" alt='img' /></div>
 
-              <div className="px-20"><img className="w-full px-5" src="/images/rotary.jpg" alt='img1' /></div>
+            <div className="px-10 lg:px-20"><img className="w-full px-5" src="/images/rotary.jpg" alt='img1' /></div>
+          </div>
+
+          <div className="flex flex-row px-5 lg:hidden sm:block md:hidden">
+            <div className=""><img className="w-full px-2" src="/images/Loyola_College_Chennai_-_Coat_of_arms.png" alt='img' /></div>
+
+            <div className=""><img className="w-full px-2" src="/images/Rcmg-Ghatkopar-300x300.png" alt='img' /></div>
+
+            <div className=""><img className="w-full px-3" src="/images/rotary.jpg" alt='img1' /></div>
           </div>
         </div>
 
