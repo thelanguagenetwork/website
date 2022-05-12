@@ -53,14 +53,14 @@ export default function AboutUs() {
           {/* <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="inline-block p-3 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out bottom-5 right-5" id="btn-back-to-top">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" class="w-4 h-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"></path></svg>
           </button> */}
-          <Link to="mve" spy={true} smooth={true}>
+          {/* <Link to="mve" spy={true} smooth={true}>
             <div className="">
             <svg xmlns="http://www.w3.org/2000/svg" className="shadow-xl shadow-yellow-200 hover:animate-pulse hover:shadow-xl hover:shadow-yellow-300 flex h-12 w-12 ml-10 my-10 border-[#f2b919] border-[12px] p-0 rounded-3xl" fill="none" viewBox="0 0 24 24" stroke="#f2b919" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 9 9 0 18z" />
           </svg>
           </div>
           </Link>
-          <span className="flex items-center text-lg font-semibold ml-10 pt-0">Dive in deeper</span>
+          <span className="flex items-center text-lg font-semibold ml-10 pt-0">Dive in deeper</span> */}
 
         </div>
         <div className="px-8 lg:px-0 lg:w-1/2 rounded-lg">
@@ -96,6 +96,7 @@ export default function AboutUs() {
           <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-[#FFC000] border-2 w-1/3 self-center mt-4 items-center justify-center"></hr>
           <AboutDisplay />
         </div>
+        
         <div className="items-center justify-center px-3 lg:px-20 flex flex-col justify-center ">
           <h1 className="flex text-3xl lg:text-4xl font-semibold pt-20 items-center justify-center ">We work as a team</h1>
           <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-[#FFC000] border-2 w-1/4 self-center mt-4 items-center justify-center"></hr>
@@ -105,35 +106,28 @@ export default function AboutUs() {
       
       {/* slides */}
       <Team />
-      <span className="flex text-3xl lg:text-4xl font-semibold pt-20 items-center justify-center pb-10 px-10">Our Collaborating Partners</span>
-
-      <div className="Home-container-61 lg:px-24">
-
-        <Swiper spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
-          breakpoints={{
-            640: {
-              slidesPerView: 1
-
-            },
-            768: {
-              slidesPerView: 3
-            }
-          }}
-          pagination={{
-            "clickable": false
-          }} navigation={false} autoplay={{
-            "delay": 2500,
-            "disableOnInteraction": false
-          }}
-          className="mySwiper">
-          <SwiperSlide>
-            <img className="w-2/5" src="/images/Loyola_College_Chennai_-_Coat_of_arms.png" alt='img' />
-          </SwiperSlide><SwiperSlide>
-            <img className="w-2/5" src="/images/Rcmg-Ghatkopar-300x300.png" alt='img' />
-          </SwiperSlide><SwiperSlide>
-            <img className="w-2/5" src="/images/rotary.jpg" alt='img1' />
-          </SwiperSlide>
-        </Swiper>
+      <div className="items-center justify-center px-3 lg:px-20 flex flex-col justify-center ">
+      <h1 className="flex text-3xl lg:text-4xl font-semibold pt-20 items-center justify-center ">Our partners</h1>
+      <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-[#FFC000] border-2 w-1/4 self-center mt-4 items-center justify-center"></hr>
+      </div>
+    
+     
+      
+     
+      <div className="lg:px-24">
+     
+      <div className='pl-14'>
+      <div class="flex justify-center item-center grid grid-cols-3 gap-3">
+   
+            <div><img className="w-3/5 px-5" src="/images/Loyola_College_Chennai_-_Coat_of_arms.png" alt='img' /></div>
+          
+            <div><img className="w-3/5 px-5" src="/images/Rcmg-Ghatkopar-300x300.png" alt='img' /></div>
+          
+            <div><img className="w-3/5 px-5" src="/images/rotary.jpg" alt='img1' /></div>
+      </div> 
+      </div>     
+          
+       
       </div>
       <p className='w-full text-center font-bold text-4xl lg:pt-20 pt-10'>Frequently asked questions</p>
       <div className="flex flex-col justify-center items-center pb-20 ">
@@ -141,7 +135,7 @@ export default function AboutUs() {
       </div>
 
 
-      <div className='w-full px-10 lg:px-52'>
+      <div className='w-full px-10 lg:px-52 mb-10'>
         <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item border-t-0 border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
             <h2 class="accordion-header mb-0" id="flush-headingOne">
