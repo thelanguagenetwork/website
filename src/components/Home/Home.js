@@ -300,11 +300,28 @@ export default function Home() {
 
             <div className='lg:w-full w-11/12 text-center pt-4 lg:pt-10'>
                 <h1 className='text-[#13bfab] text-xl font-medium tracking-widest'>WE PREPARE YOU FOR</h1>
-                <h2 className='text-black text-4xl font-medium'>International Exams</h2>
+                <h2 className='text-black text-4xl font-medium mb-10'>International Exams</h2>
             </div>
 
-            <div className="Home-container-6 lg:px-40">
-                <Swiper className='pagi2' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+            <div className=" lg:px-4 hidden md:block lg:block my-10">
+
+                <div className="flex flex-row px-10 justify-center items-center ">
+                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img1} alt='img' /></div>
+                    <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img2} alt='img' /></div>
+
+                    <div className="p-2 w-1/2 flex flex-col items-center"><img src={img3} alt='img' /> </div>
+
+                    <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img4} alt='img' /></div>
+                    <div className="p-2 w-1/2 flex flex-col items-center">    <img src={img5} alt='img' /></div>
+                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img6} alt='img' /></div>
+                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img7} alt='img' /></div>
+                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img8} alt='img' /></div>
+
+                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img9} alt='img' /> </div>
+
+                </div>
+            
+                {/* <Swiper className='pagi2' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
                     breakpoints={{
                         640: {
                             slidesPerView: 1
@@ -345,7 +362,26 @@ export default function Home() {
                     <SwiperSlide className="mb-10 p-20">
                         <img src={img9} alt='img' />
                     </SwiperSlide>
-                </Swiper>
+                </Swiper> */}
+            </div>
+            <div className="lg:hidden md:hidden sm:block">
+                <div className="flex flex-col">
+                    <div className="flex flex-row justify-center items-center px-5">
+                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img1} alt='img' /></div>
+                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img2} alt='img' /></div>
+                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img3} alt='img' /> </div>
+                    </div>
+                    <div className="flex flex-row justify-center items-center px-5">
+                        <div className="p-2 w-1/2 flex flex-col items-center">   <img src={img4} alt='img' /></div>
+                        <div className="p-2 w-1/2 flex flex-col items-center">    <img src={img5} alt='img' /></div>
+                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img6} alt='img' /></div>
+                    </div>
+                    <div className="flex flex-row justify-center items-center px-5">
+                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img7} alt='img' /></div>
+                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img8} alt='img' /> </div>
+                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img9} alt='img' /></div>
+                    </div>
+                </div>
             </div>
 
             <div className="py-3 lg:py-0 my-5 lg:flex flex-row h-auto w-full bg-[#f4f8fb] px-8">
@@ -465,20 +501,20 @@ export default function Home() {
                 </div>
                 <div className="flex flex-row items-center justify-center block md:hidden">
                     <div className="flex flex-col w-1/2 justify-center">
-                    <div className="p-12 w-full flex flex-col items-center"> <img src="/images/CSI-KJSIEIT-Logo-Final-150x150.png" alt='img' /></div>
-                    <div className="p-12 w-full flex flex-col items-center"> <img src="/images/RCSCW-150x150.png" alt='img' /></div>
-                    <div className="p-12 w-full flex flex-col items-center"><img src="/images/DCAC-150x150.png" alt='img1' /> </div>
+                        <div className="p-12 w-full flex flex-col items-center"> <img src="/images/CSI-KJSIEIT-Logo-Final-150x150.png" alt='img' /></div>
+                        <div className="p-12 w-full flex flex-col items-center"> <img src="/images/RCSCW-150x150.png" alt='img' /></div>
+                        <div className="p-12 w-full flex flex-col items-center"><img src="/images/DCAC-150x150.png" alt='img1' /> </div>
                     </div>
 
                     <div className="flex flex-col w-1/2 justify-center">
-                    <div className="p-10 w-full flex flex-col items-center"> <img src="/images/Mithibai-college-image-F7E1045E5E3B-1-150x150.png" alt='img1' /></div>
-                    <div className="p-10 w-full flex flex-col items-center">     <img src="/images/Black-RAYS-Logo-PNG-150x150.png" alt='img1' /></div>
-                    <div className="p-10 w-full flex flex-col items-center"> <img src="/images/St-Andrews-Logo-150x150.png" alt='img1' /></div>
+                        <div className="p-10 w-full flex flex-col items-center"> <img src="/images/Mithibai-college-image-F7E1045E5E3B-1-150x150.png" alt='img1' /></div>
+                        <div className="p-10 w-full flex flex-col items-center">     <img src="/images/Black-RAYS-Logo-PNG-150x150.png" alt='img1' /></div>
+                        <div className="p-10 w-full flex flex-col items-center"> <img src="/images/St-Andrews-Logo-150x150.png" alt='img1' /></div>
                     </div>
 
                 </div>
                 <div className="flex items-center justify-center block md:hidden">
-                <div className="p-10 w-1/2 flex flex-col items-center pt-10"> <img src="/images/Asset 8@300x.png" alt='img1' /></div>
+                    <div className="p-10 w-1/2 flex flex-col items-center pt-10"> <img src="/images/Asset 8@300x.png" alt='img1' /></div>
 
                 </div>
 
