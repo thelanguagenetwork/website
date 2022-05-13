@@ -117,6 +117,15 @@ export default function KidsCourses() {
     }
 
     return <div>
+        <div className="KidsEnglish h-[70vh] mb-20" >
+                <div className="bg-[rgba(0,0,0,0.4)] h-full ">
+                    <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
+                        <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>Language Classes for Kids</h1>
+                        {/* <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online French classes for kids (6-9 years old) with professional teachers..</h1>
+                        <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">Get Started</button> */}
+                    </div>
+                </div>
+            </div>
         <div className="Home-container-2 px-5 fadeIN" style={{ width: '100%', marginTop: '2rem', paddingTop: 0 }}>
             <h2>A Fun, Proven method for Learning</h2>
             <h1 className='mb-12'>Choose a language</h1>
