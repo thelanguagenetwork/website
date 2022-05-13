@@ -61,7 +61,29 @@ export default function AdultsJapanese() {
                 </div>
             </div>
 
-            <div className='w-full text-center text-3xl lg:text-4xl font-medium mt-20'>How learning Japanese with TLN unique?</div>
+            <div className='pt-20 w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>TLN and International Exams</div>
+            <p className='text-center w-full px-10 lg:px-60 pt-4 text-sm text-[#54595f]'> We want our students to excel in international exams like TOEFL and IELTS. We teach our students how to learn Japanese in a way that will help them ace these standardised tests. All aspects of the test, including pronunciation, vocabulary, listening part, is being taken care of at TLN. We ensure that once you learn something you won’t forget it.</p>
+            <div className='px-3 group w-full flex flex-col items-center my-10'>
+                <img src="/images/exam-JLPT-300x159.jpg" alt="img" className='w-60' />
+                <div className='px-10 shadow-xl text-center lg:w-2/3 p-4'>
+                    <h3 className='text-lg font-bold pb-3 group-hover:text-amber-400 ease-in duration-300'>JLPT</h3>
+                    <p className='text-sm text-[#54595f]'>JLPT (Japanese Language Proficiency Test) is conducted by the Japan Foundation and Japan Educational Exchanges and Services to evaluate the proficiency of non-native speakers. It is an international Japanese exam carried out on a large scale worldwide. The Japan Foundation administers this test along with the local institutions of the respective countries other than Japan. To maintain the relevancy of this international certification, the Japan Foundation updates the exam pattern from time to time. Formerly, this examination had four levels:- N1, N2, N3, N4. A new level N5 was added in 2010 to make the distribution of syllabus more accurate and appropriate. The current level of N4 and N5 corresponds to the old level of 3 and 4 respectively. The current N3 level bridges the gap between the old 2 and 3 levels.</p>
+                </div>
+            </div>
+            <div className="my-24 lg:flex sm:px-4 lg:px-20 lg:pt-10 flex-row h-auto w-full bg-[#f4f8fb]">
+                <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
+                    <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>Japanese Language Levels for Adults</h1>
+                    <p className='text-sm text-[#54595f]'>
+                    All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately. </p>
+                    <p className='text-sm text-[#54595f]'>
+                        All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
+                    </p>
+                </div>
+                <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
+                    <Levels/>
+                </div>
+            </div>
+            {/* <div className='w-full text-center text-3xl lg:text-4xl font-medium mt-20'>How learning Japanese with TLN unique?</div> */}
             <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly'>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
@@ -166,7 +188,7 @@ export default function AdultsJapanese() {
             </Swiper>
 
             <div className='w-full lg:mt-28 text-center text-3xl lg:text-4xl font-medium '>How to learn Japanese effectively ?</div>
-            <div className='flex flex-col lg:flex-row'>
+            <div className='flex flex-col lg:flex-row sm:px-0 lg:px-20 sm:mb-10 lg:mb-20'>
                 <div className='pl-10 w-3/4 lg:w-[60rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
                 </div>
@@ -211,15 +233,7 @@ export default function AdultsJapanese() {
                 </div>
             </div>
 
-            <div className='pt-20 w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>TLN and International Exams</div>
-            <p className='text-center w-full px-10 lg:px-60 pt-4 text-sm text-[#54595f]'> We want our students to excel in international exams like TOEFL and IELTS. We teach our students how to learn Japanese in a way that will help them ace these standardised tests. All aspects of the test, including pronunciation, vocabulary, listening part, is being taken care of at TLN. We ensure that once you learn something you won’t forget it.</p>
-            <div className='px-3 group w-full flex flex-col items-center my-10'>
-                <img src="/images/exam-JLPT-300x159.jpg" alt="img" className='w-60' />
-                <div className='px-10 shadow-xl text-center lg:w-2/3 p-4'>
-                    <h3 className='text-lg font-bold pb-3 group-hover:text-amber-400 ease-in duration-300'>JLPT</h3>
-                    <p className='text-sm text-[#54595f]'>JLPT (Japanese Language Proficiency Test) is conducted by the Japan Foundation and Japan Educational Exchanges and Services to evaluate the proficiency of non-native speakers. It is an international Japanese exam carried out on a large scale worldwide. The Japan Foundation administers this test along with the local institutions of the respective countries other than Japan. To maintain the relevancy of this international certification, the Japan Foundation updates the exam pattern from time to time. Formerly, this examination had four levels:- N1, N2, N3, N4. A new level N5 was added in 2010 to make the distribution of syllabus more accurate and appropriate. The current level of N4 and N5 corresponds to the old level of 3 and 4 respectively. The current N3 level bridges the gap between the old 2 and 3 levels.</p>
-                </div>
-            </div>
+            
 
             {/* <div className="my-28 lg:flex flex-row">
                 <div className='space-y-2 px-10 lg:px-20'>
@@ -239,21 +253,9 @@ export default function AdultsJapanese() {
                 </div>
             </div> */}
 
-            <div className="my-24 lg:flex sm:px-4 lg:px-20 lg:pt-10 flex-row h-auto w-full bg-[#f4f8fb]">
-                <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
-                    <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>Japanese Language Levels for Adults</h1>
-                    <p className='text-sm text-[#54595f]'>
-                    All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately. </p>
-                    <p className='text-sm text-[#54595f]'>
-                        All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
-                    </p>
-                </div>
-                <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
-                    <Levels/>
-                </div>
-            </div>
+           
 
-            <div className='flex flex-col items-center '>
+            {/* <div className='flex flex-col items-center '>
                 <div className="Home-container-3 ">
                     <h1>
                         Students at The Language Network
@@ -340,7 +342,7 @@ export default function AdultsJapanese() {
                         </SwiperSlide>
                     </Swiper>
                 </div>
-            </div>
+            </div> */}
 
                        <div className='mt-24'>
             <LearningPrices one_one={Japanese_1_1} one_two={Japanese_1_2} one_four={Japanese_1_4} />
@@ -418,7 +420,7 @@ export default function AdultsJapanese() {
 
 
 
-            <div className='w-full px-10 lg:px-28'>
+            <div className='w-full px-10 lg:px-28 mb-10 lg:mb-20'>
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item border-t-0 border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingOne">
