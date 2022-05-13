@@ -63,7 +63,37 @@ export default function AdultsSpanish() {
                 </div>
             </div>
 
-            <div className='w-full text-center text-3xl lg:text-4xl font-medium mt-20'>How learning Spanish with TLN unique?</div>
+            <div className='pt-20 w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>TLN and International Exams</div>
+            <p className='text-center w-full px-10 lg:px-60 pt-4 text-sm text-[#54595f]'> We want our students to excel in international exams like TOEFL and IELTS. We teach our students how to learn Spanish in a way that will help them ace these standardised tests. All aspects of the test, including pronunciation, vocabulary, listening part, is being taken care of at TLN. We ensure that once you learn something you won’t forget it.</p>
+            <div className='w-full lg:px-24 flex flex-col lg:flex-row'>
+                <div className='group w-full lg:w-1/2 flex flex-col items-center my-10'>
+                    <img src="/images/exam-siele-300x159.jpg" alt="img" className='w-36' />
+                    <div className='px-10 shadow-xl text-center lg:w-full p-4 h-full  '>
+                        <h3 className='text-lg font-bold pb-3 group-hover:text-amber-400 ease-in duration-300'>Siele</h3>
+                        <p className='text-sm text-[#54595f]'>Its is the most comprehensive online exam for certifying your Spanish proficiency. It is a single multilevel exam that allows you to obtain the SIELE certificate, a document that includes a score from 0 to 1000, the result of the sum of your scores from each of the four tests, and associated with the levels of the Common European Framework of Reference for Languages (CEFR).</p>
+                    </div>
+                </div>
+                <div className=' group  w-full lg:w-1/2 flex flex-col items-center my-10'>
+                    <img src="/images/international-exam-6.jpg" alt="img" className='w-36' />
+                    <div className='px-10 shadow-xl text-center lg:w-full p-4 h-full'>
+                        <h3 className='text-lg font-bold pb-3 group-hover:text-amber-400 ease-in duration-300'>Dele</h3>
+                        <p className='text-sm text-[#54595f]'>DELE (Diplomas of Spanish as a Foreign Language) are official titles certifying the degree of competence and mastery of the Spanish language, granted by the Ministry of Education, Culture and Sport of Spain. The certification is offered to correspond to the levels of the Common European Framework of Reference for Languages (CEFR).</p>
+                    </div>
+                </div>
+            </div>
+            <div className="my-24 lg:flex sm:px-4 lg:px-20 lg:pt-10 flex-row h-auto w-full bg-[#f4f8fb]">
+                <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
+                    <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>Spanish Language Levels for Adults</h1>
+                    <p className='text-sm text-[#54595f]'>
+                        All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.</p>
+                    <p className='text-sm text-[#54595f]'>
+                        These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and C2 the most advanced.                    </p>
+                </div>
+                <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
+                    <Levels />
+                </div>
+            </div>
+            {/* <div className='w-full text-center text-3xl lg:text-4xl font-medium mt-20'>How learning Spanish with TLN unique?</div> */}
             <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly'>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
@@ -166,7 +196,7 @@ export default function AdultsSpanish() {
             </Swiper>
 
             <div className='w-full lg:mt-28 text-center text-3xl lg:text-4xl font-medium '>How to learn Spanish effectively ?</div>
-            <div className='flex flex-col lg:flex-row'>
+            <div className='flex flex-col lg:flex-row sm:px-0 lg:px-20 sm:mb-10 lg:mb-20'>
                 <div className='pl-10 w-3/4 lg:w-[60rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
                 </div>
@@ -211,24 +241,7 @@ export default function AdultsSpanish() {
                 </div>
             </div>
 
-            <div className='pt-20 w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>TLN and International Exams</div>
-            <p className='text-center w-full px-10 lg:px-60 pt-4 text-sm text-[#54595f]'> We want our students to excel in international exams like TOEFL and IELTS. We teach our students how to learn Spanish in a way that will help them ace these standardised tests. All aspects of the test, including pronunciation, vocabulary, listening part, is being taken care of at TLN. We ensure that once you learn something you won’t forget it.</p>
-            <div className='w-full lg:px-24 flex flex-col lg:flex-row'>
-                <div className='group w-full lg:w-1/2 flex flex-col items-center my-10'>
-                    <img src="/images/exam-siele-300x159.jpg" alt="img" className='w-36' />
-                    <div className='px-10 shadow-xl text-center lg:w-full p-4 h-full  '>
-                        <h3 className='text-lg font-bold pb-3 group-hover:text-amber-400 ease-in duration-300'>Siele</h3>
-                        <p className='text-sm text-[#54595f]'>Its is the most comprehensive online exam for certifying your Spanish proficiency. It is a single multilevel exam that allows you to obtain the SIELE certificate, a document that includes a score from 0 to 1000, the result of the sum of your scores from each of the four tests, and associated with the levels of the Common European Framework of Reference for Languages (CEFR).</p>
-                    </div>
-                </div>
-                <div className=' group  w-full lg:w-1/2 flex flex-col items-center my-10'>
-                    <img src="/images/international-exam-6.jpg" alt="img" className='w-36' />
-                    <div className='px-10 shadow-xl text-center lg:w-full p-4 h-full'>
-                        <h3 className='text-lg font-bold pb-3 group-hover:text-amber-400 ease-in duration-300'>Dele</h3>
-                        <p className='text-sm text-[#54595f]'>DELE (Diplomas of Spanish as a Foreign Language) are official titles certifying the degree of competence and mastery of the Spanish language, granted by the Ministry of Education, Culture and Sport of Spain. The certification is offered to correspond to the levels of the Common European Framework of Reference for Languages (CEFR).</p>
-                    </div>
-                </div>
-            </div>
+            
 
             {/* <div className="my-20 lg:flex flex-row">
                 <div className='space-y-2 px-10 lg:px-20'>
@@ -249,20 +262,9 @@ export default function AdultsSpanish() {
                 </div>
             </div> */}
 
-            <div className="my-24 lg:flex sm:px-4 lg:px-20 lg:pt-10 flex-row h-auto w-full bg-[#f4f8fb]">
-                <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
-                    <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>Spanish Language Levels for Adults</h1>
-                    <p className='text-sm text-[#54595f]'>
-                        All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.</p>
-                    <p className='text-sm text-[#54595f]'>
-                        These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and C2 the most advanced.                    </p>
-                </div>
-                <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
-                    <Levels />
-                </div>
-            </div>
+           
 
-            <div className='flex flex-col items-center '>
+            {/* <div className='flex flex-col items-center '>
                 <div className="Home-container-3 ">
                     <h1>
                         Students at The Language Network
@@ -349,7 +351,7 @@ export default function AdultsSpanish() {
                         </SwiperSlide>
                     </Swiper>
                 </div>
-            </div>
+            </div> */}
 
             <div className='mt-24'>
             <LearningPrices one_one={Spanish_1_1} one_two={Spanish_1_2} one_four={Spanish_1_4} />
@@ -427,7 +429,7 @@ export default function AdultsSpanish() {
             </div>
 
 
-            <div className='w-full px-10 lg:px-28'>
+            <div className='w-full px-10 lg:px-28 mb-10 lg:mb-20'>
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item border-t-0 border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingOne">

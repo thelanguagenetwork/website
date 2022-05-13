@@ -62,8 +62,31 @@ export default function AdultsFrench() {
                 </div>
             </div>
 
+            <div className='pt-20 w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>We prepare you for international exams</div>
+            <p className='text-center w-full px-10 lg:px-60 pt-4 text-sm text-[#54595f]'> Studying abroad is a must for children hoping to build an international future. It can shape your child’s success and is an important investment for their global career.</p>
+            <div className='px-3 group w-full flex flex-col items-center my-10'>
+                <img src="/images/exam-delf-dalf.jpg" alt="img" className='w-48' />
+                <div className='px-10 shadow-xl text-center lg:w-2/3 p-4'>
+                    <h3 className='text-lg font-bold pb-3 group-hover:text-amber-400 ease-in duration-300'>Delf Dalf</h3>
+                    <p className='text-sm text-[#54595f]'>DELF (Diplôme d’études en langue française) is the certified diploma ofFrench language awarded by the French Ministry of National Education and is recognized worldwide. It allows validating and certifying for French language abilities. The junior version of DELF is perfectly fit to teenagers in middle and high-school. The DELF junior version has the same basic structure as the standard DELF. Only the topics are different: the materials take into account the interests of young people.</p>
+                </div>
+            </div>
+            <div className="my-24 lg:flex sm:px-4 lg:px-20 lg:pt-10 flex-row h-auto w-full bg-[#f4f8fb]">
+                <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
+                    <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>French Language Levels for Adults</h1>
+                    <p className='text-sm text-[#54595f]'>
+                        All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
+                    </p>
+                    <p className='text-sm text-[#54595f]'>
+                        These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). The diploma’s value is the exact same as the standard DELF. The DELF junior version has 4 independent diplomas: DELF A1 junior version, DELF A2 junior version, DELF B1 junior version, DELF B2 junior version.
+                    </p>
+                </div>
+                <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
+                    <Levels />
+                </div>
+            </div>
 
-            <div className='w-full text-center px-4 lg:px-0 text-2xl lg:text-4xl font-medium mt-20'>How is learning French with The Language Network different?</div>
+            {/* <div className='w-full text-center px-4 lg:px-0 text-2xl lg:text-4xl font-medium mt-20'>How is learning French with The Language Network different?</div> */}
             <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly '>
                 <div className='h-[17rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[32rem] w-60 flex flex-col items-center text-center '>
                     <img src="/images/Asset-27@300x.png" alt="alt" className='p-8' />
@@ -232,7 +255,7 @@ export default function AdultsFrench() {
             </Swiper>
 
             <div className='w-full my-20 text-center text-3xl lg:text-4xl font-medium '>How to learn French effectively?</div>
-            <div className='flex flex-col lg:flex-row'>
+            <div className='flex flex-col lg:flex-row sm:px-0 lg:px-20 sm:mb-10 lg:mb-20'>
                 <div className='pl-10 w-3/4 lg:w-[60rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
                 </div>
@@ -277,15 +300,7 @@ export default function AdultsFrench() {
 
                 </div>
             </div>
-            <div className='pt-20 w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>We prepare you for international exams</div>
-            <p className='text-center w-full px-10 lg:px-60 pt-4 text-sm text-[#54595f]'> Studying abroad is a must for children hoping to build an international future. It can shape your child’s success and is an important investment for their global career.</p>
-            <div className='px-3 group w-full flex flex-col items-center my-10'>
-                <img src="/images/exam-delf-dalf.jpg" alt="img" className='w-48' />
-                <div className='px-10 shadow-xl text-center lg:w-2/3 p-4'>
-                    <h3 className='text-lg font-bold pb-3 group-hover:text-amber-400 ease-in duration-300'>Delf Dalf</h3>
-                    <p className='text-sm text-[#54595f]'>DELF (Diplôme d’études en langue française) is the certified diploma ofFrench language awarded by the French Ministry of National Education and is recognized worldwide. It allows validating and certifying for French language abilities. The junior version of DELF is perfectly fit to teenagers in middle and high-school. The DELF junior version has the same basic structure as the standard DELF. Only the topics are different: the materials take into account the interests of young people.</p>
-                </div>
-            </div>
+
 
 
             {/* <div className="my-28 py-9 lg:flex flex-row h-auto w-full bg-[#f4f8fb]">
@@ -312,23 +327,10 @@ export default function AdultsFrench() {
                     <img src='/images/French-levels-adolescents@300x-1536x572.png' alt='img' />
                 </div>
             </div> */}
-            
-            <div className="my-24 lg:flex sm:px-4 lg:px-20 lg:pt-10 flex-row h-auto w-full bg-[#f4f8fb]">
-                <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
-                    <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>French Language Levels for Adults</h1>
-                    <p className='text-sm text-[#54595f]'>
-                        All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
-                    </p>
-                    <p className='text-sm text-[#54595f]'>
-                        These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). The diploma’s value is the exact same as the standard DELF. The DELF junior version has 4 independent diplomas: DELF A1 junior version, DELF A2 junior version, DELF B1 junior version, DELF B2 junior version.
-                    </p>
-                </div>
-                <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
-                    <Levels />
-                </div>
-            </div>
 
-            <div className='flex flex-col items-center '>
+
+
+            {/* <div className='flex flex-col items-center '>
                 <div className="Home-container-3">
                     <h1>
                         Students at The Language Network
@@ -415,7 +417,7 @@ export default function AdultsFrench() {
                         </SwiperSlide>
                     </Swiper>
                 </div>
-            </div>
+            </div> */}
 
             <div className='mt-24'>
                 <LearningPrices one_one={French_1_1} one_two={French_1_2} one_four={French_1_4} />
@@ -494,7 +496,7 @@ export default function AdultsFrench() {
 
 
 
-            <div className='w-full px-10 lg:px-28'>
+            <div className='w-full px-10 lg:px-28 mb-10 lg:mb-20'>
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item border-t-0 border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingOne">
