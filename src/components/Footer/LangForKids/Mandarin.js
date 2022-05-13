@@ -7,7 +7,8 @@ import "swiper/css";
 import "swiper/css/pagination"
 import "swiper/css/navigation"
 import KidsLevels from './KidsLevels';
-
+import LearningPricesKids from '../../CoursePricing/LearningPricesKids';
+import { Mandarin_1_1, Mandarin_1_2, Mandarin_1_4 } from '../../CoursePricing/CourseTableData_kids/Mandarin.js'
 
 export default function KidsMandarin() {
 
@@ -400,7 +401,9 @@ export default function KidsMandarin() {
                     </Swiper>
                 </div>
             </div>
-
+            <div className='mt-24'>
+                <LearningPricesKids one_one={Mandarin_1_1} one_two={Mandarin_1_2} one_four={Mandarin_1_4} />
+            </div>
             <p className='w-full lg:px-80 pt-20 text-center font-medium text-4xl'>Join us in a language trip now, by following these simple steps</p>
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-20 mx-auto">

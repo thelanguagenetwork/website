@@ -7,7 +7,8 @@ import "swiper/css";
 import "swiper/css/pagination"
 import "swiper/css/navigation"
 import KidsLevels from './KidsLevels';
-
+import LearningPricesKids from '../../CoursePricing/LearningPricesKids';
+import { Spanish_1_1, Spanish_1_2, Spanish_1_4 } from '../../CoursePricing/CourseTableData_kids/Spanish.js'
 export default function KidsSpanish() {
 
     AOS.init()
@@ -52,7 +53,7 @@ export default function KidsSpanish() {
                     <img src="/images/TLN_Spanish-elements.png" alt="img" />
                 </div>
             </div>
-            <div className="KidsEnglish h-[70vh]" >
+            <div className="KidsSpanish h-[70vh]" >
                 <div className="bg-[rgba(0,0,0,0.4)] h-full ">
                     <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
                         <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>Spanish Classes for Kids</h1>
@@ -422,7 +423,9 @@ export default function KidsSpanish() {
                     </Swiper>
                 </div>
             </div>
-
+            <div className='mt-24'>
+                <LearningPricesKids one_one={Spanish_1_1} one_two={Spanish_1_2} one_four={Spanish_1_4} />
+            </div>
             <p className='w-full lg:px-80 pt-20 text-center font-medium text-4xl'>Join us in a language trip now, by following these simple steps</p>
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-20 mx-auto">

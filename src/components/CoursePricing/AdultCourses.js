@@ -12,13 +12,13 @@ import SwiperCore, {
 } from 'swiper';
 
 import LearningPrices from './LearningPrices';
-import { English_1_1, English_1_2, English_1_4 } from './CourseTableData/English.js'
-import { French_1_1, French_1_2, French_1_4 } from './CourseTableData/French'
-import { Spanish_1_1, Spanish_1_2, Spanish_1_4 } from './CourseTableData/Spanish'
-import { German_1_1, German_1_2, German_1_4 } from './CourseTableData/German'
-import { Mandarin_1_1, Mandarin_1_2, Mandarin_1_4 } from './CourseTableData/Mandarin'
-import { Japanese_1_1, Japanese_1_2, Japanese_1_4 } from './CourseTableData/Japanese'
-import { Korean_1_1, Korean_1_2, Korean_1_4 } from './CourseTableData/Korean'
+// import { English_1_1, English_1_2, English_1_4 } from './CourseTableData/English.js'
+// import { French_1_1, French_1_2, French_1_4 } from './CourseTableData/French'
+// import { Spanish_1_1, Spanish_1_2, Spanish_1_4 } from './CourseTableData/Spanish'
+// import { German_1_1, German_1_2, German_1_4 } from './CourseTableData/German'
+// import { Mandarin_1_1, Mandarin_1_2, Mandarin_1_4 } from './CourseTableData/Mandarin'
+// import { Japanese_1_1, Japanese_1_2, Japanese_1_4 } from './CourseTableData/Japanese'
+// import { Korean_1_1, Korean_1_2, Korean_1_4 } from './CourseTableData/Korean'
 import AdultsEnglish from '../Footer/LangForAdults/English';
 import AdultsFrench from '../Footer/LangForAdults/French';
 import AdultsSpanish from '../Footer/LangForAdults/Spanish';
@@ -64,48 +64,48 @@ export default function AdultsCourses() {
         switch (language) {
             case 'English':
                 return (<div>
-                    <LearningPrices one_one={English_1_1} one_two={English_1_2} one_four={English_1_4} />
+                    {/* <LearningPrices one_one={English_1_1} one_two={English_1_2} one_four={English_1_4} /> */}
                     <AdultsEnglish />
                 </div>
                 )
                 break;
             case 'French':
                 return (<div>
-                    <LearningPrices one_one={French_1_1} one_two={French_1_2} one_four={French_1_4} />
+                    {/* <LearningPrices one_one={French_1_1} one_two={French_1_2} one_four={French_1_4} /> */}
                     <AdultsFrench />
                 </div>)
                 break;
             case 'Spanish':
                 return (<div>
-                    <LearningPrices one_one={Spanish_1_1} one_two={Spanish_1_2} one_four={Spanish_1_4} />
+                    {/* <LearningPrices one_one={Spanish_1_1} one_two={Spanish_1_2} one_four={Spanish_1_4} /> */}
                     <AdultsSpanish />
                 </div>
                 )
                 break;
             case 'German':
                 return (<div>
-                    <LearningPrices one_one={German_1_1} one_two={German_1_2} one_four={German_1_4} />
+                    {/* <LearningPrices one_one={German_1_1} one_two={German_1_2} one_four={German_1_4} /> */}
                     <AdultsGerman />
                 </div>
                 )
                 break;
             case 'Mandarin':
                 return (<div>
-                    <LearningPrices one_one={Mandarin_1_1} one_two={Mandarin_1_2} one_four={Mandarin_1_4} />
+                    {/* <LearningPrices one_one={Mandarin_1_1} one_two={Mandarin_1_2} one_four={Mandarin_1_4} /> */}
                     <AdultsMandarin />
                 </div>
                 )
                 break;
             case 'Japanese':
                 return (<div>
-                    <LearningPrices one_one={Japanese_1_1} one_two={Japanese_1_2} one_four={Japanese_1_4} />
+                    {/* <LearningPrices one_one={Japanese_1_1} one_two={Japanese_1_2} one_four={Japanese_1_4} /> */}
                     <AdultsJapanese />
                 </div>
                 )
                 break;
             case 'Korean':
                 return (<div>
-                    <LearningPrices one_one={Korean_1_1} one_two={Korean_1_2} one_four={Korean_1_4} />
+                    {/* <LearningPrices one_one={Korean_1_1} one_two={Korean_1_2} one_four={Korean_1_4} /> */}
                     <AdultsKorean />
                 </div>
                 )
@@ -117,7 +117,7 @@ export default function AdultsCourses() {
     }
 
     return <div>
-        <div className="Home-container-2 px-5 fadeIN" style={{ width: '100%', marginTop: '2rem', paddingTop: 0 }}>
+        <div className="Home-container-2 px-5 fadeIN mb-24" style={{ width: '100%', marginTop: '2rem', paddingTop: 0 }}>
             <h2>A Fun, Proven method for Learning</h2>
             <h1 className='mb-12'>Choose a language</h1>
             <div className='Home-container-2-imgs hidden lg:flex'>

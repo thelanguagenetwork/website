@@ -7,6 +7,8 @@ import "swiper/css";
 import "swiper/css/pagination"
 import "swiper/css/navigation"
 import Levels from '../../Home/Levels';
+import LearningPrices from '../../CoursePricing/LearningPrices';
+import { German_1_1, German_1_2, German_1_4 } from '../../CoursePricing/CourseTableData/German'
 
 export default function AdultsGerman() {
 
@@ -127,61 +129,61 @@ export default function AdultsGerman() {
             >
                 <SwiperSlide>
                     <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
-                        Interview preparations ​</h3>
-                    <p className='text-sm text-gray-700'>
-                        While you learn German with us, we also prepare you for interview. Dont just learn German, focus on every aspect that is needed for sustenance.  </p>
-                </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                   <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
-                        CV making</h3>
-                    <p className='text-sm text-gray-700'>
-                        We also teach our students how to craft a perfect C.V. There is a cut throat competition in today’s world, so we teach you how to make C.V.s that will get you some attention.  </p>
-                </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                   <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-30@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
-                        GOETHE Preparations</h3>
-                    <p className='text-sm text-gray-700'>
-
-                        Our expert German trainers prepare you for international exams like Goethe. These international exams are important for those who wish to move abroad. We make sure that our students get trained to ace these exams.    </p>
-                </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                   <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
-                        Spoken German</h3>
-                    <p className='text-sm text-gray-700'>
-
-                        When our students learns German, we give emphasis to the spoken part more. We believe that our students should be able to better communicate in German. Our German language course covers all aspects of learning.   </p>
-                </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                   <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
-                        Unique Study Plans</h3>
-                    <p className='text-sm text-gray-700'>
-
-                        We have created unique study plans to meet our students learning needs. Learn German with our master plan and ace at German language. Our German language courses are carefully made for our students. </p>
-                </div>
+                        <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>
+                            Interview preparations ​</h3>
+                        <p className='text-sm text-gray-700'>
+                            While you learn German with us, we also prepare you for interview. Dont just learn German, focus on every aspect that is needed for sustenance.  </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
-                        Compact batches</h3>
-                    <p className='text-sm text-gray-700'>
+                        <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>
+                            CV making</h3>
+                        <p className='text-sm text-gray-700'>
+                            We also teach our students how to craft a perfect C.V. There is a cut throat competition in today’s world, so we teach you how to make C.V.s that will get you some attention.  </p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-30@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>
+                            GOETHE Preparations</h3>
+                        <p className='text-sm text-gray-700'>
 
-                        We believe in small batches. Learn German with us and get specialised attention from our language experts. You can also opt for one-on-one batches.   </p>
-                </div>
+                            Our expert German trainers prepare you for international exams like Goethe. These international exams are important for those who wish to move abroad. We make sure that our students get trained to ace these exams.    </p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>
+                            Spoken German</h3>
+                        <p className='text-sm text-gray-700'>
+
+                            When our students learns German, we give emphasis to the spoken part more. We believe that our students should be able to better communicate in German. Our German language course covers all aspects of learning.   </p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>
+                            Unique Study Plans</h3>
+                        <p className='text-sm text-gray-700'>
+
+                            We have created unique study plans to meet our students learning needs. Learn German with our master plan and ace at German language. Our German language courses are carefully made for our students. </p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>
+                            Compact batches</h3>
+                        <p className='text-sm text-gray-700'>
+
+                            We believe in small batches. Learn German with us and get specialised attention from our language experts. You can also opt for one-on-one batches.   </p>
+                    </div>
                 </SwiperSlide>
             </Swiper>
 
@@ -267,9 +269,9 @@ export default function AdultsGerman() {
                 <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
                     <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>German Language Levels for Adults</h1>
                     <p className='text-sm text-[#54595f]'>
-                    All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.</p>
+                        All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.</p>
                     <p className='text-sm text-[#54595f]'>
-                    These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and C2 the most advanced.                    </p>
+                        These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and C2 the most advanced.                    </p>
                 </div>
                 <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
                     <Levels />
@@ -365,6 +367,10 @@ export default function AdultsGerman() {
                 </div>
             </div>
 
+            <div className='mt-24'>
+                <LearningPrices one_one={German_1_1} one_two={German_1_2} one_four={German_1_4} />
+            </div>
+
             <p className='w-full px-3 lg:px-80 pt-20 text-center font-medium text-3xl lg:text-4xl'>Join us in a language trip now, by following these simple steps</p>
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-20 mx-auto">
@@ -429,11 +435,11 @@ export default function AdultsGerman() {
                 </div>
             </section>
 
-          
+
             <p className='w-full  text-center font-bold text-4xl pb-3'>Frequently asked questions</p>
 
             <div className="flex flex-col items-center justify-center pb-20">
-            <hr class="flex flex-col justify-center align-center text-center border-[#FFC000] border-2 w-1/5 self-center items-center"></hr>
+                <hr class="flex flex-col justify-center align-center text-center border-[#FFC000] border-2 w-1/5 self-center items-center"></hr>
             </div>
 
 
@@ -493,7 +499,7 @@ export default function AdultsGerman() {
                         <h2 class="accordion-header mb-0" id="flush-headingFive">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
                                 aria-expanded="false" aria-controls="flush-collapseFive">
-                                 How can I improve my German? 
+                                How can I improve my German?
                             </button>
                         </h2>
                         <div id="flush-collapseFive" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingFive"
@@ -517,7 +523,7 @@ export default function AdultsGerman() {
                         <h2 class="accordion-header mb-0" id="flush-headingSeven">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
                                 aria-expanded="false" aria-controls="flush-collapseSeven">
-                                Do you provide a free demo class? 
+                                Do you provide a free demo class?
                             </button>
                         </h2>
                         <div id="flush-collapseSeven" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSeven"
@@ -530,7 +536,7 @@ export default function AdultsGerman() {
                         <h2 class="accordion-header mb-0" id="flush-headingEight">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight"
                                 aria-expanded="false" aria-controls="flush-collapseEight">
-                                How can I book a course with TLN? 
+                                How can I book a course with TLN?
                             </button>
                         </h2>
                         <div id="flush-collapseEight" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingEight"
@@ -544,7 +550,7 @@ export default function AdultsGerman() {
                         <h2 class="accordion-header mb-0" id="flush-headingNine">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine"
                                 aria-expanded="false" aria-controls="flush-collapseNine">
-                               Can I get class timings according to my convenience? 
+                                Can I get class timings according to my convenience?
                             </button>
                         </h2>
                         <div id="flush-collapseNine" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingNine"
@@ -556,7 +562,7 @@ export default function AdultsGerman() {
                         <h2 class="accordion-header mb-0" id="flush-headingTen">
                             <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen"
                                 aria-expanded="false" aria-controls="flush-collapseTen">
-                              What is included in the curriculum? 
+                                What is included in the curriculum?
                             </button>
                         </h2>
                         <div id="flush-collapseTen" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingTen"

@@ -7,7 +7,8 @@ import "swiper/css";
 import "swiper/css/pagination"
 import "swiper/css/navigation"
 import KidsLevels from './KidsLevels';
-
+import LearningPricesKids from '../../CoursePricing/LearningPricesKids';
+import { Korean_1_1, Korean_1_2, Korean_1_4 } from '../../CoursePricing/CourseTableData_kids/Korean.js'
 
 export default function KidsKorean() {
 
@@ -436,6 +437,10 @@ export default function KidsKorean() {
                         </SwiperSlide>
                     </Swiper>
                 </div>
+            </div>
+
+                        <div className='mt-24'>
+                <LearningPricesKids one_one={Korean_1_1} one_two={Korean_1_2} one_four={Korean_1_4} />
             </div>
 
             <p className='w-full lg:px-80 pt-20 text-center font-medium text-4xl'>Join us in a language trip now, by following these simple steps</p>
