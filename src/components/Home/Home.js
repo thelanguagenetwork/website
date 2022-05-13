@@ -191,6 +191,117 @@ export default function Home() {
                         <Popup sub="Korean" a1="/korean-course-adults" a2="/korean-course-kids" im="/images/Korean.png" src1="/images/adults-korean@300x.png" src2='/images/Astronaut-Korean-1.png' />                    </SwiperSlide>
                 </Swiper>
             </div>
+            <div className="Home-container-8 my-14 text-center">
+                <h1>FROM LEARNING A NEW LANGUAGE TO LIVING IT!</h1>
+                <span className="text-2xl font-semibold lg:text-4xl">Why you should learn with The Language Network?</span>
+            </div>
+            <div className='w-full px-10 lg:px-20'>
+                <Display />
+            </div>
+            <div className="my-24 lg:flex sm:px-4 lg:px-20 lg:pt-10 flex-row h-auto w-full bg-[#f4f8fb]">
+                <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
+                    <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>Our courses are aligned with the CEFR levels</h1>
+                    <p className='text-sm text-[#54595f]'>
+                        <span className='bold'>
+                            CEFR (Common European Framework of Reference for Languages)
+                        </span>
+                        is an internationally recognized standard that describes your learning progress in more detail. The framework helps you to explain your level from Beginner (A1) to Advanced (C2).
+                    </p>
+                    <p className='text-sm text-[#54595f]'>
+                        All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
+                    </p>
+                </div>
+                <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
+                    <Levels />
+                </div>
+            </div>
+            <div className='lg:w-full w-11/12 text-center pt-2 lg:pt-2'>
+                <h1 className='text-[#13bfab] text-xl font-medium tracking-widest'>WE PREPARE YOU FOR</h1>
+                <h2 className='text-black text-4xl font-medium mb-10'>International Exams</h2>
+            </div>
+
+            <div className=" lg:px-4 hidden md:block lg:block my-10">
+
+                <div className="flex flex-row px-10 justify-center items-center ">
+                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img1} alt='img' /></div>
+                    <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img2} alt='img' /></div>
+
+                    <div className="p-2 w-1/2 flex flex-col items-center"><img src={img3} alt='img' /> </div>
+
+                    <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img4} alt='img' /></div>
+                    <div className="p-2 w-1/2 flex flex-col items-center">    <img src={img5} alt='img' /></div>
+                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img6} alt='img' /></div>
+                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img7} alt='img' /></div>
+                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img8} alt='img' /></div>
+
+                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img9} alt='img' /> </div>
+
+                </div>
+            
+                {/* <Swiper className='pagi2' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 1
+
+                        },
+                        768: {
+                            slidesPerView: 3
+                        }
+                    }}
+                    pagination={{
+                        "clickable": true
+                    }} navigation={true} autoplay={{
+                        "delay": 2500,
+                        "disableOnInteraction": false
+                    }} >
+                    <SwiperSlide className="mb-10 p-20">
+                        <img src={img1} alt='img' />
+                    </SwiperSlide><SwiperSlide className="mb-10 p-20">
+                        <img src={img2} alt='img' />
+                    </SwiperSlide><SwiperSlide className="mb-10 p-20">
+                        <img src={img3} alt='img' />
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 p-20">
+                        <img src={img4} alt='img' />
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 p-20">
+                        <img src={img5} alt='img' />
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 p-20">
+                        <img src={img6} alt='img' />
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 p-20">
+                        <img src={img7} alt='img' />
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 p-20">
+                        <img src={img8} alt='img' />
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 p-20">
+                        <img src={img9} alt='img' />
+                    </SwiperSlide>
+                </Swiper> */}
+            </div>
+            <div className="lg:hidden md:hidden sm:block">
+                <div className="flex flex-col">
+                    <div className="flex flex-row justify-center items-center px-5">
+                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img1} alt='img' /></div>
+                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img2} alt='img' /></div>
+                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img3} alt='img' /> </div>
+                    </div>
+                    <div className="flex flex-row justify-center items-center px-5">
+                        <div className="p-2 w-1/2 flex flex-col items-center">   <img src={img4} alt='img' /></div>
+                        <div className="p-2 w-1/2 flex flex-col items-center">    <img src={img5} alt='img' /></div>
+                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img6} alt='img' /></div>
+                    </div>
+                    <div className="flex flex-row justify-center items-center px-5">
+                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img7} alt='img' /></div>
+                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img8} alt='img' /> </div>
+                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img9} alt='img' /></div>
+                    </div>
+                </div>
+            </div>
+
+
 
             <div className="Home-container-3 w-full lg:px-72 lg:mt-20">
                 <span className="font-semibold text-3xl lg:text-4xl">
@@ -280,111 +391,9 @@ export default function Home() {
 
 
 
-            <div className="my-24 lg:flex sm:px-4 lg:px-20 lg:pt-10 flex-row h-auto w-full bg-[#f4f8fb]">
-                <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
-                    <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>Our courses are aligned with the CEFR levels</h1>
-                    <p className='text-sm text-[#54595f]'>
-                        <span className='bold'>
-                            CEFR (Common European Framework of Reference for Languages)
-                        </span>
-                        is an internationally recognized standard that describes your learning progress in more detail. The framework helps you to explain your level from Beginner (A1) to Advanced (C2).
-                    </p>
-                    <p className='text-sm text-[#54595f]'>
-                        All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
-                    </p>
-                </div>
-                <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
-                    <Levels />
-                </div>
-            </div>
-
-            <div className='lg:w-full w-11/12 text-center pt-4 lg:pt-10'>
-                <h1 className='text-[#13bfab] text-xl font-medium tracking-widest'>WE PREPARE YOU FOR</h1>
-                <h2 className='text-black text-4xl font-medium mb-10'>International Exams</h2>
-            </div>
-
-            <div className=" lg:px-4 hidden md:block lg:block my-10">
-
-                <div className="flex flex-row px-10 justify-center items-center ">
-                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img1} alt='img' /></div>
-                    <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img2} alt='img' /></div>
-
-                    <div className="p-2 w-1/2 flex flex-col items-center"><img src={img3} alt='img' /> </div>
-
-                    <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img4} alt='img' /></div>
-                    <div className="p-2 w-1/2 flex flex-col items-center">    <img src={img5} alt='img' /></div>
-                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img6} alt='img' /></div>
-                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img7} alt='img' /></div>
-                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img8} alt='img' /></div>
-
-                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img9} alt='img' /> </div>
-
-                </div>
-            
-                {/* <Swiper className='pagi2' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
-                    breakpoints={{
-                        640: {
-                            slidesPerView: 1
-
-                        },
-                        768: {
-                            slidesPerView: 3
-                        }
-                    }}
-                    pagination={{
-                        "clickable": true
-                    }} navigation={true} autoplay={{
-                        "delay": 2500,
-                        "disableOnInteraction": false
-                    }} >
-                    <SwiperSlide className="mb-10 p-20">
-                        <img src={img1} alt='img' />
-                    </SwiperSlide><SwiperSlide className="mb-10 p-20">
-                        <img src={img2} alt='img' />
-                    </SwiperSlide><SwiperSlide className="mb-10 p-20">
-                        <img src={img3} alt='img' />
-                    </SwiperSlide>
-                    <SwiperSlide className="mb-10 p-20">
-                        <img src={img4} alt='img' />
-                    </SwiperSlide>
-                    <SwiperSlide className="mb-10 p-20">
-                        <img src={img5} alt='img' />
-                    </SwiperSlide>
-                    <SwiperSlide className="mb-10 p-20">
-                        <img src={img6} alt='img' />
-                    </SwiperSlide>
-                    <SwiperSlide className="mb-10 p-20">
-                        <img src={img7} alt='img' />
-                    </SwiperSlide>
-                    <SwiperSlide className="mb-10 p-20">
-                        <img src={img8} alt='img' />
-                    </SwiperSlide>
-                    <SwiperSlide className="mb-10 p-20">
-                        <img src={img9} alt='img' />
-                    </SwiperSlide>
-                </Swiper> */}
-            </div>
-            <div className="lg:hidden md:hidden sm:block">
-                <div className="flex flex-col">
-                    <div className="flex flex-row justify-center items-center px-5">
-                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img1} alt='img' /></div>
-                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img2} alt='img' /></div>
-                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img3} alt='img' /> </div>
-                    </div>
-                    <div className="flex flex-row justify-center items-center px-5">
-                        <div className="p-2 w-1/2 flex flex-col items-center">   <img src={img4} alt='img' /></div>
-                        <div className="p-2 w-1/2 flex flex-col items-center">    <img src={img5} alt='img' /></div>
-                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img6} alt='img' /></div>
-                    </div>
-                    <div className="flex flex-row justify-center items-center px-5">
-                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img7} alt='img' /></div>
-                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img8} alt='img' /> </div>
-                        <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img9} alt='img' /></div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="py-3 lg:py-0 my-5 lg:flex flex-row h-auto w-full bg-[#f4f8fb] px-8">
+        
+       
+            <div className="py-3 lg:py-0 my-2 lg:flex flex-row h-auto w-full bg-[#f4f8fb] px-8">
                 <div className='flex flex-col space-y-6 mx-0 lg:mx-4 lg:mx-0 lg:pl-20 lg:pr-52 justify-center lg:w-2/3'>
                     <h1 className='font-medium text-3xl lg:text-4xl'>The Language Network saves you
                         <div class="scroller">
@@ -400,18 +409,12 @@ export default function Home() {
                     <img src="/images/progress.png" alt="" className='lg:pl-10 px-10 lg:px-20' />
                 </div>
             </div>
-            <div className="Home-container-8 my-14 text-center">
-                <h1>FROM LEARNING A NEW LANGUAGE TO LIVING IT!</h1>
-                <span className="text-2xl font-semibold lg:text-4xl">Why you should learn with The Language Network?</span>
-            </div>
-            <div className='w-full px-10 lg:px-20'>
-                <Display />
-            </div>
-            <div className="my-20 px-10 lg:px-0 lg:pl-32 lg:flex flex-row lg:h-[65vh] w-full bg-[#f4f8fb]">
+           
+            <div className="my-2 px-10 lg:px-0 lg:pl-32 lg:flex flex-row lg:h-[65vh] w-full bg-[#f4f8fb]">
                 <div className='flex flex-col space-y-6 justify-center lg:w-2/3'>
                     <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-0'>TRANSFORM YOUR CAREER</h1>
-                    <h2 className='text-lg '>Earn Your Certification </h2>
-                    <p className='text-lg '>Learn a foreign language as a step to boost your career or improve your CV.</p>
+                    <h2 className='text-lg '>Certification </h2>
+                    <p className='text-lg '>Earn your certificate from The Language Network after completion of your language course. Not only it will boost your career but also improve your CV.</p>
                     <a href="/getstarted">
                         <button class="bg-[#13BFAB] w-56 hover:bg-teal-400 text-white font-bold py-3 px-4 rounded" >
                             JOIN A COURSE
@@ -485,10 +488,10 @@ export default function Home() {
                 <hr></hr>
                 <Testimonial />
             </div>
-            <div className="my-20">
+            <div className="my-20 pt-12">
                 <h3 className='w-full text-center font-semibold text-3xl lg:text-4xl'>Our Education Partners</h3>
 
-                <div className="flex flex-row px-10 justify-center items-center ">
+                <div className="flex flex-row px-10 justify-center items-center pr-1 ">
                     <div className="p-6 w-1/3 flex flex-col items-center"> <img src="/images/CSI-KJSIEIT-Logo-Final-150x150.png" alt='img' /></div>
                     <div className="p-6 w-1/3 flex flex-col items-center"> <img src="/images/RCSCW-150x150.png" alt='img' /></div>
 
