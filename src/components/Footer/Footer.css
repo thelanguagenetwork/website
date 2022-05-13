@@ -83,10 +83,10 @@ ul {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -15px;
+  bottom: -10px;
   height: 2px;
   width: 50px;
-  background: #ff5e14;
+ 
   z-index: -10;
 }
 .footer-widget ul li {
@@ -96,7 +96,7 @@ ul {
   margin-bottom: 12px;
 }
 .footer-widget ul li a:hover{
-  color: #ff5e14;
+  color:#13BFAB;
 }
 .footer-widget ul li a {
   color: #878787;

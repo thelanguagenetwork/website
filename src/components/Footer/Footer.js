@@ -97,6 +97,11 @@ export default function Footer() {
                                         <img src="/images/ISO9001-stamp.png" alt="img" />
                                         <img src="/images/Logo2.jpg" alt="img" style={{ paddingLeft: "10px" }} />
                                     </div>
+                                    <div className='footer-text pt-2'>
+                                        <p>Signature Business Park, 1306, 13th Floor, Postal Colony Rd, Chembur, Mumbai, Maharashtra</p>
+                                        <p>Contact no:8369123184</p>
+
+                                    </div>
                                 </div>
                             </div>
 
@@ -301,7 +306,7 @@ export default function Footer() {
                             <div className="col-xl-4 col-lg-4 d-none d-lg-block ">
                                 <div className="footer-menu">
                                     <ul>
-                                        <li><a href="https://www.facebook.com/teamlanguagenetwork"><img src='/images/facebook.svg' alt='img' /></a></li>
+                                        <li><a href="https://www.facebook.com/teamlanguagenetwork"><img  src='/images/facebook.svg' alt='img' /></a></li>
                                         <li><a href="https://www.instagram.com/thelanguagenetwork/"><img src='/images/instagram.svg' alt='img' /></a></li>
                                         <li><a href="https://www.linkedin.com/company/the-languagenetwork/"><img src='/images/linkedin.svg' alt='img' /></a></li>
                                         <li><a href="mailto:info@thelanguagenetwork.co"><img src='/images/envelope-fill.svg' alt='img' /></a></li>
