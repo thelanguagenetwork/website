@@ -7,6 +7,8 @@ import "swiper/css";
 import "swiper/css/pagination"
 import "swiper/css/navigation"
 import Levels from '../../Home/Levels';
+import LearningPrices from '../../CoursePricing/LearningPrices';
+import { English_1_1, English_1_2, English_1_4 } from '../../CoursePricing/CourseTableData/English.js'
 
 export default function AdultsEnglish() {
 
@@ -335,6 +337,10 @@ export default function AdultsEnglish() {
                         </SwiperSlide>
                     </Swiper>
                 </div>
+            </div>
+
+            <div className='mt-24'>
+                <LearningPrices one_one={English_1_1} one_two={English_1_2} one_four={English_1_4} />
             </div>
 
             <p className='w-full lg:px-80 pt-20 text-center font-medium text-3xl lg:text-4xl px-10 lg:px-0'>Join us in a language trip now, by following these simple steps</p>

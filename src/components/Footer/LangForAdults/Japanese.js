@@ -7,7 +7,8 @@ import "swiper/css";
 import "swiper/css/pagination"
 import "swiper/css/navigation"
 import Levels from '../../Home/Levels';
-
+import LearningPrices from '../../CoursePricing/LearningPrices';
+import { Japanese_1_1, Japanese_1_2, Japanese_1_4 } from '../../CoursePricing/CourseTableData/Japanese'
 export default function AdultsJapanese() {
 
     AOS.init()
@@ -339,6 +340,10 @@ export default function AdultsJapanese() {
                         </SwiperSlide>
                     </Swiper>
                 </div>
+            </div>
+
+                       <div className='mt-24'>
+            <LearningPrices one_one={Japanese_1_1} one_two={Japanese_1_2} one_four={Japanese_1_4} />
             </div>
 
             <p className='w-full px-3 lg:px-80 pt-20 text-center font-medium text-3xl lg:text-4xl'>Join us in a language trip now, by following these simple steps</p>

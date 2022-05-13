@@ -12,13 +12,13 @@ import SwiperCore, {
 } from 'swiper';
 
 import LearningPricesKids from './LearningPricesKids';
-import { English_1_1, English_1_2, English_1_4 } from './CourseTableData_kids/English.js'
-import { French_1_1, French_1_2, French_1_4 } from './CourseTableData_kids/French'
-import { Spanish_1_1, Spanish_1_2, Spanish_1_4 } from './CourseTableData_kids/Spanish'
-import { German_1_1, German_1_2, German_1_4 } from './CourseTableData_kids/German'
-import { Mandarin_1_1, Mandarin_1_2, Mandarin_1_4 } from './CourseTableData_kids/Mandarin'
-import { Japanese_1_1, Japanese_1_2, Japanese_1_4 } from './CourseTableData_kids/Japanese'
-import { Korean_1_1, Korean_1_2, Korean_1_4 } from './CourseTableData_kids/Korean'
+// import { English_1_1, English_1_2, English_1_4 } from './CourseTableData_kids/English.js'
+// import { French_1_1, French_1_2, French_1_4 } from './CourseTableData_kids/French'
+// import { Spanish_1_1, Spanish_1_2, Spanish_1_4 } from './CourseTableData_kids/Spanish'
+// import { German_1_1, German_1_2, German_1_4 } from './CourseTableData_kids/German'
+// import { Mandarin_1_1, Mandarin_1_2, Mandarin_1_4 } from './CourseTableData_kids/Mandarin'
+// import { Japanese_1_1, Japanese_1_2, Japanese_1_4 } from './CourseTableData_kids/Japanese'
+// import { Korean_1_1, Korean_1_2, Korean_1_4 } from './CourseTableData_kids/Korean'
 import KidsEnglish from '../Footer/LangForKids/English';
 import KidsFrench from '../Footer/LangForKids/French';
 import KidsSpanish from '../Footer/LangForKids/Spanish';
@@ -64,48 +64,48 @@ export default function KidsCourses() {
         switch (language) {
             case 'English':
                 return (<div className="pt-10">
-                    <LearningPricesKids one_one={English_1_1} one_two={English_1_2} one_four={English_1_4} />
+                    {/* <LearningPricesKids one_one={English_1_1} one_two={English_1_2} one_four={English_1_4} /> */}
                     <KidsEnglish />
                 </div>
                 )
                 break;
             case 'French':
                 return (<div className="pt-10">
-                    <LearningPricesKids one_one={French_1_1} one_two={French_1_2} one_four={French_1_4} />
+                    {/* <LearningPricesKids one_one={French_1_1} one_two={French_1_2} one_four={French_1_4} /> */}
                     <KidsFrench />
                 </div>)
                 break;
             case 'Spanish':
                 return (<div className="pt-10">
-                    <LearningPricesKids one_one={Spanish_1_1} one_two={Spanish_1_2} one_four={Spanish_1_4} />
+                    {/* <LearningPricesKids one_one={Spanish_1_1} one_two={Spanish_1_2} one_four={Spanish_1_4} /> */}
                     <KidsSpanish />
                 </div>
                 )
                 break;
             case 'German':
                 return (<div className="pt-10">
-                    <LearningPricesKids one_one={German_1_1} one_two={German_1_2} one_four={German_1_4} />
+                    {/* <LearningPricesKids one_one={German_1_1} one_two={German_1_2} one_four={German_1_4} /> */}
                     <KidsGerman />
                 </div>
                 )
                 break;
             case 'Mandarin':
                 return (<div className="pt-10">
-                    <LearningPricesKids one_one={Mandarin_1_1} one_two={Mandarin_1_2} one_four={Mandarin_1_4} />
+                    {/* <LearningPricesKids one_one={Mandarin_1_1} one_two={Mandarin_1_2} one_four={Mandarin_1_4} /> */}
                     <KidsMandarin />
                 </div>
                 )
                 break;
             case 'Japanese':
                 return (<div className="pt-10">
-                    <LearningPricesKids one_one={Japanese_1_1} one_two={Japanese_1_2} one_four={Japanese_1_4} />
+                    {/* <LearningPricesKids one_one={Japanese_1_1} one_two={Japanese_1_2} one_four={Japanese_1_4} /> */}
                     <KidsJapanese />
                 </div>
                 )
                 break;
             case 'Korean':
                 return (<div className="pt-10">
-                    <LearningPricesKids one_one={Korean_1_1} one_two={Korean_1_2} one_four={Korean_1_4} />
+                    {/* <LearningPricesKids one_one={Korean_1_1} one_two={Korean_1_2} one_four={Korean_1_4} /> */}
                     <KidsKorean />
                 </div>
                 )
