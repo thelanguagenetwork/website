@@ -23,15 +23,15 @@ import Testimonial from './testimonial.js';
 
 // import images for International Exams
 
-import img1 from '../IntExamswiper/exam-dele.jpg';
-import img2 from '../IntExamswiper/exam-delf-dalf.jpg';
-import img3 from '../IntExamswiper/exam-goethe.jpg';
-import img4 from '../IntExamswiper/exam-Hsk.jpg';
-import img5 from '../IntExamswiper/exam-ielts.jpg';
-import img6 from '../IntExamswiper/exam-JLPT.jpg';
-import img7 from '../IntExamswiper/exam-siele.jpg';
-import img8 from '../IntExamswiper/exam-TEF.jpg';
-import img9 from '../IntExamswiper/exam-TOPIK.jpg';
+import img1 from '../IntExamswiper/exam-dele.svg';
+import img2 from '../IntExamswiper/exam-delf-dalf.svg';
+import img3 from '../IntExamswiper/exam-goethe.svg';
+import img4 from '../IntExamswiper/exam-Hsk.svg';
+import img5 from '../IntExamswiper/exam-ielts.svg';
+import img6 from '../IntExamswiper/exam-JLPT.svg';
+import img7 from '../IntExamswiper/exam-siele.svg';
+import img8 from '../IntExamswiper/exam-TEF.svg';
+import img9 from '../IntExamswiper/exam-TOPIK.svg';
 import Curriculum from '../curriculum/Curriculum';
 // import GlobeMobile from '../Earth/GlobeMobile';
 import Team from '../Footer/Company/AboutUs/Team';
@@ -95,8 +95,15 @@ export default function Home() {
                 <div className='w-full lg:w-5/12 flex flex-col space-y-6 pt-2 lg:pt-0'>
                     <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab] lg:pt-2'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>
                     <h2 className='text-black font-semibold lg:font-medium text-2xl lg:text-5xl'>Learn a Language in less than 3 months</h2>
+                   
                     <span className='font-medium '>At The Language Network, we help you master a new foreign language of your choice from the comfort of your home.</span>
+                    <ul>
+                    <li className='flex flex-row py-3'><img src='/images/icons8-tick-box-20.png' alt='img' className='pr-2 h-[21px]' />Live 1:1, Duo and Group Online Classes</li>
+                    <li className='flex flex-row py-3'><img src='/images/icons8-tick-box-20.png' alt='img' className='pr-2 h-[21px]' />Flexible timings</li>
+                    <li className='flex flex-row py-3'><img src='/images/icons8-tick-box-20.png' alt='img' className='pr-2 h-[21px]' />Take learning beyond the classroom</li>
+                    </ul>
                     <a href='/getstarted'><button type="button" class="btn btn-info text-white" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '16px', paddingRight: '30px', paddingBottom: '16px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Get Started</button></a>
+
                 </div>
                 <div className='w-full lg:w-6/12 flex items-center justify-center lg:pl-20 mt-7'>
                     {/* <Globe3d className='' /> */}
@@ -413,7 +420,6 @@ export default function Home() {
             <div className="my-2 px-10 lg:px-0 lg:pl-32 lg:flex flex-row lg:h-[65vh] w-full bg-[#f4f8fb]">
                 <div className='flex flex-col space-y-6 justify-center lg:w-2/3'>
                     <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-0'>TRANSFORM YOUR CAREER</h1>
-                    <h2 className='text-lg '>Certification </h2>
                     <p className='text-lg '>Earn your certificate from The Language Network after completion of your language course. Not only it will boost your career but also improve your CV.</p>
                     <a href="/getstarted">
                         <button class="bg-[#13BFAB] w-56 hover:bg-teal-400 text-white font-bold py-3 px-4 rounded" >

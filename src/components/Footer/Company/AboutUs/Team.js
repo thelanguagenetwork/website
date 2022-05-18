@@ -208,7 +208,7 @@ export default function Team() {
                     {cardData1.map((card, i) => {
                         return (
                             <div class="p-2 lg:w-full px-3 lg:px-0">
-                                <div className="h-[29rem] lg:h-[17rem] flex sm:flex-row flex-col items-center sm:justify-start justify-center text-left sm:text-left shadow-xl rounded-xl px-2">
+                                <div className="h-[29rem] lg:h-[17rem] flex sm:flex-row flex-col items-center sm:justify-start justify-center text-left sm:text-left shadow-xl rounded-xl pt-6 pb-6">
                                     <img alt="team" class="flex-shrink-0 rounded-t-lg lg:rounded-l-lg w-52 lg:h-full object-cover object-center sm:mb-0" src={card.pic} />
                                     <div className="flex-grow px-2 px-3">
                                         <h2 class="title-font font-medium text-3xl my-3 lg:my-0 lg:mb-3  text-[#f2b919]">{card.name}</h2>
