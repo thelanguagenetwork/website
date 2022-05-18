@@ -7,13 +7,13 @@ export default function Careers() {
     <div>
 
 
-      <div className='h-full flex flex-col justify-center align-center text-center w-full px-10 lg:px-32 mt-28'>
+      {/* <div className='h-full flex flex-col justify-center align-center text-center w-full px-10 lg:px-32 mt-28'>
         <h1 className='"title-font font-bold text-4xl lg:text-6xl text-black px-10 lg:px-20"'>Careers</h1>
         <hr className='border-zinc-50 border-2 w-24 self-center mt-2 text-black border-[#000000] ' />
-        <h1 className='text-xl my-10 text-black font-semibold'>Join us in revolutionising language learning</h1>
+        <h1 className='text-xl my-10 text-black font-lg'>Join us in revolutionising language learning</h1>
 
 
-      </div>
+      </div> */}
 
       <section class="text-gray-600 body-font">
 
@@ -37,7 +37,7 @@ export default function Careers() {
         </div>
       </section>
       <section class="text-gray-600 body-font">
-        <div class="container   py-5 lg:py-24 mx-auto">
+        <div class="container  py-5 lg:py-24 mx-auto">
           <div class="flex flex-wrap -m-4">
             <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
               <h1 class="text-2xl lg:text-4xl font-bold title-font mb-2 text-gray-900 px-10 lg:px-0">WE ARE CURRENTLY ON THE HUNT FOR....</h1>
@@ -141,18 +141,106 @@ export default function Careers() {
               </div>
             </div>
 
+
+
           </div>
         </div>
       </section>
+      {/* <div className="px-36">
+        <div className="flex flex-row justify-between items-center">
+          <div>Foreign Language Trainers</div>
+           <div className="flex justify-center"><div className="">Location: Mumbai, Pune</div></div>
+          <div><button class=" w-32 hover:bg-[#13BFAB] text-black hover:text-white font-lg py-1 px-1 rounded-full border-2 border-black btn">Learn more</button></div>
+        </div>
+        <div className="flex flex-row justify-between items-center">
+          <div>Business Development Interns</div>
+           <div className="flex justify-center"><div className="">Location: Mumbai, Pune</div></div>
+          <div><button class=" w-32 hover:bg-[#13BFAB] text-black hover:text-white font-lg py-1 px-1 rounded-full border-2 border-black btn">Learn more</button></div>
+        </div>
+        <div className="flex flex-row justify-between items-center">
+          <div>Graphic Design Interns</div>
+           <div className="flex justify-center"><div className="">Location: Mumbai, Pune</div></div>
+          <div><button class=" w-32 hover:bg-[#13BFAB] text-black hover:text-white font-lg py-1 px-1 rounded-full border-2 border-black btn">Learn more</button></div>
+        </div>
+        <div className="flex flex-row justify-between items-center">
+          <div>Content writing Interns</div>
+           <div className="flex justify-center"><div className="">Location: Mumbai, Pune</div></div>
+          <div><button class=" w-32 hover:bg-[#13BFAB] text-black hover:text-white font-lg py-1 px-1 rounded-full border-2 border-black btn">Learn more</button></div>
+        </div>
+        <div className="flex flex-row justify-between items-center">
+          <div>Marketing Interns</div>
+           <div className="flex justify-center"><div className="">Location: Mumbai, Pune</div></div>
+          <div><button class=" w-32 hover:bg-[#13BFAB] text-black hover:text-white font-lg py-1 px-1 rounded-full border-2 border-black btn">Learn more</button></div>
+        </div>
+        <div className="flex flex-row justify-between items-center">
+          <div>Operations Interns</div>
+           <div className="flex justify-center"><div className="">Location: Mumbai, Pune</div></div>
+          <div><button class=" w-32 hover:bg-[#13BFAB] text-black hover:text-white font-lg py-1 px-1 rounded-full border-2 border-black btn">Learn more</button></div>
+        </div>
+      </div> */}
+      <div className="hidden lg:block md:block"> 
+      <div className="grid grid-cols-3 gap-4 px-32 ml-20 items-center py-20">
+        <div className="text-lg font-lg">Foreign Language Trainers</div>
+        <div className="flex justify-center text-slate-500"><div className="text-sm text-current">Location: Mumbai, Pune</div></div>
+        <div className="flex justify-center"><button class=" w-32 hover:bg-[#13BFAB] text-black hover:text-white font-lg py-1 px-1 rounded-full border-2 border-black btn">Learn more</button></div>
+        <div className="text-lg font-lg">Business Development Interns</div>
+        <div className="flex justify-center text-slate-500"><div className="text-sm text-current">Location: Mumbai, Pune</div></div>
+        <div className="flex justify-center"><button class=" w-32 hover:bg-[#13BFAB] text-black hover:text-white font-lg py-1 px-1 rounded-full border-2 border-black btn">Learn more</button></div>
+        <div className="text-lg font-lg">Graphic Design Interns</div>
+        <div className="flex justify-center text-slate-500"><div className="text-sm text-current">Location: Mumbai, Pune</div></div>
+        <div className="flex justify-center"><button class=" w-32 hover:bg-[#13BFAB] text-black hover:text-white font-lg py-1 px-1 rounded-full border-2 border-black btn">Learn more</button></div>
+        <div className="text-lg font-lg">Content writing Interns</div>
+        <div className="flex justify-center text-slate-500"><div className="text-sm text-current">Location: Mumbai, Pune</div></div>
+        <div className="flex justify-center"><button class=" w-32 hover:bg-[#13BFAB] text-black hover:text-white font-lg py-1 px-1 rounded-full border-2 border-black btn">Learn more</button></div>
+        <div className="text-lg font-lg">Marketing Interns</div>
+        <div className="flex justify-center text-slate-500"><div className="text-sm text-current">Location: Mumbai, Pune</div></div>
+        <div className="flex justify-center"><button class=" w-32 hover:bg-[#13BFAB] text-black hover:text-white font-lg py-1 px-1 rounded-full border-2 border-black btn">Learn more</button></div>
+        <div className="text-lg font-lg">Operations Interns</div>
+        <div className="flex justify-center text-slate-500"><div className="text-sm text-current">Location: Mumbai, Pune</div></div>
+        <div className="flex justify-center"><button class=" w-32 hover:bg-[#13BFAB] text-black hover:text-white font-lg py-1 px-1 rounded-full border-2 border-black btn">Learn more</button></div>
+      </div>
+      </div>
 
+      <div className="grid grid-cols-2 gap-4 pl-6 items-center sm:block hd:hidden lg:hidden py-20">
+        <div>
+          <div className="text-lg font-lg">Foreign Language Trainers</div>
+          <div className="flex justify-start text-slate-500"><div className="">Location: Mumbai, Pune</div></div>
+        </div>
+        <div className="flex justify-center"><button class=" w-28  hover:bg-[#13BFAB] text-black hover:text-white font-lg py-1 px-1 rounded-full border-2 border-black btn">Learn more</button></div>
+        <div>
+          <div className="text-lg font-lg">Business Development Interns</div>
+          <div className="flex justify-start text-slate-500"><div className="">Location: Mumbai, Pune</div></div>
+        </div>
+        <div className="flex justify-center"><button class=" w-28  hover:bg-[#13BFAB] text-black hover:text-white font-lg py-1 px-1 rounded-full border-2 border-black btn">Learn more</button></div>
+        <div>
+          <div className="text-lg font-lg">Graphic Design Interns</div>
+          <div className="flex justify-start text-slate-500"><div className="">Location: Mumbai, Pune</div></div>
+        </div>
+        <div className="flex justify-center"><button class=" w-28 hover:bg-[#13BFAB] text-black hover:text-white font-lg py-1 px-1 rounded-full border-2 border-black btn">Learn more</button></div>
+        <div>
+          <div className="text-lg font-lg">Content writing Interns</div>
+          <div className="flex justify-start text-slate-500"><div className="">Location: Mumbai, Pune</div></div>
+        </div>
+        <div className="flex justify-center"><button class=" w-28  hover:bg-[#13BFAB] text-black hover:text-white font-lg py-1 px-1 rounded-full border-2 border-black btn">Learn more</button></div>
+        <div>
+          <div className="text-lg font-lg">Marketing Interns</div>
+          <div className="flex justify-start text-slate-500"><div className="">Location: Mumbai, Pune</div></div>
+        </div>
+        <div className="flex justify-center"><button class=" w-28  hover:bg-[#13BFAB] text-black hover:text-white font-lg py-1 px-1 rounded-full border-2 border-black btn">Learn more</button></div>
+        <div>
+          <div className="text-lg font-lg">Operations Interns</div>
+          <div className="flex justify-start text-slate-500"><div className="">Location: Mumbai, Pune</div></div>
+        </div>
+        <div className="flex justify-center"><button class=" w-28  hover:bg-[#13BFAB] text-black hover:text-white font-lg py-1 px-1 rounded-full border-2 border-black btn">Learn more</button></div>
+      </div>
 
-      <div className="mt-2  bg-no-repeat bg-fixed bg-cover bg-center " >
+      {/* <div className="mt-2  bg-no-repeat bg-fixed bg-cover bg-center " >
         <div className="h-full ">
           <div className='h-full flex flex-col justify-center align-center text-center w-full px-10 lg:px-32 mb-20'>
             <h1 className='text-3xl lg:text-6xl leading-snug text-black font-thin'>JOIN OUR TEAM</h1>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
