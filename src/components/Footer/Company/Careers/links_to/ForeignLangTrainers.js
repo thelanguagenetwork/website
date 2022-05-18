@@ -3,7 +3,7 @@ import { AiFillStar } from 'react-icons/ai'
 export default function ForeignLangTrainers() {
   return (
     <div>
-      <div className="bg-[url('/public/images/25388715424_65480dbf18_k.jpg')] bg-no-repeat bg-cover bg-center h-[60vh]" >
+      {/* <div className="bg-[url('/public/images/25388715424_65480dbf18_k.jpg')] bg-no-repeat bg-cover bg-center h-[60vh]" >
         <div className="bg-[rgba(0,0,0,0.7)] h-full ">
           <div className='h-full flex flex-col justify-center align-center text-center w-full px-10 lg:px-32'>
             <h1 className='text-3xl lg:text-7xl leading-snug text-white font-thin'>Careers</h1>
@@ -11,10 +11,10 @@ export default function ForeignLangTrainers() {
             <h1 className='text-xl my-10 text-white font-semibold'>Join us in revolutionising language learning</h1>
           </div>
         </div>
-      </div>
+      </div> */}
 
 
-      <div className="flex flex-col justify-center items-left px-10 py-10 lg:px-44 lg:pt-28 space-y-9">
+      <div className="flex flex-col justify-center items-left px-10 py-10 lg:py-20  lg:px-44 lg:pt-28 space-y-9">
         <h1 className="text-3xl lg:text-5xl font-small">Foreign Language Trainers</h1>
         <span><strong>Languages: </strong>French, German, Spanish, Mandarin, English, Italian, Portuguese, Russian, Arabic and Japanese</span>
         <span><strong>Type: </strong> Work from home (Online classes)</span>
