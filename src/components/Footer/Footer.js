@@ -98,7 +98,7 @@ export default function Footer() {
                                         <img src="/images/Logo2.jpg" alt="img" style={{ paddingLeft: "10px" }} />
                                     </div>
                                     <div className='footer-text pt-2'>
-                                        <p>Signature Business Park, 1306, 13th Floor, Postal Colony Rd, Chembur, Mumbai, Maharashtra</p>
+                                        <p>Address:Signature Business Park, 1306, 13th Floor, Postal Colony Rd, Chembur, Mumbai, Maharashtra</p>
                                         <p>Contact no:8369123184</p>
 
                                     </div>
