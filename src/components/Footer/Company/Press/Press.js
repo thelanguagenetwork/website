@@ -85,29 +85,37 @@ export default function Press() {
 
             <section class="text-gray-600 body-font">
                 <div class="container px-5  mx-auto flex flex-wrap">
-                    <div class="flex flex-wrap -m-4">
+                    <div class="flex flex-wrap -m-4 sm:mb-3 lg:mb-10">
                         {PressData.map((press, i) => {
                             return (
-                                <div class="p-4 lg:w-full md:w-full">
-                                    <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
-                                        <div class="w-32 h-32 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-                                            <img src={press.pic} alt="" />
-                                        </div>
-                                        <div class="flex-grow">
-                                            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">{press.title}</h2>
-                                            <p class="leading-relaxed text-base">{press.desc}</p>
-                                            <a href={press.link}>
-                                            <button  class="bg-teal-500 hover:bg-teal-400 text-white font-bold py-2 px-4 mt-3 rounded" >
-                                                READ MORE
-                                            </button>
-                                            </a>
+                                <a href={press.link}>
+                                    <div class="p-4 lg:w-full md:w-full">
+
+                                        <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col  hover:bg-slate-100">
+                                            <div class="flex items-center w-32 h-32 sm:mr-8 sm:mb-0  inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+                                                <img src={press.pic} alt="" />
+                                            </div>
+                                            <div class="flex flex-grow items-center">
+                                                <div className="">
+                                                <h2 class="text-gray-900 text-lg title-font font-medium mb-3">{press.title}</h2>
+                                                <p class="leading-relaxed text-base">{press.desc}</p>
+                                                {/* <a href={press.link}>
+                                                    <button class="bg-teal-500 hover:bg-teal-400 text-white font-bold py-2 px-4 mt-3 rounded" >
+                                                        READ MORE
+                                                    </button>
+                                                </a> */}
+                                                </div>
+                                               
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
+
                             )
                         })}
 
                     </div>
+                 
                 </div>
             </section>
 
