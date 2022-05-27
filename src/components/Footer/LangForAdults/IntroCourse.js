@@ -176,25 +176,25 @@ export default function IntroCourse() {
                 <div className='w-full text-center text-xs mb-4 px-5 '>*To receive the cashback you must follow The Language Network T&C’s.</div>
             </div>
             <div className="flex items-center justify-center font-bold text-2xl lg:text-4xl py-12 pb-20 px-4 text-center">Learn a language at par with professionals at affordable prices</div>
-            <div className='w-full flex lg:flex-row flex-col justify-center pt-4 px-28 lg:px-0 mb-10 '>
-                <div class="lg:w-1/4 rounded-lg shadow-2xl  mb-4 lg:mx-20 lg:mb-10 sm:mb-0">
-                    <div class="px-6 py-8 bg-white dark:bg-gray-800 sm:p-10 sm:pb-6 relative">
+            <div className='w-full flex lg:flex-row flex-col justify-center pt-4 px-16 lg:px-0 mb-10 '>
+                <div class="lg:w-1/4 h-1/3 rounded-lg shadow-2xl  mb-4 lg:mx-20 lg:mb-10 sm:mb-0">
+                    <div class="px-3 py-4 bg-white dark:bg-gray-800 sm:p-10 sm:pb-6 relative">
                         <div class="flex justify-center">
                             <span class="inline-flex px-4 py-1 text-dark dark:text-white rounded-full text-lg leading-5 font-semibold tracking-wide uppercase">
                                 Weekday Batches
                             </span>
                         </div>
-                        <div class="mt-4 flex justify-center text-6xl leading-none font-extrabold text-dark  dark:text-white">
+                        <div class="mt-4 flex justify-center text-5xl leading-none font-extrabold text-dark  dark:text-white">
                             ₹ 2990
-                            <span class="ml-1 pt-8 text-2xl leading-8 font-medium text-dark dark:text-gray-400">
+                            <span class="ml-1 pt-2 text-2xl leading-8 font-medium text-dark dark:text-gray-400">
                                 /-
                             </span>
                         </div>
 
                     </div>
-                    <div class="px-6 pt-6 pb-8 bg-white dark:bg-gray-800 sm:p-10 sm:pt-6">
+                    <div class="px-4 pb-4 bg-white dark:bg-gray-800 sm:p-10 sm:pt-6">
                         <ul>
-                            <li class="mt-4 flex items-start">
+                            <li class="mt-3 flex items-start">
                                 <div class="flex-shrink-0">
                                     <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
@@ -206,7 +206,7 @@ export default function IntroCourse() {
                                     1 month, 5 hours per week
                                 </p>
                             </li>
-                            <li class="mt-4 flex items-start">
+                            <li class="mt-3 flex items-start">
                                 <div class="flex-shrink-0">
                                     <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
@@ -217,7 +217,7 @@ export default function IntroCourse() {
                                     Earn 100% cashback
                                 </p>
                             </li>
-                            <li class="mt-4 flex items-start">
+                            <li class="mt-3 flex items-start">
                                 <div class="flex-shrink-0">
                                     <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
@@ -228,7 +228,7 @@ export default function IntroCourse() {
                                     Study materials
                                 </p>
                             </li>
-                            <li class="mt-4 flex items-start">
+                            <li class="mt-3 flex items-start">
                                 <div class="flex-shrink-0">
                                     <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
@@ -240,8 +240,8 @@ export default function IntroCourse() {
                                 </p>
                             </li>
                         </ul>
-                        <div class="mt-6 rounded-md shadow">
-                            <a href="https://pages.razorpay.com/pl_HXd1d0AMarLVso/view" class="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-[#13bfab] hover:bg-[#16e9d0] focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+                        <div class="mt-6 rounded-md px-10">
+                            <a href="https://pages.razorpay.com/pl_HXd1d0AMarLVso/view" class="flex items-center justify-center sm:px-2 lg:px-5  py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-[#13bfab] hover:bg-[#16e9d0] focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
                                 ENROLL NOW
                             </a>
                         </div>
@@ -249,23 +249,23 @@ export default function IntroCourse() {
 
                 </div>
                 <div class="lg:w-1/4 w-full rounded-lg shadow-2xl overflow-hidden mb-4 lg:mx-20 lg:mb-0 ">
-                    <div class="px-6 py-8 bg-white dark:bg-gray-800 sm:p-10 sm:pb-6 relative">
+                    <div class="px-3 py-4 bg-white dark:bg-gray-800 sm:p-10 sm:pb-6 relative">
                         <div class="flex justify-center">
                             <span class="inline-flex px-4 py-1 text-dark dark:text-white rounded-full text-lg leading-5 font-semibold tracking-wide uppercase">
                                 Weekday Batches
                             </span>
                         </div>
-                        <div class="mt-4 flex justify-center text-6xl leading-none font-extrabold text-dark  dark:text-white">
+                        <div class="mt-4 flex justify-center text-5xl leading-none font-extrabold text-dark  dark:text-white">
                             ₹ 2990
-                            <span class="ml-1 pt-8 text-2xl leading-8 font-medium text-dark dark:text-gray-400">
+                            <span class="ml-1 pt-2 text-2xl leading-8 font-medium text-dark dark:text-gray-400">
                                 /-
                             </span>
                         </div>
 
                     </div>
-                    <div class="px-6 pt-6 pb-8 bg-white dark:bg-gray-800 sm:p-10 sm:pt-6">
+                    <div class="px-4 pb-4 bg-white dark:bg-gray-800 sm:p-10 sm:pt-6">
                         <ul>
-                            <li class="mt-4 flex items-start">
+                            <li class="mt-3 flex items-start">
                                 <div class="flex-shrink-0">
                                     <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
@@ -277,7 +277,7 @@ export default function IntroCourse() {
                                     1 month, 5 hours per week
                                 </p>
                             </li>
-                            <li class="mt-4 flex items-start">
+                            <li class="mt-3 flex items-start">
                                 <div class="flex-shrink-0">
                                     <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
@@ -288,7 +288,7 @@ export default function IntroCourse() {
                                     Earn 100% cashback
                                 </p>
                             </li>
-                            <li class="mt-4 flex items-start">
+                            <li class="mt-3 flex items-start">
                                 <div class="flex-shrink-0">
                                     <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
@@ -299,7 +299,7 @@ export default function IntroCourse() {
                                     Study materials
                                 </p>
                             </li>
-                            <li class="mt-4 flex items-start">
+                            <li class="mt-3 flex items-start">
                                 <div class="flex-shrink-0">
                                     <svg class="h-6 w-6 text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
@@ -311,8 +311,8 @@ export default function IntroCourse() {
                                 </p>
                             </li>
                         </ul>
-                        <div class="mt-6 rounded-md shadow">
-                            <a href="https://pages.razorpay.com/pl_HXd1d0AMarLVso/view" class="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-[#13bfab] hover:bg-[#16e9d0] focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+                        <div class="mt-6 rounded-md  px-10">
+                            <a href="https://pages.razorpay.com/pl_HXd1d0AMarLVso/view" class="flex items-center justify-center sm:px-2 lg:px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-[#13bfab] hover:bg-[#16e9d0] focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
                                 ENROLL NOW
                             </a>
                         </div>

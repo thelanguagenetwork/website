@@ -318,7 +318,7 @@ export default function Home() {
                     We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
                 </p>
             </div>
-            <div className='w-full flex flex-col items-center justify-center'>
+            <div className='w-full flex flex-col items-center justify-center sm:mb-0 lg:mb-10'>
                 <div className="w-5/6 hidden lg:flex flex-row space-y-10 lg:space-y-0 mt-12">
                     <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
                         <div className="Home-card-img">
@@ -400,7 +400,7 @@ export default function Home() {
 
         
        
-            <div className="py-3 lg:py-0 my-2 lg:flex flex-row h-auto w-full bg-[#f4f8fb] px-8">
+            <div className="py-3 lg:py-0 my-2 lg:flex flex-row h-auto w-full bg-[#f4f8fb] px-8 ">
                 <div className='flex flex-col space-y-6 mx-0 lg:mx-4 lg:mx-0 lg:pl-20 lg:pr-52 justify-center lg:w-2/3'>
                     <h1 className='font-medium text-3xl lg:text-4xl'>The Language Network saves you
                         <div class="scroller">
