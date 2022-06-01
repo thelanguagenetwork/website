@@ -202,7 +202,7 @@ export default function Team() {
     console.log(scrsize)
 
     return (
-        <div className="w-full lg:px-20">
+        <div className="w-full lg:px-10 mb-10">
             <div className="w-full flex flex-row items-center">
                 <Slider asNavFor={nav2} autoplay={true} ref={slider1} dots={false} arrows={true} className='w-full lg:w-[50%] lg:mr-3'>
                     {cardData1.map((card, i) => {
@@ -235,8 +235,8 @@ export default function Team() {
                 >
                     {cardData2.map((card, j) => {
                         return (
-                            <div class="p-3 lg:w-full ">
-                                <div class="h-[17rem] flex flex-col items-center sm:justify-start justify-center text-left sm:text-left shadow-lg rounded-xl">
+                            <div class="p-3 lg:w-full mb-10">
+                                <div class=" h-[17rem] flex flex-col items-center sm:justify-start justify-center text-left sm:text-left shadow-lg rounded-xl my-10">
                                     <img alt="team" class="flex-shrink-0 rounded-t-lg w-full h-28 object-cover object-top sm:mb-0" src={card.pic} />
                                     <div class="flex-grow px-2">
                                         <h2 class="title-font font-medium text-2xl text-[#f2b919] my-3">{card.name}</h2>

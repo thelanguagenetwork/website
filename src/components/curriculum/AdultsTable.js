@@ -139,7 +139,7 @@ export default function AdultsTable() {
     return (
         <div>
             <div className="pt-10  w-full mb-20 font-medium text-3xl px-8 lg:px-0 lg:text-4xl poppins text-center">Why learning with TLN is beneficial?</div>
-            <div className='hidden ... md:block'>
+            <div className='hidden ... md:block overflow-x-auto px-20'>
                 <table class='shadow-md rounded w-5/6 m-auto '>
                     <tbody>
                         <tr class=' flex text-left text-sm flex-wrap sm:no-wrap unwanted'>
