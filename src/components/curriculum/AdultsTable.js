@@ -155,28 +155,28 @@ export default function AdultsTable() {
                         {tableData.map((Tdata, i) => {
                             return (
                                 <tr class=' flex text-left text-sm flex-wrap sm:no-wrap' key={i}>
-                                    <th scope='col' class='w-[30%] p-3 bg-gray-100 border-x-1 border-gray-300 font-normal flex items-center table-cells text-left text-base text-teal-600 table-head'>{Tdata.title}</th>
+                                    <th scope='col' class='w-[30%] p-2 bg-gray-100 border-x-1 border-gray-300 font-normal flex items-center table-cells text-left text-base text-teal-600 table-head'>{Tdata.title}</th>
 
-                                    <td class='w-[13%] p-3 border border-r-0  border-gray-300 flex items-center justify-center text-center font-bold text-teal-700 text-lg flex-wrap table-cells cells-visb cells-hid hidden'>Introductory</td>
-                                    <td class='w-[13%] p-3 border-l-2 border-r-0 flex items-center justify-center flex-wrap table-cells'><img src={Tdata.Introductory} alt="img" /></td>
+                                    <td class='w-[13%] p-1 border border-r-0  border-gray-300 flex items-center justify-center text-center font-bold text-teal-700 text-lg flex-wrap table-cells cells-visb cells-hid hidden'>Introductory</td>
+                                    <td class='w-[13%] p-1 border-l-2 border-r-0 flex items-center justify-center flex-wrap table-cells'><img src={Tdata.Introductory} alt="img" /></td>
 
-                                    <td class='w-[8%] p-3 border border-r-0  border-gray-300 flex items-center justify-center text-center font-bold text-teal-700 text-lg flex-wrap table-cells cells-visb hidden'>Level A1</td>
-                                    <td class='w-[8%] p-3 border-l-2 border-r-0 flex items-center justify-center text-center  flex-wrap table-cells'><img src={Tdata.LevelA1} alt="img" /></td>
+                                    <td class='w-[8%] p-1 border border-r-0  border-gray-300 flex items-center justify-center text-center font-bold text-teal-700 text-lg flex-wrap table-cells cells-visb hidden'>Level A1</td>
+                                    <td class='w-[8%] p-1 border-l-2 border-r-0 flex items-center justify-center text-center  flex-wrap table-cells'><img src={Tdata.LevelA1} alt="img" /></td>
 
-                                    <td class='w-[8%] p-3 border border-r-0  border-gray-300 flex items-center justify-center text-center font-bold text-teal-700 text-lg flex-wrap table-cells cells-visb hidden'>Level A2</td>
-                                    <td class='w-[8%] p-3 border-l-2 border-r-0 flex items-center justify-center text-center flex-wrap table-cells'><img src={Tdata.LevelA2} alt="img" /></td>
+                                    <td class='w-[8%] p-1 border border-r-0  border-gray-300 flex items-center justify-center text-center font-bold text-teal-700 text-lg flex-wrap table-cells cells-visb hidden'>Level A2</td>
+                                    <td class='w-[8%] p-1 border-l-2 border-r-0 flex items-center justify-center text-center flex-wrap table-cells'><img src={Tdata.LevelA2} alt="img" /></td>
 
-                                    <td class='w-[8%] p-3 border border-r-0  border-gray-300 flex items-center justify-center text-center font-bold text-teal-700 text-lg flex-wrap table-cells cells-visb hidden'>Level B1</td>
-                                    <td class='w-[8%] p-3 border-l-2 border-r-0 flex items-center justify-center text-center flex-wrap table-cells'><img src={Tdata.LevelB1} alt="img" /></td>
+                                    <td class='w-[8%] p-1 border border-r-0  border-gray-300 flex items-center justify-center text-center font-bold text-teal-700 text-lg flex-wrap table-cells cells-visb hidden'>Level B1</td>
+                                    <td class='w-[8%] p-1 border-l-2 border-r-0 flex items-center justify-center text-center flex-wrap table-cells'><img src={Tdata.LevelB1} alt="img" /></td>
 
-                                    <td class='w-[8%] p-3 border border-r-0  border-gray-300 flex items-center justify-center text-center font-bold text-teal-700 text-lg flex-wrap table-cells cells-visb hidden'>Level B2</td>
-                                    <td class='w-[8%] p-3 border-l-2 border-r-0 flex items-center justify-center text-center flex-wrap table-cells'><img src={Tdata.LevelB2} alt="img" /></td>
+                                    <td class='w-[8%] p-1 border border-r-0  border-gray-300 flex items-center justify-center text-center font-bold text-teal-700 text-lg flex-wrap table-cells cells-visb hidden'>Level B2</td>
+                                    <td class='w-[8%] p-1 border-l-2 border-r-0 flex items-center justify-center text-center flex-wrap table-cells'><img src={Tdata.LevelB2} alt="img" /></td>
 
-                                    <td class='w-[10%] p-3 border border-r-0  border-gray-300 flex items-center justify-center text-center font-bold text-teal-700 text-lg flex-wrap table-cells cells-visb hidden'>Level A1+A2</td>
-                                    <td class='w-[10%] p-3 border-l-2 border-r-0 flex items-center justify-center text-center flex-wrap table-cells'><img src={Tdata.LevelA1A2} alt="img" /></td>
+                                    <td class='w-[10%] p-1 border border-r-0  border-gray-300 flex items-center justify-center text-center font-bold text-teal-700 text-lg flex-wrap table-cells cells-visb hidden'>Level A1+A2</td>
+                                    <td class='w-[10%] p-1 border-l-2 border-r-0 flex items-center justify-center text-center flex-wrap table-cells'><img src={Tdata.LevelA1A2} alt="img" /></td>
 
-                                    <td class='w-[15%] p-3 border border-r-0  border-gray-300    flex items-center justify-center text-center font-bold text-teal-700 text-lg flex-wrap table-cells cells-visb hidden'>Level A1+A2+B1+B2</td>
-                                    <td class='w-[15%] p-3 border-l-2 flex items-center justify-center text-center flex-wrap table-cells'><img src={Tdata.LevelA1A2B1B2} alt="img" /></td>
+                                    <td class='w-[15%] p-1 border border-r-0  border-gray-300    flex items-center justify-center text-center font-bold text-teal-700 text-lg flex-wrap table-cells cells-visb hidden'>Level A1+A2+B1+B2</td>
+                                    <td class='w-[15%] p-1 border-l-2 flex items-center justify-center text-center flex-wrap table-cells'><img src={Tdata.LevelA1A2B1B2} alt="img" /></td>
 
                                 </tr>
                             );

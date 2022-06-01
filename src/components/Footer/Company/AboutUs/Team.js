@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { useState, useEffect, useRef } from "react";
-import { BsArrowRightShort } from 'react-icons/bs';
+import { BsChevronLeft } from 'react-icons/bs';
 // import React from 'react'
 // import "./team.css"
 // import { Swiper, SwiperSlide } from "swiper/react";
@@ -162,11 +162,12 @@ function CardData2() {
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
-        <div
-            className={className}
-            style={{ ...style, display: "block", background: "#13BFAB", opacity: '0.5', borderRadius: "10px", top: "110%", right: '275px' }}
-            onClick={onClick}
-        />
+        <div className={className} onClick={onClick}><BsChevronLeft /></div>
+        // <div
+        //     className={className}
+        //     // style={{ ...style, display: "block", background: "#13BFAB", opacity: '0.5', borderRadius: "10px", top: "110%", right: '275px' }}
+        //     onClick={onClick}
+        // />
     );
 }
 
@@ -176,7 +177,7 @@ function SamplePrevArrow(props) {
         // <BsArrowRightShort  onClick={onClick} style={{display: "block", background: "#13BFAB", opacity: '0.5', borderRadius: "10px", top: "110%", right: '275px' }} />
         <div
             className={className}
-            style={{ ...style, display: "block", background: "#13BFAB", opacity: '0.5', borderRadius: "10px", top: "110%", left: '275px' }}
+            // style={{ ...style, display: "block", background: "#13BFAB", opacity: '0.5', borderRadius: "10px", top: "110%", left: '275px' }}
             onClick={onClick}
         />
     );
@@ -207,9 +208,9 @@ export default function Team() {
                 <Slider asNavFor={nav2} autoplay={true} ref={slider1} dots={false} arrows={true} className='w-full lg:w-[50%] lg:mr-3'>
                     {cardData1.map((card, i) => {
                         return (
-                            <div class="p-2 lg:w-full px-3 lg:px-0">
-                                <div className="h-[29rem] lg:h-[17rem] flex sm:flex-row flex-col items-center sm:justify-start justify-center text-left sm:text-left shadow-xl rounded-xl pt-6 pb-6">
-                                    <img alt="team" class="flex-shrink-0 rounded-t-lg lg:rounded-l-lg w-52 lg:h-full object-cover object-center sm:mb-0" src={card.pic} />
+                            <div class="p-5 lg:w-full px-3 lg:px-0">
+                                <div className="h-[29rem] lg:h-[24rem] flex sm:flex-row flex-col items-center sm:justify-start justify-center text-left sm:text-left shadow-xl rounded-xl pt-6 pb-6">
+                                    <img alt="team" class="px-2 flex-shrink-0 lg:rounded-2xl w-52 lg:h-full object-cover object-center sm:mb-0" src={card.pic} />
                                     <div className="flex-grow px-2 px-3">
                                         <h2 class="title-font font-medium text-3xl my-3 lg:my-0 lg:mb-3  text-[#f2b919]">{card.name}</h2>
                                         <h3 class="text-gray-500 mb-3 text-base">{card.post}</h3>
@@ -235,9 +236,9 @@ export default function Team() {
                 >
                     {cardData2.map((card, j) => {
                         return (
-                            <div class="p-3 lg:w-full mb-10">
-                                <div class=" h-[17rem] flex flex-col items-center sm:justify-start justify-center text-left sm:text-left shadow-lg rounded-xl my-10">
-                                    <img alt="team" class="flex-shrink-0 rounded-t-lg w-full h-28 object-cover object-top sm:mb-0" src={card.pic} />
+                            <div class="p-3 lg:w-full">
+                                <div class=" h-[21rem] flex flex-col items-center sm:justify-start justify-center text-left sm:text-left shadow-lg rounded-xl my-10">
+                                    <img alt="team" class="flex-shrink-0 rounded-t-lg w-full h-2/3 object-cover object-top sm:mb-0" src={card.pic} />
                                     <div class="flex-grow px-2">
                                         <h2 class="title-font font-medium text-2xl text-[#f2b919] my-3">{card.name}</h2>
                                         <h3 class="text-gray-500 mb-3">{card.post}</h3>
