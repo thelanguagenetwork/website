@@ -205,6 +205,7 @@
     font-size: 35px;
     font-weight: 600;
     padding: 20px;
+    overflow-wrap: break-word;
 }
 
 .Home-container-2-imgs {
