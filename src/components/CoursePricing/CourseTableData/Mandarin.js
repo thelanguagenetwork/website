@@ -32,14 +32,17 @@ export const Mandarin_1_1 = [
         DiscPrice : 17990,
         Link: ""
     },
-    // {
-    //     language: "Mandarin",
-    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-    //     lvlName: 'HSK 4',
-    //   //  OgPrice : 444,
-    //     DiscPrice : 23990,
-    //     Link: ""
-    // },
+     {
+        title: 'Professional Knowledge',
+        includes:'Degree of fluency, Express Opinions, Complex Grammar Structures.',
+        
+       language: "Mandarin",
+         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+         lvlName: 'HSK 4',
+     // OgPrice : 444,
+         DiscPrice : 23990,
+         Link: ""
+     },
     // {
     //     language: "Mandarin",
     //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
