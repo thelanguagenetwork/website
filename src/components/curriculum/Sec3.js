@@ -35,7 +35,7 @@ export default function Sec3() {
 
     return <div className='relative flex flex-col items-center mt-32'>
         <div className="Home-container-3 lg:px-52">
-            <h1>
+            <h1 className='text-3xl'>
             Join us in a language trip now, by following these simple steps
             </h1>
            {/* <p>

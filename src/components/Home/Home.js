@@ -370,7 +370,7 @@ export default function Home() {
                 </Swiper>
             </div> */}
 
-
+            <div className='justify center '>
             <div className="Home-container-3 w-full lg:px-72 lg:mt-20">
                 <span className="font-semibold text-3xl lg:text-4xl">
                     Students at The Language Network
@@ -378,6 +378,7 @@ export default function Home() {
                 <p className='font-medium'>
                     We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
                 </p>
+            </div>
             </div>
             <div className='w-full flex flex-col items-center justify-center sm:mb-0 lg:mb-10'>
                 <div className="w-5/6 hidden lg:flex flex-row space-y-10 lg:space-y-0 mt-12">

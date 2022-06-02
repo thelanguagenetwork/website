@@ -16,23 +16,25 @@ export default function Footer() {
 
     function openClose() {
       if (open === false) {
-        document.getElementById('menuButton').style.right = '-55px';
-        const element = document.getElementById('openButton')
-        element.classList.remove('rotate-180');
-        setOpen(true)
-      }
-      else{
         document.getElementById('menuButton').style.right = '15px';
         const element = document.getElementById('openButton')
         element.classList.add('rotate-180');
+        setOpen(true)
+        
+      }
+      else{
+        document.getElementById('menuButton').style.right = '-55px';
+        const element = document.getElementById('openButton')
+        element.classList.remove('rotate-180');
         setOpen(false)
+       
       }
     }
 
     return (
         <div className="bg-[#f4f8fb]" style={{ bottom: '0px', left: '0px' }}>
             <div class="hidden lg:block menu-button ease-in duration-300" id='menuButton'>
-               <div onClick={() => openClose()} className=' absolute left-[-22px] top-[-6px] z-50'><BiLeftArrow id='openButton' className='ease-in duration-300 rotate-180'/></div>
+               <div onClick={() => openClose()} className=' absolute left-[-22px] top-[-6px] z-50'><BiLeftArrow id='openButton' className='ease-in duration-300 '/></div>
                 <div class="social-menu">
                     <ul>
                         <li><a href="https://www.facebook.com/teamlanguagenetwork" target="blank"><i class="fab flex items-center h-full"> <FaFacebookF className='w-full' /></i></a></li>

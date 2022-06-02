@@ -106,8 +106,8 @@ export default function AboutUs() {
 
       {/* slides */}
       <Team />
-      <div className="items-center justify-center px-3 lg:px-20 flex flex-col justify-center ">
-        <h1 className="flex text-3xl lg:text-4xl font-semibold pt-20 items-center justify-center ">Our partners</h1>
+      <div className="items-center justify-center px-3 lg:px-20 flex flex-col justify-center sm:my-0">
+        <h1 className="flex text-3xl lg:text-4xl font-semibold pt-10 items-center justify-center  ">Our partners</h1>
         <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-[#FFC000] border-2 w-1/4 self-center mt-4 items-center justify-center"></hr>
       </div>
 
@@ -117,20 +117,20 @@ export default function AboutUs() {
       <div className="lg:px-24">
 
         <div className=''>
-          <div class="flex justify-center items-center align-center lg:grid grid-cols-3 gap-3 pt-10 lg:block sm:hidden md:block">
-            <div className="px-10 lg:px-20"><img className="w-full px-5" src="/images/Loyola_College_Chennai_-_Coat_of_arms.png" alt='img' /></div>
+          <div class="flex justify-center items-center align-center lg:grid grid-cols-3 gap-x-8 ml-3  mt-10 lg:block sm:hidden md:block">
+            <div className="px-10 "><img className="w-2/3 px-12" src="/images/Loyola_College_Chennai_-_Coat_of_arms.svg" alt='img' /></div>
 
-            <div className="px-10 lg:px-18"><img className="w-full px-5" src="/images/Rcmg-Ghatkopar-300x300.png" alt='img' /></div>
+            <div className="px-10 lg:"><img className="w-2/3 px-12" src="/images/Rcmg-Ghatkopar-300x300.svg" alt='img' /></div>
 
-            <div className="px-10 lg:px-20"><img className="w-full px-5" src="/images/rotary.jpg" alt='img1' /></div>
+            <div className="px-10 lg:"><img className="w-2/3 px-12 ml-4" src="/images/rotary.svg" alt='img1' /></div>
           </div>
 
           <div className="flex flex-row px-5 lg:hidden sm:block md:hidden">
-            <div className=""><img className="w-full px-2" src="/images/Loyola_College_Chennai_-_Coat_of_arms.png" alt='img' /></div>
+            <div className=""><img className="w-full px-2" src="/images/Loyola_College_Chennai_-_Coat_of_arms.svg" alt='img' /></div>
 
-            <div className=""><img className="w-full px-2" src="/images/Rcmg-Ghatkopar-300x300.png" alt='img' /></div>
+            <div className=""><img className="w-full px-2" src="/images/Rcmg-Ghatkopar-300x300.svg" alt='img' /></div>
 
-            <div className=""><img className="w-full px-3" src="/images/rotary.jpg" alt='img1' /></div>
+            <div className=""><img className="w-full px-3" src="/images/rotary.svg" alt='img1' /></div>
           </div>
         </div>
 
@@ -142,7 +142,7 @@ export default function AboutUs() {
       </div>
 
 
-      <div className='w-full px-10 lg:px-52 mb-10'>
+      <div className='w-full px-10 lg:px-52 mb-32'>
         <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item border-t-0 border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
             <h2 class="accordion-header mb-0" id="flush-headingOne">
