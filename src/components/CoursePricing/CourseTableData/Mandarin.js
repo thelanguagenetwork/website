@@ -1,5 +1,8 @@
 export const Mandarin_1_1 = [
     {
+        title: 'Introduction to Mandarin',
+        includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
+        link:"abc",
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 1',
@@ -8,6 +11,9 @@ export const Mandarin_1_1 = [
         Link: ""
     },
     {
+        title: 'Elementary Knowledge',
+        includes:'Simple communication, Grammar and Vocabulary',
+        link:"abc",
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 2',
@@ -16,6 +22,9 @@ export const Mandarin_1_1 = [
         Link: ""
     },
     {
+        title: 'Intermediate Knowledge',
+        includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
+        link:"abc",
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 3',
@@ -23,44 +32,47 @@ export const Mandarin_1_1 = [
         DiscPrice : 17990,
         Link: ""
     },
-    {
-        language: "Mandarin",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'HSK 4',
-      //  OgPrice : 444,
-        DiscPrice : 23990,
-        Link: ""
-    },
-    {
-        language: "Mandarin",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'HSK 5',
-       // OgPrice : 444,
-        DiscPrice : 26990,
-        Link: ""
-    },
-    {
-        language: "Mandarin",
+    // {
+    //     language: "Mandarin",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'HSK 4',
+    //   //  OgPrice : 444,
+    //     DiscPrice : 23990,
+    //     Link: ""
+    // },
+    // {
+    //     language: "Mandarin",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'HSK 5',
+    //    // OgPrice : 444,
+    //     DiscPrice : 26990,
+    //     Link: ""
+    // },
+    // {
+    //     language: "Mandarin",
 
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'HSK 1+2+3',
-       // OgPrice : 444,
-        DiscPrice : 38390,
-        Link: ""
-    },
-    {
-        language: "Mandarin",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'HSK 1+2+3',
+    //    // OgPrice : 444,
+    //     DiscPrice : 38390,
+    //     Link: ""
+    // },
+    // {
+    //     language: "Mandarin",
 
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'HSK 4+5',
-        // OgPrice : 444,
-        DiscPrice : 45890,
-        Link: ""
-    }
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'HSK 4+5',
+    //     // OgPrice : 444,
+    //     DiscPrice : 45890,
+    //     Link: ""
+    // }
 ]
 
 export const Mandarin_1_2 = [
     {
+        title: 'Introduction to Mandarin',
+        includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
+        link:"abc",
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 1',
@@ -69,6 +81,9 @@ export const Mandarin_1_2 = [
         Link: ""
     },
     {
+        title: 'Elementary Knowledge',
+        includes:'Simple communication, Grammar and Vocabulary',
+        link:"abc",
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 2',
@@ -77,6 +92,9 @@ export const Mandarin_1_2 = [
         Link: ""
     },
     {
+        title: 'Intermediate Knowledge',
+        includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
+        link:"abc",
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 3',
@@ -84,38 +102,38 @@ export const Mandarin_1_2 = [
         DiscPrice : 17990,
         Link: ""
     },
-    {
-        language: "Mandarin",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'HSK 4',
-      //  OgPrice : 444,
-        DiscPrice : 21990,
-        Link: ""
-    },
-    {
-        language: "Mandarin",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'HSK 5',
-        //OgPrice : 444,
-        DiscPrice : 24990,
-        Link: ""
-    },
-    {
-        language: "Mandarin",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'HSK 1+2+3',
-      //  OgPrice : 444,
-        DiscPrice : 33590,
-        Link: ""
-    },
-    {
-        language: "Mandarin",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'HSK 4+5',
-      //  OgPrice : 444,
-        DiscPrice : 33590,
-        Link: ""
-    },
+    // {
+    //     language: "Mandarin",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'HSK 4',
+    //   //  OgPrice : 444,
+    //     DiscPrice : 21990,
+    //     Link: ""
+    // },
+    // {
+    //     language: "Mandarin",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'HSK 5',
+    //     //OgPrice : 444,
+    //     DiscPrice : 24990,
+    //     Link: ""
+    // },
+    // {
+    //     language: "Mandarin",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'HSK 1+2+3',
+    //   //  OgPrice : 444,
+    //     DiscPrice : 33590,
+    //     Link: ""
+    // },
+    // {
+    //     language: "Mandarin",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'HSK 4+5',
+    //   //  OgPrice : 444,
+    //     DiscPrice : 33590,
+    //     Link: ""
+    // },
 ]
 
 
@@ -152,28 +170,28 @@ export const Mandarin_1_4 = [
         DiscPrice : 333,
         Link: ""
     },
-    {
-        language: "Mandarin",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'HSK 1+2+3',
-        OgPrice : 444,
-        DiscPrice : 333,
-        Link: ""
-    },
-    {
-        language: "Mandarin",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'HSK 4+5',
-        OgPrice : 444,
-        DiscPrice : 333,
-        Link: ""
-    },
-    {
-        language: "Mandarin",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'HSK 1+2+3+4+5',
-        OgPrice : 444,
-        DiscPrice : 333,
-        Link: ""
-    },
+    // {
+    //     language: "Mandarin",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'HSK 1+2+3',
+    //     OgPrice : 444,
+    //     DiscPrice : 333,
+    //     Link: ""
+    // },
+    // {
+    //     language: "Mandarin",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'HSK 4+5',
+    //     OgPrice : 444,
+    //     DiscPrice : 333,
+    //     Link: ""
+    // },
+    // {
+    //     language: "Mandarin",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'HSK 1+2+3+4+5',
+    //     OgPrice : 444,
+    //     DiscPrice : 333,
+    //     Link: ""
+    // },
 ]

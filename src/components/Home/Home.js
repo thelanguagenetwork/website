@@ -92,7 +92,7 @@ export default function Home() {
 
 
     return (
-        <div className='Home'>
+        <div className=''>
             <div className='Home-container-1 dark:bg-black bg-cover lg:bg-contain w-full px-4 lg:py-14 lg:px-26 relative h-[auto] flex flex-col lg:flex-row justify-center items-center content-center flex-wrap' >
                 <div className='w-full lg:w-5/12 flex flex-col space-y-6 pt-2 lg:pt-0'>
                     <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab] lg:pt-2'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>
@@ -157,12 +157,12 @@ export default function Home() {
                 <GlobeMobile className='' />
             </div> */}
 
-            <div className="flex justify-center">
+            <div className="flex justify-center  md:block lg:block items-center">
 
-                <div className="Home-container-2  lg:pb-[60px] pb-2 w-full lg:w-4/5 mt-52 lg:mt-52 ">
+                <div className="Home-container-2  lg:pb-[60px] pb-2 w-full lg:w-full mt-52 lg:mt-52 ">
                     <h1>START YOUR JOURNEY WITH US!</h1>
-                    <h2>Foreign Language Courses We Offer</h2>
-                    <div className='hidden lg:flex lg:pt-10 w-3/4 lg:w-full sm:space-y-4 lg:space-y-0 py-5'>
+                    <h2 className="px-10">Foreign Language Courses We Offer</h2>
+                    <div className='hidden lg:flex lg:pt-10 w-full lg:w-full sm:space-y-4 lg:space-y-0 py-5 px-10'>
                         {/* <a href='/english-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-english@300x.png' /></a>
                     <a href='/french-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-french@300x.png' /></a>
                     <a href='/spanish-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-spanish@300x.png' /></a>
@@ -174,23 +174,23 @@ export default function Home() {
                         <Popup sub="French" a1="/french-course-adults" a2="/french-course-kids" im="/images/French.png" src1="/images/adults-french@300x.png" src2='/images/Astronaut-French-1.png' />
                         <Popup sub="Spanish" a1="/spanish-course-adults" a2="/spanish-course-kids" im="/images/Spanish.png" src1="/images/adults-spanish@300x.png" src2='/images/Astronaut-Spanish-1.png' />
                         <Popup sub="German" a1="/german-course-adults" a2="/german-course-kids" im="/images/German.png" src1="/images/adults-german@300x.png" src2='/images/Astronaut-Germany-1.png' />
-                       < Popup sub="Mandarin" a1="/mandarin-course-adults" a2="/mandarin-course-kids" im="/images/Mandarin.png" src1="/images/adults-mandarin@300x.png" src2='/images/Astronaut-Mandarin-1.png' />
+                        <Popup sub="Mandarin" a1="/mandarin-course-adults" a2="/mandarin-course-kids" im="/images/Mandarin.png" src1="/images/adults-mandarin@300x.png" src2='/images/Astronaut-Mandarin-1.png' />
                         <Popup sub="Japanese" a1="/japanese-course-adults" a2="/japanese-course-kids" im="/images/Japanese.png" src1="/images/adults-japanese@300x.png" src2='/images/Astronaut-Japanese-1.png' />
                         <Popup sub="Korean" a1="/korean-course-adults" a2="/korean-course-kids" im="/images/Korean.png" src1="/images/adults-korean@300x.png" src2='/images/Astronaut-Korean-1.png' />
                     </div>
-                    <div className='lg:hidden px-3'>
-                    <span class="inline-grid grid-cols-2 gap-4">
-                        <span> <Popup sub="English" a1="/english-course-adults" a2="/english-course-kids" im="/images/English.png" src1="/images/adults-english@300x.png" src2='/images/Astronaut-English.png' /></span>
-                        <span> <Popup sub="French" a1="/french-course-adults" a2="/french-course-kids" im="/images/French.png" src1="/images/adults-french@300x.png" src2='/images/Astronaut-French-1.png' /></span>
-                        <span> <Popup sub="Spanish" a1="/spanish-course-adults" a2="/spanish-course-kids" im="/images/Spanish.png" src1="/images/adults-spanish@300x.png" src2='/images/Astronaut-Spanish-1.png' /></span>
-                        <span> <Popup sub="German" a1="/german-course-adults" a2="/german-course-kids" im="/images/German.png" src1="/images/adults-german@300x.png" src2='/images/Astronaut-Germany-1.png' /></span>
-                        <span>< Popup sub="Mandarin" a1="/mandarin-course-adults" a2="/mandarin-course-kids" im="/images/Mandarin.png" src1="/images/adults-mandarin@300x.png" src2='/images/Astronaut-Mandarin-1.png' /> </span>
-                        <span>  <Popup sub="Japanese" a1="/japanese-course-adults" a2="/japanese-course-kids" im="/images/Japanese.png" src1="/images/adults-japanese@300x.png" src2='/images/Astronaut-Japanese-1.png' /></span>
-                        <span> <Popup sub="Korean" a1="/korean-course-adults" a2="/korean-course-kids" im="/images/Korean.png" src1="/images/adults-korean@300x.png" src2='/images/Astronaut-Korean-1.png' /></span>
+                    {/* <div className='lg:hidden px-3'>
+                        <span class="inline-grid grid-cols-2 gap-4">
+                            <span> <Popup sub="English" a1="/english-course-adults" a2="/english-course-kids" im="/images/English.png" src1="/images/adults-english@300x.png" src2='/images/Astronaut-English.png' /></span>
+                            <span> <Popup sub="French" a1="/french-course-adults" a2="/french-course-kids" im="/images/French.png" src1="/images/adults-french@300x.png" src2='/images/Astronaut-French-1.png' /></span>
+                            <span> <Popup sub="Spanish" a1="/spanish-course-adults" a2="/spanish-course-kids" im="/images/Spanish.png" src1="/images/adults-spanish@300x.png" src2='/images/Astronaut-Spanish-1.png' /></span>
+                            <span> <Popup sub="German" a1="/german-course-adults" a2="/german-course-kids" im="/images/German.png" src1="/images/adults-german@300x.png" src2='/images/Astronaut-Germany-1.png' /></span>
+                            <span>< Popup sub="Mandarin" a1="/mandarin-course-adults" a2="/mandarin-course-kids" im="/images/Mandarin.png" src1="/images/adults-mandarin@300x.png" src2='/images/Astronaut-Mandarin-1.png' /> </span>
+                            <span><Popup sub="Japanese" a1="/japanese-course-adults" a2="/japanese-course-kids" im="/images/Japanese.png" src1="/images/adults-japanese@300x.png" src2='/images/Astronaut-Japanese-1.png' /></span>
+                            <span> <Popup sub="Korean" a1="/korean-course-adults" a2="/korean-course-kids" im="/images/Korean.png" src1="/images/adults-korean@300x.png" src2='/images/Astronaut-Korean-1.png' /></span>
                         </span>
-                    </div>    
-                       
-                     
+                    </div> */}
+
+
                     <Swiper className='pagi1 block lg:hidden mb-12 lg:mb-0' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
                         breakpoints={{
                             640: {
@@ -205,38 +205,81 @@ export default function Home() {
                     >
                         <SwiperSlide>
                             <Popup sub="English" a1="/english-course-adults" a2="/english-course-kids" im="/images/English.png" src1="/images/adults-english@300x.png" src2='/images/Astronaut-English.png' />
-                            </SwiperSlide>
-                            <SwiperSlide>
+                        </SwiperSlide>
+                        <SwiperSlide>
                             <Popup sub="French" a1="/french-course-adults" a2="/french-course-kids" im="/images/French.png" src1="/images/adults-french@300x.png" src2='/images/Astronaut-French-1.png' />
-                            </SwiperSlide>
-                            <SwiperSlide>
+                        </SwiperSlide>
+                        <SwiperSlide>
                             <Popup sub="Spanish" a1="/spanish-course-adults" a2="/spanish-course-kids" im="/images/Spanish.png" src1="/images/adults-spanish@300x.png" src2='/images/Astronaut-Spanish-1.png' />
-                            </SwiperSlide>
-                            <SwiperSlide>
+                        </SwiperSlide>
+                        <SwiperSlide>
                             <Popup sub="German" a1="/german-course-adults" a2="/german-course-kids" im="/images/German.png" src1="/images/adults-german@300x.png" src2='/images/Astronaut-Germany-1.png' />
-                            </SwiperSlide>
-                            <SwiperSlide>
+                        </SwiperSlide>
+                        <SwiperSlide>
                             <Popup sub="Mandarin" a1="/mandarin-course-adults" a2="/mandarin-course-kids" im="/images/Mandarin.png" src1="/images/adults-mandarin@300x.png" src2='/images/Astronaut-Mandarin-1.png' />
-                            </SwiperSlide>
-                            <SwiperSlide>
+                        </SwiperSlide>
+                        <SwiperSlide>
                             <Popup sub="Japanese" a1="/japanese-course-adults" a2="/japanese-course-kids" im="/images/Japanese.png" src1="/images/adults-japanese@300x.png" src2='/images/Astronaut-Japanese-1.png' />
-                            </SwiperSlide>
-                            
+                        </SwiperSlide>
+
                         <SwiperSlide>
                             <Popup sub="Korean" a1="/korean-course-adults" a2="/korean-course-kids" im="/images/Korean.png" src1="/images/adults-korean@300x.png" src2='/images/Astronaut-Korean-1.png' /></SwiperSlide>
                     </Swiper>
                 </div>
             </div>
+{/* 
+            <div className="">
+                <div>
 
-            <div className="Home-container-8 my-14 text-center">
+                </div>
+                <div>
+                    <Swiper className='pagi1 block lg:hidden mb-12 lg:mb-0' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+                        breakpoints={{
+                            640: {
+                                slidesPerView: 1
+
+                            },
+                        }}
+                        pagination={false} navigation={true} autoplay={{
+                            "delay": 2500,
+                            "disableOnInteraction": false
+                        }}
+                    >
+                        <SwiperSlide>
+                            <Popup sub="English" a1="/english-course-adults" a2="/english-course-kids" im="/images/English.png" src1="/images/adults-english@300x.png" src2='/images/Astronaut-English.png' />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <Popup sub="French" a1="/french-course-adults" a2="/french-course-kids" im="/images/French.png" src1="/images/adults-french@300x.png" src2='/images/Astronaut-French-1.png' />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <Popup sub="Spanish" a1="/spanish-course-adults" a2="/spanish-course-kids" im="/images/Spanish.png" src1="/images/adults-spanish@300x.png" src2='/images/Astronaut-Spanish-1.png' />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <Popup sub="German" a1="/german-course-adults" a2="/german-course-kids" im="/images/German.png" src1="/images/adults-german@300x.png" src2='/images/Astronaut-Germany-1.png' />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <Popup sub="Mandarin" a1="/mandarin-course-adults" a2="/mandarin-course-kids" im="/images/Mandarin.png" src1="/images/adults-mandarin@300x.png" src2='/images/Astronaut-Mandarin-1.png' />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <Popup sub="Japanese" a1="/japanese-course-adults" a2="/japanese-course-kids" im="/images/Japanese.png" src1="/images/adults-japanese@300x.png" src2='/images/Astronaut-Japanese-1.png' />
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <Popup sub="Korean" a1="/korean-course-adults" a2="/korean-course-kids" im="/images/Korean.png" src1="/images/adults-korean@300x.png" src2='/images/Astronaut-Korean-1.png' /></SwiperSlide>
+                    </Swiper>
+
+                </div>
+            </div> */}
+
+            <div className="Home-container-81 my-14 text-center flex justify-center">
                 <h1>FROM LEARNING A NEW LANGUAGE TO LIVING IT!</h1>
                 <span className="text-2xl font-semibold lg:text-4xl">Why you should learn with The Language Network?</span>
             </div>
-            <div className='w-full px-10 lg:px-20 pb-10 mb-10'>
+            <div className='w-full px-10 lg:px-20 pb-0'>
                 <Display />
             </div>
 
-            <div className="pb-10 mb-28 mt-14 lg:flex sm:px-4 lg:px-20 lg:pt-10 flex-row h-auto w-full bg-[#f4f8fb]">
+            <div className="mb-28 mt-14 lg:flex sm:px-4 lg:px-20 lg:pt-10 flex-row h-auto w-full bg-[#f4f8fb]">
                 <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
                     <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>Our courses are aligned with the CEFR levels</h1>
                     <p className='text-sm text-[#54595f]'>
@@ -278,7 +321,7 @@ export default function Home() {
                 </div> */}
             </div>
             <div className='lg:hidden mt-2'>
-            <MoCar/>
+                <MoCar />
 
             </div>
             {/* <div>
@@ -507,10 +550,11 @@ export default function Home() {
             </div> */}
 
 
-            <div className="Home-container-11 mt-20 lg:mb-20">
+            <div className="Home-container-112 mt-20 lg:mb-20">
                 <h1>Happy Testimonials</h1>
                 <hr></hr>
-                <Testimonial />
+                <div className="flex justify-center px-10 "> <Testimonial /></div>
+               
             </div>
             <div className="my-20 pt-12">
                 <h3 className='w-full text-center font-semibold text-3xl lg:text-4xl'>Our Education Partners</h3>

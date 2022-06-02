@@ -20,13 +20,14 @@ a {
 }
 
 .pricingTable {
-    text-align: center;
+    
+    text-align: left;
     background: #fff;
     margin: 0 -15px;
-    box-shadow: 0 0 10px #ababab;
+    box-shadow: 0 0 10px #e7e4e4;
     padding-bottom: 40px;
     border-radius: 10px;
-    color: #cad0de;
+    /* color: #cad0de; */
     transform: scale(1);
     transition: all .5s ease 0s
 }
@@ -69,7 +70,7 @@ a {
 .pricingTable:hover .month,
 .pricingTable:hover .price-value,
 .pricingTable:hover .pricingTable-header i {
-    color: #fff
+    
 }
 
 .pricingTable .heading {

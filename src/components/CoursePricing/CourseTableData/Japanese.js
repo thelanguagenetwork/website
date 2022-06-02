@@ -1,5 +1,8 @@
 export const Japanese_1_1 = [
     {
+      title: 'Introduction to Japanese',
+        includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
+        link:"abc",
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N5',
@@ -8,6 +11,9 @@ export const Japanese_1_1 = [
         Link: "https://rzp.io/l/japaneseN51"
     },
     {
+      title: 'Elementary Knowledge',
+        includes:'Simple communication, Grammar and Vocabulary',
+        link:"abc",
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N4',
@@ -16,6 +22,9 @@ export const Japanese_1_1 = [
         Link: "https://rzp.io/l/japanesen41"
     },
     {
+      title: 'Intermediate Knowledge',
+        includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
+        link:"abc",
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N3',
@@ -31,14 +40,14 @@ export const Japanese_1_1 = [
         DiscPrice : 333,
         Link: ""
     },*/
-    {
-        language: "Japanese",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'N5+N4',
-       // OgPrice : 444,
-        DiscPrice : 84790,
-        Link: "https://rzp.io/l/japanesen5n41"
-    },
+    // {
+    //     language: "Japanese",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'N5+N4',
+    //    // OgPrice : 444,
+    //     DiscPrice : 84790,
+    //     Link: "https://rzp.io/l/japanesen5n41"
+    // },
    /* {
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
@@ -47,18 +56,21 @@ export const Japanese_1_1 = [
         DiscPrice : 333,
         Link: ""
     },*/
-    {
-        language: "Japanese",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'N5+N4+N3',
-      //  OgPrice : 444,
-        DiscPrice : 134780,
-        Link: "https://rzp.io/l/japanesen5n4n31"
-    }
+    // {
+    //     language: "Japanese",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'N5+N4+N3',
+    //   //  OgPrice : 444,
+    //     DiscPrice : 134780,
+    //     Link: "https://rzp.io/l/japanesen5n4n31"
+    // }
 ]
 
 export const Japanese_1_2 = [
     {
+      title: 'Introduction to Japanese',
+        includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
+        link:"abc",
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N5',
@@ -67,6 +79,9 @@ export const Japanese_1_2 = [
         Link: "https://rzp.io/l/japaneseN52"
     },
     {
+      title: 'Elementary Knowledge',
+        includes:'Simple communication, Grammar and Vocabulary',
+        link:"abc",
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N4',
@@ -75,6 +90,9 @@ export const Japanese_1_2 = [
         Link: "https://rzp.io/l/japaneseN42"
     },
     {
+      title: 'Intermediate Knowledge',
+        includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
+        link:"abc",
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N3',
@@ -90,14 +108,14 @@ export const Japanese_1_2 = [
         DiscPrice : 333,
         Link: ""
     },*/
-    {
-        language: "Japanese",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'N5+N4',
-       // OgPrice : 444,
-        DiscPrice : 57970,
-        Link: "https://rzp.io/l/japanesen5n42"
-    },
+    // {
+    //     language: "Japanese",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'N5+N4',
+    //    // OgPrice : 444,
+    //     DiscPrice : 57970,
+    //     Link: "https://rzp.io/l/japanesen5n42"
+    // },
   /*  {
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
@@ -106,19 +124,22 @@ export const Japanese_1_2 = [
         DiscPrice : 333,
         Link: ""
     },*/
-    {
-        language: "Japanese",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'N5+N4+N3',
-     //   OgPrice : 444,
-        DiscPrice : 92960,
-        Link: "https://rzp.io/l/japanesen5n4n32"
-    },
+    // {
+    //     language: "Japanese",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'N5+N4+N3',
+    //  //   OgPrice : 444,
+    //     DiscPrice : 92960,
+    //     Link: "https://rzp.io/l/japanesen5n4n32"
+    // },
 ]
 
 
 export const Japanese_1_4 = [
     {
+      title: 'Introduction to Japanese',
+        includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
+        link:"abc",
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N5',
@@ -127,6 +148,9 @@ export const Japanese_1_4 = [
         Link: "https://rzp.io/l/vOWn7K0n2"
     },
     {
+      title: 'Elementary Knowledge',
+        includes:'Simple communication, Grammar and Vocabulary',
+        link:"abc",
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N4',
@@ -135,6 +159,9 @@ export const Japanese_1_4 = [
         Link: "https://rzp.io/l/japanesen4"
     },
     {
+      title: 'Intermediate Knowledge',
+        includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
+        link:"abc",
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N3',
@@ -150,14 +177,14 @@ export const Japanese_1_4 = [
         DiscPrice : 333,
         Link: ""
     },*/
-    {
-        language: "Japanese",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'N5+N4',
-      //  OgPrice : 444,
-        DiscPrice : 43970,
-        Link: "https://rzp.io/l/japanesen5n4"
-    },
+    // {
+    //     language: "Japanese",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'N5+N4',
+    //   //  OgPrice : 444,
+    //     DiscPrice : 43970,
+    //     Link: "https://rzp.io/l/japanesen5n4"
+    // },
   /*  {
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
@@ -166,12 +193,12 @@ export const Japanese_1_4 = [
         DiscPrice : 333,
         Link: ""
     },*/
-    {
-        language: "Japanese",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'N5+N4+N3',
-      //  OgPrice : 444,
-        DiscPrice : 67960,
-        Link: "https://rzp.io/l/japanesen543"
-    },
+    // {
+    //     language: "Japanese",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'N5+N4+N3',
+    //   //  OgPrice : 444,
+    //     DiscPrice : 67960,
+    //     Link: "https://rzp.io/l/japanesen543"
+    // },
 ]
