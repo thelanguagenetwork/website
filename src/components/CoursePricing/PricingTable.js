@@ -14,7 +14,7 @@ export default function PricingTable(props) {
         <div class="demo py-20 sm:px-2 lg:px-28 fadeIN">
             <div class="container">
 
-                <div class="row hidden lg:flex flex-row flex-wrap text-left justify-left">
+                <div class="row hidden lg:flex flex-row flex-wrap text-left justify-center">
                     {
                         props.TableData.map((data, i) => {
                             return (
@@ -34,7 +34,7 @@ export default function PricingTable(props) {
                                                 <span className="text-sm text-lg font-semibold text text-slate-700 ">Curriculum Includes</span>
                                             </div>
                                             <br />
-                                            <div className="h-[2rem] flex  items-center mb-10">
+                                            <div className="mt-3 h-[2rem] flex  items-center mb-10">
                                                 <span className="text-sm text-slate-500">
                                                     {data.includes}
                                                 </span>
