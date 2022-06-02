@@ -154,7 +154,7 @@ function Adults() {
             </div>
 
             <div className='flex justify-center mb-20'>
-                <Languages />
+                {/* <Languages /> */}
             </div>
 
             <LanguageSec />

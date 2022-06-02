@@ -68,7 +68,7 @@ function CardData() {
 export default () => {
     const cardData = CardData();
     return (
-        <Swiper className="pagi4"
+        <Swiper className=""
         navigation = {false}
             infinite
             autoplay={{
@@ -94,12 +94,12 @@ export default () => {
                 },
             }}
         >
-            <section>
+            <section className="">
                
                 {cardData.map((card, i) => {
                     return (
-                        <SwiperSlide className="testi-slides w-full px-3 lg:px-0  pt-3 lg:pt-0">
-                            <div class="px-10 h-[29rem] lg:h-[27rem] test-item shadow-lg rounded-xl " key={i} >
+                        <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                            <div class="px-10 pt-10 h-[29rem] lg:h-[30rem] w-5/6 test-item shadow-lg rounded-xl " key={i} >
                                 <div class="text-center">
                                     <img
                                         alt="testimonial"
@@ -109,7 +109,7 @@ export default () => {
                                     <p class="leading-normal text-sm font-poppins">
                                         {card.desc}
                                     </p>
-                                    <span class="inline-block h-1 w-10 rounded bg-yellow-500 mt-6 mb-4"></span>
+                                    <span class="inline-block h-1 w-10 rounded bg-yellow-500 mt-6 mb-2"></span>
                                     <h2 class="font-poppins text-base font-bold title-font tracking-wider mb-2.5">
                                         {card.name}
                                     </h2>

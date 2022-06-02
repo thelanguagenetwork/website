@@ -87,8 +87,8 @@ export default function Display() {
             <section> {
                 cardData.map((card, i) => {
                     return (<SwiperSlide className='mb-10'>
-                        <div className="md:h-96 lg:h-auto w-full lg:w-5/6 h-auto md:w-1/2 card1 pt-4" id="card" key={i} >
-                            <div class="h-72 md:h-[23rem] lg:h-[17rem] h-auto w-auto rounded-lg card-item1 flex items-center align-top " >
+                        <div className="mx-8 md:h-96 lg:h-auto w-full lg:w-5/6 h-auto md:w-1/2 card1 pt-4" id="card" key={i} >
+                            <div class="h-80 md:h-[23rem] lg:h-[18rem] h-auto w-auto rounded-lg card-item1 flex items-center align-top " >
                                 <div class="w-14 h-14 flex items-center justify-center rounded-full mt-8 mb-4" >
                                     <img src={card.path} alt='img' className='w-full h-full' />
                                 </div>
