@@ -84,10 +84,10 @@ export default function KidsGerman() {
                 <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
                     <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>German Language Levels for Kids</h1>
                     <p className='text-sm text-[#54595f]'>
-                    All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
+                        All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
                     </p>
                     <p className='text-sm text-[#54595f]'>
-                    These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and A2 the most advanced. Later your child will be able to continue with the DELF Junior B1 and the DELF B2 Junior.                    </p>
+                        These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and A2 the most advanced. Later your child will be able to continue with the DELF Junior B1 and the DELF B2 Junior.                    </p>
                 </div>
                 <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
                     <KidsLevels />
@@ -152,7 +152,7 @@ export default function KidsGerman() {
                     <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
                     <p className='text-sm text-gray-700'>You can monitor your child’s progress with our German language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
                 </div>
-               {/* <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
+                {/* <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-24@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
                     <p className='text-sm text-gray-700'>
@@ -207,126 +207,125 @@ export default function KidsGerman() {
                 }}
             >
                 <SwiperSlide>
-<div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
-                    <p className='text-sm text-gray-700'>Our German language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
-                </div>
+                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
+                        <p className='text-sm text-gray-700'>Our German language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
-                    <p className='text-sm text-gray-700'>You can monitor your child’s progress with our German language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
-                </div>
+                        <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
+                        <p className='text-sm text-gray-700'>You can monitor your child’s progress with our German language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                   <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-24@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
-                    <p className='text-sm text-gray-700'>
-                        Our curriculum is created by carefully integrating all aspects of language learning. Our Learn German for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
-                </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Learn from experts</h3>
-                    <p className='text-sm text-gray-700'>
-                        After an extensive hiring process, we have carefully handpicked language experts, who are efficient in teaching kids and adolescents. Leave your children with our German language experts and expect nothing but better results.  </p>
-                </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Career Guidance</h3>
-                    <p className='text-sm text-gray-700'>
-                        Our language trainers will guide your children to excel in their academic life. We will also conduct career counselling when it is needed. Push your kids to a new height with our German language courses.  </p>
-                </div>
+                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-24@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
+                        <p className='text-sm text-gray-700'>
+                            Our curriculum is created by carefully integrating all aspects of language learning. Our Learn German for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>International Exams</h3>
-                    <p className='text-sm text-gray-700'>
-                        TLN believes that all its students should appear for international exams like Cambridge. From an early age, we prepare them for these international exams.   </p>
-                </div>
+                        <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Learn from experts</h3>
+                        <p className='text-sm text-gray-700'>
+                            After an extensive hiring process, we have carefully handpicked language experts, who are efficient in teaching kids and adolescents. Leave your children with our German language experts and expect nothing but better results.  </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                     <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/culture.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Cultural Sensitivity</h3>
-                    <p className='text-sm text-gray-700'>
-
-                        Our German language course for kids and adolescents also includes cultural learning. We believe that Cultural learning is important when it comes to language learning. It helps the students learn more efficiently. Thus, we focus on the culture associated with the language.   </p>
-                </div>
+                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Career Guidance</h3>
+                        <p className='text-sm text-gray-700'>
+                            Our language trainers will guide your children to excel in their academic life. We will also conduct career counselling when it is needed. Push your kids to a new height with our German language courses.  </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                     <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Get Certified Results</h3>
-                    <p className='text-sm text-gray-700'>
+                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>International Exams</h3>
+                        <p className='text-sm text-gray-700'>
+                            TLN believes that all its students should appear for international exams like Cambridge. From an early age, we prepare them for these international exams.   </p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/culture.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Cultural Sensitivity</h3>
+                        <p className='text-sm text-gray-700'>
 
-                        We provided certificates as our students excel in language learning. It ensures that the students will aim higher and be more motivated. Certificates are good for boosting student morale. Learn German with TLN and give wings to your children’s dreams.   </p>
-                </div>
+                            Our German language course for kids and adolescents also includes cultural learning. We believe that Cultural learning is important when it comes to language learning. It helps the students learn more efficiently. Thus, we focus on the culture associated with the language.   </p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Get Certified Results</h3>
+                        <p className='text-sm text-gray-700'>
+
+                            We provided certificates as our students excel in language learning. It ensures that the students will aim higher and be more motivated. Certificates are good for boosting student morale. Learn German with TLN and give wings to your children’s dreams.   </p>
+                    </div>
                 </SwiperSlide>
             </Swiper>
 
-            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium '>How is learning German beneficial for kids?</div>
+            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium mb-5'>How is learning German beneficial for kids?</div>
             <div className='flex flex-col lg:flex-row'>
-                <div className='pl-10 w-3/4 lg:w-[60rem] self-center   '>
+                <div className='pl-10 w-1/2 lg:w-[30rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
                 </div>
-                <div className='w-full flex flex-col'>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                <div className='w-full flex flex-col w-full lg:w-2/3'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Get a Head Start</h1>
-                            <p className='text-[#54595f] pt-2'>Start learning German from an early age and keep your child ahead of their peers. Give your child a head start and keep them motivated. Learning German for Kids will benefit your child exponentially.</p>
+                            <h1 className='text-xl font-medium'>Get a Head Start</h1>
+                            <p className='text-[#54595f] pt-2'>Start learning Germanfrom an early age and keep your child ahead of their peers. Give your child a head start and keep them motivated. Learning Germanfor Kids will benefit your child exponentially.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>
+                            <h1 className='text-xl font-medium'>
                                 Cognitive Benefits</h1>
-                            <p className='text-[#54595f] pt-2'>The earlier you learn German, the better you get at communication. Start your kid’s learning from a young age and make your child a master of confident communication. There is no greater feeling than seeing your child practice confidence in their day to day life.</p>
+                            <p className='text-[#54595f] pt-2'>The earlier you learn English, the better you get at communication. Start your kid’s learning from a young age and make your child a master of confident communication. There is no greater feeling than seeing your child practice confidence in their day to day life.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Confident Communication</h1>
-                            <p className='text-[#54595f] pt-2'>The earlier you learn German, the better you get at communication. Start your kid’s learning from a young age and make your child a master of confident communication. There is no greater feeling than seeing your child practice confidence in their day to day life.</p>
+                            <h1 className='text-xl font-medium'>Confident Communication</h1>
+                            <p className='text-[#54595f] pt-2'>The earlier you learn English, the better you get at communication. Start your kid’s learning from a young age and make your child a master of confident communication. There is no greater feeling than seeing your child practice confidence in their day to day life.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Early Learning Benefits</h1>
+                            <h1 className='text-xl font-medium'>Early Learning Benefits</h1>
                             <p className='text-[#54595f] pt-2'>When your child starts learning early, they learn much more than others. Early age learning benefits your child in multiple ways. It helps them build a strong personality.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Boost Academic Achievements</h1>
-                            <p className='text-[#54595f] pt-2'>When you start learning German at an early age, you become so fluent that other subjects become easier too. Memorising theoretical subjects becomes a piece of cake. This boosts your overall academic achievement.</p>
+                            <h1 className='text-xl font-medium'>Boost Academic Achievements</h1>
+                            <p className='text-[#54595f] pt-2'>When you start learning Germanat an early age, you become so fluent that other subjects become easier too. Memorising theoretical subjects becomes a piece of cake. This boosts your overall academic achievement.</p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className='pt-20 w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>TLN and International Exams</div>
+            </div>            <div className='pt-20 w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>TLN and International Exams</div>
             <p className='text-center w-full px-10 lg:px-60 pt-4 text-sm text-[#54595f]'> We want our students to excel in international exams like TOEFL and IELTS. We teach our students how to learn German in a way that will help them ace these standardised tests. All aspects of the test, including pronunciation, vocabulary, listening part, is being taken care of at TLN. We ensure that once you learn something you won’t forget it.</p>
             <div className='px-3 group w-full flex flex-col items-center my-10'>
                 <img src="/images/exam-goethe-300x159.jpg" alt="img" className='w-60' />
@@ -337,11 +336,11 @@ export default function KidsGerman() {
             </div>
 
             <div className='flex flex-col items-center '>
-                <div className="Home-container-3 ">
+                <div className="Home-container-3 sm:px-0 lg:px-48 sm:pt-10 lg:pt-20 ">
                     <h1>
                         Students at The Language Network
                     </h1>
-                    <p>
+                    <p className="sm:px-10 lg:px-2 font-medium pb-2 pt-2">
                         We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
                     </p>
                 </div>
@@ -494,10 +493,10 @@ export default function KidsGerman() {
             <p className='w-full  text-center font-bold text-4xl pb-3'>Frequently asked questions</p>
 
             <div className="flex flex-col items-center justify-center pb-20">
-            <hr class="flex flex-col justify-center align-center text-center border-[#FFC000] border-2 w-1/5 self-center items-center"></hr>
+                <hr class="flex flex-col justify-center align-center text-center border-[#FFC000] border-2 w-1/5 self-center items-center"></hr>
             </div>
 
-            <div className='w-full px-10 lg:px-28'>
+            <div className='w-full px-10 lg:px-28 mb-16'>
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item border-t-0 border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingOne">

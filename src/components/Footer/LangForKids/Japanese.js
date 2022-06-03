@@ -60,7 +60,7 @@ export default function KidsJapanese() {
                         <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online Japanese classes for adults (14+ years old) with professional teachers.</h1>
                         <a href="/getstarted"><button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">Get Started</button></a>
 
-                       
+
                     </div>
                 </div>
             </div>
@@ -85,10 +85,10 @@ export default function KidsJapanese() {
                 <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
                     <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>Japanese Language Levels for Kids</h1>
                     <p className='text-sm text-[#54595f]'>
-                    All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
+                        All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
                     </p>
                     <p className='text-sm text-[#54595f]'>
-                    These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and A2 the most advanced. Later your child will be able to continue with the DELF Junior B1 and the DELF B2 Junior.                    </p>
+                        These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and A2 the most advanced. Later your child will be able to continue with the DELF Junior B1 and the DELF B2 Junior.                    </p>
                 </div>
                 <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
                     <KidsLevels />
@@ -179,23 +179,23 @@ export default function KidsJapanese() {
                     <img src="/images/expert.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Learn Japanese Language from experts</h3>
                     <p className='text-sm text-gray-700'>
-                    Learn the Japanese language from our language experts and ace at spoken Japanese. Our trainers are experts when it comes to teaching children. Leave your child with our expert and expect only the best  </p>
+                        Learn the Japanese language from our language experts and ace at spoken Japanese. Our trainers are experts when it comes to teaching children. Leave your child with our expert and expect only the best  </p>
                 </div>
-               
+
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[29rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-31@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>International Exams</h3>
                     <p className='text-sm text-gray-700'>
-                    Our Japanese language course for Kids does not only teach the Japanese language. We also prepare our students for international exams associated with the language. We believe that our students should aim for the best.   </p>
+                        Our Japanese language course for Kids does not only teach the Japanese language. We also prepare our students for international exams associated with the language. We believe that our students should aim for the best.   </p>
                 </div>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/culture.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Cultural Knowledge</h3>
                     <p className='text-sm text-gray-700'>
 
-                    In order to learn a language, it is important to learn the culture associated with it. We teach cultural and social know-how to our students in order to teach a language better.   </p>
+                        In order to learn a language, it is important to learn the culture associated with it. We teach cultural and social know-how to our students in order to teach a language better.   </p>
                 </div>
-              
+
             </div>
             <Swiper className='pagi1 block lg:hidden w-full px-10 md:px-16 bg-inherit' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
                 breakpoints={{
@@ -214,62 +214,62 @@ export default function KidsJapanese() {
             >
                 <SwiperSlide>
                     <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/1_1-batch.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
-                    <p className='text-sm text-gray-700'>Our Japanese language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
-                </div>
+                        <img src="/images/1_1-batch.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
+                        <p className='text-sm text-gray-700'>Our Japanese language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
-                    <p className='text-sm text-gray-700'>You can monitor your child’s progress with our Japanese language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
-                </div>
+                        <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
+                        <p className='text-sm text-gray-700'>You can monitor your child’s progress with our Japanese language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
-                    <p className='text-sm text-gray-700'>
-                        Our curriculum is created by carefully integrating all aspects of language learning. Our Learn Japanese for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
-                </div>
+                        <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
+                        <p className='text-sm text-gray-700'>
+                            Our curriculum is created by carefully integrating all aspects of language learning. Our Learn Japanese for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                   <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[29rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/expert.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Learn Japanese Language from experts</h3>
-                    <p className='text-sm text-gray-700'>
-                    Learn the Japanese language from our language experts and ace at spoken Japanese. Our trainers are experts when it comes to teaching children. Leave your child with our expert and expect only the best  </p>
-                </div>
+                    <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[29rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/expert.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Learn Japanese Language from experts</h3>
+                        <p className='text-sm text-gray-700'>
+                            Learn the Japanese language from our language experts and ace at spoken Japanese. Our trainers are experts when it comes to teaching children. Leave your child with our expert and expect only the best  </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                   <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[29rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-31@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>International Exams</h3>
-                    <p className='text-sm text-gray-700'>
-                    Our Japanese language course for Kids does not only teach the Japanese language. We also prepare our students for international exams associated with the language. We believe that our students should aim for the best.   </p>
-                </div>
+                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[29rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-31@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>International Exams</h3>
+                        <p className='text-sm text-gray-700'>
+                            Our Japanese language course for Kids does not only teach the Japanese language. We also prepare our students for international exams associated with the language. We believe that our students should aim for the best.   </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                   <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/culture.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Cultural Knowledge</h3>
-                    <p className='text-sm text-gray-700'>
+                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/culture.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Cultural Knowledge</h3>
+                        <p className='text-sm text-gray-700'>
 
-                    In order to learn a language, it is important to learn the culture associated with it. We teach cultural and social know-how to our students in order to teach a language better.   </p>
-                </div>
-              
+                            In order to learn a language, it is important to learn the culture associated with it. We teach cultural and social know-how to our students in order to teach a language better.   </p>
+                    </div>
+
                 </SwiperSlide>
-                
+
             </Swiper>
 
-            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium '>How is learning Japanese beneficial for kids?</div>
+            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium mb-5 '>How is learning Japanese beneficial for kids?</div>
             <div className='flex flex-col lg:flex-row'>
-                <div className='pl-10 w-3/4 lg:w-[60rem] self-center   '>
+                <div className='pl-10 w-1/2 lg:w-[30rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
                 </div>
-                <div className='w-full flex flex-col'>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                <div className='w-full flex flex-col w-full lg:w-2/3'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
@@ -278,7 +278,7 @@ export default function KidsJapanese() {
                             <p className='text-[#54595f] pt-2'>Start teaching the Japanese language to your child and keep them ahead of their peers. In no time, your child will be a master of the Japanese language. When you teach Japanese to your children, you keep them motivated to do better in life.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
@@ -288,7 +288,7 @@ export default function KidsJapanese() {
                             <p className='text-[#54595f] pt-2'>A child’s brain is like a sponge. It can absorb a lot of information in an effective way. Also, when you learn a second language, it boosts your mental performance and strengthens your brain cells & neurons.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
@@ -297,7 +297,7 @@ export default function KidsJapanese() {
                             <p className='text-[#54595f] pt-2'>The earlier you learn Japanese, the fluent you get in communication. Teach the Japanese language online to your kids and make them a master of communication in the given language.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
@@ -306,7 +306,7 @@ export default function KidsJapanese() {
                             <p className='text-[#54595f] pt-2'>After learning the Japanese language, you can work as a translator, writer, interpreter, etc. You can also move to Japan for work or education. Learning the Japanese language has a lot of benefits.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
@@ -328,11 +328,11 @@ export default function KidsJapanese() {
             </div>
 
             <div className='flex flex-col items-center '>
-                <div className="Home-container-3 ">
+                <div className="Home-container-3 sm:px-0 lg:px-48 sm:pt-10 lg:pt-20 ">
                     <h1>
                         Students at The Language Network
                     </h1>
-                    <p>
+                    <p className="sm:px-10 lg:px-2 font-medium pb-2 pt-2">
                         We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
                     </p>
                 </div>
@@ -485,11 +485,11 @@ export default function KidsJapanese() {
             <p className='w-full  text-center font-bold text-4xl pb-3'>Frequently asked questions</p>
 
             <div className="flex flex-col items-center justify-center pb-20">
-            <hr class="flex flex-col justify-center align-center text-center border-[#FFC000] border-2 w-1/5 self-center items-center"></hr>
+                <hr class="flex flex-col justify-center align-center text-center border-[#FFC000] border-2 w-1/5 self-center items-center"></hr>
             </div>
 
 
-            <div className='w-full px-10 lg:px-28'>
+            <div className='w-full px-10 lg:px-28 mb-16'>
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item border-t-0 border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingOne">

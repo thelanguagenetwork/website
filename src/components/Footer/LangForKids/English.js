@@ -97,58 +97,63 @@ export default function KidsEnglish() {
             <section class="text-gray-600 body-font">
                 <div class="container px-2 lg:px-5 py-20 mx-auto">
                     <div class="flex flex-wrap -m-4 lg:px-20">
-                        <div class="xl:w-1/2 md:w-1/2 sm:w-full p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg h-auto lg:h-56">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-yellow-300 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Language Immersion</h2>
-                                <p class="leading-relaxed text-base">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
+                        <div class="xl:w-1/3 md:w-1/3 sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                            <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <FaLightbulb className='w-full h-full' />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Language Immersion</h2>
+                                <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
                             </div>
                         </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg h-auto lg:h-56">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-yellow-300 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Experienced Teachers</h2>
-                                <p class="leading-relaxed text-base">We have hired a team of experienced professionals to teach our students. Now learn only from the best and become a master of the English language.</p>
+                        <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                            <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <FaLightbulb className='w-full h-full' />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Experienced Teachers</h2>
+
+                                <p class="leading-relaxed text-sm">We have hired a team of experienced professionals to teach our students. Now learn only from the best and become a master of the English language.</p>
                             </div>
                         </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg h-auto lg:h-56">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-yellow-300 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Simple to Complex Learning Curve</h2>
-                                <p class="leading-relaxed text-base">Our English language course for kids start from simple English and then covers complex aspects of the language. We understand the learning needs of our students and teach them accordingly.</p>
+                        <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                            <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <FaLightbulb className='w-full h-full' />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Simple to Complex Learning Curve</h2>
+
+                                <p class="leading-relaxed text-sm">Our English language course for kids start from simple English and then covers complex aspects of the language. We understand the learning needs of our students and teach them accordingly.</p>
                             </div>
                         </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg h-auto lg:h-56">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-yellow-300 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Classes from Home</h2>
-                                <p class="leading-relaxed text-base">The Language Network is an online language school. You do not need to waste your time and money to learn English now. Join TLN and learn from within the comforts of your own home.</p>
+                        <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                            <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <FaLightbulb className='w-full h-full' />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Classes from Home</h2>
+
+                                <p class="leading-relaxed text-sm">The Language Network is an online language school. You do not need to waste your time and money to learn English now. Join TLN and learn from within the comforts of your own home.</p>
                             </div>
                         </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg h-auto lg:h-56">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-yellow-300 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Age-appropriate program</h2>
-                                <p class="leading-relaxed text-base">Our English courses for kids are hand-tailored to meet the learning needs of children. Our courses are age-appropriate and focus on all aspects of language learning in an easy and understandable way.</p>
+                        <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                            <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <FaLightbulb className='w-full h-full' />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Age-appropriate program</h2>
+
+                                <p class="leading-relaxed text-sm">Our English courses for kids are hand-tailored to meet the learning needs of children. Our courses are age-appropriate and focus on all aspects of language learning in an easy and understandable way.</p>
                             </div>
                         </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg h-auto lg:h-56">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-yellow-300 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">European Standard of Education</h2>
-                                <p class="leading-relaxed text-base">We have created our courses by carefully considering the European standards of education. We also teach our students how to crack international language exams.</p>
+                        <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                            <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <FaLightbulb className='w-full h-full' />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">European Standard of Education</h2>
+
+                                <p class="leading-relaxed text-sm">We have created our courses by carefully considering the European standards of education. We also teach our students how to crack international language exams.</p>
                             </div>
                         </div>
                     </div>
@@ -286,55 +291,55 @@ export default function KidsEnglish() {
                 </SwiperSlide>
             </Swiper>
 
-            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium '>How is learning English beneficial for kids?</div>
+            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium mb-5'>How is learning English beneficial for kids?</div>
             <div className='flex flex-col lg:flex-row'>
-                <div className='pl-10 w-3/4 lg:w-[60rem] self-center   '>
+                <div className='pl-10 w-1/2 lg:w-[30rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
                 </div>
-                <div className='w-full flex flex-col'>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                <div className='w-full flex flex-col w-full lg:w-2/3'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Get a Head Start</h1>
+                            <h1 className='text-xl font-medium'>Get a Head Start</h1>
                             <p className='text-[#54595f] pt-2'>Start learning English from an early age and keep your child ahead of their peers. Give your child a head start and keep them motivated. Learning English for Kids will benefit your child exponentially.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>
+                            <h1 className='text-xl font-medium'>
                                 Cognitive Benefits</h1>
                             <p className='text-[#54595f] pt-2'>The earlier you learn English, the better you get at communication. Start your kid’s learning from a young age and make your child a master of confident communication. There is no greater feeling than seeing your child practice confidence in their day to day life.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Confident Communication</h1>
+                            <h1 className='text-xl font-medium'>Confident Communication</h1>
                             <p className='text-[#54595f] pt-2'>The earlier you learn English, the better you get at communication. Start your kid’s learning from a young age and make your child a master of confident communication. There is no greater feeling than seeing your child practice confidence in their day to day life.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Early Learning Benefits</h1>
+                            <h1 className='text-xl font-medium'>Early Learning Benefits</h1>
                             <p className='text-[#54595f] pt-2'>When your child starts learning early, they learn much more than others. Early age learning benefits your child in multiple ways. It helps them build a strong personality.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Boost Academic Achievements</h1>
+                            <h1 className='text-xl font-medium'>Boost Academic Achievements</h1>
                             <p className='text-[#54595f] pt-2'>When you start learning English at an early age, you become so fluent that other subjects become easier too. Memorising theoretical subjects becomes a piece of cake. This boosts your overall academic achievement.</p>
                         </div>
                     </div>
@@ -351,11 +356,11 @@ export default function KidsEnglish() {
             </div>
 
             <div className='flex flex-col items-center '>
-                <div className="Home-container-3 ">
+                <div className="Home-container-3 sm:px-0 lg:px-48 sm:pt-10 lg:pt-20 ">
                     <h1>
                         Students at The Language Network
                     </h1>
-                    <p>
+                    <p className="sm:px-10 lg:px-2 font-medium pb-2 pt-2">
                         We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
                     </p>
                 </div>
@@ -442,7 +447,7 @@ export default function KidsEnglish() {
                 <LearningPricesKids one_one={English_1_1} one_two={English_1_2} one_four={English_1_4} />
             </div>
 
-            <p className='w-full lg:px-80 pt-20 text-center font-medium text-4xl'>Join us in a language trip now, by following these simple steps</p>
+            <p className='w-full lg:px-80 pt-20 text-center font-medium lg:text-4xl text-3xl '>Join us in a language trip now, by following these simple steps</p>
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-20 mx-auto">
                     <div class="hidden lg:flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
@@ -506,14 +511,17 @@ export default function KidsEnglish() {
                 </div>
             </section>
 
-            <p className='w-full pb-20 text-center font-bold text-4xl underline underline-offset-8'>Frequently asked questions</p>
+            <p className='w-full text-center font-bold text-4xl  underline-offset-8'>Frequently asked questions</p>
 
 
-            <div className='w-full px-10 lg:px-28'>
+            <div className="flex flex-col items-center justify-center pb-20">
+                <hr class="flex flex-col justify-center align-center text-center border-[#FFC000] border-2 w-1/5 self-center items-center"></hr>
+            </div>
+            <div className='w-full px-10 lg:px-28 mb-16'>
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item border-t-0 border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingOne">
-                            <button class="accordion-button relative flex items-center w-full py-4 px-5 text-base text-gray-800 text-left font-bold bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                            <button class="accordion-button relative flex items-center w-full py-4 px-5 text-sm text-gray-800 text-left font-bold bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
                                 aria-expanded="false" aria-controls="flush-collapseOne">
                                 Why should I enrol my kid in TLN?
                             </button>
@@ -525,7 +533,7 @@ export default function KidsEnglish() {
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingTwo">
-                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-sm text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
                                 aria-expanded="false" aria-controls="flush-collapseTwo">
                                 What makes TLN different from other language learning institutes?
                             </button>
@@ -537,7 +545,7 @@ export default function KidsEnglish() {
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingThree">
-                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-sm text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
                                 aria-expanded="false" aria-controls="flush-collapseThree">
                                 What is the duration of each class?
                             </button>
@@ -551,7 +559,7 @@ export default function KidsEnglish() {
 
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingFive">
-                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
+                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-sm text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
                                 aria-expanded="false" aria-controls="flush-collapseFive">
                                 Can the classes be downloaded?
                             </button>
@@ -563,7 +571,7 @@ export default function KidsEnglish() {
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingSix">
-                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
+                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-sm text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
                                 aria-expanded="false" aria-controls="flush-collapseSix">
                                 How many students do we accommodate in one batch?
                             </button>
@@ -575,7 +583,7 @@ export default function KidsEnglish() {
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingSeven">
-                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
+                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-sm text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
                                 aria-expanded="false" aria-controls="flush-collapseSeven">
                                 What if I have doubts?
                             </button>
@@ -587,7 +595,7 @@ export default function KidsEnglish() {
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingEight">
-                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-base text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight"
+                            <button class="accordion-button collapsed relative flex items-center w-full py-4 px-5 text-sm text-gray-800 font-bold text-left bg-white border-0 rounded-none transition focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight"
                                 aria-expanded="false" aria-controls="flush-collapseEight">
                                 Do you provide study material for enrolled students?
                             </button>
