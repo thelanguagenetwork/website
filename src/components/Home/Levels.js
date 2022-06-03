@@ -68,7 +68,7 @@ export default function Levels() {
             </div>
         </SwiperSlide>
         <SwiperSlide style={{ alignItems: 'flex-start' }}>
-            <div className="p-2 lg:h-[85%] w-full">
+            <div className="p-2 lg:h-[85%] w-full sm:px-5 lg:px-0 ">
                 <div className="h-full bg-white rounded-lg shadow-lg flex flex-col relative overflow-hidden">
                     <div className='px-3 pt-10 bg-[#13bfab5c]'>
 
@@ -105,7 +105,7 @@ export default function Levels() {
             </div>
         </SwiperSlide>
         <SwiperSlide style={{ alignItems: 'flex-start' }}>
-            <div className="p-2 lg:h-[85%] w-full">
+            <div className="p-2 lg:h-[85%] w-full sm:px-5 lg:px-0 ">
                 <div className="h-full bg-white rounded-lg shadow-lg flex flex-col relative overflow-hidden">
                     <div className='px-3 pt-10 bg-[#13bfab99]'>
                         <h2 className="text-sm tracking-widest title-font mb-1 font-medium">INTERMEDIATE</h2>
@@ -142,7 +142,7 @@ export default function Levels() {
             </div>
         </SwiperSlide>
         <SwiperSlide style={{ alignItems: 'flex-start' }}>
-            <div className="p-2 lg:h-[85%] w-full">
+            <div className="p-2 lg:h-[85%] w-full sm:px-5 lg:px-0 ">
                 <div className="h-full bg-white rounded-lg shadow-lg flex flex-col relative overflow-hidden">
                     <div className='px-3 pt-10 bg-[#13bfabc7]'>
 
@@ -179,7 +179,7 @@ export default function Levels() {
             </div>
         </SwiperSlide>
         <SwiperSlide style={{ alignItems: 'flex-start' }}>
-            <div className="p-2 lg:h-[85%] w-full">
+            <div className="p-2 lg:h-[85%] w-full sm:px-5 lg:px-0 ">
                 <div className="h-full bg-white rounded-lg shadow-lg flex flex-col relative overflow-hidden">
                     <div className='px-3 pt-10 bg-[#13bfab]'>
 

@@ -55,15 +55,17 @@ function Popup(pop) {
     const [modalShow, setModalShow] = React.useState(false);
 
     return (
-        <>  <div className="space-y-2">
-            <span onClick={() => setModalShow(true)} class="border-transparent border-0 btn-val hover:cursor-pointer" >
-
-                <div className='p-6 md:w-1/2 lg:w-3/4 flex flex-col justify-center items-center'>
-                    <img src={pop.im} alt="img" className='w-[9rem] lg:w-[19rem] ' />
-                    <h3 className='font-medium text-2xl mt-3 text-black text-center'>{pop.sub}</h3>
-                </div>
-            </span>
-        </div>
+        <>
+            <div className="space-y-2">
+                <span onClick={() => setModalShow(true)} class="border-transparent border-0 btn-val hover:cursor-pointer" >
+                    <div className="flex justify-center">
+                        <div className='p-3 md:w-1/2 lg:w-1/2 flex flex-col justify-center items-center'>
+                            <img src={pop.im} alt="img" className='w-[9rem] lg:w-[19rem] ' />
+                            <h3 className='font-medium text-2xl mt-3 text-black text-center'>{pop.sub}</h3>
+                        </div>
+                    </div>
+                </span>
+            </div>
             <MyVerticallyCenteredModal a1={pop.a1} a2={pop.a2}
                 show={modalShow}
                 onHide={() => setModalShow(false)}

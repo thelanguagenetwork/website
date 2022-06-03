@@ -25,7 +25,7 @@ export default function BodyCarousel() {
                 <div class="slide p-2">
                     <img src={img4} height="100" width="250" alt="" />
                 </div>
-                <div class="slide">
+                <div class="slide p-2">
                     <img src={img5} height="100" width="250" alt="" />
                 </div>
                 <div class="slide">
