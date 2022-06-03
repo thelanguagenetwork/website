@@ -286,55 +286,55 @@ export default function KidsKorean() {
                 </SwiperSlide>
             </Swiper>
 
-            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium '>How is learning Korean beneficial for kids?</div>
+            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium mb-5'>How is learning Korean beneficial for kids?</div>
             <div className='flex flex-col lg:flex-row'>
-                <div className='pl-10 w-3/4 lg:w-[60rem] self-center   '>
+            <div className='pl-10 w-1/2 lg:w-[30rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
                 </div>
-                <div className='w-full flex flex-col'>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                <div className='w-full flex flex-col w-full lg:w-2/3'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Give Your Child a Head Start</h1>
+                            <h1 className='text-xl font-medium'>Give Your Child a Head Start</h1>
                             <p className='text-[#54595f] pt-2'>Start learning Korean from a young age and keep your child ahead of his peers. Give your child a headstart and keep your child motivated. Learning Korean for Kids will benefit your child exponentially.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>
+                            <h1 className='text-xl font-medium'>
                                 Cognitive Benefits</h1>
                             <p className='text-[#54595f] pt-2'>Learning Korean for kids has a lot of cognitive benefits. A child’s brain is like a sponge. It can absorb a lot of information and properly retain it. Learning Korean at an early age will strengthen your neurons and brain cells.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Confident Communication</h1>
+                            <h1 className='text-xl font-medium'>Confident Communication</h1>
                             <p className='text-[#54595f] pt-2'>The earlier you learn Korean, the better you will get at speaking Korean. Start your child’s learning at an early age and make your child a master of the Korean language. There is no greater feeling than seeing your child practice confidence in their day to day life.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Early Learning Benefits</h1>
+                            <h1 className='text-xl font-medium'>Early Learning Benefits</h1>
                             <p className='text-[#54595f] pt-2'>When your child starts learning from an early age, they will learn much more than the other children. Learning a second language at an early age will highly benefit your child and that too in multiple ways.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Careers in the Korean language</h1>
+                            <h1 className='text-xl font-medium'>Careers in the Korean language</h1>
                             <p className='text-[#54595f] pt-2'>There are a lot of career opportunities after you learn the Korean language. The Korean language has witnessed a boom in recent years. Ride the K wave and make your future bright.</p>
                         </div>
                     </div>
@@ -351,11 +351,11 @@ export default function KidsKorean() {
             </div>
 
             <div className='flex flex-col items-center '>
-                <div className="Home-container-3 ">
+            <div className="Home-container-3 sm:px-0 lg:px-48 sm:pt-10 lg:pt-20 ">
                     <h1>
                         Students at The Language Network
                     </h1>
-                    <p>
+                    <p className="sm:px-10 lg:px-2 font-medium pb-2 pt-2">
                         We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
                     </p>
                 </div>
@@ -514,7 +514,7 @@ export default function KidsKorean() {
             </div>
 
 
-            <div className='w-full px-10 lg:px-28'>
+            <div className='w-full px-10 lg:px-28 mb-16'>
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item border-t-0 border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingOne">

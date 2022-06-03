@@ -40,16 +40,16 @@ function TableData() {
             LevelA1A2: tick,
             LevelA1A2B1B2: tick
         },
-        {
-            title: "E-learning material",
-            Introductory: tick,
-            LevelA1: tick,
-            LevelA2: tick,
-            LevelB1: tick,
-            LevelB2: tick,
-            LevelA1A2: tick,
-            LevelA1A2B1B2: tick
-        },
+        // {
+        //     title: "E-learning material",
+        //     Introductory: tick,
+        //     LevelA1: tick,
+        //     LevelA2: tick,
+        //     LevelB1: tick,
+        //     LevelB2: tick,
+        //     LevelA1A2: tick,
+        //     LevelA1A2B1B2: tick
+        // },
         {
             title: "Assessments & Quizzes",
             Introductory: tick,
@@ -110,16 +110,16 @@ function TableData() {
             LevelA1A2: tick,
             LevelA1A2B1B2: tick
         },
-        {
-            title: "Internship",
-            Introductory: cross,
-            LevelA1: cross,
-            LevelA2: tick,
-            LevelB1: tick,
-            LevelB2: tick,
-            LevelA1A2: tick,
-            LevelA1A2B1B2: tick
-        },
+        // {
+        //     title: "Internship",
+        //     Introductory: cross,
+        //     LevelA1: cross,
+        //     LevelA2: tick,
+        //     LevelB1: tick,
+        //     LevelB2: tick,
+        //     LevelA1A2: tick,
+        //     LevelA1A2B1B2: tick
+        // },
         {
             title: "Placement",
             Introductory: cross,
@@ -139,8 +139,8 @@ export default function AdultsTable() {
     return (
         <div>
             <div className="pt-10  w-full mb-20 font-medium text-3xl px-8 lg:px-0 lg:text-4xl poppins text-center">Why learning with TLN is beneficial?</div>
-            <div className='hidden ... md:block overflow-x-auto px-20'>
-                <table class='shadow-md rounded w-5/6 m-auto '>
+            <div className='hidden ... md:block overflow-x-auto px-20 pb-5'>
+                <table class='shadow-md rounded w-5/6 m-auto'>
                     <tbody>
                         <tr class=' flex text-left text-sm flex-wrap sm:no-wrap unwanted'>
                             <th scope='col' class='w-[30%] p-2 bg-gray-100 border border-r-0  border-y-1 font-normal flex items-center border-b-0 table-cells'></th>

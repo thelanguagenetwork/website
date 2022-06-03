@@ -19,7 +19,7 @@ export default function PricingTable(props) {
                         props.TableData.map((data, i) => {
                             return (
                                 <div class="col-md-3 col-sm-6 my-3 flex justify-start">
-                                    <div class=" px-5 border-2 border-slate-800 pricingTable lg:mr-1 mr-0 h-full space-y-3">
+                                    <div class=" px-5 border-2 border-slate-300 pricingTable lg:mr-1 mr-0 h-full space-y-3 hover:border-slate-800">
                                         <div className="pt-10">
                                             <h1 className="text-xl font-semibold pb-2">{data.title}</h1>
                                             <h3 class="text-2xl font-bold text-[#13bfab]">Level {data.lvlName}</h3>

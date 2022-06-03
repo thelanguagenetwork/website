@@ -314,11 +314,11 @@ export default function KidsMandarin() {
             </div>
 
             <div className='flex flex-col items-center mt-28'>
-                <div className="Home-container-3 ">
+            <div className="Home-container-3 sm:px-0 lg:px-48 sm:pt-10 lg:pt-20 ">
                     <h1>
                         Students at The Language Network
                     </h1>
-                    <p>
+                    <p className="sm:px-10 lg:px-2 font-medium pb-2 pt-2">
                         We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
                     </p>
                 </div>
@@ -475,7 +475,7 @@ export default function KidsMandarin() {
             </div>
 
 
-            <div className='w-full px-10 lg:px-28'>
+            <div className='w-full px-10 lg:px-28 mb-16'>
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item border-t-0 border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
                         <h2 class="accordion-header mb-0" id="flush-headingOne">
