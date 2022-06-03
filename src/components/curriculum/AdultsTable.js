@@ -90,16 +90,16 @@ function TableData() {
             LevelA1A2: tick,
             LevelA1A2B1B2: tick
         },
-        {
-            title: "Access content & upskilling opportunities",
-            Introductory: cross,
-            LevelA1: tick,
-            LevelA2: tick,
-            LevelB1: tick,
-            LevelB2: tick,
-            LevelA1A2: tick,
-            LevelA1A2B1B2: tick
-        },
+        // {
+        //     title: "Access content & upskilling opportunities",
+        //     Introductory: cross,
+        //     LevelA1: tick,
+        //     LevelA2: tick,
+        //     LevelB1: tick,
+        //     LevelB2: tick,
+        //     LevelA1A2: tick,
+        //     LevelA1A2B1B2: tick
+        // },
         {
             title: "Mentoring Sessions",
             Introductory: cross,

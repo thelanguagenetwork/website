@@ -561,7 +561,7 @@ export default function Home() {
                 <div className="flex justify-center px-10 "> <Testimonial /></div>
 
             </div>
-            <div className="my-20 pt-12">
+            <div className="mb-20 pt-12">
                 <h3 className='w-full text-center font-semibold text-3xl lg:text-4xl'>Our Education Partners</h3>
                 <EducationPartners />
                 {/* <div className="flex flex-row px-10 justify-center items-center pr-1 ">
