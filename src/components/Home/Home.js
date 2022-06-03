@@ -93,7 +93,7 @@ export default function Home() {
 
     return (
         <div className=''>
-            <div className='Home-container-1 dark:bg-black bg-cover lg:bg-contain w-full px-4 lg:py-14 lg:px-26 relative h-[auto] flex flex-col lg:flex-row justify-center items-center content-center flex-wrap' >
+            <div className='pt-10  Home-container-1 dark:bg-black bg-cover lg:bg-contain w-full px-4 lg:py-14 lg:px-26 relative h-[auto] flex flex-col lg:flex-row justify-center items-center content-center flex-wrap' >
                 <div className='w-full lg:w-5/12 flex flex-col space-y-6 pt-2 lg:pt-0'>
                     <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab] lg:pt-2'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>
                     <h2 className='text-black font-semibold lg:font-medium text-2xl lg:text-5xl'>Learn a Language in less than 3 months</h2>
@@ -159,7 +159,7 @@ export default function Home() {
 
             <div className="flex justify-center  md:block lg:block items-center">
 
-                <div className="Home-container-2  lg:pb-[60px] pb-2 w-full lg:w-full mt-52 lg:mt-52 ">
+                <div className="Home-container-2  lg:pb-[60px] pb-2 w-full lg:w-full mt-20">
                     <h1>START YOUR JOURNEY WITH US!</h1>
                     <h2 className="px-10">Foreign Language Courses We Offer</h2>
                     <div className='hidden lg:flex lg:pt-10 w-full lg:w-full sm:space-y-4 lg:space-y-0 py-5 px-10'>
@@ -227,7 +227,7 @@ export default function Home() {
                     </Swiper>
                 </div>
             </div>
-{/* 
+            {/* 
             <div className="">
                 <div>
 
@@ -292,17 +292,17 @@ export default function Home() {
                         All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
                     </p>
                 </div>
-                <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
+                <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 px-3 lg:px-0 '>
                     <Levels />
                 </div>
             </div>
 
-            <div className='lg:w-full w-11/12 text-center pt-2 lg:pt-2'>
+            <div className='lg:w-full w-full text-center pt-2 lg:pt-2'>
                 <h1 className='text-[#13bfab] text-xl font-medium tracking-widest'>WE PREPARE YOU FOR</h1>
-                <h2 className='text-black text-4xl font-medium mb-10'>International Exams</h2>
+                <h2 className='text-black text-4xl font-medium sm:mb-0 lg:mb-10'>International Exams</h2>
             </div>
 
-            <div className=" lg:px-4 hidden md:block lg:block mt-10 ">
+            <div className=" lg:px-4 hidden md:block lg:block mt-20 ">
                 <BodyCarousel />
                 {/* <div className="flex flex-row px-10 justify-center items-center ">
                     <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img1} alt='img' /></div>
@@ -320,7 +320,7 @@ export default function Home() {
 
                 </div> */}
             </div>
-            <div className='lg:hidden mt-2'>
+            <div className='lg:hidden mt-2 mb-10'>
                 <MoCar />
 
             </div>
@@ -370,17 +370,21 @@ export default function Home() {
                 </Swiper>
             </div> */}
 
-            <div className='justify center '>
-            <div className="Home-container-3 w-full lg:px-72 lg:mt-20">
-                <span className="font-semibold text-3xl lg:text-4xl">
-                    Students at The Language Network
-                </span>
-                <p className='font-medium'>
-                    We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
-                </p>
+            <div className='flex justify-center w-full text-center'>
+                <div className="Home-container- w-full lg:px-72 lg:mt-20 px-10 flex flex-col justify-center items-center">
+                    <span className="font-semibold text-3xl lg:text-4xl">
+                        <div className="flex justify-center text-center">
+                            <div>Students at The Language Network
+                            </div>
+                        </div>
+
+                    </span>
+                    <p className='font-medium py-3 text-center'>
+                        We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
+                    </p>
+                </div>
             </div>
-            </div>
-            <div className='w-full flex flex-col items-center justify-center sm:mb-0 lg:mb-10'>
+            <div className='w-full flex flex-col items-center justify-center mb-10'>
                 <div className="w-5/6 hidden lg:flex flex-row space-y-10 lg:space-y-0 mt-12">
                     <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
                         <div className="Home-card-img">
@@ -506,7 +510,7 @@ export default function Home() {
                 <div className="items-center justify-center px-3 lg:px-20 flex flex-col justify-center ">
                     <h1 className="flex text-3xl lg:text-4xl font-semibold pt-20 items-center justify-center ">We work as a team</h1>
                     <hr class="h-full flex flex-col justify-center align-center text-center w-ful border-yellow-500 border-2 w-1/4 self-center mt-4 items-center justify-center"></hr>
-                    <span className="flex text-lg font-medium pt-10 lg:px-32 text-center">With a fantastic team of over 50+ trainers (and counting!) who make learning entertaining and effortless. Our trainers are qualified with an overall student rating of 5   out of 5.</span>
+                    <span className="flex text-lg font-medium pt-4 lg:pt-10 lg:px-32 text-center">With a fantastic team of over 50+ trainers (and counting!) who make learning entertaining and effortless. Our trainers are qualified with an overall student rating of 5   out of 5.</span>
                 </div>
             </div>
             <Team />
@@ -555,7 +559,7 @@ export default function Home() {
                 <h1>Happy Testimonials</h1>
                 <hr></hr>
                 <div className="flex justify-center px-10 "> <Testimonial /></div>
-               
+
             </div>
             <div className="my-20 pt-12">
                 <h3 className='w-full text-center font-semibold text-3xl lg:text-4xl'>Our Education Partners</h3>

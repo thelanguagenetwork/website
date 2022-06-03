@@ -16,68 +16,68 @@ export default function MoCar(){
         <div class="slider flex items-center">
         <div class="slide-track flex items-center justify-center">
             <div class="slide flex items-center justify-center">
-                <img className="w-1/3" src={img1} height="100" width="100" alt="" />
+                <img className="w-4/6" src={img1} height="100" width="100" alt="" />
             </div>
             <div class="slide flex items-center justify-center">
-                <img className="w-1/3" src={img2} height="100" width="250" alt="" />
+                <img className="w-4/6" src={img2} height="100" width="250" alt="" />
             </div>
             <div class="slide flex items-center justify-center">
-                <img className="w-1/2" src={img3} height="100" width="250" alt="" />
+                <img className="w-4/6" src={img3} height="100" width="250" alt="" />
             </div>
             <div class="slide flex items-center justify-center">
-                <img className="w-1/3" src={img4} height="100" width="250" alt="" />
+                <img className="w-4/6" src={img4} height="100" width="250" alt="" />
             </div>
             <div class="slide flex items-center justify-center">
-                <img className="w-1/2" src={img5} height="100" width="250" alt="" />
+                <img className="w-5/6" src={img5} height="100" width="250" alt="" />
             </div>
             <div class="slide flex items-center justify-center">
-                <img className="w-1/2" src={img6} height="100" width="250" alt="" />
+                <img className="w-5/6" src={img6} height="100" width="250" alt="" />
             </div>
           
            
             
             <div class="slide flex items-center justify-center">
-                <img className="w-1/3 " src={img1} height="100" width="100" alt="" />
+                <img className="w-4/6 " src={img1} height="100" width="100" alt="" />
             </div>
             <div class="slide flex items-center justify-center">
-                <img className="w-1/3" src={img2} height="100" width="250" alt="" />
+                <img className="w-4/6" src={img2} height="100" width="250" alt="" />
             </div>
             <div class="slide flex items-center justify-center">
-                <img className="w-1/2" src={img3} height="100" width="250" alt="" />
+                <img className="w-4/6" src={img3} height="100" width="250" alt="" />
             </div>
             <div class="slide flex items-center justify-center">
-                <img className="w-1/3" src={img4} height="100" width="250" alt="" />
+                <img className="w-4/6" src={img4} height="100" width="250" alt="" />
             </div>
             <div class="slide flex items-center justify-center">
-                <img className="w-1/2" src={img5} height="100" width="250" alt="" />
+                <img className="w-5/6" src={img5} height="100" width="250" alt="" />
             </div>
             <div class="slide flex items-center justify-center">
-                <img className="w-1/2" src={img6} height="100" width="250" alt="" />
+                <img className="w-5/6" src={img6} height="100" width="250" alt="" />
             </div>
         
             <div class="slide flex items-center justify-center">
-                <img className="w-1/3" src={img1} height="100" width="100" alt="" />
+                <img className="w-4/6" src={img1} height="100" width="100" alt="" />
             </div>
             <div class="slide flex items-center justify-center">
-                <img className="w-1/3" src={img2} height="100" width="250" alt="" />
+                <img className="w-4/6" src={img2} height="100" width="250" alt="" />
             </div>
             <div class="slide flex items-center justify-center">
-                <img className="w-1/2" src={img3} height="100" width="250" alt="" />
+                <img className="w-4/6" src={img3} height="100" width="250" alt="" />
             </div>
             <div class="slide flex items-center justify-center">
-                <img className="w-1/3" src={img4} height="100" width="250" alt="" />
+                <img className="w-5/6" src={img4} height="100" width="250" alt="" />
             </div>
             <div class="slide flex items-center justify-center">
-                <img className="w-1/2" src={img5} height="100" width="250" alt="" />
+                <img className="w-5/6" src={img5} height="100" width="250" alt="" />
             </div>
             <div class="slide flex items-center justify-center">
-                <img className="w-1/2" src={img6} height="100" width="250" alt="" />
+                <img className="w-5/6" src={img6} height="100" width="250" alt="" />
             </div>
             <div class="slide flex items-center justify-center">
-                <img className="w-1/2" src={img7} height="100" width="250" alt="" />
+                <img className="w-5/6" src={img7} height="100" width="250" alt="" />
             </div>
             <div class="slide flex items-center justify-center">
-                <img className="w-1/2" src={img8} height="100" width="250" alt="" />
+                <img className="w-5/6" src={img8} height="100" width="250" alt="" />
 
             </div>
             <div class="slide flex items-center justify-center">
