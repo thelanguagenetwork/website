@@ -93,7 +93,7 @@ export default function KidsFrench() {
             </div>
 
             <div className='w-full text-center font-semibold text-3xl lg:text-4xl'>Benefits of Learning French with TLN?</div>
-            <section class="text-gray-600 body-font">
+            {/* <section class="text-gray-600 body-font">
                 <div class="container px-2 lg:px-5 py-20 mx-auto">
                     <div class="flex flex-wrap -m-4">
                         <div class="xl:w-1/3 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
@@ -148,6 +148,71 @@ export default function KidsFrench() {
                                 </div>
                                 <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">European Standard of Education</h2>
                                 <p class="leading-relaxed text-base">We have created our courses by carefully considering the European standards of education. We also teach our students how to crack international language exams.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> */}
+            <section class="text-gray-600 body-font">
+                <div class="container px-2 lg:px-5 py-20 mx-auto">
+                    <div class="flex flex-wrap -m-4 lg:px-20">
+                        <div class="xl:w-1/3 md:w-1/3 sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                            <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <FaLightbulb className='w-full h-full' />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Language Immersion</h2>
+                                <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our French language course for kids. Practice French with our language experts and receive lots of positive benefits.</p>
+                            </div>
+                        </div>
+                        <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                            <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <FaLightbulb className='w-full h-full' />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Experienced Teachers</h2>
+
+                                <p class="leading-relaxed text-sm">We have hired a team of experienced professionals to teach our students. Now learn only from the best and become a master of the French language.</p>
+                            </div>
+                        </div>
+                        <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                            <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <FaLightbulb className='w-full h-full' />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Simple to Complex Learning Curve</h2>
+
+                                <p class="leading-relaxed text-sm">Our French language course for kids start from simple French and then covers complex aspects of the language. We understand the learning needs of our students and teach them accordingly.</p>
+                            </div>
+                        </div>
+                        <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                            <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <FaLightbulb className='w-full h-full' />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Classes from Home</h2>
+
+                                <p class="leading-relaxed text-sm">The Language Network is an online language school. You do not need to waste your time and money to learn French now. Join TLN and learn from within the comforts of your own home.</p>
+                            </div>
+                        </div>
+                        <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                            <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <FaLightbulb className='w-full h-full' />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Age-appropriate program</h2>
+
+                                <p class="leading-relaxed text-sm">Our French courses for kids are hand-tailored to meet the learning needs of children. Our courses are age-appropriate and focus on all aspects of language learning in an easy and understandable way.</p>
+                            </div>
+                        </div>
+                        <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                            <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <FaLightbulb className='w-full h-full' />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">European Standard of Education</h2>
+
+                                <p class="leading-relaxed text-sm">We have created our courses by carefully considering the European standards of education. We also teach our students how to crack international language exams.</p>
                             </div>
                         </div>
                     </div>

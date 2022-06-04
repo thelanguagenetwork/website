@@ -329,7 +329,7 @@ export default function KidsJapanese() {
 
             <div className='flex flex-col items-center '>
                 <div className="Home-container-3 sm:px-0 lg:px-48 sm:pt-10 lg:pt-20 ">
-                    <h1>
+                    <h1 className='font-semibold'>
                         Students at The Language Network
                     </h1>
                     <p className="sm:px-10 lg:px-2 font-medium pb-2 pt-2">

@@ -120,9 +120,9 @@ export default function AboutUs() {
           <div class="flex justify-center items-center align-center lg:grid grid-cols-3 gap-x-8 ml-3  mt-10 lg:block sm:hidden md:block">
             <div className="px-10 "><img className="w-2/3 px-12" src="/images/Loyola_College_Chennai_-_Coat_of_arms.svg" alt='img' /></div>
 
-            <div className="px-10 lg:"><img className="w-2/3 px-12" src="/images/Rcmg-Ghatkopar-300x300.svg" alt='img' /></div>
+            <div className="px-2 lg:"><img className="w-2/3 px-12" src="/images/Rcmg-Ghatkopar-300x300.svg" alt='img' /></div>
 
-            <div className="px-10 lg:"><img className="w-2/3 px-12 ml-4" src="/images/rotary.svg" alt='img1' /></div>
+            <div className="px-8 lg:"><img className="w-2/3 px-12 ml-4" src="/images/rotary.svg" alt='img1' /></div>
           </div>
 
           <div className="flex flex-row px-5 lg:hidden sm:block md:hidden">
