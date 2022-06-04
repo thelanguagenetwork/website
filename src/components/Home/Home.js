@@ -11,6 +11,7 @@ import SwiperCore, {
 import './homeRes.css'
 import './Home.css';
 
+
 import Display from "./Display";
 
 import CountUp from 'react-countup';
@@ -156,12 +157,16 @@ export default function Home() {
             {/* <div className='w-full lg:hidden block'>
                 <GlobeMobile className='' />
             </div> */}
-
+            <div className='flex justify-left pt-10 ml-20 sm: ml-10'> 
+                   <a href="https://www.google.com/search?q=the+language+network&rlz=1C1ONGR_enIN963IN963&oq=the+&aqs=chrome.1.69i57j69i59l3j69i65j69i61j69i60j69i65.1919j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3be7cfc23fb20ae5:0xac69a09818daea44,1,,,"><img src="/images/gr.svg" className='w-80 ' /></a>
+            </div>
+         
             <div className="flex justify-center  md:block lg:block items-center">
+                
 
-                <div className="Home-container-2  lg:pb-[60px] pb-2 w-full lg:w-full mt-20">
+                <div className="Home-container-2  lg:pb-[60px] pb-2 w-full lg:w-full mt-16">
                     <h1>START YOUR JOURNEY WITH US!</h1>
-                    <h2 className="px-10">Foreign Language Courses We Offer</h2>
+                    <h2 className="px-10 ">Foreign Language Courses We Offer</h2>
                     <div className='hidden lg:flex lg:pt-10 w-full lg:w-full sm:space-y-4 lg:space-y-0 py-5 px-10'>
                         {/* <a href='/english-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-english@300x.png' /></a>
                     <a href='/french-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-french@300x.png' /></a>
@@ -561,7 +566,7 @@ export default function Home() {
                 <div className="flex justify-center px-10 "> <Testimonial /></div>
 
             </div>
-            <div className="mb-20 pt-12">
+            <div className="mb-20 pt-20">
                 <h3 className='w-full text-center font-semibold text-3xl lg:text-4xl'>Our Education Partners</h3>
                 <EducationPartners />
                 {/* <div className="flex flex-row px-10 justify-center items-center pr-1 ">

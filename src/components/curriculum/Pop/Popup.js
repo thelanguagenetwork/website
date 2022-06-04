@@ -18,7 +18,7 @@ function MyVerticallyCenteredModal(props) {
             </div>
             <Modal.Header className="flex mx-0 " closeButton>
                 <Modal.Title id="contained-modal-title-vcenter  w-full ">
-                    <span className="text-lg lg:text-2xl text-left w-full px-10">Select you age group</span>
+                    <span className="text-lg lg:text-2xl text-left w-full px-10 py-10">Select you age group</span>
                 </Modal.Title>
             </Modal.Header>
 

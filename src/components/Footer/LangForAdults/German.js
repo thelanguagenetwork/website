@@ -209,8 +209,55 @@ export default function AdultsGerman() {
                 </SwiperSlide>
             </Swiper>
 
-            <div className='w-full lg:mt-28 text-center text-3xl lg:text-4xl font-medium '>How to learn German effectively?</div>
-            <div className='flex flex-col lg:flex-row sm:px-0 lg:px-20 sm:mb-10 lg:mb-20'>
+            <div className='w-full mb-10 lg:mt-28 text-center text-3xl lg:text-4xl font-medium '>How to learn German effectively?</div>
+            <div className='flex flex-col lg:flex-row'>
+                <div className='pl-10 w-1/2 lg:w-[30rem] self-center   '>
+                    <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
+                </div>
+                <div className='w-full flex flex-col w-full lg:w-2/3'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-xl font-medium'>Grammar and Vocabulary</h1>
+                            <p className='text-[#54595f] pt-2'>Learn German effectively with our language experts. Language is all about words and how you place them. There are various tricks if you need to learn German effectively. We make sure that you master grammar and learn new vocabulary.</p>
+
+                        </div>
+                    </div>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-xl font-medium'>
+                            Listening and Speaking</h1>
+                            <p className='text-[#54595f] pt-2'>When you learn German with our German language course online, we teach you how to effectively understand and speak in German. We consider listening equally as important as speaking.</p>
+
+                        </div>
+                    </div>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-xl font-medium'>Connect with the culture</h1>
+                            <p className='text-[#54595f] pt-2'>Our German language course not only focuses on learning German, but also focuses on learning the German culture. Now dont just learn German, also get into the German culture.</p>
+                        </div>
+                    </div>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-xl font-medium'>Practice with Experts</h1>
+                            <p className='text-[#54595f] pt-2'>After you learn German it is important that you keep practicing your German with German experts. We provide you a good experience and beautiful insights of the German language.</p>
+                        </div>
+                    </div>
+ 
+                </div>
+            </div>
+            {/* <div className='flex flex-col lg:flex-row sm:px-0 lg:px-20 sm:mb-10 lg:mb-20'>
                 <div className='pl-10 w-3/4 lg:w-[60rem] self-center    '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
                 </div>
@@ -255,7 +302,7 @@ export default function AdultsGerman() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             
 

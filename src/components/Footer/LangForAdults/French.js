@@ -255,7 +255,54 @@ export default function AdultsFrench() {
             </Swiper>
 
             <div className='w-full my-20 text-center text-3xl lg:text-4xl font-medium '>How to learn French effectively?</div>
-            <div className='flex flex-col lg:flex-row sm:px-0 lg:px-20 sm:mb-10 lg:mb-20'>
+            <div className='flex flex-col lg:flex-row'>
+                <div className='pl-10 w-1/2 lg:w-[30rem] self-center   '>
+                    <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
+                </div>
+                <div className='w-full flex flex-col w-full lg:w-2/3'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-xl font-medium'>Grammar and Vocabulary</h1>
+                            <p className='text-[#54595f] pt-2'>Learn French effectively with our expert trainers. We incorporate various tricks and tips in our study plans to better teach grammar and vocabulary. A language is all about grammar and vocabulary. So we make sure that we focus on these two aspects of language learning properly.</p>
+
+                        </div>
+                    </div>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-xl font-medium'>
+                            Listening and Speaking</h1>
+                            <p className='text-[#54595f] pt-2'>When you learn French, you focus on understanding, listening, and speaking. Listening and speaking are two main aspects of language learning. In our French language course, we make sure that our students can speak fluently. We also keep activities that make our students understand French effectively.</p>
+
+                        </div>
+                    </div>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-xl font-medium'>Connect with the culture</h1>
+                            <p className='text-[#54595f] pt-2'>Our French language course is designed in a way that we not only teach French but also teach French culture. Culture is an important factor when it comes to language learning. It affects language learning tremendously. Thus, our trainers focus heavily on it.</p>
+                        </div>
+                    </div>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-xl font-medium'>Theoretical approach</h1>
+                            <p className='text-[#54595f] pt-2'>We refer to the best books and curriculum prescribed by the apex language institutions. We want our students to learn from the best guides out there. If you learn French from us, you have a pretty good chance at becoming DELF. We place a lot of importance on international exams.</p>
+                        </div>
+                    </div>
+ 
+                </div>
+            </div>
+            {/* <div className='flex flex-col lg:flex-row sm:px-0 lg:px-20 sm:mb-10 lg:mb-20'>
                 <div className='pl-10 w-3/4 lg:w-[60rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
                 </div>
@@ -299,7 +346,7 @@ export default function AdultsFrench() {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
 
 
 

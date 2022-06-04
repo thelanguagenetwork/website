@@ -153,7 +153,7 @@ export default function AdultsEnglish() {
             >
                 <SwiperSlide>
                     <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
+                        
                         <h3 className='font-bold text-lg my-2'>Interview preparations ​</h3>
                         <p className='text-sm text-gray-700'>
                             We prepare our students for interviews. So don’t just learn English with us, also focus on other aspects that are necessary for sustenance. Get the confidence you will need to ace interviews.   </p>
