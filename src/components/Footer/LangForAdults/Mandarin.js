@@ -84,6 +84,8 @@ export default function AdultsMandarin() {
                     <Levels />
                 </div>
             </div>
+            <div className='w-full text-center text-2xl lg:text-4xl font-semibold mt-20 px-10'>How is learning Mandarin with TLN unique?</div>
+
             {/* <div className='w-full text-center text-3xl lg:text-4xl font-medium mt-20'>How learning Mandarin with TLN unique?</div> */}
             <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly'>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
