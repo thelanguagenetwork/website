@@ -569,35 +569,6 @@ export default function Home() {
             <div className="mb-20 pt-20">
                 <h3 className='w-full text-center font-semibold text-3xl lg:text-4xl'>Our Education Partners</h3>
                 <EducationPartners />
-                {/* <div className="flex flex-row px-10 justify-center items-center pr-1 ">
-                    <div className="p-6 w-1/3 flex flex-col items-center"> <img src="/images/CSI-KJSIEIT-Logo-Final-150x150.png" alt='img' /></div>
-                    <div className="p-6 w-1/3 flex flex-col items-center"> <img src="/images/RCSCW-150x150.png" alt='img' /></div>
-
-                    <div className="p-6 w-1/3 flex flex-col items-center"><img src="/images/DCAC-150x150.png" alt='img1' /> </div>
-
-                    <div className="p-4 w-1/2 flex flex-col items-center"> <img src="/images/Mithibai-college-image-F7E1045E5E3B-1-150x150.png" alt='img1' /></div>
-                    <div className="p-4 w-1/2 flex flex-col items-center">     <img src="/images/Black-RAYS-Logo-PNG-150x150.png" alt='img1' /></div>
-                    <div className="p-4 w-1/2 flex flex-col items-center"> <img src="/images/St-Andrews-Logo-150x150.png" alt='img1' /></div>
-                    <div className="p-4 w-1/2 flex flex-col items-center pt-10"> <img src="/images/Asset 8@300x.png" alt='img1' /></div>
-                </div>
-                <div className="flex flex-row items-center justify-center block md:hidden">
-                    <div className="flex flex-col w-1/2 justify-center">
-                        <div className="p-12 w-full flex flex-col items-center"> <img src="/images/CSI-KJSIEIT-Logo-Final-150x150.png" alt='img' /></div>
-                        <div className="p-12 w-full flex flex-col items-center"> <img src="/images/RCSCW-150x150.png" alt='img' /></div>
-                        <div className="p-12 w-full flex flex-col items-center"><img src="/images/DCAC-150x150.png" alt='img1' /> </div>
-                    </div>
-
-                    <div className="flex flex-col w-1/2 justify-center">
-                        <div className="p-10 w-full flex flex-col items-center"> <img src="/images/Mithibai-college-image-F7E1045E5E3B-1-150x150.png" alt='img1' /></div>
-                        <div className="p-10 w-full flex flex-col items-center">     <img src="/images/Black-RAYS-Logo-PNG-150x150.png" alt='img1' /></div>
-                        <div className="p-10 w-full flex flex-col items-center"> <img src="/images/St-Andrews-Logo-150x150.png" alt='img1' /></div>
-                    </div>
-
-                </div> */}
-                {/* <div className="flex items-center justify-center block md:hidden">
-                    <div className="p-10 w-1/2 flex flex-col items-center pt-10"> <img src="/images/Asset 8@300x.png" alt='img1' /></div>
-
-                </div> */}
 
             </div>
 
