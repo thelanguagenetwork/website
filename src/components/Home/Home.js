@@ -99,7 +99,7 @@ export default function Home() {
                     <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab] lg:pt-2'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>
                     <h2 className='text-black font-semibold lg:font-medium text-2xl lg:text-5xl'>Learn a Language in less than 3 months</h2>
 
-                    <span className='font-medium '>At The Language Network, we help you master a new foreign language of your choice from the comfort of your home.</span>
+                   {/* <span className='font-medium '>At The Language Network, we help you master a new foreign language of your choice from the comfort of your home.</span>*/}
                     <ul>
                         <li className='flex flex-row py-3'><img src='/images/icons8-tick-box-20.png' alt='img' className='pr-2 h-[21px]' />Live 1:1, Duo and Group Online Classes</li>
                         <li className='flex flex-row py-3'><img src='/images/icons8-tick-box-20.png' alt='img' className='pr-2 h-[21px]' />Flexible timings</li>
