@@ -176,14 +176,8 @@ export default function Home() {
                     <h1>START YOUR JOURNEY WITH US!</h1>
                     <h2 className="px-10 ">Foreign Language Courses We Offer</h2>
                     <div className='hidden lg:flex lg:pt-10 w-full lg:w-full sm:space-y-4 lg:space-y-0 py-5 px-10'>
-                        {/* <a href='/english-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-english@300x.png' /></a>
-                    <a href='/french-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-french@300x.png' /></a>
-                    <a href='/spanish-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-spanish@300x.png' /></a>
-                    <a href='/german-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-german@300x.png' /></a>
-                    <a href='/mandarin-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-mandarin@300x.png' /></a>
-                    <a href='/japanese-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-japanese@300x.png' /></a>
-                    <a href='/korean-course-adults'><img className='Home-container-2-img' alt='img' src='/images/adults-korean@300x.png' /></a> */}
-                        <Popup sub="English" a1="/english-course-adults" a2="/english-course-kids" im="/images/English.png" src1="/images/adults-english@300x.png" src2='/images/Astronaut-English.png' />
+                    
+                        <Popup sub="English" a1="/english-course-adults" a2="/english-course-kids" im="/images/eng.svg" src1="/images/adults-english@300x.png" src2='/images/Astronaut-English.png' />
                         <Popup sub="French" a1="/french-course-adults" a2="/french-course-kids" im="/images/French.png" src1="/images/adults-french@300x.png" src2='/images/Astronaut-French-1.png' />
                         <Popup sub="Spanish" a1="/spanish-course-adults" a2="/spanish-course-kids" im="/images/Spanish.png" src1="/images/adults-spanish@300x.png" src2='/images/Astronaut-Spanish-1.png' />
                         <Popup sub="German" a1="/german-course-adults" a2="/german-course-kids" im="/images/German.png" src1="/images/adults-german@300x.png" src2='/images/Astronaut-Germany-1.png' />
@@ -191,17 +185,7 @@ export default function Home() {
                         <Popup sub="Japanese" a1="/japanese-course-adults" a2="/japanese-course-kids" im="/images/Japanese.png" src1="/images/adults-japanese@300x.png" src2='/images/Astronaut-Japanese-1.png' />
                         <Popup sub="Korean" a1="/korean-course-adults" a2="/korean-course-kids" im="/images/Korean.png" src1="/images/adults-korean@300x.png" src2='/images/Astronaut-Korean-1.png' />
                     </div>
-                    {/* <div className='lg:hidden px-3'>
-                        <span class="inline-grid grid-cols-2 gap-4">
-                            <span> <Popup sub="English" a1="/english-course-adults" a2="/english-course-kids" im="/images/English.png" src1="/images/adults-english@300x.png" src2='/images/Astronaut-English.png' /></span>
-                            <span> <Popup sub="French" a1="/french-course-adults" a2="/french-course-kids" im="/images/French.png" src1="/images/adults-french@300x.png" src2='/images/Astronaut-French-1.png' /></span>
-                            <span> <Popup sub="Spanish" a1="/spanish-course-adults" a2="/spanish-course-kids" im="/images/Spanish.png" src1="/images/adults-spanish@300x.png" src2='/images/Astronaut-Spanish-1.png' /></span>
-                            <span> <Popup sub="German" a1="/german-course-adults" a2="/german-course-kids" im="/images/German.png" src1="/images/adults-german@300x.png" src2='/images/Astronaut-Germany-1.png' /></span>
-                            <span>< Popup sub="Mandarin" a1="/mandarin-course-adults" a2="/mandarin-course-kids" im="/images/Mandarin.png" src1="/images/adults-mandarin@300x.png" src2='/images/Astronaut-Mandarin-1.png' /> </span>
-                            <span><Popup sub="Japanese" a1="/japanese-course-adults" a2="/japanese-course-kids" im="/images/Japanese.png" src1="/images/adults-japanese@300x.png" src2='/images/Astronaut-Japanese-1.png' /></span>
-                            <span> <Popup sub="Korean" a1="/korean-course-adults" a2="/korean-course-kids" im="/images/Korean.png" src1="/images/adults-korean@300x.png" src2='/images/Astronaut-Korean-1.png' /></span>
-                        </span>
-                    </div> */}
+                   
 
 
                     <Swiper className='pagi1 block lg:hidden mb-12 lg:mb-0' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
@@ -240,49 +224,7 @@ export default function Home() {
                     </Swiper>
                 </div>
             </div>
-            {/* 
-            <div className="">
-                <div>
-
-                </div>
-                <div>
-                    <Swiper className='pagi1 block lg:hidden mb-12 lg:mb-0' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
-                        breakpoints={{
-                            640: {
-                                slidesPerView: 1
-
-                            },
-                        }}
-                        pagination={false} navigation={true} autoplay={{
-                            "delay": 2500,
-                            "disableOnInteraction": false
-                        }}
-                    >
-                        <SwiperSlide>
-                            <Popup sub="English" a1="/english-course-adults" a2="/english-course-kids" im="/images/English.png" src1="/images/adults-english@300x.png" src2='/images/Astronaut-English.png' />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <Popup sub="French" a1="/french-course-adults" a2="/french-course-kids" im="/images/French.png" src1="/images/adults-french@300x.png" src2='/images/Astronaut-French-1.png' />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <Popup sub="Spanish" a1="/spanish-course-adults" a2="/spanish-course-kids" im="/images/Spanish.png" src1="/images/adults-spanish@300x.png" src2='/images/Astronaut-Spanish-1.png' />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <Popup sub="German" a1="/german-course-adults" a2="/german-course-kids" im="/images/German.png" src1="/images/adults-german@300x.png" src2='/images/Astronaut-Germany-1.png' />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <Popup sub="Mandarin" a1="/mandarin-course-adults" a2="/mandarin-course-kids" im="/images/Mandarin.png" src1="/images/adults-mandarin@300x.png" src2='/images/Astronaut-Mandarin-1.png' />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <Popup sub="Japanese" a1="/japanese-course-adults" a2="/japanese-course-kids" im="/images/Japanese.png" src1="/images/adults-japanese@300x.png" src2='/images/Astronaut-Japanese-1.png' />
-                        </SwiperSlide>
-
-                        <SwiperSlide>
-                            <Popup sub="Korean" a1="/korean-course-adults" a2="/korean-course-kids" im="/images/Korean.png" src1="/images/adults-korean@300x.png" src2='/images/Astronaut-Korean-1.png' /></SwiperSlide>
-                    </Swiper>
-
-                </div>
-            </div> */}
+          
 
             <div className="Home-container-81 my-14 text-center flex justify-center">
                 <h1>FROM LEARNING A NEW LANGUAGE TO LIVING IT!</h1>
@@ -317,71 +259,13 @@ export default function Home() {
 
             <div className=" lg:px-4 hidden md:block lg:block mt-20 ">
                 <BodyCarousel />
-                {/* <div className="flex flex-row px-10 justify-center items-center ">
-                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img1} alt='img' /></div>
-                    <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img2} alt='img' /></div>
-
-                    <div className="p-2 w-1/2 flex flex-col items-center"><img src={img3} alt='img' /> </div>
-
-                    <div className="p-2 w-1/2 flex flex-col items-center"> <img src={img4} alt='img' /></div>
-                    <div className="p-2 w-1/2 flex flex-col items-center">    <img src={img5} alt='img' /></div>
-                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img6} alt='img' /></div>
-                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img7} alt='img' /></div>
-                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img8} alt='img' /></div>
-
-                    <div className="p-2 w-1/2 flex flex-col items-center">  <img src={img9} alt='img' /> </div>
-
-                </div> */}
+              
             </div>
             <div className='lg:hidden mt-2 mb-10'>
                 <MoCar />
 
             </div>
-            {/* <div>
-            <Swiper className='pagi2' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
-                    breakpoints={{
-                        640: {
-                            slidesPerView: 1
-
-                        },
-                        768: {
-                            slidesPerView: 3
-                        }
-                    }}
-                    pagination={{
-                        "clickable": true
-                    }} navigation={true} autoplay={{
-                        "delay": 2500,
-                        "disableOnInteraction": false
-                    }} >
-                    <SwiperSlide className="mb-10 p-20">
-                        <img src={img1} alt='img' />
-                    </SwiperSlide><SwiperSlide className="mb-10 p-20">
-                        <img src={img2} alt='img' />
-                    </SwiperSlide><SwiperSlide className="mb-10 p-20">
-                        <img src={img3} alt='img' />
-                    </SwiperSlide>
-                    <SwiperSlide className="mb-10 p-20">
-                        <img src={img4} alt='img' />
-                    </SwiperSlide>
-                    <SwiperSlide className="mb-10 p-20">
-                        <img src={img5} alt='img' />
-                    </SwiperSlide>
-                    <SwiperSlide className="mb-10 p-20">
-                        <img src={img6} alt='img' />
-                    </SwiperSlide>
-                    <SwiperSlide className="mb-10 p-20">
-                        <img src={img7} alt='img' />
-                    </SwiperSlide>
-                    <SwiperSlide className="mb-10 p-20">
-                        <img src={img8} alt='img' />
-                    </SwiperSlide>
-                    <SwiperSlide className="mb-10 p-20">
-                        <img src={img9} alt='img' />
-                    </SwiperSlide>
-                    
-                </Swiper>
-            </div> */}
+          
 
             <div className='flex justify-center w-full text-center'>
                 <div className="Home-container- w-full lg:px-72 lg:mt-20 px-10 flex flex-col justify-center items-center">
@@ -476,26 +360,6 @@ export default function Home() {
             </div>
 
 
-
-
-
-            {/* <div className="py-3 lg:py-0 my-2 lg:flex flex-row h-auto w-full bg-[#f4f8fb] px-8 ">
-                <div className='flex flex-col space-y-6 mx-0 lg:mx-4 lg:mx-0 lg:pl-20 lg:pr-52 justify-center lg:w-2/3'>
-                    <h1 className='font-medium text-3xl lg:text-4xl'>The Language Network saves you
-                        <div class="scroller">
-                            <span className='bg-[#13bfab] px-3 text-center text-white font-medium'>
-                                Time<br />
-                                Money
-                            </span>
-                        </div>
-                    </h1>
-                    <p className='text-lg font-medium'>Our online classes cut out that stressful commute so you can focus your energy on learning. We offer quality courses at affordable prices, with no hidden costs. Up to 30% cheaper than traditional language schools.</p>
-                </div>
-                <div className='flex align-center w-80 lg:w-1/2 lg:p-20 mt-4 lg:mt-0 items-center'>
-                    <img src="/images/progress.png" alt="" className='lg:pl-10 px-10 lg:px-20' />
-                </div>
-            </div> */}
-
             <div className="my-2 px-10 lg:px-0 lg:pl-32 lg:flex flex-row lg:h-[65vh] w-full bg-[#f4f8fb]">
                 <div className='flex flex-col space-y-6 justify-center lg:w-2/3'>
                     <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-0'>TRANSFORM YOUR CAREER</h1>
@@ -527,46 +391,6 @@ export default function Home() {
                 </div>
             </div>
             <Team />
-
-            {/* <div className="Home-container-61 lg:px-40 mt-10 lg:mt-36">
-                <h3 className='w-full text-center font-semibold text-3xl lg:text-4xl'>Our Education Partners</h3>
-
-                <Swiper className='pagi1' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
-                    breakpoints={{
-                        640: {
-                            slidesPerView: 1
-
-                        },
-                        768: {
-                            slidesPerView: 4
-                        }
-                    }}
-                    pagination={{
-                        "clickable": true
-                    }} navigation={true} autoplay={{
-                        "delay": 2500,
-                        "disableOnInteraction": false
-                    }}
-                >
-                    <SwiperSlide>
-                        <img src="/images/CSI-KJSIEIT-Logo-Final-150x150.png" alt='img' />
-                    </SwiperSlide><SwiperSlide>
-                        <img src="/images/RCSCW-150x150.png" alt='img' />
-                    </SwiperSlide><SwiperSlide>
-                        <img src="/images/DCAC-150x150.png" alt='img1' />
-                    </SwiperSlide><SwiperSlide>
-                        <img src="/images/Mithibai-college-image-F7E1045E5E3B-1-150x150.png" alt='img1' />
-                    </SwiperSlide><SwiperSlide>
-                        <img src="/images/Black-RAYS-Logo-PNG-150x150.png" alt='img1' />
-                    </SwiperSlide><SwiperSlide>
-                        <img src="/images/St-Andrews-Logo-150x150.png" alt='img1' />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="/images/Asset 8@300x.png" alt='img1' className='w-[60%]' />
-                    </SwiperSlide>
-                </Swiper>
-            </div> */}
-
 
             <div className="Home-container-112 mt-20 lg:mb-20">
                 <h1>Happy Testimonials</h1>

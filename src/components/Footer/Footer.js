@@ -157,7 +157,7 @@ export default function Footer() {
                                         aria-controls="panel1a-content"
                                         id="panel1a-header"
                                     >
-                                        <Typography style={{ color: '#13bfab', fontWeight: 500 }}>Languages fo Kids</Typography>
+                                        <Typography style={{ color: '#13bfab', fontWeight: 500 }}>Languages for Kids</Typography>
                                     </AccordionSummary>
                                     <AccordionDetails>
                                         <Typography style={{ color: '#000', fontWeight: 500, padding: 0 }}>
