@@ -327,16 +327,17 @@ export default function KidsJapanese() {
                 </div>
             </div>
 
-            <div className='flex flex-col items-center '>
-                <div className="Home-container-3 sm:px-0 lg:px-48 sm:pt-10 lg:pt-20 ">
-                    <h1 className='font-semibold'>
+            <div className='flex flex-col items-center pt-10'>
+            <div className="Home-container-32 sm:px-4 lg:px-48 sm:pt-20 lg:pt-20 ">
+                    <h1 className='font-semibold text-2xl lg:text-4xl'>
                         Students at The Language Network
                     </h1>
                     <p className="sm:px-10 lg:px-2 font-medium pb-2 pt-2">
+                        <div className="px-4 ">
                         We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
+                        </div>
                     </p>
                 </div>
-
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className="w-5/6 hidden lg:flex flex-row space-y-10 lg:space-y-0 mt-12">
                         <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300 rounded-2xl" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
@@ -418,7 +419,7 @@ export default function KidsJapanese() {
             <div className='mt-24'>
                 <LearningPricesKids one_one={Japanese_1_1} one_two={Japanese_1_2} one_four={Japanese_1_4} />
             </div>
-            <p className='w-full lg:px-80 pt-20 text-center font-medium text-4xl'>Join us in a language trip now, by following these simple steps</p>
+            {/* <p className='w-full lg:px-80 pt-20 text-center font-medium lg:text-4xl text-2xl px-3'>Join us in a language trip now, by following these simple steps</p>
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-20 mx-auto">
                     <div class="hidden lg:flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
@@ -480,7 +481,7 @@ export default function KidsJapanese() {
                         </a>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <p className='w-full  text-center font-bold text-4xl pb-3'>Frequently asked questions</p>
 

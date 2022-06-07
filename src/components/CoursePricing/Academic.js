@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import './Courses.css';
 import { useState } from 'react';
 import AOS from 'aos'
@@ -19,8 +19,6 @@ import LearningPricesKids from './LearningPricesKids';
 // import { Mandarin_1_1, Mandarin_1_2, Mandarin_1_4 } from './CourseTableData_kids/Mandarin'
 // import { Japanese_1_1, Japanese_1_2, Japanese_1_4 } from './CourseTableData_kids/Japanese'
 // import { Korean_1_1, Korean_1_2, Korean_1_4 } from './CourseTableData_kids/Korean'
-import Academic from './Academic';
-import Competitive from './Competitive'
 import KidsEnglish from '../Footer/LangKids2/English';
 import KidsFrench from '../Footer/LangKids2/French';
 import KidsSpanish from '../Footer/LangKids2/Spanish';
@@ -29,9 +27,7 @@ import KidsMandarin from '../Footer/LangKids2/Mandarin';
 import KidsJapanese from '../Footer/LangKids2/Japanese';
 import KidsKorean from '../Footer/LangKids2/Korean';
 
-
-export default function KidsCourses() {
-
+export default function Academic() {
     AOS.init()
 
     function changeCol1() {
@@ -61,20 +57,20 @@ export default function KidsCourses() {
 
     }
     const [Opt, setOpt] = useState(2)
-    const LearningPricesKids = () => {
-        switch (Opt) {
-            case 1:
-                //put prices for 1:1
-                return <Academic />;
-                break;
-            case 2:
-                //put prices for 1:2
-                return <Competitive />;
-                break;  
-            default:
-                break;
-        }
-    };
+    // const LearningPricesKids = () => {
+    //     switch (Opt) {
+    //         case 1:
+    //             //put prices for 1:1
+    //             return <Academic />;
+    //             break;
+    //         case 2:
+    //             //put prices for 1:2
+    //             return <Competitive />;
+    //             break;  
+    //         default:
+    //             break;
+    //     }
+    // };
     const [language, setLanguage] = useState('English')
     const LanguageSec = () => {
         switch (language) {
@@ -133,38 +129,22 @@ export default function KidsCourses() {
     }
 
     return <div>
-        <div className="KidsEnglish h-[70vh] mb-20" >
-            <div className="bg-[rgba(0,0,0,0.4)] h-full ">
-                <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
-                    <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>Bring the world to your child</h1>
-                    <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'> with our foreign language courses</h1>
-                    <h1 className='text-md my-10 text-white font-medium'>1-to-1 classes for kids (6-13 years old) with professional teachers.</h1>
-                    <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">Get Started</button>
-                </div>
-            </div>
-        </div>
-        <div>
+        
+
+        {/* <div>
             <div className='w-full flex justify-center fadeIN'>
                 <a onClick={() => setOpt(1)} id={Opt === 1 ? 'btnP' : ''} class="flex flex-col text-center buttons bg-white py-2.5 px-4 rounded-lg shadow lg:mx-3">
                     <h1 className='lg:text-xl font-medium text-md'>Academic</h1>
-                    {/* <h2 className='text-gray-800 lg:text-sm text-xs'>(1 Teacher & 1 Student)</h2> */}
                 </a>
                 <a onClick={() => setOpt(2)} id={Opt === 2 ? 'btnP' : ''} class="flex flex-col text-center buttons bg-white  py-2.5 px-4 rounded-lg shadow lg:mx-3">
                     <h1 className='lg:text-xl font-medium text-md'>Competitive</h1>
-                    {/* <h2 className='text-gray-800 lg:text-sm text-xs'>(1 Teacher & 2 Student)</h2> */}
                 </a>
-                {/* {props.one_four[0].language !== 'Mandarin' &&
             
-            <a onClick={() => setOpt(3)} id={Opt === 3 ? 'btnP' : ''} class="flex flex-col text-center buttons bg-white  py-2.5 px-4 rounded-lg shadow lg:mx-3">
-                <h1 className='lg:text-xl font-medium text-md'>Group Learning</h1>
-                <h2 className='text-gray-800 lg:text-sm text-xs'>(1 Teacher & 6 Student)</h2>
-            </a>                
-            } */}
             </div>
-        <LearningPricesKids />
+            <LearningPricesKids />
+        </div> */}
 
-        </div>
-        {/* <div className="Home-container-2 px-5 fadeIN" style={{ width: '100%', marginTop: '2rem', paddingTop: 0 }}>
+        <div className="Home-container-2 px-5 fadeIN" style={{ width: '100%', marginTop: '2rem', paddingTop: 0 }}>
             <h2>A Fun, Proven method for Learning</h2>
             <h1 className='mb-12'>Choose a language</h1>
             <div className='Home-container-2-imgs hidden lg:flex'>
@@ -173,8 +153,8 @@ export default function KidsCourses() {
                 <a onClick={() => setLanguage('Spanish')} className='lg:mt-12'><img id={language === 'Spanish' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-spanish@300x.png' /></a>
                 <a onClick={() => setLanguage('German')} className='lg:mt-12'><img id={language === 'German' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-german@300x.png' /></a>
                 <a onClick={() => setLanguage('Mandarin')} className='lg:mt-12'><img id={language === 'Mandarin' ? 'selected' : ''} className='Home-container-2-img h-[95%]  lg:w-auto' alt='img' src='/images/adults-mandarin@300x.png' /></a>
-                <a onClick={() => setLanguage('Japanese')} className='lg:mt-12'><img id={language === 'Japanese' ? 'selected' : ''} className='Home-container-2-img h-[95%]  lg:w-auto' alt='img' src='/images/adults-japanese@300x.png' /></a>
-                <a onClick={() => setLanguage('Korean')} className='lg:mt-12'><img id={language === 'Korean' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-korean@300x.png' /></a>
+                {/* <a onClick={() => setLanguage('Japanese')} className='lg:mt-12'><img id={language === 'Japanese' ? 'selected' : ''} className='Home-container-2-img h-[95%]  lg:w-auto' alt='img' src='/images/adults-japanese@300x.png' /></a>
+                <a onClick={() => setLanguage('Korean')} className='lg:mt-12'><img id={language === 'Korean' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-korean@300x.png' /></a> */}
             </div>
             <Swiper className='pagi1 block lg:hidden' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
                 breakpoints={{
@@ -205,16 +185,16 @@ export default function KidsCourses() {
                 <SwiperSlide>
                     <a onClick={() => setLanguage('Mandarin')} className='m-12'><img id={language === 'Mandarin' ? 'selected' : ''} className='Home-container-2-img h-[95%]  lg:w-auto' alt='img' src='/images/adults-mandarin@300x.png' /></a>
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <a onClick={() => setLanguage('Japanese')} className='m-12'><img id={language === 'Japanese' ? 'selected' : ''} className='Home-container-2-img h-[95%]  lg:w-auto' alt='img' src='/images/adults-japanese@300x.png' /></a>
                 </SwiperSlide>
                 <SwiperSlide>
                     <a onClick={() => setLanguage('Korean')} className='m-12'><img id={language === 'Korean' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-korean@300x.png' /></a>
-                </SwiperSlide>
+                </SwiperSlide> */}
             </Swiper>
-        </div> */}
+        </div>
 
-        {/* <LanguageSec /> */}
+        <LanguageSec />
 
     </div>;
 }

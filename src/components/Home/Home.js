@@ -99,14 +99,16 @@ export default function Home() {
                     <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab] lg:pt-2'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>
                     <h2 className='text-black font-semibold lg:font-medium text-2xl lg:text-5xl'>Learn a Language in less than 3 months</h2>
 
-                   {/* <span className='font-medium '>At The Language Network, we help you master a new foreign language of your choice from the comfort of your home.</span>*/}
+                    {/* <span className='font-medium '>At The Language Network, we help you master a new foreign language of your choice from the comfort of your home.</span>*/}
                     <ul>
                         <li className='flex flex-row py-3'><img src='/images/icons8-tick-box-20.png' alt='img' className='pr-2 h-[21px]' />Live 1:1, Duo and Group Online Classes</li>
                         <li className='flex flex-row py-3'><img src='/images/icons8-tick-box-20.png' alt='img' className='pr-2 h-[21px]' />Flexible timings</li>
                         <li className='flex flex-row py-3'><img src='/images/icons8-tick-box-20.png' alt='img' className='pr-2 h-[21px]' />Take learning beyond the classroom</li>
                     </ul>
-                    <a href='/getstarted'><button type="button" class="btn btn-info text-white" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '16px', paddingRight: '30px', paddingBottom: '16px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Get Started</button></a>
-
+                    <a href='/getstarted'><button type="button" class="btn btn-info text-white hidden lg:block" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '16px', paddingRight: '30px', paddingBottom: '16px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Get Started</button></a>
+                    <div className='w-1/4 hidden lg:block'>
+                        <a href="https://www.google.com/search?q=the+language+network&rlz=1C1ONGR_enIN963IN963&oq=the+&aqs=chrome.1.69i57j69i59l3j69i65j69i61j69i60j69i65.1919j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3be7cfc23fb20ae5:0xac69a09818daea44,1,,,"><img src="/images/gr.svg" className='w-80' /></a>
+                    </div>
                 </div>
                 <div className='w-full lg:w-6/12 flex items-center justify-center lg:pl-20 mt-7'>
                     {/* <Globe3d className='' /> */}
@@ -157,12 +159,18 @@ export default function Home() {
             {/* <div className='w-full lg:hidden block'>
                 <GlobeMobile className='' />
             </div> */}
-            <div className='flex justify-left pt-10 ml-20 sm: ml-10'> 
-                   <a href="https://www.google.com/search?q=the+language+network&rlz=1C1ONGR_enIN963IN963&oq=the+&aqs=chrome.1.69i57j69i59l3j69i65j69i61j69i60j69i65.1919j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3be7cfc23fb20ae5:0xac69a09818daea44,1,,,"><img src="/images/gr.svg" className='w-80 ' /></a>
+
+            <div className="sm:block lg:hidden flex flex-col justify-center text-center px-10 pt-10">
+                <div className="">
+                    <a href='/getstarted'><button type="button" class="btn btn-info text-white w-full" style={{ backgroundColor: '#13bfab', borderRadius: '10px', paddingTop: '16px', paddingRight: '30px', paddingBottom: '16px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>Get Started</button></a>
+                    <div className='px-20 py-10'>
+                        <a href="https://www.google.com/search?q=the+language+network&rlz=1C1ONGR_enIN963IN963&oq=the+&aqs=chrome.1.69i57j69i59l3j69i65j69i61j69i60j69i65.1919j0j7&sourceid=chrome&ie=UTF-8#lrd=0x3be7cfc23fb20ae5:0xac69a09818daea44,1,,,"><img src="/images/gr.svg" className='w-80' /></a>
+                    </div>
+                </div>
             </div>
-         
+
             <div className="flex justify-center  md:block lg:block items-center">
-                
+
 
                 <div className="Home-container-2  lg:pb-[60px] pb-2 w-full lg:w-full mt-16">
                     <h1>START YOUR JOURNEY WITH US!</h1>
