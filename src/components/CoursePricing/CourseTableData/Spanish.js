@@ -145,7 +145,7 @@ export const Spanish_1_2 = [
 
 export const Spanish_1_4 = [
     {
-        title: 'Introduction to ',
+        title: 'Introduction to Spanish',
         includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
         link:"abc",
         language: "Spanish",

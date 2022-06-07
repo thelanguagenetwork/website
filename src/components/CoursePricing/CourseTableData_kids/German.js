@@ -2,7 +2,9 @@ export const German_1_1 = [
     {
         language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'A1',
+        includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
+
+        lvlName: '12 Hours',
        //OgPrice : 444,
        DiscPrice :21990 ,
         Link: "https://rzp.io/l/oG1DBhmr"
@@ -10,7 +12,9 @@ export const German_1_1 = [
     {
         language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'A2',
+        includes:'Simple communication, Grammar and Vocabulary',
+
+        lvlName: '24 Hours',
        // OgPrice : 444,
         DiscPrice : 25990,
         Link: "https://rzp.io/l/germanA21"
@@ -18,43 +22,44 @@ export const German_1_1 = [
     {
         language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'B1',
+        includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
+        lvlName: '48 Hours',
         //OgPrice : 444,
         DiscPrice : 29990,
         Link: "https://rzp.io/l/germanB11"
     },
-    {
-        language: "German",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'B2',
-       // OgPrice : 444,
-        DiscPrice : 34990,
-        Link: "https://rzp.io/l/5GXIGr5Ug9"
-    },
-    {
-        language: "German",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'A1+A2',
-        //OgPrice : 444,
-        DiscPrice : 38390,
-        Link: "https://rzp.io/l/germana1a21"
-    },
-    {
-        language: "German",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'B1+B2',
-        //OgPrice : 444,
-        DiscPrice : 51990,
-        Link: "https://rzp.io/l/germanb1b21"
-    },
-    {
-        language: "German",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'A1+A2+B1+B2',
-      //  OgPrice : 444,
-       DiscPrice : 90390,
-        Link: "https://rzp.io/l/brGLtDdhn"
-    }
+    // {
+    //     language: "German",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'B2',
+    //    // OgPrice : 444,
+    //     DiscPrice : 34990,
+    //     Link: "https://rzp.io/l/5GXIGr5Ug9"
+    // },
+    // {
+    //     language: "German",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'A1+A2',
+    //     //OgPrice : 444,
+    //     DiscPrice : 38390,
+    //     Link: "https://rzp.io/l/germana1a21"
+    // },
+    // {
+    //     language: "German",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'B1+B2',
+    //     //OgPrice : 444,
+    //     DiscPrice : 51990,
+    //     Link: "https://rzp.io/l/germanb1b21"
+    // },
+    // {
+    //     language: "German",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'A1+A2+B1+B2',
+    //   //  OgPrice : 444,
+    //    DiscPrice : 90390,
+    //     Link: "https://rzp.io/l/brGLtDdhn"
+    // }
 ]
 
 export const German_1_2 = [
