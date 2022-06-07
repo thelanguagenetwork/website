@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "thelanguagenetwork-23501"
-  }
+    "default": "thelanguagenetwork-b8126",
+    "yes": "thelanguagenetwork-b8126"
+  },
+  "targets": {}
 }
