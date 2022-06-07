@@ -8,9 +8,8 @@ import "swiper/css/pagination"
 import "swiper/css/navigation"
 import KidsLevels from './KidsLevels';
 import LearningPricesKids from '../../CoursePricing/LearningPricesKids';
-import { Mandarin_1_1, Mandarin_1_2, Mandarin_1_4 } from '../../CoursePricing/CourseTableData_kids/Mandarin.js'
-
-export default function KidsMandarin() {
+import { Spanish_1_1, Spanish_1_2, Spanish_1_4 } from '../../CoursePricing/CourseTableData_kids/Spanish.js'
+export default function KidsSpanish() {
 
     AOS.init()
 
@@ -42,35 +41,38 @@ export default function KidsMandarin() {
     }
     return (
         <div>
-            <div className="h-[100vh] pt-10 lg:pt-0 px-10 lg:px28 lg:flex flex-row items-center">
-                <div className='lg:w-1/2 lg:pl-10'>
-                    <h2 className='font-semibold text-2xl lg:text-4xl'>Levels of Language Learning for Kids and Adolescents</h2>
-                    <p className='text-sm text-[#54595f] my-3'>At The Language Network, we consider learning as the most important activity. Our Mandarin language course for kids covers all the 10 grades. Language learning can start from a very early age. Enrol your child in our Mandarin language course for kids and give your child a head start. </p>
-                    <p className='text-sm text-[#54595f] my-3'  >Learning Mandarin as a second language will keep your child ahead of his peers. It will also benefit your child a lot in their career. There is no better feeling than seeing your child progress in their life.</p>
+            <div className="h-[100vh] pt-10 px-10 lg:px28 lg:flex flex-row items-center">
+                <div className='lg:w-1/2 lg:px-10'>
+                    <h2 className='font-semibold text-2xl lg:text-4xl'>Online Spanish for Kids</h2>
+                    <p className='text-sm text-[#54595f] my-3'>Online Spanish classes for kids at The Language Network, is your path to fluency!</p>
+                    <p className='text-sm text-[#54595f] my-3'>Our online Spanish lessons are adjusted to every child’s interests and language goals.</p>
+                    <p className='text-sm text-[#54595f] my-3'>Our main goal is to teach foreign languages to kids in a student-centered learning approach with the assistance of experienced trainers!</p>
+                    <p className='text-sm text-[#54595f] my-3'>Enroll in our online Spanish classes and boost your language skills with our qualified trainers and start seeing your results immediately! Book a free trial and build your path to fluency!</p>
                 </div>
-                <div className='lg:w-1/2'>
-                    <img src="/images/TLN_Mandarin-elements.png" alt="img" />
+                <div className='lg:w-1/2 lg:ml-28'>
+                    <img src="/images/TLN_Spanish-elements.png" alt="img" />
                 </div>
             </div>
-            <div className="KidsMandarin h-[70vh]" >
+            {/* <div className="KidsSpanish h-[70vh]" >
                 <div className="bg-[rgba(0,0,0,0.4)] h-full ">
                     <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
-                        <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>Mandarin Classes for Kids</h1>
-                        <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online Mandarin classes for adults (14+ years old) with professional teachers.</h1>
-                        <a href="/getstarted"> <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">Get started</button></a>
+                        <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>Spanish Classes for Kids</h1>
+                        <h1 className='text-md my-10 text-white font-medium'>1-to-1 , 1-to-2 and Group Online Spanish classes for kids (6-9 years old) with professional teachers.</h1>
+                        <a href="/getstarted"><button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">Get Started</button></a>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* <div className="my-20 lg:flex flex-row">
                 <div className='space-y-2 px-10 lg:px-20'>
-                    <h1 className="font-bold text-3xl lg:text-4xl">Mandarin Language Levels for Kids</h1>
+                    <h1 className="font-bold text-3xl lg:text-4xl">Spanish Language Levels for Kids</h1>
                     <p className='text-sm text-[#54595f]'>All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.</p>
-                    <p className='text-sm text-[#54595f]'>Online Mandarin for kids is divided into following levels:</p>
+                    <p className='text-sm text-[#54595f]'>Online Spanish for kids is divided into following levels:</p>
                     <ul className='list-disc font-bold text-gray-600 pl-3 leading-10'>
                         <li>Level A1-  A1.1, A1.1</li>
-                        <li> Level A2- A2.1, A2.2</li>
+                        <li>Level A2- A2.1, A2.2</li>
                     </ul>
+                    <p className='text-sm text-[#54595f]'>These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and A2 the most advanced. Later your child will be able to continue with the DELF Junior B1 and the DELF B2 Junior.</p>
                 </div>
                 <div className='flex align-center px-20 py-20 lg:px-10 lg:py-10'>
                     <img src='/images/French-levels@300x-1536x931.png' alt='img' />
@@ -79,119 +81,114 @@ export default function KidsMandarin() {
 
             <div className="my-24 lg:flex sm:px-4 lg:px-20 lg:pt-10 flex-row h-auto w-full bg-[#f4f8fb]">
                 <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
-                    <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>Mandarin Language Levels for Kids</h1>
+                    <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>Spanish Language Levels for Kids</h1>
                     <p className='text-sm text-[#54595f]'>
                         All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
                     </p>
                     <p className='text-sm text-[#54595f]'>
-                        These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and A2 the most advanced. Later your child will be able to continue with the DELF Junior B1 and the DELF B2 Junior.                    </p>
+                        These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and A2 the most advanced. Later your child will be able to continue with the DELF Junior B1 and the DELF B2 Junior</p>
                 </div>
                 <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
                     <KidsLevels />
                 </div>
             </div>
 
-            <div className='w-full text-center font-semibold text-3xl lg:text-4xl'>Benefits of Learning Mandarin with TLN?</div>
+            <div className='w-full text-center font-semibold text-3xl lg:text-4xl'>Benefits of Learning Spanish with TLN?</div>
             <section class="text-gray-600 body-font">
                 <div class="container px-2 lg:px-5 py-20 mx-auto">
                     <div class="flex flex-wrap -m-4">
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg h-60">
+                            <div class="border border-gray-200 p-6 rounded-lg h-56">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Language Immersion</h2>
-                                <p class="leading-relaxed text-base">Now immerse your child in the world of knowledge with our Mandarin language course for kids. Practice Mandarin with our language experts and receive lots of positive benefits.</p>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Small Batches</h2>
+                                <p class="leading-relaxed text-base">Enjoy small 1:2 or group batches so you can practice, improve and get instant feedback</p>
                             </div>
                         </div>
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg h-60">
+                            <div class="border border-gray-200 p-6 rounded-lg h-56">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Experienced Teachers</h2>
-                                <p class="leading-relaxed text-base">We have hired a team of experienced professionals to teach our students. Now learn only from the best and become a master of the Mandarin language.</p>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">
+                                    Flexible Timings</h2>
+                                <p class="leading-relaxed text-base">Take online lessons at the time that suits you; learn in the morning or evening, weekday or weekend.</p>
                             </div>
                         </div>
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg h-60">
+                            <div class="border border-gray-200 p-6 rounded-lg h-56">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Simple to Complex Learning Curve</h2>
-                                <p class="leading-relaxed text-base">Our Mandarin language course for kids start from simple Mandarin and then covers complex aspects of the language. We understand the learning needs of our students and teach them accordingly.</p>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Monitor your Child's Progress</h2>
+                                <p class="leading-relaxed text-base">By creating an account, the parent can easily monitor his/her child’s scheduled French lessons, assignments, and progress, so to keep on track!</p>
                             </div>
                         </div>
                         <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg h-60">
+                            <div class="border border-gray-200 p-6 rounded-lg h-56">
                                 <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
                                     <FaLightbulb className='w-full h-full' />
                                 </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Classes from Home</h2>
-                                <p class="leading-relaxed text-base">The Language Network is an online language school. You do not need to waste your time and money to learn Mandarin now. Join TLN and learn from within the comforts of your own home.</p>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Learn from the best</h2>
+                                <p class="leading-relaxed text-base">Qualified, expert teachers leading your class.</p>
                             </div>
                         </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg h-60">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Age-appropriate program</h2>
-                                <p class="leading-relaxed text-base">Our Mandarin courses for kids are hand-tailored to meet the learning needs of children. Our courses are age-appropriate and focus on all aspects of language learning in an easy and understandable way.</p>
-                            </div>
-                        </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg h-60">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
-                                </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">European Standard of Education</h2>
-                                <p class="leading-relaxed text-base">We have created our courses by carefully considering the European standards of education. We also teach our students how to crack international language exams.</p>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </section>
 
             <div className='w-full text-center text-3xl lg:text-4xl font-medium '>Why learn a language with TLN?</div>
             <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly'>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/1_1-batch.png" alt="alt" className='p-8' />
+                <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
-                    <p className='text-sm text-gray-700'>Our Mandarin language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
+                    <p className='text-sm text-gray-700'>Our German language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
                 </div>
                 <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
+                    <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
-                    <p className='text-sm text-gray-700'>You can monitor your child’s progress with our Mandarin language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
+                    <p className='text-sm text-gray-700'>You can monitor your child’s progress with our Spanish language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
                 </div>
-                <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
+                { /* <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-24@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
                     <p className='text-sm text-gray-700'>
-                        Our curriculum is created by carefully integrating all aspects of language learning. Our Learn Mandarin for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
-                </div>
-                <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[29rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/expert.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Learn Mandarin Language from experts</h3>
+                        Our curriculum is created by carefully integrating all aspects of language learning. Our Learn Spanish for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
+                </div>*/}
+                <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>Learn from experts</h3>
                     <p className='text-sm text-gray-700'>
-                        Learn the Mandarin language from our language experts and ace at spoken Mandarin. Our trainers are experts when it comes to teaching children. Leave your child with our expert and expect only the best  </p>
+                        After an extensive hiring process, we have carefully handpicked language experts, who are efficient in teaching kids and adolescents.</p>
                 </div>
-
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[29rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-34@300x.png" alt="alt" className='p-8' />
+                <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>Career Guidance</h3>
+                    <p className='text-sm text-gray-700'>
+                        Our language trainers will guide your children to excel in their academic life. We will also conduct career counselling when it is needed.</p>
+                </div>
+                <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-37@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>International Exams</h3>
                     <p className='text-sm text-gray-700'>
-                        Our Mandarin language course for Kids does not only teach the Mandarin language. We also prepare our students for international exams associated with the language. We believe that our students should aim for the best.   </p>
+                        TLN believes that all its students should appear for international exams like Cambridge. From an early age, we prepare them for these international exams.   </p>
                 </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/culture.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Cultural Knowledge</h3>
+                    <h3 className='font-bold text-lg my-2'>Cultural Sensitivity</h3>
                     <p className='text-sm text-gray-700'>
 
-                        In order to learn a language, it is important to learn the culture associated with it. We teach cultural and social know-how to our students in order to teach a language better.   </p>
+                        Our German language course for kids and adolescents also includes cultural learning. We believe that Cultural learning is important when it comes to language learning. It helps the students learn more efficiently.</p>
                 </div>
+                <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
+                    <h3 className='font-bold text-lg my-2'>Get Certified Results</h3>
+                    <p className='text-sm text-gray-700'>
 
+                        We provided certificates as our students excel in language learning. It ensures that the students will aim higher and be more motivated. Certificates are good for boosting student morale. Learn German with TLN and give wings to your children’s dreams.   </p>
+                </div>
             </div>
             <Swiper className='pagi1 block lg:hidden w-full px-10 md:px-16 bg-inherit' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
                 breakpoints={{
@@ -209,112 +206,137 @@ export default function KidsMandarin() {
                 }}
             >
                 <SwiperSlide>
-                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/1_1-batch.png" alt="alt" className='p-8' />
+                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
                         <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
-                        <p className='text-sm text-gray-700'>Our Mandarin language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
+                        <p className='text-sm text-gray-700'>Our German language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
+                        <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
                         <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
-                        <p className='text-sm text-gray-700'>You can monitor your child’s progress with our Mandarin language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
+                        <p className='text-sm text-gray-700'>You can monitor your child’s progress with our German language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
+                        <img src="/images/Asset-24@300x.png" alt="alt" className='p-8' />
                         <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
                         <p className='text-sm text-gray-700'>
-                            Our curriculum is created by carefully integrating all aspects of language learning. Our Learn Mandarin for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
+                            Our curriculum is created by carefully integrating all aspects of language learning. Our Learn German for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[29rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/expert.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>Learn Mandarin Language from experts</h3>
+                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Learn from experts</h3>
                         <p className='text-sm text-gray-700'>
-                            Learn the Mandarin language from our language experts and ace at spoken Mandarin. Our trainers are experts when it comes to teaching children. Leave your child with our expert and expect only the best  </p>
+                            After an extensive hiring process, we have carefully handpicked language experts, who are efficient in teaching kids and adolescents. Leave your children with our German language experts and expect nothing but better results.  </p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[29rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-31@300x.png" alt="alt" className='p-8' />
+                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Career Guidance</h3>
+                        <p className='text-sm text-gray-700'>
+                            Our language trainers will guide your children to excel in their academic life. We will also conduct career counselling when it is needed. Push your kids to a new height with our German language courses.  </p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
                         <h3 className='font-bold text-lg my-2'>International Exams</h3>
                         <p className='text-sm text-gray-700'>
-                            Our Mandarin language course for Kids does not only teach the Mandarin language. We also prepare our students for international exams associated with the language. We believe that our students should aim for the best.   </p>
+                            TLN believes that all its students should appear for international exams like Cambridge. From an early age, we prepare them for these international exams.   </p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                         <img src="/images/culture.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>Cultural Knowledge</h3>
+                        <h3 className='font-bold text-lg my-2'>Cultural Sensitivity</h3>
                         <p className='text-sm text-gray-700'>
 
-                            In order to learn a language, it is important to learn the culture associated with it. We teach cultural and social know-how to our students in order to teach a language better.   </p>
+                            Our German language course for kids and adolescents also includes cultural learning. We believe that Cultural learning is important when it comes to language learning. It helps the students learn more efficiently. Thus, we focus on the culture associated with the language.   </p>
                     </div>
                 </SwiperSlide>
+                <SwiperSlide>
+                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Get Certified Results</h3>
+                        <p className='text-sm text-gray-700'>
 
+                            We provided certificates as our students excel in language learning. It ensures that the students will aim higher and be more motivated. Certificates are good for boosting student morale. Learn German with TLN and give wings to your children’s dreams.   </p>
+                    </div>
+                </SwiperSlide>
             </Swiper>
-            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium '>How is learning Mandarin beneficial for kids?</div>
+
+            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium mb-5'>How is learning Spanish beneficial for kids?</div>
             <div className='flex flex-col lg:flex-row'>
-                <div className='pl-10 w-3/4 lg:w-[60rem] self-center   '>
+                <div className='pl-10 w-1/2 lg:w-[30rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
                 </div>
-                <div className='w-full flex flex-col'>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                <div className='w-full flex flex-col w-full lg:w-2/3'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Give Your Child a Head Start</h1>
-                            <p className='text-[#54595f] pt-2'>Start teaching Mandarin to your child and keep him ahead of his peers. See your child excel in the Mandarin language at a young age.</p>
+                            <h1 className='text-xl font-medium'>Get a Head Start</h1>
+                            <p className='text-[#54595f] pt-2'>Start learning Spanish from an early age and keep your child ahead of their peers. Give your child a head start and keep them motivated. Learning Spanish for Kids will benefit your child exponentially.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>
+                            <h1 className='text-xl font-medium'>
                                 Cognitive Benefits</h1>
-                            <p className='text-[#54595f] pt-2'>Learning Mandarin at young age ropes in several cognitive benefits. Strengthen your brain cells and neurons by immersing your brain in new activities. A child’s brain is like a sponge. It will absorb knowledge in a much more efficient way.</p>
+                            <p className='text-[#54595f] pt-2'>The earlier you learn Spanish, the better you get at communication. Start your kid’s learning from a young age and make your child a master of confident communication. There is no greater feeling than seeing your child practice confidence in their day to day life.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Confident Communication</h1>
-                            <p className='text-[#54595f] pt-2'>The earlier you learn Mandarin, the more fluent you get in it. Start your child’s learning process from a young age and make them a master of communication.</p>
+                            <h1 className='text-xl font-medium'>Confident Communication</h1>
+                            <p className='text-[#54595f] pt-2'>The earlier you learn Spanish, the better you get at communication. Start your kid’s learning from a young age and make your child a master of confident communication. There is no greater feeling than seeing your child practice confidence in their day to day life.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Career in China</h1>
-                            <p className='text-[#54595f] pt-2'>After learning Mandarin, you can move to China for work or for education. You can also work as a translator, interpreter, teacher, etc after completing our Mandarin language course online.</p>
+                            <h1 className='text-xl font-medium'>Early Learning Benefits</h1>
+                            <p className='text-[#54595f] pt-2'>When your child starts learning early, they learn much more than others. Early age learning benefits your child in multiple ways. It helps them build a strong personality.</p>
+                        </div>
+                    </div>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-xl font-medium'>Boost Academic Achievements</h1>
+                            <p className='text-[#54595f] pt-2'>When you start learning Spanish at an early age, you become so fluent that other subjects become easier too. Memorising theoretical subjects becomes a piece of cake. This boosts your overall academic achievement.</p>
                         </div>
                     </div>
                 </div>
-
             </div>
-            <div className='pt-20 w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>TLN and International Exams</div>
-            <p className='text-center w-full px-10 lg:px-60 pt-4 text-sm text-[#54595f]'> We want our students to excel in international exams like TOEFL and IELTS. We teach our students how to learn Mandarin in a way that will help them ace these standardised tests. All aspects of the test, including pronunciation, vocabulary, listening part, is being taken care of at TLN. We ensure that once you learn something you won’t forget it.</p>
+            <div className='pt-14 w-full lg:mt-14 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>TLN and International Exams</div>
+            <p className='text-center w-full px-10 lg:px-60 pt-4 text-sm text-[#54595f]'> We want our students to excel in international exams like TOEFL and IELTS. We teach our students how to learn Spanish in a way that will help them ace these standardised tests. All aspects of the test, including pronunciation, vocabulary, listening part, is being taken care of at TLN. We ensure that once you learn something you won’t forget it.</p>
             <div className='px-3 group w-full flex flex-col items-center my-10'>
-                <img src="/images/international-exam-10-300x159.jpg" alt="img" className='w-60' />
+                <img src="/images/international-exam-6.jpg" alt="img" className='w-48' />
                 <div className='px-10 shadow-xl text-center lg:w-2/3 p-4'>
-                    <h3 className='text-lg font-bold pb-3 group-hover:text-amber-400 ease-in duration-300'>YCT</h3>
-                    <p className='text-sm text-[#54595f]'>Youth Chinese Test (YCT),an international standardized test of Chinese language proficiency, assesses the primary and middle school students' abilities to use Chinese as second language in their daily and academic lives. YCT is divided into writing and speaking tests, which are independent to each other. The writing testconsistsof four levels, namely, YCT (level I), YCT (level II), YCT (level III), and YCT (level IV). The speaking testconsists oftwo levels, YCT Speaking (Primary Level) and YCT Speaking (Intermediate Level).</p>
+                    <h3 className='text-lg font-bold pb-3 group-hover:text-amber-400 ease-in duration-300'>Dele</h3>
+                    <p className='text-sm text-[#54595f]'>DELF (Diplôme d’études en langue française) is the certified diploma of French language awarded by the French Ministry of National Education and is recognized worldwide. It allows validating and certifying for French language abilities. The DELF Prim is perfectly fit for children between 6 and 9 years old. It tests the French Language proficiency of your child to valorize his/her ability in French.</p>
                 </div>
             </div>
 
-            <div className='flex flex-col items-center mt-28'>
-            <div className="Home-container-32 sm:px-4 lg:px-48 sm:pt-20 lg:pt-20 ">
+            <div className='flex flex-col items-center pt-10'>
+                <div className="Home-container-32 sm:px-4 lg:px-48 sm:pt-20 lg:pt-20 ">
                     <h1 className='font-semibold text-2xl lg:text-4xl'>
                         Students at The Language Network
                     </h1>
@@ -324,6 +346,7 @@ export default function KidsMandarin() {
                         </div>
                     </p>
                 </div>
+
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className="w-5/6 hidden lg:flex flex-row space-y-10 lg:space-y-0 mt-12">
                         <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300 rounded-2xl" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
@@ -403,72 +426,9 @@ export default function KidsMandarin() {
                 </div>
             </div>
             <div className='mt-24'>
-                <LearningPricesKids one_one={Mandarin_1_1} one_two={Mandarin_1_2} one_four={Mandarin_1_4} />
+                <LearningPricesKids one_one={Spanish_1_1} one_two={Spanish_1_2} one_four={Spanish_1_4} />
             </div>
-            {/* <p className='w-full lg:px-80 pt-20 text-center font-medium lg:text-4xl text-2xl px-3'>Join us in a language trip now, by following these simple steps</p>
-            <section class="text-gray-600 body-font">
-                <div class="container px-5 py-20 mx-auto">
-                    <div class="hidden lg:flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
-                        <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
-                            <img src="/images/account.png" alt="img" className='' />
-                        </div>
-                        <div class="flex-grow sm:text-left mt-6 sm:mt-0">
-                            <h1 className='text-xl tracking-widest font-medium text-black'>STEP 1</h1>
-                            <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Register with us</h2>
-                            <p class="leading-relaxed text-black ">Fill out our form. Provide your personal details, Choose your preferred language, and register with us. Our executives will assist you with the online classes, study material, and lot more!</p>
-                        </div>
-                    </div>
-                    <div class="flex lg:hidden items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
-                        <div class="flex-grow sm:text-left mt-6 sm:mt-0">
-                            <h1 className='text-xl tracking-widest font-medium text-black'>STEP 1</h1>
-                            <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Register with us</h2>
-                            <p class="leading-relaxed text-black ">Fill out our form. Provide your personal details, Choose your preferred language, and register with us. Our executives will assist you with the online classes, study material, and lot more!</p>
-                        </div>
-                        <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
-                            <img src="/images/account.png" alt="img" className='' />
-                        </div>
-                    </div>
-                    <div class="flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
-                        <div class="flex-grow sm:text-right sm:mr-24 mt-6 sm:mt-0">
-                            <h1 className='text-xl tracking-widest font-medium text-black'>STEP 2</h1>
-                            <h2 class="poppins text-[#f2b919] text-2xl font-medium mb-8">Access your virtual classroom</h2>
-                            <p class="leading-relaxed text-black ">Learn when you want to learn! You will be provided with a Class link, where you can log in and start learning!</p>
-                        </div>
-                        <div data-aos="fade-left" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
-                            <img src="/images/classroom.png" alt="img" />
-                        </div>
-                    </div>
-                    <div class="hidden lg:flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
-                        <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
-                            <img src="/images/get-started.png" alt="img" />
-                        </div>
-                        <div class="flex-grow sm:text-left mt-6 sm:mt-0">
-                            <h1 className='text-xl tracking-widest font-medium text-black'>STEP 3</h1>
-                            <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Get started</h2>
-                            <p class="leading-relaxed text-black ">Practice what you learn with other students. We offer small batches so you can get personalized attention from our language experts.</p>
-                        </div>
-                    </div>
-                    <div class="flex lg:hidden items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
-                        <div class="flex-grow sm:text-left mt-6 sm:mt-0">
-                            <h1 className='text-xl tracking-widest font-medium text-black'>STEP 3</h1>
-                            <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Get started</h2>
-                            <p class="leading-relaxed text-black ">Practice what you learn with other students. We offer small batches so you can get personalized attention from our language experts.</p>
-                        </div>
-                        <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
-                            <img src="/images/get-started.png" alt="img" />
-                        </div>
-                    </div>
-
-                    <div className='w-full flex  justify-center'>
-                        <a href="/getstarted">
-                            <button class="bg-[#13BFAB] hover:bg-teal-400 text-white font-bold py-3 px-4 rounded" >
-                                Get Started
-                            </button>
-                        </a>
-                    </div>
-                </div>
-            </section> */}
-
+            
             <p className='w-full  text-center font-bold text-4xl pb-3'>Frequently asked questions</p>
 
             <div className="flex flex-col items-center justify-center pb-20">
@@ -487,7 +447,7 @@ export default function KidsMandarin() {
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse border-0 collapse show"
                             aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">TLN offers one-on-one batches. We give special attention to all our students. We have hired expert teachers for all our batches. We teach all aspects of language learning while focusing on the spoken part. Our Mandarin language course for kids covers grammar and vocabulary, speaking, reading, writing, and listening.</div>
+                            <div class="accordion-body py-4 px-5">TLN offers one-on-one batches. We give special attention to all our students. We have hired expert teachers for all our batches. We teach all aspects of language learning while focusing on the spoken part. Our Spanish language course for kids covers grammar and vocabulary, speaking, reading, writing, and listening.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
@@ -499,7 +459,7 @@ export default function KidsMandarin() {
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingTwo"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">We only have one-on-one batches. We prepare our students for international exams. We have hand-tailored study plans to meet each student’s learning needs. Our Mandarin language course for kids also covers the Mandarin culture which tremendously helps language learning.</div>
+                            <div class="accordion-body py-4 px-5">We only have one-on-one batches. We prepare our students for international exams. We have hand-tailored study plans to meet each student’s learning needs. Our Spanish language course for kids also covers the Spanish culture which tremendously helps language learning.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
@@ -511,7 +471,7 @@ export default function KidsMandarin() {
                         </h2>
                         <div id="flush-collapseThree" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingThree"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">The duration of each Mandarin language course for kids is 1 hour. It is perfect for their attention spans.
+                            <div class="accordion-body py-4 px-5">The duration of each Spanish language course for kids is 1 hour. It is perfect for their attention spans.
                             </div>
                         </div>
                     </div>
@@ -536,7 +496,7 @@ export default function KidsMandarin() {
                         </h2>
                         <div id="flush-collapseSix" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingSix"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">We do not have group batches for kids and adolescents. We only have one-on-one batches for kids. We believe that kids need more specialised attention so our Mandarin language course for kids only accommodates one student at a time.</div>
+                            <div class="accordion-body py-4 px-5">We do not have group batches for kids and adolescents. We only have one-on-one batches for kids. We believe that kids need more specialised attention so our Spanish language course for kids only accommodates one student at a time.</div>
                         </div>
                     </div>
                     <div class="accordion-item border-l-0 border-r-0 rounded-none bg-white border border-gray-200">
@@ -560,7 +520,7 @@ export default function KidsMandarin() {
                         </h2>
                         <div id="flush-collapseEight" class="accordion-collapse border-0 collapse" aria-labelledby="flush-headingEight"
                             data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body py-4 px-5">Yes, we do provide study material to our students. We also have several activities in our Mandarin language course for kids. </div>
+                            <div class="accordion-body py-4 px-5">Yes, we do provide study material to our students. We also have several activities in our Spanish language course for kids. </div>
                         </div>
                     </div>
                 </div>

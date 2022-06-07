@@ -46,7 +46,7 @@ export default function KidsFrench() {
                 <div className='lg:w-1/2 lg:px-10'>
                     <h2 className='font-semibold text-2xl lg:text-4xl'>Levels of Language Learning for Kids and Adolescents</h2>
                     <p className='text-sm text-[#54595f] my-3'>At The Language Network, we believe that learning is of utmost importance. Our French language course covers all the 10 grades. Language Learning can start from the age of 6 years. </p>
-                    <p className='text-sm text-[#54595f] my-3's>Enrol your child in our French course for Kids and give your child a headstart. Learning a second language will keep your child ahead of his peers. It will help your child in his career. There is no greater feeling than seeing your child get confident in their life. </p>
+                    <p className='text-sm text-[#54595f] my-3' s>Enrol your child in our French course for Kids and give your child a headstart. Learning a second language will keep your child ahead of his peers. It will help your child in his career. There is no greater feeling than seeing your child get confident in their life. </p>
                 </div>
                 <div className='lg:w-1/2'>
                     <img src="/images/TLN_French-elements.png" alt="img" />
@@ -82,10 +82,10 @@ export default function KidsFrench() {
                 <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
                     <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>French Language Levels for Kids</h1>
                     <p className='text-sm text-[#54595f]'>
-                    All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
+                        All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
                     </p>
                     <p className='text-sm text-[#54595f]'>
-                    These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and A2 the most advanced. Later your child will be able to continue with the DELF Junior B1 and the DELF B2 Junior.                    </p>
+                        These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and A2 the most advanced. Later your child will be able to continue with the DELF Junior B1 and the DELF B2 Junior.                    </p>
                 </div>
                 <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
                     <KidsLevels />
@@ -158,59 +158,59 @@ export default function KidsFrench() {
                     <div class="flex flex-wrap -m-4 lg:px-20">
                         <div class="xl:w-1/3 md:w-1/3 sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
                             <div class=" p-6 rounded-lg h-auto lg:h-56">
-                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
-                                        <FaLightbulb className='w-full h-full' />
-                                    </div>
-                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Language Immersion</h2>
+                                <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                    <FaLightbulb className='w-full h-full' />
+                                </div>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font">Language Immersion</h2>
                                 <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our French language course for kids. Practice French with our language experts and receive lots of positive benefits.</p>
                             </div>
                         </div>
                         <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
                             <div class=" p-6 rounded-lg h-auto lg:h-56">
-                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
-                                        <FaLightbulb className='w-full h-full' />
-                                    </div>
-                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Experienced Teachers</h2>
+                                <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                    <FaLightbulb className='w-full h-full' />
+                                </div>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font">Experienced Teachers</h2>
 
                                 <p class="leading-relaxed text-sm">We have hired a team of experienced professionals to teach our students. Now learn only from the best and become a master of the French language.</p>
                             </div>
                         </div>
                         <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
                             <div class=" p-6 rounded-lg h-auto lg:h-56">
-                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
-                                        <FaLightbulb className='w-full h-full' />
-                                    </div>
-                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Simple to Complex Learning Curve</h2>
+                                <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                    <FaLightbulb className='w-full h-full' />
+                                </div>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font">Simple to Complex Learning Curve</h2>
 
                                 <p class="leading-relaxed text-sm">Our French language course for kids start from simple French and then covers complex aspects of the language. We understand the learning needs of our students and teach them accordingly.</p>
                             </div>
                         </div>
                         <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
                             <div class=" p-6 rounded-lg h-auto lg:h-56">
-                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
-                                        <FaLightbulb className='w-full h-full' />
-                                    </div>
-                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Classes from Home</h2>
+                                <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                    <FaLightbulb className='w-full h-full' />
+                                </div>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font">Classes from Home</h2>
 
                                 <p class="leading-relaxed text-sm">The Language Network is an online language school. You do not need to waste your time and money to learn French now. Join TLN and learn from within the comforts of your own home.</p>
                             </div>
                         </div>
                         <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
                             <div class=" p-6 rounded-lg h-auto lg:h-56">
-                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
-                                        <FaLightbulb className='w-full h-full' />
-                                    </div>
-                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Age-appropriate program</h2>
+                                <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                    <FaLightbulb className='w-full h-full' />
+                                </div>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font">Age-appropriate program</h2>
 
                                 <p class="leading-relaxed text-sm">Our French courses for kids are hand-tailored to meet the learning needs of children. Our courses are age-appropriate and focus on all aspects of language learning in an easy and understandable way.</p>
                             </div>
                         </div>
                         <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
                             <div class=" p-6 rounded-lg h-auto lg:h-56">
-                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
-                                        <FaLightbulb className='w-full h-full' />
-                                    </div>
-                                    <h2 class="text-lg text-gray-900 font-semibold title-font">European Standard of Education</h2>
+                                <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                    <FaLightbulb className='w-full h-full' />
+                                </div>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font">European Standard of Education</h2>
 
                                 <p class="leading-relaxed text-sm">We have created our courses by carefully considering the European standards of education. We also teach our students how to crack international language exams.</p>
                             </div>
@@ -280,60 +280,60 @@ export default function KidsFrench() {
             >
                 <SwiperSlide>
                     <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
-                    <p className='text-sm text-gray-700'>Our French language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
-                </div>
+                        <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
+                        <p className='text-sm text-gray-700'>Our French language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
-                    <p className='text-sm text-gray-700'>You can monitor your child’s progress with our French language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
-                </div>
+                        <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
+                        <p className='text-sm text-gray-700'>You can monitor your child’s progress with our French language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                     <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
-                    <p className='text-sm text-gray-700'>
-                        Our curriculum is created by carefully integrating all aspects of language learning. Our Learn French for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
-                </div>
+                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
+                        <p className='text-sm text-gray-700'>
+                            Our curriculum is created by carefully integrating all aspects of language learning. Our Learn French for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                   <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/expert.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Learn from experts</h3>
-                    <p className='text-sm text-gray-700'>
-                        After an extensive hiring process, we have carefully handpicked language experts, who are efficient in teaching kids and adolescents. Leave your children with our French language experts and expect nothing but better results.  </p>
-                </div>
+                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/expert.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Learn from experts</h3>
+                        <p className='text-sm text-gray-700'>
+                            After an extensive hiring process, we have carefully handpicked language experts, who are efficient in teaching kids and adolescents. Leave your children with our French language experts and expect nothing but better results.  </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/career-guidance.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Career Guidance</h3>
-                    <p className='text-sm text-gray-700'>
-                        Our language trainers will guide your children to excel in their academic life. We will also conduct career counselling when it is needed. Push your kids to a new height with our French language courses.  </p>
-                </div>
+                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/career-guidance.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Career Guidance</h3>
+                        <p className='text-sm text-gray-700'>
+                            Our language trainers will guide your children to excel in their academic life. We will also conduct career counselling when it is needed. Push your kids to a new height with our French language courses.  </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                   <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>International Exams</h3>
-                    <p className='text-sm text-gray-700'>
-                        TLN believes that all its students should appear for international exams like Cambridge. From an early age, we prepare them for these international exams.   </p>
-                </div>
+                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>International Exams</h3>
+                        <p className='text-sm text-gray-700'>
+                            TLN believes that all its students should appear for international exams like Cambridge. From an early age, we prepare them for these international exams.   </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                   <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/culture.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Cultural Sensitivity</h3>
-                    <p className='text-sm text-gray-700'>
+                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/culture.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Cultural Sensitivity</h3>
+                        <p className='text-sm text-gray-700'>
 
-                        Our French language course for kids and adolescents also includes cultural learning. We believe that Cultural learning is important when it comes to language learning. It helps the students learn more efficiently. Thus, we focus on the culture associated with the language.   </p>
-                </div>
+                            Our French language course for kids and adolescents also includes cultural learning. We believe that Cultural learning is important when it comes to language learning. It helps the students learn more efficiently. Thus, we focus on the culture associated with the language.   </p>
+                    </div>
                 </SwiperSlide>
-                
+
             </Swiper>
 
             <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium mb-5'>How is learning French beneficial for kids?</div>
@@ -400,13 +400,15 @@ export default function KidsFrench() {
                 </div>
             </div>
 
-            <div className='flex flex-col items-center '>
-                <div className="Home-container-3 px-48 sm:pt-10 lg:pt-20">
-                    <h1>
+            <div className='flex flex-col items-center pt-10'>
+            <div className="Home-container-32 sm:px-4 lg:px-48 sm:pt-20 lg:pt-20 ">
+                    <h1 className='font-semibold text-2xl lg:text-4xl'>
                         Students at The Language Network
                     </h1>
-                    <p>
+                    <p className="sm:px-10 lg:px-2 font-medium pb-2 pt-2">
+                        <div className="px-4 ">
                         We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
+                        </div>
                     </p>
                 </div>
 
@@ -489,11 +491,11 @@ export default function KidsFrench() {
                 </div>
             </div>
 
-                        <div className='mt-24'>
+            <div className='mt-24'>
                 <LearningPricesKids one_one={French_1_1} one_two={French_1_2} one_four={French_1_4} />
             </div>
 
-            <p className='w-full lg:px-80 pt-20 text-center font-medium text-4xl'>Join us in a language trip now, by following these simple steps</p>
+            {/* <p className='w-full lg:px-80 pt-20 text-center font-medium lg:text-4xl text-2xl px-3'>Join us in a language trip now, by following these simple steps</p>
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-20 mx-auto">
                     <div class="hidden lg:flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
@@ -555,11 +557,11 @@ export default function KidsFrench() {
                         </a>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <p className='w-full  text-center font-bold text-4xl pb-3'>Frequently asked questions</p>
 
             <div className="flex flex-col items-center justify-center pb-20">
-            <hr class="flex flex-col justify-center align-center text-center border-[#FFC000] border-2 w-1/5 self-center items-center"></hr>
+                <hr class="flex flex-col justify-center align-center text-center border-[#FFC000] border-2 w-1/5 self-center items-center"></hr>
             </div>
 
 

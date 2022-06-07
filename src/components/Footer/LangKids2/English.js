@@ -52,7 +52,7 @@ export default function KidsEnglish() {
                     <img src="/images/TLN_English-elements.png" alt="img" />
                 </div>
             </div>
-            <div className="KidsEnglish h-[70vh]" >
+            {/* <div className="KidsEnglish h-[70vh]" >
                 <div className="bg-[rgba(0,0,0,0.4)] h-full ">
                     <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>
                         <h1 className='text-3xl lg:text-4xl leading-snug text-white font-bold'>English Classes for Kids</h1>
@@ -60,7 +60,7 @@ export default function KidsEnglish() {
                         <button type="button" class="flex flex-row btn btn-outline-light hover:bg-[#16e9d0] rounded-3xl w-fit text-sm py-3 px-4 ">Get Started</button>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* <div className="my-20 lg:flex flex-row">
                 <div className='space-y-2 px-10 lg:px-24 items-center align-center justify-center lg:pt-20'>

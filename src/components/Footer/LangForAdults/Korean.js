@@ -350,69 +350,7 @@ export default function AdultsKorean() {
             <LearningPrices one_one={Spanish_1_1} one_two={Spanish_1_2} one_four={Spanish_1_4} />
             </div>
 
-            <p className='w-full px-3 lg:px-80 pt-20 text-center font-medium text-4xl'>Join us in a language trip now, by following these simple steps</p>
-            <section class="text-gray-600 body-font">
-                <div class="container px-5 py-20 mx-auto">
-                    <div class="hidden lg:flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
-                        <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
-                            <img src="/images/account.png" alt="img" className='' />
-                        </div>
-                        <div class="flex-grow sm:text-left mt-6 sm:mt-0">
-                            <h1 className='text-xl tracking-widest font-medium text-black'>STEP 1</h1>
-                            <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Register with us</h2>
-                            <p class="leading-relaxed text-black ">Fill out a form with your personal and contact information, choose your language and register with us. Our team of experts will will assist you with the online classes, study materials and lots more.</p>
-                        </div>
-                    </div>
-                    <div class="flex lg:hidden items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
-                        <div class="flex-grow sm:text-left mt-6 sm:mt-0">
-                            <h1 className='text-xl tracking-widest font-medium text-black'>STEP 1</h1>
-                            <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Register with us</h2>
-                            <p class="leading-relaxed text-black ">Fill out a form with your personal and contact information, choose your language and register with us. Our team of experts will will assist you with the online classes, study materials and lots more.</p>
-                        </div>
-                        <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
-                            <img src="/images/account.png" alt="img" className='' />
-                        </div>
-                    </div>
-                    <div class="flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
-                        <div class="flex-grow sm:text-right sm:mr-24 mt-6 sm:mt-0">
-                            <h1 className='text-xl tracking-widest font-medium text-black'>STEP 2</h1>
-                            <h2 class="poppins text-[#f2b919] text-2xl font-medium mb-8">Access your virtual classroom</h2>
-                            <p class="leading-relaxed text-black ">Learn on your own schedule: Based on your type of class you chose (Eg: Group, Duo or 1:1) You will be provided with the zoom link to join your respective language class.</p>
-                        </div>
-                        <div data-aos="fade-left" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
-                            <img src="/images/classroom.png" alt="img" />
-                        </div>
-                    </div>
-                    <div class="hidden lg:flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
-                        <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
-                            <img src="/images/get-started.png" alt="img" />
-                        </div>
-                        <div class="flex-grow sm:text-left mt-6 sm:mt-0">
-                            <h1 className='text-xl tracking-widest font-medium text-black'>STEP 3</h1>
-                            <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Get started</h2>
-                            <p class="leading-relaxed text-black ">Practice what you learn with other students. We provide small batches, so you’ll get personalized attention with the expert language teachers.</p>
-                        </div>
-                    </div>
-                    <div class="flex lg:hidden items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
-                        <div class="flex-grow sm:text-left mt-6 sm:mt-0">
-                            <h1 className='text-xl tracking-widest font-medium text-black'>STEP 3</h1>
-                            <h2 class="poppins partial-underline text-[#f2b919] text-2xl font-medium mb-8">Get started</h2>
-                            <p class="leading-relaxed text-black ">Practice what you learn with other students. We provide small batches, so you’ll get personalized attention with the expert language teachers.</p>
-                        </div>
-                        <div data-aos="fade-right" data-aos-mirror='true' data-aos-delay='200' class="h-80 w-80 sm:mr-24 inline-flex items-center justify-center flex-shrink-0">
-                            <img src="/images/get-started.png" alt="img" />
-                        </div>
-                    </div>
-
-                    <div className='w-full flex  justify-center'>
-                        <a href="/getstarted">
-                            <button class="bg-[#13BFAB] hover:bg-teal-400 text-white font-bold py-3 px-4 rounded" >
-                                Get Started
-                            </button>
-                        </a>
-                    </div>
-                </div>
-            </section>
+            
 
       
             <p className='w-full  text-center font-bold text-4xl pb-3'>Frequently asked questions</p>

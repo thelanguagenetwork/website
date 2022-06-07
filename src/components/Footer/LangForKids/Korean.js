@@ -82,10 +82,10 @@ export default function KidsKorean() {
                 <div className='flex flex-col w-full lg:w-1/3 space-y-6 px-4 lg:px-20 justify-center lg:justify-start'>
                     <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-4'>Korean Language Levels for Kids</h1>
                     <p className='text-sm text-[#54595f]'>
-                    All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
+                        All languages we offer are aligned with the CEFR levels, so once you know your level, we can suggest the best classes to get your progress going immediately.
                     </p>
                     <p className='text-sm text-[#54595f]'>
-                    These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and A2 the most advanced. Later your child will be able to continue with the DELF Junior B1 and the DELF B2 Junior.                    </p>
+                        These levels are corresponding to the Common European Framework of Reference for Languages (CEFR). Level A1 is the most accessible one and A2 the most advanced. Later your child will be able to continue with the DELF Junior B1 and the DELF B2 Junior.                    </p>
                 </div>
                 <div className='flex align-center w-full h-auto py-10 lg:py-0 lg:w-2/3 '>
                     <KidsLevels />
@@ -222,73 +222,73 @@ export default function KidsKorean() {
             >
                 <SwiperSlide>
                     <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
-                    <p className='text-sm text-gray-700'>Our Korean language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
-                </div>
+                        <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
+                        <p className='text-sm text-gray-700'>Our Korean language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
-                    <p className='text-sm text-gray-700'>You can monitor your child’s progress with our Korean language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
-                </div>
+                        <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
+                        <p className='text-sm text-gray-700'>You can monitor your child’s progress with our Korean language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
-                    <p className='text-sm text-gray-700'>
-                        Our curriculum is created by carefully integrating all aspects of language learning. Our Learn Korean for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
-                </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                   <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/expert.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Learn from experts</h3>
-                    <p className='text-sm text-gray-700'>
-                        After an extensive hiring process, we have carefully handpicked language experts, who are efficient in teaching kids and adolescents. Leave your children with our Korean language experts and expect nothing but better results.  </p>
-                </div>
+                        <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
+                        <p className='text-sm text-gray-700'>
+                            Our curriculum is created by carefully integrating all aspects of language learning. Our Learn Korean for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/career-guidance.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Career Guidance</h3>
-                    <p className='text-sm text-gray-700'>
-                        Our language trainers will guide your children to excel in their academic life. We will also conduct career counselling when it is needed. Push your kids to a new height with our Korean language courses.  </p>
-                </div>
+                        <img src="/images/expert.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Learn from experts</h3>
+                        <p className='text-sm text-gray-700'>
+                            After an extensive hiring process, we have carefully handpicked language experts, who are efficient in teaching kids and adolescents. Leave your children with our Korean language experts and expect nothing but better results.  </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                     <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-32@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>International Exams</h3>
-                    <p className='text-sm text-gray-700'>
-                        TLN believes that all its students should appear for international exams like Cambridge. From an early age, we prepare them for these international exams.   </p>
-                </div>
+                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/career-guidance.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Career Guidance</h3>
+                        <p className='text-sm text-gray-700'>
+                            Our language trainers will guide your children to excel in their academic life. We will also conduct career counselling when it is needed. Push your kids to a new height with our Korean language courses.  </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                     <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/culture.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Cultural Sensitivity</h3>
-                    <p className='text-sm text-gray-700'>
+                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-32@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>International Exams</h3>
+                        <p className='text-sm text-gray-700'>
+                            TLN believes that all its students should appear for international exams like Cambridge. From an early age, we prepare them for these international exams.   </p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/culture.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Cultural Sensitivity</h3>
+                        <p className='text-sm text-gray-700'>
 
-                        Our Korean language course for kids and adolescents also includes cultural learning. We believe that Cultural learning is important when it comes to language learning. It helps the students learn more efficiently. Thus, we focus on the culture associated with the language.   </p>
-                </div>
+                            Our Korean language course for kids and adolescents also includes cultural learning. We believe that Cultural learning is important when it comes to language learning. It helps the students learn more efficiently. Thus, we focus on the culture associated with the language.   </p>
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                     <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Get Certified Results</h3>
-                    <p className='text-sm text-gray-700'>
+                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
+                        <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
+                        <h3 className='font-bold text-lg my-2'>Get Certified Results</h3>
+                        <p className='text-sm text-gray-700'>
 
-                        We provided certificates as our students excel in language learning. It ensures that the students will aim higher and be more motivated. Certificates are good for boosting student morale. Learn Korean with TLN and give wings to your children’s dreams.   </p>
-                </div>
+                            We provided certificates as our students excel in language learning. It ensures that the students will aim higher and be more motivated. Certificates are good for boosting student morale. Learn Korean with TLN and give wings to your children’s dreams.   </p>
+                    </div>
                 </SwiperSlide>
             </Swiper>
 
             <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium mb-5'>How is learning Korean beneficial for kids?</div>
             <div className='flex flex-col lg:flex-row'>
-            <div className='pl-10 w-1/2 lg:w-[30rem] self-center   '>
+                <div className='pl-10 w-1/2 lg:w-[30rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
                 </div>
                 <div className='w-full flex flex-col w-full lg:w-2/3'>
@@ -350,16 +350,17 @@ export default function KidsKorean() {
                 </div>
             </div>
 
-            <div className='flex flex-col items-center '>
-            <div className="Home-container-3 sm:px-0 lg:px-48 sm:pt-10 lg:pt-20 ">
-                    <h1 className='font-semibold'>
+            <div className='flex flex-col items-center pt-10'>
+            <div className="Home-container-32 sm:px-4 lg:px-48 sm:pt-20 lg:pt-20 ">
+                    <h1 className='font-semibold text-2xl lg:text-4xl'>
                         Students at The Language Network
                     </h1>
                     <p className="sm:px-10 lg:px-2 font-medium pb-2 pt-2">
+                        <div className="px-4 ">
                         We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
+                        </div>
                     </p>
                 </div>
-
                 <div className='w-full flex flex-col items-center justify-center'>
                     <div className="w-5/6 hidden lg:flex flex-row space-y-10 lg:space-y-0 mt-12">
                         <div className="w-full lg:w-1/3 flex flex-col items-center lg:mx-4 ease-in duration-300 rounded-2xl" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
@@ -439,11 +440,11 @@ export default function KidsKorean() {
                 </div>
             </div>
 
-                        <div className='mt-24'>
+            <div className='mt-24'>
                 <LearningPricesKids one_one={Korean_1_1} one_two={Korean_1_2} one_four={Korean_1_4} />
             </div>
-
-            <p className='w-full lg:px-80 pt-20 text-center font-medium text-4xl'>Join us in a language trip now, by following these simple steps</p>
+{/* 
+            <p className='w-full lg:px-80 pt-20 text-center font-medium lg:text-4xl text-2xl px-3'>Join us in a language trip now, by following these simple steps</p>
             <section class="text-gray-600 body-font">
                 <div class="container px-5 py-20 mx-auto">
                     <div class="hidden lg:flex items-center lg:w-9/12 mx-auto sm:flex-row flex-col">
@@ -505,7 +506,7 @@ export default function KidsKorean() {
                         </a>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <p className='w-full  text-center font-bold text-4xl pb-3'>Frequently asked questions</p>
 
