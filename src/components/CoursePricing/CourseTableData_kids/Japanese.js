@@ -2,7 +2,9 @@ export const Japanese_1_1 = [
     {
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'N5',
+        includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
+
+        lvlName: '12 Hours',
        // OgPrice : 444,
         DiscPrice : 39980,
         Link: ""
@@ -10,7 +12,9 @@ export const Japanese_1_1 = [
     {
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'N4',
+        includes:'Simple communication, Grammar and Vocabulary',
+
+        lvlName: '24 Hours',
         //OgPrice : 444,
         DiscPrice :44990 ,
         Link: ""
@@ -18,7 +22,8 @@ export const Japanese_1_1 = [
     {
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'N3',
+        includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
+        lvlName: '48 Hours',
        // OgPrice : 444,
         DiscPrice :49990,
         Link: ""

@@ -2,7 +2,9 @@ export const Korean_1_1 = [
     {
         language: "Korean",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'Topik 1 Level 1',
+        includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
+
+        lvlName: '12 Hours',
         //OgPrice : 444,
         DiscPrice : 21990,
         Link: ""
@@ -10,7 +12,9 @@ export const Korean_1_1 = [
     {
         language: "Korean",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'Topik 1 Level 2',
+        includes:'Simple communication, Grammar and Vocabulary',
+
+        lvlName: '24 Hours',
         //OgPrice : 444,
         DiscPrice : 25990,
         Link: ""
@@ -18,7 +22,8 @@ export const Korean_1_1 = [
     {
         language: "Korean",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'Topik 2 Level 3',
+        includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
+        lvlName: '48 Hours',
         //OgPrice : 444,
         DiscPrice : 29990,
         Link: ""

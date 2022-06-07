@@ -2,7 +2,9 @@ export const Mandarin_1_1 = [
     {
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'HSK 1',
+        includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
+
+        lvlName: '12 Hours',
        // OgPrice : 444,
         DiscPrice : 13990,
         Link: ""
@@ -10,7 +12,9 @@ export const Mandarin_1_1 = [
     {
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'HSK 2',
+        includes:'Simple communication, Grammar and Vocabulary',
+
+        lvlName: '24 Hours',
        // OgPrice : 444,
         DiscPrice : 15990,
         Link: ""
@@ -18,7 +22,8 @@ export const Mandarin_1_1 = [
     {
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'HSK 3',
+        includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
+        lvlName: '48 Hours',
       //  OgPrice : 444,
         DiscPrice : 17990,
         Link: ""

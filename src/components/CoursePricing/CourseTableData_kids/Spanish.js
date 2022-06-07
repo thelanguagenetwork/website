@@ -2,7 +2,9 @@ export const Spanish_1_1 = [
     {
         language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'A1',
+        includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
+
+        lvlName: '12 Hours',
       //  OgPrice : 444,
         DiscPrice : 27990,
         Link: "https://rzp.io/l/spanisha111"
@@ -10,7 +12,9 @@ export const Spanish_1_1 = [
     {
         language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'A2',
+        includes:'Simple communication, Grammar and Vocabulary',
+
+        lvlName: '24 Hours',
       //  OgPrice : 444,
         DiscPrice : 45990,
         Link: "https://rzp.io/l/spanisha21"
@@ -18,45 +22,46 @@ export const Spanish_1_1 = [
     {
         language: "Spanish",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'B1',
+        includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
+        lvlName: '48 Hours',
       //  OgPrice : 444,
         DiscPrice : 59980,
         Link: "https://rzp.io/l/spanishb11"
     },
-    {
-        language: "Spanish",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'B2',
-      //  OgPrice : 444,
-        DiscPrice : 61980,
-        Link: "https://rzp.io/l/spanishb21"
-    },
-    {
-        language: "Spanish",
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'A1+A2',
-       // OgPrice : 444,
-        DiscPrice : 59190,
-        Link: "https://rzp.io/l/spanisha1a21"
-    },
-    {
-        language: "Spanish",
+    // {
+    //     language: "Spanish",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'B2',
+    //   //  OgPrice : 444,
+    //     DiscPrice : 61980,
+    //     Link: "https://rzp.io/l/spanishb21"
+    // },
+    // {
+    //     language: "Spanish",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'A1+A2',
+    //    // OgPrice : 444,
+    //     DiscPrice : 59190,
+    //     Link: "https://rzp.io/l/spanisha1a21"
+    // },
+    // {
+    //     language: "Spanish",
 
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'B1+B2',
-       // OgPrice : 444,
-        DiscPrice : 97590,
-        Link: "https://rzp.io/l/spnaishb1b21"
-    },
-    {
-        language: "Spanish",
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'B1+B2',
+    //    // OgPrice : 444,
+    //     DiscPrice : 97590,
+    //     Link: "https://rzp.io/l/spnaishb1b21"
+    // },
+    // {
+    //     language: "Spanish",
 
-        content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
-        lvlName: 'A1+A2+B1+B2',
-       // OgPrice : 444,
-        DiscPrice : 156790,
-        Link: "https://rzp.io/l/spanisha1a2b1b21"
-    }
+    //     content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
+    //     lvlName: 'A1+A2+B1+B2',
+    //    // OgPrice : 444,
+    //     DiscPrice : 156790,
+    //     Link: "https://rzp.io/l/spanisha1a2b1b21"
+    // }
 ]
 
 export const Spanish_1_2 = [
