@@ -131,7 +131,7 @@ export default function KidsGerman() {
                                         <img src="/images/Asset-21@300x.png"/>
                                     </div>
                                     <h2 class="text-lg text-gray-900 font-semibold title-font">Cutting Edge Curriculum </h2>
-                                    <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
+                                    <p class="leading-relaxed text-gray-600 text-sm alignself:left">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
                                 </div>
                             </div>
                         </div>
@@ -144,7 +144,7 @@ export default function KidsGerman() {
                                         <img src="/images/Asset-21@300x.png"/>
                                     </div>
                                     <h2 class="text-lg text-gray-900 font-semibold title-font">Cutting Edge Curriculum </h2>
-                                    <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
+                                    <p class="leading-relaxed text-gray-600 text-sm items-left">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
                                 </div>
                             </div>
                         </div>
@@ -157,7 +157,7 @@ export default function KidsGerman() {
                                         <img src="/images/Asset-21@300x.png"/>
                                     </div>
                                     <h2 class="text-lg text-gray-900 font-semibold title-font">Cutting Edge Curriculum </h2>
-                                    <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
+                                    <p class="leading-relaxed text-gray-600 text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
                                 </div>
                             </div>
                         </div>
@@ -170,7 +170,7 @@ export default function KidsGerman() {
                                         <img src="/images/Asset-21@300x.png"/>
                                     </div>
                                     <h2 class="text-lg text-gray-900 font-semibold title-font">Cutting Edge Curriculum </h2>
-                                    <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
+                                    <p class="leading-relaxed text-gray-600 text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
                                 </div>
                             </div>
                         </div>
@@ -183,7 +183,7 @@ export default function KidsGerman() {
                                         <img src="/images/Asset-21@300x.png"/>
                                     </div>
                                     <h2 class="text-lg text-gray-900 font-semibold title-font">Cutting Edge Curriculum </h2>
-                                    <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
+                                    <p class="leading-relaxed text-gray-600 text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
                                 </div>
                             </div>
                         </div>
@@ -195,8 +195,8 @@ export default function KidsGerman() {
                                     <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
                                         <img src="/images/Asset-21@300x.png"/>
                                     </div>
-                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Cutting Edge Curriculum </h2>
-                                    <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
+                                    <h2 class="text-lg text-black-900 font-semibold title-font">Cutting Edge Curriculum </h2>
+                                    <p class="leading-relaxed text-gray-600 text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
                                 </div>
                             </div>
                         </div>
@@ -298,7 +298,7 @@ export default function KidsGerman() {
                                 <img src='/images/Kids@300x-1.png' alt='img' />
                             </div>
                             <div className='Home-card-text'>
-                                <h1 id='Home-card-text-h2'>Adolscents (10-13 years)</h1>
+                                <h1 id='Home-card-text-h2'>Teens (10-13 years)</h1>
                                 <p>Students in this age group are usually energetic, curious, and eager to explore the world! At TLN, we teach more than just the language. We take you through the culture; traditions, clothing, food, festivals, etc. This means that you are learning more than the writing system or pronunciation.</p>
                             </div>
                         </div>
@@ -341,7 +341,7 @@ export default function KidsGerman() {
                                     <img src='/images/Kids@300x-1.png' alt='img' />
                                 </div>
                                 <div className='Home-card-text'>
-                                    <h1 id='Home-card-text-h2'>Adolscents (10-13 years)</h1>
+                                    <h1 id='Home-card-text-h2'>Teens (10-13 years)</h1>
                                     <p>Students in this age group are usually energetic, curious, and eager to explore the world! At TLN, we teach more than just the language. We take you through the culture; traditions, clothing, food, festivals, etc. This means that you are learning more than the writing system or pronunciation.</p>
                                 </div>
                             </div>
