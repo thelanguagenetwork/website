@@ -99,7 +99,6 @@ export default function Home() {
                     <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab] lg:pt-2'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>
                     <h2 className='text-black font-semibold lg:font-medium text-2xl lg:text-5xl'>Learn a Language in less than 3 months</h2>
 
-                    {/* <span className='font-medium '>At The Language Network, we help you master a new foreign language of your choice from the comfort of your home.</span>*/}
                     <ul>
                         <li className='flex flex-row py-3'><img src='/images/icons8-tick-box-20.png' alt='img' className='pr-2 h-[21px]' />Live 1:1, Duo and Group Online Classes</li>
                         <li className='flex flex-row py-3'><img src='/images/icons8-tick-box-20.png' alt='img' className='pr-2 h-[21px]' />Flexible timings</li>
@@ -111,7 +110,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className='w-full lg:w-6/12 flex items-center justify-center lg:pl-20 mt-7'>
-                    {/* <Globe3d className='' /> */}
+                  
                     <video width="90%" height="90%" className='rounded-xl'
                         controls
                         muted
@@ -122,43 +121,13 @@ export default function Home() {
                         Your browser does not support the video tag.
                     </video>
                 </div>
-                {/* <div className="w-full absolute flex flex-row justify-center bottom-[-125px] lg:bottom-[-150px]">
-                    <div className='overlay-box'>
-                        <h1 className='lg:text-3xl text-lg mb-2'><CountUp start={0} end={5000} separator=","
-                            suffix="+" duration={1}>
-                            {({ countUpRef, start }) => (
-                                <VisibilitySensor onChange={start}>
-                                    <span ref={countUpRef} />
-                                </VisibilitySensor>
-                            )}
-                        </CountUp></h1>
-                        <h2 className='lg:text-xl text-base'>Students</h2>
-                    </div>
-                    <div className='overlay-box'>
-                        <div className='stars lg:text-2xl text-base mb-2'><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /><AiFillStar /></div>
-                        <h2 className='lg:text-xl text-base text-center'>5 Star Rating</h2>
-                    </div>
-                    <div className='overlay-box'>
-                        <h1 className='lg:text-3xl text-lg  mb-2'><CountUp start={0} end={200} separator=","
-                            suffix="+" duration={1}>
-                            {({ countUpRef, start }) => (
-                                <VisibilitySensor onChange={start}>
-                                    <span ref={countUpRef} />
-                                </VisibilitySensor>
-                            )}
-                        </CountUp></h1>
-                        <h2 className='lg:text-xl font-bold text-base'>Trainers</h2>
-                    </div>
 
-                </div> */}
 
             </div>
 
 
 
-            {/* <div className='w-full lg:hidden block'>
-                <GlobeMobile className='' />
-            </div> */}
+          
 
             <div className="sm:block lg:hidden flex flex-col justify-center text-center px-10 pt-10">
                 <div className="">
