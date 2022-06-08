@@ -41,16 +41,18 @@ function TableData() {
             LevelB2: tick,
             LevelA1A2: tick,
             LevelA1A2B1B2: tick
-        },{   
-            title: "E-learning material",
-            Introductory: tick,
-            LevelA1: tick,
-            LevelA2: tick,
-            LevelB1: tick,
-            LevelB2: tick,
-            LevelA1A2: tick,
-            LevelA1A2B1B2: tick
-        },{   
+        },
+        // {   
+        //     title: "E-learning material",
+        //     Introductory: tick,
+        //     LevelA1: tick,
+        //     LevelA2: tick,
+        //     LevelB1: tick,
+        //     LevelB2: tick,
+        //     LevelA1A2: tick,
+        //     LevelA1A2B1B2: tick
+        // },
+        {   
             title: "Assessments & Quizzes",
             Introductory: tick,
             LevelA1: tick,
@@ -97,16 +99,17 @@ function TableData() {
             LevelB2: tick,
             LevelA1A2: tick,
             LevelA1A2B1B2: tick
-        },{   
-            title: "Access content & upskilling opportunities",
-            Introductory: cross,
-            LevelA1: tick,
-            LevelA2: tick,
-            LevelB1: tick,
-            LevelB2: tick,
-            LevelA1A2: tick,
-            LevelA1A2B1B2: tick
         },
+        // {   
+        //     title: "Access content & upskilling opportunities",
+        //     Introductory: cross,
+        //     LevelA1: tick,
+        //     LevelA2: tick,
+        //     LevelB1: tick,
+        //     LevelB2: tick,
+        //     LevelA1A2: tick,
+        //     LevelA1A2B1B2: tick
+        // },
     ];
     return tdata;
 }
@@ -114,7 +117,7 @@ function TableData() {
 export default function KidsTable() {
     const tableData = TableData();
     return (<>
-        <div className="h-full font-medium text-4xl poppins text-center p-20">Why learning with TLN is beneficial?</div>
+        <div className="h-full font-medium text-4xl poppins text-center px-20 pt-20 pb-5">Why learning with TLN is beneficial?</div>
         <div className='py-10'>
             <table class='shadow-md rounded lg:w-5/6 w-full m-auto'>
                 <tbody>

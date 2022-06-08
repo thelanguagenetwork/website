@@ -9,6 +9,8 @@ import "swiper/css/navigation"
 import Levels from '../../Home/Levels';
 import LearningPrices from '../../CoursePricing/LearningPrices';
 import { Japanese_1_1, Japanese_1_2, Japanese_1_4 } from '../../CoursePricing/CourseTableData/Japanese'
+import { EffectFade, Parallax } from "swiper/core";
+
 export default function AdultsJapanese() {
 
     AOS.init()

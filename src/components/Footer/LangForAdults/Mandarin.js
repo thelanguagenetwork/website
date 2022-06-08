@@ -9,6 +9,8 @@ import "swiper/css/navigation"
 import Levels from '../../Home/Levels';
 import LearningPrices from '../../CoursePricing/LearningPrices';
 import { Mandarin_1_1, Mandarin_1_2, Mandarin_1_4 } from '../../CoursePricing/CourseTableData/Mandarin'
+import { EffectFade, Parallax } from "swiper/core";
+
 
 export default function AdultsMandarin() {
 

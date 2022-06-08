@@ -46,7 +46,7 @@ function Kids() {
 
     return (
         <div>
-            <div className="fadeIN Home-container-2 w-full lg:px-20 mt-4">
+            <div className="fadeIN Home-container-2 w-full lg:px-20 mt-4 py-10">
                 <h2>Bring The World To Your Child</h2>
                 <h1 className='mb-6'>Choose a language</h1>
                 <div className='Home-container-2-imgs hidden lg:flex'>
@@ -95,7 +95,7 @@ function Kids() {
                 <a href="/getstarted"><button type="button" class="btn btn-outline-light rounded-xl px-8 py-3 font-medium">Get Started</button></a>
                 <img src="/images/Ship.png" alt="alt" className='w-[15%] absolute top-[-2.8rem] right-[12rem] lg:block hidden' />
             </div> */}
-            <div className='infosec w-full lg:p-20 flex flex-col lg:flex-row items-center mt-24'>
+            {/* <div className='infosec w-full lg:p-20 flex flex-col lg:flex-row items-center mt-24'>
                 <div className='p-2 w-full lg:w-[40%]'>
                     <h1 className='font-medium text-3xl'>Learning, unbeknownst to many, starts at a very early age</h1>
                     <p className='text-gray-700 text-md'>Take a look at the various benefits that Early learning in Kids provide</p>
@@ -117,7 +117,7 @@ function Kids() {
                 <div className='w-full lg:w-[60%] px-4 mt-4 lg:m-0'>
                     <Description />
                 </div>
-            </div>
+            </div> */}
             <KidsTable />
             <div className="w-full flex justify-center">
                 <a href='getstarted'> <button class="bg-teal-500 hover:bg-teal-400 text-white font-bold py-3 px-4 rounded-xl" >
