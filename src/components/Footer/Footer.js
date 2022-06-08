@@ -122,7 +122,7 @@ export default function Footer() {
                                                 <li><a href="/">Home</a></li>
                                                 <li><a href="/AboutUs">About us</a></li>
                                                 <li><a href="/Careers">Careers</a></li>
-                                               {/* <li><a href="/Blog">Blog</a></li>*/}
+                                               <li><a href="/Blog">Blog</a></li>
                                                 <li><a href="/Press">Press</a></li>
                                             </ul>
                                         </Typography>
@@ -222,7 +222,7 @@ export default function Footer() {
                                         <li><a href="/">Home</a></li>
                                         <li><a href="/AboutUs">About us</a></li>
                                         <li><a href="/Careers">Careers</a></li>
-                                       {/* <li><a href="/Blog">Blog</a></li>*/}
+                                       <li><a href="/Blog">Blog</a></li>
                                         <li><a href="/Press">Press</a></li>
                                     </ul>
                                 </div>

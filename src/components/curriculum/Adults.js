@@ -27,7 +27,6 @@ import { Mandarin_1_1, Mandarin_1_2, Mandarin_1_4 } from '../CoursePricing/Cours
 import { Japanese_1_1, Japanese_1_2, Japanese_1_4 } from '../CoursePricing/CourseTableData/Japanese'
 import { Korean_1_1, Korean_1_2, Korean_1_4 } from '../CoursePricing/CourseTableData/Korean'
 
-
 function Adults() {
 
     const [lang, setLang] = useState('French')
@@ -111,11 +110,12 @@ function Adults() {
 
     return (
         <div>
+         
             <div className="fadeIN Home-container-2 w-full lg:px-20 mt-4">
                 <h2>Curating a pleasant learning experience</h2>
                 <h1 className='mb-6'>Choose a language</h1>
                 <div className='Home-container-2-imgs hidden lg:flex'>
-                    <a onClick={() => setLang('English')} className='lg:mt-12'><img id={lang === 'English' ? 'selected' : ''} className='Home-container-2-1img  h-[95%] lg:w-auto' alt='img' src='/images/adults-english@300x.png'/></a>
+                    <a onClick={() => setLang('English')} className='lg:mt-12'><img id={lang === 'English' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-english@300x.png' /></a>
                     <a onClick={() => setLang('French')} className='lg:mt-12'><img id={lang === 'French' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-french@300x.png' /></a>
                     <a onClick={() => setLang('Spanish')} className='lg:mt-12'><img id={lang === 'Spanish' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-spanish@300x.png' /></a>
                     <a onClick={() => setLang('German')} className='lg:mt-12'><img id={lang === 'German' ? 'selected' : ''} className='Home-container-2-img  h-[95%] lg:w-auto' alt='img' src='/images/adults-german@300x.png' /></a>

@@ -9,6 +9,7 @@ import "swiper/css/navigation"
 import Levels from '../../Home/Levels';
 import LearningPrices from '../../CoursePricing/LearningPrices';
 import { Spanish_1_1, Spanish_1_2, Spanish_1_4 } from '../../CoursePricing/CourseTableData/Spanish'
+import { EffectFade, Parallax } from "swiper/core";
 
 
 export default function AdultsSpanish() {

@@ -9,6 +9,7 @@ import "swiper/css/navigation"
 import KidsLevels from './KidsLevels';
 import LearningPricesKids from '../../CoursePricing/LearningPricesKids';
 import { Japanese_1_1, Japanese_1_2, Japanese_1_4 } from '../../CoursePricing/CourseTableData_kids/Japanese.js'
+import { EffectFade, Parallax } from "swiper/core";
 
 export default function KidsJapanese() {
 
@@ -95,175 +96,117 @@ export default function KidsJapanese() {
                 </div>
             </div>
 
-            <div className='w-full text-center font-semibold text-3xl lg:text-4xl'>Benefits of Learning Japanese with TLN?</div>
-            <section class="text-gray-600 body-font">
-                <div class="container px-2 lg:px-5 py-20 mx-auto">
-                    <div class="flex flex-wrap -m-4">
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
+            <div className='w-full text-center text-3xl lg:text-4xl font-medium '>Why should you learn with The Language Network?</div>
+            <div className="sm:px-3 lg:px-14 sm:mx-0 lg:mx-5">
+                <Swiper className=""
+                    navigation={true}
+                    infinite
+                    autoplay={{
+                        disableOnInteraction: false,
+                    }}
+                    module={[EffectFade, Parallax]}
+                    effect="fade"
+                    loop={true}
+                    pagination={{ clickable: true }}
+                    spaceBetween={5}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 1,
+                            spaceBetween: 40,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 20,
+                        },
+                    }}
+                >
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png"/>
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Cutting Edge Curriculum </h2>
+                                    <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
                                 </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Language Immersion</h2>
-                                <p class="leading-relaxed text-base">Now immerse your child in the world of knowledge with our Japanese language course for kids. Practice Japanese with our language experts and receive lots of positive benefits.</p>
                             </div>
                         </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png"/>
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Cutting Edge Curriculum </h2>
+                                    <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
                                 </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Experienced Teachers</h2>
-                                <p class="leading-relaxed text-base">We have hired a team of experienced professionals to teach our students. Now learn only from the best and become a master of the Japanese language.</p>
                             </div>
                         </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png"/>
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Cutting Edge Curriculum </h2>
+                                    <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
                                 </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Simple to Complex Learning Curve</h2>
-                                <p class="leading-relaxed text-base">Our Japanese language course for kids start from simple Japanese and then covers complex aspects of the language. We understand the learning needs of our students and teach them accordingly.</p>
                             </div>
                         </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png"/>
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Cutting Edge Curriculum </h2>
+                                    <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
                                 </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Classes from Home</h2>
-                                <p class="leading-relaxed text-base">The Language Network is an online language school. You do not need to waste your time and money to learn Japanese now. Join TLN and learn from within the comforts of your own home.</p>
                             </div>
                         </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png"/>
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Cutting Edge Curriculum </h2>
+                                    <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
                                 </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">Age-appropriate program</h2>
-                                <p class="leading-relaxed text-base">Our Japanese courses for kids are hand-tailored to meet the learning needs of children. Our courses are age-appropriate and focus on all aspects of language learning in an easy and understandable way.</p>
                             </div>
                         </div>
-                        <div class="xl:w-1/2 md:w-1/2 p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
-                            <div class="border border-gray-200 p-6 rounded-lg">
-                                <div class="w-8 h-8 inline-flex items-center justify-center text-yellow-400 text-indigo-500 mb-4">
-                                    <FaLightbulb className='w-full h-full' />
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png"/>
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Cutting Edge Curriculum </h2>
+                                    <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
                                 </div>
-                                <h2 class="text-lg text-gray-900 font-semibold title-font mb-2">European Standard of Education</h2>
-                                <p class="leading-relaxed text-base">We have created our courses by carefully considering the European standards of education. We also teach our students how to crack international language exams.</p>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
+                    </SwiperSlide>
 
-            <div className='w-full text-center text-3xl lg:text-4xl font-semibold '>Why learn a language with TLN?</div>
-            <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly'>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/1_1-batch.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
-                    <p className='text-sm text-gray-700'>Our Japanese language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
-                </div>
-                <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
-                    <p className='text-sm text-gray-700'>You can monitor your child’s progress with our Japanese language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
-                </div>
-                <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
-                    <p className='text-sm text-gray-700'>
-                        Our curriculum is created by carefully integrating all aspects of language learning. Our Learn Japanese for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
-                </div>
-                <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[29rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/expert.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Learn Japanese Language from experts</h3>
-                    <p className='text-sm text-gray-700'>
-                        Learn the Japanese language from our language experts and ace at spoken Japanese. Our trainers are experts when it comes to teaching children. Leave your child with our expert and expect only the best  </p>
-                </div>
-
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[29rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-31@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>International Exams</h3>
-                    <p className='text-sm text-gray-700'>
-                        Our Japanese language course for Kids does not only teach the Japanese language. We also prepare our students for international exams associated with the language. We believe that our students should aim for the best.   </p>
-                </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/culture.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Cultural Knowledge</h3>
-                    <p className='text-sm text-gray-700'>
-
-                        In order to learn a language, it is important to learn the culture associated with it. We teach cultural and social know-how to our students in order to teach a language better.   </p>
-                </div>
-
+                </Swiper>
             </div>
-            <Swiper className='pagi1 block lg:hidden w-full px-10 md:px-16 bg-inherit' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
-                breakpoints={{
-                    640: {
-                        slidesPerView: 1
 
-                    },
-                    768: {
-                        slidesPerView: 4
-                    }
-                }}
-                pagination={false} navigation={true} autoplay={{
-                    "delay": 2500,
-                    "disableOnInteraction": false
-                }}
-            >
-                <SwiperSlide>
-                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/1_1-batch.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
-                        <p className='text-sm text-gray-700'>Our Japanese language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
-                        <p className='text-sm text-gray-700'>You can monitor your child’s progress with our Japanese language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
-                        <p className='text-sm text-gray-700'>
-                            Our curriculum is created by carefully integrating all aspects of language learning. Our Learn Japanese for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[29rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/expert.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>Learn Japanese Language from experts</h3>
-                        <p className='text-sm text-gray-700'>
-                            Learn the Japanese language from our language experts and ace at spoken Japanese. Our trainers are experts when it comes to teaching children. Leave your child with our expert and expect only the best  </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[29rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-31@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>International Exams</h3>
-                        <p className='text-sm text-gray-700'>
-                            Our Japanese language course for Kids does not only teach the Japanese language. We also prepare our students for international exams associated with the language. We believe that our students should aim for the best.   </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/culture.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>Cultural Knowledge</h3>
-                        <p className='text-sm text-gray-700'>
-
-                            In order to learn a language, it is important to learn the culture associated with it. We teach cultural and social know-how to our students in order to teach a language better.   </p>
-                    </div>
-
-                </SwiperSlide>
-
-            </Swiper>
-
-            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium mb-5 '>How is learning Japanese beneficial for kids?</div>
+            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium mb-5'>Why Learn Japanese?</div>
             <div className='flex flex-col lg:flex-row'>
                 <div className='pl-10 w-1/2 lg:w-[30rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
@@ -274,8 +217,8 @@ export default function KidsJapanese() {
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Give Your Child a Head Start</h1>
-                            <p className='text-[#54595f] pt-2'>Start teaching the Japanese language to your child and keep them ahead of their peers. In no time, your child will be a master of the Japanese language. When you teach Japanese to your children, you keep them motivated to do better in life.</p>
+                            <h1 className='text-xl font-medium'>Cognitive Benefits</h1>
+                            <p className='text-[#54595f] pt-2'>Learning Japanese has a lot of cognitive benefits for kids. A Child's brain is like a sponge. It will hold more information and in a better way. Learning Japanese at an early age will strengthen brain cells and neurons.</p>
                         </div>
                     </div>
                     <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
@@ -283,9 +226,9 @@ export default function KidsJapanese() {
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>
-                                Cognitive Benefits</h1>
-                            <p className='text-[#54595f] pt-2'>A child’s brain is like a sponge. It can absorb a lot of information in an effective way. Also, when you learn a second language, it boosts your mental performance and strengthens your brain cells & neurons.</p>
+                            <h1 className='text-xl font-medium'>
+                            Confident Communication</h1>
+                            <p className='text-[#54595f] pt-2'>The earlier you learn Japanese, the better you get at communication. Start your kid’s learning from a young age and make your child a master of confident communication. There is no greater feeling than seeing your child practice confidence in their day to day life.</p>
                         </div>
                     </div>
                     <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
@@ -293,30 +236,31 @@ export default function KidsJapanese() {
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Confident Communication</h1>
-                            <p className='text-[#54595f] pt-2'>The earlier you learn Japanese, the fluent you get in communication. Teach the Japanese language online to your kids and make them a master of communication in the given language.</p>
-                        </div>
-                    </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
-                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
-                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
-                        </div>
-                        <div>
-                            <h1 className='text-2xl font-medium'>Career in Japan</h1>
-                            <p className='text-[#54595f] pt-2'>After learning the Japanese language, you can work as a translator, writer, interpreter, etc. You can also move to Japan for work or education. Learning the Japanese language has a lot of benefits.</p>
-                        </div>
-                    </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
-                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
-                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
-                        </div>
-                        <div>
-                            <h1 className='text-2xl font-medium'>Boost Academic Achievements</h1>
+                            <h1 className='text-xl font-medium'>Boost Academic Achievement</h1>
                             <p className='text-[#54595f] pt-2'>When you start learning Japanese at an early age, you become so fluent that other subjects become easier too. Memorising theoretical subjects becomes a piece of cake. This boosts your overall academic achievement.</p>
+                        </div>
+                    </div>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-xl font-medium'>Garner Professional Opportunities</h1>
+                            <p className='text-[#54595f] pt-2'>If you are a master of the Japanese language, you will be able to garner multiple professional opportunities. It will be a good acquisition for your career. Learning a foreign language will open many doors. </p>
+                        </div>
+                    </div>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-xl font-medium'>Travel the World</h1>
+                            <p className='text-[#54595f] pt-2'>If you learn Japanese with The Language Network, you will be able to traverse a lot of countries. You can take an international exam and apply for any Japanese-speaking university in the world. Knowing Japanese will take you place.</p>
                         </div>
                     </div>
                 </div>
             </div>
+            
             <div className='pt-20 w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>TLN and International Exams</div>
             <p className='text-center w-full px-10 lg:px-60 pt-4 text-sm text-[#54595f]'> We want our students to excel in international exams like TOEFL and IELTS. We teach our students how to learn Japanese in a way that will help them ace these standardised tests. All aspects of the test, including pronunciation, vocabulary, listening part, is being taken care of at TLN. We ensure that once you learn something you won’t forget it.</p>
             <div className='px-3 group w-full flex flex-col items-center my-10'>

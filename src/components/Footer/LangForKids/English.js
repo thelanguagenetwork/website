@@ -3,13 +3,15 @@ import { FaRegWindowMinimize, FaLightbulb } from 'react-icons/fa';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 import { Swiper, SwiperSlide } from "swiper/react";
+import { EffectFade, Parallax } from "swiper/core";
+
 import "swiper/css";
 import "swiper/css/pagination"
 import "swiper/css/navigation"
 import KidsLevels from './KidsLevels';
 import LearningPricesKids from '../../CoursePricing/LearningPricesKids';
 import { English_1_1, English_1_2, English_1_4 } from '../../CoursePricing/CourseTableData_kids/English.js'
-
+// import Display from '../swipers/Display' 
 export default function KidsEnglish() {
 
     AOS.init()
@@ -93,75 +95,184 @@ export default function KidsEnglish() {
                 </div>
             </div>
 
-            <div className='w-full text-center font-semibold text-3xl lg:text-4xl'>Benefits of Learning English with TLN?</div>
+            {/* <div className='w-full text-center font-semibold text-3xl lg:text-4xl'>Benefits of Learning English with TLN?</div>
             <section class="text-gray-600 body-font">
                 <div class="container px-2 lg:px-5 py-20 mx-auto">
                     <div class="flex flex-wrap -m-4 lg:px-20">
                         <div class="xl:w-1/3 md:w-1/3 sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
                             <div class=" p-6 rounded-lg h-auto lg:h-56">
-                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
-                                        <FaLightbulb className='w-full h-full' />
-                                    </div>
-                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Language Immersion</h2>
+                                <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                    <FaLightbulb className='w-full h-full' />
+                                </div>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font">Language Immersion</h2>
                                 <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
                             </div>
                         </div>
                         <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
                             <div class=" p-6 rounded-lg h-auto lg:h-56">
-                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
-                                        <FaLightbulb className='w-full h-full' />
-                                    </div>
-                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Experienced Teachers</h2>
+                                <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                    <FaLightbulb className='w-full h-full' />
+                                </div>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font">Experienced Teachers</h2>
 
                                 <p class="leading-relaxed text-sm">We have hired a team of experienced professionals to teach our students. Now learn only from the best and become a master of the English language.</p>
                             </div>
                         </div>
                         <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
                             <div class=" p-6 rounded-lg h-auto lg:h-56">
-                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
-                                        <FaLightbulb className='w-full h-full' />
-                                    </div>
-                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Simple to Complex Learning Curve</h2>
+                                <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                    <FaLightbulb className='w-full h-full' />
+                                </div>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font">Simple to Complex Learning Curve</h2>
 
                                 <p class="leading-relaxed text-sm">Our English language course for kids start from simple English and then covers complex aspects of the language. We understand the learning needs of our students and teach them accordingly.</p>
                             </div>
                         </div>
                         <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
                             <div class=" p-6 rounded-lg h-auto lg:h-56">
-                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
-                                        <FaLightbulb className='w-full h-full' />
-                                    </div>
-                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Classes from Home</h2>
+                                <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                    <FaLightbulb className='w-full h-full' />
+                                </div>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font">Classes from Home</h2>
 
                                 <p class="leading-relaxed text-sm">The Language Network is an online language school. You do not need to waste your time and money to learn English now. Join TLN and learn from within the comforts of your own home.</p>
                             </div>
                         </div>
                         <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
                             <div class=" p-6 rounded-lg h-auto lg:h-56">
-                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
-                                        <FaLightbulb className='w-full h-full' />
-                                    </div>
-                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Age-appropriate program</h2>
+                                <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                    <FaLightbulb className='w-full h-full' />
+                                </div>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font">Age-appropriate program</h2>
 
                                 <p class="leading-relaxed text-sm">Our English courses for kids are hand-tailored to meet the learning needs of children. Our courses are age-appropriate and focus on all aspects of language learning in an easy and understandable way.</p>
                             </div>
                         </div>
                         <div class="xl:w-1/3 md:w-1/2 p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
                             <div class=" p-6 rounded-lg h-auto lg:h-56">
-                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
-                                        <FaLightbulb className='w-full h-full' />
-                                    </div>
-                                    <h2 class="text-lg text-gray-900 font-semibold title-font">European Standard of Education</h2>
+                                <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                    <FaLightbulb className='w-full h-full' />
+                                </div>
+                                <h2 class="text-lg text-gray-900 font-semibold title-font">European Standard of Education</h2>
 
                                 <p class="leading-relaxed text-sm">We have created our courses by carefully considering the European standards of education. We also teach our students how to crack international language exams.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
-            <div className='w-full text-center text-3xl lg:text-4xl font-medium '>Why learn a language with TLN?</div>
-            <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly'>
+            <div className='w-full text-center text-3xl lg:text-4xl font-medium '>Why should you learn with The Language Network?</div>
+            <div className="sm:px-3 lg:px-14 sm:mx-0 lg:mx-5">
+                <Swiper className=""
+                    navigation={true}
+                    infinite
+                    autoplay={{
+                        disableOnInteraction: false,
+                    }}
+                    module={[EffectFade, Parallax]}
+                    effect="fade"
+                    loop={true}
+                    pagination={{ clickable: true }}
+                    spaceBetween={5}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 1,
+                            spaceBetween: 40,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 20,
+                        },
+                    }}
+                >
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png"/>
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Cutting Edge Curriculum </h2>
+                                    <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png"/>
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Cutting Edge Curriculum </h2>
+                                    <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png"/>
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Cutting Edge Curriculum </h2>
+                                    <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png"/>
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Cutting Edge Curriculum </h2>
+                                    <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png"/>
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Cutting Edge Curriculum </h2>
+                                    <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png"/>
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Cutting Edge Curriculum </h2>
+                                    <p class="leading-relaxed text-sm">Now immerse your child in the world of knowledge with our English language course for kids. Practice English with our language experts and receive lots of positive benefits.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+
+                </Swiper>
+            </div>
+           
+            {/* <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly'>
                 <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
                     <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
                     <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
@@ -209,89 +320,10 @@ export default function KidsEnglish() {
                     <p className='text-sm text-gray-700'>
                         We provided certificates as our students excel in language learning. It ensures that the students will aim higher and be more motivated. Certificates are good for boosting student morale. Learn English with TLN and give wings to your children’s dreams.   </p>
                 </div>
-            </div>
-            <Swiper className='pagi1 block lg:hidden w-full px-10 md:px-16 bg-inherit' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
-                breakpoints={{
-                    640: {
-                        slidesPerView: 1
+            </div> */}
+            
 
-                    },
-                    768: {
-                        slidesPerView: 4
-                    }
-                }}
-                pagination={false} navigation={true} autoplay={{
-                    "delay": 2500,
-                    "disableOnInteraction": false
-                }}
-            >
-                <SwiperSlide>
-                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>1:1 Batches</h3>
-                        <p className='text-sm text-gray-700'>Our English language course for kids occupies only one student. It is a 1:1 batch. We do not have group batches. We believe that every student deserves special attention. </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>Monitor your child’s progress</h3>
-                        <p className='text-sm text-gray-700'>You can monitor your child’s progress with our English language course for kids. Keep a track of their learning activities and play your part in their holistic learning. </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>Cutting edge Curriculum</h3>
-                        <p className='text-sm text-gray-700'>
-                            Our curriculum is created by carefully integrating all aspects of language learning. Our Learn English for Kids curriculum includes voice, fluency, conversational skills, grammar & vocabulary, active listening, writing, creative expression, etc.   </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>Learn from experts</h3>
-                        <p className='text-sm text-gray-700'>
-                            After an extensive hiring process, we have carefully handpicked language experts, who are efficient in teaching kids and adolescents. Leave your children with our English language experts and expect nothing but better results.  </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/career-guidance.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>Career Guidance</h3>
-                        <p className='text-sm text-gray-700'>
-                            Our language trainers will guide your children to excel in their academic life. We will also conduct career counselling when it is needed. Push your kids to a new height with our English language courses.  </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-41@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>International Exams</h3>
-                        <p className='text-sm text-gray-700'>
-                            TLN believes that all its students should appear for international exams like Cambridge. From an early age, we prepare them for these international exams.   </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/culture.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>Cultural Sensitivity</h3>
-                        <p className='text-sm text-gray-700'>
-
-                            Our English language course for kids and adolescents also includes cultural learning. We believe that Cultural learning is important when it comes to language learning. It helps the students learn more efficiently. Thus, we focus on the culture associated with the language.   </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[30rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>Get Certified Results</h3>
-                        <p className='text-sm text-gray-700'>
-
-                            We provided certificates as our students excel in language learning. It ensures that the students will aim higher and be more motivated. Certificates are good for boosting student morale. Learn English with TLN and give wings to your children’s dreams.   </p>
-                    </div>
-                </SwiperSlide>
-            </Swiper>
-
-            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium mb-5'>How is learning English beneficial for kids?</div>
+            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium mb-5'>Why Learn English?</div>
             <div className='flex flex-col lg:flex-row'>
                 <div className='pl-10 w-1/2 lg:w-[30rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
@@ -302,8 +334,8 @@ export default function KidsEnglish() {
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-xl font-medium'>Get a Head Start</h1>
-                            <p className='text-[#54595f] pt-2'>Start learning English from an early age and keep your child ahead of their peers. Give your child a head start and keep them motivated. Learning English for Kids will benefit your child exponentially.</p>
+                            <h1 className='text-xl font-medium'>Cognitive Benefits</h1>
+                            <p className='text-[#54595f] pt-2'>Learning English has a lot of cognitive benefits for kids. A Child's brain is like a sponge. It will hold more information and in a better way. Learning English at an early age will strengthen brain cells and neurons.</p>
                         </div>
                     </div>
                     <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
@@ -312,7 +344,7 @@ export default function KidsEnglish() {
                         </div>
                         <div>
                             <h1 className='text-xl font-medium'>
-                                Cognitive Benefits</h1>
+                            Confident Communication</h1>
                             <p className='text-[#54595f] pt-2'>The earlier you learn English, the better you get at communication. Start your kid’s learning from a young age and make your child a master of confident communication. There is no greater feeling than seeing your child practice confidence in their day to day life.</p>
                         </div>
                     </div>
@@ -321,30 +353,31 @@ export default function KidsEnglish() {
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-xl font-medium'>Confident Communication</h1>
-                            <p className='text-[#54595f] pt-2'>The earlier you learn English, the better you get at communication. Start your kid’s learning from a young age and make your child a master of confident communication. There is no greater feeling than seeing your child practice confidence in their day to day life.</p>
-                        </div>
-                    </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
-                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
-                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
-                        </div>
-                        <div>
-                            <h1 className='text-xl font-medium'>Early Learning Benefits</h1>
-                            <p className='text-[#54595f] pt-2'>When your child starts learning early, they learn much more than others. Early age learning benefits your child in multiple ways. It helps them build a strong personality.</p>
-                        </div>
-                    </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
-                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
-                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
-                        </div>
-                        <div>
-                            <h1 className='text-xl font-medium'>Boost Academic Achievements</h1>
+                            <h1 className='text-xl font-medium'>Boost Academic Achievement</h1>
                             <p className='text-[#54595f] pt-2'>When you start learning English at an early age, you become so fluent that other subjects become easier too. Memorising theoretical subjects becomes a piece of cake. This boosts your overall academic achievement.</p>
+                        </div>
+                    </div>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-xl font-medium'>Garner Professional Opportunities</h1>
+                            <p className='text-[#54595f] pt-2'>If you are a master of the English language, you will be able to garner multiple professional opportunities. It will be a good acquisition for your career. Learning a foreign language will open many doors. </p>
+                        </div>
+                    </div>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-xl font-medium'>Travel the World</h1>
+                            <p className='text-[#54595f] pt-2'>If you learn English with The Language Network, you will be able to traverse a lot of countries. You can take an international exam and apply for any English-speaking university in the world. Knowing English will take you place.</p>
                         </div>
                     </div>
                 </div>
             </div>
+            
             <div className='pt-20 w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium px-2 lg:px-20'>TLN and International Exams</div>
             <p className='text-center w-full px-10 lg:px-60 pt-4 text-sm text-[#54595f]'> We want our students to excel in international exams like TOEFL and IELTS. We teach our students how to learn English in a way that will help them ace these standardised tests. All aspects of the test, including pronunciation, vocabulary, listening part, is being taken care of at TLN. We ensure that once you learn something you won’t forget it.</p>
             <div className='px-3 group w-full flex flex-col items-center my-10 sm:pb-10 lg:pb-0'>
@@ -356,13 +389,13 @@ export default function KidsEnglish() {
             </div>
 
             <div className='flex flex-col items-center pt-10 '>
-            <div className="Home-container-32 sm:px-4 lg:px-48 sm:pt-20 lg:pt-20 ">
+                <div className="Home-container-32 sm:px-4 lg:px-48 sm:pt-20 lg:pt-20 ">
                     <h1 className='font-semibold text-2xl lg:text-4xl'>
                         Students at The Language Network
                     </h1>
                     <p className="sm:px-10 lg:px-2 font-medium pb-2 pt-2">
                         <div className="px-4 ">
-                        We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
+                            We have created courses, based on students’ age range, keeping in mind each age-groups’ attention and motivation level, so that we can provide the most suitable study curriculum and experience.
                         </div>
                     </p>
                 </div>
