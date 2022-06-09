@@ -1,10 +1,12 @@
 #selected{
     height: 100%;
-    background: #13bfab5e;
-    /* box-shadow: 1px 8px 20px 1px #0000005e; */
+    /* background: #0102025e; */
+    /* box-shadow: 5px 1px 1px 1px #9e9c9c5e; */
     padding: 5px;
+    background-color:#9e9c9c5e;
     /* border-width: 4px; */
     border-radius: 80px;
+    
 
 }
 
