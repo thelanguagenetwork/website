@@ -41,7 +41,7 @@ export default function KidsSpanish() {
     }
     return (
         <div>
-            <div className="h-[100vh] pt-10 px-10 lg:px28 lg:flex flex-row items-center">
+            <div className="h-auto pt-10 px-10 lg:px28 lg:flex flex-row items-center">
                 <div className='lg:w-1/2 lg:px-10'>
                     <h2 className='font-semibold text-2xl lg:text-4xl'>Online Spanish for Kids</h2>
                     <p className='text-sm text-[#54595f] my-3'>Online Spanish classes for kids at The Language Network, is your path to fluency!</p>
