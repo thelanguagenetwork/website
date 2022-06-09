@@ -80,7 +80,7 @@ export const Mandarin_1_2 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 1',
       //  OgPrice : 444,
-        DiscPrice : 13990,
+        DiscPrice : 11990,
         Link: ""
     },
     {
@@ -91,7 +91,7 @@ export const Mandarin_1_2 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 2',
       //  OgPrice : 444,
-        DiscPrice : 15990,
+        DiscPrice : 13990,
         Link: ""
     },
     {
@@ -102,7 +102,7 @@ export const Mandarin_1_2 = [
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 3',
       //  OgPrice : 444,
-        DiscPrice : 17990,
+        DiscPrice : 15990,
         Link: ""
     },
     {
