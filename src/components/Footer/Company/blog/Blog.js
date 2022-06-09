@@ -1,12 +1,12 @@
 import React from "react";
-import MediumSlider from './MediumSlider'
+import Blogger from './Blogger'
 
 const Blog = () => {
 
   return (
     <div>
       <div className="container">
-        <MediumSlider/>
+        <Blogger/>
       </div>
     </div>
   );
