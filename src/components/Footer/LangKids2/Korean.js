@@ -42,7 +42,7 @@ export default function KidsKorean() {
     }
     return (
         <div>
-            <div className="h-[100vh] pt-10 lg:pt-0 px-10 lg:px28 lg:flex flex-row items-center">
+            <div className="h-auto pt-10 lg:pt-0 px-10 lg:px28 lg:flex flex-row items-center">
                 <div className='lg:w-1/2 lg:px-10'>
                     <h2 className='font-semibold text-2xl lg:text-4xl'>Levels of Language Learning for Kids and Adolescents</h2>
                     <p className='text-sm text-[#54595f] my-3'>At The Language Network, we believe that learning is very important. Our Korean language for kids course covers all the 10 grades. Learning Korean at an early age is highly beneficial for kids and adolescents. Learning a language can start at the age of 6 years. </p>

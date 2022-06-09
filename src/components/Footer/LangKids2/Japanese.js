@@ -42,7 +42,7 @@ export default function KidsJapanese() {
     }
     return (
         <div>
-            <div className="h-[100vh] pt-10 md:pt-10 lg:pt-0 px-10 lg:px28 lg:flex flex-row items-center">
+            <div className="h-auto pt-10 md:pt-10 lg:pt-0 px-10 lg:px28 lg:flex flex-row items-center">
                 <div className='lg:w-1/2 lg:px-10'>
                     <h2 className='font-semibold text-2xl lg:text-4xl'>Levels of Language Learning for Kids and Adolescents</h2>
                     <p className='text-sm text-[#54595f] my-3'>At The Language Network, we consider learning as the most important activity. Our Japanese language course for kids covers all the 10 grades. Language learning can start from an early age. So, enrol your child in our Japanese language course for kids and give your child a head start. </p>
