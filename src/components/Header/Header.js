@@ -54,6 +54,11 @@ class Header extends react.Component {
     
 
     const change = (url) => {
+      // var currenturl=window.location.href
+      // console.log(currenturl)
+      // if(url=='Curriculum' && !currenturl.endsWith('Curriculum')){
+
+      // }
       const nextURL = url;
       const nextTitle = 'adol';
       const nextState = { additionalInformation: 'Updated the URL with JS' };
@@ -102,9 +107,12 @@ class Header extends react.Component {
           <NavMenu>
             <a {...window.location.pathname !== '/' ? {href :'/'}  : {}}  >
               <span >
-                <Link to="Curriculum"  spy={true} smooth={false}  onClick={() => {change("Curriculum")}} > 
+                {/* <Link to="Curriculum"  spy={true} smooth={false}  onClick={() => {change("Curriculum")}} > 
                   Curriculum
-                </Link>
+                </Link> */}
+                <a href='/'> 
+                  Curriculum
+                </a>
               </span>
             </a>
 
