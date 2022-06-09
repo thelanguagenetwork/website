@@ -295,7 +295,7 @@ export default function Home() {
                     <SwiperSlide>
                         <div className="w-full w-5/6 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-1' onMouseOver={changeCol1} onMouseLeave={changeBack}>
                             <div className="Home-card-img">
-                                <img src='/images/Adolscents@300x.svg' alt='img' />
+                                <img src='/images/Adolscents@300x.png' alt='img' />
                             </div>
                             <div className='Home-card-text'>
                                 <h1 id='Home-card-text-h1'>Kids (6-9 years)</h1>
@@ -306,7 +306,7 @@ export default function Home() {
                     <SwiperSlide>
                         <div className="w-full w-5/6 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-2' onMouseOver={changeCol2} onMouseLeave={changeBack}>
                             <div className="Home-card-img">
-                                <img src='/images/Kids@300x-1.svg' alt='img' />
+                                <img src='/images/Kids@300x-1.png' alt='img' />
                             </div>
                             <div className='Home-card-text'>
                                 <h1 id='Home-card-text-h2'>Teens (10-13 years)</h1>
@@ -317,7 +317,7 @@ export default function Home() {
                     <SwiperSlide>
                         <div className="w-full w-5/6 flex flex-col items-center lg:mx-4 ease-in duration-300" id='Home-card-3' onMouseOver={changeCol3} onMouseLeave={changeBack}>
                             <div className="Home-card-img">
-                                <img src='/images/adults@300x.svg' alt='img' />
+                                <img src='/images/adults@300x.png' alt='img' />
                             </div>
                             <div className='Home-card-text'>
                                 <h1 id='Home-card-text-h3'>Adults (14+ years)</h1>
