@@ -2,7 +2,7 @@ export const Japanese_1_1 = [
     {
       title: 'Introduction to Japanese',
         includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1UoCYwjOLTyrS_Xrpcghnex5wrjDmkRZB/view?usp=sharing",
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N5',
@@ -13,7 +13,7 @@ export const Japanese_1_1 = [
     {
       title: 'Elementary Knowledge',
         includes:'Simple communication, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1XUqapHH0zuRexDrUfLeBJnLPY2epJzxH/view?usp=sharing",
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N4',
@@ -24,7 +24,7 @@ export const Japanese_1_1 = [
     {
       title: 'Intermediate Knowledge',
         includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1FYSVD9cp1iNAjIf6PIq-tTu3kORRuS4k/view?usp=sharing",
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N3',
@@ -70,7 +70,7 @@ export const Japanese_1_2 = [
     {
       title: 'Introduction to Japanese',
         includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1UoCYwjOLTyrS_Xrpcghnex5wrjDmkRZB/view?usp=sharing",
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N5',
@@ -81,7 +81,7 @@ export const Japanese_1_2 = [
     {
       title: 'Elementary Knowledge',
         includes:'Simple communication, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1XUqapHH0zuRexDrUfLeBJnLPY2epJzxH/view?usp=sharing",
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N4',
@@ -92,7 +92,7 @@ export const Japanese_1_2 = [
     {
       title: 'Intermediate Knowledge',
         includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1FYSVD9cp1iNAjIf6PIq-tTu3kORRuS4k/view?usp=sharing",
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N3',
@@ -139,7 +139,7 @@ export const Japanese_1_4 = [
     {
       title: 'Introduction to Japanese',
         includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1UoCYwjOLTyrS_Xrpcghnex5wrjDmkRZB/view?usp=sharing",
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N5',
@@ -150,7 +150,7 @@ export const Japanese_1_4 = [
     {
       title: 'Elementary Knowledge',
         includes:'Simple communication, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1XUqapHH0zuRexDrUfLeBJnLPY2epJzxH/view?usp=sharing",
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N4',
@@ -161,7 +161,7 @@ export const Japanese_1_4 = [
     {
       title: 'Intermediate Knowledge',
         includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1FYSVD9cp1iNAjIf6PIq-tTu3kORRuS4k/view?usp=sharing",
         language: "Japanese",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'N3',

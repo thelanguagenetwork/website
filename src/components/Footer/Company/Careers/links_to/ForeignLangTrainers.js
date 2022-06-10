@@ -17,8 +17,8 @@ export default function ForeignLangTrainers() {
       <div className="flex flex-col justify-center items-left px-10 py-10 lg:py-20  lg:px-44 lg:pt-28 space-y-9">
         <h1 className="text-3xl lg:text-5xl font-small">Foreign Language Trainers</h1>
         <span><strong>Languages: </strong>French, German, Spanish, Mandarin, English, Italian, Portuguese, Russian, Arabic and Japanese</span>
-        <span><strong>Type: </strong> Work from home (Online classes)</span>
-        <span><strong>Location: </strong>Mumbai, Pune</span>
+        <span><strong>Type: </strong> Work from Office</span>
+        <span><strong>Location: </strong>Mumbai</span>
         <span><strong>Working hours:</strong> Part-time</span>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5gos89jC1wQhIjPG5xZx-ZN9CW3giKaErbL_Gf_a9ZbxNUQ/viewform"><button type="button" class="btn btn-info text-white mb-10 mb-3 flex w-36" style={{ backgroundColor: '#13bfab', borderRadius: '5px', paddingTop: '10px', paddingRight: '30px', paddingBottom: '10px', paddingLeft: '30px', fontSize: '0.82352941176471rem' }}>APPLY NOW</button></a>
 

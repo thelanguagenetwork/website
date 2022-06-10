@@ -16,8 +16,8 @@ export default function OperationIntern() {
 
             <div className="flex flex-col justify-center items-left px-10 py-10 lg:py-20  lg:px-44 lg:pt-28 space-y-9">
                 <h1 className="text-3xl lg:text-5xl font-small">Operation Intern</h1>
-                <span><strong>Type: </strong>Work from home</span>
-                <span><strong>Location: </strong>Mumbai, Pune</span>
+                <span><strong>Type: </strong>Work from Office</span>
+                <span><strong>Location: </strong>Mumbai</span>
                 <span><strong>Start Date: </strong>Immediate</span>
 
                 <span><strong>Working hours:</strong> 4 months</span>

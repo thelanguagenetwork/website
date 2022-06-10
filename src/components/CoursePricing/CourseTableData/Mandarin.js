@@ -2,7 +2,7 @@ export const Mandarin_1_1 = [
     {
         title: 'Introduction to Mandarin',
         includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1IGpAUSyJAJu67V7WwnAKvZGSgLZWE5EK/view?usp=sharing",
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 1',
@@ -13,7 +13,7 @@ export const Mandarin_1_1 = [
     {
         title: 'Elementary Knowledge',
         includes:'Simple communication, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1xULkQTVtbYvqAfwaJWU71rl5ANCZUp75/view?usp=sharing",
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 2',
@@ -24,7 +24,7 @@ export const Mandarin_1_1 = [
     {
         title: 'Intermediate Knowledge',
         includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1Q9vRJb0WVZkiuPycv3jDRUkMQKmUBpn4/view?usp=sharing",
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 3',
@@ -75,7 +75,7 @@ export const Mandarin_1_2 = [
     {
         title: 'Introduction to Mandarin',
         includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1IGpAUSyJAJu67V7WwnAKvZGSgLZWE5EK/view?usp=sharing",
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 1',
@@ -86,7 +86,7 @@ export const Mandarin_1_2 = [
     {
         title: 'Elementary Knowledge',
         includes:'Simple communication, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1xULkQTVtbYvqAfwaJWU71rl5ANCZUp75/view?usp=sharing",
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 2',
@@ -97,7 +97,7 @@ export const Mandarin_1_2 = [
     {
         title: 'Intermediate Knowledge',
         includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1Q9vRJb0WVZkiuPycv3jDRUkMQKmUBpn4/view?usp=sharing",
         language: "Mandarin",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'HSK 3',
