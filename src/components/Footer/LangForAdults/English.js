@@ -3,6 +3,8 @@ import { FaRegWindowMinimize, FaLightbulb } from 'react-icons/fa';
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 import { Swiper, SwiperSlide } from "swiper/react";
+import { EffectFade, Parallax } from "swiper/core";
+
 import "swiper/css";
 import "swiper/css/pagination"
 import "swiper/css/navigation"
@@ -87,166 +89,172 @@ export default function AdultsEnglish() {
                 </div>
             </div>
 
-            <div className='w-full text-center text-2xl lg:text-4xl font-semibold mt-20 px-10'>How is learning English with TLN unique?</div>
-            <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly '>
-                <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Interview preparations ​</h3>
-                    <p className='text-sm text-gray-700'>
-                        We prepare our students for interviews. So don’t just learn English with us, also focus on other aspects that are necessary for sustenance. Get the confidence you will need to ace interviews.   </p>
-                </div>
-                <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
-                        CV making</h3>
-                    <p className='text-sm text-gray-700'>
-                        We teach our students the art of making CVs. We have to compete in a cutthroat competition. So it is necessary to work on skills like CV making.  </p>
-                </div>
-                <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-24@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
-                        IELTS and TOEFL preparations</h3>
-                    <p className='text-sm text-gray-700'>
+            <div className='w-full text-center text-3xl lg:text-4xl font-medium '>Why should you learn with The Language Network?</div>
+            <div className="sm:px-3 lg:px-14 sm:mx-0 lg:mx-5">
+                <Swiper className=""
+                    navigation={true}
+                    infinite
+                    autoplay={{
+                        disableOnInteraction: false,
+                    }}
+                    module={[EffectFade, Parallax]}
+                    effect="fade"
+                    loop={true}
+                    pagination={{ clickable: true }}
+                    spaceBetween={5}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 1,
+                            spaceBetween: 40,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 20,
+                        },
+                    }}
+                >
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png" />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Interview Preparation </h2>
+                                    <p class="leading-relaxed text-gray-600 text-sm">We prepare our students for their interviews and other preparations required for grabbing job opportunities. We guide them with tasks like creating CVs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png" />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Customised Study Plans </h2>
+                                    <p class="leading-relaxed text-gray-600 text-sm">Our syllabus and study plans are carefully created after referring to all the international exams and study boards to guarantee good results. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png" />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Compact Batches</h2>
+                                    <p class="leading-relaxed text-gray-600 text-sm">Our online language classes offer compact batches. We believe that all our students should get the attention they deserve. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png" />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Fun Learning Activities </h2>
+                                    <p class="leading-relaxed text-gray-600 text-sm">Our expert language tutors provide immersive and a fun learning experience in our live language classes. We introduce a lot of fun learning activities to our students.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png" />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Cultural Diversity </h2>
+                                    <p class="leading-relaxed text-gray-600 text-sm">TLN believes in cultural diversity. We also believe that culture plays a vital role in language learning. We also teach our students about the social know-how so that they can realise their travel dreams. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png" />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Flexible Learning Experience</h2>
+                                    <p class="leading-relaxed text-gray-600 text-sm">We make sure that we provide our students with a flexible learning exp. Our trainers upgrade their strategies and teaching techniques on the basis on a students’ grasping skills.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
 
-                        Trainers at TLN also teach how to crack exams like IELTS and TOEFL. These standardised exams are important for students who are looking forward to travelling abroad. We make sure that our students get the proper training they need to crack these exams and learn English.    </p>
-                </div>
-                <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
-                        Focus on Spoken English</h3>
-                    <p className='text-sm text-gray-700'>
-
-                        When you learn English, we expect that you get better at speaking English. We need to specifically focus on spoken English in order to make it better. At TLN, we give special attention to the spoken part of the language.   </p>
-                </div>
-                <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
-                        Progress with Study plans</h3>
-                    <p className='text-sm text-gray-700'>
-
-                        We have hand-tailored study plans to meet your learning needs. Now learn English with our master plans and ace at spoken English. Our English language courses are carefully made by considering your needs.   </p>
-                </div>
-                <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
-                        Small Batches</h3>
-                    <p className='text-sm text-gray-700'>
-
-                        Learn English courses online with us because we understand how learning works. We organise small batches so that you can practice grammar and vocabulary efficiently with our expert trainers.     </p>
-                </div>
+                </Swiper>
             </div>
-
-            <Swiper className='pagi1 block lg:hidden w-full px-10 md:px-16 bg-inherit' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
-                breakpoints={{
-                    640: {
-                        slidesPerView: 1
-
-                    },
-                    768: {
-                        slidesPerView: 4
-                    }
-                }}
-                pagination={false} navigation={true} autoplay={{
-                    "delay": 2500,
-                    "disableOnInteraction": false
-                }}
-            >
-                <SwiperSlide>
-                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        
-                        <h3 className='font-bold text-lg my-2'>Interview preparations ​</h3>
-                        <p className='text-sm text-gray-700'>
-                            We prepare our students for interviews. So don’t just learn English with us, also focus on other aspects that are necessary for sustenance. Get the confidence you will need to ace interviews.   </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>
-                            CV making</h3>
-                        <p className='text-sm text-gray-700'>
-                            We teach our students the art of making CVs. We have to compete in a cutthroat competition. So it is necessary to work on skills like CV making.  </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-[19rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-24@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>
-                            IELTS and TOEFL preparations</h3>
-                        <p className='text-sm text-gray-700'>
-
-                            Trainers at TLN also teach how to crack exams like IELTS and TOEFL. These standardised exams are important for students who are looking forward to travelling abroad. We make sure that our students get the proper training they need to crack these exams and learn English.    </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>
-                            Focus on Spoken English</h3>
-                        <p className='text-sm text-gray-700'>
-
-                            When you learn English, we expect that you get better at speaking English. We need to specifically focus on spoken English in order to make it better. At TLN, we give special attention to the spoken part of the language.   </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>
-                            Progress with Study plans</h3>
-                        <p className='text-sm text-gray-700'>
-
-                            We have hand-tailored study plans to meet your learning needs. Now learn English with our master plans and ace at spoken English. Our English language courses are carefully made by considering your needs.   </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>
-                            Small Batches</h3>
-                        <p className='text-sm text-gray-700'>
-
-                            Learn English courses online with us because we understand how learning works. We organise small batches so that you can practice grammar and vocabulary efficiently with our expert trainers.     </p>
-                    </div>
-                </SwiperSlide>
-            </Swiper>
-
-            <div className='w-full my-20 text-center text-3xl lg:text-4xl font-medium '>How to learn English effectively?</div>
-            <div className='flex flex-col lg:flex-row sm:px-0 lg:px-20 sm:mb-10 lg:mb-20'>
-                <div className='pl-10 w-3/4 lg:w-[60rem] self-center   '>
+            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium mb-5'>Why Learn English?</div>
+            <div className='flex flex-col lg:flex-row'>
+                <div className='pl-10 w-1/2 lg:w-[30rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
                 </div>
-                <div className='w-full flex flex-col'>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                <div className='w-full flex flex-col w-full lg:w-2/3'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Grammar and Vocabulary</h1>
-                            <p className='text-[#54595f] pt-2'>Learn English effectively and efficiently by adhering to our guidelines. There are various tricks and tips you need to follow to learn English. We make sure that our English language courses focus on grammar and vocabulary.</p>
+                            <h1 className='text-xl font-medium'>Cognitive Benefits</h1>
+                            <p className='text-[#54595f] pt-2'>Learning English has a lot of cognitive benefits for kids. A Child's brain is like a sponge. It will hold more information and in a better way. Learning English at an early age will strengthen brain cells and neurons.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>
-                                Listening and Speaking</h1>
-                            <p className='text-[#54595f] pt-2'>Learn English courses online with The Language Network because we focus on spoken English. We train our students to listen and speak English proficiently.</p>
+                            <h1 className='text-xl font-medium'>
+                            Confident Communication</h1>
+                            <p className='text-[#54595f] pt-2'>The earlier you learn English, the better you get at communication. Start your kid’s learning from a young age and make your child a master of confident communication. There is no greater feeling than seeing your child practice confidence in their day to day life.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Connect with the culture</h1>
-                            <p className='text-[#54595f] pt-2'>Our English language courses not only focus on learning English but also focus on the culture associated with it. Learn English with us and stay updated with the latest slang and expressions.</p>
+                            <h1 className='text-xl font-medium'>Boost Academic Achievement</h1>
+                            <p className='text-[#54595f] pt-2'>When you start learning English at an early age, you become so fluent that other subjects become easier too. Memorising theoretical subjects becomes a piece of cake. This boosts your overall academic achievement.</p>
                         </div>
                     </div>
-
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-xl font-medium'>Garner Professional Opportunities</h1>
+                            <p className='text-[#54595f] pt-2'>If you are a master of the English language, you will be able to garner multiple professional opportunities. It will be a good acquisition for your career. Learning a foreign language will open many doors. </p>
+                        </div>
+                    </div>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-xl font-medium'>Travel the World</h1>
+                            <p className='text-[#54595f] pt-2'>If you learn English with The Language Network, you will be able to traverse a lot of countries. You can take an international exam and apply for any English-speaking university in the world. Knowing English will take you place.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+            
+
+
 
 
             {/*<div className='flex flex-col items-center '>
@@ -344,7 +352,7 @@ export default function AdultsEnglish() {
                 <LearningPrices one_one={English_1_1} one_two={English_1_2} one_four={English_1_4} />
             </div>
 
-            
+
 
             <p className='w-full  text-center font-bold text-4xl pb-3'>Frequently asked questions</p>
 

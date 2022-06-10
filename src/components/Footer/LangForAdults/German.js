@@ -85,133 +85,118 @@ export default function AdultsGerman() {
                 </div>
             </div>
 
-            <div className='w-full text-center text-2xl lg:text-4xl font-semibold mt-20 px-10'>How is learning German with TLN unique?</div>
-            
-            <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly'>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
-                        Interview preparations ​</h3>
-                    <p className='text-sm text-gray-700'>
-                        While you learn German with us, we also prepare you for interview. Dont just learn German, focus on every aspect that is needed for sustenance.  </p>
-                </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
-                        CV making</h3>
-                    <p className='text-sm text-gray-700'>
-                        We also teach our students how to craft a perfect C.V. There is a cut throat competition in today’s world, so we teach you how to make C.V.s that will get you some attention.  </p>
-                </div>
-                <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-30@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
-                        GOETHE Preparations</h3>
-                    <p className='text-sm text-gray-700'>
+        
+             
+            <div className='w-full text-center text-3xl lg:text-4xl font-medium '>Why should you learn with The Language Network?</div>
+            <div className="sm:px-3 lg:px-14 sm:mx-0 lg:mx-5">
+                <Swiper className=""
+                    navigation={true}
+                    infinite
+                    autoplay={{
+                        disableOnInteraction: false,
+                    }}
+                    module={[EffectFade, Parallax]}
+                    effect="fade"
+                    loop={true}
+                    pagination={{ clickable: true }}
+                    spaceBetween={5}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 1,
+                            spaceBetween: 40,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 20,
+                        },
+                    }}
+                >
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png" />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Interview Preparation </h2>
+                                    <p class="leading-relaxed text-gray-600 text-sm">We prepare our students for their interviews and other preparations required for grabbing job opportunities. We guide them with tasks like creating CVs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png" />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Customised Study Plans </h2>
+                                    <p class="leading-relaxed text-gray-600 text-sm">Our syllabus and study plans are carefully created after referring to all the international exams and study boards to guarantee good results. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png" />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Compact Batches</h2>
+                                    <p class="leading-relaxed text-gray-600 text-sm">Our online language classes offer compact batches. We believe that all our students should get the attention they deserve. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png" />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Fun Learning Activities </h2>
+                                    <p class="leading-relaxed text-gray-600 text-sm">Our expert language tutors provide immersive and a fun learning experience in our live language classes. We introduce a lot of fun learning activities to our students.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png" />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Cultural Diversity </h2>
+                                    <p class="leading-relaxed text-gray-600 text-sm">TLN believes in cultural diversity. We also believe that culture plays a vital role in language learning. We also teach our students about the social know-how so that they can realise their travel dreams. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png" />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Flexible Learning Experience</h2>
+                                    <p class="leading-relaxed text-gray-600 text-sm">We make sure that we provide our students with a flexible learning exp. Our trainers upgrade their strategies and teaching techniques on the basis on a students’ grasping skills.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
 
-                        Our expert German trainers prepare you for international exams like Goethe. These international exams are important for those who wish to move abroad. We make sure that our students get trained to ace these exams.    </p>
-                </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
-                        Spoken German</h3>
-                    <p className='text-sm text-gray-700'>
-
-                        When our students learns German, we give emphasis to the spoken part more. We believe that our students should be able to better communicate in German. Our German language course covers all aspects of learning.   </p>
-                </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
-                        Unique Study Plans</h3>
-                    <p className='text-sm text-gray-700'>
-
-                        We have created unique study plans to meet our students learning needs. Learn German with our master plan and ace at German language. Our German language courses are carefully made for our students. </p>
-                </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>
-                        Compact batches</h3>
-                    <p className='text-sm text-gray-700'>
-
-                        We believe in small batches. Learn German with us and get specialised attention from our language experts. You can also opt for one-on-one batches.   </p>
-                </div>
-
+                </Swiper>
             </div>
-            <Swiper className='pagi1 block lg:hidden w-full px-10 md:px-16 bg-inherit' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
-                breakpoints={{
-                    640: {
-                        slidesPerView: 1
-
-                    },
-                    768: {
-                        slidesPerView: 4
-                    }
-                }}
-                pagination={false} navigation={true} autoplay={{
-                    "delay": 2500,
-                    "disableOnInteraction": false
-                }}
-            >
-                <SwiperSlide>
-                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>
-                            Interview preparations ​</h3>
-                        <p className='text-sm text-gray-700'>
-                            While you learn German with us, we also prepare you for interview. Dont just learn German, focus on every aspect that is needed for sustenance.  </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>
-                            CV making</h3>
-                        <p className='text-sm text-gray-700'>
-                            We also teach our students how to craft a perfect C.V. There is a cut throat competition in today’s world, so we teach you how to make C.V.s that will get you some attention.  </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-30@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>
-                            GOETHE Preparations</h3>
-                        <p className='text-sm text-gray-700'>
-
-                            Our expert German trainers prepare you for international exams like Goethe. These international exams are important for those who wish to move abroad. We make sure that our students get trained to ace these exams.    </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>
-                            Spoken German</h3>
-                        <p className='text-sm text-gray-700'>
-
-                            When our students learns German, we give emphasis to the spoken part more. We believe that our students should be able to better communicate in German. Our German language course covers all aspects of learning.   </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-29@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>
-                            Unique Study Plans</h3>
-                        <p className='text-sm text-gray-700'>
-
-                            We have created unique study plans to meet our students learning needs. Learn German with our master plan and ace at German language. Our German language courses are carefully made for our students. </p>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                        <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
-                        <h3 className='font-bold text-lg my-2'>
-                            Compact batches</h3>
-                        <p className='text-sm text-gray-700'>
-
-                            We believe in small batches. Learn German with us and get specialised attention from our language experts. You can also opt for one-on-one batches.   </p>
-                    </div>
-                </SwiperSlide>
-            </Swiper>
-
-            <div className='w-full mb-10 lg:mt-28 text-center text-3xl lg:text-4xl font-medium '>How to learn German effectively?</div>
+            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium mb-5'>Why Learn German?</div>
             <div className='flex flex-col lg:flex-row'>
                 <div className='pl-10 w-1/2 lg:w-[30rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
@@ -222,9 +207,8 @@ export default function AdultsGerman() {
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-xl font-medium'>Grammar and Vocabulary</h1>
-                            <p className='text-[#54595f] pt-2'>Learn German effectively with our language experts. Language is all about words and how you place them. There are various tricks if you need to learn German effectively. We make sure that you master grammar and learn new vocabulary.</p>
-
+                            <h1 className='text-xl font-medium'>Cognitive Benefits</h1>
+                            <p className='text-[#54595f] pt-2'>Learning german has a lot of cognitive benefits for kids. A Child's brain is like a sponge. It will hold more information and in a better way. Learning german at an early age will strengthen brain cells and neurons.</p>
                         </div>
                     </div>
                     <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
@@ -233,9 +217,8 @@ export default function AdultsGerman() {
                         </div>
                         <div>
                             <h1 className='text-xl font-medium'>
-                            Listening and Speaking</h1>
-                            <p className='text-[#54595f] pt-2'>When you learn German with our German language course online, we teach you how to effectively understand and speak in German. We consider listening equally as important as speaking.</p>
-
+                            Confident Communication</h1>
+                            <p className='text-[#54595f] pt-2'>The earlier you learn german, the better you get at communication. Start your kid’s learning from a young age and make your child a master of confident communication. There is no greater feeling than seeing your child practice confidence in their day to day life.</p>
                         </div>
                     </div>
                     <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
@@ -243,8 +226,8 @@ export default function AdultsGerman() {
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-xl font-medium'>Connect with the culture</h1>
-                            <p className='text-[#54595f] pt-2'>Our German language course not only focuses on learning German, but also focuses on learning the German culture. Now dont just learn German, also get into the German culture.</p>
+                            <h1 className='text-xl font-medium'>Boost Academic Achievement</h1>
+                            <p className='text-[#54595f] pt-2'>When you start learning german at an early age, you become so fluent that other subjects become easier too. Memorising theoretical subjects becomes a piece of cake. This boosts your overall academic achievement.</p>
                         </div>
                     </div>
                     <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
@@ -252,13 +235,23 @@ export default function AdultsGerman() {
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-xl font-medium'>Practice with Experts</h1>
-                            <p className='text-[#54595f] pt-2'>After you learn German it is important that you keep practicing your German with German experts. We provide you a good experience and beautiful insights of the German language.</p>
+                            <h1 className='text-xl font-medium'>Garner Professional Opportunities</h1>
+                            <p className='text-[#54595f] pt-2'>If you are a master of the german language, you will be able to garner multiple professional opportunities. It will be a good acquisition for your career. Learning a foreign language will open many doors. </p>
                         </div>
                     </div>
- 
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-xl font-medium'>Travel the World</h1>
+                            <p className='text-[#54595f] pt-2'>If you learn german with The Language Network, you will be able to traverse a lot of countries. You can take an international exam and apply for any german-speaking university in the world. Knowing german will take you place.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+            
+
             {/* <div className='flex flex-col lg:flex-row sm:px-0 lg:px-20 sm:mb-10 lg:mb-20'>
                 <div className='pl-10 w-3/4 lg:w-[60rem] self-center    '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />

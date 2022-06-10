@@ -330,7 +330,7 @@ export default function Home() {
 
 
             <div className="my-2 px-10 lg:px-0 lg:pl-32 lg:flex flex-row lg:h-[65vh] w-full bg-[#f4f8fb]">
-                <div className='flex flex-col space-y-6 justify-center lg:w-2/3'>
+                <div className='flex flex-col space-y-6 justify-center lg:w-1/2'>
                     <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-0'>TRANSFORM YOUR CAREER</h1>
                     <p className='text-lg '>Earn your certificate from The Language Network after completion of your language course. Not only it will boost your career but also improve your CV.</p>
                     <a href="/getstarted">
@@ -340,7 +340,7 @@ export default function Home() {
                     </a>
                 </div>
                 <div className='flex align-center justify-center py-10 lg:py-14 '>
-                    <img src='/images/certificate-mockup.png' alt='img' className='certificate-img lg:pl-14' />
+                    <img src='/images/certificate-mockup.png' alt='img' className='certificate-img lg:pl-14 ' />
                 </div>
                 <img src='/images/dots-circle.png' alt='img' className='dots-circle-1 lg:block hidden' />
                 <img src='/images/dots-circle.png' alt='img' className='dots-circle-2 lg:block hidden' />
