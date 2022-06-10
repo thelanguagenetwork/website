@@ -86,159 +86,169 @@ export default function AdultsKorean() {
                 </div>
             </div>
 
-            <div className='w-full text-center text-2xl lg:text-4xl font-semibold mt-20 px-10'>How is learning Korean with TLN unique?</div>
+            <div className='w-full text-center text-3xl lg:text-4xl font-medium '>Why should you learn with The Language Network?</div>
+            <div className="sm:px-3 lg:px-14 sm:mx-0 lg:mx-5">
+                <Swiper className=""
+                    navigation={true}
+                    infinite
+                    autoplay={{
+                        disableOnInteraction: false,
+                    }}
+                    module={[EffectFade, Parallax]}
+                    effect="fade"
+                    loop={true}
+                    pagination={{ clickable: true }}
+                    spaceBetween={5}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 1,
+                            spaceBetween: 40,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 20,
+                        },
+                    }}
+                >
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png" />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Interview Preparation </h2>
+                                    <p class="leading-relaxed text-gray-600 text-sm">We prepare our students for their interviews and other preparations required for grabbing job opportunities. We guide them with tasks like creating CVs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png" />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Customised Study Plans </h2>
+                                    <p class="leading-relaxed text-gray-600 text-sm">Our syllabus and study plans are carefully created after referring to all the international exams and study boards to guarantee good results. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png" />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Compact Batches</h2>
+                                    <p class="leading-relaxed text-gray-600 text-sm">Our online language classes offer compact batches. We believe that all our students should get the attention they deserve. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png" />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Fun Learning Activities </h2>
+                                    <p class="leading-relaxed text-gray-600 text-sm">Our expert language tutors provide immersive and a fun learning experience in our live language classes. We introduce a lot of fun learning activities to our students.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png" />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Cultural Diversity </h2>
+                                    <p class="leading-relaxed text-gray-600 text-sm">TLN believes in cultural diversity. We also believe that culture plays a vital role in language learning. We also teach our students about the social know-how so that they can realise their travel dreams. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="mb-10 testi-slides px-1 lg:px-0  pt-3 lg:pt-0">
+                        <div className="flex justify-center mx-5">
+                            <div class="xl:w-full md:w-full sm:w-full p-1 lg:p-1 lg:p-4 drop-shadow-md hover:drop-shadow-2xl ease-in duration-300">
+                                <div class=" p-6 rounded-lg h-auto lg:h-56">
+                                    <div class=" w-1/6 h-1/6 inline-flex items-center justify-center text-yellow-400 text-yellow-300 ">
+                                        <img src="/images/Asset-21@300x.png" />
+                                    </div>
+                                    <h2 class="text-lg text-gray-900 font-semibold title-font">Flexible Learning Experience</h2>
+                                    <p class="leading-relaxed text-gray-600 text-sm">We make sure that we provide our students with a flexible learning exp. Our trainers upgrade their strategies and teaching techniques on the basis on a students’ grasping skills.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
 
-            {/* <div className='w-full text-center text-3xl lg:text-4xl font-medium mt-20 px-3'>How learning Korean with TLN unique?</div> */}
-            <div className='w-full lg:px-32 py-18 hidden lg:flex flex-row flex-wrap  justify-evenly'>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Interview Preparation</h3>
-                    <p className='text-sm text-gray-700'>
-                        When you learn Korean with TLN, we also train you for interviews and other career aspects. We prepare you for the world. </p>
-                </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>CV Making</h3>
-                    <p className='text-sm text-gray-700'>Along with our Korean language course, we also teach you how to make proper C.V. We believe that all career aspects are important. </p>
-                </div>
-                <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-32@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>TOPIK Preparations</h3>
-                    <p className='text-sm text-gray-700'>
-                        When you learn Korean with us, we also prepare you for international exams like TOPIK . We believe that our students should crack these exam so that we can teach you how to ace </p>
-                </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Spoken Korean</h3>
-                    <p className='text-sm text-gray-700'>
-                        Our Korean language course focuses on spoken Korean a lot. We want our students to speak fluent Korean.</p>
-                </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Progress with Study Plans</h3>
-                    <p className='text-sm text-gray-700'>
-                        We have crafted proper study plans to meet your learning needs. Our study plans include all the tricks and tips that you will need to learn Korean.</p>
-                </div>
-                <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Small batches</h3>
-                    <p className='text-sm text-gray-700'>
-
-                        At TLN, we believe in small batches. Compact batches make it possible for our language experts to give proper attention to the students.</p>
-                </div>
+                </Swiper>
             </div>
-            <Swiper className='pagi1 block lg:hidden w-full px-10 md:px-16 bg-inherit' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
-                breakpoints={{
-                    640: {
-                        slidesPerView: 1
-
-                    },
-                    768: {
-                        slidesPerView: 4
-                    }
-                }}
-                pagination={false} navigation={true} autoplay={{
-                    "delay": 2500,
-                    "disableOnInteraction": false
-                }}
-            >
-                <SwiperSlide>
-                     <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-26@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Interview Preparation</h3>
-                    <p className='text-sm text-gray-700'>
-                        When you learn Korean with TLN, we also train you for interviews and other career aspects. We prepare you for the world. </p>
-                </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                   <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-23@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>CV Making</h3>
-                    <p className='text-sm text-gray-700'>Along with our Korean language course, we also teach you how to make proper C.V. We believe that all career aspects are important. </p>
-                </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                   <div className='h-[18rem] lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[31rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-32@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>TOPIK Preparations</h3>
-                    <p className='text-sm text-gray-700'>
-                        When you learn Korean with us, we also prepare you for international exams like TOPIK . We believe that our students should crack these exam so that we can teach you how to ace </p>
-                </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                   <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-22@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Spoken Korean</h3>
-                    <p className='text-sm text-gray-700'>
-                        Our Korean language course focuses on spoken Korean a lot. We want our students to speak fluent Korean.</p>
-                </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-25@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Progress with Study Plans</h3>
-                    <p className='text-sm text-gray-700'>
-                        We have crafted proper study plans to meet your learning needs. Our study plans include all the tricks and tips that you will need to learn Korean.</p>
-                </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='h-72 lg:mx-10 my-8 overflow-hidden transition-all duration-500 hover:h-[27rem] w-60 flex flex-col items-center text-center'>
-                    <img src="/images/Asset-21@300x.png" alt="alt" className='p-8' />
-                    <h3 className='font-bold text-lg my-2'>Small batches</h3>
-                    <p className='text-sm text-gray-700'>
-
-                        At TLN, we believe in small batches. Compact batches make it possible for our language experts to give proper attention to the students.</p>
-                </div>
-                </SwiperSlide>
-            </Swiper>
-
-            <div className='w-full lg:mt-28 text-center text-3xl lg:text-4xl font-medium '>How to learn Korean effectively ?</div>
-            <div className='flex flex-col lg:flex-row sm:px-0 lg:px-20 sm:mb-10 lg:mb-20'>
-                <div className='pl-10 w-3/4 lg:w-[60rem] self-center   '>
+            <div className='w-full lg:mt-20 text-center text-3xl lg:text-4xl font-medium mb-5'>Why Learn Korean?</div>
+            <div className='flex flex-col lg:flex-row'>
+                <div className='pl-10 w-1/2 lg:w-[30rem] self-center   '>
                     <img className='w-full' src="/images/Learn-effectively@300x.png" alt="img" />
                 </div>
-                <div className='w-full flex flex-col'>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                <div className='w-full flex flex-col w-full lg:w-2/3'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Grammar and Vocabulary</h1>
-                            <p className='text-[#54595f] pt-2'>Language is all about vocabulary and how you place it. If you wish to master Korean, you will need to improve your grammar and vocabulary</p>
+                            <h1 className='text-xl font-medium'>Cognitive Benefits</h1>
+                            <p className='text-[#54595f] pt-2'>Learning Korean has a lot of cognitive benefits for kids. A Child's brain is like a sponge. It will hold more information and in a better way. Learning Korean at an early age will strengthen brain cells and neurons.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>
-                                Listening and Speaking</h1>
-                            <p className='text-[#54595f] pt-2'>When you learn Korean, all you want to do is be able to speak in Korean and understand it. Work on them and you will learn Korean effectively.</p>
+                            <h1 className='text-xl font-medium'>
+                            Confident Communication</h1>
+                            <p className='text-[#54595f] pt-2'>The earlier you learn Korean, the better you get at communication. Start your kid’s learning from a young age and make your child a master of confident communication. There is no greater feeling than seeing your child practice confidence in their day to day life.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Cultural Know-how</h1>
-                            <p className='text-[#54595f] pt-2'>If you wish to learn Korean language properly, you will have to learn the culture associated with the language. Culture matters a lot while learning a language.</p>
+                            <h1 className='text-xl font-medium'>Boost Academic Achievement</h1>
+                            <p className='text-[#54595f] pt-2'>When you start learning Korean at an early age, you become so fluent that other subjects become easier too. Memorising theoretical subjects becomes a piece of cake. This boosts your overall academic achievement.</p>
                         </div>
                     </div>
-                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-6'>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
                         <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
                             <FaRegWindowMinimize className='rotate-90 text-6xl' />
                         </div>
                         <div>
-                            <h1 className='text-2xl font-medium'>Practice with experts</h1>
-                            <p className='text-[#54595f] pt-2'>If you want to master Korean language, you will have to sharp it by talking to our language experts. Consistency is the key.</p>
+                            <h1 className='text-xl font-medium'>Garner Professional Opportunities</h1>
+                            <p className='text-[#54595f] pt-2'>If you are a master of the Korean language, you will be able to garner multiple professional opportunities. It will be a good acquisition for your career. Learning a foreign language will open many doors. </p>
+                        </div>
+                    </div>
+                    <div className='flex flex-row group h-auto px-10 lg:px-16 py-2'>
+                        <div className='h-full pt-2 ease-in duration-300 text-teal-300 group-hover:text-amber-400'>
+                            <FaRegWindowMinimize className='rotate-90 text-6xl' />
+                        </div>
+                        <div>
+                            <h1 className='text-xl font-medium'>Travel the World</h1>
+                            <p className='text-[#54595f] pt-2'>If you learn Korean with The Language Network, you will be able to traverse a lot of countries. You can take an international exam and apply for any Korean-speaking university in the world. Knowing Korean will take you place.</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-           
             {/* <div className="my-28 lg:flex flex-row">
                 <div className='space-y-2 px-10 lg:px-20'>
                     <h1 className="font-bold text-3xl lg:text-4xl">Korean Language Levels for Adults</h1>
