@@ -2,7 +2,7 @@ export const German_1_1 = [
     {
         title: 'Introduction to German',
         includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1ulzIt1PBb1vgIS13yv4Q0cUOgWuZztOU/view?usp=sharing",
         language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1',
@@ -13,7 +13,7 @@ export const German_1_1 = [
     {
         title: 'Elementary Knowledge',
         includes:'Simple communication, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1ulzIt1PBb1vgIS13yv4Q0cUOgWuZztOU/view?usp=sharing",
         language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A2',
@@ -73,7 +73,7 @@ export const German_1_2 = [
     {
         title: 'Introduction to German',
         includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1ulzIt1PBb1vgIS13yv4Q0cUOgWuZztOU/view?usp=sharing",
         language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1',
@@ -84,7 +84,7 @@ export const German_1_2 = [
     {
         title: 'Elementary Knowledge',
         includes:'Simple communication, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1ulzIt1PBb1vgIS13yv4Q0cUOgWuZztOU/view?usp=sharing",
         language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A2',
@@ -145,7 +145,7 @@ export const German_1_4 = [
     {
         title: 'Introduction to German',
         includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1ulzIt1PBb1vgIS13yv4Q0cUOgWuZztOU/view?usp=sharing",
         language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1',
@@ -156,7 +156,7 @@ export const German_1_4 = [
     {
         title: 'Elementary Knowledge',
         includes:'Simple communication, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1ulzIt1PBb1vgIS13yv4Q0cUOgWuZztOU/view?usp=sharing",
         language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A2',
