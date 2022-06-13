@@ -10,10 +10,10 @@ import { FiMail } from 'react-icons/fi'
 import { FaLinkedinIn, FaInstagram, FaFacebookF, FaPinterestP, FaYoutube } from 'react-icons/fa'
 import Toggle from './toggle';
 
-
 class Header extends react.Component {
-
+  
   render() {
+    
 
     function expand() {
       document.getElementById('curriList').style.visibility = 'visible';
@@ -53,12 +53,13 @@ class Header extends react.Component {
     }
     
 
-    const change = (url) => {
-      // var currenturl=window.location.href
-      // console.log(currenturl)
-      // if(url=='Curriculum' && !currenturl.endsWith('Curriculum')){
+    function change (url){
+      var currenturl=window.location.href
+      if(!currenturl.endsWith('/')){
+        window.location.href = '/';
 
-      // }
+
+      }
       const nextURL = url;
       const nextTitle = 'adol';
       const nextState = { additionalInformation: 'Updated the URL with JS' };
@@ -107,12 +108,12 @@ class Header extends react.Component {
           <NavMenu>
             <a {...window.location.pathname !== '/' ? {href :'/'}  : {}}  >
               <span >
-                {/* <Link to="Curriculum"  spy={true} smooth={false}  onClick={() => {change("Curriculum")}} > 
+                <Link to="Curriculum"  spy={true} smooth={false}  onClick={() => {change("Curriculum")}} > 
                   Curriculum
-                </Link> */}
-                <a href='/'> 
+                </Link>
+                {/* <a href='/'> 
                   Curriculum
-                </a>
+                </a> */}
               </span>
             </a>
 
