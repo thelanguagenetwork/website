@@ -157,7 +157,7 @@ export default function Home() {
                    
 
 
-                    <Swiper className='pagi1 block lg:hidden mb-12 lg:mb-0' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
+                    <Swiper className='pagi1 block lg:hidden mb-2 lg:mb-0' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
                         breakpoints={{
                             640: {
                                 slidesPerView: 1
