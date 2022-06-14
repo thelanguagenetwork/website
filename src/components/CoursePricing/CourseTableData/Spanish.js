@@ -2,7 +2,7 @@ export const Spanish_1_1 = [
     {
         title: 'Introduction to Spanish',
         includes: 'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
-        link: "abc",
+        link: "https://drive.google.com/file/d/1OwBV231Pi2CcuU5wQHi4WQF31sUSsIyJ/view?usp=sharing",
         language: "Spanish",
         content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
         lvlName: 'A1',
@@ -13,7 +13,7 @@ export const Spanish_1_1 = [
     {
         title: 'Elementary Knowledge',
         includes: 'Simple communication, Grammar and Vocabulary',
-        link: "abc",
+        link: "https://drive.google.com/file/d/1aPx1gcnAV3si7Ar6icii5LRgtjXm6o01/view?usp=sharing",
         language: "Spanish",
         content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
         lvlName: 'A2',
@@ -24,7 +24,7 @@ export const Spanish_1_1 = [
     {
         title: 'Intermediate Knowledge',
         includes: 'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-        link: "abc",
+        link: "https://drive.google.com/file/d/1QN8sIK2tYlvbKsN6KLMB9ksw2Zu8DlPD/view?usp=sharing",
         language: "Spanish",
         content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
         lvlName: 'B1',
@@ -75,7 +75,7 @@ export const Spanish_1_2 = [
     {
         title: 'Introduction to Spanish',
         includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1OwBV231Pi2CcuU5wQHi4WQF31sUSsIyJ/view?usp=sharing",
         language: "Spanish",
         content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
         lvlName: 'A1',
@@ -86,7 +86,7 @@ export const Spanish_1_2 = [
     {
         title: 'Elementary Knowledge',
         includes:'Simple communication, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1aPx1gcnAV3si7Ar6icii5LRgtjXm6o01/view?usp=sharing",
         language: "Spanish",
         content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
         lvlName: 'A2',
@@ -97,7 +97,7 @@ export const Spanish_1_2 = [
     {
         title: 'Intermediate Knowledge',
         includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1QN8sIK2tYlvbKsN6KLMB9ksw2Zu8DlPD/view?usp=sharing",
         language: "Spanish",
         content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
         lvlName: 'B1',
@@ -147,7 +147,7 @@ export const Spanish_1_4 = [
     {
         title: 'Introduction to Spanish',
         includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1OwBV231Pi2CcuU5wQHi4WQF31sUSsIyJ/view?usp=sharing",
         language: "Spanish",
         content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
         lvlName: 'A1',
@@ -158,7 +158,7 @@ export const Spanish_1_4 = [
     {
         title: 'Elementary Knowledge',
         includes:'Simple communication, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1aPx1gcnAV3si7Ar6icii5LRgtjXm6o01/view?usp=sharing",
         language: "Spanish",
         content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
         lvlName: 'A2',
@@ -169,7 +169,7 @@ export const Spanish_1_4 = [
     {
         title: 'Intermediate Knowledge',
         includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1QN8sIK2tYlvbKsN6KLMB9ksw2Zu8DlPD/view?usp=sharing",
         language: "Spanish",
         content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
         lvlName: 'B1',

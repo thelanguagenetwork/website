@@ -2,7 +2,7 @@ export const French_1_1 = [
   {
     title: 'Introduction to French',
     includes: 'Basic greetings and Introduction, Phonetics,Grammar and Vocabulary',
-    link: "abc",
+    link: "https://drive.google.com/file/d/1D_GfEiBpBSx2ihnrG9rQORB65cyIWVf6/view?usp=sharing",
     language: "French",
     content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
     lvlName: 'A1',
@@ -13,7 +13,7 @@ export const French_1_1 = [
   {
     title: 'Elementary Knowledge',
     includes: 'Simple communication, Grammar and Vocabulary',
-    link: "abc",
+    link: "https://drive.google.com/file/d/1wFzSFJuqnHPhtsEDZMeyk4BRJA8r2xSM/view?usp=sharing",
     language: "French",
     content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
     lvlName: 'A2',
@@ -24,7 +24,7 @@ export const French_1_1 = [
   {
     title: 'Intermediate Knowledge',
     includes: 'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-    link: "abc",
+    link: "https://drive.google.com/file/d/1A-NoqLEm6zjuQbc31roy5r2MkhtUhHND/view?usp=sharing",
     language: "French",
     content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
     lvlName: 'B1',
@@ -35,7 +35,7 @@ export const French_1_1 = [
   {
     title: 'Professional Knowledge',
     includes: 'Degree of fluency, Express Opinions, Complex Grammar Structures.',
-    link: "abc",
+    link: "https://drive.google.com/file/d/1caKz_eezD1XqR_juWZg-p6qiC8_u9uce/view?usp=sharing",
     language: "French",
     content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
     lvlName: 'B2',
@@ -73,7 +73,7 @@ export const French_1_2 = [
   {
     title: 'Introduction to French',
     includes: 'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
-    link: "abc",
+    link: "https://drive.google.com/file/d/1D_GfEiBpBSx2ihnrG9rQORB65cyIWVf6/view?usp=sharing",
     language: "French",
     content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
     lvlName: 'A1',
@@ -84,7 +84,7 @@ export const French_1_2 = [
   {
     title: 'Elementary Knowledge',
     includes: 'Simple communication, Grammar and Vocabulary',
-    link: "abc",
+    link: "https://drive.google.com/file/d/1wFzSFJuqnHPhtsEDZMeyk4BRJA8r2xSM/view?usp=sharing",
     language: "French",
     content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
     lvlName: 'A2',
@@ -95,7 +95,7 @@ export const French_1_2 = [
   {
     title: 'Intermediate Knowledge',
     includes: 'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-    link: "abc",
+    link: "https://drive.google.com/file/d/1A-NoqLEm6zjuQbc31roy5r2MkhtUhHND/view?usp=sharing",
     language: "French",
     content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
     lvlName: 'B1',
@@ -106,7 +106,7 @@ export const French_1_2 = [
   {
     title: 'Professional Knowledge',
     includes: 'Degree of fluency, Express Opinions, Complex Grammar Structures.',
-    link: "abc",
+    link: "https://drive.google.com/file/d/1caKz_eezD1XqR_juWZg-p6qiC8_u9uce/view?usp=sharing",
     language: "French",
     content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
     lvlName: 'B2',
@@ -145,7 +145,7 @@ export const French_1_4 = [
   {
     title: 'Introduction to French',
     includes: 'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
-    link: "abc",
+    link: "https://drive.google.com/file/d/1D_GfEiBpBSx2ihnrG9rQORB65cyIWVf6/view?usp=sharing",
     language: "French",
     content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
     lvlName: 'A1',
@@ -156,7 +156,7 @@ export const French_1_4 = [
   {
     title: 'Elementary Knowledge',
     includes: 'Simple communication, Grammar and Vocabulary',
-    link: "abc",
+    link: "https://drive.google.com/file/d/1wFzSFJuqnHPhtsEDZMeyk4BRJA8r2xSM/view?usp=sharing",
     language: "French",
     content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
     lvlName: 'A2',
@@ -167,7 +167,7 @@ export const French_1_4 = [
   {
     title: 'Intermediate Knowledge',
     includes: 'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-    link: "abc",
+    link: "https://drive.google.com/file/d/1A-NoqLEm6zjuQbc31roy5r2MkhtUhHND/view?usp=sharing",
     language: "French",
     content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
     lvlName: 'B1',
@@ -178,7 +178,7 @@ export const French_1_4 = [
   {
     title: 'Professional Knowledge',
     includes: 'Degree of fluency, Express Opinions, Complex Grammar Structures.',
-    link: "abc",
+    link: "https://drive.google.com/file/d/1caKz_eezD1XqR_juWZg-p6qiC8_u9uce/view?usp=sharing",
     language: "French",
     content: ['Study material', 'Mock test', 'Certified courses ', 'International exam preparation', 'Instant feedback'],
     lvlName: 'B2',

@@ -2,7 +2,7 @@ export const Korean_1_1 = [
     {
         title: 'Introduction to Korean',
         includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1rixKSRxAF750kC84e1ujHt96LnQCpoAG/view?usp=sharing",
         language: "Korean",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'Topik 1 Level 1',
@@ -13,7 +13,7 @@ export const Korean_1_1 = [
     {
         title: 'Elementary Knowledge',
         includes:'Simple communication, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1M0ISHCOegKWpyy6rRHA60_9tEFm-uZeS/view?usp=sharing",
         language: "Korean",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'Topik 1 Level 2',
@@ -24,7 +24,7 @@ export const Korean_1_1 = [
     {
         title: 'Intermediate Knowledge',
         includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/12yNgu1ADWBqoaelObtf69NyXv6ZN_XKl/view?usp=sharing",
         language: "Korean",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'Topik 2 Level 3',
@@ -35,7 +35,7 @@ export const Korean_1_1 = [
     {
         title: 'Professional Knowledge',
         includes:'Degree of fluency, Express Opinions, Complex Grammar Structures.',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1IGzLFn78PMwgu3IUr-0Wvpvl9idlRhcu/view?usp=sharing",
         language: "Korean",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'Topik 2 Level 4',
@@ -75,7 +75,7 @@ export const Korean_1_2 = [
     {
         title: 'Introduction to Korean',
         includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1rixKSRxAF750kC84e1ujHt96LnQCpoAG/view?usp=sharing",
         language: "Korean",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'Topik 1 Level 1',
@@ -86,7 +86,7 @@ export const Korean_1_2 = [
     {
         title: 'Elementary Knowledge',
         includes:'Simple communication, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1M0ISHCOegKWpyy6rRHA60_9tEFm-uZeS/view?usp=sharing",
         language: "Korean",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'Topik 1 Level 2',
@@ -97,7 +97,7 @@ export const Korean_1_2 = [
     {
         title: 'Intermediate Knowledge',
         includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/12yNgu1ADWBqoaelObtf69NyXv6ZN_XKl/view?usp=sharing",
         language: "Korean",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'Topik 2 Level 3',
@@ -108,7 +108,7 @@ export const Korean_1_2 = [
     {
         title: 'Professional Knowledge',
         includes:'Degree of fluency, Express Opinions, Complex Grammar Structures.',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1IGzLFn78PMwgu3IUr-0Wvpvl9idlRhcu/view?usp=sharing",
         language: "Korean",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'Topik 2 Level 4',
@@ -147,7 +147,7 @@ export const Korean_1_4 = [
     {
         title: 'Introduction to Korean',
         includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1rixKSRxAF750kC84e1ujHt96LnQCpoAG/view?usp=sharing",
         language: "Korean",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'Topik 1 Level 1',
@@ -158,7 +158,7 @@ export const Korean_1_4 = [
     {
         title: 'Elementary Knowledge',
         includes:'Simple communication, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1M0ISHCOegKWpyy6rRHA60_9tEFm-uZeS/view?usp=sharing",
         language: "Korean",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'Topik 1 Level 2',
@@ -169,7 +169,7 @@ export const Korean_1_4 = [
     {
         title: 'Intermediate Knowledge',
         includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/12yNgu1ADWBqoaelObtf69NyXv6ZN_XKl/view?usp=sharing",
         language: "Korean",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'Topik 2 Level 3',
@@ -180,7 +180,7 @@ export const Korean_1_4 = [
     {
         title: 'Professional Knowledge',
         includes:'Degree of fluency, Express Opinions, Complex Grammar Structures.',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1IGzLFn78PMwgu3IUr-0Wvpvl9idlRhcu/view?usp=sharing",
         language: "Korean",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'Topik 2 Level 4',

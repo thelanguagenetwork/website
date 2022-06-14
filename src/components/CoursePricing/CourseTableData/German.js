@@ -24,7 +24,7 @@ export const German_1_1 = [
     {
         title: 'Intermediate Knowledge',
         includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1JuncLkIqR6B9wNMAoEe6APmZt7Xf0DmS/view?usp=sharing",
         language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B1',
@@ -35,7 +35,7 @@ export const German_1_1 = [
     {
         title: 'Professional Knowledge',
         includes:'Degree of fluency, Express Opinions, Complex Grammar Structures.',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1i8Vw3fCxFIKKjAbem-F69XjXo9_Q2gUw/view?usp=sharing",
         language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B2',
@@ -95,7 +95,7 @@ export const German_1_2 = [
     {
         title: 'Intermediate Knowledge',
         includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1JuncLkIqR6B9wNMAoEe6APmZt7Xf0DmS/view?usp=sharing",
         language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B1',
@@ -106,7 +106,7 @@ export const German_1_2 = [
     {
         title: 'Professional Knowledge',
         includes:'Degree of fluency, Express Opinions, Complex Grammar Structures.',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1i8Vw3fCxFIKKjAbem-F69XjXo9_Q2gUw/view?usp=sharing",
         language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B2',
@@ -167,7 +167,7 @@ export const German_1_4 = [
     {
         title: 'Intermediate Knowledge',
         includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1JuncLkIqR6B9wNMAoEe6APmZt7Xf0DmS/view?usp=sharing",
         language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B1',
@@ -178,7 +178,7 @@ export const German_1_4 = [
     {
         title: 'Professional Knowledge',
         includes:'Degree of fluency, Express Opinions, Complex Grammar Structures.',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1i8Vw3fCxFIKKjAbem-F69XjXo9_Q2gUw/view?usp=sharing",
         language: "German",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B2',

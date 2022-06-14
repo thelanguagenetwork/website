@@ -2,7 +2,7 @@ export const English_1_1 = [
     {
         title: 'Introduction to English',
         includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1aKj8_kaxEj27ZmjpZv66PuvAPEdAVTj1/view?usp=sharing",
         content: ['Introduction to English','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1+A2',
        // OgPrice : 444,
@@ -14,7 +14,7 @@ export const English_1_1 = [
         
         title: 'Elementary Knowledge',
         includes:'Simple communication, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1qK0puxk5UX54Fn19uon9ywWfJ6srpVwx/view?usp=sharing",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B1',
        // OgPrice : 444,
@@ -24,7 +24,7 @@ export const English_1_1 = [
     {
         title: 'Intermediate Knowledge',
         includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/10dVtJHIxL0YXEDgF3CH9ADZNRvGztmYY/view?usp=sharing",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B2',
        // OgPrice : 444,
@@ -34,7 +34,7 @@ export const English_1_1 = [
     {
         title: 'Professional Knowledge',
         includes:'Degree of fluency, Express Opinions, Complex Grammar Structures.',
-        link:"abc",
+        link:"https://drive.google.com/file/d/10VpFv9viMKGEvh12ff6Pm3kJsfZQwBJT/view?usp=sharing",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'C1',
        // OgPrice : 444,
@@ -48,7 +48,7 @@ export const English_1_2 = [
     {
         title: 'Introduction to English',
         includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1aKj8_kaxEj27ZmjpZv66PuvAPEdAVTj1/view?usp=sharing",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1+A2',
       //  OgPrice : 444,
@@ -58,7 +58,7 @@ export const English_1_2 = [
     {
         title: 'Elementary Knowledge',
         includes:'Simple communication, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1qK0puxk5UX54Fn19uon9ywWfJ6srpVwx/view?usp=sharing",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B1',
        // OgPrice : 444,
@@ -68,7 +68,7 @@ export const English_1_2 = [
     {
         title: 'Intermediate Knowledge',
         includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/10dVtJHIxL0YXEDgF3CH9ADZNRvGztmYY/view?usp=sharing",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B2',
        // OgPrice : 444,
@@ -78,7 +78,7 @@ export const English_1_2 = [
     {
         title: 'Professional Knowledge',
         includes:'Degree of fluency, Express Opinions, Complex Grammar Structures.',
-        link:"abc",
+        link:"https://drive.google.com/file/d/10VpFv9viMKGEvh12ff6Pm3kJsfZQwBJT/view?usp=sharing",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'C1',
       //  OgPrice : 444,
@@ -93,7 +93,7 @@ export const English_1_4 = [
     {
         title: 'Introduction to English',
         includes:'Basic greetings and Introduction, Phonetics, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1aKj8_kaxEj27ZmjpZv66PuvAPEdAVTj1/view?usp=sharing",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'A1+A2',
        // OgPrice : 444,
@@ -103,7 +103,7 @@ export const English_1_4 = [
     {
         title: 'Elementary Knowledge',
         includes:'Simple communication, Grammar and Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/1qK0puxk5UX54Fn19uon9ywWfJ6srpVwx/view?usp=sharing",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B1',
        // OgPrice : 444,
@@ -113,7 +113,7 @@ export const English_1_4 = [
     {
         title: 'Intermediate Knowledge',
         includes:'Cultural & Social know-hows, Complex Grammar and Professional Vocabulary',
-        link:"abc",
+        link:"https://drive.google.com/file/d/10dVtJHIxL0YXEDgF3CH9ADZNRvGztmYY/view?usp=sharing",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'B2',
         //OgPrice : 444,
@@ -123,7 +123,7 @@ export const English_1_4 = [
     {
         title: 'Professional Knowledge',
         includes:'Degree of fluency, Express Opinions, Complex Grammar Structures.',
-        link:"abc",
+        link:"https://drive.google.com/file/d/10VpFv9viMKGEvh12ff6Pm3kJsfZQwBJT/view?usp=sharing",
         content: ['Study material','Mock test','Certified courses ','International exam preparation','Instant feedback'],
         lvlName: 'C1',
        // OgPrice : 444,
