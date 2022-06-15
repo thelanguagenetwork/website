@@ -46,6 +46,7 @@
     "swiper": "^7.4.1",
     "tripetto-runner-autoscroll": "^5.7.1",
     "tripetto-runner-foundation": "^6.3.0",
+    "tripetto-services": "^2.0.0",
     "tw-elements": "^1.0.0-alpha11",
     "web-vitals": "^2.1.2"
   },
