@@ -28,6 +28,7 @@ import KidsGerman from '../Footer/LangKids2/German';
 import KidsMandarin from '../Footer/LangKids2/Mandarin';
 import KidsJapanese from '../Footer/LangKids2/Japanese';
 import KidsKorean from '../Footer/LangKids2/Korean';
+import Popupm from '../curriculum/Pop/Popupmain';
 
 
 export default function KidsCourses() {
@@ -133,6 +134,7 @@ export default function KidsCourses() {
     }
 
     return <div>
+        <Popupm/>
         <div className="KidsEnglish h-[70vh] mb-20" >
             <div className="bg-[rgba(0,0,0,0.4)] h-full ">
                 <div className='h-full flex flex-col justify-center align-left w-full px-10 lg:px-32'>

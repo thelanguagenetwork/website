@@ -42,11 +42,13 @@ import GraphicDesignInterface from './components/Footer/Company/Careers/links_to
 import ContentWritingInterns from './components/Footer/Company/Careers/links_to/ContentWritingInterns';
 import MarketingInterns from './components/Footer/Company/Careers/links_to/MarketingInterns';
 import OperationIntern from './components/Footer/Company/Careers/links_to/OperationIntern';
+import Popupm from './components/curriculum/Pop/Popupmain';
 function Routing() {
   return (
     <div className="App">
       <Router>
         <Header />
+        
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path='/AdultsCourses' element={<AdultsCourses />} />
