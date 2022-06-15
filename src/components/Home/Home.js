@@ -95,7 +95,7 @@ export default function Home() {
 
     return (
         <div className=''>
-            <Popupm/>
+          
             <div className='pt-10  Home-container-1 dark:bg-black bg-cover lg:bg-contain w-full px-4 lg:py-14 lg:px-26 relative h-[auto] flex flex-col lg:flex-row justify-center items-center content-center flex-wrap' >
                 <div className='w-full lg:w-5/12 flex flex-col space-y-6 pt-2 lg:pt-0'>
                     <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab] lg:pt-2'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>

@@ -118,7 +118,7 @@ export default function AdultsCourses() {
     }
 
     return <div>
-        <Popupm/>
+        
         <div className="Home-container-2 px-5 fadeIN mb-24" style={{ width: '100%', marginTop: '2rem', paddingTop: 0 }}>
             <h2>A Fun, Proven method for Learning</h2>
             <h1 className='mb-12'>Choose a language</h1>
