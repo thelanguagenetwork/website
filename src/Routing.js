@@ -48,7 +48,7 @@ function Routing() {
     <div className="App">
       <Router>
         <Header />
-        
+        <Popupm/>
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path='/AdultsCourses' element={<AdultsCourses />} />

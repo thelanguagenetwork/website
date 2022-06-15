@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Button, Modal } from 'react-bootstrap';
 import "./Popup.css"
 import styled from 'styled-components';
@@ -56,7 +56,20 @@ function MyVerticallyCenteredModal(props) {
 
 function Popupm() {
     const [modalShow, setModalShow] = React.useState(true);
+    const[cc,setcc]=React.useState(false);
+    useEffect(()=>{
+        var sec=window.location.href
+        if(sec.endsWith('/getstarted')){
+            setcc(true)
+        }
 
+    },[])
+    if(cc){
+        return(
+            <div></div>
+        )
+    }
+   else{
     return (
         <>
             <MyVerticallyCenteredModal
@@ -65,6 +78,7 @@ function Popupm() {
             />
         </>
     );
+   }
 }
 
 export default Popupm;
