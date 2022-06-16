@@ -354,3 +354,67 @@ ul {
   opacity: 1;
   background-color:  #c4302b;
 }
+/* .call{
+  margin-left: auto;
+  display: none;
+  background-color: #13BFAB;
+  width: 22rem;
+  height: 2rem;
+  border-radius: 3rem;
+  color:white;
+  text-align: center;
+  z-index: 1000; 
+
+
+
+}
+.rin{
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  bottom: 1rem;
+  width: auto;
+  display: flex none;
+  width: 20rem;
+  height: 2rem;
+  font-size:1rem;
+  z-index: 100;
+
+}
+.rin:hover .call{
+  display: block;
+  transition-timing-function: ease-in;
+} */
+.rin{
+  border: #13BFAB;
+}
+.call{
+  font-size: 27px;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex ;
+  margin-left:1rem ;
+  height: 2rem;
+  z-index: 100;
+  
+}
+.heartless{
+  border-radius: 3rem;
+  color:white;
+  text-align: center;
+  background-color: #13BFAB;
+  display: none;
+  width: 20rem;
+  height: 2rem;
+  font-size:1rem;
+ 
+}
+.call:hover .heartless{
+  display: block;
+}
+@media (max-width: 500px) {
+  .call{
+    font-size: 16px;
+}
+}

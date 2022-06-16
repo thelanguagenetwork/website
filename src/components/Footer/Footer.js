@@ -13,6 +13,7 @@ import {useState} from 'react';
 
 export default function Footer() {
     const [open, setOpen] = useState(false)
+    const[phone,setphone]=useState(false)
 
     function openClose() {
       if (open === false) {
@@ -32,6 +33,8 @@ export default function Footer() {
     }
 
     return (
+        
+      
         <div className="bg-[#f4f8fb]" style={{ bottom: '0px', left: '0px' }}>
             <div class="hidden lg:block menu-button ease-in duration-300" id='menuButton'>
                <div onClick={() => openClose()} className=' absolute left-[-22px] top-[-6px] z-50'><BiLeftArrow id='openButton' className='ease-in duration-300 '/></div>
@@ -46,6 +49,21 @@ export default function Footer() {
                     </ul>
                 </div>
             </div>
+            
+            <div className='call'>
+                <a className='heartless' href="tel:91 83691 23184">
+                Contact us at +91 83691 23184
+                </a>
+              
+                 
+             
+                <div className='rin'>
+                📞
+               </div>
+
+                   
+            </div>
+            
      
 
             <div className="px-10 bg-#dfdfdf space-y-1 flex flex-col items-center pb-8">
@@ -324,5 +342,6 @@ export default function Footer() {
                 </div>
             </footer>
         </div>
+        
     )
 }
