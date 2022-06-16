@@ -38,7 +38,7 @@ function MyVerticallyCenteredModal(props) {
                         </a>
                     </div>
                     <div className='se'>
-                        <a href="tel:91 83691 23184">
+                        <a href="tel:+91 83691 23184">
                             <button className='gs'>Call us</button>
 
                         </a>
