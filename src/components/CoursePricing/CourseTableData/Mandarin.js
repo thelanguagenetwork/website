@@ -8,7 +8,7 @@ export const Mandarin_1_1 = [
         lvlName: 'HSK 1',
        // OgPrice : 444,
         DiscPrice : 13990,
-        Link: ""
+        Link: "https://rzp.io/l/hsk11"
     },
     {
         title: 'Elementary Knowledge',
@@ -19,7 +19,7 @@ export const Mandarin_1_1 = [
         lvlName: 'HSK 2',
        // OgPrice : 444,
         DiscPrice : 15990,
-        Link: ""
+        Link: "https://rzp.io/l/9hHgUMY"
     },
     {
         title: 'Intermediate Knowledge',
@@ -30,7 +30,7 @@ export const Mandarin_1_1 = [
         lvlName: 'HSK 3',
       //  OgPrice : 444,
         DiscPrice : 17990,
-        Link: ""
+        Link: "https://rzp.io/l/hsk31"
     },
      {
         title: 'Professional Knowledge',
@@ -41,7 +41,7 @@ export const Mandarin_1_1 = [
          lvlName: 'HSK 4',
      // OgPrice : 444,
          DiscPrice : 23990,
-         Link: ""
+         Link: "https://rzp.io/l/hsk41"
      },
     // {
     //     language: "Mandarin",
@@ -81,7 +81,7 @@ export const Mandarin_1_2 = [
         lvlName: 'HSK 1',
       //  OgPrice : 444,
         DiscPrice : 11990,
-        Link: ""
+        Link: "https://rzp.io/l/mandarinhsk1"
     },
     {
         title: 'Elementary Knowledge',
@@ -92,7 +92,7 @@ export const Mandarin_1_2 = [
         lvlName: 'HSK 2',
       //  OgPrice : 444,
         DiscPrice : 13990,
-        Link: ""
+        Link: "https://rzp.io/l/nuWEZMt"
     },
     {
         title: 'Intermediate Knowledge',
@@ -103,7 +103,7 @@ export const Mandarin_1_2 = [
         lvlName: 'HSK 3',
       //  OgPrice : 444,
         DiscPrice : 15990,
-        Link: ""
+        Link: "https://rzp.io/l/HSK32"
     },
     {
         title: 'Professional Knowledge',
@@ -114,7 +114,7 @@ export const Mandarin_1_2 = [
          lvlName: 'HSK 4',
      // OgPrice : 444,
          DiscPrice : 21990,
-         Link: ""
+         Link: "https://rzp.io/l/hsk42"
      },
     // {
     //     language: "Mandarin",
