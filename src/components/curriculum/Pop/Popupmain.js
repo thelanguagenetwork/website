@@ -13,7 +13,12 @@ function MyVerticallyCenteredModal(props) {
             centered
 
         >
-
+           
+            <div className="close">
+                <button onClick={props.onHide} className="btn-val border-0 focus:outline-none  pt-2 float-right w-1/8 font-bold text-black bg-[#fffff]  hover:text-black border-white"><span className="text-2xl" aria-hidden="true">×</span>
+                </button>
+            </div>
+           
 
             <Modal.Body>
                 <img src='/images/contact laptop.svg' id='laptop'></img>

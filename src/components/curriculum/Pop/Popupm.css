@@ -70,6 +70,14 @@
     z-index: 3;
     margin-top: 0%;
 
+
+}
+.close{
+    position: absolute;
+    right: 2%;
+    top: 1%;
+    z-index: 5;
+
 }
 #title{
     position: absolute;
