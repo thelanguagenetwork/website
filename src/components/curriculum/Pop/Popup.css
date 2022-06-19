@@ -8,12 +8,15 @@
     border-color: None;
 }
 .gs{
-    background-color: #00cfb7;
-    font-size: 16px;
+    background-color: #5FE0BB;
+    ;
+    font-size: 21px;
     font-weight: 400;
-    line-height: 0.8em;
-    border-radius: 10px;
-    width: 7rem;
-    height: 3rem;
+    line-height: 32px;
+    border-radius: 12px;
+    width: 312px;
+    height: 53.68px;
+    left: 116px;
+    top: 433.95px;
     color: aliceblue;
 }

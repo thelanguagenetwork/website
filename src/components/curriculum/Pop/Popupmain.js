@@ -46,7 +46,7 @@ function MyVerticallyCenteredModal(props) {
 
                 <div className='snow'>
                     <div className=' mt-40 self-center'>
-                        <span className="text-base lg:text-base text-left w-full  place-content-center">Sign up for our demo class today</span>
+                        <span className="text-base lg:text-base text-left w-full font-color:#6A6A6A place-content-center">Sign up for our demo class today</span>
                         <svg id='linec' width="186" height="1" viewBox="0 0 186 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="186" height="1" fill="#2FD7AD" />
                         </svg>
