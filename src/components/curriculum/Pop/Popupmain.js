@@ -75,9 +75,6 @@ function MyVerticallyCenteredModal(props) {
 
                     </div>
 
-
-
-
                 </div>
 
             </Modal.Body>
