@@ -387,9 +387,10 @@ ul {
 } */
 .rin{
   border-radius: 100%;
-  border-style: dashed;
+  border-style: bold;
   background-color: #13BFAB;
   color: white;
+  
 }
 .call{
   font-size: 30px;
