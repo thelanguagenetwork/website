@@ -57,9 +57,9 @@ export default function Footer() {
               
                  
              
-                <div className='rin'>
-                📞
-               </div>
+                <img className='rin' src='/images/call.svg'>    
+                
+               </img>
 
                    
             </div>
