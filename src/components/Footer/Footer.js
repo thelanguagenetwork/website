@@ -57,7 +57,7 @@ export default function Footer() {
               
                  
              
-                <img className='rin' src='/images/call.svg'>    
+                <img className='rin' src='/images/pcall.svg'>    
                 
                </img>
 
