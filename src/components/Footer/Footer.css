@@ -407,12 +407,13 @@ ul {
   border-radius: 3rem;
   color:white;
   text-align: center;
+  font-weight: bold;
   background-color: #13BFAB;
   display: none;
   width: 20rem;
   height: 3rem;
-  font-size:1.3rem;
-  padding-top: 1%;
+  font-size:1.1rem;
+  padding-top: 2.7%;
  
 }
 .call:hover .heartless{

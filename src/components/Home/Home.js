@@ -147,7 +147,7 @@ export default function Home() {
                 <div className="Home-container-2  lg:pb-[60px] pb-2 w-full lg:w-full mt-16">
                     <h1>START YOUR JOURNEY WITH US!</h1>
                     <h2 className="px-10 ">Foreign Language Courses We Offer</h2>
-                    <div className='hidden lg:flex lg:pt-10 w-full lg:w-full sm:space-y-4 lg:space-y-0 py-5 px-10'>
+                    <div className='hidden ml-[20%] lg:flex lg:pt-10 w-full lg:w-full sm:space-y-4 lg:space-y-0'>
                     
                         <Popup sub="English" a1="/english-course-adults" a2="/english-course-kids" im="/images/eng.svg" src1="/images/adults-english@300x.png" src2='/images/Astronaut-English.png' />
                         <Popup sub="French" a1="/french-course-adults" a2="/french-course-kids" im="/images/French.png" src1="/images/adults-french@300x.png" src2='/images/Astronaut-French-1.png' />
