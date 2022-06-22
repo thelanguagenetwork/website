@@ -92,10 +92,10 @@ class Header extends react.Component {
               </li>
               <div id='curriListM' >
                 <ul>
-                  <a href={'/AdultsCourses'}>ADULTS COURSES</a>
+                  <a href={'/KidsCourses'}>KIDS & TEENS COURSES</a>
                 </ul>
                 <ul>
-                  <a href='/KidsCourses'>KIDS & TEENS COURSES</a>
+                  <a href='/AdultsCourses'>ADULTS COURSES</a>
                 </ul>
               </div>
               <a href='/getstarted'>
@@ -123,14 +123,14 @@ class Header extends react.Component {
                 <IoIosArrowDown />
 
                 <div id='curriList' >
-                  <a href='/KidsCourses'>
-                    <img src="/images/Adolscents@300x.png" alt="img" />
-                    <span>KIDS & TEENS COURSES</span>
-                  </a>
-
                   <a href='/AdultsCourses'>
                     <img src="/images/adults@300x.png" alt="img" />
                     <span>ADULTS COURSES</span>
+                  </a>
+
+                  <a href='/KidsCourses'>
+                    <img src="/images/Adolscents@300x.png" alt="img" />
+                    <span>KIDS & TEENS COURSES</span>
                   </a>
                 </div>
               </span>
