@@ -96,7 +96,7 @@ export default function Home() {
     return (
         <div className=''>
           
-            <div className='pt-10  Home-container-1 dark:bg-black bg-cover lg:bg-contain w-full px-4 lg:py-14 lg:px-26 relative h-[auto] flex flex-col lg:flex-row justify-center items-center content-center flex-wrap' >
+            <div className='pt-4  Home-container-1 dark:bg-black bg-cover lg:bg-contain w-full px-4 lg:py-14 lg:px-26 relative h-[auto] flex flex-col lg:flex-row justify-center items-center content-center flex-wrap' >
                 <div className='w-full lg:w-5/12 flex flex-col space-y-6 pt-2 lg:pt-0'>
                     <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab] lg:pt-2'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>
                     <h2 className='text-black font-semibold lg:font-medium text-2xl lg:text-5xl'>Learn a Language in less than 3 months</h2>
@@ -113,15 +113,16 @@ export default function Home() {
                 </div>
                 <div className='w-full lg:w-6/12 flex items-center justify-center lg:pl-20 mt-7'>
                   
-                    <video width="90%" height="90%" className='rounded-xl'
+                    {/* <video width="90%" height="90%" className='rounded-xl'
                         controls
                         muted
                         autoPlay={"autoplay"}
                         preLoad="auto"
                         loop >
-                        <source src="/videos/TLN_Hello-in-different-languages.mp4" type="video/mp4" />
+                        <source src="/videos/TLN_HOMEPAGE.gif" type="video/mp4" />
                         Your browser does not support the video tag.
-                    </video>
+                    </video> */}
+                    <img src='/videos/TLN_HOMEPAGE.gif' className=''/>
                 </div>
 
 
