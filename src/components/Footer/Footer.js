@@ -52,7 +52,7 @@ export default function Footer() {
             
             <div className='call'>
                 <a className='heartless' href="tel:91 83691 23184">
-                Contact us at +91 83691 23184
+                <p> Contact us at +91 83691 23184</p>
                 </a>
               
                  
