@@ -399,7 +399,7 @@ ul {
   right: 1rem;
   display: flex ;
   margin-left:1rem ;
-  height: 2rem;
+  height: 3rem;
   z-index: 100;
   
 }
@@ -410,8 +410,9 @@ ul {
   background-color: #13BFAB;
   display: none;
   width: 20rem;
-  height: 2rem;
-  font-size:1rem;
+  height: 3rem;
+  font-size:1.3rem;
+  padding-top: 1%;
  
 }
 .call:hover .heartless{
