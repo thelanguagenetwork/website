@@ -43,6 +43,8 @@ import ContentWritingInterns from './components/Footer/Company/Careers/links_to/
 import MarketingInterns from './components/Footer/Company/Careers/links_to/MarketingInterns';
 import OperationIntern from './components/Footer/Company/Careers/links_to/OperationIntern';
 import Popupm from './components/curriculum/Pop/Popupmain';
+import FoFo from './components/Home/FoFo';
+import { Navigate } from 'react-router-dom';
 function Routing() {
   return (
     <div className="App">
@@ -56,7 +58,7 @@ function Routing() {
 
 
           {/* Language For Adults */}
-          <Route exact path='/IntoCourses' element={<IntroCourse />} />
+          <Route exact path='/Introductory-Course' element={<IntroCourse />} />
           <Route exact path='/english-course-adults' element={<AdultsEnglish />} />
           <Route exact path='/french-course-adults' element={<AdultsFrench />} />
           <Route exact path='/spanish-course-adults' element={<AdultsSpanish />} />
@@ -101,8 +103,10 @@ function Routing() {
           <Route exact path='/Careers/ContentWritingInterns' element={<ContentWritingInterns />} />
           <Route exact path='/Careers/MarketingInterns' element={<MarketingInterns />} />
           <Route exact path='/Careers/OperationIntern' element={<OperationIntern />} />
-
-
+          {/* 404s */}
+        
+          <Route path="/404" element={<FoFo/>} />
+          <Route path="*" element={<Navigate replace to="/404" />} />  
 
         </Routes>
         <Footer />
