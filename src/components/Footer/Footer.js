@@ -158,7 +158,7 @@ export default function Footer() {
                                     <AccordionDetails>
                                         <Typography style={{ color: '#000', fontWeight: 500, padding: 0 }}>
                                             <ul className='space-y-4 text-sm'>
-                                                <li><a href="/IntoCourses">Introductory Courses</a></li>
+                                                <li><a href="/Introductory-Course">Introductory Courses</a></li>
                                                 <li><a href="/english-course-adults">English Courses</a></li>
                                                 <li><a href="/french-course-adults">French Courses</a></li>
                                                 <li><a href="/spanish-course-adults">Spanish Courses</a></li>
@@ -253,7 +253,7 @@ export default function Footer() {
                                         <h3>Languages for Adults</h3>
                                     </div>
                                     <ul>
-                                        <li><a href="/IntoCourses">Introductory Courses</a></li>
+                                        <li><a href="/Introductory-Course">Introductory Courses</a></li>
                                         <li><a href="/english-course-adults">English Courses</a></li>
                                         <li><a href="/french-course-adults">French Courses</a></li>
                                         <li><a href="/spanish-course-adults">Spanish Courses</a></li>
