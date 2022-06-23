@@ -51,7 +51,7 @@ export default function Footer() {
             </div>
             
             <div className='call'>
-                <a className='heartless' href="tel:91 83691 23184">
+                <a className='heartless' href="https://api.whatsapp.com/send/?phone=%2B918369123184&text&app_absent=0">
                 <p> Contact us at +91 83691 23184</p>
                 </a>
               
@@ -204,7 +204,7 @@ export default function Footer() {
                                         <Typography style={{ color: '#000', fontWeight: 500, padding: 0 }}>
                                             <ul className='space-y-4 text-sm'>
                                                 <li><a href="/Faqs">FAQs</a></li>
-                                                <li><a href="https://api.whatsapp.com/send/?phone=%2B919892773428&text&app_absent=0">Contact</a></li>
+                                                <li><a href="https://api.whatsapp.com/send/?phone=%2B918369123184&text&app_absent=0">Contact</a></li>
                                              { /*  <li><a href="/Aff_prog">Affiliate Program</a></li>*/ }
                                             </ul>
                                         </Typography>
@@ -287,7 +287,7 @@ export default function Footer() {
                                     </div>
                                     <ul>
                                         <li><a href="/Faqs">FAQs</a></li>
-                                        <li><a href="https://api.whatsapp.com/send/?phone=%2B919892773428&text&app_absent=0">Contact</a></li>
+                                        <li><a href="https://api.whatsapp.com/send/?phone=%2B918369123184&text&app_absent=0">Contact</a></li>
                                       {/*  <li><a href="/Aff_prog">Affiliate Program</a></li>*/}
                                     </ul>
                                 </div>
