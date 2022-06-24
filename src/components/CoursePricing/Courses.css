@@ -3,8 +3,9 @@
     /* background: #0102025e; */
     /* box-shadow: 5px 1px 1px 1px #9e9c9c5e; */
     padding: 5px;
-    background-color:#9e9c9c5e;
-    /* border-width: 4px; */
+    /* background-color:rgb(248, 249, 252); */
+    filter: opacity(0.5) drop-shadow(0 0 0 rgba(224, 225, 229, 0.845));
+   
     border-radius: 80px;
     
 
