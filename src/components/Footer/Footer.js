@@ -10,6 +10,7 @@ import { FiMail } from 'react-icons/fi'
 import { FaLinkedinIn, FaInstagram, FaFacebookF, FaPinterestP, FaYoutube } from 'react-icons/fa'
 import {BiLeftArrow} from 'react-icons/bi'
 import {useState} from 'react';
+import AOS from 'aos'
 
 export default function Footer() {
     const [open, setOpen] = useState(false)
@@ -66,7 +67,7 @@ export default function Footer() {
             
      
 
-            <div className="px-10 bg-#dfdfdf space-y-1 flex flex-col items-center pb-8">
+            <div data-aos="zoom-in-up" data-aos-once='true' data-aos-mirror='true' data-aos-delay='400'  className="px-10 bg-#dfdfdf space-y-1 flex flex-col items-center pb-8">
                 <span className='mt-5 flex flex-col text-2xl lg:text-5xl font-medium'>We're here to help</span>
                 <br></br>
                 <span className='text-md lg:text-lg mb-10'>Get in touch with our student support team for any queries or specific needs.</span>

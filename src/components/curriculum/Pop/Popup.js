@@ -61,7 +61,7 @@ function Popup(pop) {
                     <div className="flex justify-center">
                         <div className='p-1 md:w-1/2 lg:w-1/2 flex flex-col justify-center items-center'>
                             <img src={pop.im} alt="img" className='w-[8.5rem] lg:w-[8.5rem] ' />
-                            <h3 className='font-medium text-2xl mt-3 text-black text-center'>{pop.sub}</h3>
+                            <h3 className='font-medium text-xl mt-3 text-black text-center'>{pop.sub}</h3>
                         </div>
                     </div>
                 </span>
