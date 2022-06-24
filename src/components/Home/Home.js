@@ -335,7 +335,7 @@ export default function Home() {
             <div className="my-2 px-10 lg:px-0 lg:pl-32 lg:flex flex-row lg:h-[65vh] w-full bg-[#f4f8fb]">
                 <div className='flex flex-col space-y-6 justify-center lg:w-1/2'>
                     <h1 className='font-bold text-3xl lg:text-4xl pt-10 lg:pt-0'>TRANSFORM YOUR CAREER</h1>
-                    <p className='text-lg '>Earn your certificate from The Language Network after completion of your language course. Not only it will boost your career but also improve your CV.</p>
+                    <p className='text-lg '>Earn your certificate from The Language Network after completion of your language course. Not only it will boost your career, but also improve your CV.</p>
                     <a href="/getstarted">
                         <button class="bg-[#13BFAB] w-56 hover:bg-teal-400 text-white font-bold py-3 px-4 rounded" >
                             JOIN A COURSE
