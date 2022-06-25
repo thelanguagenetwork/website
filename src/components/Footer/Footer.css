@@ -423,6 +423,12 @@ ul {
   padding-right: 0;
   padding-left: 0;
 }
+
+#help{
+  background-color:#F4F8FB;
+  border-radius: 40% 40% 0% 0%;
+}
+
 @media (max-width: 500px) {
   .call{
     font-size: 16px;

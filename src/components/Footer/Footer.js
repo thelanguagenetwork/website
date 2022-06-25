@@ -36,7 +36,7 @@ export default function Footer() {
     return (
         
       
-        <div className="bg-[#f4f8fb]" style={{ bottom: '0px', left: '0px' }}>
+        <div className="bg-[#ffff]" style={{ bottom: '0px', left: '0px' }}>
             <div class="hidden lg:block menu-button ease-in duration-300" id='menuButton'>
                <div onClick={() => openClose()} className=' absolute left-[-22px] top-[-6px] z-50'><BiLeftArrow id='openButton' className='ease-in duration-300 '/></div>
                 <div class="social-menu">
@@ -67,7 +67,7 @@ export default function Footer() {
             
      
 
-            <div data-aos="zoom-in-up" data-aos-once='true' data-aos-mirror='true' data-aos-delay='400'  className="px-10 bg-#dfdfdf space-y-1 flex flex-col items-center pb-8">
+            <div id='help' data-aos="zoom-in-up" data-aos-once='true' data-aos-mirror='true' data-aos-delay='300'  className="px-10 bg-#dfdfdf space-y-1 flex flex-col items-center pb-8">
                 <span className='mt-5 flex flex-col text-2xl lg:text-5xl font-medium'>We're here to help</span>
                 <br></br>
                 <span className='text-md lg:text-lg mb-10'>Get in touch with our student support team for any queries or specific needs.</span>
