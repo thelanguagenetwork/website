@@ -64,7 +64,7 @@ function MyVerticallyCenteredModal(props) {
                             </a>
                         </div>
                         <div className='self-center'>
-                            <a href="https://api.whatsapp.com/send/?phone=%2B919821392630&text&app_absent=0">
+                            <a href="https://api.whatsapp.com/send/?phone=%2B919137239887&text&app_absent=0">
                                 <button className='gs'>Get in touch with us</button>
 
                             </a>
