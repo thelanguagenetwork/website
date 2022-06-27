@@ -95,8 +95,12 @@ export default function Home() {
 
     return (
         <div className=''>
-          
-            <div className='pt-4 Home-container- dark:bg-black bg-cover lg:bg-contain w-full px-4 lg:pb-14 lg:px-26 relative h-[auto] flex flex-col lg:flex-row justify-end items-end flex-wrap' >
+            <div class="floating">
+                <img src="https://wordpress.creativegigs.net/rogan/wp-content/uploads/2020/08/6.svg" />
+            </div>
+            <img src="https://wordpress.creativegigs.net/rogan/wp-content/uploads/2020/05/5.svg" class="circle"/>
+
+            <div className='pt-4 Home-container-1 dark:bg-black bg-cover lg:bg-contain w-full px-4 lg:pb-14 lg:px-26 relative h-[auto] flex flex-col lg:flex-row justify-end items-end flex-wrap' >
                 <div className=' w-1/2 px-10 flex flex-col space-y-6 pt-2 lg:pt-0 items-start justify-center'>
                     <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab] lg:pt-2'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>
                     <h2 className='text-black font-semibold lg:font-medium text-2xl lg:text-5xl'>Learn a Language in less than 3 months</h2>
@@ -112,7 +116,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className='w-full lg:w-1/2 flex items-end justify-end lg:pl-20'>
-                  
+
                     {/* <video width="90%" height="90%" className='rounded-xl'
                         controls
                         muted
@@ -122,7 +126,7 @@ export default function Home() {
                         <source src="/videos/TLN_HOMEPAGE.gif" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video> */}
-                    <img src='/videos/TLN_HOMEPAGE.gif' className=''/>
+                    <img src='/videos/TLN_HOMEPAGE.gif' className='' />
                 </div>
 
 
@@ -130,7 +134,7 @@ export default function Home() {
 
 
 
-          
+
 
             <div className="sm:block lg:hidden flex flex-col justify-center text-center px-10 pt-10">
                 <div className="">
@@ -148,7 +152,7 @@ export default function Home() {
                     <h1>START YOUR JOURNEY WITH US!</h1>
                     <h2 className="px-10 ">Foreign Language Courses We Offer</h2>
                     <div className=' justify-center hidden  lg:flex lg:pt-10 w-full lg:w-full sm:space-y-4 lg:space-y-0'>
-                    
+
                         <Popup sub="English" a1="/english-course-adults" a2="/english-course-kids" im="/images/eng.svg" src1="/images/adults-english@300x.png" src2='/images/Astronaut-English.png' />
                         <Popup sub="French" a1="/french-course-adults" a2="/french-course-kids" im="/images/French.png" src1="/images/adults-french@300x.png" src2='/images/Astronaut-French-1.png' />
                         <Popup sub="Spanish" a1="/spanish-course-adults" a2="/spanish-course-kids" im="/images/Spanish.png" src1="/images/adults-spanish@300x.png" src2='/images/Astronaut-Spanish-1.png' />
@@ -157,7 +161,7 @@ export default function Home() {
                         <Popup sub="Japanese" a1="/japanese-course-adults" a2="/japanese-course-kids" im="/images/Japanese.png" src1="/images/adults-japanese@300x.png" src2='/images/Astronaut-Japanese-1.png' />
                         <Popup sub="Korean" a1="/korean-course-adults" a2="/korean-course-kids" im="/images/Korean.png" src1="/images/adults-korean@300x.png" src2='/images/Astronaut-Korean-1.png' />
                     </div>
-                   
+
 
 
                     <Swiper className='pagi1 block lg:hidden mb-2 lg:mb-0' spaceBetween={5} loop={true} loopFillGroupWithBlank={true}
@@ -196,7 +200,7 @@ export default function Home() {
                     </Swiper>
                 </div>
             </div>
-          
+
 
             <div className="Home-container-81 my-14 text-center flex justify-center">
                 <h1>FROM LEARNING A NEW LANGUAGE TO LIVING IT!</h1>
@@ -231,13 +235,13 @@ export default function Home() {
 
             <div className=" lg:px-4 hidden md:block lg:block mt-20 ">
                 <BodyCarousel />
-              
+
             </div>
             <div className='lg:hidden mt-2 mb-10'>
                 <MoCar />
 
             </div>
-          
+
 
             <div className='flex justify-center w-full text-center'>
                 <div className="Home-container- w-full lg:px-72 lg:mt-20 px-10 flex flex-col justify-center items-center">

@@ -56,7 +56,7 @@ function Popup(pop) {
 
     return (
         <>
-            <div className="space-y-2">
+            <div className="space-y-2 hover:bg-[#dfdfdf] hover:rounded-full ">
                 <span onClick={() => setModalShow(true)} class="border-transparent border-0 btn-val hover:cursor-pointer" >
                     <div className="flex justify-center">
                         <div className='p-1 md:w-1/2 lg:w-1/2 flex flex-col justify-center items-center'>
