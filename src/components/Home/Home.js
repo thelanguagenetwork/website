@@ -41,7 +41,7 @@ import Team from '../Footer/Company/AboutUs/Team';
 import Popup from '../curriculum/Pop/Popup'
 import Levels from './Levels';
 import Popupm from '../curriculum/Pop/Popupmain'
-
+import Counter from './Counter'
 
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
@@ -100,7 +100,7 @@ export default function Home() {
             </div>
             <img src="https://wordpress.creativegigs.net/rogan/wp-content/uploads/2020/05/5.svg" class="circle"/>
 
-            <div className='pt-4 Home-container-1 dark:bg-black bg-cover lg:bg-contain w-full px-4 lg:py-14 lg:px-26 relative h-[auto] flex flex-col lg:flex-row justify-end items-end flex-wrap' >
+            <div className='pt-4 Home-container-1 dark:bg-black bg-cover lg:bg-contain w-full pl-4 lg:py-14 lg:px-26 relative h-[auto] flex flex-col lg:flex-row justify-end items-end flex-wrap' >
                 <div className=' w-full lg:w-5/12 flex flex-col space-y-6 pt-2 lg:pt-0 items-start justify-center'>
                     <h1 className='flex items-center text-sm lg:text-base font-medium uppercase text-[#13bfab] lg:pt-2'><FaCircle style={{ color: '#f2b919', fontSize: '14px', marginRight: '10px' }} />LIVE ONLINE CLASSES</h1>
                     <h2 className='text-black font-semibold lg:font-medium text-2xl lg:text-5xl'>Learn a Language in less than 3 months</h2>
@@ -133,7 +133,9 @@ export default function Home() {
             </div>
 
 
-
+            <div>
+            <Counter />
+            </div>
 
 
             <div className="sm:block lg:hidden flex flex-col justify-center text-center px-10 pt-10">
